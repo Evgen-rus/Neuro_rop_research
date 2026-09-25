@@ -1,0 +1,277 @@
+{
+ "deals": [
+  {
+   "deal_id": "18615",
+   "outcome": "WON",
+   "tokens": 37458,
+   "transcript": 22960,
+   "message": 4425,
+   "email": 6152,
+   "other": 3921,
+   "events": 427,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18773",
+   "outcome": "WON",
+   "tokens": 27058,
+   "transcript": 25065,
+   "message": 395,
+   "email": 209,
+   "other": 1389,
+   "events": 111,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18733",
+   "outcome": "WON",
+   "tokens": 35598,
+   "transcript": 18772,
+   "message": 0,
+   "email": 14573,
+   "other": 2253,
+   "events": 227,
+   "calls_ge36_without_transcript": 1
+  },
+  {
+   "deal_id": "18745",
+   "outcome": "WON",
+   "tokens": 9167,
+   "transcript": 6096,
+   "message": 740,
+   "email": 1126,
+   "other": 1205,
+   "events": 123,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "5971",
+   "outcome": "WON",
+   "tokens": 20069,
+   "transcript": 9947,
+   "message": 0,
+   "email": 9334,
+   "other": 788,
+   "events": 102,
+   "calls_ge36_without_transcript": 1
+  },
+  {
+   "deal_id": "18485",
+   "outcome": "WON",
+   "tokens": 12869,
+   "transcript": 6823,
+   "message": 0,
+   "email": 5264,
+   "other": 782,
+   "events": 64,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18635",
+   "outcome": "WON",
+   "tokens": 12125,
+   "transcript": 6565,
+   "message": 877,
+   "email": 3722,
+   "other": 961,
+   "events": 123,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "6885",
+   "outcome": "WON",
+   "tokens": 9717,
+   "transcript": 5247,
+   "message": 0,
+   "email": 3751,
+   "other": 719,
+   "events": 81,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "7191",
+   "outcome": "WON",
+   "tokens": 16914,
+   "transcript": 5051,
+   "message": 0,
+   "email": 10726,
+   "other": 1137,
+   "events": 124,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "6983",
+   "outcome": "WON",
+   "tokens": 16212,
+   "transcript": 7876,
+   "message": 0,
+   "email": 6699,
+   "other": 1637,
+   "events": 165,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "6135",
+   "outcome": "WON",
+   "tokens": 21232,
+   "transcript": 15908,
+   "message": 0,
+   "email": 3596,
+   "other": 1728,
+   "events": 101,
+   "calls_ge36_without_transcript": 1
+  },
+  {
+   "deal_id": "5017",
+   "outcome": "WON",
+   "tokens": 7492,
+   "transcript": 5120,
+   "message": 903,
+   "email": 876,
+   "other": 593,
+   "events": 129,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18755",
+   "outcome": "LOST",
+   "tokens": 1250,
+   "transcript": 379,
+   "message": 476,
+   "email": 0,
+   "other": 395,
+   "events": 51,
+   "calls_ge36_without_transcript": 2
+  },
+  {
+   "deal_id": "18747",
+   "outcome": "LOST",
+   "tokens": 4014,
+   "transcript": 2822,
+   "message": 621,
+   "email": 0,
+   "other": 571,
+   "events": 101,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18873",
+   "outcome": "LOST",
+   "tokens": 3662,
+   "transcript": 1707,
+   "message": 837,
+   "email": 409,
+   "other": 709,
+   "events": 99,
+   "calls_ge36_without_transcript": 1
+  },
+  {
+   "deal_id": "7243",
+   "outcome": "LOST",
+   "tokens": 17621,
+   "transcript": 5807,
+   "message": 301,
+   "email": 8896,
+   "other": 2617,
+   "events": 280,
+   "calls_ge36_without_transcript": 15
+  },
+  {
+   "deal_id": "18775",
+   "outcome": "LOST",
+   "tokens": 2452,
+   "transcript": 1187,
+   "message": 544,
+   "email": 0,
+   "other": 721,
+   "events": 60,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "19007",
+   "outcome": "LOST",
+   "tokens": 3796,
+   "transcript": 1458,
+   "message": 0,
+   "email": 1957,
+   "other": 381,
+   "events": 33,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "7601",
+   "outcome": "LOST",
+   "tokens": 20568,
+   "transcript": 3219,
+   "message": 0,
+   "email": 15172,
+   "other": 2177,
+   "events": 156,
+   "calls_ge36_without_transcript": 18
+  },
+  {
+   "deal_id": "18929",
+   "outcome": "LOST",
+   "tokens": 2871,
+   "transcript": 184,
+   "message": 0,
+   "email": 2078,
+   "other": 609,
+   "events": 31,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18629",
+   "outcome": "LOST",
+   "tokens": 11982,
+   "transcript": 9475,
+   "message": 590,
+   "email": 1177,
+   "other": 740,
+   "events": 96,
+   "calls_ge36_without_transcript": 1
+  },
+  {
+   "deal_id": "18731",
+   "outcome": "LOST",
+   "tokens": 13888,
+   "transcript": 8951,
+   "message": 339,
+   "email": 3612,
+   "other": 986,
+   "events": 71,
+   "calls_ge36_without_transcript": 0
+  },
+  {
+   "deal_id": "18765",
+   "outcome": "LOST",
+   "tokens": 6728,
+   "transcript": 3172,
+   "message": 493,
+   "email": 2301,
+   "other": 762,
+   "events": 77,
+   "calls_ge36_without_transcript": 0
+  }
+ ],
+ "totals": {
+  "all": 314743,
+  "median": 12125,
+  "WON": {
+   "n": 12,
+   "tokens": 225911,
+   "transcript": 135430,
+   "message": 7340,
+   "email": 66028,
+   "other": 17113
+  },
+  "LOST": {
+   "n": 11,
+   "tokens": 88832,
+   "transcript": 38361,
+   "message": 4201,
+   "email": 35602,
+   "other": 10668
+  }
+ }
+}
