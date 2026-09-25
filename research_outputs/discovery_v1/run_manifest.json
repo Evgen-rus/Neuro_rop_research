@@ -1,0 +1,55 @@
+{
+  "run_version": "discovery_v1",
+  "primary_model_selected": "GPT-6 (exact selected variant not exposed to this agent)",
+  "worker_class_reasoning": "gpt-6-luna, max",
+  "shard_deal_ids": {
+    "A": [
+      "18615",
+      "18485",
+      "6885",
+      "5017",
+      "18747",
+      "18775",
+      "7601",
+      "18765"
+    ],
+    "B": [
+      "18733",
+      "18745",
+      "5971",
+      "18635",
+      "18755",
+      "18873",
+      "7243",
+      "19007"
+    ],
+    "C": [
+      "18773",
+      "7191",
+      "6983",
+      "6135",
+      "18929",
+      "18629",
+      "18731"
+    ]
+  },
+  "outputs_produced": [
+    "shard_plan.json",
+    "agents/shard_A.json",
+    "agents/shard_A.md",
+    "agents/shard_B.json",
+    "agents/shard_B.md",
+    "agents/shard_C.json",
+    "agents/shard_C.md",
+    "critic.json",
+    "critic.md",
+    "feature_candidates.json",
+    "feature_candidates.md",
+    "executive_summary.md",
+    "run_manifest.json"
+  ],
+  "worker_failures_fallbacks": [],
+  "primary_inspected_raw_timeline": false,
+  "timestamp": "2026-09-25T14:48:36.871516+07:00",
+  "scope": "feature discovery only; no validation, Jev integration, model training or production changes"
+}

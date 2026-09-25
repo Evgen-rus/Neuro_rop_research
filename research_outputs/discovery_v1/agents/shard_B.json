@@ -1,0 +1,247 @@
+{
+  "shard": "B",
+  "deals": [
+    {"deal_id":"18733","outcome":"WON"},
+    {"deal_id":"18745","outcome":"WON"},
+    {"deal_id":"5971","outcome":"WON"},
+    {"deal_id":"18635","outcome":"WON"},
+    {"deal_id":"18755","outcome":"LOST"},
+    {"deal_id":"18873","outcome":"LOST"},
+    {"deal_id":"7243","outcome":"LOST"},
+    {"deal_id":"19007","outcome":"LOST"}
+  ],
+  "FINDINGS": [
+    "Strong early buying signals occur in both outcome groups. LOST deal 7243 had an earlier report of CEO approval and price acceptance, and the customer supplied company details for contract preparation; these signals are not sufficient on their own.",
+    "The most promising shard-level candidate is repeated slippage of buyer-owned actions or decisions without a replacement commitment. It appears in 18873 and 7243, but WON 18733 also had several postponed internal reviews, so classify the pattern narrowly and validate it.",
+    "Technical fit becoming clear may matter: 18635 and 18733 progressed through application-specific clarification, while 18873 still lacked a feasible implementation path near the end of its observed pre-outcome activity. LOST 7243 is a strong counterexample because an alternative configuration was technically approved before its later stall.",
+    "Delivering photos, dimensions, or other requested materials, comparing alternatives, discussing stakeholders, and agreeing a dated next step all occur in both groups. These are observable but not directional in this shard."
+  ],
+  "CANDIDATES": [
+    "Application evidence sufficient to assess fit",
+    "Feasible technical path confirmed for the requested scope",
+    "Substantive application-specific feedback after proposal review",
+    "Buyer-side decision process and stakeholders identified",
+    "Evidence-backed comparison of alternatives",
+    "Buyer-owned next action with a date and expected result",
+    "Repeated buyer-owned slippage without a replacement commitment",
+    "Buyer initiates a substantive follow-up",
+    "Buyer has entered a formal procurement, legal, or financing step"
+  ],
+  "EVIDENCE": "See per-candidate won_evidence, lost_evidence, and counterexamples. Evidence cites the source timestamp and most precise event ID available: worklog_id for manager comments, activity_id for calls, and source message/email IDs otherwise.",
+  "COUNTEREXAMPLES": [
+    "LOST 7243 shows CEO approval, price acceptance, and buyer-supplied company details before the later loss.",
+    "WON 18733 experienced repeated rescheduling of internal decision discussions before later moving to purchase steps.",
+    "Both outcome groups supplied technical artifacts and discussed requirements; their presence alone did not separate the outcomes."
+  ],
+  "CONFOUNDS": [
+    "Technical complexity and the seller's ability to resolve feasibility questions may explain part of the pattern.",
+    "Manager worklog comments summarize activity and can blend customer statements with manager interpretation; direct messages and call transcripts are stronger evidence.",
+    "Follow-up volume and elapsed time are confounds, not candidate features. The shard contains unusually long or complex trajectories, including 7243 and 18733."
+  ],
+  "RISKS": [
+    "This is hypothesis generation from 8 deals, not a frequency estimate or predictive result.",
+    "Terminal stage transitions were used only as a temporal boundary; their contents and post-transition events were excluded from feature evidence.",
+    "Formal procurement activity is close to outcome and may have elevated leakage risk; use only buyer-side process status before signature/payment."
+  ],
+  "rejected_standalone_features": [
+    "Deal duration, number of calls/messages, raw token volume, amount, source, pipeline, final stage/reason, or any post-outcome event.",
+    "Simple verbal acceptance of price: observed in WON 18733, 18745, 18635 and LOST 18755, 7243, and 19007; it was not sufficient by itself.",
+    "Stated urgency or a near-term purchase date: present in both groups and often moved; not a standalone semantic classifier.",
+    "Exact container dimensions, throughput, label position, and other structured specifications: useful qualification data, but generally not semantic Jev features by themselves."
+  ],
+  "candidates": [
+    {
+      "feature_name": "Application evidence sufficient to assess fit",
+      "short_definition": "The buyer has supplied enough application-specific material (such as container/label photos with dimensions or a sample) to evaluate whether the proposed equipment can work.",
+      "jev_type": "boolean",
+      "jev_question": "Есть ли от клиента достаточно исходных материалов, чтобы проверить применимость решения?",
+      "when_observable": "After the first request for product, label, or installation details and before a final technical decision.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-07-28T00:00:00+03:00","event_type":"comment","event_id":"2910619","paraphrase":"Customer supplied photos and the manager sent them for equipment review."},
+        {"deal_id":"18635","timestamp":"2026-07-07T00:00:00+03:00","event_type":"comment","event_id":"2862473","paraphrase":"Customer sent container photos for the application review."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-03-13T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer sent container photos; they were forwarded for quotation."},
+        {"deal_id":"18755","timestamp":"2026-07-30T00:00:00+03:00","event_type":"comment","event_id":"2937103","paraphrase":"Customer sent a 5 L container photo and clarified that 1.5 L dimensions were unavailable."},
+        {"deal_id":"18873","timestamp":"2026-08-28T09:11:33+03:00","event_type":"message","event_id":"3043025,3043027","paraphrase":"Customer sent product/label images after repeated requests."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-06-09T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer supplied a production video, then additional equipment views and placement photos, but the deal was later lost."}
+      ],
+      "possible_confounds": ["Application complexity", "How much detail the seller requested", "Customer workload"],
+      "leakage_risk": "low",
+      "notes": "Clear and snapshot-labelable, but mixed across outcomes. Distinguish evidence adequacy from the exact numeric specifications, which are structured qualification facts."
+    },
+    {
+      "feature_name": "Feasible technical path confirmed for requested scope",
+      "short_definition": "Before procurement review, the seller and buyer have a technically plausible configuration for the actual requested application, with key feasibility questions resolved.",
+      "jev_type": "boolean",
+      "jev_question": "Подтверждено ли технически реализуемое решение именно для текущей схемы установки и нанесения?",
+      "when_observable": "After technical review of the buyer's application and before contract or payment activity.",
+      "direction_observed": "more_in_won",
+      "won_evidence": [
+        {"deal_id":"18635","timestamp":"2026-07-15T00:00:00+03:00","event_type":"comment","event_id":"2862473","paraphrase":"Production approved the quote after the high-throughput, top-label application had been reviewed."},
+        {"deal_id":"18733","timestamp":"2026-08-07T00:00:00+03:00","event_type":"comment","event_id":"2910619","paraphrase":"Customer supplied cone-container details for approval; a revised configuration and price were prepared."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"18873","timestamp":"2026-08-31T00:00:00+03:00","event_type":"comment","event_id":"2996895","paraphrase":"The team still could not confirm whether it could implement the requested application."},
+        {"deal_id":"18873","timestamp":"2026-09-02T00:00:00+03:00","event_type":"comment","event_id":"2996895","paraphrase":"The alternative supplier declined the proposed solution; the team was still asking what could be offered."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-04-03T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"A revised proposal was approved by production after the customer supplied installation-height details; the deal later reached CEO approval but was lost."}
+      ],
+      "possible_confounds": ["Technical complexity", "Vendor capability", "Custom integration scope", "The timing of internal production review"],
+      "leakage_risk": "low",
+      "notes": "Worth validating as a fit/feasibility feature, not as proof of purchase intent. The strong 7243 counterexample suggests feasibility is not sufficient."
+    },
+    {
+      "feature_name": "Substantive application-specific customer feedback",
+      "short_definition": "The customer supplies concrete application details or asks a technical question about product, label, placement, or equipment configuration, rather than only acknowledging receipt or discussing price.",
+      "jev_type": "boolean",
+      "jev_question": "Сообщил ли клиент конкретные параметры применения или задал технический вопрос?",
+      "when_observable": "During qualification or proposal review and before a final decision.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-07-28T13:13:22+03:00","event_type":"call_transcript","event_id":"631605","paraphrase":"Customer asked how the sensor and a possible holding cylinder would handle tapered containers."},
+        {"deal_id":"18635","timestamp":"2026-07-07T00:00:00+03:00","event_type":"comment","event_id":"2862473","paraphrase":"The initial specification captured a specific key-cutout, top-label placement, and minimum throughput requirement for review."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-03-30T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer sent questions about the proposal and clarified the requested configuration, including that a separate applicator was not feasible."},
+        {"deal_id":"18755","timestamp":"2026-07-30T13:53:04+03:00","event_type":"message","event_id":"2951825,2951827","paraphrase":"Customer asked to see proposal alternatives with and without the requested item."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"After extensive technical discussion, the customer said the project and pricing were acceptable to the general director, yet the deal was later lost."}
+      ],
+      "possible_confounds": ["Technical fit concerns can produce questions without indicating stronger intent", "More complex proposals naturally invite more clarification"],
+      "leakage_risk": "low",
+      "notes": "Do not score question count or call volume. A single substantive, application-specific question is the proposed atomic observation."
+    },
+    {
+      "feature_name": "Buyer-side decision process and stakeholders identified",
+      "short_definition": "The buyer names who evaluates or approves the purchase and describes the next step in that internal decision process.",
+      "jev_type": "choice",
+      "jev_question": "Какой этап решения со стороны клиента подтверждён: неизвестен / обсуждает контакт / назван следующий согласующий / подтверждено решение согласующего?",
+      "when_observable": "During qualification and subsequent proposal review, before the final outcome.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-07-29T00:00:00+03:00","event_type":"comment","event_id":"2910619","paraphrase":"Customer had forwarded the offer to management for a scheduled internal comparison."},
+        {"deal_id":"18745","timestamp":"2026-07-27T00:00:00+03:00","event_type":"comment","event_id":"2909975","paraphrase":"Customer described a director/investor discussion and expected an initial decision after it."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-04-16T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Technical approval was reported and the finance director was named as the next approver."},
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"Customer reported that the general director approved the project and price, with technical review still to follow."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-05-22T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer supplied company details for contract preparation, yet the deal was later lost."}
+      ],
+      "possible_confounds": ["One contact may overstate internal approval", "Availability of decision-makers", "Legal/technical review duration"],
+      "leakage_risk": "low",
+      "notes": "Observable and atomizable, but stakeholder identification or reported approval alone does not establish a buyer commitment."
+    },
+    {
+      "feature_name": "Evidence-backed comparison of alternatives",
+      "short_definition": "The customer shares a concrete competitor offer or specific alternative configuration/price for comparison, instead of only saying that they are comparing.",
+      "jev_type": "choice",
+      "jev_question": "Есть ли конкретное предложение или вариант конкурента для предметного сравнения: нет / упомянут устно / передан материал или параметры?",
+      "when_observable": "During evaluation of a quote and before the purchase decision.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-07-31T09:27:26+03:00","event_type":"email","event_id":"635087","paraphrase":"Customer sent a link to a competing labeler for comparison."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"18755","timestamp":"2026-07-30T13:53:04+03:00","event_type":"message","event_id":"2951825,2951827","paraphrase":"Customer asked for comparable proposals with and without the requested component."},
+        {"deal_id":"18873","timestamp":"2026-08-13T00:00:00+03:00","event_type":"comment","event_id":"2996895","paraphrase":"Customer expected to compare competitors before an October installation need."}
+      ],
+      "counterexamples": [
+        {"deal_id":"18733","timestamp":"2026-07-31T00:00:00+03:00","event_type":"comment","event_id":"2910619","paraphrase":"Despite comparing an alternative and initially selecting on price, the customer continued through a revised proposal and later purchased."}
+      ],
+      "possible_confounds": ["Price gap", "Scope differences between offers", "How accurately the alternatives are comparable"],
+      "leakage_risk": "low",
+      "notes": "The observable is access to concrete comparison evidence, not the mere presence of a competitor or a price difference. Direction is mixed."
+    },
+    {
+      "feature_name": "Buyer-owned next action with a date and expected result",
+      "short_definition": "Both sides leave an interaction with a specific customer action, an agreed time, and a defined result to bring back.",
+      "jev_type": "boolean",
+      "jev_question": "Зафиксирован ли следующий шаг клиента с конкретным сроком и ожидаемым результатом?",
+      "when_observable": "At the end of qualification, proposal review, or an internal approval discussion.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-07-29T10:53:53+03:00","event_type":"call_transcript","event_id":"632685","paraphrase":"Customer agreed to call at the same time next day after forwarding the proposal to management for assessment."},
+        {"deal_id":"18635","timestamp":"2026-07-09T00:00:00+03:00","event_type":"comment","event_id":"2862473","paraphrase":"Customer and manager set a date for the final purchase decision and agreed to continue with the technical questionnaire."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-03-19T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer requested a Monday 11:00 call after time to review the proposal with management."},
+        {"deal_id":"18755","timestamp":"2026-07-29T09:45:40+03:00","event_type":"call_transcript","event_id":"632555","paraphrase":"Customer agreed to send requested information later that day."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"Even a June payment expectation and promised technical review did not guarantee a purchase; the deal later closed lost."}
+      ],
+      "possible_confounds": ["Seller-driven follow-up may be mistaken for buyer ownership", "A date can be concrete while the action remains low commitment"],
+      "leakage_risk": "low",
+      "notes": "The most labelable unit is the customer's action plus its date/result. A call scheduled by the seller alone should not count."
+    },
+    {
+      "feature_name": "Repeated buyer-owned slippage without a replacement commitment",
+      "short_definition": "Across consecutive agreed checkpoints, the customer defers a promised review, decision, or technical input without completing it or naming a new concrete owner/action/date.",
+      "jev_type": "ordinal",
+      "jev_question": "Сколько последовательных контрольных точек прошло без обещанного клиентом действия и без нового конкретного обязательства: 0 / 1 / 2+?",
+      "when_observable": "After at least two agreed customer-owned checkpoints and before the final outcome.",
+      "direction_observed": "more_in_lost",
+      "won_evidence": [],
+      "lost_evidence": [
+        {"deal_id":"18873","timestamp":"2026-08-20T00:00:00+03:00","event_type":"comment","event_id":"2996895","paraphrase":"After repeated promises to send application photos, the previous attempt had failed and another follow-up was needed."},
+        {"deal_id":"7243","timestamp":"2026-05-14T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"The decision was postponed because the general director was unavailable, with another follow-up deferred to the next week."}
+      ],
+      "counterexamples": [
+        {"deal_id":"18733","timestamp":"2026-08-03T00:00:00+03:00","event_type":"comment","event_id":"2910619","paraphrase":"Several internal meeting dates moved, but the customer later reported that the team was leaning toward the seller's option."},
+        {"deal_id":"18745","timestamp":"2026-08-14T00:00:00+03:00","event_type":"comment","event_id":"2909975","paraphrase":"The customer stated that legal review would take at least a week and that the contact would be away; this is an explained review cycle, not an unowned missed action."}
+      ],
+      "possible_confounds": ["Customer workload and holidays", "Technical complexity", "Seller's follow-up cadence", "Differences between missed buyer actions and explained review cycles"],
+      "leakage_risk": "low",
+      "notes": "Potentially useful only with the narrow definition above. Do not turn raw delay, deal age, or number of seller calls into the feature. Evidence is limited and the definition needs adversarial review."
+    },
+    {
+      "feature_name": "Buyer initiates a substantive follow-up",
+      "short_definition": "The customer independently contacts the seller to provide a material update, request a discussion, or move the purchase conversation forward.",
+      "jev_type": "boolean",
+      "jev_question": "Инициировал ли клиент содержательное обращение по проекту без непосредственного исходящего напоминания?",
+      "when_observable": "Any time before final outcome; count only a substantive project update or request, not an answer to an outbound call.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {"deal_id":"18733","timestamp":"2026-08-06T10:40:52+03:00","event_type":"email","event_id":"640285","paraphrase":"Customer asked the manager to call soon because he had new information about the equipment."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"Customer returned the call to report the general director's project approval and discuss next steps."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"This substantive customer-initiated contact occurred in a deal that was later lost."}
+      ],
+      "possible_confounds": ["Contact's communication habits", "Whether the seller had just attempted an unanswered call", "Activity missing from the timeline"],
+      "leakage_risk": "low",
+      "notes": "Interesting but thin in this shard and not directional. Review carefully so responsive customers are not mistaken for initiators."
+    },
+    {
+      "feature_name": "Buyer-side formal procurement, legal, or financing step",
+      "short_definition": "Before signature or payment, the buyer has taken a specific action that brings legal, finance, leasing, or company-document review into the purchase process.",
+      "jev_type": "choice",
+      "jev_question": "Какой подтверждённый шаг со стороны клиента выполнен: только обсуждение / внутреннее согласование / документы переданы юристу или финансированию / получено формальное решение?",
+      "when_observable": "After commercial fit is discussed and before contract signature or payment.",
+      "direction_observed": "more_in_won",
+      "won_evidence": [
+        {"deal_id":"18745","timestamp":"2026-08-05T00:00:00+03:00","event_type":"comment","event_id":"2909975","paraphrase":"After proposal approval, the buyer supplied details needed to prepare the contract and the purchase moved to contract review."},
+        {"deal_id":"5971","timestamp":"2025-10-10T00:00:00+03:00","event_type":"comment","event_id":"2326371","paraphrase":"The buyer's documents were submitted to leasing for approval and the customer supplied tracking information for a sample sent to production."}
+      ],
+      "lost_evidence": [
+        {"deal_id":"7243","timestamp":"2026-05-22T00:00:00+03:00","event_type":"comment","event_id":"2563333","paraphrase":"Customer supplied the company card needed to prepare contract documents."}
+      ],
+      "counterexamples": [
+        {"deal_id":"7243","timestamp":"2026-05-19T16:03:33+03:00","event_type":"call_transcript","event_id":"581019","paraphrase":"Verbal executive approval and a payment expectation are not themselves evidence that buyer-side procurement documents have advanced."}
+      ],
+      "possible_confounds": ["Financing route and legal requirements", "Stage proximity to outcome", "Internal process complexity"],
+      "leakage_risk": "medium",
+      "notes": "May be useful as a buyer-process state, but is close to the outcome. Exclude signed contracts, issued payments, or status-stage information from this feature."
+    }
+  ]
+}

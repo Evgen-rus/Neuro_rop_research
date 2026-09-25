@@ -1,0 +1,1586 @@
+{
+  "run_version": "discovery_v1",
+  "dataset": {
+    "manager": "Пахомов Александр",
+    "won_count": 12,
+    "lost_count": 11,
+    "total_count": 23
+  },
+  "features": [
+    {
+      "feature_id": "R01",
+      "name": "Ясность внутреннего решения",
+      "definition": "Клиент описал ответственного за решение, конкретное действие и ограниченный срок или результат проверки. Одного упоминания руководителя недостаточно.",
+      "observed_direction": "more_in_won",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "ordinal",
+        "question": "Насколько определён ближайший шаг внутреннего решения клиента?",
+        "anchors_or_choices": [
+          "Процесс не назван",
+          "Роль или барьер названы, но действие либо срок неясны",
+          "Ответственный, действие и контрольная точка определены"
+        ]
+      },
+      "when_observable": "После обсуждения внутреннего согласования; только на момент снимка.",
+      "evidence": [
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-01-30T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2487593",
+          "summary": "Director is the decision maker; customer says they are leaning to this offer and expects to decide that day."
+        },
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-26T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2189423",
+          "summary": "Contract is with the general director for review; customer says it is acceptable and plans to sign."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-07-22T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "Only this supplier is under consideration at that point; customer will discuss with the director and report the purchase decision the next day."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-09T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "The customer has shown the offer to the mechanic but not yet to leadership; the leadership review is deferred."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-08-04T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2947271",
+          "summary": "Customer says procurement will contact the seller but cannot identify which of four buyers or provide a direct contact."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-29T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2910619",
+          "summary": "Customer had forwarded the offer to management for a scheduled internal comparison."
+        },
+        {
+          "deal_id": "18745",
+          "outcome": "WON",
+          "timestamp": "2026-07-27T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2909975",
+          "summary": "Customer described a director/investor discussion and expected an initial decision after it."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-04-16T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Technical approval was reported and the finance director was named as the next approver."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "Customer reported that the general director approved the project and price, with technical review still to follow."
+        },
+        {
+          "deal_id": "18773",
+          "outcome": "WON",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "summary": "Date-only worklog records funding review expected in 6–7 business days and a scheduled follow-up."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-18T09:52:14+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=542019",
+          "summary": "Customer reports security review has begun."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "summary": "Director has seen the offer but has not found time; no review horizon is known."
+        },
+        {
+          "deal_id": "18929",
+          "outcome": "LOST",
+          "timestamp": "2026-08-26T11:35:58+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=653963",
+          "summary": "Customer forwarded the contract to managers but cannot give a phone contact."
+        },
+        {
+          "deal_id": "18773",
+          "outcome": "WON",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "summary": "Date-only worklog records funding papers in review for 6–7 business days and a scheduled follow-up."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-18T09:52:14+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=542019",
+          "summary": "Customer reports active security review of the contract."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "summary": "Director review has no expected date; contact does not want to press the director."
+        },
+        {
+          "deal_id": "18929",
+          "outcome": "LOST",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "summary": "Several proposals are under review; client offers a response deadline."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-08-04T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2947271",
+          "summary": "Customer calls himself the decision maker, yet the actual purchasing contact remains unnamed and the next step does not materialize."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-22T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer supplied company details for contract preparation, yet the deal was later lost."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "summary": "A named decision-maker alone does not give access or timing."
+        },
+        {
+          "deal_id": "18773",
+          "outcome": "WON",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "summary": "A WON case also had funding and competitor dependencies."
+        },
+        {
+          "deal_id": "18929",
+          "outcome": "LOST",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "summary": "A stated response deadline does not mean a gate is resolved."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 7,
+        "lost_deals": 5,
+        "shards": 3
+      },
+      "confounds": [
+        "Manager worklogs summarize the customer process and may overstate certainty.",
+        "A short, one-person purchase can have a clear decision path without a named committee.",
+        "One contact may overstate internal approval",
+        "Availability of decision-makers",
+        "Legal/technical review duration",
+        "Later deal stage makes paths more visible.",
+        "Approval complexity and note coverage vary.",
+        "Funding/procurement cycle and stage.",
+        "Date-only worklogs can make estimates appear precise.",
+        "Late-stage visibility",
+        "Manager worklog certainty",
+        "Short one-person purchases may have no committee",
+        "A dated review can remain unresolved"
+      ],
+      "leakage_risk": "medium",
+      "critic_verdict": "merge",
+      "validation_priority": "high",
+      "notes": "Источники: A01, B04, C01, C08. Направление качественное, без подсчёта распространённости по 23 сделкам. provisional; process clarity is not purchase commitment"
+    },
+    {
+      "feature_id": "R02",
+      "name": "Состояние шага, принадлежащего клиенту",
+      "definition": "Для последнего явно согласованного действия клиента фиксируется его состояние на момент снимка: срок ещё не настал, шаг выполнен, перенесён с новой конкретной договорённостью или неоднократно сорван без замены.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "choice",
+        "question": "Что произошло с последним конкретным шагом, за который отвечал клиент?",
+        "anchors_or_choices": [
+          "Шаг не согласован",
+          "Срок ещё не настал",
+          "Выполнен к контрольной точке",
+          "Перенесён с новым ответственным и сроком",
+          "Неоднократно сорван без конкретной замены"
+        ]
+      },
+      "when_observable": "После первого явно согласованного клиентского шага и его контрольной точки, если она наступила.",
+      "evidence": [
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-21T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2189423",
+          "summary": "Customer attended the agreed factory visit and completed a product run on the equipment."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-07-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "Customer supplied visitor names and attended the previously arranged factory visit."
+        },
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2820563",
+          "summary": "After the agreed offer review, customer returned the completed questionnaire and production approved the specified equipment."
+        },
+        {
+          "deal_id": "18747",
+          "outcome": "LOST",
+          "timestamp": "2026-07-31T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2940187",
+          "summary": "Customer again moves the promised measurements to a later date; on Aug 5 the dimensions are still missing."
+        },
+        {
+          "deal_id": "18765",
+          "outcome": "LOST",
+          "timestamp": "2026-08-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2946247",
+          "summary": "Customer asks to return to the proposal the following week; the Aug 25 discussion still has no actionable description of the rejected block."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-06-05T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "Purchase is deferred while waiting for a supplier comparison and the product placement issue; customer gives a future checkpoint and remains technically engaged."
+        },
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-08T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2189423",
+          "summary": "Customer moves the visit date but later completes the visit and test."
+        },
+        {
+          "deal_id": "18747",
+          "outcome": "LOST",
+          "timestamp": "2026-07-31T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2940187",
+          "summary": "Measurements are moved again, after prior promised dates; dimensions remain unavailable on Aug 5."
+        },
+        {
+          "deal_id": "18765",
+          "outcome": "LOST",
+          "timestamp": "2026-08-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2946247",
+          "summary": "Customer postpones technical feedback to the next week; by Aug 25 the claimed mismatch is still not specified."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-29T10:53:53+03:00",
+          "event_type": "call_transcript",
+          "event_id": "632685",
+          "summary": "Customer agreed to call at the same time next day after forwarding the proposal to management for assessment."
+        },
+        {
+          "deal_id": "18635",
+          "outcome": "WON",
+          "timestamp": "2026-07-09T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2862473",
+          "summary": "Customer and manager set a date for the final purchase decision and agreed to continue with the technical questionnaire."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-03-19T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer requested a Monday 11:00 call after time to review the proposal with management."
+        },
+        {
+          "deal_id": "18755",
+          "outcome": "LOST",
+          "timestamp": "2026-07-29T09:45:40+03:00",
+          "event_type": "call_transcript",
+          "event_id": "632555",
+          "summary": "Customer agreed to send requested information later that day."
+        },
+        {
+          "deal_id": "18873",
+          "outcome": "LOST",
+          "timestamp": "2026-08-20T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2996895",
+          "summary": "After repeated promises to send application photos, the previous attempt had failed and another follow-up was needed."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-14T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "The decision was postponed because the general director was unavailable, with another follow-up deferred to the next week."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-10T11:36:56+03:00",
+          "event_type": "email",
+          "event_id": "source_id=538727",
+          "summary": "Client reschedules the agreed production visit to 12 March at 11:00."
+        },
+        {
+          "deal_id": "18773",
+          "outcome": "WON",
+          "timestamp": "2026-07-30T10:24:44+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=633947",
+          "summary": "Client agrees to review over the weekend and a Monday call around noon."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "summary": "Another call is scheduled, but the director-review step has no time estimate."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "summary": "Date-only worklog says another supplier's sample test will inform the customer's choice in mid-August."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-26T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer did ship physical product samples, but the evaluation exposed a two-machine configuration and the project did not progress to a purchase decision."
+        },
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-08T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2189423",
+          "summary": "The customer rescheduled the planned factory visit before later attending; a single moved date should not count as a negative pattern."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-06-05T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "A WON project also had long waiting periods; it continued to produce customer-owned technical and management milestones."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "Even a June payment expectation and promised technical review did not guarantee a purchase; the deal later closed lost."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-08-03T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2910619",
+          "summary": "Several internal meeting dates moved, but the customer later reported that the team was leaning toward the seller's option."
+        },
+        {
+          "deal_id": "18745",
+          "outcome": "WON",
+          "timestamp": "2026-08-14T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2909975",
+          "summary": "The customer stated that legal review would take at least a week and that the contact would be away; this is an explained review cycle, not an unowned missed action."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "summary": "A dated step may depend on a third party rather than progress with this seller."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 7,
+        "lost_deals": 7,
+        "shards": 3
+      },
+      "confounds": [
+        "Different action difficulty: a sample shipment or multi-department review takes longer than a simple call.",
+        "Date-only worklogs limit day-level precision.",
+        "Long procurement cycles, travel, staff leave, or project urgency can create delays unrelated to intent.",
+        "Must distinguish a postponed but completed milestone from a repeated non-specific deferral.",
+        "Seller-driven follow-up may be mistaken for buyer ownership",
+        "A date can be concrete while the action remains low commitment",
+        "Customer workload and holidays",
+        "Technical complexity",
+        "Seller's follow-up cadence",
+        "Differences between missed buyer actions and explained review cycles",
+        "Manager scheduling style.",
+        "Third-party deadlines differ from client-owned steps.",
+        "Action difficulty and due-date certainty",
+        "Explained review cycles",
+        "Seller scheduling style",
+        "Absence of a logged artifact may reflect capture gaps"
+      ],
+      "leakage_risk": "low",
+      "critic_verdict": "merge",
+      "validation_priority": "high",
+      "notes": "Источники: A02, A10, B06, B07, C02. Направление качественное, без подсчёта распространённости по 23 сделкам. mixed commitment evidence; repeated unowned slippage is a provisional risk state"
+    },
+    {
+      "feature_id": "R03",
+      "name": "Достаточность исходных данных клиента",
+      "definition": "Предоставленные клиентом материалы и сведения позволяют оценить заявленное применение оборудования; считать качество данных, а не число файлов.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "ordinal",
+        "question": "Достаточно ли предоставленных клиентом данных для оценки его применения?",
+        "anchors_or_choices": [
+          "Данных нет",
+          "Данные частичны",
+          "Достаточно для предметной оценки"
+        ]
+      },
+      "when_observable": "После запроса материалов; на момент получения и проверки.",
+      "evidence": [
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2820563",
+          "summary": "Production approved the equipment after the customer sent the requested product details and the seller resolved open questions."
+        },
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-25T11:41:33+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2232225,2232227",
+          "summary": "Customer sends a corrected questionnaire/file after the precise missing package height is identified."
+        },
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-01-27T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2487593",
+          "summary": "Customer supplies container images and dimensions for the requested conveyor and printer configuration."
+        },
+        {
+          "deal_id": "18747",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T13:17:19+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=634319",
+          "summary": "Seller explains that the received images lack container and cap dimensions, so production cannot provide a solution."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T10:42:47+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=633993",
+          "summary": "Customer resists sending measurements for a broad range of label sizes; the exact data required for a reliable quote remains unresolved."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-28T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2910619",
+          "summary": "Customer supplied photos and the manager sent them for equipment review."
+        },
+        {
+          "deal_id": "18635",
+          "outcome": "WON",
+          "timestamp": "2026-07-07T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2862473",
+          "summary": "Customer sent container photos for the application review."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-03-13T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer sent container photos; they were forwarded for quotation."
+        },
+        {
+          "deal_id": "18755",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2937103",
+          "summary": "Customer sent a 5 L container photo and clarified that 1.5 L dimensions were unavailable."
+        },
+        {
+          "deal_id": "18873",
+          "outcome": "LOST",
+          "timestamp": "2026-08-28T09:11:33+03:00",
+          "event_type": "message",
+          "event_id": "3043025,3043027",
+          "summary": "Customer sent product/label images after repeated requests."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-03T16:10:15+03:00",
+          "event_type": "email",
+          "event_id": "source_id=536917",
+          "summary": "Client returns a requested package/label photo and dimensions."
+        },
+        {
+          "deal_id": "6135",
+          "outcome": "WON",
+          "timestamp": "2025-10-23T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2339925",
+          "summary": "Date-only worklog says client sent package and cap photos with dimensions."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "summary": "Date-only worklog says client sent product photos and package information."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-07-23T10:13:23+03:00",
+          "event_type": "email",
+          "event_id": "source_id=627657",
+          "summary": "Client sends package drawings after request for dimensions."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-26T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer supplied physical samples, yet the samples revealed a scope/configuration mismatch and did not secure a purchase."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-07-29T14:38:41+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2947085,2947087,2947093,2947097,2947105",
+          "summary": "Customer quickly sends several images early in the process, but later declines the requested detailed size set."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-06-09T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer supplied a production video, then additional equipment views and placement photos, but the deal was later lost."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "summary": "Client provides cap dimensions, yet an internal approval bottleneck remains."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 7,
+        "lost_deals": 7,
+        "shards": 3
+      },
+      "confounds": [
+        "Product complexity and number of formats determine how much data is needed.",
+        "The worklog may conflate seller requests with actual customer-supplied artifacts.",
+        "Application complexity",
+        "How much detail the seller requested",
+        "Customer workload",
+        "Project type determines needed inputs.",
+        "Worklogs are less direct than customer emails.",
+        "Seller request scope",
+        "Worklog summaries can conflate requested and received data"
+      ],
+      "leakage_risk": "low",
+      "critic_verdict": "merge",
+      "validation_priority": "medium",
+      "notes": "Источники: A03, B01, C03. Направление качественное, без подсчёта распространённости по 23 сделкам. mixed across B and C; A's more-in-WON direction needs cross-shard verification"
+    },
+    {
+      "feature_id": "R04",
+      "name": "Предметность технического запроса",
+      "definition": "Клиент назвал конкретное ограничение, проверяемый вопрос или требование к конфигурации, по которому можно предпринять техническое действие.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "ordinal",
+        "question": "Насколько конкретен и применим к решению технический запрос клиента?",
+        "anchors_or_choices": [
+          "Нет или общий интерес",
+          "Конкретен, но действие неясно",
+          "Конкретен и ведёт к проверке или изменению решения"
+        ]
+      },
+      "when_observable": "При обсуждении применения; на момент формулировки требования.",
+      "evidence": [
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-02-03T15:25:39+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=528319",
+          "summary": "After a director review, the customer asks detailed questions about conveyor length and product separation."
+        },
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-19T11:21:17+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=605831",
+          "summary": "Customer initiates a call to request adding a printer and two cartridges to the contract specification."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-08-19T13:42:56+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=3014293,3014295",
+          "summary": "Customer asks whether the equipment supports larger caps and whether that capability is included in the configuration."
+        },
+        {
+          "deal_id": "18765",
+          "outcome": "LOST",
+          "timestamp": "2026-08-25T15:06:07+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=653181",
+          "summary": "Customer says a block is unsuitable but cannot specify which block or the needed change."
+        },
+        {
+          "deal_id": "18747",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T13:17:19+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=634319",
+          "summary": "Customer still cannot provide dimensions needed to resolve the equipment fit."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-28T13:13:22+03:00",
+          "event_type": "call_transcript",
+          "event_id": "631605",
+          "summary": "Customer asked how the sensor and a possible holding cylinder would handle tapered containers."
+        },
+        {
+          "deal_id": "18635",
+          "outcome": "WON",
+          "timestamp": "2026-07-07T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2862473",
+          "summary": "The initial specification captured a specific key-cutout, top-label placement, and minimum throughput requirement for review."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-03-30T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer sent questions about the proposal and clarified the requested configuration, including that a separate applicator was not feasible."
+        },
+        {
+          "deal_id": "18755",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T13:53:04+03:00",
+          "event_type": "message",
+          "event_id": "2951825,2951827",
+          "summary": "Customer asked to see proposal alternatives with and without the requested item."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-12T12:07:48+03:00",
+          "event_type": "email",
+          "event_id": "source_id=539913",
+          "summary": "Client requests feed and receiving tables in the quote."
+        },
+        {
+          "deal_id": "6135",
+          "outcome": "WON",
+          "timestamp": "2025-12-16T14:00:26+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514837",
+          "summary": "Client communicates a configuration choice after internal discussion."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-07T10:49:50+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=615213",
+          "summary": "Client discusses QR marking and a date printer."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "summary": "Client specifies two solutions that must not be mixed."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-12T12:07:48+03:00",
+          "event_type": "email",
+          "event_id": "source_id=539913",
+          "summary": "Client asks to add feed and receiving tables."
+        },
+        {
+          "deal_id": "6135",
+          "outcome": "WON",
+          "timestamp": "2025-12-15T11:09:31+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514091",
+          "summary": "Client discusses pump/configuration alternatives and cost implications."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-10T17:45:08+03:00",
+          "event_type": "email",
+          "event_id": "source_id=618151",
+          "summary": "Client asks about adding DataMatrix marking."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "summary": "Client specifies a constraint for two products that cannot be mixed."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-15T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer sends detailed technical questions and requests printer and table changes, yet the solution remains unacceptable."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "After extensive technical discussion, the customer said the project and pricing were acceptable to the general director, yet the deal was later lost."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "summary": "Specific requirements coexist with an unresolved purchase decision."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-10T17:45:08+03:00",
+          "event_type": "email",
+          "event_id": "source_id=618151",
+          "summary": "Client-led configuration requests also appear in a LOST case."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 7,
+        "lost_deals": 6,
+        "shards": 3
+      },
+      "confounds": [
+        "Question frequency can reflect configuration complexity, not buying intent.",
+        "Manager summaries may selectively log questions.",
+        "Technical fit concerns can produce questions without indicating stronger intent",
+        "More complex proposals naturally invite more clarification",
+        "Complex projects generate more detail.",
+        "Some detail is copied into manager worklogs.",
+        "Customization generates more iterations.",
+        "Overlaps with criteria clarity/input completeness.",
+        "Complex projects generate more detail and iterations",
+        "Overlaps with input sufficiency and configuration convergence"
+      ],
+      "leakage_risk": "low",
+      "critic_verdict": "merge",
+      "validation_priority": "medium",
+      "notes": "Источники: A04, B03, C07, C10. Направление качественное, без подсчёта распространённости по 23 сделкам. mixed; do not equate technical engagement with buying intent"
+    },
+    {
+      "feature_id": "R05",
+      "name": "Статус проверки технической применимости",
+      "definition": "Для заявленного применения различается отсутствие оценки, открытый вопрос, обоснованная техническая оценка и результат релевантного теста. Запрос демонстрации сам по себе не равен проверке.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "choice",
+        "question": "Каков текущий статус проверки применимости решения к задаче клиента?",
+        "anchors_or_choices": [
+          "Не оценивалась",
+          "Есть нерешённый вопрос",
+          "Применимость обоснована разбором",
+          "Есть результат релевантного теста"
+        ]
+      },
+      "when_observable": "После появления конкретной задачи; только по доступным на момент снимка результатам.",
+      "evidence": [
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-21T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2189423",
+          "summary": "Customer attended the factory and successfully ran the product on the equipment."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-07-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "Customer and colleagues completed a factory visit described as successful; follow-up focused on final container changes."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-26T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Samples arrived for testing, but the proposed fit required a second machine and did not match the requested universal setup."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-08-14T11:51:50+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2998019,2998021",
+          "summary": "Seller invites the customer to inspect live equipment, but no visit is recorded in this shard."
+        },
+        {
+          "deal_id": "18635",
+          "outcome": "WON",
+          "timestamp": "2026-07-15T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2862473",
+          "summary": "Production approved the quote after the high-throughput, top-label application had been reviewed."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-08-07T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2910619",
+          "summary": "Customer supplied cone-container details for approval; a revised configuration and price were prepared."
+        },
+        {
+          "deal_id": "18873",
+          "outcome": "LOST",
+          "timestamp": "2026-08-31T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2996895",
+          "summary": "The team still could not confirm whether it could implement the requested application."
+        },
+        {
+          "deal_id": "18873",
+          "outcome": "LOST",
+          "timestamp": "2026-09-02T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2996895",
+          "summary": "The alternative supplier declined the proposed solution; the team was still asking what could be offered."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-05T10:57:55+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=537691",
+          "summary": "Client asks for footage of an operating line and agrees to arrange a production visit."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "summary": "Date-only worklog says samples went to another supplier because this seller could not demonstrate operation."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-24T15:00:36+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=629147",
+          "summary": "Discussion returns to whether the solution can be shown."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-26T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Receipt of samples alone is not evidence that the customer accepted the test result or the configuration."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-04-03T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "A revised proposal was approved by production after the customer supplied installation-height details; the deal later reached CEO approval but was lost."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-10T11:36:56+03:00",
+          "event_type": "email",
+          "event_id": "source_id=538727",
+          "summary": "A live-evidence request can be accommodated through a planned visit in a WON case."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 5,
+        "lost_deals": 4,
+        "shards": 3
+      },
+      "confounds": [
+        "Only two WON cases in this shard have a recorded in-person validation.",
+        "Higher complexity can make testing more necessary and correlate with longer deal cycles.",
+        "Technical complexity",
+        "Vendor capability",
+        "Custom integration scope",
+        "The timing of internal production review",
+        "Only one deal per outcome has clear proof evidence.",
+        "Supplier capability and product type.",
+        "Supplier capability and product type",
+        "Test need varies by application",
+        "A feasibility confirmation does not establish purchase intent"
+      ],
+      "leakage_risk": "medium",
+      "critic_verdict": "merge",
+      "validation_priority": "medium",
+      "notes": "Источники: A06, B02, C06. Направление качественное, без подсчёта распространённости по 23 сделкам. provisional more-in-WON in A/B, contradicted by deal 7243; C has only one case per side"
+    },
+    {
+      "feature_id": "R06",
+      "name": "Согласие клиента с конкретной конфигурацией",
+      "definition": "Клиент явно подтвердил актуальный ограниченный состав решения для дальнейшей оценки; одной подготовки предложения продавцом недостаточно.",
+      "observed_direction": "more_in_won",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "boolean",
+        "question": "Подтвердил ли клиент конкретную конфигурацию как актуальную для своей задачи?",
+        "anchors_or_choices": [
+          "Нет",
+          "Да"
+        ]
+      },
+      "when_observable": "После обсуждения состава решения; до финального исхода.",
+      "evidence": [
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-02-04T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2487593",
+          "summary": "Customer receives answers to its questions, a specific divider addition is priced, and payment terms are agreed."
+        },
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-19T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2820563",
+          "summary": "Customer-requested printer and cartridge additions are incorporated into a revised contract specification."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-08-10T13:38:03+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=643193",
+          "summary": "Customer explicitly narrows the current project to equipment for the screw cap after other container variants remain unresolved."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-05T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer insists on one universal machine and rejects the two-machine alternative."
+        },
+        {
+          "deal_id": "18747",
+          "outcome": "LOST",
+          "timestamp": "2026-07-28T12:31:48+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=631497",
+          "summary": "Customer explains that container sizes may change and the relevant format is still unclear."
+        },
+        {
+          "deal_id": "18765",
+          "outcome": "LOST",
+          "timestamp": "2026-08-25T15:06:07+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=653181",
+          "summary": "Customer says the configuration is unsuitable but does not identify the block or define the required configuration."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-08-10T13:38:03+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=643193",
+          "summary": "This WON case also had substantial scope changes; convergence occurred later, so early instability alone should not be labeled negative."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 3,
+        "lost_deals": 3,
+        "shards": 1
+      },
+      "confounds": [
+        "Product range and project complexity drive scope breadth.",
+        "A narrowed scope can be seller-imposed or omit real customer needs unless acceptance is explicit.",
+        "Single-shard support",
+        "Project complexity and amount",
+        "Seller-imposed scope may omit customer requirements"
+      ],
+      "leakage_risk": "medium",
+      "critic_verdict": "revise",
+      "validation_priority": "low",
+      "notes": "Источники: A07. Направление качественное, без подсчёта распространённости по 23 сделкам. one-shard exploratory observation only"
+    },
+    {
+      "feature_id": "R07",
+      "name": "Самостоятельное содержательное обращение клиента",
+      "definition": "Клиент сам инициировал обсуждение покупки, сообщил существенное обновление или предложил предметный технический шаг; простое подтверждение получения и ответ на только что пропущенный звонок не считаются.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "boolean",
+        "question": "Было ли самостоятельное содержательное обращение клиента по покупке?",
+        "anchors_or_choices": [
+          "Нет",
+          "Да"
+        ]
+      },
+      "when_observable": "После начала общения; по каналам, доступным на момент снимка.",
+      "evidence": [
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-02-03T15:25:39+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=528319",
+          "summary": "Customer calls the seller and raises questions from the director meeting."
+        },
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-19T11:21:17+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=605831",
+          "summary": "Customer calls to request a concrete contract-specification change."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-07-23T10:48:51+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2905711,2905713",
+          "summary": "Customer asks the seller to call after a missed call while the purchase decision is being discussed."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-13T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer requests a call with their engineer and shares the contact, but the project later stalls."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-07-29T14:38:41+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2947085,2947087,2947093,2947097,2947105",
+          "summary": "Customer responds to the initial request with product images, but does not sustain later technical follow-through."
+        },
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-08-06T10:40:52+03:00",
+          "event_type": "email",
+          "event_id": "640285",
+          "summary": "Customer asked the manager to call soon because he had new information about the equipment."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "Customer returned the call to report the general director's project approval and discuss next steps."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-13T10:34:25+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=540359",
+          "summary": "Client calls with a substantive question about cap-feeding equipment."
+        },
+        {
+          "deal_id": "6135",
+          "outcome": "WON",
+          "timestamp": "2025-12-16T14:00:26+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514837",
+          "summary": "Client calls to relay a configuration decision and remaining questions."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-09T11:05:57+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=616525",
+          "summary": "Client calls back to discuss the project and configuration."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-05-13T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Substantive customer initiative is present in a LOST case."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "This substantive customer-initiated contact occurred in a deal that was later lost."
+        },
+        {
+          "deal_id": "18629",
+          "outcome": "LOST",
+          "timestamp": "2026-07-09T11:05:57+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=616525",
+          "summary": "Substantive initiative is present in a LOST case."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 6,
+        "lost_deals": 4,
+        "shards": 3
+      },
+      "confounds": [
+        "Visibility depends on the completeness of message/call capture.",
+        "Customer role and deal complexity affect who initiates contact.",
+        "Contact's communication habits",
+        "Whether the seller had just attempted an unanswered call",
+        "Activity missing from the timeline",
+        "Call capture/channel coverage differ.",
+        "A callback after a missed call is weaker than a new buying step.",
+        "Channel coverage",
+        "Contact communication habits",
+        "Customer role and seller cadence"
+      ],
+      "leakage_risk": "low",
+      "critic_verdict": "merge",
+      "validation_priority": "medium",
+      "notes": "Источники: A05, B08, C09. Направление качественное, без подсчёта распространённости по 23 сделкам. mixed and thin; no outcome direction established"
+    },
+    {
+      "feature_id": "R08",
+      "name": "Сравнение альтернатив по явному критерию",
+      "definition": "Клиент назвал реальную альтернативу и критерий сравнения, например применимость, срок или цену. Одного упоминания конкурента недостаточно.",
+      "observed_direction": "mixed",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "boolean",
+        "question": "Сравнивал ли клиент реальные альтернативы по названному критерию?",
+        "anchors_or_choices": [
+          "Нет",
+          "Да"
+        ]
+      },
+      "when_observable": "При обсуждении вариантов; до решения.",
+      "evidence": [
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-31T09:27:26+03:00",
+          "event_type": "email",
+          "event_id": "635087",
+          "summary": "Customer sent a link to a competing labeler for comparison."
+        },
+        {
+          "deal_id": "18755",
+          "outcome": "LOST",
+          "timestamp": "2026-07-30T13:53:04+03:00",
+          "event_type": "message",
+          "event_id": "2951825,2951827",
+          "summary": "Customer asked for comparable proposals with and without the requested component."
+        },
+        {
+          "deal_id": "18873",
+          "outcome": "LOST",
+          "timestamp": "2026-08-13T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2996895",
+          "summary": "Customer expected to compare competitors before an October installation need."
+        },
+        {
+          "deal_id": "18773",
+          "outcome": "WON",
+          "timestamp": "2026-08-07T11:54:41+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=641463",
+          "summary": "Client says another supplier is preparing a proposal for the same task."
+        },
+        {
+          "deal_id": "7191",
+          "outcome": "WON",
+          "timestamp": "2026-03-03T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2549079",
+          "summary": "Date-only worklog notes comparison with a named competitor."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "summary": "Several proposals are compared on cost and technical fit; internal review is pending."
+        },
+        {
+          "deal_id": "18929",
+          "outcome": "LOST",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "summary": "Client says several proposals are under review and promises a response by week's end."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "18733",
+          "outcome": "WON",
+          "timestamp": "2026-07-31T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2910619",
+          "summary": "Despite comparing an alternative and initially selecting on price, the customer continued through a revised proposal and later purchased."
+        },
+        {
+          "deal_id": "18731",
+          "outcome": "LOST",
+          "timestamp": "2026-08-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "summary": "Active comparison is also present in a LOST case."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 3,
+        "lost_deals": 4,
+        "shards": 2
+      },
+      "confounds": [
+        "Price gap",
+        "Scope differences between offers",
+        "How accurately the alternatives are comparable",
+        "Project maturity and supplier count.",
+        "Worklogs can sharpen criteria beyond source wording.",
+        "Scope comparability",
+        "Project maturity",
+        "Manager notes can sharpen the customer's wording"
+      ],
+      "leakage_risk": "low",
+      "critic_verdict": "merge",
+      "validation_priority": "low",
+      "notes": "Источники: B05, C05. Направление качественное, без подсчёта распространённости по 23 сделкам. mixed in both shards; descriptive context, not a success signal"
+    },
+    {
+      "feature_id": "R09",
+      "name": "Формальный шаг закупки со стороны клиента",
+      "definition": "До подписания или оплаты клиент совершил конкретное действие с закупками, юристами, финансированием или проверкой документов компании. Подготовка бумаг продавцом не считается.",
+      "observed_direction": "more_in_won",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "ordinal",
+        "question": "Какой формальный шаг закупки уже выполнила сторона клиента?",
+        "anchors_or_choices": [
+          "Шаг не начат",
+          "Назван, но не выполнен",
+          "Есть подтверждённое действие клиента"
+        ]
+      },
+      "when_observable": "Только после начала формальной процедуры; поздняя стадия.",
+      "evidence": [
+        {
+          "deal_id": "18485",
+          "outcome": "WON",
+          "timestamp": "2026-06-25T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2836011",
+          "summary": "Customer obtains lawyer approval, requests a tax certificate, and the parties proceed to the electronic contract and invoice."
+        },
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-02-12T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2487593",
+          "summary": "Customer returns a formal disagreement protocol for specific delivery clauses; revisions are later accepted."
+        },
+        {
+          "deal_id": "5017",
+          "outcome": "WON",
+          "timestamp": "2025-08-28T13:01:28+03:00",
+          "event_type": "message",
+          "event_id": "source_ids=2240865",
+          "summary": "Customer reports that the contract has been signed and is being scanned."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Offer is printed for internal review, but customer has not moved into contract paperwork."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-08-04T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2947271",
+          "summary": "Project remains at procurement-contact coordination and sample/testing discussion; no contract action is recorded."
+        },
+        {
+          "deal_id": "18745",
+          "outcome": "WON",
+          "timestamp": "2026-08-05T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2909975",
+          "summary": "After proposal approval, the buyer supplied details needed to prepare the contract and the purchase moved to contract review."
+        },
+        {
+          "deal_id": "5971",
+          "outcome": "WON",
+          "timestamp": "2025-10-10T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2326371",
+          "summary": "The buyer's documents were submitted to leasing for approval and the customer supplied tracking information for a sample sent to production."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-22T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2563333",
+          "summary": "Customer supplied the company card needed to prepare contract documents."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-17T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Printing and discussing a proposal is not equivalent to customer-led contractual progress."
+        },
+        {
+          "deal_id": "7243",
+          "outcome": "LOST",
+          "timestamp": "2026-05-19T16:03:33+03:00",
+          "event_type": "call_transcript",
+          "event_id": "581019",
+          "summary": "Verbal executive approval and a payment expectation are not themselves evidence that buyer-side procurement documents have advanced."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 5,
+        "lost_deals": 3,
+        "shards": 2
+      },
+      "confounds": [
+        "This is late-stage and strongly correlated with deal progression; it may be a status marker rather than an early semantic feature.",
+        "Legal, funding, and e-signature procedures differ by customer.",
+        "Financing route and legal requirements",
+        "Stage proximity to outcome",
+        "Internal process complexity",
+        "Outcome proximity",
+        "Financing and legal-route differences",
+        "Not suitable as an early-snapshot signal"
+      ],
+      "leakage_risk": "high",
+      "critic_verdict": "merge",
+      "validation_priority": "low",
+      "notes": "Источники: A08, B09. Направление качественное, без подсчёта распространённости по 23 сделкам. more-in-WON in shards, but strongly stage-adjacent"
+    },
+    {
+      "feature_id": "R10",
+      "name": "Явное текущее предпочтение клиента",
+      "definition": "Клиент прямо назвал предпочитаемый сейчас вариант и критерий выбора; наличие сравнения или интерпретация менеджера без слов клиента недостаточны.",
+      "observed_direction": "more_in_won",
+      "jev_suitability": {
+        "suitable": true,
+        "type": "choice",
+        "question": "Какое текущее предпочтение клиент выразил между рассматриваемыми вариантами?",
+        "anchors_or_choices": [
+          "Не высказано или не определился",
+          "Предпочитает наше решение",
+          "Предпочитает другое решение"
+        ]
+      },
+      "when_observable": "После сравнения вариантов; формулировка действительна лишь на момент снимка.",
+      "evidence": [
+        {
+          "deal_id": "6885",
+          "outcome": "WON",
+          "timestamp": "2026-01-30T11:40:49+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=527197",
+          "summary": "Customer says the director is considering only this supplier and will report the decision."
+        },
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-07-22T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "Customer says the project is currently considering only this company after prior comparisons."
+        },
+        {
+          "deal_id": "7601",
+          "outcome": "LOST",
+          "timestamp": "2026-06-02T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2660309",
+          "summary": "Customer is still exploring other companies and has not decided whether a universal solution fits."
+        }
+      ],
+      "counterevidence": [
+        {
+          "deal_id": "18615",
+          "outcome": "WON",
+          "timestamp": "2026-05-27T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2859569",
+          "summary": "This eventual WON case spent weeks awaiting a China comparison and focusing on price; comparison activity itself is not negative."
+        },
+        {
+          "deal_id": "18775",
+          "outcome": "LOST",
+          "timestamp": "2026-08-04T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2947271",
+          "summary": "A self-reported decision maker may still depend on an unidentified procurement group; a verbal preference needs a concrete basis."
+        }
+      ],
+      "evidence_breadth": {
+        "won_deals": 2,
+        "lost_deals": 1,
+        "shards": 1
+      },
+      "confounds": [
+        "Seller worklogs may overstate customer preference.",
+        "A declared preference can be temporary and may precede technical fit or internal approval.",
+        "Temporary preference",
+        "Seller worklog overstatement",
+        "Can be late-stage"
+      ],
+      "leakage_risk": "medium",
+      "critic_verdict": "revise",
+      "validation_priority": "low",
+      "notes": "Источники: A09. Направление качественное, без подсчёта распространённости по 23 сделкам. provisional more-in-WON from one shard, with counterexamples and possible manager paraphrase bias"
+    }
+  ]
+}

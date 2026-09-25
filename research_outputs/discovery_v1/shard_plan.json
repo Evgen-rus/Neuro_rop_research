@@ -1,0 +1,144 @@
+{
+  "run_version": "discovery_v1",
+  "basis": "Approximate token volume, with pipeline, amount, source, duration spread",
+  "deals": [
+    {
+      "deal_id": "18615",
+      "outcome": "WON",
+      "token_estimate": 37458,
+      "shard": "A"
+    },
+    {
+      "deal_id": "18773",
+      "outcome": "WON",
+      "token_estimate": 27058,
+      "shard": "C"
+    },
+    {
+      "deal_id": "18733",
+      "outcome": "WON",
+      "token_estimate": 35598,
+      "shard": "B"
+    },
+    {
+      "deal_id": "18745",
+      "outcome": "WON",
+      "token_estimate": 9167,
+      "shard": "B"
+    },
+    {
+      "deal_id": "5971",
+      "outcome": "WON",
+      "token_estimate": 20069,
+      "shard": "B"
+    },
+    {
+      "deal_id": "18485",
+      "outcome": "WON",
+      "token_estimate": 12869,
+      "shard": "A"
+    },
+    {
+      "deal_id": "18635",
+      "outcome": "WON",
+      "token_estimate": 12125,
+      "shard": "B"
+    },
+    {
+      "deal_id": "6885",
+      "outcome": "WON",
+      "token_estimate": 9717,
+      "shard": "A"
+    },
+    {
+      "deal_id": "7191",
+      "outcome": "WON",
+      "token_estimate": 16914,
+      "shard": "C"
+    },
+    {
+      "deal_id": "6983",
+      "outcome": "WON",
+      "token_estimate": 16212,
+      "shard": "C"
+    },
+    {
+      "deal_id": "6135",
+      "outcome": "WON",
+      "token_estimate": 21232,
+      "shard": "C"
+    },
+    {
+      "deal_id": "5017",
+      "outcome": "WON",
+      "token_estimate": 7492,
+      "shard": "A"
+    },
+    {
+      "deal_id": "18755",
+      "outcome": "LOST",
+      "token_estimate": 1250,
+      "shard": "B"
+    },
+    {
+      "deal_id": "18747",
+      "outcome": "LOST",
+      "token_estimate": 4014,
+      "shard": "A"
+    },
+    {
+      "deal_id": "18873",
+      "outcome": "LOST",
+      "token_estimate": 3662,
+      "shard": "B"
+    },
+    {
+      "deal_id": "7243",
+      "outcome": "LOST",
+      "token_estimate": 17621,
+      "shard": "B"
+    },
+    {
+      "deal_id": "18775",
+      "outcome": "LOST",
+      "token_estimate": 2452,
+      "shard": "A"
+    },
+    {
+      "deal_id": "19007",
+      "outcome": "LOST",
+      "token_estimate": 3796,
+      "shard": "B"
+    },
+    {
+      "deal_id": "7601",
+      "outcome": "LOST",
+      "token_estimate": 20568,
+      "shard": "A"
+    },
+    {
+      "deal_id": "18929",
+      "outcome": "LOST",
+      "token_estimate": 2871,
+      "shard": "C"
+    },
+    {
+      "deal_id": "18629",
+      "outcome": "LOST",
+      "token_estimate": 11982,
+      "shard": "C"
+    },
+    {
+      "deal_id": "18731",
+      "outcome": "LOST",
+      "token_estimate": 13888,
+      "shard": "C"
+    },
+    {
+      "deal_id": "18765",
+      "outcome": "LOST",
+      "token_estimate": 6728,
+      "shard": "A"
+    }
+  ]
+}

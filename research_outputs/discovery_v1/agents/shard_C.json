@@ -1,0 +1,595 @@
+{
+  "run_version": "discovery_v1",
+  "shard": "C",
+  "worker_class": "Luna Max",
+  "deals": [
+    {
+      "deal_id": "18773",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7191",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6983",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6135",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18929",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18629",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18731",
+      "outcome": "LOST"
+    }
+  ],
+  "findings": [
+    "Technical engagement, price acceptance, competitor comparison, and scheduled follow-ups occur in both outcomes.",
+    "The clearest exploratory difference is an actionable internal approval path: two LOST cases name an approver but lack access or timing. WON cases also have internal approval dependencies; validate this across shards.",
+    "A request for live proof appears on both sides; one LOST customer sent samples to another supplier after this seller could not demonstrate the solution."
+  ],
+  "candidates": [
+    {
+      "feature_name": "Actionable internal approval path",
+      "short_definition": "Customer names a reviewer/approver and describes a concrete current or upcoming action involving that person.",
+      "jev_type": "choice",
+      "jev_question": "Which best describes the path: active named owner and milestone; owner named but no active milestone/access; or unknown?",
+      "when_observable": "When customer describes who else must review or approve.",
+      "direction_observed": "more_in_won",
+      "won_evidence": [
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "paraphrase": "Date-only worklog records funding review expected in 6–7 business days and a scheduled follow-up."
+        },
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-18T09:52:14+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=542019",
+          "paraphrase": "Customer reports security review has begun."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "paraphrase": "Director has seen the offer but has not found time; no review horizon is known."
+        },
+        {
+          "deal_id": "18929",
+          "timestamp": "2026-08-26T11:35:58+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=653963",
+          "paraphrase": "Customer forwarded the contract to managers but cannot give a phone contact."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "paraphrase": "A named decision-maker alone does not give access or timing."
+        }
+      ],
+      "possible_confounds": [
+        "Later deal stage makes paths more visible.",
+        "Approval complexity and note coverage vary."
+      ],
+      "leakage_risk": "medium",
+      "notes": "Exploratory direction only; score actionability, not the mere presence of an approver."
+    },
+    {
+      "feature_name": "Client-owned next step",
+      "short_definition": "A client action or joint milestone is agreed with a date/bounded time, not only a manager-owned callback.",
+      "jev_type": "ordinal",
+      "jev_question": "How concrete is the next step: none; seller follow-up only; or client-owned/joint action with a date?",
+      "when_observable": "After proposal delivery or a buying-process discussion.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-10T11:36:56+03:00",
+          "event_type": "email",
+          "event_id": "source_id=538727",
+          "paraphrase": "Client reschedules the agreed production visit to 12 March at 11:00."
+        },
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-07-30T10:24:44+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=633947",
+          "paraphrase": "Client agrees to review over the weekend and a Monday call around noon."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "paraphrase": "Another call is scheduled, but the director-review step has no time estimate."
+        },
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "paraphrase": "Date-only worklog says another supplier's sample test will inform the customer's choice in mid-August."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "paraphrase": "A dated step may depend on a third party rather than progress with this seller."
+        }
+      ],
+      "possible_confounds": [
+        "Manager scheduling style.",
+        "Third-party deadlines differ from client-owned steps."
+      ],
+      "leakage_risk": "low",
+      "notes": "Classify ownership and specificity, not calls or tasks volume."
+    },
+    {
+      "feature_name": "Client supplies requested technical inputs",
+      "short_definition": "Client provides specific product, package, or process information requested for solution design.",
+      "jev_type": "ordinal",
+      "jev_question": "How complete is the input: none; partial/generic; or usable measurements, photos, samples, or process details?",
+      "when_observable": "During technical discovery, after a concrete information request.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+        "timestamp": "2026-03-03T16:10:15+03:00",
+          "event_type": "email",
+          "event_id": "source_id=536917",
+          "paraphrase": "Client returns a requested package/label photo and dimensions."
+        },
+        {
+          "deal_id": "6135",
+          "timestamp": "2025-10-23T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2339925",
+          "paraphrase": "Date-only worklog says client sent package and cap photos with dimensions."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "paraphrase": "Date-only worklog says client sent product photos and package information."
+        },
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-23T10:13:23+03:00",
+          "event_type": "email",
+          "event_id": "source_id=627657",
+          "paraphrase": "Client sends package drawings after request for dimensions."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "paraphrase": "Client provides cap dimensions, yet an internal approval bottleneck remains."
+        }
+      ],
+      "possible_confounds": [
+        "Project type determines needed inputs.",
+        "Worklogs are less direct than customer emails."
+      ],
+      "leakage_risk": "low",
+      "notes": "Worklogs are date_only/year_inferred; prefer direct email evidence."
+    },
+    {
+      "feature_name": "Explicit verbal price response",
+      "short_definition": "Client states that quoted price is acceptable, unacceptable, or under evaluation; numeric amount is excluded.",
+      "jev_type": "choice",
+      "jev_question": "What is the client's price response: accepts; concern; comparing/undecided; or not stated?",
+      "when_observable": "After price discussion and before outcome.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-03T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2549079",
+          "paraphrase": "Date-only worklog records price acceptance while client compares a supplier."
+        },
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-07-28T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "paraphrase": "Date-only worklog records price acceptance and a request to update the offer."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "paraphrase": "Date-only worklog records price acceptance despite an unresolved proof-of-fit question."
+        },
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-23T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "paraphrase": "Date-only worklog records acceptable price and a stated near-term horizon."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-23T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "paraphrase": "Verbal price acceptance appears in a LOST case."
+        }
+      ],
+      "possible_confounds": [
+        "Manager paraphrases may overstate acceptance.",
+        "Commercial segment affects discussion."
+      ],
+      "leakage_risk": "low",
+      "notes": "Use semantic response only; exclude amount and source."
+    },
+    {
+      "feature_name": "Comparison with alternatives on stated criteria",
+      "short_definition": "Client names another option and states a criterion such as price, timing, or technical fit.",
+      "jev_type": "boolean",
+      "jev_question": "Has the client compared this solution with another option using a stated criterion?",
+      "when_observable": "During proposal review/objection handling.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-08-07T11:54:41+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=641463",
+          "paraphrase": "Client says another supplier is preparing a proposal for the same task."
+        },
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-03T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2549079",
+          "paraphrase": "Date-only worklog notes comparison with a named competitor."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "paraphrase": "Several proposals are compared on cost and technical fit; internal review is pending."
+        },
+        {
+          "deal_id": "18929",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "paraphrase": "Client says several proposals are under review and promises a response by week's end."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2905047",
+          "paraphrase": "Active comparison is also present in a LOST case."
+        }
+      ],
+      "possible_confounds": [
+        "Project maturity and supplier count.",
+        "Worklogs can sharpen criteria beyond source wording."
+      ],
+      "leakage_risk": "low",
+      "notes": "No directional pattern in this shard."
+    },
+    {
+      "feature_name": "Need for live proof/reference",
+      "short_definition": "Client asks to see equipment operating or requests a sample trial before considering the solution ready.",
+      "jev_type": "choice",
+      "jev_question": "What proof is required: none; video/reference; live visit/demo; or sample trial?",
+      "when_observable": "When customer explains evidence needed to assess technical fit.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-05T10:57:55+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=537691",
+          "paraphrase": "Client asks for footage of an operating line and agrees to arrange a production visit."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2861675",
+          "paraphrase": "Date-only worklog says samples went to another supplier because this seller could not demonstrate operation."
+        },
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-24T15:00:36+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=629147",
+          "paraphrase": "Discussion returns to whether the solution can be shown."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-10T11:36:56+03:00",
+          "event_type": "email",
+          "event_id": "source_id=538727",
+          "paraphrase": "A live-evidence request can be accommodated through a planned visit in a WON case."
+        }
+      ],
+      "possible_confounds": [
+        "Only one deal per outcome has clear proof evidence.",
+        "Supplier capability and product type."
+      ],
+      "leakage_risk": "medium",
+      "notes": "Potential signal is whether a feasible proof path exists, not whether a video was sent."
+    },
+    {
+      "feature_name": "Specific client-stated operating criteria",
+      "short_definition": "Client describes concrete operating constraints affecting configuration, such as package, throughput, product separation, or cleaning.",
+      "jev_type": "ordinal",
+      "jev_question": "Are operating criteria unstated, general, or concrete and mappable to configuration?",
+      "when_observable": "During technical discovery and solution review.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-12T12:07:48+03:00",
+          "event_type": "email",
+          "event_id": "source_id=539913",
+          "paraphrase": "Client requests feed and receiving tables in the quote."
+        },
+        {
+          "deal_id": "6135",
+          "timestamp": "2025-12-16T14:00:26+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514837",
+          "paraphrase": "Client communicates a configuration choice after internal discussion."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-07T10:49:50+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=615213",
+          "paraphrase": "Client discusses QR marking and a date printer."
+        },
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "paraphrase": "Client specifies two solutions that must not be mixed."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "paraphrase": "Specific requirements coexist with an unresolved purchase decision."
+        }
+      ],
+      "possible_confounds": [
+        "Complex projects generate more detail.",
+        "Some detail is copied into manager worklogs."
+      ],
+      "leakage_risk": "low",
+      "notes": "Keep customer-stated constraints separate from product fit or structured numeric facts."
+    },
+    {
+      "feature_name": "Status and milestone for an external decision gate",
+      "short_definition": "A dependency such as financing, committee review, or procurement is described with current status and next checkpoint.",
+      "jev_type": "choice",
+      "jev_question": "Is there an external gate, and is its status/next checkpoint concrete, vague, or unknown?",
+      "when_observable": "When customer mentions financing, management review, procurement, or another supplier.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "paraphrase": "Date-only worklog records funding papers in review for 6–7 business days and a scheduled follow-up."
+        },
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-18T09:52:14+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=542019",
+          "paraphrase": "Customer reports active security review of the contract."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-08-18T15:06:59+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=648205",
+          "paraphrase": "Director review has no expected date; contact does not want to press the director."
+        },
+        {
+          "deal_id": "18929",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "paraphrase": "Several proposals are under review; client offers a response deadline."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18773",
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "worklog_id=2942251",
+          "paraphrase": "A WON case also had funding and competitor dependencies."
+        },
+        {
+          "deal_id": "18929",
+          "timestamp": "2026-08-26T11:46:11+03:00",
+          "event_type": "email",
+          "event_id": "source_id=653995",
+          "paraphrase": "A stated response deadline does not mean a gate is resolved."
+        }
+      ],
+      "possible_confounds": [
+        "Funding/procurement cycle and stage.",
+        "Date-only worklogs can make estimates appear precise."
+      ],
+      "leakage_risk": "medium",
+      "notes": "Overlaps with approval-path clarity; critic may merge."
+    },
+    {
+      "feature_name": "Client-initiated substantive interaction",
+      "short_definition": "Client starts a call/message that advances a technical or purchase discussion rather than only replying.",
+      "jev_type": "boolean",
+      "jev_question": "Has the client initiated a substantive follow-up about the solution or buying process?",
+      "when_observable": "Across the timeline before outcome.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-13T10:34:25+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=540359",
+          "paraphrase": "Client calls with a substantive question about cap-feeding equipment."
+        },
+        {
+          "deal_id": "6135",
+          "timestamp": "2025-12-16T14:00:26+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514837",
+          "paraphrase": "Client calls to relay a configuration decision and remaining questions."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-09T11:05:57+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=616525",
+          "paraphrase": "Client calls back to discuss the project and configuration."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-09T11:05:57+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=616525",
+          "paraphrase": "Substantive initiative is present in a LOST case."
+        }
+      ],
+      "possible_confounds": [
+        "Call capture/channel coverage differ.",
+        "A callback after a missed call is weaker than a new buying step."
+      ],
+      "leakage_risk": "low",
+      "notes": "Do not use message/call count; classify substance and initiator."
+    },
+    {
+      "feature_name": "Client engages in specific solution co-design",
+      "short_definition": "Client proposes or negotiates a concrete configuration change tied to the operating task.",
+      "jev_type": "boolean",
+      "jev_question": "Has the client proposed or actively negotiated a concrete solution change?",
+      "when_observable": "After a proposal or technical alternative is discussed.",
+      "direction_observed": "mixed",
+      "won_evidence": [
+        {
+          "deal_id": "7191",
+          "timestamp": "2026-03-12T12:07:48+03:00",
+          "event_type": "email",
+          "event_id": "source_id=539913",
+          "paraphrase": "Client asks to add feed and receiving tables."
+        },
+        {
+          "deal_id": "6135",
+          "timestamp": "2025-12-15T11:09:31+03:00",
+          "event_type": "call_transcript",
+          "event_id": "activity_id=514091",
+          "paraphrase": "Client discusses pump/configuration alternatives and cost implications."
+        }
+      ],
+      "lost_evidence": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-10T17:45:08+03:00",
+          "event_type": "email",
+          "event_id": "source_id=618151",
+          "paraphrase": "Client asks about adding DataMatrix marking."
+        },
+        {
+          "deal_id": "18731",
+          "timestamp": "2026-07-28T14:23:36+03:00",
+          "event_type": "email",
+          "event_id": "source_id=631795",
+          "paraphrase": "Client specifies a constraint for two products that cannot be mixed."
+        }
+      ],
+      "counterexamples": [
+        {
+          "deal_id": "18629",
+          "timestamp": "2026-07-10T17:45:08+03:00",
+          "event_type": "email",
+          "event_id": "source_id=618151",
+          "paraphrase": "Client-led configuration requests also appear in a LOST case."
+        }
+      ],
+      "possible_confounds": [
+        "Customization generates more iterations.",
+        "Overlaps with criteria clarity/input completeness."
+      ],
+      "leakage_risk": "low",
+      "notes": "Distinct from data submission: this is a client-originated change or trade-off."
+    }
+  ],
+  "limitations": [
+    "Only the assigned four WON and three LOST deals were compared; no feature was scored across all deals.",
+    "Worklog timestamps are approximate because metadata marks them date_only/year_inferred.",
+    "Some contrasts appear near proposal or contract review and may reflect deal stage.",
+    "Outcome-like symbols in neutral titles were ignored; labels came only from the separate shard plan."
+  ],
+  "files": [
+    "research_outputs/discovery_v1/agents/shard_C.json",
+    "research_outputs/discovery_v1/agents/shard_C.md"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "run_version": "discovery_v1",
+  "review_type": "independent_adversarial_critique",
+  "initial_inputs": [
+    "research_outputs/discovery_v1/shard_plan.json",
+    "research_outputs/discovery_v1/agents/shard_A.json",
+    "research_outputs/discovery_v1/agents/shard_B.json",
+    "research_outputs/discovery_v1/agents/shard_C.json"
+  ],
+  "overall_assessment": "The shards independently rediscover a small set of process observations, but most directional claims weaken under explicit counterexamples. Consolidate duplicated formulations and retain them as discovery candidates with neutral or provisional direction. The evidence is qualitative and does not support predictive or causal claims.",
+  "chronology_audit": {
+    "outcome_timestamp_source": "dataset/manifest.json closed_at, using manifest outcome labels",
+    "cited_evidence_rows_checked": "all timestamped evidence and counterexample rows in the three shard handoffs",
+    "cited_rows_after_closed_at": 0,
+    "finding": "No cited evidence row was timestamped after the deal closed. Phrases such as 'later lost' are analyst framing of a counterexample, not a feature available at that earlier snapshot. Do not use later loss reasons or consequences in a classifier.",
+    "raw_timeline_reopened": false
+  },
+  "confound_audit": {
+    "metadata_deals_referenced": 21,
+    "pipeline_ids_present": ["15", "17"],
+    "amount_range_rub": [650000, 8304000],
+    "life_days_range": [6, 189],
+    "finding": "The cited cases span both pipelines, a wide amount range, and very different deal ages. Shard balancing by these variables does not match or control candidate-level comparisons. Technical detail, procurement progress, and interaction visibility can track scope, stage, duration, capture coverage, or customer source. None of the shard evidence stratifies or adjusts for those alternatives.",
+    "channel_risk": "Worklog summaries, direct messages, email, and call transcripts have different coverage and precision. Customer initiative and commitment fulfillment are especially sensitive to missing interactions and seller logging."
+  },
+  "consolidated_candidates": [
+    {
+      "target_id": "R01",
+      "name": "Buyer decision-gate clarity",
+      "sources": ["A01", "B04", "C01", "C08"],
+      "definition": "At the snapshot, is a purchase or approval gate described with a responsible buyer role, a concrete current action, and a bounded checkpoint? A named director alone is insufficient.",
+      "jev_form": "ordinal: no process stated; gate or role named but action/access/checkpoint vague; owner and action with a bounded checkpoint stated",
+      "direction": "provisional; process clarity is not purchase commitment",
+      "risks": ["Late-stage visibility", "Manager worklog certainty", "Short one-person purchases may have no committee", "A dated review can remain unresolved"]
+    },
+    {
+      "target_id": "R02",
+      "name": "Status of the latest buyer-owned milestone",
+      "sources": ["A02", "A10", "B06", "B07", "C02"],
+      "definition": "For the latest explicit customer-owned action, classify whether it is not yet due, completed by its checkpoint, missed with a concrete replacement, or repeatedly deferred without a replacement owner/action/date.",
+      "jev_form": "ordinal state of one milestone; do not score elapsed deal age or contact counts",
+      "direction": "mixed commitment evidence; repeated unowned slippage is a provisional risk state",
+      "risks": ["Action difficulty and due-date certainty", "Explained review cycles", "Seller scheduling style", "Absence of a logged artifact may reflect capture gaps"]
+    },
+    {
+      "target_id": "R03",
+      "name": "Sufficiency of customer-provided application inputs",
+      "sources": ["A03", "B01", "C03"],
+      "definition": "Are the customer-provided artifacts and details sufficient to assess the identified application at this snapshot? Judge against the stated use case, not file or sample count.",
+      "jev_form": "ordinal: absent; partial; sufficient for an application-specific assessment",
+      "direction": "mixed across B and C; A's more-in-WON direction needs cross-shard verification",
+      "risks": ["Application complexity", "Seller request scope", "Worklog summaries can conflate requested and received data"]
+    },
+    {
+      "target_id": "R04",
+      "name": "Specificity and actionability of customer technical input",
+      "sources": ["A04", "B03", "C07", "C10"],
+      "definition": "Has the customer stated a concrete application constraint, answerable uncertainty, or requested configuration change that maps to a technical or offer action? Classify specificity, not question volume.",
+      "jev_form": "ordinal: absent/vague; specific but not actionable; specific and actionable",
+      "direction": "mixed; do not equate technical engagement with buying intent",
+      "risks": ["Complex projects generate more detail and iterations", "Overlaps with input sufficiency and configuration convergence"]
+    },
+    {
+      "target_id": "R05",
+      "name": "Technical feasibility or validation status for the requested scope",
+      "sources": ["A06", "B02", "C06"],
+      "definition": "For an identified application, classify whether feasibility remains open, has been reviewed as plausible, or has been checked through a relevant test and its result. A request for proof is context, not proof of fit or failure.",
+      "jev_form": "choice/ordinal with not-assessed, unresolved, review-supported, and test-result states",
+      "direction": "provisional more-in-WON in A/B, contradicted by deal 7243; C has only one case per side",
+      "risks": ["Supplier capability and product type", "Test need varies by application", "A feasibility confirmation does not establish purchase intent"]
+    },
+    {
+      "target_id": "R06",
+      "name": "Customer acceptance of a bounded configuration",
+      "sources": ["A07"],
+      "definition": "Has the customer explicitly accepted a specific active scope/configuration for evaluation, rather than the seller merely preparing or narrowing it?",
+      "jev_form": "boolean or ordinal, snapshot-bound",
+      "direction": "one-shard exploratory observation only",
+      "risks": ["Single-shard support", "Project complexity and amount", "Seller-imposed scope may omit customer requirements"]
+    },
+    {
+      "target_id": "R07",
+      "name": "Customer-initiated substantive follow-up",
+      "sources": ["A05", "B08", "C09"],
+      "definition": "Has the customer independently initiated a purchase-related discussion, material update, or concrete technical step? Exclude acknowledgements and callbacks caused by a just-attempted seller call.",
+      "jev_form": "boolean",
+      "direction": "mixed and thin; no outcome direction established",
+      "risks": ["Channel coverage", "Contact communication habits", "Customer role and seller cadence"]
+    },
+    {
+      "target_id": "R08",
+      "name": "Comparison of alternatives on an explicit criterion",
+      "sources": ["B05", "C05"],
+      "definition": "Has the customer named a real alternative and stated a comparison criterion such as price, timing, or technical fit? Mere competitor presence does not count.",
+      "jev_form": "boolean/choice",
+      "direction": "mixed in both shards; descriptive context, not a success signal",
+      "risks": ["Scope comparability", "Project maturity", "Manager notes can sharpen the customer's wording"]
+    },
+    {
+      "target_id": "R09",
+      "name": "Buyer-initiated formal procurement step",
+      "sources": ["A08", "B09"],
+      "definition": "Before signature or payment, has the buyer taken a concrete action with procurement, legal, finance, leasing, or company-document review? Do not count seller-prepared paperwork alone.",
+      "jev_form": "ordinal process state",
+      "direction": "more-in-WON in shards, but strongly stage-adjacent",
+      "risks": ["Outcome proximity", "Financing and legal-route differences", "Not suitable as an early-snapshot signal"]
+    },
+    {
+      "target_id": "R10",
+      "name": "Explicit current customer preference",
+      "sources": ["A09"],
+      "definition": "Has the customer explicitly stated which option is currently preferred and named the criterion? Competitor comparison alone does not count.",
+      "jev_form": "choice: prefers this option; prefers another; undecided/not stated",
+      "direction": "provisional more-in-WON from one shard, with counterexamples and possible manager paraphrase bias",
+      "risks": ["Temporary preference", "Seller worklog overstatement", "Can be late-stage"]
+    }
+  ],
+  "candidate_verdicts": [
+    {"id":"A01","verdict":"keep","merge_target":"R01","rationale":"Use as the anchor for the recurring decision-path cluster; a named decision maker alone is contradicted by 18775 and is not sufficient."},
+    {"id":"A02","verdict":"keep","merge_target":"R02","rationale":"Useful snapshot unit if reduced to the status of one due buyer-owned milestone; current definition mixes action types."},
+    {"id":"A03","verdict":"keep","merge_target":"R03","rationale":"Retain input sufficiency, not raw artifact count; validate across mixed B/C outcomes."},
+    {"id":"A04","verdict":"keep","merge_target":"R04","rationale":"Actionable specificity is labelable, but complexity and 7601 show it is not intent by itself."},
+    {"id":"A05","verdict":"keep","merge_target":"R07","rationale":"Atomic but directionless; define initiator and exclude prompted callbacks."},
+    {"id":"A06","verdict":"merge","merge_target":"R05","rationale":"A completed live test is one method/state of technical validation; do not generalize it to all projects."},
+    {"id":"A07","verdict":"revise","merge_target":"R06","rationale":"Require explicit customer acceptance of the bounded scope; current support is one shard and the lost examples contradict outcome direction."},
+    {"id":"A08","verdict":"keep","merge_target":"R09","rationale":"Merge with formal buyer-side legal/finance steps; retain only as a late-stage process state."},
+    {"id":"A09","verdict":"revise","merge_target":"R10","rationale":"Keep explicit preference distinct from comparison; remove competitor presence as a proxy and treat direction as provisional."},
+    {"id":"A10","verdict":"merge","merge_target":"R02","rationale":"A narrow repeated-missed-commitment state within milestone follow-through; exclude age and raw delay."},
+    {"id":"B01","verdict":"merge","merge_target":"R03","rationale":"Duplicates A03/C03; photos or samples may still be insufficient, and evidence sufficiency is mixed across outcomes."},
+    {"id":"B02","verdict":"keep","merge_target":"R05","rationale":"Useful feasibility state, but 7243 is a strong counterexample and technical feasibility is not purchase intent."},
+    {"id":"B03","verdict":"merge","merge_target":"R04","rationale":"Overlaps actionable technical questions, stated constraints, and co-design; score specificity/actionability once."},
+    {"id":"B04","verdict":"merge","merge_target":"R01","rationale":"Same buyer decision-process construct as A01/C01/C08; approval is present in LOST 7243."},
+    {"id":"B05","verdict":"keep","merge_target":"R08","rationale":"Merge duplicate comparison formulations; evidence-backed comparison occurs in both outcomes."},
+    {"id":"B06","verdict":"merge","merge_target":"R02","rationale":"The dated customer action is one state of the latest buyer-owned milestone, not a separate signal from completion."},
+    {"id":"B07","verdict":"merge","merge_target":"R02","rationale":"Retain only repeated missed commitments without a replacement; 7243 is not clearly repeated and won 18733 had moved dates."},
+    {"id":"B08","verdict":"merge","merge_target":"R07","rationale":"Duplicate customer-initiated substantive follow-up; direction is mixed and only one case per side here."},
+    {"id":"B09","verdict":"merge","merge_target":"R09","rationale":"Same late buyer-process progression as A08; exclude signed or paid status and avoid early-snapshot claims."},
+    {"id":"C01","verdict":"merge","merge_target":"R01","rationale":"Same gate-clarity construct; lost 18731/18929 show that naming an approver without access or control is weak."},
+    {"id":"C02","verdict":"merge","merge_target":"R02","rationale":"Duplicate client-owned milestone formulation; a dated action alone is not follow-through."},
+    {"id":"C03","verdict":"merge","merge_target":"R03","rationale":"Supplying requested information is not the same as supplying enough information; merge under application-specific sufficiency."},
+    {"id":"C04","verdict":"reject","merge_target":null,"rationale":"Price response is explicitly mixed in C and 18731/18629 are counterexamples; A also says price acceptance alone does not separate outcomes. Keep as commercial context only."},
+    {"id":"C05","verdict":"merge","merge_target":"R08","rationale":"Same alternative-comparison feature as B05; present in both outcomes."},
+    {"id":"C06","verdict":"merge","merge_target":"R05","rationale":"A request for proof is only context for the validation route; one WON and one LOST do not support direction, and an unmet proof path is the relevant state."},
+    {"id":"C07","verdict":"merge","merge_target":"R04","rationale":"Treat specific constraints as actionable technical content, not as evidence of purchase intent; LOST 18731 is a counterexample."},
+    {"id":"C08","verdict":"merge","merge_target":"R01","rationale":"External gate status overlaps decision-path clarity; a response deadline does not mean the gate is resolved."},
+    {"id":"C09","verdict":"merge","merge_target":"R07","rationale":"Duplicate customer-initiated interaction; one LOST 18629 counterexample and channel coverage remain material."},
+    {"id":"C10","verdict":"merge","merge_target":"R04","rationale":"Concrete configuration changes overlap specific actionable customer technical input; both outcomes show it."}
+  ],
+  "limitations": [
+    "This critique assessed worker evidence handoffs and manifest closure times; it did not independently reread the cited raw timeline events.",
+    "No candidate was scored across all 23 deals, by design.",
+    "Evidence counts are too small and stage/maturity varies; no predictive, causal, or population-level claim is warranted."
+  ],
+  "files": ["research_outputs/discovery_v1/critic.json", "research_outputs/discovery_v1/critic.md"]
+}
