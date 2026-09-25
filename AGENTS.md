@@ -139,6 +139,8 @@ Use language such as:
 
 ## Jev suitability
 
+Before evaluating whether a feature is suitable for Jev, you must read `Docs/jev_context.md` and treat it as the source of truth for Jev's role, constraints, and supported classifier types.
+
 A candidate is Jev-suitable if it can become an atomic:
 - boolean;
 - small categorical choice;
