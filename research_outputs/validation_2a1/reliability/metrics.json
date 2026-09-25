@@ -1,0 +1,1056 @@
+{
+  "sample_size": 30,
+  "metrics": {
+    "R01a": {
+      "n": 30,
+      "exact_agreement_count": 22,
+      "exact_agreement_pct": 73.3,
+      "unknown_disagreement_count": 7,
+      "unknown_disagreement_pct": 23.3,
+      "major_semantic_disagreement_count": 1,
+      "major_semantic_disagreement_pct": 3.3,
+      "pass_threshold": false,
+      "primary_values": {
+        "UNKNOWN": 19,
+        "YES": 11
+      },
+      "second_values": {
+        "UNKNOWN": 14,
+        "NO": 4,
+        "YES": 12
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18635",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18615",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18773",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R01b": {
+      "n": 30,
+      "exact_agreement_count": 23,
+      "exact_agreement_pct": 76.7,
+      "unknown_disagreement_count": 7,
+      "unknown_disagreement_pct": 23.3,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "UNKNOWN": 19,
+        "YES": 10,
+        "NO": 1
+      },
+      "second_values": {
+        "UNKNOWN": 14,
+        "NO": 4,
+        "YES": 12
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18635",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18615",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R01c": {
+      "n": 30,
+      "exact_agreement_count": 23,
+      "exact_agreement_pct": 76.7,
+      "unknown_disagreement_count": 7,
+      "unknown_disagreement_pct": 23.3,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "UNKNOWN": 19,
+        "YES": 6,
+        "NO": 5
+      },
+      "second_values": {
+        "UNKNOWN": 14,
+        "NO": 8,
+        "YES": 8
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18635",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18615",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "NO",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R03": {
+      "n": 30,
+      "exact_agreement_count": 14,
+      "exact_agreement_pct": 46.7,
+      "unknown_disagreement_count": 8,
+      "unknown_disagreement_pct": 26.7,
+      "major_semantic_disagreement_count": 8,
+      "major_semantic_disagreement_pct": 26.7,
+      "pass_threshold": false,
+      "primary_values": {
+        "PARTIAL": 21,
+        "SUFFICIENT_FOR_CURRENT_ASSESSMENT": 6,
+        "INSUFFICIENT": 2,
+        "UNKNOWN": 1
+      },
+      "second_values": {
+        "PARTIAL": 10,
+        "SUFFICIENT_FOR_CURRENT_ASSESSMENT": 8,
+        "UNKNOWN": 9,
+        "INSUFFICIENT": 3
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6885",
+          "snapshot": "T50",
+          "primary": "PARTIAL",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "5017",
+          "snapshot": "D3",
+          "primary": "INSUFFICIENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "7243",
+          "snapshot": "T25",
+          "primary": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        },
+        {
+          "deal_id": "5017",
+          "snapshot": "T50",
+          "primary": "PARTIAL",
+          "second": "INSUFFICIENT"
+        },
+        {
+          "deal_id": "18773",
+          "snapshot": "D3",
+          "primary": "PARTIAL",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18765",
+          "snapshot": "T80",
+          "primary": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        },
+        {
+          "deal_id": "18765",
+          "snapshot": "D7",
+          "primary": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "D3",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        },
+        {
+          "deal_id": "7601",
+          "snapshot": "T50",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "PARTIAL",
+          "second": "INSUFFICIENT"
+        },
+        {
+          "deal_id": "6983",
+          "snapshot": "T80",
+          "primary": "PARTIAL",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18873",
+          "snapshot": "T50",
+          "primary": "PARTIAL",
+          "second": "SUFFICIENT_FOR_CURRENT_ASSESSMENT"
+        }
+      ]
+    },
+    "R04": {
+      "n": 30,
+      "exact_agreement_count": 26,
+      "exact_agreement_pct": 86.7,
+      "unknown_disagreement_count": 4,
+      "unknown_disagreement_pct": 13.3,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": true,
+      "primary_values": {
+        "YES": 26,
+        "UNKNOWN": 4
+      },
+      "second_values": {
+        "YES": 22,
+        "UNKNOWN": 8
+      },
+      "disagreements": [
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6885",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18873",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R02.commitment_exists": {
+      "n": 30,
+      "exact_agreement_count": 24,
+      "exact_agreement_pct": 80.0,
+      "unknown_disagreement_count": 0,
+      "unknown_disagreement_pct": 0.0,
+      "major_semantic_disagreement_count": 6,
+      "major_semantic_disagreement_pct": 20.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 27,
+        "NO": 3
+      },
+      "second_values": {
+        "YES": 23,
+        "NO": 7
+      },
+      "disagreements": [
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "NO",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18745",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "NO"
+        }
+      ]
+    },
+    "R02.customer_owner": {
+      "n": 30,
+      "exact_agreement_count": 22,
+      "exact_agreement_pct": 73.3,
+      "unknown_disagreement_count": 3,
+      "unknown_disagreement_pct": 10.0,
+      "major_semantic_disagreement_count": 5,
+      "major_semantic_disagreement_pct": 16.7,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 27,
+        "UNKNOWN": 3
+      },
+      "second_values": {
+        "YES": 23,
+        "NO": 7
+      },
+      "disagreements": [
+        {
+          "deal_id": "5017",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18745",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "NO"
+        }
+      ]
+    },
+    "R02.promised_action": {
+      "n": 30,
+      "exact_agreement_count": 22,
+      "exact_agreement_pct": 73.3,
+      "unknown_disagreement_count": 3,
+      "unknown_disagreement_pct": 10.0,
+      "major_semantic_disagreement_count": 5,
+      "major_semantic_disagreement_pct": 16.7,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 27,
+        "UNKNOWN": 3
+      },
+      "second_values": {
+        "YES": 23,
+        "NO": 7
+      },
+      "disagreements": [
+        {
+          "deal_id": "5017",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18745",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "NO"
+        }
+      ]
+    },
+    "R02.due_at_or_expected_result": {
+      "n": 30,
+      "exact_agreement_count": 22,
+      "exact_agreement_pct": 73.3,
+      "unknown_disagreement_count": 3,
+      "unknown_disagreement_pct": 10.0,
+      "major_semantic_disagreement_count": 5,
+      "major_semantic_disagreement_pct": 16.7,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 27,
+        "UNKNOWN": 3
+      },
+      "second_values": {
+        "YES": 23,
+        "NO": 7
+      },
+      "disagreements": [
+        {
+          "deal_id": "5017",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18745",
+          "snapshot": "D3",
+          "primary": "YES",
+          "second": "NO"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "NO"
+        }
+      ]
+    },
+    "R02.reported_completion": {
+      "n": 30,
+      "exact_agreement_count": 18,
+      "exact_agreement_pct": 60.0,
+      "unknown_disagreement_count": 12,
+      "unknown_disagreement_pct": 40.0,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 19,
+        "UNKNOWN": 11
+      },
+      "second_values": {
+        "YES": 9,
+        "UNKNOWN": 21
+      },
+      "disagreements": [
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "7191",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18733",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        },
+        {
+          "deal_id": "18747",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6885",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "7243",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18765",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18765",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18731",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R02.reported_reschedule": {
+      "n": 30,
+      "exact_agreement_count": 25,
+      "exact_agreement_pct": 83.3,
+      "unknown_disagreement_count": 5,
+      "unknown_disagreement_pct": 16.7,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 9,
+        "UNKNOWN": 21
+      },
+      "second_values": {
+        "UNKNOWN": 26,
+        "YES": 4
+      },
+      "disagreements": [
+        {
+          "deal_id": "7243",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "7191",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18929",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R02.replacement_commitment": {
+      "n": 30,
+      "exact_agreement_count": 24,
+      "exact_agreement_pct": 80.0,
+      "unknown_disagreement_count": 6,
+      "unknown_disagreement_pct": 20.0,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": false,
+      "primary_values": {
+        "YES": 10,
+        "UNKNOWN": 20
+      },
+      "second_values": {
+        "UNKNOWN": 26,
+        "YES": 4
+      },
+      "disagreements": [
+        {
+          "deal_id": "7243",
+          "snapshot": "T50",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "7191",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18733",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18929",
+          "snapshot": "D7",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R02.explicit_miss": {
+      "n": 30,
+      "exact_agreement_count": 27,
+      "exact_agreement_pct": 90.0,
+      "unknown_disagreement_count": 3,
+      "unknown_disagreement_pct": 10.0,
+      "major_semantic_disagreement_count": 0,
+      "major_semantic_disagreement_pct": 0.0,
+      "pass_threshold": true,
+      "primary_values": {
+        "UNKNOWN": 26,
+        "YES": 4
+      },
+      "second_values": {
+        "UNKNOWN": 27,
+        "YES": 3
+      },
+      "disagreements": [
+        {
+          "deal_id": "19007",
+          "snapshot": "T80",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18615",
+          "snapshot": "T25",
+          "primary": "YES",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "6983",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "YES"
+        }
+      ]
+    },
+    "R01_derived": {
+      "n": 30,
+      "exact_agreement_count": 22,
+      "exact_agreement_pct": 73.3,
+      "unknown_disagreement_count": 7,
+      "unknown_disagreement_pct": 23.3,
+      "major_semantic_disagreement_count": 1,
+      "major_semantic_disagreement_pct": 3.3,
+      "pass_threshold": null,
+      "primary_values": {
+        "UNKNOWN": 19,
+        "2": 6,
+        "1": 5
+      },
+      "second_values": {
+        "UNKNOWN": 14,
+        "0": 2,
+        "2": 6,
+        "1": 8
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "0"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "2"
+        },
+        {
+          "deal_id": "18635",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "1"
+        },
+        {
+          "deal_id": "18615",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "1"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "1"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "0"
+        },
+        {
+          "deal_id": "18773",
+          "snapshot": "D3",
+          "primary": "2",
+          "second": "1"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "1",
+          "second": "UNKNOWN"
+        }
+      ]
+    },
+    "R02_derived": {
+      "n": 30,
+      "exact_agreement_count": 14,
+      "exact_agreement_pct": 46.7,
+      "unknown_disagreement_count": 11,
+      "unknown_disagreement_pct": 36.7,
+      "major_semantic_disagreement_count": 5,
+      "major_semantic_disagreement_pct": 16.7,
+      "pass_threshold": null,
+      "primary_values": {
+        "UNKNOWN": 13,
+        "COMPLETED": 9,
+        "NO_COMMITMENT": 3,
+        "RESCHEDULED_WITH_CONCRETE_REPLACEMENT": 2,
+        "MISSED": 1,
+        "NOT_DUE": 2
+      },
+      "second_values": {
+        "UNKNOWN": 8,
+        "COMPLETED": 5,
+        "NOT_DUE": 8,
+        "NO_COMMITMENT": 7,
+        "RESCHEDULED_WITH_CONCRETE_REPLACEMENT": 2
+      },
+      "disagreements": [
+        {
+          "deal_id": "18629",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "COMPLETED"
+        },
+        {
+          "deal_id": "18485",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "18635",
+          "snapshot": "T25",
+          "primary": "UNKNOWN",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "18733",
+          "snapshot": "D7",
+          "primary": "UNKNOWN",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "18873",
+          "snapshot": "D7",
+          "primary": "MISSED",
+          "second": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT"
+        },
+        {
+          "deal_id": "5971",
+          "snapshot": "D3",
+          "primary": "NO_COMMITMENT",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "D7",
+          "primary": "COMPLETED",
+          "second": "NO_COMMITMENT"
+        },
+        {
+          "deal_id": "18773",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "6135",
+          "snapshot": "D7",
+          "primary": "COMPLETED",
+          "second": "NO_COMMITMENT"
+        },
+        {
+          "deal_id": "7601",
+          "snapshot": "T50",
+          "primary": "COMPLETED",
+          "second": "UNKNOWN"
+        },
+        {
+          "deal_id": "18775",
+          "snapshot": "T80",
+          "primary": "UNKNOWN",
+          "second": "NO_COMMITMENT"
+        },
+        {
+          "deal_id": "6983",
+          "snapshot": "T80",
+          "primary": "COMPLETED",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "18745",
+          "snapshot": "D3",
+          "primary": "UNKNOWN",
+          "second": "NO_COMMITMENT"
+        },
+        {
+          "deal_id": "18755",
+          "snapshot": "T25",
+          "primary": "COMPLETED",
+          "second": "NO_COMMITMENT"
+        },
+        {
+          "deal_id": "18731",
+          "snapshot": "T50",
+          "primary": "UNKNOWN",
+          "second": "NOT_DUE"
+        },
+        {
+          "deal_id": "18929",
+          "snapshot": "D7",
+          "primary": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "second": "UNKNOWN"
+        }
+      ]
+    }
+  }
+}

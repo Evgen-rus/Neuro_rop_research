@@ -1,0 +1,1109 @@
+{
+  "R04_yes_reversals": [],
+  "R01_same_gate_yes_to_no": [
+    [
+      "18731",
+      "T50",
+      "T80",
+      "R01c"
+    ]
+  ],
+  "R03_same_task_sufficiency_drop": [],
+  "R02_states": {
+    "UNKNOWN": 53,
+    "NOT_DUE": 9,
+    "MISSED": 6,
+    "COMPLETED": 28,
+    "RESCHEDULED_WITH_CONCRETE_REPLACEMENT": 12,
+    "NO_COMMITMENT": 7
+  },
+  "R01_levels": {
+    "2": 29,
+    "UNKNOWN": 64,
+    "1": 16,
+    "0": 6
+  },
+  "sequences": [
+    {
+      "deal_id": "18485",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "T50",
+        "D7",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "NOT_DUE",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "NOT_DUE",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18615",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "2",
+          "R02": "MISSED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "MISSED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18629",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "0",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "0",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "0",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18635",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "D7",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18731",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "1",
+          "R02": "MISSED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18733",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18745",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18747",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18755",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "D7",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18765",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "1",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18773",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "MISSED",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "0",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "0",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "UNKNOWN",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18775",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "D7",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "1",
+          "R02": "NOT_DUE",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18873",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "MISSED",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "MISSED",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "18929",
+      "chronological_order": [
+        "T25",
+        "D3",
+        "T50",
+        "T80",
+        "D7"
+      ],
+      "states": [
+        {
+          "snapshot": "T25",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D3",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "deal_id": "19007",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "D7",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "5017",
+      "chronological_order": [
+        "D3",
+        "T25",
+        "D7",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "NOT_DUE",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "5971",
+      "chronological_order": [
+        "T25",
+        "D3",
+        "T50",
+        "D7",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "T25",
+          "R01": "2",
+          "R02": "NO_COMMITMENT",
+          "R03": "UNKNOWN",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "NO_COMMITMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "UNKNOWN",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "UNKNOWN",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "UNKNOWN",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "6135",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "1",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "0",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "6885",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "UNKNOWN",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "6983",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "7191",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "1",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "7243",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "INSUFFICIENT",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "2",
+          "R02": "RESCHEDULED_WITH_CONCRETE_REPLACEMENT",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    },
+    {
+      "deal_id": "7601",
+      "chronological_order": [
+        "D3",
+        "D7",
+        "T25",
+        "T50",
+        "T80"
+      ],
+      "states": [
+        {
+          "snapshot": "D3",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "D7",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "UNKNOWN"
+        },
+        {
+          "snapshot": "T25",
+          "R01": "UNKNOWN",
+          "R02": "UNKNOWN",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T50",
+          "R01": "1",
+          "R02": "COMPLETED",
+          "R03": "PARTIAL",
+          "R04": "YES"
+        },
+        {
+          "snapshot": "T80",
+          "R01": "2",
+          "R02": "UNKNOWN",
+          "R03": "SUFFICIENT_FOR_CURRENT_ASSESSMENT",
+          "R04": "YES"
+        }
+      ]
+    }
+  ]
+}

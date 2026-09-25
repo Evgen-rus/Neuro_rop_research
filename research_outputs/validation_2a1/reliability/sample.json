@@ -1,0 +1,187 @@
+{
+  "seed": 20260926,
+  "method": "30 unique deal-snapshot pairs; all 23 deals; 6 of each snapshot kind",
+  "contract_sha256": "00c043c8ea6821649d9611eb19982e2383306fc237580fc8ba3e661edf38f0b6",
+  "snapshots": [
+    {
+      "deal_id": "7243",
+      "snapshot": "T50",
+      "file": "snapshots/7243_T50.json",
+      "cutoff": "2026-06-12T23:29:00+03:00"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "T25",
+      "file": "snapshots/18629_T25.json",
+      "cutoff": "2026-07-15T22:48:52+03:00"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "T80",
+      "file": "snapshots/18485_T80.json",
+      "cutoff": "2026-06-25T23:26:52+03:00"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "T25",
+      "file": "snapshots/18635_T25.json",
+      "cutoff": "2026-07-11T13:08:48+03:00"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "T80",
+      "file": "snapshots/19007_T80.json",
+      "cutoff": "2026-09-18T17:03:56+03:00"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "D3",
+      "file": "snapshots/18629_D3.json",
+      "cutoff": "2026-07-10T10:48:52+03:00"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "T25",
+      "file": "snapshots/7191_T25.json",
+      "cutoff": "2026-03-13T22:07:11+03:00"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "T25",
+      "file": "snapshots/18615_T25.json",
+      "cutoff": "2026-07-20T10:24:26+03:00"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "D7",
+      "file": "snapshots/18733_D7.json",
+      "cutoff": "2026-07-30T11:22:03+03:00"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "T80",
+      "file": "snapshots/18747_T80.json",
+      "cutoff": "2026-08-26T19:11:54+03:00"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "T50",
+      "file": "snapshots/6885_T50.json",
+      "cutoff": "2026-02-10T09:58:15+03:00"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "D3",
+      "file": "snapshots/5017_D3.json",
+      "cutoff": "2025-08-08T16:00:47+03:00"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "T25",
+      "file": "snapshots/7243_T25.json",
+      "cutoff": "2026-04-26T17:29:00+03:00"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "D7",
+      "file": "snapshots/18873_D7.json",
+      "cutoff": "2026-08-21T09:09:59+03:00"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "D3",
+      "file": "snapshots/5971_D3.json",
+      "cutoff": "2025-10-13T15:43:38+03:00"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "T50",
+      "file": "snapshots/5017_T50.json",
+      "cutoff": "2025-08-17T04:00:47+03:00"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "D7",
+      "file": "snapshots/18755_D7.json",
+      "cutoff": "2026-08-03T16:50:32+03:00"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "D3",
+      "file": "snapshots/18773_D3.json",
+      "cutoff": "2026-07-31T16:06:59+03:00"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "T80",
+      "file": "snapshots/18765_T80.json",
+      "cutoff": "2026-09-12T02:31:47+03:00"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "D7",
+      "file": "snapshots/6135_D7.json",
+      "cutoff": "2025-10-24T10:22:08+03:00"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "D7",
+      "file": "snapshots/18765_D7.json",
+      "cutoff": "2026-08-04T12:07:47+03:00"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "D3",
+      "file": "snapshots/18775_D3.json",
+      "cutoff": "2026-08-01T10:19:30+03:00"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "T50",
+      "file": "snapshots/7601_T50.json",
+      "cutoff": "2026-06-23T13:33:19+03:00"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "T80",
+      "file": "snapshots/18775_T80.json",
+      "cutoff": "2026-08-16T00:43:30+03:00"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "T80",
+      "file": "snapshots/6983_T80.json",
+      "cutoff": "2026-04-23T01:23:51+03:00"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "D3",
+      "file": "snapshots/18745_D3.json",
+      "cutoff": "2026-07-27T10:30:23+03:00"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "T50",
+      "file": "snapshots/18873_T50.json",
+      "cutoff": "2026-09-02T21:09:59+03:00"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "T25",
+      "file": "snapshots/18755_T25.json",
+      "cutoff": "2026-07-31T10:50:32+03:00"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "T50",
+      "file": "snapshots/18731_T50.json",
+      "cutoff": "2026-08-08T21:21:34+03:00"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "D7",
+      "file": "snapshots/18929_D7.json",
+      "cutoff": "2026-08-31T15:21:44+03:00"
+    }
+  ]
+}

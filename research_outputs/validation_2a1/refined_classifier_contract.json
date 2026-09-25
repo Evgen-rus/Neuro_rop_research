@@ -1,0 +1,117 @@
+{
+  "version": "validation_2a1_frozen_v1",
+  "scope": "Blind snapshot labelability of R01a, R01b, R01c, R02 extraction, R03 and R04. No deal result or discovery evidence is input.",
+  "general_rules": [
+    "Use only events available in the supplied snapshot at its cutoff.",
+    "UNKNOWN means the snapshot lacks enough relevant conversation to distinguish YES from NO or to identify the active task or gate.",
+    "A negative answer requires the specified substantive discussion; silence is not NO.",
+    "Cite exact event timestamp, event_type and event_id for every positive or negative answer when available.",
+    "Date-only worklogs and summaries containing later updates must not supply facts from after cutoff.",
+    "Do not combine facts from different decision gates or different technical tasks."
+  ],
+  "classifiers": [
+    {
+      "id": "R01a", "name": "Decision role known", "mode": "CURRENT_STATE", "values": ["YES", "NO", "UNKNOWN"],
+      "question": "Is the customer-side role responsible for the current internal decision gate explicitly identified?",
+      "yes": "The responsible customer-side role is explicitly identified for the current gate.",
+      "no": "The current decision process was substantively discussed, but the responsible role was not identified.",
+      "unknown": "No sufficient discussion of the current internal decision process is visible.",
+      "gate_rule": "R01a, R01b and R01c must refer to the same current decision gate at this snapshot; return a shared gate_key or null."
+    },
+    {
+      "id": "R01b", "name": "Decision action known", "mode": "CURRENT_STATE", "values": ["YES", "NO", "UNKNOWN"],
+      "question": "Is there a concrete action that the identified customer-side decision role is expected to perform?",
+      "yes": "The identified role is expected to perform a concrete action, such as review specified materials or approve a named step.",
+      "no": "The current decision process was substantively discussed, but no concrete customer-side decision action was specified; a generic look, think or decide is insufficient.",
+      "unknown": "No sufficient discussion of the current internal decision process is visible.",
+      "gate_rule": "Do not borrow an action from another gate or from the seller's task."
+    },
+    {
+      "id": "R01c", "name": "Decision checkpoint known", "mode": "CURRENT_STATE", "values": ["YES", "NO", "UNKNOWN"],
+      "question": "Is there a bounded checkpoint for that action: a date, deadline, event, or explicitly expected result?",
+      "yes": "The current gate's identified action has a bounded date, deadline, event or expected result.",
+      "no": "The current decision process was substantively discussed, but no bounded checkpoint for a customer-side decision action was given.",
+      "unknown": "No sufficient discussion of the current internal decision process is visible.",
+      "gate_rule": "A callback scheduled by the seller is not the customer's decision checkpoint unless linked explicitly."
+    },
+    {
+      "id": "R03", "name": "Inputs sufficient for active technical task", "mode": "CURRENT_STATE", "values": ["UNKNOWN", "INSUFFICIENT", "PARTIAL", "SUFFICIENT_FOR_CURRENT_ASSESSMENT"],
+      "question": "Are customer-provided inputs sufficient to perform the current stated technical assessment without requesting critically missing information?",
+      "unknown": "The current technical task is not identified, or its required client inputs cannot be assessed from the snapshot.",
+      "insufficient": "The task is identified, but required client data are absent or unusable.",
+      "partial": "Some relevant client data are available, but critical information remains missing for the current assessment.",
+      "sufficient": "The received client data allow the current specified technical assessment without another critical information request.",
+      "task_rule": "Return a concise active_task; files or photos alone do not establish sufficiency. Re-evaluate if the active task changes."
+    },
+    {
+      "id": "R04", "name": "Checkable customer technical content", "mode": "CUMULATIVE_FACT", "values": ["YES", "NO", "UNKNOWN"],
+      "question": "Has the customer expressed an application-specific technical requirement, constraint, or question that can be evaluated, tested, calculated, or answered against the proposed solution?",
+      "yes": "A customer-stated, application-specific and checkable technical requirement, constraint or question has appeared by cutoff.",
+      "no": "Substantive technical discussion is visible by cutoff, but it contains no customer-stated checkable requirement, constraint or question.",
+      "unknown": "Too little substantive technical discussion is visible to assess this.",
+      "temporal_rule": "Once YES, remain YES at later cumulative snapshots of the same deal; cite the earliest qualifying event."
+    }
+  ],
+  "r01_derived": {
+    "mode": "CURRENT_STATE", "values": ["0", "1", "2", "UNKNOWN"],
+    "code_rule": "2 if R01a/b/c are all YES for one shared current gate; 1 if at least one is YES but not all; 0 if all are NO after substantive decision-process discussion; otherwise UNKNOWN."
+  },
+  "r02_extraction": {
+    "mode": "CURRENT_STATE_FROM_EVENT_HISTORY",
+    "per_snapshot": {
+      "absence_status": ["NO_COMMITMENT", "UNKNOWN"],
+      "commitments": [
+        {
+          "commitment_id": "stable source event_id plus local sequence if needed",
+          "agreed_at": "timestamp of explicit agreement",
+          "owner": "customer role or null",
+          "action": "concrete promised action or null",
+          "due_at": "ISO timestamp when unambiguous, otherwise null",
+          "expected_result": "bounded expected result/event or null",
+          "replaces_id": "prior commitment_id or null",
+          "completion_evidence_at": "timestamp or null",
+          "reschedule_evidence_at": "timestamp or null",
+          "explicit_missed_at": "timestamp or null; requires explicit evidence of a missed commitment, never inferred from silence",
+          "evidence": "list of snapshot event pointers"
+        }
+      ],
+      "component_values": {
+        "commitment_exists": ["YES", "NO", "UNKNOWN"],
+        "customer_owner": ["YES", "NO", "UNKNOWN"],
+        "promised_action": ["YES", "NO", "UNKNOWN"],
+        "due_at_or_expected_result": ["YES", "NO", "UNKNOWN"],
+        "reported_completion": ["YES", "NO", "UNKNOWN"],
+        "reported_reschedule": ["YES", "NO", "UNKNOWN"],
+        "replacement_commitment": ["YES", "NO", "UNKNOWN"],
+        "explicit_miss": ["YES", "NO", "UNKNOWN"]
+      }
+    },
+    "semantic_rules": [
+      "Extract each concrete customer-owned commitment from an event; do not infer one from a seller task.",
+      "NO_COMMITMENT requires a substantive discussion in which no concrete customer commitment was agreed; otherwise use UNKNOWN.",
+      "NO for completion, reschedule or missed status requires an explicit negative statement; silence is UNKNOWN.",
+      "A replacement is concrete only with a customer owner, action and bounded due time or expected result.",
+      "Use event timestamps at or before cutoff, and do not read later snapshot events."
+    ]
+  },
+  "r02_derived": {
+    "mode": "CURRENT_STATE_FROM_EVENT_HISTORY",
+    "values": ["NO_COMMITMENT", "NOT_DUE", "COMPLETED", "RESCHEDULED_WITH_CONCRETE_REPLACEMENT", "MISSED", "REPEATEDLY_MISSED", "UNKNOWN"],
+    "code_rules": [
+      "If no commitments, use NO_COMMITMENT only when absence_status is NO_COMMITMENT; otherwise UNKNOWN.",
+      "Use the latest active customer commitment and follow explicit replaces_id links; preserve prior commitments in history.",
+      "COMPLETED requires explicit completion evidence by cutoff.",
+      "RESCHEDULED_WITH_CONCRETE_REPLACEMENT requires explicit reschedule evidence and a concrete replacement commitment.",
+      "MISSED requires explicit missed evidence by cutoff; a passed due_at without completion record is UNKNOWN.",
+      "REPEATEDLY_MISSED requires at least two explicitly missed concrete commitments without normal concrete replacement.",
+      "NOT_DUE requires a bounded due_at later than cutoff and no completed/rescheduled/missed evidence; a date-only due date lasts through the local end of that date.",
+      "If the applicable state cannot be resolved from extracted facts, return UNKNOWN."
+    ]
+  },
+  "label_record": {
+    "deal_id": "string", "snapshot": "D3 | D7 | T25 | T50 | T80", "cutoff": "ISO timestamp",
+    "r01_gate_key": "concise shared current gate key or null",
+    "labels": "R01a, R01b, R01c, R03, R04 each with id, value, confidence high|medium|low, evidence [{timestamp,event_type,event_id,short_paraphrase}], reason_short; R03 additionally active_task or null",
+    "r02": "absence_status, commitments array, component_values object, component_evidence object keyed by component name, reason_short"
+  }
+}
