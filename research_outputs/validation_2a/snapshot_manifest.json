@@ -1,0 +1,942 @@
+{
+  "version": "validation_2a",
+  "cutoff_method": "D3/D7: created_at plus 3/7 days. T25/T50/T80: created_at plus 25/50/80% of neutral.life_days (integer-day precision). D7 beyond life_days uses recorded pre-decision events within its window; terminal stage, explicit terminal-decision events, and worklogs with later-dated embedded updates are removed.",
+  "blind_content_limits": {
+    "18929": "2026-08-31T13:37:46+03:00"
+  },
+  "excluded_embedded_future_events": [
+    [
+      "18773",
+      "2026-07-28T16:10:00+03:00",
+      "source_ids=2942251"
+    ],
+    [
+      "6135",
+      "2025-10-17T10:24:29+03:00",
+      "source_ids=2339925"
+    ]
+  ],
+  "snapshots": [
+    {
+      "deal_id": "5017",
+      "snapshot": "D3",
+      "cutoff": "2025-08-08T16:00:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 16,
+      "file": "snapshots/5017_D3.json"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "D7",
+      "cutoff": "2025-08-12T16:00:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 20,
+      "file": "snapshots/5017_D7.json"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "T25",
+      "cutoff": "2025-08-11T10:00:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 17,
+      "file": "snapshots/5017_T25.json"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "T50",
+      "cutoff": "2025-08-17T04:00:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 20,
+      "file": "snapshots/5017_T50.json"
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "T80",
+      "cutoff": "2025-08-24T01:36:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 55,
+      "file": "snapshots/5017_T80.json"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "D3",
+      "cutoff": "2025-10-13T15:43:38+03:00",
+      "history_status": "partial_history",
+      "event_count": 11,
+      "file": "snapshots/5971_D3.json"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "D7",
+      "cutoff": "2025-10-17T15:43:38+03:00",
+      "history_status": "partial_history",
+      "event_count": 49,
+      "file": "snapshots/5971_D7.json"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "T25",
+      "cutoff": "2025-10-13T03:43:38+03:00",
+      "history_status": "partial_history",
+      "event_count": 4,
+      "file": "snapshots/5971_T25.json"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "T50",
+      "cutoff": "2025-10-15T15:43:38+03:00",
+      "history_status": "partial_history",
+      "event_count": 34,
+      "file": "snapshots/5971_T50.json"
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "T80",
+      "cutoff": "2025-10-18T15:43:38+03:00",
+      "history_status": "partial_history",
+      "event_count": 54,
+      "file": "snapshots/5971_T80.json"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "D3",
+      "cutoff": "2025-10-20T10:22:08+03:00",
+      "history_status": "partial_history",
+      "event_count": 2,
+      "file": "snapshots/6135_D3.json"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "D7",
+      "cutoff": "2025-10-24T10:22:08+03:00",
+      "history_status": "partial_history",
+      "event_count": 10,
+      "file": "snapshots/6135_D7.json"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "T25",
+      "cutoff": "2025-11-04T16:22:08+03:00",
+      "history_status": "partial_history",
+      "event_count": 21,
+      "file": "snapshots/6135_T25.json"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "T50",
+      "cutoff": "2025-11-22T22:22:08+03:00",
+      "history_status": "partial_history",
+      "event_count": 29,
+      "file": "snapshots/6135_T50.json"
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "T80",
+      "cutoff": "2025-12-14T19:58:08+03:00",
+      "history_status": "partial_history",
+      "event_count": 40,
+      "file": "snapshots/6135_T80.json"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "D3",
+      "cutoff": "2026-01-30T09:58:15+03:00",
+      "history_status": "partial_history",
+      "event_count": 9,
+      "file": "snapshots/6885_D3.json"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "D7",
+      "cutoff": "2026-02-03T09:58:15+03:00",
+      "history_status": "partial_history",
+      "event_count": 15,
+      "file": "snapshots/6885_D7.json"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "T25",
+      "cutoff": "2026-02-03T09:58:15+03:00",
+      "history_status": "partial_history",
+      "event_count": 15,
+      "file": "snapshots/6885_T25.json"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "T50",
+      "cutoff": "2026-02-10T09:58:15+03:00",
+      "history_status": "partial_history",
+      "event_count": 32,
+      "file": "snapshots/6885_T50.json"
+    },
+    {
+      "deal_id": "6885",
+      "snapshot": "T80",
+      "cutoff": "2026-02-18T19:34:15+03:00",
+      "history_status": "partial_history",
+      "event_count": 55,
+      "file": "snapshots/6885_T80.json"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "D3",
+      "cutoff": "2026-02-06T15:47:51+03:00",
+      "history_status": "partial_history",
+      "event_count": 9,
+      "file": "snapshots/6983_D3.json"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "D7",
+      "cutoff": "2026-02-10T15:47:51+03:00",
+      "history_status": "partial_history",
+      "event_count": 16,
+      "file": "snapshots/6983_D7.json"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "T25",
+      "cutoff": "2026-02-28T03:47:51+03:00",
+      "history_status": "partial_history",
+      "event_count": 41,
+      "file": "snapshots/6983_T25.json"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "T50",
+      "cutoff": "2026-03-24T15:47:51+03:00",
+      "history_status": "partial_history",
+      "event_count": 82,
+      "file": "snapshots/6983_T50.json"
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "T80",
+      "cutoff": "2026-04-23T01:23:51+03:00",
+      "history_status": "partial_history",
+      "event_count": 128,
+      "file": "snapshots/6983_T80.json"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "D3",
+      "cutoff": "2026-03-06T16:07:11+03:00",
+      "history_status": "partial_history",
+      "event_count": 17,
+      "file": "snapshots/7191_D3.json"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "D7",
+      "cutoff": "2026-03-10T16:07:11+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/7191_D7.json"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "T25",
+      "cutoff": "2026-03-13T22:07:11+03:00",
+      "history_status": "partial_history",
+      "event_count": 34,
+      "file": "snapshots/7191_T25.json"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "T50",
+      "cutoff": "2026-03-24T04:07:11+03:00",
+      "history_status": "partial_history",
+      "event_count": 70,
+      "file": "snapshots/7191_T50.json"
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "T80",
+      "cutoff": "2026-04-05T11:19:11+03:00",
+      "history_status": "partial_history",
+      "event_count": 91,
+      "file": "snapshots/7191_T80.json"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "D3",
+      "cutoff": "2026-03-13T11:29:00+03:00",
+      "history_status": "partial_history",
+      "event_count": 4,
+      "file": "snapshots/7243_D3.json"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "D7",
+      "cutoff": "2026-03-17T11:29:00+03:00",
+      "history_status": "partial_history",
+      "event_count": 9,
+      "file": "snapshots/7243_D7.json"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "T25",
+      "cutoff": "2026-04-26T17:29:00+03:00",
+      "history_status": "partial_history",
+      "event_count": 57,
+      "file": "snapshots/7243_T25.json"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "T50",
+      "cutoff": "2026-06-12T23:29:00+03:00",
+      "history_status": "partial_history",
+      "event_count": 147,
+      "file": "snapshots/7243_T50.json"
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "T80",
+      "cutoff": "2026-08-08T16:17:00+03:00",
+      "history_status": "partial_history",
+      "event_count": 209,
+      "file": "snapshots/7243_T80.json"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "D3",
+      "cutoff": "2026-04-30T13:33:19+03:00",
+      "history_status": "partial_history",
+      "event_count": 14,
+      "file": "snapshots/7601_D3.json"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "D7",
+      "cutoff": "2026-05-04T13:33:19+03:00",
+      "history_status": "partial_history",
+      "event_count": 16,
+      "file": "snapshots/7601_D7.json"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "T25",
+      "cutoff": "2026-05-26T01:33:19+03:00",
+      "history_status": "partial_history",
+      "event_count": 67,
+      "file": "snapshots/7601_T25.json"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "T50",
+      "cutoff": "2026-06-23T13:33:19+03:00",
+      "history_status": "partial_history",
+      "event_count": 113,
+      "file": "snapshots/7601_T50.json"
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "T80",
+      "cutoff": "2026-07-27T18:21:19+03:00",
+      "history_status": "partial_history",
+      "event_count": 133,
+      "file": "snapshots/7601_T80.json"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "D3",
+      "cutoff": "2026-06-18T13:50:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 14,
+      "file": "snapshots/18485_D3.json"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "D7",
+      "cutoff": "2026-06-22T13:50:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 21,
+      "file": "snapshots/18485_D7.json"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "T25",
+      "cutoff": "2026-06-18T19:50:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 14,
+      "file": "snapshots/18485_T25.json"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "T50",
+      "cutoff": "2026-06-22T01:50:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 20,
+      "file": "snapshots/18485_T50.json"
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "T80",
+      "cutoff": "2026-06-25T23:26:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 46,
+      "file": "snapshots/18485_T80.json"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "D3",
+      "cutoff": "2026-07-09T10:24:26+03:00",
+      "history_status": "partial_history",
+      "event_count": 15,
+      "file": "snapshots/18615_D3.json"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "D7",
+      "cutoff": "2026-07-13T10:24:26+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18615_D7.json"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "T25",
+      "cutoff": "2026-07-20T10:24:26+03:00",
+      "history_status": "partial_history",
+      "event_count": 49,
+      "file": "snapshots/18615_T25.json"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "T50",
+      "cutoff": "2026-08-03T10:24:26+03:00",
+      "history_status": "partial_history",
+      "event_count": 141,
+      "file": "snapshots/18615_T50.json"
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "T80",
+      "cutoff": "2026-08-20T05:36:26+03:00",
+      "history_status": "partial_history",
+      "event_count": 297,
+      "file": "snapshots/18615_T80.json"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "D3",
+      "cutoff": "2026-07-10T10:48:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 21,
+      "file": "snapshots/18629_D3.json"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "D7",
+      "cutoff": "2026-07-14T10:48:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 47,
+      "file": "snapshots/18629_D7.json"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "T25",
+      "cutoff": "2026-07-15T22:48:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 51,
+      "file": "snapshots/18629_T25.json"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "T50",
+      "cutoff": "2026-07-24T10:48:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 81,
+      "file": "snapshots/18629_T50.json"
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "T80",
+      "cutoff": "2026-08-03T15:36:52+03:00",
+      "history_status": "partial_history",
+      "event_count": 88,
+      "file": "snapshots/18629_T80.json"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "D3",
+      "cutoff": "2026-07-10T13:08:48+03:00",
+      "history_status": "partial_history",
+      "event_count": 28,
+      "file": "snapshots/18635_D3.json"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "D7",
+      "cutoff": "2026-07-14T13:08:48+03:00",
+      "history_status": "partial_history",
+      "event_count": 36,
+      "file": "snapshots/18635_D7.json"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "T25",
+      "cutoff": "2026-07-11T13:08:48+03:00",
+      "history_status": "partial_history",
+      "event_count": 31,
+      "file": "snapshots/18635_T25.json"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "T50",
+      "cutoff": "2026-07-15T13:08:48+03:00",
+      "history_status": "partial_history",
+      "event_count": 44,
+      "file": "snapshots/18635_T50.json"
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "T80",
+      "cutoff": "2026-07-20T08:20:48+03:00",
+      "history_status": "partial_history",
+      "event_count": 62,
+      "file": "snapshots/18635_T80.json"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "D3",
+      "cutoff": "2026-07-26T09:21:34+03:00",
+      "history_status": "partial_history",
+      "event_count": 7,
+      "file": "snapshots/18731_D3.json"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "D7",
+      "cutoff": "2026-07-30T09:21:34+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18731_D7.json"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "T25",
+      "cutoff": "2026-07-31T15:21:34+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18731_T25.json"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "T50",
+      "cutoff": "2026-08-08T21:21:34+03:00",
+      "history_status": "partial_history",
+      "event_count": 41,
+      "file": "snapshots/18731_T50.json"
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "T80",
+      "cutoff": "2026-08-18T18:57:34+03:00",
+      "history_status": "partial_history",
+      "event_count": 60,
+      "file": "snapshots/18731_T80.json"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "D3",
+      "cutoff": "2026-07-26T11:22:03+03:00",
+      "history_status": "partial_history",
+      "event_count": 10,
+      "file": "snapshots/18733_D3.json"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "D7",
+      "cutoff": "2026-07-30T11:22:03+03:00",
+      "history_status": "partial_history",
+      "event_count": 42,
+      "file": "snapshots/18733_D7.json"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "T25",
+      "cutoff": "2026-08-03T23:22:03+03:00",
+      "history_status": "partial_history",
+      "event_count": 53,
+      "file": "snapshots/18733_T25.json"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "T50",
+      "cutoff": "2026-08-15T11:22:03+03:00",
+      "history_status": "partial_history",
+      "event_count": 125,
+      "file": "snapshots/18733_T50.json"
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "T80",
+      "cutoff": "2026-08-29T06:34:03+03:00",
+      "history_status": "partial_history",
+      "event_count": 182,
+      "file": "snapshots/18733_T80.json"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "D3",
+      "cutoff": "2026-07-27T10:30:23+03:00",
+      "history_status": "partial_history",
+      "event_count": 12,
+      "file": "snapshots/18745_D3.json"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "D7",
+      "cutoff": "2026-07-31T10:30:23+03:00",
+      "history_status": "partial_history",
+      "event_count": 30,
+      "file": "snapshots/18745_D7.json"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "T25",
+      "cutoff": "2026-08-01T22:30:23+03:00",
+      "history_status": "partial_history",
+      "event_count": 31,
+      "file": "snapshots/18745_T25.json"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "T50",
+      "cutoff": "2026-08-10T10:30:23+03:00",
+      "history_status": "partial_history",
+      "event_count": 67,
+      "file": "snapshots/18745_T50.json"
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "T80",
+      "cutoff": "2026-08-20T15:18:23+03:00",
+      "history_status": "partial_history",
+      "event_count": 86,
+      "file": "snapshots/18745_T80.json"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "D3",
+      "cutoff": "2026-07-30T09:35:54+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18747_D3.json"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "D7",
+      "cutoff": "2026-08-03T09:35:54+03:00",
+      "history_status": "partial_history",
+      "event_count": 27,
+      "file": "snapshots/18747_D7.json"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "T25",
+      "cutoff": "2026-08-05T21:35:54+03:00",
+      "history_status": "partial_history",
+      "event_count": 46,
+      "file": "snapshots/18747_T25.json"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "T50",
+      "cutoff": "2026-08-15T09:35:54+03:00",
+      "history_status": "partial_history",
+      "event_count": 68,
+      "file": "snapshots/18747_T50.json"
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "T80",
+      "cutoff": "2026-08-26T19:11:54+03:00",
+      "history_status": "partial_history",
+      "event_count": 82,
+      "file": "snapshots/18747_T80.json"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "D3",
+      "cutoff": "2026-07-30T16:50:32+03:00",
+      "history_status": "partial_history",
+      "event_count": 35,
+      "file": "snapshots/18755_D3.json"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "D7",
+      "cutoff": "2026-08-03T16:50:32+03:00",
+      "history_status": "partial_history",
+      "event_count": 44,
+      "file": "snapshots/18755_D7.json"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "T25",
+      "cutoff": "2026-07-31T10:50:32+03:00",
+      "history_status": "partial_history",
+      "event_count": 43,
+      "file": "snapshots/18755_T25.json"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "T50",
+      "cutoff": "2026-08-04T04:50:32+03:00",
+      "history_status": "partial_history",
+      "event_count": 44,
+      "file": "snapshots/18755_T50.json"
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "T80",
+      "cutoff": "2026-08-08T16:50:32+03:00",
+      "history_status": "partial_history",
+      "event_count": 44,
+      "file": "snapshots/18755_T80.json"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "D3",
+      "cutoff": "2026-07-31T12:07:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 15,
+      "file": "snapshots/18765_D3.json"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "D7",
+      "cutoff": "2026-08-04T12:07:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 21,
+      "file": "snapshots/18765_D7.json"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "T25",
+      "cutoff": "2026-08-11T18:07:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 44,
+      "file": "snapshots/18765_T25.json"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "T50",
+      "cutoff": "2026-08-26T00:07:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 57,
+      "file": "snapshots/18765_T50.json"
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "T80",
+      "cutoff": "2026-09-12T02:31:47+03:00",
+      "history_status": "partial_history",
+      "event_count": 60,
+      "file": "snapshots/18765_T80.json"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "D3",
+      "cutoff": "2026-07-31T16:06:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 12,
+      "file": "snapshots/18773_D3.json"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "D7",
+      "cutoff": "2026-08-04T16:06:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18773_D7.json"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "T25",
+      "cutoff": "2026-08-07T22:06:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 27,
+      "file": "snapshots/18773_T25.json"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "T50",
+      "cutoff": "2026-08-18T04:06:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 37,
+      "file": "snapshots/18773_T50.json"
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "T80",
+      "cutoff": "2026-08-30T11:18:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 46,
+      "file": "snapshots/18773_T80.json"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "D3",
+      "cutoff": "2026-08-01T10:19:30+03:00",
+      "history_status": "partial_history",
+      "event_count": 19,
+      "file": "snapshots/18775_D3.json"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "D7",
+      "cutoff": "2026-08-05T10:19:30+03:00",
+      "history_status": "partial_history",
+      "event_count": 29,
+      "file": "snapshots/18775_D7.json"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "T25",
+      "cutoff": "2026-08-03T22:19:30+03:00",
+      "history_status": "partial_history",
+      "event_count": 25,
+      "file": "snapshots/18775_T25.json"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "T50",
+      "cutoff": "2026-08-09T10:19:30+03:00",
+      "history_status": "partial_history",
+      "event_count": 35,
+      "file": "snapshots/18775_T50.json"
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "T80",
+      "cutoff": "2026-08-16T00:43:30+03:00",
+      "history_status": "partial_history",
+      "event_count": 45,
+      "file": "snapshots/18775_T80.json"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "D3",
+      "cutoff": "2026-08-17T09:09:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 4,
+      "file": "snapshots/18873_D3.json"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "D7",
+      "cutoff": "2026-08-21T09:09:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 18,
+      "file": "snapshots/18873_D7.json"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "T25",
+      "cutoff": "2026-08-24T03:09:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 22,
+      "file": "snapshots/18873_T25.json"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "T50",
+      "cutoff": "2026-09-02T21:09:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 49,
+      "file": "snapshots/18873_T50.json"
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "T80",
+      "cutoff": "2026-09-14T13:57:59+03:00",
+      "history_status": "partial_history",
+      "event_count": 74,
+      "file": "snapshots/18873_T80.json"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "D3",
+      "cutoff": "2026-08-27T15:21:44+03:00",
+      "history_status": "partial_history",
+      "event_count": 11,
+      "file": "snapshots/18929_D3.json"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "D7",
+      "cutoff": "2026-08-31T15:21:44+03:00",
+      "history_status": "full_preoutcome_history",
+      "event_count": 14,
+      "file": "snapshots/18929_D7.json"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "T25",
+      "cutoff": "2026-08-26T03:21:44+03:00",
+      "history_status": "partial_history",
+      "event_count": 5,
+      "file": "snapshots/18929_T25.json"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "T50",
+      "cutoff": "2026-08-27T15:21:44+03:00",
+      "history_status": "partial_history",
+      "event_count": 11,
+      "file": "snapshots/18929_T50.json"
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "T80",
+      "cutoff": "2026-08-29T10:33:44+03:00",
+      "history_status": "partial_history",
+      "event_count": 13,
+      "file": "snapshots/18929_T80.json"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "D3",
+      "cutoff": "2026-09-10T12:15:56+03:00",
+      "history_status": "partial_history",
+      "event_count": 6,
+      "file": "snapshots/19007_D3.json"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "D7",
+      "cutoff": "2026-09-14T12:15:56+03:00",
+      "history_status": "partial_history",
+      "event_count": 12,
+      "file": "snapshots/19007_D7.json"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "T25",
+      "cutoff": "2026-09-11T00:15:56+03:00",
+      "history_status": "partial_history",
+      "event_count": 10,
+      "file": "snapshots/19007_T25.json"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "T50",
+      "cutoff": "2026-09-14T12:15:56+03:00",
+      "history_status": "partial_history",
+      "event_count": 12,
+      "file": "snapshots/19007_T50.json"
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "T80",
+      "cutoff": "2026-09-18T17:03:56+03:00",
+      "history_status": "partial_history",
+      "event_count": 24,
+      "file": "snapshots/19007_T80.json"
+    }
+  ],
+  "input_issues": []
+}

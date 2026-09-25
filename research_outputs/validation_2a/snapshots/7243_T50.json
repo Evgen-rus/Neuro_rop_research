@@ -1,0 +1,1185 @@
+{
+  "deal_id": "7243",
+  "snapshot": "T50",
+  "created_at": "2026-03-10T11:29:00+03:00",
+  "cutoff": "2026-06-12T23:29:00+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-03-10T15:34:08+07:00",
+      "event_type": "task",
+      "event_id": "task_id=33983",
+      "direction": null,
+      "content": "CRM: получить подписанный договор",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-12T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "постарается выслать завтра фото",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-12T13:23:11+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=539963",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал фото тары, отправил в чат для согласования КП",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-13T12:31:31+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540457",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-13T12:31:44+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540459",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-16T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "вышлет сегодня размеры, оборудование рассматривают как отдельно стоящее, готовы рассмотреть нанесение сбоку, клиент выслал размеры продукта, отправил в чат",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-16T10:40:21+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540945",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-17T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "получено предложение с китая, подготовить и выслать КП",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-18T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, выслал КП+видео, звонок завтра для обсуждения предложения",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-18T09:58:10+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=542021",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-18T11:25:43+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=542141",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-19T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "не удобно сейчас обуждать, просил созвониться в ПН в 11ч, он успеет посмотреть показать руководству и будет готов сразу задать вопросы и дать ОС",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-19T11:22:24+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=542805",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-24T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-24T11:38:06+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=545023",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-25T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "не успел посмотреть, форс мажор на производстве не было времени, просил созвониться в пятницу для обсуждения в это же время",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-25T10:10:45+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=545579",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-25T10:12:52+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=545587",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-25T10:41:43+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=545651",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-27T11:46:36+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=547149",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-27T11:47:26+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=547151",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-30T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал вопросы по КП, отправил уточнение клиенту чтобы выслать верное КП, клиент выслал информацию, отправил в чат для согласования решения, озвучено что отдельно аппликатор установить нельзя",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-31T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "отказались от предложения, запросили вариант (AS-P05), без конвейера, нанесение было снизу, запросил уточнение в чате",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-31T15:28:59+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=549291",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-01T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "запрошены точные размеры высота от пола до места нанесения этикетки, озвучит на ВА как только уточнит",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-01T11:11:25+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=549865",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-01T11:14:42+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=549875",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-03T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент вышлет информацию на почту, в ВА информация не доходит, клиент выслал размеры отправил в чат для согласования решения, согласовано предложение от производства, подготовить выслать новое КП клиенту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-03T12:52:05+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=552347",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-03T12:54:25+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=552349",
+      "direction": "outgoing",
+      "content": "Дмитрий, в продолжении разговора ожидаем получения информации по точным размерам высоты от пола до нанесения этикетки, спасибо.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-03T13:02:24+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=552361",
+      "direction": "incoming",
+      "content": "Александр, информация по высоте расположения от пола до нанесения этикетки - от 1050 мм до 1150 мм\n--\nС наилучшими пожеланиями / Best regards\nТехнолог: Поддубный Дмитрий / Technologist: Poddubnyy Dmitry\nemail: tehnolog@isodom-nsk.ru\nmobile: +79513934517\n----------------\nКому: tehnolog@isodom-nsk.ru (tehnolog@isodom-nsk.ru);\nТема: Уточнение информации;\n03.04.2026, 16:55, \"Александр Пахомов\" :\nДмитрий, в продолжении разговора ожидаем получения информации по точным размерам высоты от пола до нанесения этикетки, спасибо.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконта...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-03T13:04:47+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=552363",
+      "direction": "outgoing",
+      "content": "Дмитрий, спасибо, информацию получили, передали в тех. отдел для согласования решения станка.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Дмитрий Поддубный\nКому: Пахомов Александр\nДата: Пятница, 3 апреля 2026\n13:02:24\nТема: Re: Уточнение информации\nАлександр, информация по высоте расположения от пола до нанесения этикетки - от 1050 мм до 1150 мм\n--\nС наилучшими пожеланиями / Best regards\nТехнолог: Поддубный Дмитрий / Technologist: Poddubnyy Dmitry\nemail: tehnolog@isodom-nsk.ru\nmobile: +7...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-06T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "отправил новое КП, на телефон не ответил, звонок завтра для обсуждения решения",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-06T12:59:33+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=553231",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-06T13:00:28+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=553233",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день. Высылаем измененный вариант оборудования, ознакомьтесь, пожалуйста.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Дмитрий Поддубный\nКому: Пахомов Александр\nДата: Пятница, 3 апреля 2026\n13:02:24\nТема: Re: Уточнение информации\nАлександр, информация по высоте расположения от пола до нанесения этикетки - от 1050 мм до 1150 мм\n--\nС наилучшими пожеланиями / Best regards\nТехнолог: Поддубный Дмитрий / Technologist: Poddubnyy Dmitry\nemail: tehnolog@isodom-nsk.ru\nmobile: +79513...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-07T13:06:42+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=553965",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-07T13:07:22+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=554501",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-08T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-08T10:38:45+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=554657",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-09T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "по предложению вопросов нет посмотрели, будут обсуждать с руководителем и принимать решение во вторник, договорились созвониться во второй половине дня",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-09T10:32:07+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=555531",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на ВА",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-13T10:17:50+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=556539",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-13T10:18:21+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=556541",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-14T13:18:55+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=557205",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-15T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-15T11:54:39+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=557949",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-15T11:55:53+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=557953",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nСкажите, пожалуйста, в какое время удобно созвониться для обсуждения проекта оборудования?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Понедельник, 6 апреля 2026\n13:00:28\nТема: Re: Уточнение информации\nДмитрий, добрый день. Высылаем измененный вариант оборудования, ознакомьтесь, пожалуйста.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-15T12:49:45+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=558011",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-16T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент утвердил с тех. отделом, завтра даст ответ как продвигается согласование с фин. директором, звонить в 11ч",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-16T17:50:39+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=559011",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-17T11:23:53+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=559149",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-17T11:27:18+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=559151",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-20T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "улетел на неделю в китай, после приезда сможет дать ОС, договорились созвониться в следующий понедельник",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-20T11:45:53+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=559641",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-20T12:01:26+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=559659",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-28T12:45:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=564365",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-28T12:46:36+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=564373",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-29T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на ВА",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-29T13:54:12+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=565703",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-30T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но(следующее касание со смены)",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-04-30T12:36:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=566463",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-04-30T12:38:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=566471",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-04T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но со смены",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-04T11:57:58+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=567223",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-04T11:59:55+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=567229",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-05T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "принимать решение закупки планируют до 13.05, ждут от нас актуальное КП, предложены условия оплаты 50\\20\\30, договорились созвониться 13 мая он сможет решение по закупке, отправил актуальное КП на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-05T13:55:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=568889",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-05T17:36:07+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=569655",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nВысылаем актуальное КП на текущий вариант оборудования, ознакомьтесь, пожалуйста.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 15 апреля 2026\n11:55:53\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nСкажите, пожалуйста, в какое время удобно созвониться для обсуждения проекта оборудования?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-12T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на ВА",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-12T11:38:24+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=574501",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-12T11:42:29+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=574503",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, завтра звонок со смены",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-13T09:34:48+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=575717",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-13T09:35:13+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=575721",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-14T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "дозвонился со смены, на этой неделе нет генерального директора, из-за чего не было принято решение по закупке станка, договорились созвониться на следующей неделе, сможет дать ОС по решению",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-14T09:09:22+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=576849",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "сегодня будет совещание с ген. директором, просил звонить в 16ч сможет дать ОС, предложение было согласовано с ген. директором, их устроила цена и исполнение оборудования, выходим на договор, отправил ОЛ, запросил карточку компании, закупать будут в июне",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-19T09:44:24+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=580097",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T16:00:45+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=580995",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T16:01:59+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=581007",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T16:03:33+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=581019",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T16:03:33+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=581019",
+      "direction": "incoming",
+      "content": "[Сегмент 1/1 (0.0–90.8 сек)]\nСпросикам Александр, слушаю. Александр, день добрый, это Дмитрий. Вас беспокоит компания Eagle. Вы мне звонили. По поводу согласования проекта, да, сегодня обсудил все с генеральным директором. Проект нас устраивает, да, и первичная оплата сориентируемся с вами в июне, ну, в начале июня будет. Да, я еще со своей стороны с техническим отделом проговорю. Но по стоимости, по оплатам все согласовали. Так, хорошо, Дмитрий. В целом тогда можем вам информацию пока подготовить именно по самому договору, по опросным листам, то есть по именно бумажной части, чтобы нам как раз-таки... Да, да, да, по бумажной части подготовьте, пожалуйста. Да, хорошо, Дмитрий. Единственное, тогда сейчас я в очередь от нас отправлю вам опросный лист, то есть он потребуется именно для заполнения, там будет вкладываться в договор. А с нашей стороны тогда буду ожидать именно карточку компании, ну, чтобы на основе нее подготовить документы. Все, хорошо, замечательно. Сегодня постараюсь вам скинуть карточку компании. Да, хорошо, договорились. Да, да, да, хорошо. Я вам тогда сразу обратным сообщением, как раз опросный лист направлю для заполнения. Все хорошо, спасибо. Хорошо, да, договорились. Будем на связи. Все, на связи. До свидания. До свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-19T16:08:33+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=581037",
+      "direction": "outgoing",
+      "content": "Дмитрий, в продолжении разговора высылаем опросный лист для заполнения, ожидаем получения карточки компании для подготовки договора.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Вторник, 5 мая 2026\n17:36:07\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nВысылаем актуальное КП на текущий вариант оборудования, ознакомьтесь, пожалуйста.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-20T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-20T11:21:49+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=581753",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-20T11:23:35+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=581757",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nНе получили от Вас карточки компании и заполненного опросного листа, скажите, пожалуйста, сегодня получится выслать?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Вторник, 19 мая 2026\n16:08:33\nТема: Re: Уточнение информации\nДмитрий, в продолжении разговора высылаем опросный лист для заполнения, ожидаем получения карточки компании для подготовки договора.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-21T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "сегодня вышлет карточку компании, позже сможет ознакомиться с ОЛ и подготовит для отправки нам, составлен ОЛ отправлен клиенту на проверку",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-21T10:43:56+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=583069",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-21T12:59:33+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=583313",
+      "direction": "outgoing",
+      "content": "Дмитрий, в продолжении разговора ожидаем получения карточки компании, для Вас заполнили опросный лист, проверьте, пожалуйста, верно ли указали всю информацию?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 20 мая 2026\n11:23:35\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nНе получили от Вас карточки компании и заполненного опросного листа, скажите, пожалуйста, сегодня получится выслать?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производств...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-22T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал карточку компании, продублировал на ОЛ для подтверждения что всё указано верно",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-22T09:58:14+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=584231",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-22T12:55:45+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=584645",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-22T13:13:28+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=584687",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-22T13:18:19+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=584703",
+      "direction": "incoming",
+      "content": "Александр, день добрый, прошу прощение за задержку, загрузка по производству и не успеваю все сделать. Вот фирменный бланк, на выходных вышлю вам опросный лист.\nЧетверг, Май 21, 2026 16:59 +07, Александр Пахомов писал(а):\nДмитрий, в продолжении разговора ожидаем получения карточки компании, для Вас заполнили опросный лист, проверьте, пожалуйста, верно ли указали всю информацию?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 20 мая 2026 11:23:35\nТема: Re:...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-22T13:23:38+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=584707",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nСпасибо информацию получили. Опросный лист мы уже заполнили для Вас, Вам требуется только проверить вся ли информация в нем указана верно, документ во вложении.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Поддубный Дмитрий\nКому: Пахомов Александр\nДата: Пятница, 22 мая 2026\n13:18:19\nТема: Re: Уточнение информации\nАлександр, день добрый, прошу прощение за задержку, загрузка по производству и не успеваю все сделать. Вот фирменный бланк, на выходных вышлю вам опросный л...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-25T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "сегодня пришлем информацию по ОЛ вышлет на почту, клиент подтвердил ОЛ, отправил информацию в чат для согласования КП, запросил у клиента фото точного размещения станка на производстве клиента",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-25T12:54:23+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=586001",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-25T13:04:09+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=586023",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-25T13:04:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=586025",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-25T13:04:40+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=586025",
+      "direction": "incoming",
+      "content": "[Сегмент 1/1 (0.0–184.7 сек)]\nДмитрий, здравствуйте. Да, здравствуйте, Александр. В общем, по поводу общей старой этикетки, которую вы мне отправляли, вопрос у меня возникал по схеме намотки этикеток. Здесь указаны типа 1.2, что я так понимаю, это расположение текста здесь. Это расположение текста, да, на бобине. Если оно отличается, можем просто изменить тот, который используется у вас, и указать его. Проблем никаких нет. Ага, понял. У нас просто горизонтальная печать идет по типу 3.4. Ага, ну то есть мы можем поменять. Получается, третья намотка у вас будет использоваться? Да, третья. 3.4 получается. Здесь 1.2 указано, тестовым запуском. 1.2 это имеется в виду количество образцов, то есть первый и второй. А намотка указана первая в самом образце листе. То есть у меня именно 3. Третья. Хорошо, договорились. Все, остальное получается указали корректно. Так, длина лоста этикеток 60 на 20, да. Диаметр. Ну мы взяли самый минимальный и самый максимальный, чтобы у нас была ориентация. Самый максимальный, да, я уже понял. Крышки вид, вот что здесь имеется в виду, крышки отсутствуют. Тут у нас образцы для банок и подслоконные канистры. Просто так как у вас ничего этого нет, поэтому просто отсутствует. Потому что их там нет. Угу, понял. Все понял. Так, в принципе, да. Остальное все. Все понятно, все как оно есть. А еще по договору можете, пожалуйста, прописать пусконаладочные работы и... так, сейчас вам скажу в КП. Пусконаладочные и... Шефмонтажные работы. Шефмонтаж, да. Так, смотрите, Дмитрий, сразу по касаемо шефмонтажных пусконаладочных работ обозначу вам. У нас и те, и другие обозначаются отдельным договором, то есть уже после изготовления оборудования. Это я уже понял, да, исходя из КП, что там было прописано. Это отдельная оплата. 10 и 5 процентов, если я не ошибаюсь. Верно, да. То есть они будут выполняться как совершенно отдельный договор. Угу. Да, вот. То есть они будут еще тоже потребоваться. Все, я вас услышал. Хорошо. Все, спасибо. Все, договорились. Сейчас информацию тогда передаю и будем передавать информацию на составление договора. Как только будет готов, тогда вам уже вышлем, чтобы вы могли ознакомиться уже и на подписание передачи и так далее. Все, хорошо. Хорошо, Дмитрий, договорились. Будем на связи с вами. Все, на связи. До свидания. Хорошего дня, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-25T17:11:01+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=586547",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nВышлите, пожалуйста, куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами для более подробного указания в ТЗ договора.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Пятница, 22 мая 2026\n13:23:38\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nСпасибо информацию получили. Опросный лист мы уже заполнили для Вас, Вам требуется только проверить вся ли информация в нем указана верно, документ во вло...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-26T10:06:41+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=586959",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-27T09:21:59+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=588195",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-27T09:32:45+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=588211",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами для более подробного указания в ТЗ договора?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Понедельник, 25 мая 2026\n17:11:01\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nВышлите, пожалуйста, куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами для более...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-27T10:05:10+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=588283",
+      "direction": "incoming",
+      "content": "Александр, день дорбрый. Да сегодня вышлю вам ориентировочно в 12 часов по мск\nСреда, Май 27, 2026 13:32 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами для более подробного указания в ТЗ договора?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Понедельник, 25 мая 2026 17:11:01\nТема: Re: Уточнение информации\nДмитрий,...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-27T10:10:45+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=588297",
+      "direction": "outgoing",
+      "content": "Дмитрий, хорошо, спасибо, ожидаем получения.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Поддубный Дмитрий\nКому: Пахомов Александр\nДата: Среда, 27 мая 2026\n10:05:10\nТема: Re: Уточнение информации\nАлександр, день дорбрый. Да сегодня вышлю вам ориентировочно в 12 часов по мск\nСреда, Май 27, 2026 13:32 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размер...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-28T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-28T09:34:26+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=589419",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-28T09:39:59+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=589425",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-28T12:23:55+03:00",
+      "event_type": "comment",
+      "event_id": "source_ids=2778591",
+      "direction": "internal",
+      "content": "ИИ\nhttps://www.perplexity.ai/spaces/op-analiz-sdelok-new-ZHpCBVuNTvunzRf_wgbJeQ/138806d6-ce2d-462b-a2d8...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-28T12:31:07+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=589809",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nНе получили от Вас информации, скажите, пожалуйста, сегодня получится выслать?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Поддубный Дмитрий\nКому: Пахомов Александр\nДата: Среда, 27 мая 2026\n10:05:10\nТема: Re: Уточнение информации\nАлександр, день дорбрый. Да сегодня вышлю вам ориентировочно в 12 часов по мск\nСреда, Май 27, 2026 13:32 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать куда будут устанавливаться апплик...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-05-29T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на ВА",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-05-29T09:41:08+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=590715",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-01T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-01T09:46:19+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=591953",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-01T09:49:35+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=591965",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-01T09:51:18+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=591967",
+      "direction": "outgoing",
+      "content": "Дмитрий, день добрый.\nСкажите, пожалуйста, сегодня получится выслать информацию для возможности подготовки информации по Вашему проекту?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Поддубный Дмитрий\nКому: Пахомов Александр\nДата: Среда, 27 мая 2026\n10:05:10\nТема: Re: Уточнение информации\nАлександр, день дорбрый. Да сегодня вышлю вам ориентировочно в 12 часов по мск\nСреда, Май 27, 2026 13:32 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится высла...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-02T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "информацию по размещению вышлет сегодня-завтра, согласование по договору 1-2 недели, будет ждать договор, он не отвечает, так как работает за 3 человек, писать на почту, звонить, еще есть ТГ у него",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-02T11:18:57+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=593411",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-02T15:35:54+07:00",
+      "event_type": "task",
+      "event_id": "task_id=45179",
+      "direction": null,
+      "content": "CRM: дозвониться",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправлено напоминание на почту, клиент выслал фото отправил в чат для согласования, клиенту отравлено уточнение по продукту для проведение проекта",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-03T11:12:05+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=594263",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nПодскажите, пожалуйста, сегодня сможете выслать информацию куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 27 мая 2026\n09:32:45\nТема: Re: Уточнение информации\nДмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами для более подробного у...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:28:32+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=594611",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:35:41+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=594623",
+      "direction": "incoming",
+      "content": "Александр, добрый день, предоставляю фото расстояния от пола, где будут устанавливаться аппликаторы. Можно ли сделать дигающуюся стойку с разбегом в +- 10 см\nСреда, Июнь 03, 2026 15:12 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nПодскажите, пожалуйста, сегодня сможете выслать информацию куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 27 мая 2026 09:32:...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:36:22+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=594625",
+      "direction": "incoming",
+      "content": "Среда, Июнь 03, 2026 17:35 +07, Поддубный Дмитрий писал(а):\nАлександр, добрый день, предоставляю фото расстояния от пола, где будут устанавливаться аппликаторы. Можно ли сделать дигающуюся стойку с разбегом в +- 10 см\nСреда, Июнь 03, 2026 15:12 +07, Александр Пахомов писал(а):\nДмитрий, добрый день.\nПодскажите, пожалуйста, сегодня сможете выслать информацию куда будут устанавливаться аппликаторы и на какой конвейер будут устанавливаться с размерами?\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт к...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:37:46+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=594635",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:39:05+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=594643",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T13:39:05+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=594643",
+      "direction": "incoming",
+      "content": "[Сегмент 1/1 (0.0–80.6 сек)]\nПрактика М Александр, слушаю. Александр, здравствуйте, это Дмитрий. Да-да-да, Дмитрий, слушаю вас. Проверьте еще раз почту, я переотправил вам сообщение. Так, секунду, давайте проверим. Там будет два сообщения, потому что не закрепилась фотография первоначально и первое вообще не отправилось даже. Угу, так, да, вижу два письма, здесь две фотографии у вас. Так, получается, это высота от пола до места размещения, правильно? Да, всё верно. И можно ли вот эту стойку сделать с разбегом плюс-минус 10 сантиметров, чтобы она вверх-вниз может изменение положения? Да-да-да. Да, да, всё верно. Угу, да, конечно, мы это в техзадание можем сразу заложить, конечно, просто сделаем ножки с регулировкой. Никакой проблемы нет. Давайте с вами это в техзадание внесем. Так, хорошо, сейчас информацию передаю на производство, надеюсь, этой информации будет достаточно для размещения. И вам тогда отпишусь, и будем, если информации достаточно, вам договор тогда уже направим. Да, всё хорошо. Всё, хорошо, договорились. Спасибо. Угу, до свидания. Всё, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-03T15:09:13+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=594783",
+      "direction": "outgoing",
+      "content": "Дмитрий, производство ознакомилось с Вашими фото-материалами.\nХотел напомнить, что обкатать у себя данную продукцию мы не можем (ранее упоминал).\nИ просим показать на видео процесс движения тары.\nВажное условие работы оборудования: стабильная скорость (без дерганий продукта) в месте нанесения этикетки.\nТак же она не должна уходить влево-вправо/вверх-вниз, т.к. аппликатор наносит этикетку строго в одну точку.\nЕсли данные условия будут соблюдены, то проект реализуем. Ждем от Вас видео в ответ на наше сообщение.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: htt...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-04T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент получил наше письмо, сейчас остановили производство, как только запустит снимет нам видео и вышлет в мессенджере, обещал подготовить сегодня",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-04T10:03:08+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=595229",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-05T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-05T09:33:55+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=596251",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-05T09:35:40+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=596253",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nСкажите, пожалуйста, сегодня получится выслать видео процесса движения тары?\nНе хватает текущей информации для подготовки договора по Вашему проекту.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Среда, 3 июня 2026\n15:09:13\nТема: Re: Уточнение информации\nДмитрий, производство ознакомилось с Вашими фото-материалами.\nХотел напомнить, что обкатать у себя данную продукцию мы не можем (ранее упоминал).\nИ просим показать на видео процесс движен...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-05T13:04:10+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=596635",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-05T15:21:55+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=596963",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-08T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание на почту",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-08T11:59:56+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=597729",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-08T12:01:22+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=597733",
+      "direction": "outgoing",
+      "content": "Дмитрий, добрый день.\nМы уже несколько раз возвращались к вопросу видео по линии, но на сегодня его так и нет.\nБез этого я не могу честно подтвердить работоспособность решения и выходить к договору.\nДавайте зафиксируем:\n— если проект для вас актуален, прошу сегодня до 16:00 выслать видео;\n— если сейчас не до этого и проект “на потом” — я закрываю его у себя и снимаю резерв под оборудование.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Пятница, 5 июня 2026\n09:...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-09T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент сегодня обещал выслать видео, клиент выслал видео, отправил в чат для согласования, запрошен общий вид оборудования у клиента",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-09T13:27:44+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=598901",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-09T16:05:56+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=599139",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-10T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "но, отправил напоминание в МАХ, обещал выслать сегодня",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-06-10T10:17:15+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=599539",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-06-11T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал общий вид оборудования, отправил в чат для согласования, остались вопросы по размещению у производства, свяжется напрямую с Дмитрием наше производство для уточнения, клиент вышлет нам информацию по точному размещению с размерами для финального согласования оборудования",
+      "date_only": true
+    }
+  ]
+}

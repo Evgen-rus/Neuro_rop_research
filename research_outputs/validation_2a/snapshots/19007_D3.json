@@ -1,0 +1,57 @@
+{
+  "deal_id": "19007",
+  "snapshot": "D3",
+  "created_at": "2026-09-07T12:15:56+03:00",
+  "cutoff": "2026-09-10T12:15:56+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-09-07T16:16:40+07:00",
+      "event_type": "task",
+      "event_id": "task_id=56425",
+      "direction": null,
+      "content": "CRM: обсудить КП",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-09-08T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=3080805",
+      "direction": null,
+      "content": "клиент выслал фото, отправил в чат для согласования оборудования",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-09-08T13:59:15+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=664465",
+      "direction": "incoming",
+      "content": "Добрый день!\nВо вложении высылаю эскиз канистры, а также пример этикеток с размерами.\n--\nС уважением,\nДиректор по производству ООО \"ИЗАГРИ\"\nКрылов Александр Евгеньевич\nтел. +7 (495) 215 50 90 доб. 321\nмоб. +7 929 650 29 57\ne-mail: kae@izagri.ru\nwww.izagri.ru\n----------------\nКому: kae@izagri.ru (kae@izagri.ru);\nТема: Уточнение информации;\n07.09.2026, 12:13, \"Александр Пахомов\" :\nАлександр, в продолжении разговора ожидаем от Вас фото тары и этикетки(можно приложить рулетку\\линейку для понимания размеров), заранее спасибо.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вк...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-09-08T15:21:41+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=664625",
+      "direction": "outgoing",
+      "content": "Александр, добрый день.\nСпасибо, информацию получили, передал в тех. отдел для согласования оборудования.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Крылов\nКому: Пахомов Александр\nДата: Вторник, 8 сентября 2026\n13:59:15\nТема: Re: Уточнение информации\nДобрый день!\nВо вложении высылаю эскиз канистры, а также пример этикеток с размерами.\n--\nС уважением,\nДиректор по производству ООО \"ИЗАГРИ\"\nКрылов Александр Евгеньевич\nтел. +7 (495) 215 50 90 доб. 321\nмоб. +7 929 650 29 57\ne-mail:...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-09-09T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=3080805",
+      "direction": null,
+      "content": "отправил напоминание в чат для получения ОС по КП",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-09-10T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=3080805",
+      "direction": null,
+      "content": "отправил напоминание в чат, получено предложение, отправил КП+видео, будет готов обсудить завтра после 15ч",
+      "date_only": true
+    }
+  ]
+}

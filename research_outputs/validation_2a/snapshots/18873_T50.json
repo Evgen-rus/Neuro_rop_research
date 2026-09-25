@@ -1,0 +1,401 @@
+{
+  "deal_id": "18873",
+  "snapshot": "T50",
+  "created_at": "2026-08-14T09:09:59+03:00",
+  "cutoff": "2026-09-02T21:09:59+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-08-14T13:10:28+07:00",
+      "event_type": "task",
+      "event_id": "task_id=52945",
+      "direction": null,
+      "content": "CRM: обсудить КП",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "вышлет сегодня фото, клиент помнит по отправке",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-17T09:05:56+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=647207",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-17T09:05:56+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=647207",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–50.1 сек)]\nАлло. Евгения, день добрый. Здравствуйте. Александр, компания Practicum. Обсуждали с вами в пятницу касаемо отправки информации с фотографиями и размерами для подготовки вам решения оборудования. К сожалению, от вас не получилось в пятницу. Вот сегодня звоню для понимания. Я скину фотографии дальше с продуктовой, тот, который необходим, чтобы... Мы просто суббота-воскресенье отдыхаем, поэтому фотографии предоставлю. Да, я помню, мне записано. Хорошо, тогда сегодня у вас, да, будет возможность отправить? Ну, постараюсь, да, сегодня до конца дня. Угу. Хорошо, Евгения, договорились. Тогда ждем ответ от вас. Ага, ага. Хорошо, до свидания. До свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "но, отправил напоминание на МАХ",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-18T09:13:15+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=647839",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-18T09:13:58+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=647841",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-18T09:15:46+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3004631,3004633",
+      "direction": "unknown",
+      "content": "Евгения, добрый день. Ожидаем получения от Вас фото продукта и этикетки с размерами, скажите, пожалуйста, в какое время получится выслать сегодня?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "сегодня вышлет фото уже готовит отправку для нас",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-19T09:17:53+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=648459",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-19T09:17:53+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=648459",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–28.4 сек)]\nАлло. Евгения, день добрый. Да, компания Практик М, Александр. Звоню узнать по отправке информации по фотографиям. А вот я вам сейчас и загружаю. Ага, отлично. Тогда жду получения, уже сможем вам решение подготовить. Хорошо. Угу. Договорились. Жду от вас. До свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "клиент снова вышлет сегодня фото, вчера у клиента фото не отправились, заметила только сегодня, договорились созвониться через час если вдруг снова не получится отправить, при повторном касании клиент не ответил, отправил напоминалку на МАХ",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-20T09:36:11+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=649635",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-20T09:38:10+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=649641",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-20T10:49:20+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=649745",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-20T13:37:13+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=649981",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-20T13:38:53+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3019211,3019213",
+      "direction": "unknown",
+      "content": "Евгения, в продолжении разговора, скажите, пожалуйста, снова не удается выслать фото?\nМожно выслать на почту 129@praktikm.ru, если будут снова сложности с отправкой через МАХ.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "но, отправил напоминание на МАХ",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-21T09:39:51+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=650613",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-21T09:40:59+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=650615",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-21T09:46:10+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3021947,3021949",
+      "direction": "unknown",
+      "content": "Евгения, добрый день. Возвращаюсь к материалам для подбора оборудования: фото тары, обеих этикеток и размеры пока не поступили. Без них мы не сможем корректно проверить применимость решения. Подскажите, пожалуйста, точные дату и время, когда сможете направить материалы.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "сегодня у клиента проверка, сможет выслать фото завтра после обеда",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-24T09:16:20+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=651519",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-24T09:16:20+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=651519",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–29.2 сек)]\nЕвгения, день добрый. Здравствуйте. Компания Практикам, Александр. Александр, я про вас помню, проверочка закончится, я вам все пришлю. Ага, так, а давайте ориентируемся, это примерно когда будет? Сегодня, завтра? После обеда. Ну давайте на завтра тогда. Так, на завтра, то есть примерно после обеда. Хорошо. Все, давайте, договорились. Хорошо, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "но, отправил напоминание на МАХ, у клиента проверка на производстве, договорились созвониться в ПТ сможет выслать, пока никак не успевает",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-25T09:15:05+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=652469",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-25T09:16:33+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=652471",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-25T09:19:18+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3030391,3030393",
+      "direction": "unknown",
+      "content": "Евгения, добрый день. Вы планировали сегодня направить материалы для подбора: фото продукта, упаковки, двух этикеток и размеры. Пока их не получили, поэтому проверка применимости остановлена. Подскажите, пожалуйста, что сейчас мешает отправке в МАХ: нет фото, размеров или неудобна загрузка? После вашего ответа зафиксируем конкретный способ и время передачи полного комплекта.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-26T09:34:06+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=653763",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-26T09:34:06+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=653763",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–61.9 сек)]\nАлло. Евгения, день добрый. Да, практикуем. Звонил узнать как там. Да, практикуем. Звонил узнать как там. Я помню. У нас просто тут такая ситуация идет, поэтому маленечко... Направление сменилось у вас немного. Да, да, да, да, да. Поэтому не потому, что я вас нафиг послала. Просто у нас бывает маленечко. Ну хорошо, Евгения, давайте на какой-то конкретный день с вами сориентируемся, когда у вас уже точно будет время, чтобы мы могли в какой-то день с вами связаться и уже точно продолжим работу. Там, допустим, завтра, в четверг, либо в пятницу, когда будет возможность. А завтра у нас и так четверг. А, ну да, либо в четверг, либо в пятницу. Давайте на пятницу. На пятницу. Хорошо, тогда примерно в это же время вам позвоню и обсудим более конкретно. Ну давайте, договорились. Хорошего дня вам, до свидания. Угу, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "сегодня вышлет информацию, клиент выслал фото, отправил в чат для согласования, запрошено решение в Инокс, наше производство не может дать решение",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-08-28T09:07:01+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=655889",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:07:01+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=655889",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–35.6 сек)]\nАлло. Евгения, день добрый. Здравствуйте, Александр. Да, хотел узнать, как у вас там по времени на сегодняшний день. Нормально. Сейчас вам скину на этот... на Макс. Угу. Всё, хорошо, жду тогда получения фотографий, тогда смогу уже как-то начать проработку проекта. Хорошо. Всё, договорились, жду тогда сегодня информации от вас. Хорошо, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:11:33+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043025,3043027",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:13:04+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043029,3043031",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:13:22+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043033",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:13:23+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043035",
+      "direction": "unknown",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:13:47+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043037,3043039",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:15:45+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043049,3043051",
+      "direction": "unknown",
+      "content": "Евгения, спасибо фото получил, подскажите, пожалуйста, на последние два продукта, будет этикетка наноситься сверху?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:29:23+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043099,3043101",
+      "direction": "incoming",
+      "content": "Принято Аудиосообщение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:29:23+03:00",
+      "event_type": "message",
+      "event_id": "activity_id=max_3043101_a2da0c5db964",
+      "direction": null,
+      "content": "[Сегмент 1/1 (0.0–10.6 сек)]\nНа них уже есть этикетка, посмотрите, на вакууме расположены продукты в вакуумной упаковке, этикетка сверху наклеена, да?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:29:23+03:00",
+      "event_type": "message",
+      "event_id": "activity_id=max_3043099_a2da0c5db964",
+      "direction": null,
+      "content": "[Сегмент 1/1 (0.0–10.6 сек)]\nНа них уже есть этикетка, она, посмотрите, на вакууме расположены, это продукты вакуумной упаковки, этикетка сверху наклеена, да?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:35:26+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043131,3043133",
+      "direction": "unknown",
+      "content": "Благодарю за информацию, сам \"Честный знак\" рассматриваете нанесение прям на этикетку или можно наносить в любое место на упаковке?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:38:25+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043157,3043159",
+      "direction": "incoming",
+      "content": "На этикетку",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T09:39:34+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=3043169,3043171",
+      "direction": "unknown",
+      "content": "Передал всю информацию в тех. отдел, готовим решение под Ваш проект.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-28T16:54:50+03:00",
+      "event_type": "comment",
+      "event_id": "source_ids=3046463",
+      "direction": "internal",
+      "content": "Инокс: https://obtorg.bitrix24.ru/crm/contact/details/14703/",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-08-31T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "ищут решение нанесения, пока не готовы дать точный ответ смогу ли взять такое в работу, на этапе обсуждение в ближайшие день\\два дадут ОС",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-09-01T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "сегодня до конца дня Инокс должен дать предложение на станок",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-09-02T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2996895",
+      "direction": null,
+      "content": "Инокс дал отказ на такое решение, запросил уточнение в чате что можем предложить для текущего клиента",
+      "date_only": true
+    }
+  ]
+}

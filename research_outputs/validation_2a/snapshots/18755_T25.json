@@ -1,0 +1,353 @@
+{
+  "deal_id": "18755",
+  "snapshot": "T25",
+  "created_at": "2026-07-27T16:50:32+03:00",
+  "cutoff": "2026-07-31T10:50:32+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-07-27T20:51:38+07:00",
+      "event_type": "task",
+      "event_id": "task_id=50089",
+      "direction": null,
+      "content": "CRM: обсудить КП",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-27T16:55:55+03:00",
+      "event_type": "comment",
+      "event_id": "source_ids=2937151",
+      "direction": "internal",
+      "content": "ИИ: https://www.perplexity.ai/computer/tasks/674bd6cb-ff5b-41da-afa6-576ac4cc98cc",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-28T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2937103",
+      "direction": null,
+      "content": "обещал выслать информацию сегодня",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-07-28T10:59:20+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2939001,2939003,2939005",
+      "direction": "unknown",
+      "content": "Добрый день! Ранее интересовались оборудованием, когда можно перезвонить, уточнить детали? С уважением,\nНаталья,\nМенеджер по продажам ООО \"ПрактикМ\"\nРабочий телефон: +7 (495) 127-79-73 доб.207\nE-mail: 207@praktikm.ru",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-28T11:46:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=631381",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-28T11:46:40+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=631381",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–27.0 сек)]\nСлушаю. Дмитрий, день добрый. Здравствуйте. Компания «Практик Эма», Александр. Вчера общались с вами по линии розлива. Обещали информацию по Атаре выслать. Помню, помню. В ближайшее время вышлю. Сегодня, да, от вас ждать? Да, да, сегодня. Все, хорошо, Дмитрий. Ждем тогда получения. Угу. Да, да, да, в ближайшее время вышлю. Хорошо, договорились. До связи, до свидания. Угу, до свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2937103",
+      "direction": null,
+      "content": "про нас помнит сегодня вышлет после обеда",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-07-29T09:44:06+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=632553",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-29T09:45:40+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=632555",
+      "direction": "incoming",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-29T09:45:40+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=632555",
+      "direction": "incoming",
+      "content": "[Сегмент 1/1 (0.0–20.4 сек)]\nЗдравствуйте, Александр. Смотрите, я помню про вас, я сегодня постараюсь скинуть. На обеде просто. Хорошо, тогда сегодня ждем от вас информацию, чтобы вам можно было подготовить решение. Договорились.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2937103",
+      "direction": null,
+      "content": "выслал фото тары на 5л, отправил напоминание для отправки на 1.5л, клиент выслал информацию, отправил в чат для согласования, запросил уточнение по второй этикетке на 5л бутылку",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-07-30T09:09:58+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=633757",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T09:10:41+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=633759",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T09:21:50+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=633793",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T09:23:23+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2949035,2949037",
+      "direction": "unknown",
+      "content": "Дмитрий, добрый день. Не получили от Вас фото тары, крышки и этикетки с размерами, скажите, пожалуйста, сегодня успеете отправить чтобы подготовить Вам предложение на оборудование?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:01:57+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=634197",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:31:17+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951155,2951157",
+      "direction": "incoming",
+      "content": "Здравствуйте. Конец месяца загрузка большая.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:31:30+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951159,2951161",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:31:31+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951163,2951165",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:31:32+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951167,2951169",
+      "direction": "incoming",
+      "content": "Принято Изображение",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:32:02+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951181,2951185",
+      "direction": "incoming",
+      "content": "Этикетка 90х100",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:32:10+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951187,2951189",
+      "direction": "incoming",
+      "content": "Крышка 48",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:33:29+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951199",
+      "direction": "unknown",
+      "content": "Дмитрий, спасибо получили, так же ожидаем информацию по таре 1.5л для подготовки корректного предложения",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:33:30+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951201",
+      "direction": "unknown",
+      "content": "Дмитрий, спасибо получили, так же ожидаем информацию по таре 1.5л для подготовки корректного предложения",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:35:34+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951213,2951215",
+      "direction": "incoming",
+      "content": "1,5 нету размеров",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:35:47+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951219,2951221",
+      "direction": "incoming",
+      "content": "Возьмите сттандартную полтарашку за основу",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:36:31+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951231,2951233",
+      "direction": "unknown",
+      "content": "Хорошо, этикетка будет такая же наноситься и больше в размерах? В круговую или так же только с лицевой части?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:36:56+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951239,2951241",
+      "direction": "incoming",
+      "content": "Слицевой стороны",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:37:27+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951243,2951245",
+      "direction": "unknown",
+      "content": "Хорошо, предоставим решение для текущего варианта тары.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:39:00+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951259,2951261",
+      "direction": "unknown",
+      "content": "Бутылка будет использоваться цилиндрическая 1.5л или плоская?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T12:52:23+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951359,2951361",
+      "direction": "incoming",
+      "content": "цилиндрическая",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T13:02:25+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951441,2951443",
+      "direction": "unknown",
+      "content": "Спасибо, готовим предложение под текущую информацию",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T13:08:25+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951495,2951497",
+      "direction": "unknown",
+      "content": "Дмитрий, у Вас на 5л бутылке так же нанесен штрих код его тоже требуется наносить на бутылку?",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T13:53:04+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951825,2951827",
+      "direction": "incoming",
+      "content": "Скиньте предложения с ним без него",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-30T14:01:10+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2951963,2951965",
+      "direction": "unknown",
+      "content": "Хорошо, договорились:f09fa49d:",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2937103",
+      "direction": null,
+      "content": "отправил КП+видео, будет готов обсудить через полтора часа, цена сильно не устроила есть решение с Ростова за 1кк(за розлив и 2 этикетировщика), такую цену не готов платить за линию, есть второе решение полной линии за 2кк, под его производительность достаточно, наше предложение совсем не конкурентно он его не рассматривает, финальное решение будет принимать через 2 недели",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-07-31T09:43:26+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=635145",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:43:26+03:00",
+      "event_type": "call_transcript",
+      "event_id": "activity_id=635145",
+      "direction": "outgoing",
+      "content": "[Сегмент 1/1 (0.0–41.9 сек)]\nАлександр. Компания «Практика М», Александр. Да, смотрите, Дмитрий, подготовили вам коммерческое предложение на оборудование. Скажите, пожалуйста, куда вам удобнее? Так же на e-mail направить? Так, отлично, сейчас тогда информацию вам направим. Удобно будет сейчас сразу открыть, посмотреть, что можно обсудить? Нет, сейчас мне неудобно. Вы звоните, как бы уже не первый раз, поэтому неудобно мне сейчас. Ага, хорошо. Так, примерно через сколько? Через часа полтора нормально будет звонить? Нормально, да, да. Всё, хорошо, тогда вам приятного аппетита. Спасибо. Спасибо. До свидания.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:45:38+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2954337",
+      "direction": "unknown",
+      "content": "Дмитрий, предоставляем Вам КП на запрашиваемый вид оборудования. Просьба ознакомиться и дать обратную связь.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:45:39+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2954339",
+      "direction": "unknown",
+      "content": "Дмитрий, предоставляем Вам КП на запрашиваемый вид оборудования. Просьба ознакомиться и дать обратную связь.",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:45:40+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2954341,2954343",
+      "direction": "unknown",
+      "content": "Отправлено Файл",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:45:41+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2954345,2954347",
+      "direction": "unknown",
+      "content": "Отправлено Видео",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-31T09:47:48+03:00",
+      "event_type": "message",
+      "event_id": "source_ids=2954375,2954377",
+      "direction": "unknown",
+      "content": "https://rutube.ru/video/ded9652d63a9883393f36c8f57a38be3/?r=wd",
+      "date_only": false
+    }
+  ]
+}

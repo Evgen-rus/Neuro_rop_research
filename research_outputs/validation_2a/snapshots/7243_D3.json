@@ -1,0 +1,41 @@
+{
+  "deal_id": "7243",
+  "snapshot": "D3",
+  "created_at": "2026-03-10T11:29:00+03:00",
+  "cutoff": "2026-03-13T11:29:00+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-03-10T15:34:08+07:00",
+      "event_type": "task",
+      "event_id": "task_id=33983",
+      "direction": null,
+      "content": "CRM: получить подписанный договор",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-12T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "постарается выслать завтра фото",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-12T13:23:11+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=539963",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал фото тары, отправил в чат для согласования КП",
+      "date_only": true
+    }
+  ]
+}

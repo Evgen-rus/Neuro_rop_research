@@ -1,0 +1,2726 @@
+{
+  "worker": "reliability",
+  "snapshots": [
+    {
+      "deal_id": "6885",
+      "snapshot": "D3",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Ответственный, действие и контрольная точка определены",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-01-30T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2487593",
+              "short_paraphrase": "Директор рассматривает предложение; ответ ожидается сегодня."
+            }
+          ],
+          "reason_short": "Названы ответственный, действие и контрольная точка."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-01-30T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2487593",
+              "short_paraphrase": "Ожидаемое решение директора назначено на сегодня."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-01-28T11:06:24+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=526105",
+              "short_paraphrase": "Обсуждались тара и ограничения нанесения; тест ещё нужен."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-01-28T11:06:24+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=526105",
+              "short_paraphrase": "Клиент спрашивает о готовом решении и проверке на своей таре."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-01-28T11:06:24+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=526105",
+              "short_paraphrase": "Проверка на таре ещё требуется; готового теста нет."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Самостоятельное содержательное обращение клиента не зафиксировано."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18765",
+      "snapshot": "D7",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-04T10:17:10+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=637627",
+              "short_paraphrase": "Обсуждение предложения согласовано на следующий день в 10:30."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:52:05+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=634289",
+              "short_paraphrase": "Переданы размеры, для оценки ещё запрошены фото продукта."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:52:05+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=634289",
+              "short_paraphrase": "Обсуждалась конкретная задача маркировки и комплектация."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:52:05+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=634289",
+              "short_paraphrase": "Инженерное решение подготовлено по заявленной задаче."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-04T10:17:10+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=637627",
+              "short_paraphrase": "Клиент содержательно обсуждает предложение и следующий разговор."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18629",
+      "snapshot": "T25",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-13T12:27:51+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=618531",
+              "short_paraphrase": "Клиент обозначил необходимые варианты, но внутренний процесс не уточнён."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-15T15:19:31+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2881933,2881935,2881937",
+              "short_paraphrase": "Клиент спрашивает о новом предложении и возможности осмотра."
+            }
+          ],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-13T12:36:57+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2874377,2874379",
+              "short_paraphrase": "Сообщён размер этикетки; остальные данные неполные."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-13T12:27:51+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=618531",
+              "short_paraphrase": "Клиент описывает требования к маркировке и проверке."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-13T12:27:51+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=618531",
+              "short_paraphrase": "Остаётся вопрос тестирования после прошлой проблемы с этикеткой."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-13T12:27:51+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=618531",
+              "short_paraphrase": "Клиент описывает актуальную конфигурацию маркировки."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-15T15:19:31+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2881933,2881935,2881937",
+              "short_paraphrase": "Клиент сам запрашивает обновлённое предложение и осмотр."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "6135",
+      "snapshot": "T50",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-11-20T13:44:01+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=504057",
+              "short_paraphrase": "У главного инженера остаётся вопрос по очистке, срок не назван."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-11-20T13:44:01+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=504057",
+              "short_paraphrase": "Вопрос главного инженера не закрыт; новой даты нет."
+            }
+          ],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-11-11T11:42:23+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=500629",
+              "short_paraphrase": "Образцы и материалы маркетинга ещё не предоставлены."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-30T13:48:53+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=497835",
+              "short_paraphrase": "Клиент спрашивает о сложности мойки оборудования."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-11-20T13:44:01+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=504057",
+              "short_paraphrase": "Очистка остаётся открытым техническим вопросом."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-30T13:48:53+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=497835",
+              "short_paraphrase": "Клиент сам задаёт содержательный вопрос об очистке."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-24T09:50:48+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=495743",
+              "short_paraphrase": "Сравниваются один или два дозатора по цене и времени переналадки."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "19007",
+      "snapshot": "T80",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Выполнен к контрольной точке",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-18T12:44:53+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=672285",
+              "short_paraphrase": "Клиент прислал обещанное видео к контрольной точке."
+            }
+          ],
+          "reason_short": "Клиент выполнил согласованный шаг к контрольной точке."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-08T13:59:15+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=664465",
+              "short_paraphrase": "Клиент прислал эскиз тары и размеры этикетки."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-15T15:30:11+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=669811",
+              "short_paraphrase": "Обсуждается установка двух аппликаторов на существующий конвейер."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-15T15:30:11+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=669811",
+              "short_paraphrase": "Интеграция в существующий конвейер требует технической проверки."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-15T15:30:11+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=669811",
+              "short_paraphrase": "Клиент ограничивает задачу двумя аппликаторами на своей линии."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-18T12:44:53+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=672285",
+              "short_paraphrase": "Клиент самостоятельно прислал видео размещения тары."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-15T15:30:11+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=669811",
+              "short_paraphrase": "Сравниваются отдельная линия и два аппликатора по соответствию линии."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Предпочитает наше решение",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-09-15T15:30:11+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=669811",
+              "short_paraphrase": "Клиент просит два аппликатора на имеющемся конвейере по критерию интеграции."
+            }
+          ],
+          "reason_short": "Клиент назвал предпочтение нашему варианту и критерий."
+        }
+      ]
+    },
+    {
+      "deal_id": "18745",
+      "snapshot": "D3",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-24T10:31:31+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=628711",
+              "short_paraphrase": "Названы круглые бутылки и размеры этикеток; данных для полного расчёта мало."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-24T10:31:31+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=628711",
+              "short_paraphrase": "Клиент просит варианты оборудования с печатью."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-24T10:31:31+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=628711",
+              "short_paraphrase": "Варианты подготовлены под заявленные бутылки и печать."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-27T09:39:34+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=629663",
+              "short_paraphrase": "Клиент сам звонит узнать статус предложения."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "7601",
+      "snapshot": "D7",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-30T12:52:45+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=566507",
+              "short_paraphrase": "Клиент сообщает, что это все доступные чертежи; выбор типов не согласован."
+            }
+          ],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-30T12:52:45+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=566507",
+              "short_paraphrase": "Есть чертежи, но не все размеры и фото низа упаковки."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Нет или общий интерес",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-30T12:28:31+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=566445",
+              "short_paraphrase": "Для оценки отдельно запрошены недостающие размеры."
+            }
+          ],
+          "reason_short": "Технический запрос не конкретизирован."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-30T12:28:31+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=566445",
+              "short_paraphrase": "Оценка применения открыта из-за отсутствующих размеров и фото."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Самостоятельное содержательное обращение клиента не зафиксировано."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "6983",
+      "snapshot": "T25",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-16T13:44:30+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=532147",
+              "short_paraphrase": "Клиент подтвердил вариант и передал сведения для подготовки договора."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-10T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2501441",
+              "short_paraphrase": "Клиент назвал производительность до 4000 изделий в час."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-16T13:44:30+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=532147",
+              "short_paraphrase": "Вариант оборудования согласован после обсуждения требований."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-16T13:44:30+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=532147",
+              "short_paraphrase": "Клиент подтвердил текущий вариант как основу для оформления."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-25T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2501441",
+              "short_paraphrase": "Клиент отправил заполненную анкету."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-02-10T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2501441",
+              "short_paraphrase": "Сравнивались варианты 1000 и 4000 штук в час по нагрузке и цене."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18733",
+      "snapshot": "T50",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Ответственный, действие и контрольная точка определены",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-14T10:33:38+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=646407",
+              "short_paraphrase": "Клиент указал юриста, который проверит договор и пришлёт правки к понедельнику."
+            }
+          ],
+          "reason_short": "Названы ответственный, действие и контрольная точка."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-14T10:33:38+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=646407",
+              "short_paraphrase": "Срок юриста по договору — понедельник, ещё впереди."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T13:13:22+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=631605",
+              "short_paraphrase": "Обсуждались технические параметры и вопросы комплекта."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T13:13:22+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=631605",
+              "short_paraphrase": "Клиент задаёт конкретные технические вопросы."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2910619",
+              "short_paraphrase": "Клиент передал альтернативное предложение для сравнения."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-13T12:46:48+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=645601",
+              "short_paraphrase": "Клиент сообщил, что вариант одобрен и он покупает."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-13T12:46:48+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=645601",
+              "short_paraphrase": "Клиент сам звонит с обновлением об одобрении покупки."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2910619",
+              "short_paraphrase": "Сопоставлялось предложение конкурента по цене и техническим параметрам."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-13T12:50:23+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=645607",
+              "short_paraphrase": "Клиент отправил договор юристу и передал контакт."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18775",
+      "snapshot": "T80",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-04T12:47:38+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=638053",
+              "short_paraphrase": "Клиент передал сведения в закупки; дальнейший шаг не определён."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-04T12:47:38+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=638053",
+              "short_paraphrase": "Клиент передал информацию в закупочную группу."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "7191",
+      "snapshot": "D3",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T15:00:38+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=538389",
+              "short_paraphrase": "Согласован визит на производство 11 марта."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-03T16:10:15+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=536917",
+              "short_paraphrase": "Клиент прислал фото и размер этикетки."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T13:48:32+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=538375",
+              "short_paraphrase": "Обсуждены перекачка, ёмкость 500 л и условия работы."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T13:48:32+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=538375",
+              "short_paraphrase": "Обсуждался перенос ёмкости вместо насоса."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T13:48:32+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=538375",
+              "short_paraphrase": "Согласована задача по розливу и укупорке."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-03T16:10:15+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=536917",
+              "short_paraphrase": "Клиент сам передал фото и параметры."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T13:48:32+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=538375",
+              "short_paraphrase": "Сопоставлены насос и перемещение ёмкости по условиям эксплуатации."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-03-06T13:48:32+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=538375",
+              "short_paraphrase": "Клиент обсуждал финансирование и распределение платежей."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18485",
+      "snapshot": "D7",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T11:21:17+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=605831",
+              "short_paraphrase": "Клиент обозначил обсуждение договора в понедельник, владелец шага неясен."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T11:21:17+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=605831",
+              "short_paraphrase": "Обсуждение договора ожидается в понедельник после даты события."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T12:39:50+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=605943",
+              "short_paraphrase": "Переданы требования к модели принтера и картриджу."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T12:39:50+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=605943",
+              "short_paraphrase": "Клиент просит указать конкретные модель принтера и картридж."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T12:39:50+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=605943",
+              "short_paraphrase": "Спецификация пересмотрена с учётом технических требований."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T11:21:17+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=605831",
+              "short_paraphrase": "Клиент обсуждает конфигурацию и просит конкретные изменения."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T11:21:17+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=605831",
+              "short_paraphrase": "Клиент сам звонит с техническими вопросами."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Назван, но не выполнен",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-06-19T11:21:17+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=605831",
+              "short_paraphrase": "Обсуждение договора названо, но к cutoff ещё не выполнено."
+            }
+          ],
+          "reason_short": "Формальный шаг закупки назван, но ещё не выполнен."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "7243",
+      "snapshot": "T25",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Ответственный, действие и контрольная точка определены",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Конфигурация передана финансовому директору на согласование к сроку."
+            }
+          ],
+          "reason_short": "Названы ответственный, действие и контрольная точка."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Ожидается согласование финансового директора в понедельник."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-03T13:02:24+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=552361",
+              "short_paraphrase": "Клиент передал размеры и ограничения установки."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-03T13:02:24+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=552361",
+              "short_paraphrase": "Названы высота 1050–1150 мм и установка снизу без конвейера."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Изменённая конфигурация разобрана с технической командой."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Техническая команда клиента согласовала уточнённую конфигурацию."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-03T13:02:24+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=552361",
+              "short_paraphrase": "Клиент передал измерения для подбора."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Сопоставлялись варианты установки по применимости."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Назван, но не выполнен",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-16T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2563333",
+              "short_paraphrase": "Финансовое согласование названо, но ещё ожидается."
+            }
+          ],
+          "reason_short": "Формальный шаг закупки назван, но ещё не выполнен."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Предпочитает наше решение",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-04-03T13:02:24+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=552361",
+              "short_paraphrase": "Клиент запросил конфигурацию без конвейера по ограничению высоты."
+            }
+          ],
+          "reason_short": "Клиент назвал предпочтение нашему варианту и критерий."
+        }
+      ]
+    },
+    {
+      "deal_id": "18755",
+      "snapshot": "T50",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2937103",
+              "short_paraphrase": "Клиент сообщает о высокой цене и сроке решения в две недели."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2937103",
+              "short_paraphrase": "Клиент планирует решить в течение двух недель."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:35:34+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2951213,2951215",
+              "short_paraphrase": "Есть данные части упаковок, но у бутылки 1,5 л нет размера."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:36:56+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2951239,2951241",
+              "short_paraphrase": "Уточнены фронтальная этикетка и варианты штрихкода."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Применимость обоснована разбором",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2937103",
+              "short_paraphrase": "Вариант сопоставлен с предложениями по цене."
+            }
+          ],
+          "reason_short": "Применимость разобрана по требованиям клиента."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T12:31:17+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2951155,2951157",
+              "short_paraphrase": "Клиент сам прислал сведения и изображения продукта."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-31T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2937103",
+              "short_paraphrase": "Клиент сравнивает предложения по цене."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18615",
+      "snapshot": "T80",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Ответственный, действие и контрольная точка определены",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-20T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2859569",
+              "short_paraphrase": "Согласована техническая встреча на завтра около 13 часов."
+            }
+          ],
+          "reason_short": "Названы ответственный, действие и контрольная точка."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-20T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2859569",
+              "short_paraphrase": "Встреча назначена на завтра, срок ещё не наступил."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-19T15:19:22+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=649041",
+              "short_paraphrase": "Передан список уточнений; часть параметров требует проработки."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-19T15:19:22+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=649041",
+              "short_paraphrase": "Клиент перечислил технические параметры для спецификации."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-19T15:19:22+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=649041",
+              "short_paraphrase": "Остаются вопросы по процессу, ёмкости и подаче."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-14T13:38:37+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2999029,2999031",
+              "short_paraphrase": "Клиент сообщил о намерении подписать текущий вариант."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-14T13:38:37+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2999029,2999031",
+              "short_paraphrase": "Клиент сам пишет о намерении подписать и уточняет параметры."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-07T15:10:56+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=615467",
+              "short_paraphrase": "Сравнены лазер и аппликатор по интеграции с ПО и цене."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-19T15:19:22+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=649041",
+              "short_paraphrase": "Клиент передал договор юристу и запросил правки."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Предпочитает наше решение",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-07T15:10:56+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=615467",
+              "short_paraphrase": "Клиент предпочёл аппликатор лазеру из-за интеграции и затрат на ПО."
+            }
+          ],
+          "reason_short": "Клиент назвал предпочтение нашему варианту и критерий."
+        }
+      ]
+    },
+    {
+      "deal_id": "18873",
+      "snapshot": "D3",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-17T09:05:56+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=647207",
+              "short_paraphrase": "Клиент обещает фото к концу дня; на cutoff срок не истёк."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данных нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "К cutoff не предоставлены данные о применении."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Нет или общий интерес",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Технический запрос не конкретизирован."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Не оценивалась",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Техническая оценка применимости не зафиксирована."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Самостоятельное содержательное обращение клиента не зафиксировано."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "5017",
+      "snapshot": "D7",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-08-11T12:13:09+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=464521",
+              "short_paraphrase": "Согласован тестовый визит на 21 августа в 11:00."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данных нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "К cutoff не предоставлены данные о применении."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-08-11T12:13:09+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=464521",
+              "short_paraphrase": "Требуется тест упаковки на планируемом визите."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-08-11T12:13:09+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=464521",
+              "short_paraphrase": "Проверка назначена, результата теста ещё нет."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Самостоятельное содержательное обращение клиента не зафиксировано."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18747",
+      "snapshot": "T25",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Выполнен к контрольной точке",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-05T15:48:25+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2973109,2973111",
+              "short_paraphrase": "Клиент прислал согласованные фото и размеры."
+            }
+          ],
+          "reason_short": "Клиент выполнил согласованный шаг к контрольной точке."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-05T15:48:25+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2973109,2973111",
+              "short_paraphrase": "Переданы фотографии и часть размеров; не все параметры закрыты."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T12:31:48+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=631497",
+              "short_paraphrase": "Обсуждалось универсальное решение для разных бутылок и этикеток."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T12:31:48+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=631497",
+              "short_paraphrase": "Для оценки не хватает размеров всех вариантов тары."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-05T15:48:25+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2973109,2973111",
+              "short_paraphrase": "Клиент самостоятельно отправил фото и размеры."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18929",
+      "snapshot": "T50",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-26T11:35:58+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=653963",
+              "short_paraphrase": "Клиент передал предложения руководителям, владелец решения не назван."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-26T11:46:11+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=653995",
+              "short_paraphrase": "Ответ ожидается к концу недели, срок ещё впереди."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "UNKNOWN",
+          "confidence": "low",
+          "evidence": [],
+          "reason_short": "Недостаточно данных для оценки полноты сведений."
+        },
+        {
+          "feature_id": "R04",
+          "value": "UNKNOWN",
+          "confidence": "low",
+          "evidence": [],
+          "reason_short": "Недостаточно данных о техническом запросе."
+        },
+        {
+          "feature_id": "R05",
+          "value": "UNKNOWN",
+          "confidence": "low",
+          "evidence": [],
+          "reason_short": "Недостаточно данных о проверке применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-26T11:46:11+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=653995",
+              "short_paraphrase": "Клиент сообщает о предложениях и сроке ответа."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-26T11:35:58+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=653963",
+              "short_paraphrase": "Клиент подтвердил передачу предложений руководителям."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18635",
+      "snapshot": "T80",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-20T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2862473",
+              "short_paraphrase": "Клиент передал договор юристу, точный срок не указан."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Выполнен к контрольной точке",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-20T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2862473",
+              "short_paraphrase": "Клиент прислал правки и контакт юриста."
+            }
+          ],
+          "reason_short": "Клиент выполнил согласованный шаг к контрольной точке."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-09T09:23:47+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2865799,2865801",
+              "short_paraphrase": "Переданы параметры банки и этикетки."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-09T09:26:35+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2865819,2865821",
+              "short_paraphrase": "Уточнены ориентация и параметры нанесения этикетки."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-14T11:16:19+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=619417",
+              "short_paraphrase": "Тест на своей таре отложен до готовности производства."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-14T11:16:19+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=619417",
+              "short_paraphrase": "Клиент подтвердил запуск проекта и этапы."
+            }
+          ],
+          "reason_short": "Клиент подтвердил конфигурацию для дальнейшей оценки."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-09T09:23:47+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2865799,2865801",
+              "short_paraphrase": "Клиент сам прислал технические данные и вопросы."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-14T11:16:19+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=619417",
+              "short_paraphrase": "Сравнены ручное позиционирование и поворот по датчику по скорости."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-20T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2862473",
+              "short_paraphrase": "Клиент обсуждает правки договора с юристом."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "5971",
+      "snapshot": "D3",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-13T14:43:34+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=491111",
+              "short_paraphrase": "Обсуждается лизинговое соглашение, но шаг и срок неясны."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Шаг не согласован",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-13T11:40:49+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=490897",
+              "short_paraphrase": "Уточняются размеры, нового согласованного шага клиента нет."
+            }
+          ],
+          "reason_short": "Нет конкретно согласованного клиентского действия."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-13T11:40:49+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=490897",
+              "short_paraphrase": "Часть размеров названа, полного набора данных нет."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "UNKNOWN",
+          "confidence": "low",
+          "evidence": [],
+          "reason_short": "Недостаточно данных о техническом запросе."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-13T11:40:49+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=490897",
+              "short_paraphrase": "Остаются вопросы о размерах и условиях применения."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Самостоятельное содержательное обращение клиента не зафиксировано."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Есть подтверждённое действие клиента",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2025-10-13T14:43:34+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=491111",
+              "short_paraphrase": "Клиент обсуждает лизинговое соглашение и финансирующую сторону."
+            }
+          ],
+          "reason_short": "Клиент совершил подтверждённое действие с закупкой, финансами или юристом."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18731",
+      "snapshot": "D7",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Процесс не назван",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "В доступных событиях не описан внутренний процесс решения."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Выполнен к контрольной точке",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T14:23:36+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=631795",
+              "short_paraphrase": "Клиент отправил сведения о составе и объёмах растворов."
+            }
+          ],
+          "reason_short": "Клиент выполнил согласованный шаг к контрольной точке."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Достаточно для предметной оценки",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T14:23:36+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=631795",
+              "short_paraphrase": "Переданы составы, объёмы и отсутствие смешивания."
+            }
+          ],
+          "reason_short": "Материалов достаточно для предметной оценки применения."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T14:23:36+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=631795",
+              "short_paraphrase": "Названы два раствора и требование не смешивать их."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-29T00:00:00+03:00",
+              "event_type": "comment",
+              "event_id": "worklog_id=2905047",
+              "short_paraphrase": "Материалы отправлены на производственную проверку; заключения нет."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-28T14:23:36+03:00",
+              "event_type": "email",
+              "event_id": "source_ids=631795",
+              "short_paraphrase": "Клиент сам передал техническую информацию."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Сравнение альтернатив по явному критерию не зафиксировано."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    },
+    {
+      "deal_id": "18773",
+      "snapshot": "T25",
+      "labels": [
+        {
+          "feature_id": "R01",
+          "value": "Роль или барьер названы, но действие либо срок неясны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-07-30T10:24:44+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=633947",
+              "short_paraphrase": "Клиент обозначил финансовую задержку, но владельца решения не уточнил."
+            }
+          ],
+          "reason_short": "Указаны участник или препятствие, но нет полного шага со сроком."
+        },
+        {
+          "feature_id": "R02",
+          "value": "Срок ещё не настал",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T11:54:41+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=641463",
+              "short_paraphrase": "Продолжение обсуждения назначено на вторник, срок ещё впереди."
+            }
+          ],
+          "reason_short": "Срок последнего клиентского шага ещё не наступил."
+        },
+        {
+          "feature_id": "R03",
+          "value": "Данные частичны",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T11:57:54+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2979655,2979657",
+              "short_paraphrase": "Переданы требования и объёмы, часть данных по материалам отсутствует."
+            }
+          ],
+          "reason_short": "Есть часть исходных данных, но остаются пробелы."
+        },
+        {
+          "feature_id": "R04",
+          "value": "Конкретен и ведёт к проверке или изменению решения",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T11:54:41+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=641463",
+              "short_paraphrase": "Обсуждается конкретная упаковка с DataMatrix и датой."
+            }
+          ],
+          "reason_short": "Названо требование, по которому можно проверить или изменить конфигурацию."
+        },
+        {
+          "feature_id": "R05",
+          "value": "Есть нерешённый вопрос",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T17:27:05+03:00",
+              "event_type": "message",
+              "event_id": "source_ids=2981777,2981779",
+              "short_paraphrase": "Предложение корректируется; техническая применимость ещё обсуждается."
+            }
+          ],
+          "reason_short": "Остаётся технический вопрос по применимости."
+        },
+        {
+          "feature_id": "R06",
+          "value": "Нет",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не подтвердил актуальную конфигурацию."
+        },
+        {
+          "feature_id": "R07",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T11:54:41+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=641463",
+              "short_paraphrase": "Клиент сам обсуждает сравнение предложений."
+            }
+          ],
+          "reason_short": "Клиент сам инициировал содержательное обсуждение или передал обновление."
+        },
+        {
+          "feature_id": "R08",
+          "value": "Да",
+          "confidence": "high",
+          "evidence": [
+            {
+              "timestamp": "2026-08-07T11:54:41+03:00",
+              "event_type": "call",
+              "event_id": "activity_id=641463",
+              "short_paraphrase": "Сравнивается альтернатива по цене, технологии и сроку."
+            }
+          ],
+          "reason_short": "Клиент сопоставил реальные варианты по названному критерию."
+        },
+        {
+          "feature_id": "R09",
+          "value": "Шаг не начат",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Формальный клиентский шаг закупки не зафиксирован."
+        },
+        {
+          "feature_id": "R10",
+          "value": "Не высказано или не определился",
+          "confidence": "medium",
+          "evidence": [],
+          "reason_short": "Клиент не назвал предпочтение с критерием выбора."
+        }
+      ]
+    }
+  ]
+}

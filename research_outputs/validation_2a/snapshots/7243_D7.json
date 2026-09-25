@@ -1,0 +1,81 @@
+{
+  "deal_id": "7243",
+  "snapshot": "D7",
+  "created_at": "2026-03-10T11:29:00+03:00",
+  "cutoff": "2026-03-17T11:29:00+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-03-10T15:34:08+07:00",
+      "event_type": "task",
+      "event_id": "task_id=33983",
+      "direction": null,
+      "content": "CRM: получить подписанный договор",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-12T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "постарается выслать завтра фото",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-12T13:23:11+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=539963",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "клиент выслал фото тары, отправил в чат для согласования КП",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-13T12:31:31+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540457",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-13T12:31:44+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540459",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-16T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "вышлет сегодня размеры, оборудование рассматривают как отдельно стоящее, готовы рассмотреть нанесение сбоку, клиент выслал размеры продукта, отправил в чат",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-03-16T10:40:21+03:00",
+      "event_type": "call",
+      "event_id": "activity_id=540945",
+      "direction": "outgoing",
+      "content": null,
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-03-17T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2563333",
+      "direction": null,
+      "content": "получено предложение с китая, подготовить и выслать КП",
+      "date_only": true
+    }
+  ]
+}

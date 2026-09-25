@@ -1,0 +1,65 @@
+{
+  "deal_id": "18731",
+  "snapshot": "D3",
+  "created_at": "2026-07-23T09:21:34+03:00",
+  "cutoff": "2026-07-26T09:21:34+03:00",
+  "history_status": "partial_history",
+  "events": [
+    {
+      "timestamp": "2026-07-23T13:22:43+07:00",
+      "event_type": "task",
+      "event_id": "task_id=49757",
+      "direction": null,
+      "content": "CRM: обсудить КП",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-23T10:13:23+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=627657",
+      "direction": "incoming",
+      "content": "Александр, добрый день.\nДокументация на тару от производителя:\nКанистра 10 л - Канистра К15\nКрышка для канистры 10 л - Пробка канистровая П55\nКанистра 5 л - Канистра и крышка 5 л\n----------------\nКому: iliya.sokolov@biovitrum.ru (iliya.sokolov@biovitrum.ru);\nТема: Уточнение информации;\n23.07.2026, 09:18, \"Александр Пахомов\" :\nИлья, в продолжении разговора ожидаем от Вас фото тары, крышки и этикетки с размерами(можно приложить рулетку\\линейку для понимания размеров), заранее спасибо.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Т...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-23T10:24:34+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=627675",
+      "direction": "outgoing",
+      "content": "Илья, спасибо информацию получили, вышлите, пожалуйста, фото(чертеж) используемой этикетки с размерами.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Илья Соколов\nКому: Пахомов Александр\nДата: Четверг, 23 июля 2026\n10:13:23\nТема: Re: Уточнение информации\nАлександр, добрый день.\nДокументация на тару от производителя:\nКанистра 10 л - Канистра К15\nКрышка для канистры 10 л - Пробка канистровая П55\nКанистра 5 л - Канистра и крышка 5 л\n----------------\nКому: iliya.sokolov@biovitrum.ru (iliya.sok...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-23T11:24:18+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=627767",
+      "direction": "incoming",
+      "content": "Фото во вложении\n----------------\nКому: iliya.sokolov@biovitrum.ru (iliya.sokolov@biovitrum.ru);\nТема: Уточнение информации;\n23.07.2026, 10:24, \"Александр Пахомов\" :\nИлья, спасибо информацию получили, вышлите, пожалуйста, фото(чертеж) используемой этикетки с размерами.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Илья Соколов iliya.sokolov@biovitrum.ru>\nКому: Пахомов Александр 129@praktikm.ru>\nДата: Четверг, 23 июля 2026\n10:13:23\nТема: Re: Уточнение информации\nАлександр, добрый день.\nДоку...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-23T11:34:22+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=627789",
+      "direction": "outgoing",
+      "content": "Спасибо фото получили, передали в тех. отдел для согласования оборудования.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Илья Соколов\nКому: Пахомов Александр\nДата: Четверг, 23 июля 2026\n11:24:18\nТема: Re: Уточнение информации\nФото во вложении\n----------------\nКому: iliya.sokolov@biovitrum.ru (iliya.sokolov@biovitrum.ru);\nТема: Уточнение информации;\n23.07.2026, 10:24, \"Александр Пахомов\" :\nИлья, спасибо информацию получили, вышлите, пожалуйста, фото(чертеж) используемой этикетки с размерам...",
+      "date_only": false
+    },
+    {
+      "timestamp": "2026-07-24T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "worklog_id=2905047",
+      "direction": null,
+      "content": "отправил напоминание в чат для получения предложения с китая, запрошены у клиента точные размеры крышек",
+      "date_only": true
+    },
+    {
+      "timestamp": "2026-07-24T13:15:46+03:00",
+      "event_type": "email",
+      "event_id": "source_ids=629003",
+      "direction": "outgoing",
+      "content": "Илья, добрый день.\nПроизводство запросило предоставить точные размеры используемых крышек(диаметр и высоту).\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail: 129@praktikm.ru\nНаши сайты: http://praktikmetiket.ru и https://praktikm.ru\nНаш YouTube: https://www.youtube.com/channel/UCCjj1mrj7oiytSXM-QfusOw\nНаш RuTube: https://rutube.ru/channel/5860188/\nНаш Вконтакте: https://vk.com/praktikm1\nНаш Телеграм: https://t.me/praktikm\nОт кого: Александр Пахомов\nКому:\nДата: Четверг, 23 июля 2026\n11:34:22\nТема: Re: Уточнение информации\nСпасибо фото получили, передали в тех. отдел для согласования оборудования.\n--\nАлександр,\nИнженер-консультант ООО \"ПрактикМ\"\n(производство оборудования)\nРабочий телефон: +7 (495) 127-79-73 доб. 129\nБесплатный номер по РФ: +7(800) 511-38-28\nE-mail:...",
+      "date_only": false
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "run_version": "validation_2a",
+  "scope": "blind snapshot labelability and chronology only",
+  "denominator_deals": 23,
+  "reliability_sample_snapshots": 23,
+  "known_definition": "value != UNKNOWN; negative or absence states may have no positive event citation",
+  "evidence_backed_known_definition": "value != UNKNOWN and at least one cited snapshot event",
+  "agreement_definitions": {
+    "exact": "same contract value / 23",
+    "unknown": "both labelers agree whether value is UNKNOWN / 23",
+    "major": "different values, both non-UNKNOWN / 23"
+  },
+  "features": [
+    {
+      "feature_id": "R01",
+      "name": "Ясность внутреннего решения",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 5,
+          "unknown": 1,
+          "high_confidence": 2
+        },
+        "D7": {
+          "known": 23,
+          "evidence_backed_known": 11,
+          "unknown": 0,
+          "high_confidence": 5
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 11,
+          "unknown": 0,
+          "high_confidence": 5
+        },
+        "T50": {
+          "known": 23,
+          "evidence_backed_known": 18,
+          "unknown": 0,
+          "high_confidence": 10
+        },
+        "T80": {
+          "known": 23,
+          "evidence_backed_known": 20,
+          "unknown": 0,
+          "high_confidence": 10
+        }
+      },
+      "exact_agreement_pct": 65.2,
+      "unknown_status_agreement_pct": 100.0,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 34.8,
+      "major_disagreement_count": 8,
+      "one_unknown_disagreement_count": 0,
+      "known_to_unknown_transitions": 0,
+      "ambiguity": "Граница между названным барьером и действующим шагом",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "ordinal",
+      "history_state": "Нет; брать текущий gate",
+      "deterministic_code": "Нет",
+      "minimum_input": "Имя роли, её действие и срок/результат из одной актуальной реплики"
+    },
+    {
+      "feature_id": "R02",
+      "name": "Состояние шага, принадлежащего клиенту",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 20,
+          "evidence_backed_known": 15,
+          "unknown": 3,
+          "high_confidence": 8
+        },
+        "D7": {
+          "known": 20,
+          "evidence_backed_known": 18,
+          "unknown": 3,
+          "high_confidence": 9
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 18,
+          "unknown": 0,
+          "high_confidence": 8
+        },
+        "T50": {
+          "known": 21,
+          "evidence_backed_known": 20,
+          "unknown": 2,
+          "high_confidence": 8
+        },
+        "T80": {
+          "known": 19,
+          "evidence_backed_known": 19,
+          "unknown": 4,
+          "high_confidence": 11
+        }
+      },
+      "exact_agreement_pct": 87.0,
+      "unknown_status_agreement_pct": 100.0,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 13.0,
+      "major_disagreement_count": 3,
+      "one_unknown_disagreement_count": 0,
+      "known_to_unknown_transitions": 7,
+      "ambiguity": "Статус последнего обещания требует истории и расчёта срока",
+      "verdict": "SPLIT_SEMANTIC_AND_CODE",
+      "direct_jev_after_revision": "choice",
+      "history_state": "Да: последнее клиентское обязательство и его версии",
+      "deterministic_code": "Да: срок, факт выполнения и число просрочек",
+      "minimum_input": "Обещание, ответственный, контрольная дата, подтверждение выполнения и последующие переносы"
+    },
+    {
+      "feature_id": "R03",
+      "name": "Достаточность исходных данных клиента",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 18,
+          "unknown": 1,
+          "high_confidence": 12
+        },
+        "D7": {
+          "known": 22,
+          "evidence_backed_known": 19,
+          "unknown": 1,
+          "high_confidence": 12
+        },
+        "T25": {
+          "known": 22,
+          "evidence_backed_known": 19,
+          "unknown": 1,
+          "high_confidence": 12
+        },
+        "T50": {
+          "known": 22,
+          "evidence_backed_known": 20,
+          "unknown": 1,
+          "high_confidence": 14
+        },
+        "T80": {
+          "known": 22,
+          "evidence_backed_known": 20,
+          "unknown": 1,
+          "high_confidence": 13
+        }
+      },
+      "exact_agreement_pct": 73.9,
+      "unknown_status_agreement_pct": 91.3,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 17.4,
+      "major_disagreement_count": 4,
+      "one_unknown_disagreement_count": 2,
+      "known_to_unknown_transitions": 0,
+      "ambiguity": "Нет общего порога достаточности материалов для конкретной задачи",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "ordinal",
+      "history_state": "Текущая версия задачи",
+      "deterministic_code": "Нет",
+      "minimum_input": "Заявленное применение, запрошенные и фактически полученные данные"
+    },
+    {
+      "feature_id": "R04",
+      "name": "Предметность технического запроса",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 18,
+          "evidence_backed_known": 10,
+          "unknown": 5,
+          "high_confidence": 10
+        },
+        "D7": {
+          "known": 21,
+          "evidence_backed_known": 17,
+          "unknown": 2,
+          "high_confidence": 15
+        },
+        "T25": {
+          "known": 22,
+          "evidence_backed_known": 18,
+          "unknown": 1,
+          "high_confidence": 16
+        },
+        "T50": {
+          "known": 23,
+          "evidence_backed_known": 21,
+          "unknown": 0,
+          "high_confidence": 20
+        },
+        "T80": {
+          "known": 23,
+          "evidence_backed_known": 22,
+          "unknown": 0,
+          "high_confidence": 20
+        }
+      },
+      "exact_agreement_pct": 73.9,
+      "unknown_status_agreement_pct": 78.3,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 4.3,
+      "major_disagreement_count": 1,
+      "one_unknown_disagreement_count": 5,
+      "known_to_unknown_transitions": 1,
+      "ambiguity": "Разметчики расходятся между UNKNOWN и отсутствием предметного запроса",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "ordinal",
+      "history_state": "Нет",
+      "deterministic_code": "Нет",
+      "minimum_input": "Слова клиента об ограничении или вопросе и связь с проверяемым действием"
+    },
+    {
+      "feature_id": "R05",
+      "name": "Статус проверки технической применимости",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 11,
+          "unknown": 1,
+          "high_confidence": 9
+        },
+        "D7": {
+          "known": 21,
+          "evidence_backed_known": 11,
+          "unknown": 2,
+          "high_confidence": 10
+        },
+        "T25": {
+          "known": 21,
+          "evidence_backed_known": 13,
+          "unknown": 2,
+          "high_confidence": 10
+        },
+        "T50": {
+          "known": 22,
+          "evidence_backed_known": 17,
+          "unknown": 1,
+          "high_confidence": 14
+        },
+        "T80": {
+          "known": 22,
+          "evidence_backed_known": 19,
+          "unknown": 1,
+          "high_confidence": 12
+        }
+      },
+      "exact_agreement_pct": 69.6,
+      "unknown_status_agreement_pct": 91.3,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 21.7,
+      "major_disagreement_count": 5,
+      "one_unknown_disagreement_count": 2,
+      "known_to_unknown_transitions": 1,
+      "ambiguity": "Размыта граница нерешённого вопроса и обоснованной применимости",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "choice",
+      "history_state": "Да: текущий scope и последняя проверка",
+      "deterministic_code": "Нет",
+      "minimum_input": "Конкретная задача, техническое заключение или результат релевантного теста"
+    },
+    {
+      "feature_id": "R06",
+      "name": "Согласие клиента с конкретной конфигурацией",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 4,
+          "unknown": 1,
+          "high_confidence": 3
+        },
+        "D7": {
+          "known": 23,
+          "evidence_backed_known": 6,
+          "unknown": 0,
+          "high_confidence": 5
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 5,
+          "unknown": 0,
+          "high_confidence": 4
+        },
+        "T50": {
+          "known": 23,
+          "evidence_backed_known": 10,
+          "unknown": 0,
+          "high_confidence": 8
+        },
+        "T80": {
+          "known": 23,
+          "evidence_backed_known": 16,
+          "unknown": 0,
+          "high_confidence": 13
+        }
+      },
+      "exact_agreement_pct": 78.3,
+      "unknown_status_agreement_pct": 100.0,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 21.7,
+      "major_disagreement_count": 5,
+      "one_unknown_disagreement_count": 0,
+      "known_to_unknown_transitions": 0,
+      "ambiguity": "Согласие клиента путают с подготовленной продавцом конфигурацией",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "boolean",
+      "history_state": "Да: актуальная конфигурация",
+      "deterministic_code": "Нет",
+      "minimum_input": "Явное подтверждение клиента и версия состава решения"
+    },
+    {
+      "feature_id": "R07",
+      "name": "Самостоятельное содержательное обращение клиента",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 20,
+          "evidence_backed_known": 8,
+          "unknown": 3,
+          "high_confidence": 8
+        },
+        "D7": {
+          "known": 21,
+          "evidence_backed_known": 9,
+          "unknown": 2,
+          "high_confidence": 9
+        },
+        "T25": {
+          "known": 21,
+          "evidence_backed_known": 8,
+          "unknown": 2,
+          "high_confidence": 8
+        },
+        "T50": {
+          "known": 21,
+          "evidence_backed_known": 15,
+          "unknown": 2,
+          "high_confidence": 14
+        },
+        "T80": {
+          "known": 21,
+          "evidence_backed_known": 17,
+          "unknown": 2,
+          "high_confidence": 16
+        }
+      },
+      "exact_agreement_pct": 56.5,
+      "unknown_status_agreement_pct": 91.3,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 34.8,
+      "major_disagreement_count": 8,
+      "one_unknown_disagreement_count": 2,
+      "known_to_unknown_transitions": 0,
+      "ambiguity": "Инициатор и содержательность смешаны; ответы расходятся",
+      "verdict": "SPLIT_SEMANTIC_AND_CODE",
+      "direct_jev_after_revision": "boolean",
+      "history_state": "Нет",
+      "deterministic_code": "Да: направление/инициатор события, если канал надёжен",
+      "minimum_input": "Инициированное клиентом событие и его покупательский смысл"
+    },
+    {
+      "feature_id": "R08",
+      "name": "Сравнение альтернатив по явному критерию",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 2,
+          "unknown": 1,
+          "high_confidence": 2
+        },
+        "D7": {
+          "known": 23,
+          "evidence_backed_known": 5,
+          "unknown": 0,
+          "high_confidence": 3
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 5,
+          "unknown": 0,
+          "high_confidence": 3
+        },
+        "T50": {
+          "known": 23,
+          "evidence_backed_known": 8,
+          "unknown": 0,
+          "high_confidence": 4
+        },
+        "T80": {
+          "known": 23,
+          "evidence_backed_known": 9,
+          "unknown": 0,
+          "high_confidence": 5
+        }
+      },
+      "exact_agreement_pct": 69.6,
+      "unknown_status_agreement_pct": 100.0,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 30.4,
+      "major_disagreement_count": 7,
+      "one_unknown_disagreement_count": 0,
+      "known_to_unknown_transitions": 0,
+      "ambiguity": "Неодинаково трактуются реальная альтернатива и явный критерий",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "boolean",
+      "history_state": "Нет",
+      "deterministic_code": "Нет",
+      "minimum_input": "Названная клиентом альтернатива и критерий из доступного сообщения"
+    },
+    {
+      "feature_id": "R09",
+      "name": "Формальный шаг закупки со стороны клиента",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 3,
+          "unknown": 1,
+          "high_confidence": 1
+        },
+        "D7": {
+          "known": 23,
+          "evidence_backed_known": 3,
+          "unknown": 0,
+          "high_confidence": 2
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 5,
+          "unknown": 0,
+          "high_confidence": 2
+        },
+        "T50": {
+          "known": 22,
+          "evidence_backed_known": 10,
+          "unknown": 1,
+          "high_confidence": 4
+        },
+        "T80": {
+          "known": 23,
+          "evidence_backed_known": 14,
+          "unknown": 0,
+          "high_confidence": 9
+        }
+      },
+      "exact_agreement_pct": 78.3,
+      "unknown_status_agreement_pct": 100.0,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 21.7,
+      "major_disagreement_count": 5,
+      "one_unknown_disagreement_count": 0,
+      "known_to_unknown_transitions": 1,
+      "ambiguity": "Формальный шаг слишком близок к концу и путается с планом продавца",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "ordinal",
+      "history_state": "Да: стадия формального процесса",
+      "deterministic_code": "Часть статусов документов может извлекаться структурно",
+      "minimum_input": "Подтверждённое действие закупок, юристов или финансирования со стороны клиента"
+    },
+    {
+      "feature_id": "R10",
+      "name": "Явное текущее предпочтение клиента",
+      "known_by_snapshot": {
+        "D3": {
+          "known": 22,
+          "evidence_backed_known": 4,
+          "unknown": 1,
+          "high_confidence": 3
+        },
+        "D7": {
+          "known": 23,
+          "evidence_backed_known": 5,
+          "unknown": 0,
+          "high_confidence": 3
+        },
+        "T25": {
+          "known": 23,
+          "evidence_backed_known": 6,
+          "unknown": 0,
+          "high_confidence": 4
+        },
+        "T50": {
+          "known": 22,
+          "evidence_backed_known": 9,
+          "unknown": 1,
+          "high_confidence": 7
+        },
+        "T80": {
+          "known": 22,
+          "evidence_backed_known": 12,
+          "unknown": 1,
+          "high_confidence": 10
+        }
+      },
+      "exact_agreement_pct": 78.3,
+      "unknown_status_agreement_pct": 95.7,
+      "both_unknown_count": 0,
+      "major_disagreement_pct": 17.4,
+      "major_disagreement_count": 4,
+      "one_unknown_disagreement_count": 1,
+      "known_to_unknown_transitions": 1,
+      "ambiguity": "Молчание и отсутствие предпочтения смешаны; критерий не всегда явный",
+      "verdict": "REVISE",
+      "direct_jev_after_revision": "choice",
+      "history_state": "Да: последнее явное предпочтение",
+      "deterministic_code": "Нет",
+      "minimum_input": "Слова клиента о текущем выборе и названном критерии"
+    }
+  ]
+}
