@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NeuroROP Feature Candidate Catalog",
+  "type": "object",
+  "required": [
+    "run_version",
+    "dataset",
+    "features"
+  ],
+  "properties": {
+    "run_version": {
+      "type": "string"
+    },
+    "dataset": {
+      "type": "object",
+      "required": [
+        "manager",
+        "won_count",
+        "lost_count",
+        "total_count"
+      ],
+      "properties": {
+        "manager": {
+          "type": "string"
+        },
+        "won_count": {
+          "type": "integer"
+        },
+        "lost_count": {
+          "type": "integer"
+        },
+        "total_count": {
+          "type": "integer"
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "feature_id",
+          "name",
+          "definition",
+          "observed_direction",
+          "jev_suitability",
+          "evidence",
+          "counterevidence",
+          "confounds",
+          "leakage_risk",
+          "critic_verdict",
+          "validation_priority"
+        ],
+        "properties": {
+          "feature_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "observed_direction": {
+            "enum": [
+              "more_in_won",
+              "more_in_lost",
+              "mixed"
+            ]
+          },
+          "jev_suitability": {
+            "type": "object",
+            "required": [
+              "suitable",
+              "type",
+              "question"
+            ],
+            "properties": {
+              "suitable": {
+                "type": "boolean"
+              },
+              "type": {
+                "enum": [
+                  "boolean",
+                  "ordinal",
+                  "choice",
+                  "not_suitable"
+                ]
+              },
+              "question": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "anchors_or_choices": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "when_observable": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "deal_id",
+                "outcome",
+                "timestamp",
+                "summary"
+              ],
+              "properties": {
+                "deal_id": {
+                  "type": [
+                    "string",
+                    "integer"
+                  ]
+                },
+                "outcome": {
+                  "enum": [
+                    "WON",
+                    "LOST"
+                  ]
+                },
+                "timestamp": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "summary": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "counterevidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "deal_id",
+                "outcome",
+                "summary"
+              ],
+              "properties": {
+                "deal_id": {
+                  "type": [
+                    "string",
+                    "integer"
+                  ]
+                },
+                "outcome": {
+                  "enum": [
+                    "WON",
+                    "LOST"
+                  ]
+                },
+                "summary": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "evidence_breadth": {
+            "type": "object",
+            "properties": {
+              "won_deals": {
+                "type": "integer"
+              },
+              "lost_deals": {
+                "type": "integer"
+              },
+              "shards": {
+                "type": "integer"
+              }
+            }
+          },
+          "confounds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "leakage_risk": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "critic_verdict": {
+            "enum": [
+              "keep",
+              "revise",
+              "merge",
+              "reject"
+            ]
+          },
+          "validation_priority": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
