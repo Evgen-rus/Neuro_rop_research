@@ -1,0 +1,142 @@
+{
+  "E01": {
+    "n": 34,
+    "both_yes": 22,
+    "both_no": 4,
+    "split": 8,
+    "overall_exact": 0.7647058823529411,
+    "yes_agreement": 0.8461538461538461,
+    "no_agreement": 0.5,
+    "class_coverage_min_8_each": false,
+    "numeric_acceptance": false,
+    "fields": {
+      "owner": {
+        "both_yes": 22,
+        "presence_agree": 17,
+        "presence_rate": 0.7727272727272727,
+        "both_present": 0,
+        "literal_agree": 0,
+        "literal_rate": null
+      },
+      "action": {
+        "both_yes": 22,
+        "presence_agree": 22,
+        "presence_rate": 1.0,
+        "both_present": 22,
+        "literal_agree": 2,
+        "literal_rate": 0.09090909090909091
+      },
+      "due_at_or_expected_result": {
+        "both_yes": 22,
+        "presence_agree": 19,
+        "presence_rate": 0.8636363636363636,
+        "both_present": 18,
+        "literal_agree": 10,
+        "literal_rate": 0.5555555555555556
+      }
+    }
+  },
+  "E02": {
+    "n": 34,
+    "both_yes": 9,
+    "both_no": 21,
+    "split": 4,
+    "overall_exact": 0.8823529411764706,
+    "yes_agreement": 0.8181818181818182,
+    "no_agreement": 0.9130434782608695,
+    "class_coverage_min_8_each": true,
+    "numeric_acceptance": false,
+    "fields": {
+      "completed_action": {
+        "both_yes": 9,
+        "presence_agree": 9,
+        "presence_rate": 1.0,
+        "both_present": 9,
+        "literal_agree": 2,
+        "literal_rate": 0.2222222222222222
+      }
+    }
+  },
+  "E03": {
+    "n": 29,
+    "both_yes": 16,
+    "both_no": 10,
+    "split": 3,
+    "overall_exact": 0.896551724137931,
+    "yes_agreement": 0.9142857142857143,
+    "no_agreement": 0.8695652173913043,
+    "class_coverage_min_8_each": true,
+    "numeric_acceptance": false,
+    "fields": {
+      "new_due_at_or_expected_result": {
+        "both_yes": 16,
+        "presence_agree": 16,
+        "presence_rate": 1.0,
+        "both_present": 16,
+        "literal_agree": 6,
+        "literal_rate": 0.375
+      }
+    }
+  },
+  "E04": {
+    "n": 24,
+    "both_yes": 4,
+    "both_no": 18,
+    "split": 2,
+    "overall_exact": 0.9166666666666666,
+    "yes_agreement": 0.8,
+    "no_agreement": 0.9473684210526315,
+    "class_coverage_min_8_each": false,
+    "numeric_acceptance": false,
+    "fields": {}
+  },
+  "E05": {
+    "n": 31,
+    "both_yes": 25,
+    "both_no": 6,
+    "split": 0,
+    "overall_exact": 1.0,
+    "yes_agreement": 1.0,
+    "no_agreement": 1.0,
+    "class_coverage_min_8_each": false,
+    "numeric_acceptance": false,
+    "fields": {
+      "customer_role": {
+        "both_yes": 25,
+        "presence_agree": 23,
+        "presence_rate": 0.92,
+        "both_present": 17,
+        "literal_agree": 14,
+        "literal_rate": 0.8235294117647058
+      },
+      "decision_action": {
+        "both_yes": 25,
+        "presence_agree": 25,
+        "presence_rate": 1.0,
+        "both_present": 25,
+        "literal_agree": 4,
+        "literal_rate": 0.16
+      },
+      "checkpoint": {
+        "both_yes": 25,
+        "presence_agree": 23,
+        "presence_rate": 0.92,
+        "both_present": 22,
+        "literal_agree": 10,
+        "literal_rate": 0.45454545454545453
+      }
+    }
+  },
+  "E06": {
+    "n": 43,
+    "both_yes": 31,
+    "both_no": 10,
+    "split": 2,
+    "overall_exact": 0.9534883720930233,
+    "yes_agreement": 0.96875,
+    "no_agreement": 0.9090909090909091,
+    "class_coverage_min_8_each": true,
+    "numeric_acceptance": true,
+    "fields": {}
+  }
+}

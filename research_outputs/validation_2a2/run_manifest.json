@@ -1,0 +1,33 @@
+{
+  "stage": "Validation 2A.2",
+  "created_at_utc": "2026-09-25T15:22:03.844221+00:00",
+  "examples": 195,
+  "classifier_counts": {
+    "E01": 34,
+    "E02": 34,
+    "E03": 29,
+    "E04": 24,
+    "E05": 31,
+    "E06": 43
+  },
+  "primary": "user-selected current model",
+  "workers": "two independent Luna Max labelers; two Luna Max candidate curators; one Luna Max disagreement audit",
+  "source": "outcome-blind Validation 2A snapshots",
+  "outcome_labels_accessed": false,
+  "holdout_performed": false,
+  "dataset_modified": false,
+  "files_sha256": {
+    "event_classifier_contract.json": "94a9b4c47702ca458031da23d68ab38ca58de5cba086da3a14a4b7346777124a",
+    "analysis_plan.json": "b113fc1a8cfc4a0ff7c5c8332147668bbd7af2f92f6fa9b08d7adf53674d24f1",
+    "source_plan.json": "9053d3e2a633a0eb47432b779ea7e0062945bad2c6c980a6098e989375792d33",
+    "candidates/A.json": "dc29c6245f3923c15a6cc811e5be51e280baa0b9e98a19dbfe8910ac2095fd70",
+    "candidates/B.json": "4ee4498a400c017670553bb0e74bbd49c2cbd9c5b6f4a72c2769c5d8a280c481",
+    "benchmark_manifest.json": "82d760c0e8cc7168e49fb4805b1128eda5f6a8c19ff3c3733ac49f1f1952138d",
+    "labels/labeler_A.json": "8938bfa40e91f6f004e7f2964fa5a06b26eb1eeeb260989ab0777b6d1379f688",
+    "labels/labeler_B.json": "31d4b34d5ff49f90ae39cd29774afa13192516df1b842cb033c29eeec7c26601",
+    "reliability/metrics.json": "dc7ee58869c43878e2f8fb293a6abc0ed5537ab22603a0902c32bd2f627349d4",
+    "reliability/disagreement_audit.md": "9535bf1aaeeebd31ee817944277e6e3ce3504312d0f1f7f5cc3a005e5487d230",
+    "state_prototype.py": "9883670b3900cad22550c0819860307039f83477ee648e055d02e814af81c708",
+    "executive_summary.md": "02a13a8375acab6d18089240c5a742436f15a2fb271cc0d60b87363711d812ab"
+  }
+}

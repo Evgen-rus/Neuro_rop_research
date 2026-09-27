@@ -1,0 +1,19 @@
+{
+  "version": "validation_2a2_analysis_v1",
+  "frozen_before_reliability": true,
+  "unit": "paired independent labels for one benchmark example",
+  "overall_exact_agreement": "(both YES + both NO) / all paired examples",
+  "yes_agreement": "2 * both YES / (2 * both YES + split YES/NO)",
+  "no_agreement": "2 * both NO / (2 * both NO + split YES/NO)",
+  "major_disagreement": "split YES/NO / all paired examples",
+  "field_presence_agreement": "among examples where both say YES, proportion where both field values are null or both non-null",
+  "field_literal_agreement": "among examples where both say YES and both fields are non-null, proportion with equal lowercase whitespace-normalized strings",
+  "acceptance": {
+    "overall_exact_at_least": 0.9,
+    "yes_agreement_at_least": 0.85,
+    "no_agreement_at_least": 0.85,
+    "minimum_both_yes_examples": 8,
+    "minimum_both_no_examples": 8
+  },
+  "interpretation": "The class minimum is a predeclared coverage guardrail, not an accuracy measure. No outcome labels or predictive metrics are used."
+}

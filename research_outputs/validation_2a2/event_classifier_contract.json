@@ -1,0 +1,57 @@
+{
+  "version": "validation_2a2_frozen_v1",
+  "unit": "one semantic event; one previous relevant event is allowed only to resolve a reference or prior commitment; no full deal history and no later event",
+  "labels": ["YES", "NO"],
+  "general_rules": [
+    "Classify only what the current event explicitly establishes, using the supplied previous related event only as local context.",
+    "If the supplied event and local context do not establish the YES criterion, answer NO; do not guess from silence, elapsed time or deal state.",
+    "Do not infer customer speech from a seller proposal, CRM task title, or unsupported manager speculation.",
+    "Extracted fields must be short normalized source-grounded phrases; use null when a field is not stated.",
+    "Never infer deal result, a whole-deal current state, the latest gate, or counts of missed commitments."
+  ],
+  "classifiers": [
+    {
+      "id": "E01", "name": "CUSTOMER_COMMITMENT", "question": "Does the customer explicitly commit themselves or a customer-side person/team to a concrete future action?",
+      "yes_rule": "An explicit customer-side owner undertakes a concrete future action. A date is useful but not required if the action is concrete.",
+      "no_rule": "Seller plans or offers an action, or customer uses only vague possibility such as look, think, maybe or try without a concrete customer-owned action.",
+      "fields_if_yes": ["owner", "action", "due_at_or_expected_result"],
+      "field_rules": {"owner": "customer person or role explicitly stated; null if first-person owner is clear but unnamed", "action": "short concrete verb-object action", "due_at_or_expected_result": "normalized explicit date, event or expected result; null if absent"}
+    },
+    {
+      "id": "E02", "name": "COMMITMENT_COMPLETION", "question": "Does the customer explicitly report that a previously agreed customer-side action has been completed?",
+      "yes_rule": "The customer explicitly reports completion of the action established in the previous related event, or explicitly identifies it as a previously agreed action in the current event.",
+      "no_rule": "No explicit completion report; seller says they completed their own task; action merely planned; a file exists without an attributable customer completion statement.",
+      "fields_if_yes": ["completed_action"],
+      "field_rules": {"completed_action": "short description of the completed customer-side action"}
+    },
+    {
+      "id": "E03", "name": "COMMITMENT_RESCHEDULE", "question": "Does the customer explicitly move a previously agreed customer-side action to a new time, event, or expected checkpoint?",
+      "yes_rule": "The customer explicitly changes the checkpoint of an already agreed customer-side action; the new checkpoint is stated.",
+      "no_rule": "A new unrelated plan, seller rescheduling their own call, vague postponement without a new checkpoint, or no prior agreed action.",
+      "fields_if_yes": ["new_due_at_or_expected_result"],
+      "field_rules": {"new_due_at_or_expected_result": "short normalized new date, event or expected result"}
+    },
+    {
+      "id": "E04", "name": "EXPLICIT_MISS", "question": "Does the event explicitly establish that a previously agreed customer-side action was not completed as promised?",
+      "yes_rule": "Customer or a clearly sourced report explicitly says the agreed customer-side action was not completed by the promise, with the previous agreement identifiable.",
+      "no_rule": "Only silence, a passed deadline, missing documentation, an unanswered call, a seller guess or an unrelated delay."
+    },
+    {
+      "id": "E05", "name": "DECISION_GATE_FACT", "question": "Does this event state a concrete fact about an internal customer decision gate?",
+      "yes_rule": "The event explicitly ties at least one fact to a particular internal customer review, approval, financing or procurement decision gate.",
+      "no_rule": "Generic interest or decision language without a particular internal gate; seller's next step; a role mentioned without an internal decision context.",
+      "fields_if_yes": ["customer_role", "decision_action", "checkpoint"],
+      "field_rules": {"customer_role": "explicit customer-side decision role, otherwise null", "decision_action": "specific action for this gate, otherwise null; generic think/look/decide is null", "checkpoint": "bounded date, event or expected result for this same gate, otherwise null"}
+    },
+    {
+      "id": "E06", "name": "CHECKABLE_TECHNICAL_REQUIREMENT", "question": "Does the customer state an application-specific technical requirement, constraint, or question that can be evaluated, tested, calculated, or answered against the proposed solution?",
+      "yes_rule": "Customer-stated, application-specific and checkable technical content is present in the current event.",
+      "no_rule": "General interest, seller's suggestion, generic equipment category, or a technical fact with no customer-stated requirement, constraint or answerable question."
+    }
+  ],
+  "label_record": {
+    "example_id": "benchmark ID", "classifier_id": "E01..E06", "value": "YES or NO",
+    "fields": "all fields_if_yes keys for this classifier, each string or null; empty object if no fields; for NO use nulls",
+    "confidence": "high | medium | low", "reason_short": "one short evidence-grounded reason"
+  }
+}

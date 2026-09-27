@@ -1,0 +1,20 @@
+{
+  "contract_sha256": "94a9b4c47702ca458031da23d68ab38ca58de5cba086da3a14a4b7346777124a",
+  "examples": 195,
+  "counts": {
+    "E01": 34,
+    "E02": 34,
+    "E03": 29,
+    "E04": 24,
+    "E05": 31,
+    "E06": 43
+  },
+  "files": {
+    "benchmark_E01.json": "c48f5019bedb033cd46a677290646adcfff91b0954bf0d430abf6ef47f775698",
+    "benchmark_E02.json": "c2857ae2a3029c30799ba69ba589de63227bde1613969b646b6f22bfc1f4018d",
+    "benchmark_E03.json": "5984d5877e16977a7929392f151bb33d41fe7bd619799c3ba2c49adf7722f90d",
+    "benchmark_E04.json": "47f8e8f00e014b932371574e847ec51beeb8842b343c007a3af0190d884d4264",
+    "benchmark_E05.json": "7c2dc2b9b2e6b39cb014e0a7f2b6f0315039a3cbb6b910551beb612a302a2c18",
+    "benchmark_E06.json": "b3e75f873a85d52398726e73d15ae3f2070704a847f3a8e580a870209e473081"
+  }
+}

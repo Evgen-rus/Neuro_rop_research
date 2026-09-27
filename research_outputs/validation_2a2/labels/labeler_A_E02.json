@@ -1,0 +1,342 @@
+[
+  {
+    "example_id": "E02-017",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "отправить фото тары, крышки и этикетки"
+    },
+    "confidence": "high",
+    "reason_short": "Пишет, что фотографии во вложении."
+  },
+  {
+    "example_id": "E02-018",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "отправить фото или чертеж этикетки с размерами"
+    },
+    "confidence": "high",
+    "reason_short": "Отвечает на запрос словами «Фото во вложении»."
+  },
+  {
+    "example_id": "E02-019",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "предоставить размеры крышек канистр"
+    },
+    "confidence": "high",
+    "reason_short": "Присылает размеры крышки для канистры 5 л."
+  },
+  {
+    "example_id": "E02-020",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "сообщить состав и характеристики растворов"
+    },
+    "confidence": "high",
+    "reason_short": "Указывает составы растворов и сообщает, что смешивание недопустимо."
+  },
+  {
+    "example_id": "E02-021",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "заполнить опросный лист"
+    },
+    "confidence": "medium",
+    "reason_short": "Пишет, что внесли данные в опросный лист."
+  },
+  {
+    "example_id": "E02-022",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "подготовить и выслать видео размещения оборудования"
+    },
+    "confidence": "high",
+    "reason_short": "Прямо сообщает, что высылает видео."
+  },
+  {
+    "example_id": "E02-023",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Указывает только размер этикетки, не сообщает о завершении запрошенной отправки."
+  },
+  {
+    "example_id": "E02-024",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Есть отметка о принятом изображении без отчета клиента о выполнении."
+  },
+  {
+    "example_id": "E02-025",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Есть только отметка о принятом изображении."
+  },
+  {
+    "example_id": "E02-026",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает, что обсуждения не было."
+  },
+  {
+    "example_id": "E02-027",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "В событии говорится лишь об отправленном напоминании."
+  },
+  {
+    "example_id": "E02-028",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает, что совещание не состоялось."
+  },
+  {
+    "example_id": "E02-029",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что видео не подготовлено."
+  },
+  {
+    "example_id": "E02-030",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Упоминает вложение без указания, что запрошенный опросный лист заполнен."
+  },
+  {
+    "example_id": "E02-031",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Отвечает числом, без отчета о завершении запрошенной отправки."
+  },
+  {
+    "example_id": "E02-032",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что конкурентное предложение еще не получено."
+  },
+  {
+    "example_id": "E02-101",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "передать доступные чертежи тары"
+    },
+    "confidence": "high",
+    "reason_short": "Пишет, что отправил все доступные чертежи."
+  },
+  {
+    "example_id": "E02-102",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Подтверждает лишь один чертеж, не весь запрошенный набор."
+  },
+  {
+    "example_id": "E02-103",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает только один дополнительный вид тары."
+  },
+  {
+    "example_id": "E02-104",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "определить виды тары для проработки"
+    },
+    "confidence": "high",
+    "reason_short": "В ответ на запрос перечисляет виды тары."
+  },
+  {
+    "example_id": "E02-105",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Присылает фирменный бланк, но опросный лист только обещает."
+  },
+  {
+    "example_id": "E02-106",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "предоставить фото высоты расположения аппликаторов"
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает, что предоставляет фото запрошенного места установки."
+  },
+  {
+    "example_id": "E02-107",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Говорит, что загружает фотографии сейчас; завершение еще не подтверждено."
+  },
+  {
+    "example_id": "E02-108",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Есть только системная отметка о принятом изображении."
+  },
+  {
+    "example_id": "E02-109",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Есть только системная отметка о принятом изображении."
+  },
+  {
+    "example_id": "E02-110",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "ознакомиться с информацией и передать ее коллегам"
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает, что ознакомился с информацией и переслал ее коллегам."
+  },
+  {
+    "example_id": "E02-111",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "отправить сведения о размещении аппликаторов"
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что переотправил письмо с фотографиями."
+  },
+  {
+    "example_id": "E02-112",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "изучить договор"
+    },
+    "confidence": "high",
+    "reason_short": "Прямо говорит, что прочитал договор."
+  },
+  {
+    "example_id": "E02-113",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает о подписанном счете, но договор еще не подписан."
+  },
+  {
+    "example_id": "E02-114",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает об отправке директору без ранее установленного действия в контексте."
+  },
+  {
+    "example_id": "E02-115",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Утверждает, что отправил фото, но затем говорит, что отправит их повторно."
+  },
+  {
+    "example_id": "E02-116",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает о пересылке менеджерам без предыдущего согласованного действия."
+  },
+  {
+    "example_id": "E02-117",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "отправить карточку компании"
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает, что уже прислал карточку компании."
+  },
+  {
+    "example_id": "E02-118",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Описывает действие продавца, который передал информацию техотделу."
+  }
+]

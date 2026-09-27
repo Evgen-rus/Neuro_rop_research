@@ -1,0 +1,410 @@
+[
+  {
+    "example_id": "E01-001",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отправить данные по предложениям для сравнения",
+      "due_at_or_expected_result": "завтра"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает подготовить и отправить данные завтра."
+  },
+  {
+    "example_id": "E01-002",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "low",
+    "reason_short": "Неясно, клиент или продавец обещает отправить информацию."
+  },
+  {
+    "example_id": "E01-003",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "передать образцы бутылок с колпачками курьером",
+      "due_at_or_expected_result": "на следующей неделе"
+    },
+    "confidence": "high",
+    "reason_short": "Предлагает передать образцы курьером на следующей неделе."
+  },
+  {
+    "example_id": "E01-004",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "перезвонить",
+      "due_at_or_expected_result": "позже"
+    },
+    "confidence": "medium",
+    "reason_short": "Пишет, что позже наберет."
+  },
+  {
+    "example_id": "E01-005",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "быть свободным для звонка",
+      "due_at_or_expected_result": "к 12"
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает, что будет свободен к 12."
+  },
+  {
+    "example_id": "E01-006",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "сообщить, когда появится информация от директора",
+      "due_at_or_expected_result": "когда появится информация"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает сообщить после получения информации от директора."
+  },
+  {
+    "example_id": "E01-007",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": "клиент",
+      "action": "выслать чертежи крышек",
+      "due_at_or_expected_result": "после получения от производителя"
+    },
+    "confidence": "medium",
+    "reason_short": "Заметка фиксирует обещание выслать чертежи после их получения."
+  },
+  {
+    "example_id": "E01-008",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": "юрист",
+      "action": "проверить договор и подготовить правки",
+      "due_at_or_expected_result": "к понедельнику"
+    },
+    "confidence": "high",
+    "reason_short": "Юрист обещал подготовить правки к понедельнику."
+  },
+  {
+    "example_id": "E01-009",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": "клиент",
+      "action": "сообщить, какой блок оборудования не подходит",
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Заметка сообщает, что клиент уточнит вопрос на производстве и даст обратную связь."
+  },
+  {
+    "example_id": "E01-010",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": "клиент",
+      "action": "выслать коммерческое предложение для сравнения",
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Заметка говорит, что клиент готов выслать конкурентное КП."
+  },
+  {
+    "example_id": "E01-011",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Просит продавца прислать предложения."
+  },
+  {
+    "example_id": "E01-012",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает о высокой загрузке без обещания действия."
+  },
+  {
+    "example_id": "E01-013",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "быть на связи для обсуждения оценки предложения",
+      "due_at_or_expected_result": "завтра около 15:00"
+    },
+    "confidence": "medium",
+    "reason_short": "Подтверждает время завтрашнего звонка об оценке."
+  },
+  {
+    "example_id": "E01-014",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Спрашивает, какие данные нужны."
+  },
+  {
+    "example_id": "E01-015",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Уточняет срок изготовления, не берет действие на себя."
+  },
+  {
+    "example_id": "E01-016",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "быть доступным для звонка",
+      "due_at_or_expected_result": "во вторник после 14:00"
+    },
+    "confidence": "medium",
+    "reason_short": "Называет время, когда сможет поговорить."
+  },
+  {
+    "example_id": "E01-083",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отправить образцы",
+      "due_at_or_expected_result": "сегодня"
+    },
+    "confidence": "high",
+    "reason_short": "Прямо обещает сегодня отправить образцы."
+  },
+  {
+    "example_id": "E01-084",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "прислать ФИО коллег",
+      "due_at_or_expected_result": "после ответа коллег"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает прислать ФИО после ответа коллег."
+  },
+  {
+    "example_id": "E01-085",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "направить размеры крышек",
+      "due_at_or_expected_result": "в ближайшее время"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает направить размеры крышек."
+  },
+  {
+    "example_id": "E01-086",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "внести первичную оплату",
+      "due_at_or_expected_result": "в начале июня"
+    },
+    "confidence": "medium",
+    "reason_short": "Называет начало июня сроком первой оплаты."
+  },
+  {
+    "example_id": "E01-087",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "выслать заполненный опросный лист",
+      "due_at_or_expected_result": "на выходных"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает выслать опросный лист на выходных."
+  },
+  {
+    "example_id": "E01-088",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "выслать информацию о размещении аппликаторов и конвейере",
+      "due_at_or_expected_result": "сегодня около 12:00 по Москве"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает сегодня выслать запрошенную информацию."
+  },
+  {
+    "example_id": "E01-089",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "оплатить счет несколькими траншами",
+      "due_at_or_expected_result": "в течение двух недель, до конца апреля"
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает оплату несколькими платежами в течение двух недель."
+  },
+  {
+    "example_id": "E01-090",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "внести первый платеж по счету",
+      "due_at_or_expected_result": "сегодня; первый транш на этой неделе"
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает, что оплату отправляют сегодня и первый транш будет на неделе."
+  },
+  {
+    "example_id": "E01-091",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "сообщить результат рассмотрения предложения",
+      "due_at_or_expected_result": "после решения директора"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает сразу написать после решения директора."
+  },
+  {
+    "example_id": "E01-092",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отправить образцы тары с крышками",
+      "due_at_or_expected_result": "сейчас"
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что сейчас отправит тару."
+  },
+  {
+    "example_id": "E01-093",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "дать обратную связь по решению",
+      "due_at_or_expected_result": "в понедельник после обсуждения"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает сообщить результат после обсуждения в понедельник."
+  },
+  {
+    "example_id": "E01-094",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отреагировать по договору",
+      "due_at_or_expected_result": "как только появится информация"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает оперативно отреагировать, когда появится информация."
+  },
+  {
+    "example_id": "E01-095",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": "директор",
+      "action": "обсудить окончательное решение с инвестором",
+      "due_at_or_expected_result": "сегодня; понимание ожидается ко вторнику-среде"
+    },
+    "confidence": "low",
+    "reason_short": "В разговоре говорится, что директор обсудит вопрос с инвестором."
+  },
+  {
+    "example_id": "E01-096",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "переслать договор директору",
+      "due_at_or_expected_result": "сегодня"
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что сегодня перешлет договор директору."
+  },
+  {
+    "example_id": "E01-097",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "прислать информацию после проверки",
+      "due_at_or_expected_result": "завтра после обеда"
+    },
+    "confidence": "high",
+    "reason_short": "Обещает прислать информацию после проверки завтра."
+  },
+  {
+    "example_id": "E01-098",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "вернуться с ответом по предложениям",
+      "due_at_or_expected_result": "до конца недели"
+    },
+    "confidence": "high",
+    "reason_short": "Письменно обещает вернуться с ответом до конца недели."
+  },
+  {
+    "example_id": "E01-099",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отправить фотографии и размеры продукции",
+      "due_at_or_expected_result": "сегодня до конца дня"
+    },
+    "confidence": "medium",
+    "reason_short": "Обещает постараться прислать фотографии сегодня до конца дня."
+  },
+  {
+    "example_id": "E01-100",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "подписать договор",
+      "due_at_or_expected_result": "на этой неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Планирует постараться подписать договор на этой неделе."
+  }
+]

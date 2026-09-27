@@ -1,0 +1,194 @@
+[
+  {
+    "example_id": "E04-044",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Говорит, что обещанное совещание сегодня не состоялось."
+  },
+  {
+    "example_id": "E04-045",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Сообщает, что видео не успел подготовить к обещанному сроку."
+  },
+  {
+    "example_id": "E04-046",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Явно говорит, что согласованное совещание не состоялось."
+  },
+  {
+    "example_id": "E04-047",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "На следующий звонок сообщает, что обещанного обсуждения предложения не было."
+  },
+  {
+    "example_id": "E04-048",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Заметка фиксирует, что клиент не отправил размеры к обещанному сроку."
+  },
+  {
+    "example_id": "E04-049",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Сообщает о загрузке, не говорит, что обещанная отправка не выполнена."
+  },
+  {
+    "example_id": "E04-050",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Ждет конкурентное предложение, без подтвержденного срока его получения от клиента."
+  },
+  {
+    "example_id": "E04-051",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Продавец спрашивает о результате, ответа клиента нет."
+  },
+  {
+    "example_id": "E04-137",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "В разговоре сообщается, что клиент не отправил обещанные материалы в пятницу."
+  },
+  {
+    "example_id": "E04-138",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Извиняется за задержку, но срок прежнего обещания не указан."
+  },
+  {
+    "example_id": "E04-139",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Нет ясного прежнего обещания отправить эти фотографии к сроку."
+  },
+  {
+    "example_id": "E04-140",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Предыдущее событие содержит запрос продавца, но не обещание клиента."
+  },
+  {
+    "example_id": "E04-141",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Сообщает, что коллеги еще не обсудили данные, без пропущенного срока."
+  },
+  {
+    "example_id": "E04-142",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Техсогласование еще не получено, но срок его выполнения не был обещан."
+  },
+  {
+    "example_id": "E04-143",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Переносит выбор даты визита без прямого сообщения о нарушении обещанного срока."
+  },
+  {
+    "example_id": "E04-144",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Обсуждает новые размеры крышек, не сообщает о пропуске обещанной отправки ФИО."
+  },
+  {
+    "example_id": "E04-145",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Сообщает об отсутствии ответа директора, но прежний срок решения не обещан."
+  },
+  {
+    "example_id": "E04-146",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Обещает ответить до конца недели; срок еще не прошел в событии."
+  },
+  {
+    "example_id": "E04-147",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Пишет, что постараются подписать на этой неделе, не сообщает о пропуске срока."
+  },
+  {
+    "example_id": "E04-148",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Клиент ознакомилась с предложением и переносит обсуждение на завтра."
+  },
+  {
+    "example_id": "E04-149",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Пишет, что не может выбрать виды тары, без обещанного срока выбора."
+  },
+  {
+    "example_id": "E04-150",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Счет подписан, договор нет, но прежний срок подписания договора не установлен."
+  },
+  {
+    "example_id": "E04-151",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Обсуждает, что письмо не найдено; это не невыполненное действие клиента."
+  },
+  {
+    "example_id": "E04-152",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Ссылается на изменившуюся ситуацию, не говорит прямо о невыполненной отправке."
+  }
+]

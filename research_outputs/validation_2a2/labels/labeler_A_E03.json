@@ -1,0 +1,292 @@
+[
+  {
+    "example_id": "E03-033",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "четверг, 12 марта, 11:00"
+    },
+    "confidence": "high",
+    "reason_short": "Просит перенести согласованный визит с 11 на 12 марта."
+  },
+  {
+    "example_id": "E03-034",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит обсуждение проекта на понедельник."
+  },
+  {
+    "example_id": "E03-035",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра ближе к 13:00"
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает, что совещание перенесли на завтра."
+  },
+  {
+    "example_id": "E03-036",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "сегодня после обеда"
+    },
+    "confidence": "medium",
+    "reason_short": "Уточняет новый срок обещанной отправки на послеобеденное время."
+  },
+  {
+    "example_id": "E03-037",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник ближе к 12:00"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит обсуждение предложения и звонок на понедельник."
+  },
+  {
+    "example_id": "E03-038",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "во вторник, когда будет на производстве"
+    },
+    "confidence": "high",
+    "reason_short": "Меняет срок отправки размеров с текущего дня на вторник."
+  },
+  {
+    "example_id": "E03-039",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Подтверждает прежний срок на завтра, не переносит его."
+  },
+  {
+    "example_id": "E03-040",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "во вторник после 14:00"
+    },
+    "confidence": "medium",
+    "reason_short": "Называет новое время для ранее согласованного обсуждения."
+  },
+  {
+    "example_id": "E03-041",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает о загрузке без нового срока для действия."
+  },
+  {
+    "example_id": "E03-042",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Просит отложить вопрос, но прежнее действие клиента не установлено."
+  },
+  {
+    "example_id": "E03-043",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра в это же время"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит звонок с понедельника на завтра."
+  },
+  {
+    "example_id": "E03-119",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "на неделю с 18 августа"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит согласование визита на неделю, начинающуюся 18-го."
+  },
+  {
+    "example_id": "E03-120",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Называет срок нового обещания по опросному листу, но прежний срок не указан."
+  },
+  {
+    "example_id": "E03-121",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "начало августа"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит обсуждение и проект на начало августа."
+  },
+  {
+    "example_id": "E03-122",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "сегодня; первый транш на этой неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Обновляет прежний план платежей, называя первый платеж на сегодня или эту неделю."
+  },
+  {
+    "example_id": "E03-123",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "сегодня-завтра; созвон ближе к среде"
+    },
+    "confidence": "medium",
+    "reason_short": "Обновляет ожидаемый срок решения директора и обсуждения."
+  },
+  {
+    "example_id": "E03-124",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "ко вторнику-среде"
+    },
+    "confidence": "medium",
+    "reason_short": "Сдвигает ожидаемое понимание решения к вторнику-среде."
+  },
+  {
+    "example_id": "E03-125",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра после обеда"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит отправку информации на завтра после проверки."
+  },
+  {
+    "example_id": "E03-126",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Нет предыдущего события, в котором было согласовано действие."
+  },
+  {
+    "example_id": "E03-127",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Соглашается на звонок в пятницу, но не переносит прежнее действие по отправке."
+  },
+  {
+    "example_id": "E03-128",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра в это же время"
+    },
+    "confidence": "high",
+    "reason_short": "Просит перенести обсуждение предложения на завтра."
+  },
+  {
+    "example_id": "E03-129",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в пятницу"
+    },
+    "confidence": "high",
+    "reason_short": "Переносит созвон для обсуждения с согласованной среды на пятницу."
+  },
+  {
+    "example_id": "E03-130",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Называет срок нового ответа без прежнего срока для него."
+  },
+  {
+    "example_id": "E03-131",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник"
+    },
+    "confidence": "medium",
+    "reason_short": "Переносит обсуждение и обратную связь на понедельник."
+  },
+  {
+    "example_id": "E03-132",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в среду"
+    },
+    "confidence": "high",
+    "reason_short": "Согласует перенести прежний звонок на среду после отпуска."
+  },
+  {
+    "example_id": "E03-133",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Не может определить виды тары и не называет новый срок."
+  },
+  {
+    "example_id": "E03-134",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Обещает постараться подписать договор на этой неделе без прежнего срока."
+  },
+  {
+    "example_id": "E03-135",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Называет новый срок для размеров крышек, но прежнего обязательства нет."
+  },
+  {
+    "example_id": "E03-136",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает об отправке информации, не переносит ее срок."
+  }
+]

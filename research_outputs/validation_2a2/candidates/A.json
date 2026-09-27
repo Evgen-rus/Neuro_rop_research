@@ -1,0 +1,1445 @@
+{
+  "shard": "A",
+  "candidates": [
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-30T11:15:36+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=634079"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "event_id=activity_id=634079, сегмент 1: «сейчас отправлю, подготовлю вам где-то завтра»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T09:25:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=635083"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "event_id=activity_id=635083, сегмент 1: «сейчас найдем» говорит продавец; клиентского обязательства здесь нет."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "7191",
+      "current": {
+        "timestamp": "2026-03-13T14:01:57+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=540537"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент предлагает передать бутылки с крышками курьером на следующей неделе."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18629",
+      "current": {
+        "timestamp": "2026-07-13T10:27:02+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2873633,2873635,2873637"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Входящее сообщение обещает конкретное действие: «Позже наберу»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-06T17:08:47+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2978167,2978169"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент соглашается на слот к 12; это может обозначать доступность для звонка, а не отдельное действие."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-17T16:51:52+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3004041,3004043"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает сообщить, когда получит ответ директора."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-27T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка сообщает: клиент отправит чертежи сразу после получения от производителя; срок пока неизвестен."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-14T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка передает план клиента и юриста просмотреть договор и подготовить правки за выходные."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-17T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что клиент даст обратную связь после подготовки правок юристом."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-20T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что клиент готовит протокол разногласий и присоединится к звонку с юристом."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-08-25T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: клиент уточнит у производства, какой блок не подходит, и даст обратную связь."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает о плане запросить и при готовности выслать предложение конкурента."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T13:53:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951825,2951827"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент просит менеджера прислать два варианта КП; будущее действие принадлежит продавцу."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:31:17+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951155,2951157"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент сообщает о высокой загрузке, но не берет на себя конкретное будущее действие."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-29T10:53:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=632685"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "event_id=activity_id=632685, сегмент 1: «завтра позвоните мне» адресовано продавцу; внутренняя оценка только ожидается."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-15T13:13:20+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2881013"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент спрашивает, нужны ли от него еще данные; конкретного действия не принимает."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T09:26:35+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2865819,2865821"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент задает продавцу вопрос о сроке изготовления, не обещает своего действия."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-07T15:54:17+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2981379,2981381"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент называет удобный новый слот, но не обещает выполнить клиентское действие."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7191",
+      "current": {
+        "timestamp": "2026-03-03T16:10:15+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536917"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент пишет «Фото во вложении» и указывает размер этикетки в ответной цепочке."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-23T11:24:18+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=627767"
+      },
+      "previous": {
+        "timestamp": "2026-07-23T10:24:34+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=627675"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент отправляет фото после запроса чертежа этикетки."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-28T07:43:08+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=630863"
+      },
+      "previous": {
+        "timestamp": "2026-07-24T13:15:46+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=629003"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает точные размеры крышек после запроса производства."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-28T14:23:36+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=631795"
+      },
+      "previous": {
+        "timestamp": "2026-07-28T13:29:29+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=631655"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает состав двух растворов после запроса состава и концентрации."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-10T18:34:32+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2872687,2872689"
+      },
+      "previous": {
+        "timestamp": "2026-07-09T15:18:44+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2868159,2868163"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент пишет, что внес данные в опросный лист по имеющейся информации."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-18T12:44:53+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=672285"
+      },
+      "previous": {
+        "timestamp": "2026-09-17T15:48:59+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=671641"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент пишет «Высылаю видео» после отдельного запроса видео размещения."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:32:02+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951181,2951185"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T09:23:23+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2949035,2949037"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент присылает запрошенный точный размер этикетки."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:31:30+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951159,2951161"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T09:23:23+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2949035,2949037"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Входящее системное сообщение об изображении не содержит явного отчета клиента о выполнении запроса."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-07-29T13:12:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2946511,2946513"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T13:06:13+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2946483,2946485"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Системное «Принято Изображение» не называет клиента и не сообщает, что именно завершено."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T13:15:16+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=635611"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T10:53:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=632685"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "event_id=activity_id=635611, сегмент 1: «Вообще никак. Не обсуждали этот момент» — это не отчет о завершении."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-19T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-17T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Заметка только о напоминании юристу; клиент не сообщает о завершении обещанных правок."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "CRM-заметка сообщает, что совещания не было; явного сообщения клиента о завершении нет."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-16T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "previous": {
+        "timestamp": "2026-09-15T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "CRM-заметка говорит, что видео не подготовлено сегодня; это невыполнение, а не отчет о завершении."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-14T17:52:50+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=619993"
+      },
+      "previous": {
+        "timestamp": "2026-07-09T15:18:44+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2868159,2868163"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "«Во вложении» после отправки опросного листа, но в теле не названо, что именно заполнено."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-28T09:49:17+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=631037"
+      },
+      "previous": {
+        "timestamp": "2026-07-28T09:37:15+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=630979"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Короткий ответ «200» в цепочке о фото тары; из тела неясно, что именно клиент завершил."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-28T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": {
+        "timestamp": "2026-07-27T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает о получении размеров крышек после обещания выслать их при получении чертежей."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что клиент прислал конкурентное КП после обещания предоставить его для сравнения."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-11T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Заметка сообщает об обещании отправить опросный лист, но фиксирует лишь отсутствие ответа на последующий звонок."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-12T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что предложение другой компании пока не получено; действие принадлежит третьей стороне."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "7191",
+      "current": {
+        "timestamp": "2026-03-10T11:36:56+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=538727"
+      },
+      "previous": {
+        "timestamp": "2026-03-06T15:00:38+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=538389"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент просит перенести ранее согласованный визит с 11 на 12 марта в 11:00."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T13:15:16+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=635611"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T11:15:36+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=634079"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "event_id=activity_id=635611, сегмент 1: «в понедельник мы вернемся к этому моменту», новый срок обсуждения."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: запланированную на сегодня внутреннюю оценку перенесли на завтра."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка говорит, что обсуждение оборудования, ожидавшееся сегодня, перенесено на понедельник."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2937103"
+      },
+      "previous": {
+        "timestamp": "2026-07-28T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2937103"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: обещанная на сегодня информация переносится на время после обеда."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: обсуждение предложения перенесено с завтра на понедельник после просмотра в выходные."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-24T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-21T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: после пропущенного рабочего дня обратная связь по правкам назначена на завтра."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-25T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-24T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: рассмотрение изменения упаковки займет около двух дней; новый контакт завтра."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-07-31T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: обещанные сегодня размеры ожидаются во вторник, когда клиент будет на производстве."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-03T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: обсуждение откладывается из-за ситуации на производстве; новый созвон в пятницу."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-16T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "previous": {
+        "timestamp": "2026-09-15T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: клиент не подготовил видео сегодня и называет завтра новым сроком."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-28T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-26T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: срок правок договора указан до понедельника после более раннего ориентировочного срока."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-07T15:54:17+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2981379,2981381"
+      },
+      "previous": {
+        "timestamp": "2026-08-04T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2946247"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент называет свободный слот по запросу продавца; прежнего согласованного клиентского действия не показано."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:31:17+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951155,2951157"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2937103"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент объясняет загрузку, но не задает новый срок ранее обещанной информации."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-08-17T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "previous": {
+        "timestamp": "2026-08-13T13:13:41+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2994439,2994441"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "CRM-заметка о просьбе отложить вопрос на следующую неделю; предыдущее сообщение лишь запрашивает мнение, договоренности о действии нет."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-05T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-04T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "CRM-заметка сообщает о переносе внутреннего обсуждения, но предыдущее событие согласовало только звонок продавца для выбора времени."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "CRM-заметка сообщает, что совещание не состоялось; нового checkpoint для прежнего клиентского действия не указано."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-12T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Ожидание КП конкурента продолжается; сообщение не переносит ранее согласованное действие клиента на новый срок."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка говорит, что запланированное совещание не прошло; источник отчета не назван."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что обсуждения сегодня не было и его перенесли."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-16T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "previous": {
+        "timestamp": "2026-09-15T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=3080805"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка прямо сообщает: видео к обещанному дню не подготовлено; клиент назвал новый день."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-05T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-04T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка говорит, что обсуждались другие вопросы, а проект не обсуждали; явный источник высказывания не указан."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что ожидавшееся совещание не было сегодня; неясно, сообщал ли это сам клиент."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T13:15:16+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=635611"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T10:53:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=632685"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "event_id=activity_id=635611, сегмент 1: «Вообще никак. Не обсуждали этот момент»; прежний результат был лишь ожиданием."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-19T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-17T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Только напоминание юристу; молчание клиента не подтверждает невыполнение."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-08-05T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "previous": {
+        "timestamp": "2026-08-04T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2940187"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Заметка о неполучении фото исходит от менеджера; клиент явно не сообщает, что нарушил обещание."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:31:17+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951155,2951157"
+      },
+      "previous": {
+        "timestamp": "2026-07-29T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2937103"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент объясняет загрузку в конце месяца, не сообщает прямо, что пропустил обещанный срок."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-12T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Не пришло предложение сторонней компании; это не явное невыполнение действия самого клиента."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-14T15:53:58+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3000135,3000137"
+      },
+      "previous": {
+        "timestamp": "2026-08-11T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2946247"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Исходящее напоминание продавца после ожидавшегося ответа; в текущем событии нет подтверждения пропуска от клиента."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-11T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Менеджер фиксирует отсутствие ответа на звонок, что само по себе не доказывает невыполнение обещания."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-29T10:53:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=632685"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "event_id=activity_id=632685, сегмент 1: «Я его переслал руководителям. Мы пока еще все были на разных совещаниях» — внутренний просмотр КП."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-03T13:24:57+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=636603"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "event_id=activity_id=636603, сегмент 1: «с председателем встречались на производстве. Он сказал, что покупать точно что-то будем. Просто еще не определились, что»."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-03T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка связывает сбор предложений и закупочное решение осенью."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка сообщает о планируемом совещании по выбору оборудования в понедельник или вторник."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-18T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: директор видел предложение, выбор еще не сделан, срок пока неизвестен."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-17T16:51:52+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3004041,3004043"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент прямо сообщает, что пока нет информации от директора, и обещает сообщить после получения."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-08-11T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2946247"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: директор рассматривает лизинговый расчет; закупка зависит от его ответа."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-10T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "CRM-заметка: клиент не будет принимать решение до получения конкурентного предложения."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-30T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка связывает перенос совещания с ожидаемым решением ближе к 13 часам."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-31T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка сообщает, что внутреннее обсуждение перенесено на понедельник из-за смены юрлица."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-08-03T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2910619"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: решение не обсуждали, часть руководителей и руководитель в отпуске."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-08-13T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2905047"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка описывает просмотр КП гендиректором как условие дальнейшего предварительного решения."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18775",
+      "current": {
+        "timestamp": "2026-08-04T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2947271"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: ЛПР сам выбирает оборудование, но решение зависит от тестирования образцов."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18773",
+      "current": {
+        "timestamp": "2026-08-07T00:00:00+03:00",
+        "event_type": "comment",
+        "event_id": "worklog_id=2942251"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "CRM-заметка: клиент планирует сравнить предложения по цене, срокам и технике перед закупкой."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-08T13:59:15+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=664465"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Подпись указывает должность директора по производству, но письмо само не описывает внутренний decision gate."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18747",
+      "current": {
+        "timestamp": "2026-08-13T13:13:41+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2994439,2994441"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец спрашивает о замечаниях технологов; событие не сообщает факт внутреннего рассмотрения."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T13:53:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951825,2951827"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Запрос двух вариантов КП от продавца не описывает gate внутреннего решения клиента."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-28T13:13:22+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=631605"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "event_id=activity_id=631605, сегмент 1: клиент спрашивает «если мы настраиваем тару под конус, то нам нужно сверху еще один пневмоцилиндр?»"
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T09:26:35+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2865819,2865821"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Вопрос о сроке производства адресован продавцу; роли или этапа внутреннего решения нет."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18733",
+      "current": {
+        "timestamp": "2026-07-28T13:13:22+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=631605"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "event_id=activity_id=631605, сегмент 1: клиент спрашивает «если мы настраиваем тару под конус, то нам нужно сверху еще один пневмоцилиндр?»"
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7191",
+      "current": {
+        "timestamp": "2026-03-16T14:31:42+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=541171"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент указывает текущие и будущие размеры бутылки и спрашивает о переналадке линии."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-28T07:43:08+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=630863"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент дает диаметры и высоту крышек для конкретных канистр."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-28T14:23:36+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=631795"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Состав двух растворов конкретизирован: формалин 10% и изопропиловый спирт."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18629",
+      "current": {
+        "timestamp": "2026-07-10T17:45:08+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=618151"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент спрашивает о нанесении маркировки «Честный знак» (Data Matrix) на этикетку."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T09:30:18+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2865833,2865835"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Сегмент чата: клиент спрашивает, как датчик считывает этикетку и нужна ли заданная намотка."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T10:32:48+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2866301,2866303"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент спрашивает, можно ли протестировать решение на их банке и этикетке."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:32:02+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951181,2951185"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент указывает размер этикетки 90х100 для своей тары."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:36:56+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951239,2951241"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент уточняет, что этикетка наносится с лицевой стороны."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18629",
+      "current": {
+        "timestamp": "2026-07-13T12:27:51+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=618531"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "event_id=activity_id=618531, сегмент 1: клиент говорит «У нас прозрачные двупаки вот с этим зип-замком» и описывает проблему ровного нанесения."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:32:10+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951187,2951189"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "«Крышка 48» дает размер, но единица и применимость без локального контекста не указаны."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T12:52:23+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951359,2951361"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Ответ «цилиндрическая» указывает формат бутылки, но сам по себе не формулирует требование к решению."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18765",
+      "current": {
+        "timestamp": "2026-07-30T13:37:58+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=634383"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент сообщает, как этикетки наклеены на ведра; неясно, описывает ли это требуемый результат."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18731",
+      "current": {
+        "timestamp": "2026-07-23T10:13:23+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=627657"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Перечень типов канистр и крышек от производителя без требования, ограничения или технического вопроса."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T09:26:35+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2865819,2865821"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Вопрос только о сроке изготовления, не о техническом решении."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18755",
+      "current": {
+        "timestamp": "2026-07-30T13:53:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2951825,2951827"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент просит два варианта цены; конкретного технического требования в событии нет."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "19007",
+      "current": {
+        "timestamp": "2026-09-18T12:44:53+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=672285"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент присылает видео производства, но тело письма не формулирует технический вопрос или требование."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18635",
+      "current": {
+        "timestamp": "2026-07-09T09:23:47+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=2865799,2865801"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент спрашивает, останется ли требуемая производительность 1000 штук в час."
+    }
+  ]
+}

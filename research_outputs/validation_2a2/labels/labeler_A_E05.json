@@ -1,0 +1,374 @@
+[
+  {
+    "example_id": "E05-052",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "руководители",
+      "decision_action": "обсудить и оценить коммерческое предложение",
+      "checkpoint": "завтра около 15:00"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент переслал предложение руководителям для внутренней оценки."
+  },
+  {
+    "example_id": "E05-053",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "председатель",
+      "decision_action": "определить, какое оборудование покупать",
+      "checkpoint": "после звонка председателя"
+    },
+    "confidence": "high",
+    "reason_short": "Председатель обсуждал закупку и еще не выбрал оборудование."
+  },
+  {
+    "example_id": "E05-054",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "принять решение о закупке после сбора предложений",
+      "checkpoint": "осенью, после сбора предложений до конца августа"
+    },
+    "confidence": "medium",
+    "reason_short": "Заметка связывает сбор предложений с осенним решением о закупке."
+  },
+  {
+    "example_id": "E05-055",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Упоминает директора, но не описывает конкретный этап его решения."
+  },
+  {
+    "example_id": "E05-056",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "оценить график лизинговых платежей перед покупкой",
+      "checkpoint": "пятница в 15:30"
+    },
+    "confidence": "high",
+    "reason_short": "Покупка зависит от того, устроит ли директора расчет лизинга."
+  },
+  {
+    "example_id": "E05-057",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "сравнить варианты после получения второго предложения",
+      "checkpoint": "после получения предложения конкурента"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент связывает решение с получением второго коммерческого предложения."
+  },
+  {
+    "example_id": "E05-058",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "обсудить предложения на совещании и принять решение",
+      "checkpoint": "завтра ближе к 13:00"
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает о перенесенном совещании и ожидаемом решении."
+  },
+  {
+    "example_id": "E05-059",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "Роман, ЛПР",
+      "decision_action": "провести тестирование оборудования перед рассмотрением покупки",
+      "checkpoint": "после просмотра станка после 16 августа"
+    },
+    "confidence": "high",
+    "reason_short": "Заметка прямо связывает тестирование с рассмотрением покупки ЛПР."
+  },
+  {
+    "example_id": "E05-060",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Присылает технические материалы, без сведений о внутреннем решении."
+  },
+  {
+    "example_id": "E05-061",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Продавец спрашивает о замечаниях технологов, ответа клиента нет."
+  },
+  {
+    "example_id": "E05-062",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Просит продавца прислать варианты, не описывает внутренний этап решения."
+  },
+  {
+    "example_id": "E05-063",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "оценить варианты комплектации и цены",
+      "checkpoint": "к обсуждению завтра"
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент готовит варианты комплектации и цены для обсуждения с руководством."
+  },
+  {
+    "example_id": "E05-064",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Спрашивает о сроке изготовления, не описывает внутреннее решение."
+  },
+  {
+    "example_id": "E05-153",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "генеральный директор",
+      "decision_action": "согласовать проект, стоимость и оплату",
+      "checkpoint": "первая оплата в начале июня"
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает о согласовании проекта генеральным директором и сроке первой оплаты."
+  },
+  {
+    "example_id": "E05-154",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "технический отдел",
+      "decision_action": "обсудить технические требования к оборудованию",
+      "checkpoint": "начало августа"
+    },
+    "confidence": "high",
+    "reason_short": "Перенос закупки связан с ожидаемым согласованием технического отдела."
+  },
+  {
+    "example_id": "E05-155",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "рассмотреть предложения и решить по проекту",
+      "checkpoint": "сегодня"
+    },
+    "confidence": "high",
+    "reason_short": "Говорит, что директор сейчас решает по предложениям."
+  },
+  {
+    "example_id": "E05-156",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "принять окончательное решение по договору",
+      "checkpoint": "сегодня или завтра"
+    },
+    "confidence": "high",
+    "reason_short": "Ожидает, что директор сегодня-завтра решит, что делать по договору."
+  },
+  {
+    "example_id": "E05-157",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "оценить техническую схему, условия аванса и производство поставщика",
+      "checkpoint": "в ближайшие дни"
+    },
+    "confidence": "high",
+    "reason_short": "Передает конкретные технические, финансовые и проверочные вопросы директора."
+  },
+  {
+    "example_id": "E05-158",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "одобрить подготовку договора на ИП",
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает, что директор дал добро на оформление договора."
+  },
+  {
+    "example_id": "E05-159",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор и инвестор",
+      "decision_action": "обсудить полученное предложение",
+      "checkpoint": "вероятно завтра"
+    },
+    "confidence": "medium",
+    "reason_short": "Говорит, что директор обсудит предложение с инвестором."
+  },
+  {
+    "example_id": "E05-160",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор и инвестор",
+      "decision_action": "обсудить окончательное решение",
+      "checkpoint": "сегодня; понимание ожидается ко вторнику-среде"
+    },
+    "confidence": "medium",
+    "reason_short": "Упоминает обсуждение директором с инвестором перед решением."
+  },
+  {
+    "example_id": "E05-161",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "проверить цену и договор перед закупкой",
+      "checkpoint": "на этой неделе"
+    },
+    "confidence": "high",
+    "reason_short": "Предложение ожидает проверки директором перед закупкой."
+  },
+  {
+    "example_id": "E05-162",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "medium",
+    "reason_short": "Упоминает интерес инвестора, но не называет конкретный внутренний этап решения."
+  },
+  {
+    "example_id": "E05-163",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "юрист и директор",
+      "decision_action": "согласовать чистовую редакцию договора и передать ее на подпись",
+      "checkpoint": "после получения чистовой версии"
+    },
+    "confidence": "high",
+    "reason_short": "Юрист согласовал правки, после чистовой версии договор пойдет директору на подпись."
+  },
+  {
+    "example_id": "E05-164",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "рассмотреть договор и сообщить результат",
+      "checkpoint": "когда появится информация"
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент сообщает, что передал договор на рассмотрение."
+  },
+  {
+    "example_id": "E05-165",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "обсудить спецификацию и комплект оборудования",
+      "checkpoint": "в понедельник"
+    },
+    "confidence": "medium",
+    "reason_short": "Сообщает, что команда обсудит вопрос и определится в понедельник."
+  },
+  {
+    "example_id": "E05-166",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "юристы",
+      "decision_action": "проверить и подписать договор",
+      "checkpoint": "оплата в понедельник"
+    },
+    "confidence": "medium",
+    "reason_short": "Обсуждает статус подписания документов и срок оплаты."
+  },
+  {
+    "example_id": "E05-167",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "оплачивать счет несколькими траншами",
+      "checkpoint": "в течение двух недель, до конца апреля"
+    },
+    "confidence": "high",
+    "reason_short": "Фиксирует внутренний план оплаты оборудования частями."
+  },
+  {
+    "example_id": "E05-168",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "подписать договор",
+      "checkpoint": "на этой неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Называет срок подписания договора."
+  },
+  {
+    "example_id": "E05-169",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "менеджер проектов",
+      "decision_action": "рассмотреть несколько предложений и подготовить ответ",
+      "checkpoint": "до конца недели"
+    },
+    "confidence": "high",
+    "reason_short": "Пишет, что рассматривают несколько предложений и ответят до конца недели."
+  },
+  {
+    "example_id": "E05-170",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "рассмотреть и подписать исправленные договоры",
+      "checkpoint": "после получения пакета договоров"
+    },
+    "confidence": "high",
+    "reason_short": "Требует направить оба договора пакетом для передачи на подпись."
+  }
+]

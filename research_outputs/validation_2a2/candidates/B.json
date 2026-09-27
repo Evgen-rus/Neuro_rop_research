@@ -1,0 +1,1557 @@
+{
+  "shard": "B",
+  "candidates": [
+    {
+      "classifier_id": "E01",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-06T11:42:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=614799"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент настаивает на конкретном визите в следующую пятницу; excerpt «категорически настаиваю»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-15T11:54:00+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620445"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает передать ФИО коллег после их ответа; excerpt «я вам скину»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-21T10:12:44+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=625597"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает прислать размеры крышек; excerpt «в ближайшее время направлю»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-19T16:03:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=581019"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обязуется обсудить проект с техотделом; excerpt «я еще ... проговорю»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-22T13:18:19+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=584703"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает прислать опросный лист на выходных; короткий email-ответ."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-27T10:05:10+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=588283"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент задает новый срок отправки данных: «сегодня вышлю ... в 12 часов»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-07T16:47:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554357"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент планирует оплатить оборудование на следующей неделе; excerpt «планируем оплачивать»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-08T09:04:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554525"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент говорит об оплате сегодня и первом транше на неделе; excerpt «сегодня отдаем оплату»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-01-30T11:40:49+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=527197"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает дать обратную связь после решения директора; excerpt «я вам отпишусь»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-06T13:01:32+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=529553"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает отправить образцы тары; excerpt «мы вам сейчас отправим»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент назначает обсуждение и обратную связь на понедельник; excerpt «дам обратную связь»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-24T09:56:22+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=608413"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент обещает ответить после появления информации; срок зависит от внутреннего рассмотрения."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-03T12:41:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=636549"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент говорит о звонке после обсуждения с инвестором; excerpt «я вам перезвоню», условие расплывчато."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-05T10:43:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=638981"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обязуется сегодня переслать договор директору; excerpt «сегодня буду пересылать директору»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-24T09:16:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=651519"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает отправить материалы после обеда; excerpt «После обеда»."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18929",
+      "current": {
+        "timestamp": "2026-08-26T11:46:11+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=653995"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обещает вернуться с ответом до конца недели; письмо атрибутировано клиенту."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-17T09:05:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=647207"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент только «постараюсь» прислать сегодня, без твердого обязательства; transcript excerpt."
+    },
+    {
+      "classifier_id": "E01",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-03-03T08:23:14+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536513"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент только «постараемся подписать» на неделе; попытка без явного обязательства."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-04-30T12:52:45+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=566507"
+      },
+      "previous": {
+        "timestamp": "2026-04-30T12:28:31+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=566445"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент прислал доступные чертежи в ответ на запрос; excerpt «Вот все что могу по чертежам»."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-06T09:44:12+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569881"
+      },
+      "previous": {
+        "timestamp": "2026-05-05T16:00:34+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569269"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент прислал выбранный чертеж после запроса дополнительных позиций."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-06T09:47:34+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569889"
+      },
+      "previous": {
+        "timestamp": "2026-05-05T16:00:34+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569269"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент прислал второй нужный чертеж; завершение запрошенного шага."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-07T13:29:46+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=572325"
+      },
+      "previous": {
+        "timestamp": "2026-05-07T13:23:12+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=572293"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент перечисляет выбранные варианты тары после просьбы выбрать позиции."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-22T13:18:19+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=584703"
+      },
+      "previous": {
+        "timestamp": "2026-05-19T16:08:33+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=581037"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент передал фирменный бланк из запрошенных документов; опросник пока не закончен."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-06-03T13:35:41+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=594623"
+      },
+      "previous": {
+        "timestamp": "2026-06-03T11:12:05+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=594263"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент прислал фото места установки после запроса данных."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-19T09:17:53+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=648459"
+      },
+      "previous": {
+        "timestamp": "2026-08-17T09:05:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=647207"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент говорит, что сейчас загружает фото после обещания отправить их; excerpt «я вам сейчас и загружаю»."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-28T09:11:33+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043025,3043027"
+      },
+      "previous": {
+        "timestamp": "2026-08-28T09:07:01+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=655889"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент отправил фото после звонка «сейчас вам скину»; сообщение содержит вложение."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-28T09:13:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043029,3043031"
+      },
+      "previous": {
+        "timestamp": "2026-08-28T09:07:01+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=655889"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Второе фото отправлено в той же согласованной отправке; сообщение содержит вложение."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-08T11:09:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=615809"
+      },
+      "previous": {
+        "timestamp": "2026-07-07T15:10:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=615467"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент сообщает, что ознакомился и переслал материал, но говорит, что его еще не обсудили; previous call запрашивал просмотр."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-06-03T13:39:05+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=594643"
+      },
+      "previous": {
+        "timestamp": "2026-06-03T11:12:05+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=594263"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент сообщает о повторной отправке; первое письмо не ушло; excerpt «переотправил»."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "previous": {
+        "timestamp": "2026-06-18T09:41:56+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=604697"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент прочитал договор после отправки, но previous не фиксирует обещание прочитать; excerpt «договор я прочитал»."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-25T10:07:57+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=609363"
+      },
+      "previous": {
+        "timestamp": "2026-06-24T09:56:22+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=608413"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Счет подписан, договор еще нет; не подтверждает завершение обещанного действия."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-07-27T13:30:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=630239"
+      },
+      "previous": {
+        "timestamp": "2026-07-24T10:31:31+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=628711"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент переслал материалы директору, но previous event не устанавливает обещание сделать это."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-05T10:43:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=638981"
+      },
+      "previous": {
+        "timestamp": "2026-07-24T10:31:31+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=628711"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент говорит, что уже прислал размеры и фото; запрос есть, явное обещание не видно."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18929",
+      "current": {
+        "timestamp": "2026-08-26T11:35:58+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=653963"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент сообщает о пересылке договора менеджерам без ранее установленного обещания."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-06T13:01:32+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=529553"
+      },
+      "previous": {
+        "timestamp": "2026-02-03T15:25:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=528319"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент говорит, что карточку предприятия уже отправлял, но prior event не фиксирует обещание."
+    },
+    {
+      "classifier_id": "E02",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-28T09:39:34+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043169,3043171"
+      },
+      "previous": {
+        "timestamp": "2026-08-28T09:13:04+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043029,3043031"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Пересылку информации в техотдел сообщает продавец, не клиент; похожий отчет о выполнении."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "5017",
+      "current": {
+        "timestamp": "2025-08-08T10:58:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=463931"
+      },
+      "previous": {
+        "timestamp": "2025-08-07T16:39:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=463767"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент переносит обещанное согласование визита на неделю; excerpt «перенесем ... на неделю»."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-22T13:18:19+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=584703"
+      },
+      "previous": {
+        "timestamp": "2026-05-19T16:08:33+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=581037"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает о задержке заполнения и ставит новый checkpoint — выходные."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-07-15T09:31:07+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620111"
+      },
+      "previous": {
+        "timestamp": "2026-05-19T16:03:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=581019"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент сдвигает ожидаемую покупку/оплату с июня на июль из-за согласования техотдела."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-08T09:04:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554525"
+      },
+      "previous": {
+        "timestamp": "2026-04-07T16:47:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554357"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Платежный checkpoint меняется с «следующей недели» на сегодня/эту неделю."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-02T11:51:51+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=527721"
+      },
+      "previous": {
+        "timestamp": "2026-01-30T11:40:49+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=527197"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "После прежнего «директор решит» клиент называет новое окно решения: сегодня-завтра."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-03T12:41:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=636549"
+      },
+      "previous": {
+        "timestamp": "2026-07-27T13:30:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=630239"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Новый ожидаемый checkpoint после обсуждения с инвестором — вторник-среда."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-24T09:16:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=651519"
+      },
+      "previous": {
+        "timestamp": "2026-08-17T09:05:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=647207"
+      },
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент меняет срок фото на послеобеденное время после прежнего обещания отправить сегодня."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-17T09:05:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=647207"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Звонок сам сообщает о сдвиге пятничной отправки и новом сроке «сегодня до конца дня»; предыдущая запись вне snapshot."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-26T09:34:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=653763"
+      },
+      "previous": {
+        "timestamp": "2026-08-24T09:16:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=651519"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Стороны переносят повторный звонок на пятницу; это checkpoint продавца, не клиентское действие."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-09-10T09:35:34+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=666219"
+      },
+      "previous": {
+        "timestamp": "2026-09-09T09:28:43+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=665009"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент переносит обсуждение предложения на завтра, но прежнее клиентское действие не установлено."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-12T11:19:37+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=644641"
+      },
+      "previous": {
+        "timestamp": "2026-08-10T10:27:08+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=642873"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "На пятницу назначен повторный звонок продавца, руководитель клиента недоступен."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18929",
+      "current": {
+        "timestamp": "2026-08-26T11:46:11+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=653995"
+      },
+      "previous": {
+        "timestamp": "2026-08-26T11:35:58+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=653963"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Новый срок ответа до конца недели без предыдущего checkpoint; это новая договоренность."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "previous": {
+        "timestamp": "2026-06-18T09:43:51+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=604707"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент впервые назначает обсуждение на понедельник; previous не содержит переноса."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-09T15:03:31+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=616949"
+      },
+      "previous": {
+        "timestamp": "2026-07-08T11:09:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=615809"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Переносится созвон продавца из-за отпуска клиента, не действие клиента."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-04T15:44:08+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=567709"
+      },
+      "previous": {
+        "timestamp": "2026-05-04T15:21:06+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=567643"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент не может выбрать пять вариантов, нового checkpoint нет."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-03-03T08:23:14+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536513"
+      },
+      "previous": {
+        "timestamp": "2026-03-02T17:55:29+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536471"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "«Постараемся подписать на этой неделе» — не перенос прежнего срока."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-21T10:12:44+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=625597"
+      },
+      "previous": {
+        "timestamp": "2026-07-15T11:54:00+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620445"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "«В ближайшее время» не задает bounded checkpoint для размеров."
+    },
+    {
+      "classifier_id": "E03",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-06-03T13:39:05+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=594643"
+      },
+      "previous": {
+        "timestamp": "2026-06-03T11:12:05+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=594263"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Повторная отправка фото после технического сбоя, не перенос согласованного срока."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-17T09:05:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=647207"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент подтверждает, что пятничная отправка не состоялась, ссылаясь на выходные; новое обещание дано в звонке."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-22T13:18:19+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=584703"
+      },
+      "previous": {
+        "timestamp": "2026-05-19T16:08:33+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=581037"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент извиняется за задержку и не успевает заполнить все; previous просил вернуть опросник."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-05T10:43:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=638981"
+      },
+      "previous": {
+        "timestamp": "2026-07-24T10:31:31+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=628711"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент признает, что фото не отправились, и обещает повторить; previous просил фото, но без срока."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-06-03T13:39:05+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=594643"
+      },
+      "previous": {
+        "timestamp": "2026-06-03T11:12:05+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=594263"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Первое письмо не ушло из-за сбоя; это не доказательство пропуска обещанного клиентского срока."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-08T11:09:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=615809"
+      },
+      "previous": {
+        "timestamp": "2026-07-07T15:10:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=615467"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент сообщает «пока не обсуждали», но previous не задает срок обсуждения."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-07-15T09:31:07+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620111"
+      },
+      "previous": {
+        "timestamp": "2026-05-19T16:03:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=581019"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Нет согласования с техотделом, но previous не задает срок действия."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "5017",
+      "current": {
+        "timestamp": "2025-08-08T10:58:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=463931"
+      },
+      "previous": {
+        "timestamp": "2025-08-07T16:39:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=463767"
+      },
+      "design_bucket": "context_dependent",
+      "why_short": "Ответ по визиту не дан к ожидаемому вечеру; теперь согласование переносится на неделю."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-21T10:12:44+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=625597"
+      },
+      "previous": {
+        "timestamp": "2026-07-15T11:54:00+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620445"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Недостающие размеры фиксирует продавец; клиент обещает их прислать, но сам пропуск не сообщает."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-12T11:19:37+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=644641"
+      },
+      "previous": {
+        "timestamp": "2026-08-10T10:27:08+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=642873"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Недоступность руководителя — чужое молчание, не невыполнение обещания клиента."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18929",
+      "current": {
+        "timestamp": "2026-08-26T11:46:11+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=653995"
+      },
+      "previous": {
+        "timestamp": "2026-08-26T11:35:58+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=653963"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент рассматривает предложения и обещает ответить, не сообщает о пропуске."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-03-03T08:23:14+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536513"
+      },
+      "previous": {
+        "timestamp": "2026-03-02T17:55:29+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536471"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент только «постарается» подписать; явного сорванного срока нет."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-09-10T09:35:34+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=666219"
+      },
+      "previous": {
+        "timestamp": "2026-09-09T09:28:43+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=665009"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент откладывает разговор до завтра, не признавая пропуск действия."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-04T15:44:08+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=567709"
+      },
+      "previous": {
+        "timestamp": "2026-05-04T15:21:06+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=567643"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент не выбрал виды тары; прежняя договоренность или срок не установлены."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-25T10:07:57+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=609363"
+      },
+      "previous": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Договор еще не подписан, но клиент не сообщает о нарушенном обещании."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-01-29T09:37:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=526587"
+      },
+      "previous": {
+        "timestamp": "2026-01-28T22:42:27+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=526515"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент не получил письмо продавца; это не невыполненное customer-side действие."
+    },
+    {
+      "classifier_id": "E04",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-26T09:34:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=653763"
+      },
+      "previous": {
+        "timestamp": "2026-08-24T09:16:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=651519"
+      },
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент объясняет смену направления, не сообщает о невыполнении прежнего действия."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-19T16:03:33+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=581019"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент связывает согласование с гендиректором и подтверждает согласование стоимости/оплат."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-07-15T09:31:07+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=620111"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает, что закупка отложена из-за отсутствия согласования технического отдела."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-01-30T11:40:49+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=527197"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Директор клиента должен решить по предложению сегодня; ожидается обратная связь."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-02T11:51:51+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=527721"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обозначает решение директора по договору сегодня-завтра."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-03T15:25:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=528319"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает о совещании с директором и передает его технические пожелания."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-06T13:01:32+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=529553"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент говорит «директор дал добро» и переходит к договору."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-07-27T13:30:06+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=630239"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Материалы отправлены директору; обсуждение с инвестором ожидается завтра."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-03T12:41:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=636549"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Директор с инвестором окончательно обсудят решение; назван срок."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-05T10:43:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=638981"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Почти принятое решение, клиент направит договор директору на рассмотрение."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-06T10:56:26+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=640305"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Инвестор назван внутренним участником решения, конкретное действие/срок не вполне ясен."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-08-12T13:01:01+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=644737"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Юрист клиента снял возражения; следующий gate — согласование у директора перед подписью."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-24T09:56:22+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=608413"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Договор передан на рассмотрение, но клиент не называет конкретного решающего участника."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент назначает полное обсуждение договора на понедельник; кто решает, неясно."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-25T10:07:57+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=609363"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Подписание счета/договора описано как внутренний процесс, gate не назван."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-07T16:47:56+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554357"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Бухгалтерия упомянута по счету, но отдельная внутренняя decision gate не установлена."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-03-03T08:23:14+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=536513"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "«Постараемся подписать» без конкретного внутреннего decision gate."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18929",
+      "current": {
+        "timestamp": "2026-08-26T11:46:11+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=653995"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент сравнивает предложения, но не называет конкретный внутренний gate."
+    },
+    {
+      "classifier_id": "E05",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-06T15:08:52+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=640837"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Клиент требует исправить реквизит и комплект документов; это договорная правка, не decision gate."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-06T11:17:07+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=614769"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент называет дозировку 2–5 г и размер частиц 2–3 мм; checkable application facts."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18615",
+      "current": {
+        "timestamp": "2026-07-17T17:00:14+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=623799"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент описывает дозу фруктов 30 г с фактическим избытком 35–37 г; excerpt in call."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-04-03T13:02:24+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=552361"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент задает диапазон высоты установки 1050–1150 мм."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-05-25T13:04:40+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=586025"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент обсуждает размеры/положение аппликатора относительно конвейера; технический excerpt."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7243",
+      "current": {
+        "timestamp": "2026-06-03T13:39:05+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=594643"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент просит регулируемую стойку с ходом ±10 см; excerpt «вверх-вниз»."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-17T10:13:49+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=559077"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент задает высоту бортика конвейера около 150 мм и обсуждает вторую ленту."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6983",
+      "current": {
+        "timestamp": "2026-04-08T09:04:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=554525"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент описывает промежуточный конвейер: метр-полтора, высота и подстройка скорости."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-03T15:25:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=528319"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент спрашивает о двухметровом конвейере, разделении банок и срабатывании датчика."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6885",
+      "current": {
+        "timestamp": "2026-02-06T13:01:32+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=529553"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент обсуждает образцы и геометрию тары для настройки оборудования."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-19T11:21:17+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=605831"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент просит принтер-маркиратор и два картриджа с явной моделью в спецификации."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-07-24T10:31:31+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=628711"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент дает диаметр тары 45 мм и размер этикетки 145×145 мм."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-05T10:43:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=638981"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает максимальную высоту тары 175 мм и просит проверить совместимость."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18745",
+      "current": {
+        "timestamp": "2026-08-06T11:42:20+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=640445"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент говорит, что датировщик и печать на этикетке входят в нужное исполнение."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6135",
+      "current": {
+        "timestamp": "2025-10-24T09:50:48+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=495743"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент говорит о разливе 150–180 мл и выбирает один дозатор ради промывки."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6135",
+      "current": {
+        "timestamp": "2025-10-29T15:15:30+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=497437"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент задает вопросы о подаче продукта, насосе и остановке дозатора."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6135",
+      "current": {
+        "timestamp": "2025-10-30T13:48:53+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=497835"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент задает проверяемый вопрос о промывке и разборке дозатора."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "5017",
+      "current": {
+        "timestamp": "2025-08-22T12:17:39+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=468821"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент сообщает, что намотка этикетки отличается и аппликатор нужно зеркально переставить."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-06T10:06:53+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569941"
+      },
+      "previous": null,
+      "design_bucket": "context_dependent",
+      "why_short": "Клиент говорит о цилиндрических тарах и возможной потребности в сменных валах разной высоты."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-28T09:35:26+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043131,3043133"
+      },
+      "previous": null,
+      "design_bucket": "likely_positive",
+      "why_short": "Клиент спрашивает, наносить ли «Честный знак» на этикетку или в любое место упаковки."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "6135",
+      "current": {
+        "timestamp": "2025-10-30T12:52:16+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=497779"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Описание дозатора/насоса исходит от продавца, не содержит требования клиента."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18485",
+      "current": {
+        "timestamp": "2026-06-16T10:10:37+03:00",
+        "event_type": "call_transcript",
+        "event_id": "activity_id=602755"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец объясняет высоту этикетки 35 мм; customer-stated requirement в excerpt не виден."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-06T09:54:41+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=569903"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец запрашивает размеры и фото; это не заявленное клиентом требование."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-04-30T12:28:31+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=566445"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец пересказывает запрос производства без текущего customer-stated constraint."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "7601",
+      "current": {
+        "timestamp": "2026-05-04T16:02:22+03:00",
+        "event_type": "email",
+        "event_id": "source_ids=567797"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец просит выбрать пять видов тары; проверяемая характеристика клиента не установлена."
+    },
+    {
+      "classifier_id": "E06",
+      "deal_id": "18873",
+      "current": {
+        "timestamp": "2026-08-28T09:39:34+03:00",
+        "event_type": "message",
+        "event_id": "source_ids=3043169,3043171"
+      },
+      "previous": null,
+      "design_bucket": "hard_negative",
+      "why_short": "Продавец сообщает о передаче в техотдел; клиентского техтребования нет."
+    }
+  ]
+}

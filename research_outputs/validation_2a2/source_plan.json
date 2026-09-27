@@ -1,0 +1,152 @@
+{
+  "contract_sha256": "94a9b4c47702ca458031da23d68ab38ca58de5cba086da3a14a4b7346777124a",
+  "source": "outcome-blind Validation 2A snapshots; latest cutoff per deal",
+  "shards": {
+    "A": [
+      {
+        "deal_id": "18733",
+        "file": "research_outputs/validation_2a/snapshots/18733_T80.json",
+        "events": 182,
+        "content_chars": 96788
+      },
+      {
+        "deal_id": "7191",
+        "file": "research_outputs/validation_2a/snapshots/7191_T80.json",
+        "events": 91,
+        "content_chars": 47012
+      },
+      {
+        "deal_id": "18731",
+        "file": "research_outputs/validation_2a/snapshots/18731_T80.json",
+        "events": 60,
+        "content_chars": 45944
+      },
+      {
+        "deal_id": "5971",
+        "file": "research_outputs/validation_2a/snapshots/5971_T80.json",
+        "events": 54,
+        "content_chars": 42168
+      },
+      {
+        "deal_id": "18629",
+        "file": "research_outputs/validation_2a/snapshots/18629_T80.json",
+        "events": 88,
+        "content_chars": 41237
+      },
+      {
+        "deal_id": "18773",
+        "file": "research_outputs/validation_2a/snapshots/18773_T80.json",
+        "events": 46,
+        "content_chars": 33786
+      },
+      {
+        "deal_id": "18765",
+        "file": "research_outputs/validation_2a/snapshots/18765_T80.json",
+        "events": 60,
+        "content_chars": 20690
+      },
+      {
+        "deal_id": "18635",
+        "file": "research_outputs/validation_2a/snapshots/18635_T80.json",
+        "events": 62,
+        "content_chars": 15387
+      },
+      {
+        "deal_id": "18747",
+        "file": "research_outputs/validation_2a/snapshots/18747_T80.json",
+        "events": 82,
+        "content_chars": 12620
+      },
+      {
+        "deal_id": "19007",
+        "file": "research_outputs/validation_2a/snapshots/19007_T80.json",
+        "events": 24,
+        "content_chars": 10865
+      },
+      {
+        "deal_id": "18775",
+        "file": "research_outputs/validation_2a/snapshots/18775_T80.json",
+        "events": 45,
+        "content_chars": 7478
+      },
+      {
+        "deal_id": "18755",
+        "file": "research_outputs/validation_2a/snapshots/18755_T80.json",
+        "events": 44,
+        "content_chars": 3540
+      }
+    ],
+    "B": [
+      {
+        "deal_id": "18615",
+        "file": "research_outputs/validation_2a/snapshots/18615_T80.json",
+        "events": 297,
+        "content_chars": 96162
+      },
+      {
+        "deal_id": "7601",
+        "file": "research_outputs/validation_2a/snapshots/7601_T80.json",
+        "events": 133,
+        "content_chars": 55512
+      },
+      {
+        "deal_id": "7243",
+        "file": "research_outputs/validation_2a/snapshots/7243_T80.json",
+        "events": 209,
+        "content_chars": 43873
+      },
+      {
+        "deal_id": "6983",
+        "file": "research_outputs/validation_2a/snapshots/6983_T80.json",
+        "events": 128,
+        "content_chars": 41239
+      },
+      {
+        "deal_id": "18485",
+        "file": "research_outputs/validation_2a/snapshots/18485_T80.json",
+        "events": 46,
+        "content_chars": 38275
+      },
+      {
+        "deal_id": "6885",
+        "file": "research_outputs/validation_2a/snapshots/6885_T80.json",
+        "events": 55,
+        "content_chars": 27137
+      },
+      {
+        "deal_id": "18745",
+        "file": "research_outputs/validation_2a/snapshots/18745_T80.json",
+        "events": 86,
+        "content_chars": 24552
+      },
+      {
+        "deal_id": "6135",
+        "file": "research_outputs/validation_2a/snapshots/6135_T80.json",
+        "events": 40,
+        "content_chars": 19300
+      },
+      {
+        "deal_id": "5017",
+        "file": "research_outputs/validation_2a/snapshots/5017_T80.json",
+        "events": 55,
+        "content_chars": 12076
+      },
+      {
+        "deal_id": "18873",
+        "file": "research_outputs/validation_2a/snapshots/18873_T80.json",
+        "events": 74,
+        "content_chars": 10222
+      },
+      {
+        "deal_id": "18929",
+        "file": "research_outputs/validation_2a/snapshots/18929_D7.json",
+        "events": 14,
+        "content_chars": 6325
+      }
+    ]
+  },
+  "content_chars": {
+    "A": 377515,
+    "B": 374673
+  }
+}

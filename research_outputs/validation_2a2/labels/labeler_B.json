@@ -1,0 +1,1948 @@
+[
+  {
+    "example_id": "E01-001",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "подготовить и отправить данные для сравнения",
+      "due_at_or_expected_result": "завтра"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал подготовить и отправить папку завтра."
+  },
+  {
+    "example_id": "E01-002",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "найти и отправить похожее коммерческое предложение",
+      "due_at_or_expected_result": "сейчас"
+    },
+    "confidence": "medium",
+    "reason_short": "Сказал, что сейчас найдет и отправит информацию."
+  },
+  {
+    "example_id": "E01-003",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "передать бутылки с крышками курьером",
+      "due_at_or_expected_result": "на следующей неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Предложил передать образцы курьером на следующей неделе."
+  },
+  {
+    "example_id": "E01-004",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "позвонить",
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сказал: «позже наберу»."
+  },
+  {
+    "example_id": "E01-005",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщил только о своей доступности к 12."
+  },
+  {
+    "example_id": "E01-006",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "сообщить информацию от директора",
+      "due_at_or_expected_result": "когда появится информация"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал сообщить, как получит информацию от директора."
+  },
+  {
+    "example_id": "E01-007",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "выслать чертежи крышек",
+      "due_at_or_expected_result": "после получения от производителя"
+    },
+    "confidence": "medium",
+    "reason_short": "В записи указано, что клиент сразу вышлет полученные чертежи."
+  },
+  {
+    "example_id": "E01-008",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "просмотреть договор и подготовить правки",
+      "due_at_or_expected_result": "к понедельнику"
+    },
+    "confidence": "medium",
+    "reason_short": "Юрист обещал подготовить правки к понедельнику."
+  },
+  {
+    "example_id": "E01-009",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "уточнить на производстве и дать обратную связь",
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "В записи указано, что клиент уточнит вопрос и даст обратную связь."
+  },
+  {
+    "example_id": "E01-010",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "созвониться",
+      "due_at_or_expected_result": "во вторник в 12:00"
+    },
+    "confidence": "medium",
+    "reason_short": "Зафиксирован согласованный созвон во вторник в 12:00."
+  },
+  {
+    "example_id": "E01-011",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Просит действие от продавца."
+  },
+  {
+    "example_id": "E01-012",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Нет обещания конкретного будущего действия."
+  },
+  {
+    "example_id": "E01-013",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Клиент просит позвонить; собственной задачи не обещает."
+  },
+  {
+    "example_id": "E01-014",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Задает вопрос о нужных данных."
+  },
+  {
+    "example_id": "E01-015",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Задает вопрос о сроках."
+  },
+  {
+    "example_id": "E01-016",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщает только время доступности."
+  },
+  {
+    "example_id": "E01-083",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "приехать на переговоры",
+      "due_at_or_expected_result": "17-го числа"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент настаивает на визите в следующую пятницу."
+  },
+  {
+    "example_id": "E01-084",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отправить ФИО коллег",
+      "due_at_or_expected_result": "сейчас, после ответа коллег"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал прислать ФИО, когда коллеги ответят."
+  },
+  {
+    "example_id": "E01-085",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "направить размеры крышек",
+      "due_at_or_expected_result": "в ближайшее время"
+    },
+    "confidence": "high",
+    "reason_short": "Пообещал направить размеры крышек."
+  },
+  {
+    "example_id": "E01-086",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сказал, что постарается отправить карточку компании."
+  },
+  {
+    "example_id": "E01-087",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "выслать опросный лист",
+      "due_at_or_expected_result": "на выходных"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал выслать опросный лист на выходных."
+  },
+  {
+    "example_id": "E01-088",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "выслать информацию о размещении аппликаторов",
+      "due_at_or_expected_result": "сегодня около 12:00 по Москве"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал отправить информацию сегодня около полудня."
+  },
+  {
+    "example_id": "E01-089",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "оплатить счет частями",
+      "due_at_or_expected_result": "в течение двух недель"
+    },
+    "confidence": "medium",
+    "reason_short": "Описал план оплатить счет несколькими траншами."
+  },
+  {
+    "example_id": "E01-090",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "прислать точную длину конвейера",
+      "due_at_or_expected_result": "скоро"
+    },
+    "confidence": "high",
+    "reason_short": "Сказал, что скоро пришлет точный размер."
+  },
+  {
+    "example_id": "E01-091",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "сообщить ответ",
+      "due_at_or_expected_result": "как директор решит"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал сразу отписаться после решения директора."
+  },
+  {
+    "example_id": "E01-092",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "подготовить и отправить тару с крышками",
+      "due_at_or_expected_result": "сейчас"
+    },
+    "confidence": "high",
+    "reason_short": "Согласился подготовить и отправить образцы с крышками."
+  },
+  {
+    "example_id": "E01-093",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "дать обратную связь после обсуждения",
+      "due_at_or_expected_result": "в понедельник"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал обсудить вопрос и дать обратную связь в понедельник."
+  },
+  {
+    "example_id": "E01-094",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "отреагировать и сообщить информацию по договору",
+      "due_at_or_expected_result": "как появится информация"
+    },
+    "confidence": "medium",
+    "reason_short": "Обещал оперативно ответить после появления информации."
+  },
+  {
+    "example_id": "E01-095",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "перезвонить",
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сказал, что сам перезвонит."
+  },
+  {
+    "example_id": "E01-096",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "повторно отправить фотографии и размеры тары",
+      "due_at_or_expected_result": "сейчас"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал повторно отправить фотографии и размеры."
+  },
+  {
+    "example_id": "E01-097",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Объект обещанного «всего» не уточнен."
+  },
+  {
+    "example_id": "E01-098",
+    "classifier_id": "E01",
+    "value": "YES",
+    "fields": {
+      "owner": null,
+      "action": "вернуться с ответом",
+      "due_at_or_expected_result": "до конца недели"
+    },
+    "confidence": "high",
+    "reason_short": "Обещал вернуться с ответом до конца недели."
+  },
+  {
+    "example_id": "E01-099",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сказал лишь, что постарается отправить фотографии."
+  },
+  {
+    "example_id": "E01-100",
+    "classifier_id": "E01",
+    "value": "NO",
+    "fields": {
+      "owner": null,
+      "action": null,
+      "due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сказал, что постараются подписать договор."
+  },
+  {
+    "example_id": "E02-017",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Предыдущего согласованного действия в контексте нет."
+  },
+  {
+    "example_id": "E02-018",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "отправить фото или чертеж этикетки с размерами"
+    },
+    "confidence": "high",
+    "reason_short": "Фото приложено в ответ на просьбу о чертеже этикетки."
+  },
+  {
+    "example_id": "E02-019",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "предоставить точные размеры крышек"
+    },
+    "confidence": "high",
+    "reason_short": "Указал размеры крышек после запроса производства."
+  },
+  {
+    "example_id": "E02-020",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "сообщить состав и концентрацию растворов"
+    },
+    "confidence": "high",
+    "reason_short": "Назвал два раствора и концентрацию формалина."
+  },
+  {
+    "example_id": "E02-021",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Опросный лист заполнил продавец."
+  },
+  {
+    "example_id": "E02-022",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "подготовить и выслать видео размещения оборудования"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент выслал запрошенное видео."
+  },
+  {
+    "example_id": "E02-023",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Указан только размер этикетки; полной отправки не заявлено."
+  },
+  {
+    "example_id": "E02-024",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Запись об изображении не содержит текста клиента о выполнении."
+  },
+  {
+    "example_id": "E02-025",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Запись об изображении не содержит текста клиента о выполнении."
+  },
+  {
+    "example_id": "E02-026",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Обсуждение проекта не состоялось; завершенное действие не заявлено."
+  },
+  {
+    "example_id": "E02-027",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Напоминание отправил продавец."
+  },
+  {
+    "example_id": "E02-028",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Совещание не состоялось; клиентское действие не завершено."
+  },
+  {
+    "example_id": "E02-029",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Клиент прямо сообщил, что видео не подготовил."
+  },
+  {
+    "example_id": "E02-030",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "«Во вложении» не подтверждает заполнение опросного листа."
+  },
+  {
+    "example_id": "E02-031",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Ответ «200» не подтверждает отправку запрошенных фото."
+  },
+  {
+    "example_id": "E02-032",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Ожидают предложение другой компании; клиентское действие не завершено."
+  },
+  {
+    "example_id": "E02-101",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "передать имеющиеся чертежи тары"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент сообщил, что передал все доступное по чертежам."
+  },
+  {
+    "example_id": "E02-102",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Сказал, что чертеж есть, но завершенную отправку не указал."
+  },
+  {
+    "example_id": "E02-103",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Уточнил нужную позицию, но не сообщил о выполненном действии."
+  },
+  {
+    "example_id": "E02-104",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Перечислил типы тары в ответ на вопрос; завершенное действие не заявлено."
+  },
+  {
+    "example_id": "E02-105",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Отправил фирменный бланк, а не запрошенные карточку и опросный лист."
+  },
+  {
+    "example_id": "E02-106",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "предоставить фото высоты установки аппликатора"
+    },
+    "confidence": "high",
+    "reason_short": "Прямо указал, что предоставляет фото запрошенного расстояния."
+  },
+  {
+    "example_id": "E02-107",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщил, что загружает фото; завершение не подтверждено."
+  },
+  {
+    "example_id": "E02-108",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Только отметка об изображении без текста о выполнении."
+  },
+  {
+    "example_id": "E02-109",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Только отметка об изображении без текста о выполнении."
+  },
+  {
+    "example_id": "E02-110",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "ознакомиться с информацией и переслать ее коллегам"
+    },
+    "confidence": "high",
+    "reason_short": "Сказал, что ознакомился и переслал информацию."
+  },
+  {
+    "example_id": "E02-111",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "повторно направить фотографии и сведения о размещении"
+    },
+    "confidence": "high",
+    "reason_short": "Подтвердил повторную отправку и сверил две фотографии."
+  },
+  {
+    "example_id": "E02-112",
+    "classifier_id": "E02",
+    "value": "YES",
+    "fields": {
+      "completed_action": "прочитать и изучить договор"
+    },
+    "confidence": "high",
+    "reason_short": "Прямо сообщил, что прочитал и изучил договор."
+  },
+  {
+    "example_id": "E02-113",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Договор еще не подписан; завершенное действие не заявлено."
+  },
+  {
+    "example_id": "E02-114",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщил об отправке информации директору, но не о фото тары."
+  },
+  {
+    "example_id": "E02-115",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "В конце разговора признал, что фото не отправил."
+  },
+  {
+    "example_id": "E02-116",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Предыдущего согласованного действия в контексте нет."
+  },
+  {
+    "example_id": "E02-117",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "medium",
+    "reason_short": "Упомянул ранее отправленную карточку; прежнего запроса в контексте нет."
+  },
+  {
+    "example_id": "E02-118",
+    "classifier_id": "E02",
+    "value": "NO",
+    "fields": {
+      "completed_action": null
+    },
+    "confidence": "high",
+    "reason_short": "Информацию передал в техотдел продавец."
+  },
+  {
+    "example_id": "E03-033",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "12 марта, 11:00"
+    },
+    "confidence": "high",
+    "reason_short": "Просит перенести согласованный визит с 11 на 12 марта."
+  },
+  {
+    "example_id": "E03-034",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес обсуждение проекта на понедельник."
+  },
+  {
+    "example_id": "E03-035",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра, ближе к 13:00"
+    },
+    "confidence": "high",
+    "reason_short": "Сообщено, что совещание переносится на завтра."
+  },
+  {
+    "example_id": "E03-036",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Повторил срок «сегодня» без ясной смены контрольной точки."
+  },
+  {
+    "example_id": "E03-037",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник около 12:00"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес обсуждение с завтрашнего дня на понедельник."
+  },
+  {
+    "example_id": "E03-038",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "во вторник"
+    },
+    "confidence": "high",
+    "reason_short": "Вместо измерения сегодня назвал вторник."
+  },
+  {
+    "example_id": "E03-039",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра"
+    },
+    "confidence": "high",
+    "reason_short": "После пропуска срока сегодня перенес отправку видео на завтра."
+  },
+  {
+    "example_id": "E03-040",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "во вторник после 14:00"
+    },
+    "confidence": "high",
+    "reason_short": "Заменил согласованное время звонка на вторник после 14:00."
+  },
+  {
+    "example_id": "E03-041",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщил о загрузке, но новый срок не назвал."
+  },
+  {
+    "example_id": "E03-042",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Отложил вопрос на неделю, но прежнее действие не согласовывалось."
+  },
+  {
+    "example_id": "E03-043",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра, в то же время"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес согласованный созвон с понедельника на завтра."
+  },
+  {
+    "example_id": "E03-119",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "неделя с 18 августа"
+    },
+    "confidence": "medium",
+    "reason_short": "Предложил перенести визит примерно на неделю."
+  },
+  {
+    "example_id": "E03-120",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Нового срока по ранее согласованному действию нет."
+  },
+  {
+    "example_id": "E03-121",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "начало августа"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес продолжение проекта с июня на начало августа."
+  },
+  {
+    "example_id": "E03-122",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Новый запрос о длине конвейера не меняет прежний срок оплаты."
+  },
+  {
+    "example_id": "E03-123",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "ближе к среде"
+    },
+    "confidence": "medium",
+    "reason_short": "Отложил обсуждение до появления решения директора к среде."
+  },
+  {
+    "example_id": "E03-124",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "вторник–среда"
+    },
+    "confidence": "high",
+    "reason_short": "Вместо завтрашнего ответа назвал вторник–среду."
+  },
+  {
+    "example_id": "E03-125",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра после обеда"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес обещанную отправку с сегодня на завтра после обеда."
+  },
+  {
+    "example_id": "E03-126",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Предыдущего согласованного действия в контексте нет."
+  },
+  {
+    "example_id": "E03-127",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "medium",
+    "reason_short": "Назначил новый созвон, но не перенес обещанную отправку фото."
+  },
+  {
+    "example_id": "E03-128",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "завтра, в то же время"
+    },
+    "confidence": "high",
+    "reason_short": "Попросила отложить согласованное обсуждение до завтра."
+  },
+  {
+    "example_id": "E03-129",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в пятницу"
+    },
+    "confidence": "high",
+    "reason_short": "Перенес звонок с согласованной среды на пятницу."
+  },
+  {
+    "example_id": "E03-130",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Назвал срок ответа впервые; переноса прежнего срока нет."
+  },
+  {
+    "example_id": "E03-131",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в понедельник"
+    },
+    "confidence": "medium",
+    "reason_short": "Перенес обсуждение и обратную связь на понедельник."
+  },
+  {
+    "example_id": "E03-132",
+    "classifier_id": "E03",
+    "value": "YES",
+    "fields": {
+      "new_due_at_or_expected_result": "в среду, примерно в то же время"
+    },
+    "confidence": "high",
+    "reason_short": "Согласовал перенос завтрашнего созвона на среду."
+  },
+  {
+    "example_id": "E03-133",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Сообщил о трудности выбора без новой контрольной точки."
+  },
+  {
+    "example_id": "E03-134",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Назвал предполагаемый срок подписи, но прежнего обещания нет."
+  },
+  {
+    "example_id": "E03-135",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Обсуждает размеры крышек, не меняя прежний срок визита."
+  },
+  {
+    "example_id": "E03-136",
+    "classifier_id": "E03",
+    "value": "NO",
+    "fields": {
+      "new_due_at_or_expected_result": null
+    },
+    "confidence": "high",
+    "reason_short": "Подтвердил отправку фото, а не перенос срока."
+  },
+  {
+    "example_id": "E04-044",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "На дату совещания прямо сказано, что оно не состоялось."
+  },
+  {
+    "example_id": "E04-045",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Клиент признал, что не подготовил обещанное видео к сроку."
+  },
+  {
+    "example_id": "E04-046",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Совещание могло состояться во вторник; точный срок не нарушен."
+  },
+  {
+    "example_id": "E04-047",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Клиент прямо сказал, что обещанное обсуждение не состоялось."
+  },
+  {
+    "example_id": "E04-048",
+    "classifier_id": "E04",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "В записи прямо указано, что клиент не прислал обещанные размеры в срок."
+  },
+  {
+    "example_id": "E04-049",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Загруженность не подтверждает невыполнение обещанного действия."
+  },
+  {
+    "example_id": "E04-050",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Не получено предложение конкурента; это не обещанное действие клиента."
+  },
+  {
+    "example_id": "E04-051",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Продавец лишь спрашивает о рассмотрении расчета директором."
+  },
+  {
+    "example_id": "E04-137",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Предыдущего согласованного действия в контексте нет."
+  },
+  {
+    "example_id": "E04-138",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Предыдущий запрос продавца не задает обещанного клиентом срока."
+  },
+  {
+    "example_id": "E04-139",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Не установлено, что отправка фото была обещана к конкретному сроку."
+  },
+  {
+    "example_id": "E04-140",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Клиент отправил фото; явного пропуска обещанного срока нет."
+  },
+  {
+    "example_id": "E04-141",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Не обсуждали с коллегами, но такого срока клиент не обещал."
+  },
+  {
+    "example_id": "E04-142",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Проект перенесен на август; факт невыполнения конкретного обещания не назван."
+  },
+  {
+    "example_id": "E04-143",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Дата визита перенесена, но пропуск обещанного действия не указан."
+  },
+  {
+    "example_id": "E04-144",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Клиент не сообщил о невыполнении конкретного обещания."
+  },
+  {
+    "example_id": "E04-145",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Директор не ответил клиенту; это не пропуск действия клиента."
+  },
+  {
+    "example_id": "E04-146",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал текущий срок ответа, но прежний срок не пропущен явно."
+  },
+  {
+    "example_id": "E04-147",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Это новый предполагаемый срок подписи, а не явный пропуск."
+  },
+  {
+    "example_id": "E04-148",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Отложила обсуждение, но пропуска обещанного действия не признала."
+  },
+  {
+    "example_id": "E04-149",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Нерешительность по таре не устанавливает пропуск обещания."
+  },
+  {
+    "example_id": "E04-150",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Договор не подписан; прежнее обещание было дать обратную связь."
+  },
+  {
+    "example_id": "E04-151",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Коммерческое предложение не получил клиент; это не его действие."
+  },
+  {
+    "example_id": "E04-152",
+    "classifier_id": "E04",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Не сказано, что обещанные сведения не были отправлены."
+  },
+  {
+    "example_id": "E05-052",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "руководители",
+      "decision_action": "обсудить и оценить коммерческое предложение",
+      "checkpoint": "завтра, около 15:00"
+    },
+    "confidence": "high",
+    "reason_short": "Предложение передано руководителям на внутреннюю оценку."
+  },
+  {
+    "example_id": "E05-053",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "председатель",
+      "decision_action": "определить, какое оборудование покупать",
+      "checkpoint": "после разговора с председателем"
+    },
+    "confidence": "medium",
+    "reason_short": "Председатель подтвердил закупку, но выбор оборудования еще не сделан."
+  },
+  {
+    "example_id": "E05-054",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "принять решение о закупке после сбора предложений",
+      "checkpoint": "осенью, после конца августа"
+    },
+    "confidence": "high",
+    "reason_short": "Сказано, что предложения собирают до конца августа, а покупку решат осенью."
+  },
+  {
+    "example_id": "E05-055",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Упоминание директора без конкретного решения или внутреннего этапа."
+  },
+  {
+    "example_id": "E05-056",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "оценить расчет лизинга и решить вопрос о покупке",
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Покупка зависит от того, устроит ли директора расчет лизинга."
+  },
+  {
+    "example_id": "E05-057",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "принять решение после сравнения предложений",
+      "checkpoint": "после получения предложения конкурента"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент не будет решать до получения второго предложения."
+  },
+  {
+    "example_id": "E05-058",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "принять решение по проекту на совещании",
+      "checkpoint": "завтра, ближе к 13:00"
+    },
+    "confidence": "high",
+    "reason_short": "Решение по проекту ожидают после перенесенного совещания."
+  },
+  {
+    "example_id": "E05-059",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "Роман, ЛПР",
+      "decision_action": "рассматривать покупку только после тестирования",
+      "checkpoint": "до конца текущего месяца"
+    },
+    "confidence": "high",
+    "reason_short": "Названы ЛПР и обязательное условие тестирования."
+  },
+  {
+    "example_id": "E05-060",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Клиент отправил технические данные без факта о решении."
+  },
+  {
+    "example_id": "E05-061",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Продавец спрашивает о замечаниях технологов."
+  },
+  {
+    "example_id": "E05-062",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Просит продавца прислать два варианта предложения."
+  },
+  {
+    "example_id": "E05-063",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "обсудить варианты комплектации и цены после нового КП",
+      "checkpoint": "после получения нового предложения"
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент готовит внутреннее обсуждение допустимых изменений и цены."
+  },
+  {
+    "example_id": "E05-064",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Вопрос только о сроке изготовления."
+  },
+  {
+    "example_id": "E05-153",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "генеральный директор",
+      "decision_action": "согласовать проект, стоимость и оплату",
+      "checkpoint": "первичная оплата в начале июня"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент сообщил, что директор одобрил проект и согласовал условия."
+  },
+  {
+    "example_id": "E05-154",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "технический отдел",
+      "decision_action": "согласовать технические требования к оборудованию",
+      "checkpoint": "начало августа"
+    },
+    "confidence": "high",
+    "reason_short": "Согласование технического отдела еще не получено."
+  },
+  {
+    "example_id": "E05-155",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "решить по предложению оборудования",
+      "checkpoint": "сегодня"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент ожидает решение директора по предложению."
+  },
+  {
+    "example_id": "E05-156",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "решить, как поступить с договором",
+      "checkpoint": "сегодня или завтра"
+    },
+    "confidence": "high",
+    "reason_short": "Окончательное решение зависит от директора."
+  },
+  {
+    "example_id": "E05-157",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "согласовать технические вопросы и условия аванса",
+      "checkpoint": "в ближайшие дни"
+    },
+    "confidence": "high",
+    "reason_short": "Переданы конкретные пожелания директора по линии и оплате."
+  },
+  {
+    "example_id": "E05-158",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "одобрить закупку и оформление договора на ИП",
+      "checkpoint": null
+    },
+    "confidence": "high",
+    "reason_short": "Клиент сообщил, что директор дал добро на договор."
+  },
+  {
+    "example_id": "E05-159",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "рассмотреть предложение вместе с инвестором",
+      "checkpoint": "вероятно завтра"
+    },
+    "confidence": "medium",
+    "reason_short": "Директор передал предложение на обсуждение с инвестором."
+  },
+  {
+    "example_id": "E05-160",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор и инвестор",
+      "decision_action": "обсудить проект и принять окончательное решение",
+      "checkpoint": "вторник–среда"
+    },
+    "confidence": "high",
+    "reason_short": "Финальное обсуждение с инвестором назначено на сегодня."
+  },
+  {
+    "example_id": "E05-161",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "рассмотреть договор и предложение о покупке",
+      "checkpoint": "на этой неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент направит договор директору на рассмотрение."
+  },
+  {
+    "example_id": "E05-162",
+    "classifier_id": "E05",
+    "value": "NO",
+    "fields": {
+      "customer_role": null,
+      "decision_action": null,
+      "checkpoint": null
+    },
+    "confidence": "medium",
+    "reason_short": "Упоминание инвестора не задает конкретного внутреннего решения."
+  },
+  {
+    "example_id": "E05-163",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "подписать согласованный договор",
+      "checkpoint": "после подготовки чистовой версии"
+    },
+    "confidence": "high",
+    "reason_short": "После согласования юриста договор пойдет директору на подпись."
+  },
+  {
+    "example_id": "E05-164",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "рассмотреть договор",
+      "checkpoint": "после появления информации"
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент прямо сообщил, что передал договор на внутреннее рассмотрение."
+  },
+  {
+    "example_id": "E05-165",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "обсудить договор и дать обратную связь",
+      "checkpoint": "в понедельник"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент назначил внутреннее обсуждение и обратную связь на понедельник."
+  },
+  {
+    "example_id": "E05-166",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "юристы и подписанты",
+      "decision_action": "подписать договор поставки",
+      "checkpoint": "сейчас проверяет статус"
+    },
+    "confidence": "medium",
+    "reason_short": "В счете подпись уже есть, договор проходит отдельную проверку."
+  },
+  {
+    "example_id": "E05-167",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "бухгалтерия",
+      "decision_action": "оплатить счет несколькими траншами",
+      "checkpoint": "в течение двух недель"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент описал план оплаты и согласование траншей с бухгалтерией."
+  },
+  {
+    "example_id": "E05-168",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": null,
+      "decision_action": "подписать договор поставки",
+      "checkpoint": "на этой неделе"
+    },
+    "confidence": "medium",
+    "reason_short": "Назван конкретный этап подписания договора."
+  },
+  {
+    "example_id": "E05-169",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "менеджер проектов",
+      "decision_action": "сравнить предложения и вернуться с ответом",
+      "checkpoint": "до конца недели"
+    },
+    "confidence": "high",
+    "reason_short": "Клиент рассматривает несколько предложений перед ответом."
+  },
+  {
+    "example_id": "E05-170",
+    "classifier_id": "E05",
+    "value": "YES",
+    "fields": {
+      "customer_role": "директор",
+      "decision_action": "исправить реквизит должности подписанта и подготовить договоры",
+      "checkpoint": null
+    },
+    "confidence": "medium",
+    "reason_short": "Клиент сообщил, что неверная должность не пройдет внутреннее подписание."
+  },
+  {
+    "example_id": "E06-065",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о фиксации конической тары и совместимости узла с его линией."
+  },
+  {
+    "example_id": "E06-066",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал размеры бутылки, будущую высоту и нужное направление линии."
+  },
+  {
+    "example_id": "E06-067",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Привел измеримые диаметры и высоту крышек."
+  },
+  {
+    "example_id": "E06-068",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал состав растворов, объем и запрет смешивания."
+  },
+  {
+    "example_id": "E06-069",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Уточняет нанесение кода Data Matrix на этикетку."
+  },
+  {
+    "example_id": "E06-070",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о считывании и требуемой намотке этикетки."
+  },
+  {
+    "example_id": "E06-071",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о тесте прототипа на своей банке и этикетке."
+  },
+  {
+    "example_id": "E06-072",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал размер этикетки 90 на 100 мм."
+  },
+  {
+    "example_id": "E06-073",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Фраза о лицевой стороне без контекста не задает проверяемое требование."
+  },
+  {
+    "example_id": "E06-074",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описал смещение этикетки на прозрачном двупаке и попросил испытание."
+  },
+  {
+    "example_id": "E06-075",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал размер крышки 48."
+  },
+  {
+    "example_id": "E06-076",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Указал форму используемой тары: цилиндрическая."
+  },
+  {
+    "example_id": "E06-077",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Не описал проверяемое свойство этикетирования."
+  },
+  {
+    "example_id": "E06-078",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Назвал конкретные модели канистр и крышек."
+  },
+  {
+    "example_id": "E06-079",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает только о сроке изготовления."
+  },
+  {
+    "example_id": "E06-080",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Просит продавца прислать варианты предложения."
+  },
+  {
+    "example_id": "E06-081",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал только, что высылает видео; его содержание не описано."
+  },
+  {
+    "example_id": "E06-082",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о конкретной производительности 1000 штук в час."
+  },
+  {
+    "example_id": "E06-171",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задал вес дозы и размер сыпучего продукта для синхронизации."
+  },
+  {
+    "example_id": "E06-172",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описал вес фруктов, целевой объем и тип крышки."
+  },
+  {
+    "example_id": "E06-173",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал диапазон высоты нанесения от пола."
+  },
+  {
+    "example_id": "E06-174",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал тип намотки и размер этикетки."
+  },
+  {
+    "example_id": "E06-175",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Подтвердил высоту монтажа и регулировку стойки на 10 см."
+  },
+  {
+    "example_id": "E06-176",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал высоту борта и спросил о регулировке скорости конвейера."
+  },
+  {
+    "example_id": "E06-177",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточнил длину, ширину, высоту и согласование скорости конвейера."
+  },
+  {
+    "example_id": "E06-178",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал длину конвейера, поток банок и требуемое разделение."
+  },
+  {
+    "example_id": "E06-179",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Обещал отправить образцы, но технических параметров не указал."
+  },
+  {
+    "example_id": "E06-180",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Попросил включить принтер-маркиратор и два картриджа."
+  },
+  {
+    "example_id": "E06-181",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал форму и размеры тары и потребность в печати."
+  },
+  {
+    "example_id": "E06-182",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указал высоту крышек, ширину транспортера и размеры тары."
+  },
+  {
+    "example_id": "E06-183",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточнил требование к датировщику и картриджному нанесению."
+  },
+  {
+    "example_id": "E06-184",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Назвал объемы флаконов и допустимое время переналадки."
+  },
+  {
+    "example_id": "E06-185",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточнил форму тубы, диаметры, высоту, дозирование и укупорку."
+  },
+  {
+    "example_id": "E06-186",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спросил, требует ли мойка дозатора его разборки."
+  },
+  {
+    "example_id": "E06-187",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Попросил зеркально изменить аппликатор из-за иной намотки."
+  },
+  {
+    "example_id": "E06-188",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточнил этикетирование цилиндрической тары и сменные валы."
+  },
+  {
+    "example_id": "E06-189",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спросил, где допустимо наносить код на упаковке."
+  },
+  {
+    "example_id": "E06-190",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Текущая информация о дозаторе исходит от продавца."
+  },
+  {
+    "example_id": "E06-191",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спросил о нанесении на перевернутую тубу и параметрах воздуха."
+  },
+  {
+    "example_id": "E06-192",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Сообщение продавца только запрашивает виды и размеры тары."
+  },
+  {
+    "example_id": "E06-193",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Технические параметры запрашивает продавец."
+  },
+  {
+    "example_id": "E06-194",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Продавец просит выбрать сложную тару; клиентского требования нет."
+  },
+  {
+    "example_id": "E06-195",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Продавец сообщает о передаче данных в техотдел."
+  }
+]

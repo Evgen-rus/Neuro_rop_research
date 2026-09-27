@@ -1,0 +1,346 @@
+[
+  {
+    "example_id": "E06-065",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о пневмоцилиндре для удержания конусной тары."
+  },
+  {
+    "example_id": "E06-066",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задает размеры бутылок и спрашивает о перенастройке линии и ее ориентации."
+  },
+  {
+    "example_id": "E06-067",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Передает измеренные размеры крышки для двух канистр."
+  },
+  {
+    "example_id": "E06-068",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задает составы, объемы растворов и требование не допускать смешивания."
+  },
+  {
+    "example_id": "E06-069",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о нанесении Data Matrix на этикетку."
+  },
+  {
+    "example_id": "E06-070",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о считывании этикетки и требуемой намотке."
+  },
+  {
+    "example_id": "E06-071",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает, можно ли испытать прототип на своей банке и этикетке."
+  },
+  {
+    "example_id": "E06-072",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указывает размер этикетки 90 на 100."
+  },
+  {
+    "example_id": "E06-073",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "low",
+    "reason_short": "Изолированный фрагмент «с лицевой стороны» не называет объект или техническое условие."
+  },
+  {
+    "example_id": "E06-074",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описывает проблему ровного нанесения на прозрачный пакет и просит испытание."
+  },
+  {
+    "example_id": "E06-075",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Указывает технический размер крышки."
+  },
+  {
+    "example_id": "E06-076",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "low",
+    "reason_short": "Одно слово о цилиндрической форме не указывает объект или требование."
+  },
+  {
+    "example_id": "E06-077",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Сообщает, что на всех ведрах этикетки размещены одинаковым способом."
+  },
+  {
+    "example_id": "E06-078",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Перечисляет модели канистр и крышек, которые нужно учитывать."
+  },
+  {
+    "example_id": "E06-079",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о сроке изготовления, а не о техническом свойстве решения."
+  },
+  {
+    "example_id": "E06-080",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Просит прислать коммерческие варианты."
+  },
+  {
+    "example_id": "E06-081",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Только сообщает об отправке видео, без описания требования."
+  },
+  {
+    "example_id": "E06-082",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает, останется ли производительность 1000 штук в час."
+  },
+  {
+    "example_id": "E06-171",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задает дозу и размер сыпучих частиц, а также условие синхронизации линии."
+  },
+  {
+    "example_id": "E06-172",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описывает размер тары и требование дозировать до заданной массы по обратной связи весов."
+  },
+  {
+    "example_id": "E06-173",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указывает диапазон высоты установки этикетки от пола."
+  },
+  {
+    "example_id": "E06-174",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточняет требуемый тип намотки этикетки."
+  },
+  {
+    "example_id": "E06-175",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о стойке с регулировкой высоты плюс-минус 10 см."
+  },
+  {
+    "example_id": "E06-176",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задает высоту борта конвейера и спрашивает о регулировке скорости."
+  },
+  {
+    "example_id": "E06-177",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Указывает высоту и ширину соединительного конвейера и согласование скорости."
+  },
+  {
+    "example_id": "E06-178",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточняет длину конвейера, деление потока банок и требования производства."
+  },
+  {
+    "example_id": "E06-179",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Обсуждает отправку образцов тары, не формулирует техническое условие решения."
+  },
+  {
+    "example_id": "E06-180",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Обсуждает допустимую ширину этикетки и размеры тары для договора."
+  },
+  {
+    "example_id": "E06-181",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Называет цилиндрическую тару, диаметры и просит учесть печать."
+  },
+  {
+    "example_id": "E06-182",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Проверяет совместимость высоты аппликатора и размеров своей тары."
+  },
+  {
+    "example_id": "E06-183",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточняет требования к датировщику и высоте ролика для тары."
+  },
+  {
+    "example_id": "E06-184",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Обсуждает один или два формата флакона, объем и время переналадки."
+  },
+  {
+    "example_id": "E06-185",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Задает параметры тары, наполнения, головок и укупорки."
+  },
+  {
+    "example_id": "E06-186",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает о промывке материала и необходимости разборки дозатора."
+  },
+  {
+    "example_id": "E06-187",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Требует зеркальное положение аппликатора из-за другой намотки этикетки."
+  },
+  {
+    "example_id": "E06-188",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Требует обработки всех цилиндрических тар и обсуждает сменные валы."
+  },
+  {
+    "example_id": "E06-189",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Спрашивает, где технически можно наносить знак на упаковке."
+  },
+  {
+    "example_id": "E06-190",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описывает решение продавец, а не клиент."
+  },
+  {
+    "example_id": "E06-191",
+    "classifier_id": "E06",
+    "value": "YES",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Уточняет конструкцию обкатных роликов и нужные параметры сжатого воздуха."
+  },
+  {
+    "example_id": "E06-192",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "medium",
+    "reason_short": "Выбирает тару для расчета, но не формулирует техническое условие или вопрос."
+  },
+  {
+    "example_id": "E06-193",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Технические запросы в сообщении исходят от продавца."
+  },
+  {
+    "example_id": "E06-194",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Не может выбрать пять видов тары, без технического требования."
+  },
+  {
+    "example_id": "E06-195",
+    "classifier_id": "E06",
+    "value": "NO",
+    "fields": {},
+    "confidence": "high",
+    "reason_short": "Описывает действие продавца по передаче информации в техотдел."
+  }
+]
