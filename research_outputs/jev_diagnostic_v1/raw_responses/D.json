@@ -1,0 +1,951 @@
+{
+  "status": "complete",
+  "responses": [
+    {
+      "example_id": "E06-065",
+      "latency_seconds": 0.572189100086689,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 3839,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-066",
+      "latency_seconds": 0.7020558000076562,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 953,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-067",
+      "latency_seconds": 0.4594755999278277,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.08,
+            "probabilities": {
+              "B": 0.46,
+              "A": 0.54
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 717,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-068",
+      "latency_seconds": 0.464882800122723,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.79,
+            "probabilities": {
+              "A": 0.89,
+              "B": 0.11
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1019,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-069",
+      "latency_seconds": 0.6521141000557691,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.54,
+            "probabilities": {
+              "B": 0.23,
+              "A": 0.77
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 993,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-070",
+      "latency_seconds": 0.46135650016367435,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.88,
+            "probabilities": {
+              "B": 0.06,
+              "A": 0.94
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 496,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-071",
+      "latency_seconds": 0.504446999868378,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.1,
+            "probabilities": {
+              "B": 0.45,
+              "A": 0.55
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 507,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-072",
+      "latency_seconds": 0.5042036001104861,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.56,
+            "probabilities": {
+              "B": 0.22,
+              "A": 0.78
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 463,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-073",
+      "latency_seconds": 0.5888470001518726,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.91,
+            "probabilities": {
+              "B": 0.96,
+              "A": 0.04
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 457,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-074",
+      "latency_seconds": 0.50500059989281,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2784,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-075",
+      "latency_seconds": 0.5072866000700742,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.85,
+            "probabilities": {
+              "A": 0.08,
+              "B": 0.92
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 457,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-076",
+      "latency_seconds": 0.5194386001676321,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.83,
+            "probabilities": {
+              "A": 0.08,
+              "B": 0.92
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 462,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-077",
+      "latency_seconds": 0.44269139994867146,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.71,
+            "probabilities": {
+              "A": 0.15,
+              "B": 0.85
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 971,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-078",
+      "latency_seconds": 0.5372733999975026,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.69,
+            "probabilities": {
+              "A": 0.16,
+              "B": 0.84
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1010,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-079",
+      "latency_seconds": 0.4866140999365598,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.39,
+            "probabilities": {
+              "A": 0.3,
+              "B": 0.7
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 469,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-080",
+      "latency_seconds": 0.5583995000924915,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.87,
+            "probabilities": {
+              "A": 0.06,
+              "B": 0.94
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 460,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-081",
+      "latency_seconds": 0.5250659000594169,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.99,
+            "probabilities": {
+              "A": 0.01,
+              "B": 0.99
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 980,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-082",
+      "latency_seconds": 0.4784470999147743,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.93,
+            "probabilities": {
+              "B": 0.04,
+              "A": 0.96
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 488,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-171",
+      "latency_seconds": 0.4676620000973344,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2235,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-172",
+      "latency_seconds": 0.6294151998590678,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 3350,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-173",
+      "latency_seconds": 0.5069007000420243,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.41,
+            "probabilities": {
+              "B": 0.29,
+              "A": 0.71
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 980,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-174",
+      "latency_seconds": 0.49803789984434843,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "A": 0.99,
+              "B": 0.01
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1719,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-175",
+      "latency_seconds": 0.5348143000155687,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1016,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-176",
+      "latency_seconds": 0.5153759000822902,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1906,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-177",
+      "latency_seconds": 0.515772599959746,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "A": 0.99,
+              "B": 0.01
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1250,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-178",
+      "latency_seconds": 0.5176669000647962,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2251,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-179",
+      "latency_seconds": 0.5192114999517798,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.44,
+            "probabilities": {
+              "B": 0.28,
+              "A": 0.72
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1738,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-180",
+      "latency_seconds": 0.49273840012028813,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.98,
+            "probabilities": {
+              "B": 0.01,
+              "A": 0.99
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2247,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-181",
+      "latency_seconds": 0.5156872998923063,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 938,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-182",
+      "latency_seconds": 0.4638829999603331,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.98,
+            "probabilities": {
+              "B": 0.01,
+              "A": 0.99
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2589,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-183",
+      "latency_seconds": 0.5984823999460787,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "B": 0.01,
+              "A": 0.99
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2341,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-184",
+      "latency_seconds": 0.5190612999722362,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.97,
+            "probabilities": {
+              "A": 0.99,
+              "B": 0.01
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2303,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-185",
+      "latency_seconds": 0.48512169998139143,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "B": 0.0,
+              "A": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 3089,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-186",
+      "latency_seconds": 0.4709431999363005,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.96,
+            "probabilities": {
+              "A": 0.98,
+              "B": 0.02
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1033,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-187",
+      "latency_seconds": 0.5291129001416266,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.51,
+            "probabilities": {
+              "B": 0.24,
+              "A": 0.76
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1429,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-188",
+      "latency_seconds": 0.537066200049594,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.9,
+            "probabilities": {
+              "B": 0.05,
+              "A": 0.95
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 984,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-189",
+      "latency_seconds": 0.48927010013721883,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.94,
+            "probabilities": {
+              "A": 0.97,
+              "B": 0.03
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 527,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-190",
+      "latency_seconds": 0.4666597000323236,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.9,
+            "probabilities": {
+              "B": 0.95,
+              "A": 0.05
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 1010,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-191",
+      "latency_seconds": 0.4946672001387924,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.99,
+            "probabilities": {
+              "B": 0.01,
+              "A": 0.99
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 2556,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-192",
+      "latency_seconds": 0.5250428998842835,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.28,
+            "probabilities": {
+              "A": 0.64,
+              "B": 0.36
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 977,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-193",
+      "latency_seconds": 0.5142481999937445,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "A",
+            "confidence": 0.15,
+            "probabilities": {
+              "A": 0.58,
+              "B": 0.42
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 918,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-194",
+      "latency_seconds": 0.48871950013563037,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 0.93,
+            "probabilities": {
+              "B": 0.96,
+              "A": 0.04
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 974,
+          "output_tokens": 33
+        }
+      }
+    },
+    {
+      "example_id": "E06-195",
+      "latency_seconds": 0.5912170999217778,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "E06": {
+            "type": "choice",
+            "choice": "B",
+            "confidence": 1.0,
+            "probabilities": {
+              "B": 1.0,
+              "A": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 474,
+          "output_tokens": 33
+        }
+      }
+    }
+  ]
+}

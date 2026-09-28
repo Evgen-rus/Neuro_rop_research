@@ -1,0 +1,291 @@
+{
+  "reference": {
+    "scored": 41,
+    "YES": 31,
+    "NO": 10,
+    "disputed": 2
+  },
+  "variants": {
+    "A": {
+      "median_latency_seconds": 0.6124609999824315,
+      "p95_latency_seconds": 7.904709700029343,
+      "thresholds": {
+        "0.50": {
+          "covered": 41,
+          "coverage": 1.0,
+          "accuracy_on_covered": 0.8780487804878049,
+          "yes_agreement": 0.9354838709677419,
+          "no_agreement": 0.7,
+          "FP": 3,
+          "FN": 2,
+          "abstain": 0,
+          "TP": 29,
+          "TN": 7,
+          "errors": [
+            "E06-075",
+            "E06-078",
+            "E06-179",
+            "E06-192",
+            "E06-193"
+          ]
+        },
+        "0.70": {
+          "covered": 32,
+          "coverage": 0.7804878048780488,
+          "accuracy_on_covered": 0.9375,
+          "yes_agreement": 0.7741935483870968,
+          "no_agreement": 0.6,
+          "FP": 0,
+          "FN": 2,
+          "abstain": 9,
+          "TP": 24,
+          "TN": 6,
+          "errors": [
+            "E06-075",
+            "E06-078"
+          ]
+        },
+        "0.80": {
+          "covered": 29,
+          "coverage": 0.7073170731707317,
+          "accuracy_on_covered": 0.9655172413793104,
+          "yes_agreement": 0.7096774193548387,
+          "no_agreement": 0.6,
+          "FP": 0,
+          "FN": 1,
+          "abstain": 12,
+          "TP": 22,
+          "TN": 6,
+          "errors": [
+            "E06-075"
+          ]
+        },
+        "0.90": {
+          "covered": 18,
+          "coverage": 0.43902439024390244,
+          "accuracy_on_covered": 1.0,
+          "yes_agreement": 0.5161290322580645,
+          "no_agreement": 0.2,
+          "FP": 0,
+          "FN": 0,
+          "abstain": 23,
+          "TP": 16,
+          "TN": 2,
+          "errors": []
+        }
+      },
+      "disputed": [
+        {
+          "example_id": "E06-076",
+          "probability": 0.2
+        },
+        {
+          "example_id": "E06-077",
+          "probability": 0.24
+        }
+      ]
+    },
+    "B": {
+      "median_latency_seconds": 0.494793500052765,
+      "p95_latency_seconds": 0.7087886999361217,
+      "thresholds": {
+        "0.50": {
+          "covered": 41,
+          "coverage": 1.0,
+          "accuracy_on_covered": 0.8536585365853658,
+          "yes_agreement": 0.9032258064516129,
+          "no_agreement": 0.7,
+          "FP": 3,
+          "FN": 3,
+          "abstain": 0,
+          "TP": 28,
+          "TN": 7,
+          "errors": [
+            "E06-067",
+            "E06-075",
+            "E06-078",
+            "E06-179",
+            "E06-192",
+            "E06-193"
+          ]
+        },
+        "0.70": {
+          "covered": 33,
+          "coverage": 0.8048780487804879,
+          "accuracy_on_covered": 0.9090909090909091,
+          "yes_agreement": 0.7741935483870968,
+          "no_agreement": 0.6,
+          "FP": 1,
+          "FN": 2,
+          "abstain": 8,
+          "TP": 24,
+          "TN": 6,
+          "errors": [
+            "E06-075",
+            "E06-078",
+            "E06-193"
+          ]
+        },
+        "0.80": {
+          "covered": 26,
+          "coverage": 0.6341463414634146,
+          "accuracy_on_covered": 0.9230769230769231,
+          "yes_agreement": 0.6129032258064516,
+          "no_agreement": 0.5,
+          "FP": 0,
+          "FN": 2,
+          "abstain": 15,
+          "TP": 19,
+          "TN": 5,
+          "errors": [
+            "E06-075",
+            "E06-078"
+          ]
+        },
+        "0.90": {
+          "covered": 19,
+          "coverage": 0.4634146341463415,
+          "accuracy_on_covered": 0.9473684210526315,
+          "yes_agreement": 0.4838709677419355,
+          "no_agreement": 0.3,
+          "FP": 0,
+          "FN": 1,
+          "abstain": 22,
+          "TP": 15,
+          "TN": 3,
+          "errors": [
+            "E06-075"
+          ]
+        }
+      },
+      "disputed": [
+        {
+          "example_id": "E06-076",
+          "probability": 0.13
+        },
+        {
+          "example_id": "E06-077",
+          "probability": 0.4
+        }
+      ]
+    },
+    "C": {
+      "median_latency_seconds": 0.4761203001253307,
+      "p95_latency_seconds": 0.542575600091368,
+      "thresholds": {
+        "0.50": {
+          "covered": 41,
+          "coverage": 1.0,
+          "accuracy_on_covered": 0.9024390243902439,
+          "yes_agreement": 0.9354838709677419,
+          "no_agreement": 0.8,
+          "FP": 2,
+          "FN": 2,
+          "abstain": 0,
+          "TP": 29,
+          "TN": 8,
+          "errors": [
+            "E06-075",
+            "E06-078",
+            "E06-179",
+            "E06-192"
+          ]
+        },
+        "0.70": {
+          "covered": 35,
+          "coverage": 0.8536585365853658,
+          "accuracy_on_covered": 0.9142857142857143,
+          "yes_agreement": 0.8387096774193549,
+          "no_agreement": 0.6,
+          "FP": 1,
+          "FN": 2,
+          "abstain": 6,
+          "TP": 26,
+          "TN": 6,
+          "errors": [
+            "E06-075",
+            "E06-078",
+            "E06-179"
+          ]
+        },
+        "0.80": {
+          "covered": 28,
+          "coverage": 0.6829268292682927,
+          "accuracy_on_covered": 1.0,
+          "yes_agreement": 0.7419354838709677,
+          "no_agreement": 0.5,
+          "FP": 0,
+          "FN": 0,
+          "abstain": 13,
+          "TP": 23,
+          "TN": 5,
+          "errors": []
+        },
+        "0.90": {
+          "covered": 16,
+          "coverage": 0.3902439024390244,
+          "accuracy_on_covered": 1.0,
+          "yes_agreement": 0.45161290322580644,
+          "no_agreement": 0.2,
+          "FP": 0,
+          "FN": 0,
+          "abstain": 25,
+          "TP": 14,
+          "TN": 2,
+          "errors": []
+        }
+      },
+      "disputed": [
+        {
+          "example_id": "E06-076",
+          "probability": 0.29
+        },
+        {
+          "example_id": "E06-077",
+          "probability": 0.27
+        }
+      ]
+    },
+    "D": {
+      "median_latency_seconds": 0.5142481999937445,
+      "p95_latency_seconds": 0.6294151998590678,
+      "choice_full_coverage": {
+        "covered": 41,
+        "coverage": 1.0,
+        "accuracy_on_covered": 0.8780487804878049,
+        "yes_agreement": 0.9354838709677419,
+        "no_agreement": 0.7,
+        "FP": 3,
+        "FN": 2,
+        "abstain": 0,
+        "TP": 29,
+        "TN": 7,
+        "errors": [
+          "E06-075",
+          "E06-078",
+          "E06-179",
+          "E06-192",
+          "E06-193"
+        ]
+      },
+      "disputed": [
+        {
+          "example_id": "E06-076",
+          "choice": "B",
+          "probabilities": {
+            "A": 0.08,
+            "B": 0.92
+          }
+        },
+        {
+          "example_id": "E06-077",
+          "choice": "B",
+          "probabilities": {
+            "A": 0.15,
+            "B": 0.85
+          }
+        }
+      ]
+    }
+  }
+}

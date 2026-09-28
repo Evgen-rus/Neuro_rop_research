@@ -1,0 +1,23 @@
+{
+  "status": "scored",
+  "prepared_at_utc": "2026-09-28T16:51:35.362616+00:00",
+  "baseline_reused": true,
+  "completed": {
+    "B": 43,
+    "C": 43,
+    "D": 43
+  },
+  "outcome_used": false,
+  "dataset_modified": false,
+  "scored_at_utc": "2026-09-28T16:54:11.232080+00:00",
+  "api_key_source": "project_root/.env",
+  "model": "jev-1.13.0",
+  "translations_sha256": "7fa5a83bba16236b9883dd956360b32f1ad745daeac6704be4e53143285ad06f",
+  "raw_sha256": {
+    "B": "5121a96b1a8d7291040d0e1d5103732208a0be03ae3d57bb9e918d7f04bc080e",
+    "C": "b30a4c5ef1e0007c4a0660bf948e7311af4fdb339e2bc541fc76162cefea23db",
+    "D": "a1bf4787be524d1580fd682fe54e6a9c4e6ad80e49cadfcb31885fff38e943ac"
+  },
+  "metrics_sha256": "f34bf8b72e741a8ace70f306470bef93e8d64e3e79194297f1e617fec526f943",
+  "baseline_raw_sha256": "4ff67dfda52219696c252bb15602b9a86dd125e9d691bde0442ac0ff7a95649e"
+}

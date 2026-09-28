@@ -1,0 +1,93 @@
+{
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "example_ids": [
+    "E06-065",
+    "E06-066",
+    "E06-067",
+    "E06-068",
+    "E06-069",
+    "E06-070",
+    "E06-071",
+    "E06-072",
+    "E06-073",
+    "E06-074",
+    "E06-075",
+    "E06-076",
+    "E06-077",
+    "E06-078",
+    "E06-079",
+    "E06-080",
+    "E06-081",
+    "E06-082",
+    "E06-171",
+    "E06-172",
+    "E06-173",
+    "E06-174",
+    "E06-175",
+    "E06-176",
+    "E06-177",
+    "E06-178",
+    "E06-179",
+    "E06-180",
+    "E06-181",
+    "E06-182",
+    "E06-183",
+    "E06-184",
+    "E06-185",
+    "E06-186",
+    "E06-187",
+    "E06-188",
+    "E06-189",
+    "E06-190",
+    "E06-191",
+    "E06-192",
+    "E06-193",
+    "E06-194",
+    "E06-195"
+  ],
+  "baseline_raw_sha256": "4ff67dfda52219696c252bb15602b9a86dd125e9d691bde0442ac0ff7a95649e",
+  "benchmark_sha256": "b3e75f873a85d52398726e73d15ae3f2070704a847f3a8e580a870209e473081",
+  "contract_sha256": "94a9b4c47702ca458031da23d68ab38ca58de5cba086da3a14a4b7346777124a",
+  "translations_sha256": "7fa5a83bba16236b9883dd956360b32f1ad745daeac6704be4e53143285ad06f",
+  "input_sha256": {
+    "B": "14e61f034bd7e40ef095291e6e6d36517573fe10a242bb8351897f76d544ee20",
+    "C": "a9e7855b98663e9a8a82276b2bc952c25b2e165da523d07546bed85b7ea13840",
+    "D": "28ee2b57317b9d61476277a73f95ed0cce8f28e1a2710930cf26072438782e34"
+  },
+  "translation_model_profile": "Luna Max worker class for both disjoint shards; no reference labels supplied",
+  "variants": {
+    "A": "saved Russian original state + frozen Noul question; no new calls",
+    "B": "only event content translated to English; frozen Noul question",
+    "C": "only explicit speaker field added from direction; original Russian state and frozen Noul question",
+    "D": "original Russian state; Choice A/B with frozen instructions and true/false criteria text"
+  },
+  "noul_question": {
+    "type": "noul",
+    "instructions": "Does the customer state an application-specific technical requirement, constraint, or question that can be evaluated, tested, calculated, or answered against the proposed solution?",
+    "criteria": {
+      "true": "Customer-stated, application-specific and checkable technical content is present in the current event.",
+      "false": "General interest, seller's suggestion, generic equipment category, or a technical fact with no customer-stated requirement, constraint or answerable question."
+    }
+  },
+  "choice_question": {
+    "type": "choice",
+    "instructions": "Does the customer state an application-specific technical requirement, constraint, or question that can be evaluated, tested, calculated, or answered against the proposed solution?",
+    "criteria": {
+      "A": "Customer-stated, application-specific and checkable technical content is present in the current event.",
+      "B": "General interest, seller's suggestion, generic equipment category, or a technical fact with no customer-stated requirement, constraint or answerable question."
+    }
+  },
+  "thresholds": [
+    0.5,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "threshold_rule": "YES if p >= t; NO if p <= 1-t; otherwise abstain. At t=0.50, p=0.50 is YES.",
+  "choice_rule": "Use returned choice A or B at full coverage; A maps to YES and B to NO. No Noul thresholds applied.",
+  "official_docs": [
+    "https://docs.typesafe.ai/api",
+    "https://docs.typesafe.ai/models"
+  ]
+}
