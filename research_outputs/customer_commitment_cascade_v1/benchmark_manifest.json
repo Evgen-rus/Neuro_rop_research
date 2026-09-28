@@ -1,0 +1,120 @@
+{
+  "classifier_id": "C01",
+  "example_ids": [
+    "C01-f5dbb6ba1e79",
+    "C01-0a1e35274779",
+    "C01-7b97fd0449ff",
+    "C01-0e5102e45c31",
+    "C01-d864906a9cc0",
+    "C01-1abe14287f95",
+    "C01-bb28cbcdadd4",
+    "C01-cd373220454e",
+    "C01-3428016e7526",
+    "C01-4f8c5a05338c",
+    "C01-49c2ad5d7adf",
+    "C01-0057771838a6",
+    "C01-2add08ba2f4f",
+    "C01-ac2ce796309d",
+    "C01-5156f1d66b74",
+    "C01-8c9dbecf8f57",
+    "C01-763ad9a1711c",
+    "C01-66fa18e87b22",
+    "C01-4293da50636b",
+    "C01-309f9c635972",
+    "C01-7c254ed5373b",
+    "C01-91d95e96cc3a",
+    "C01-517c1bc2ee07",
+    "C01-f2fc33044c94",
+    "C01-346585591748",
+    "C01-2a1c7a126635",
+    "C01-5c43b0dc4c4b",
+    "C01-03d80b901b18",
+    "C01-0bb60c454a05",
+    "C01-bf1ca5bff129",
+    "C01-676c4e7566fa",
+    "C01-123a7f4ae57f",
+    "C01-7c42969f562e",
+    "C01-4287a772de95",
+    "C01-ebb00e7a26dc",
+    "C01-c3e18aac2b0b",
+    "C01-70f7ec642fec",
+    "C01-0636b2a617f2",
+    "C01-efe1c02cc896",
+    "C01-6a8fa096e0d5",
+    "C01-4c9a30f60f14",
+    "C01-54bac0463ad3",
+    "C01-4c399bca0b6c",
+    "C01-16aef6609b5d",
+    "C01-bfbe35cde6dd",
+    "C01-7f06c2bd9f7f",
+    "C01-e9fa3769f6e5",
+    "C01-30a38a7700f4",
+    "C01-985c8389011d",
+    "C01-03dc830d6541",
+    "C01-14583662e394",
+    "C01-301b294b4ff4",
+    "C01-8fb5b059679f",
+    "C01-69c1fd62aaf1",
+    "C01-145e681c9d7e",
+    "C01-273562421ca3",
+    "C01-e3a27e05aef9",
+    "C01-bbf3f9f7f7ac",
+    "C01-1a4f44b9f91b",
+    "C01-61d74b2fd904",
+    "C01-e3fc47b155fe",
+    "C01-ee73243f623f",
+    "C01-a52eaf9ca107",
+    "C01-70c2ab2082ed"
+  ],
+  "counts": {
+    "DISPUTED": 2,
+    "NO": 50,
+    "YES": 12
+  },
+  "pool_consensus": {
+    "YES": 12,
+    "NO": 177,
+    "DISPUTED": 2
+  },
+  "target": {
+    "YES": 50,
+    "NO": 50
+  },
+  "selection": "all eligible consensus YES, up to 50 source-diverse consensus NO prioritizing commitment-boundary hard negatives, all disputed",
+  "sha256": {
+    "classifier_contract.md": "cd38378798b25f8df537c9f917d7c84f3365743e731edc6c5492817eb76ce8d0",
+    "preprocessing_rules.md": "cc87cfadee8ca1ea6134a07ed627461259ef9fd88d9381b4bc1afddb9f10c621",
+    "candidate_pool.json": "8c1c791972848a10c8c29478ed0296b3ea893a3aaea7a318f5c5986567b8994a",
+    "labels/label_input.json": "c558e10f00cf84cdee4b7dc53d2ea2568f1f29739eefafd05eb624199c9bbf39",
+    "labels/labeler_A.json": "cd09094773929e9e483731e21319b3e5a29edcb56313d0113982126d1d827571",
+    "labels/labeler_B.json": "80d0d07306c38ee81f21e99f59d569ffd72147d7bd3d4d4c1139e1c3059d74ea",
+    "benchmark.json": "64b2499d53020f3afa755fd32f7cc20ff9c2dc0a9a3d67bd964f1ea5a1104047"
+  },
+  "api": {
+    "url": "https://api.typesafe.ai/v1/systemone",
+    "model": "jev-1.13.0",
+    "question": {
+      "type": "noul",
+      "instructions": "Does this customer utterance explicitly commit the customer or a customer-side person/team to a concrete future action?",
+      "criteria": {
+        "true": "YES only when this utterance explicitly asserts that a customer-side owner, including unambiguous first-person or customer-side team, will perform a specific future action. A deadline is optional if the action is clear.",
+        "false": "NO for no explicit concrete future customer-side commitment: generic intention, possibility, tentative effort without commitment, need to discuss, past action, waiting for another decision, interest, or asking the seller to act. Do not infer from surrounding context."
+      }
+    }
+  },
+  "routing": {
+    "YES_at_least": 0.7,
+    "NO_at_most": 0.3,
+    "otherwise": "fresh independent Luna Max fallback"
+  },
+  "acceptance": {
+    "overall_at_least": 0.95,
+    "YES_at_least": 0.9,
+    "NO_at_least": 0.9,
+    "LLM_call_reduction_at_least": 0.6
+  },
+  "official_docs": [
+    "https://docs.typesafe.ai/api",
+    "https://docs.typesafe.ai/models"
+  ]
+}

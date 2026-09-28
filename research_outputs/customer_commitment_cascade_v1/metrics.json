@@ -1,0 +1,40 @@
+{
+  "reference_count": 62,
+  "reference_YES": 12,
+  "reference_NO": 50,
+  "disputed_excluded": 2,
+  "size_target_met": false,
+  "jev_only_0.50": {
+    "TP": 11,
+    "TN": 48,
+    "FP": 2,
+    "FN": 1,
+    "overall_agreement": 0.9516129032258065,
+    "YES_agreement": 0.9166666666666666,
+    "NO_agreement": 0.96
+  },
+  "cascade_0.70_0.30": {
+    "TP": 11,
+    "TN": 49,
+    "FP": 1,
+    "FN": 1,
+    "overall_agreement": 0.967741935483871,
+    "YES_agreement": 0.9166666666666666,
+    "NO_agreement": 0.98,
+    "jev_routed": 55,
+    "luna_routed": 7,
+    "LLM_call_rate": 0.11290322580645161,
+    "LLM_call_reduction": 0.8870967741935484,
+    "jev_auto_routed_errors": 1,
+    "luna_fallback_errors": 1,
+    "original_jev_errors_saved": 1,
+    "oracle_fallback_ceiling": 0.9838709677419355
+  },
+  "acceptance_metric_gates_pass": true,
+  "jev_latency_seconds_median": 0.4743461998878047,
+  "jev_usage": {
+    "input_tokens": 29628,
+    "output_tokens": 1408,
+    "missing": 0
+  }
+}

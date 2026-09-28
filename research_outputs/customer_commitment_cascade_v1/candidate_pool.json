@@ -1,0 +1,1922 @@
+{
+  "classifier_id": "C01",
+  "source": "jev_clean_benchmark_v2\\candidate_pool.json",
+  "source_sha256": "ea7f5db393298502d17f3077032e73d063c2bcce65f472a6629f720c57936268",
+  "exclusions": {
+    "pii_or_outcome_text": 6,
+    "audited_quoted_text": 5,
+    "uncertain_source": 15
+  },
+  "examples": [
+    {
+      "example_id": "C01-f5dbb6ba1e79",
+      "utterance": "Екатерина, здравствуйте! Передал договор на рассмотрение. Буду на связи и оперативно отреагирую, как только появится информация.",
+      "source": {
+        "deal_id": "18485",
+        "line": 42,
+        "timestamp": "2026-06-24T09:56:22+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-0a1e35274779",
+      "utterance": "Екатерина,утро доброе.Наши юристы запросили справку из налоговой в подтверждение налоговой дисциплины.",
+      "source": {
+        "deal_id": "18485",
+        "line": 44,
+        "timestamp": "2026-06-25T05:56:16+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-7b97fd0449ff",
+      "utterance": "Спасибо,отправил,посмотрим что ответят.",
+      "source": {
+        "deal_id": "18485",
+        "line": 46,
+        "timestamp": "2026-06-25T07:42:23+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-10f173c1bb86",
+      "utterance": "Екатерина,юристы дали добро,ждем договор, счет в ЭДО.\n2BE253c3da5f0434b2fb920bf7c 83705845 Оператор ЭДО СБИС (Тензор)",
+      "source": {
+        "deal_id": "18485",
+        "line": 47,
+        "timestamp": "2026-06-25T08:26:08+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-93c07ae49860",
+      "utterance": "Екатерина,наши говорят по ЭДО ничего не получали.",
+      "source": {
+        "deal_id": "18485",
+        "line": 52,
+        "timestamp": "2026-06-25T09:40:07+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-0e5102e45c31",
+      "utterance": "Здравствуйте, как только пройдет оплата и будет платёжное поручение, сразу же скину вам.",
+      "source": {
+        "deal_id": "18485",
+        "line": 61,
+        "timestamp": "2026-06-29T08:50:17+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-d864906a9cc0",
+      "utterance": "Ок",
+      "source": {
+        "deal_id": "18615",
+        "line": 56,
+        "timestamp": "2026-07-15T12:15:37+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-1e480e203022",
+      "utterance": "Евдокимов е.в.",
+      "source": {
+        "deal_id": "18615",
+        "line": 58,
+        "timestamp": "2026-07-17T06:30:40+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-feae4448db00",
+      "utterance": "Кравченко Т. В.",
+      "source": {
+        "deal_id": "18615",
+        "line": 59,
+        "timestamp": "2026-07-17T06:31:07+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-8460b0906382",
+      "utterance": "Емко А.",
+      "source": {
+        "deal_id": "18615",
+        "line": 60,
+        "timestamp": "2026-07-17T06:31:26+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-1abe14287f95",
+      "utterance": "Евдокимов Евгений владимирович но. Инженер",
+      "source": {
+        "deal_id": "18615",
+        "line": 62,
+        "timestamp": "2026-07-17T09:15:31+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-37bb1378d150",
+      "utterance": "Кравченко Тимофей Владимирович отдел снабжения",
+      "source": {
+        "deal_id": "18615",
+        "line": 65,
+        "timestamp": "2026-07-17T09:16:25+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-8c03e5d5964d",
+      "utterance": "Емко Александра начальник кондитерского цеха",
+      "source": {
+        "deal_id": "18615",
+        "line": 66,
+        "timestamp": "2026-07-17T09:17:36+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-87df5138ebe7",
+      "utterance": "Наберите меня как будет удобно",
+      "source": {
+        "deal_id": "18615",
+        "line": 72,
+        "timestamp": "2026-07-17T16:58:22+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-16afa3d583a8",
+      "utterance": "Без резьбы",
+      "source": {
+        "deal_id": "18615",
+        "line": 77,
+        "timestamp": "2026-07-17T17:08:33+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c2a3e3f57e72",
+      "utterance": "Нет общей габаритной длины",
+      "source": {
+        "deal_id": "18615",
+        "line": 85,
+        "timestamp": "2026-07-20T17:37:11+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-5ad6e1bf0de5",
+      "utterance": "Наберите меня",
+      "source": {
+        "deal_id": "18615",
+        "line": 104,
+        "timestamp": "2026-07-23T10:48:51+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-bb28cbcdadd4",
+      "utterance": "Постараюсь",
+      "source": {
+        "deal_id": "18615",
+        "line": 116,
+        "timestamp": "2026-07-23T21:51:28+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-d3ac9adbd41b",
+      "utterance": "Слушай, а подписанный договор я тебе отдавал для подписания",
+      "source": {
+        "deal_id": "18615",
+        "line": 119,
+        "timestamp": "2026-07-24T09:18:29+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c4f1809849e8",
+      "utterance": "Возвращал его мне?",
+      "source": {
+        "deal_id": "18615",
+        "line": 120,
+        "timestamp": "2026-07-24T09:18:43+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-fbc0776c16ed",
+      "utterance": "Или оба у тебя?",
+      "source": {
+        "deal_id": "18615",
+        "line": 121,
+        "timestamp": "2026-07-24T09:18:54+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-41d36f447f32",
+      "utterance": "Договор можно",
+      "source": {
+        "deal_id": "18615",
+        "line": 132,
+        "timestamp": "2026-07-27T09:44:35+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-be3803096065",
+      "utterance": "Уже переслал для обсуждения",
+      "source": {
+        "deal_id": "18615",
+        "line": 170,
+        "timestamp": "2026-07-31T13:43:03+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-cd373220454e",
+      "utterance": "Александр, у нас завтра встреча с коллегами",
+      "source": {
+        "deal_id": "18615",
+        "line": 192,
+        "timestamp": "2026-08-06T16:07:20+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-adfa00ed03a8",
+      "utterance": "Перенесли",
+      "source": {
+        "deal_id": "18615",
+        "line": 194,
+        "timestamp": "2026-08-06T16:07:24+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-a82215e18e05",
+      "utterance": "Думаю не самая удачная идея, куратор, то есть я должен все видеть по юр вопросам",
+      "source": {
+        "deal_id": "18615",
+        "line": 196,
+        "timestamp": "2026-08-06T16:48:46+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c98766190c49",
+      "utterance": "Напишите вашу почту",
+      "source": {
+        "deal_id": "18615",
+        "line": 221,
+        "timestamp": "2026-08-11T14:51:51+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-9ec8e1b8df57",
+      "utterance": "Нашел",
+      "source": {
+        "deal_id": "18615",
+        "line": 222,
+        "timestamp": "2026-08-11T14:52:10+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-3428016e7526",
+      "utterance": "Я на посту ответ юриста отправил",
+      "source": {
+        "deal_id": "18615",
+        "line": 224,
+        "timestamp": "2026-08-11T14:53:40+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4f8c5a05338c",
+      "utterance": "Жду ваших комментари",
+      "source": {
+        "deal_id": "18615",
+        "line": 225,
+        "timestamp": "2026-08-11T14:54:28+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-2cfc27e73a9e",
+      "utterance": "Юрист все проверила, все хорошо",
+      "source": {
+        "deal_id": "18615",
+        "line": 241,
+        "timestamp": "2026-08-14T09:51:38+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-49c2ad5d7adf",
+      "utterance": "Еще в договоре нет схемы планировки с габаритами, мне ее нужно, можно к договору не лепить, просто мне вышлите письмом с подписью",
+      "source": {
+        "deal_id": "18615",
+        "line": 253,
+        "timestamp": "2026-08-14T11:59:15+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-85d22f91c3c8",
+      "utterance": "Эх, схему требует к договору",
+      "source": {
+        "deal_id": "18615",
+        "line": 255,
+        "timestamp": "2026-08-14T12:19:14+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-443e7bfb13e6",
+      "utterance": "Сделать как приложение к договору",
+      "source": {
+        "deal_id": "18615",
+        "line": 256,
+        "timestamp": "2026-08-14T12:19:48+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-edebd24bf87a",
+      "utterance": "Не трогаем, оставляем 85",
+      "source": {
+        "deal_id": "18615",
+        "line": 259,
+        "timestamp": "2026-08-14T12:21:11+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-33d9e1c0bac0",
+      "utterance": "10 шт это тоже до 1000 шт",
+      "source": {
+        "deal_id": "18615",
+        "line": 263,
+        "timestamp": "2026-08-14T12:25:56+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-7d2a0c070efb",
+      "utterance": "Вот такой аргумент",
+      "source": {
+        "deal_id": "18615",
+        "line": 264,
+        "timestamp": "2026-08-14T12:26:12+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ac824317bb8e",
+      "utterance": "И схема",
+      "source": {
+        "deal_id": "18615",
+        "line": 265,
+        "timestamp": "2026-08-14T12:26:15+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-2b555c8a9bf4",
+      "utterance": "И подписывает",
+      "source": {
+        "deal_id": "18615",
+        "line": 266,
+        "timestamp": "2026-08-14T12:26:20+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-aef8e0ab9451",
+      "utterance": "Не менее 1000",
+      "source": {
+        "deal_id": "18615",
+        "line": 268,
+        "timestamp": "2026-08-14T12:27:30+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ba744a97e721",
+      "utterance": "Думаю норм",
+      "source": {
+        "deal_id": "18615",
+        "line": 269,
+        "timestamp": "2026-08-14T12:27:35+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-79bcf84fb06b",
+      "utterance": "Надеюсь сегодня зафиналим",
+      "source": {
+        "deal_id": "18615",
+        "line": 271,
+        "timestamp": "2026-08-14T12:58:02+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-0a2c955d1a47",
+      "utterance": "Увидел",
+      "source": {
+        "deal_id": "18615",
+        "line": 276,
+        "timestamp": "2026-08-14T13:38:26+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-0057771838a6",
+      "utterance": "Пошел подписывать",
+      "source": {
+        "deal_id": "18615",
+        "line": 277,
+        "timestamp": "2026-08-14T13:38:37+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-cc30a50f22e5",
+      "utterance": "По узлам просит чтобы были похожие чертежи",
+      "source": {
+        "deal_id": "18615",
+        "line": 281,
+        "timestamp": "2026-08-14T14:29:20+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-f60d6be545b5",
+      "utterance": "Т. Ев описании каждой позиции дополнить чертежами и деталировкой",
+      "source": {
+        "deal_id": "18615",
+        "line": 282,
+        "timestamp": "2026-08-14T14:39:07+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-65ef7f07a293",
+      "utterance": "Александр, до понедельника пока есть время , я бы предложил каждый блок расширить чертежами",
+      "source": {
+        "deal_id": "18615",
+        "line": 288,
+        "timestamp": "2026-08-14T19:30:05+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-bc36ab35c2c0",
+      "utterance": "Вот здесь не понятно, это точные данные?",
+      "source": {
+        "deal_id": "18615",
+        "line": 298,
+        "timestamp": "2026-08-17T13:40:19+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-103729b98e89",
+      "utterance": "У нас тара 65мм, уде не проходим",
+      "source": {
+        "deal_id": "18615",
+        "line": 300,
+        "timestamp": "2026-08-17T13:41:25+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-010bd4bea07f",
+      "utterance": "Да",
+      "source": {
+        "deal_id": "18615",
+        "line": 305,
+        "timestamp": "2026-08-17T13:43:36+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-2add08ba2f4f",
+      "utterance": "Т. К нам нужно qr код наносить, и приобретать оборудование",
+      "source": {
+        "deal_id": "18615",
+        "line": 307,
+        "timestamp": "2026-08-17T13:44:19+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ca5478dadc63",
+      "utterance": "Снизить до 10 градусов модем?",
+      "source": {
+        "deal_id": "18615",
+        "line": 309,
+        "timestamp": "2026-08-17T13:44:55+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ac2ce796309d",
+      "utterance": "Переслал коллегам, жду",
+      "source": {
+        "deal_id": "18615",
+        "line": 314,
+        "timestamp": "2026-08-17T14:26:10+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-9ff5dda5d989",
+      "utterance": "Александр, еще вопрос задают: крышки до 90мм можем на этом оборудовании делать, у нас стоит сейчас до 80мм",
+      "source": {
+        "deal_id": "18615",
+        "line": 326,
+        "timestamp": "2026-08-19T13:42:56+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-5156f1d66b74",
+      "utterance": "Это будет в нашей комплектации? Или нужно потом что-то докупать?",
+      "source": {
+        "deal_id": "18615",
+        "line": 328,
+        "timestamp": "2026-08-19T13:48:17+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-8c9dbecf8f57",
+      "utterance": "Александр, еще ряд вопросов, которые необходимо отразить:\n1) Описать технологию работы на линии, с точки зрения количества персонала. В описании каждого блока оборудования указано обслуживающий персонал 1 человек, итого 6 человек нужно для обслуживания линии. Описание сделать поэтапное с указанием количества персонала. и примерные действия персонала.\n2) Промежуточная емкость 100л не указана на чертеже.\n3) Перекачивающий насос отсутствует (было в первом тех. задании) (перекачка продукта из подкатной емкости в промежуточную емкость 100л).\n4) Указать информацию о наличии понижающих редукторов на сжатом воздухе, т.к. на каждом оборудование требуется разное давление.\n5) Указать объем загрузочного бункера на элеваторе подаче крышек (количество крышек на нашем диаметре)\n6) Лист 14, применимый размер тары (диаметр) указан 50-300мм, прошу подтвердить что 300мм это верно, все конвейеры меньшей...",
+      "source": {
+        "deal_id": "18615",
+        "line": 333,
+        "timestamp": "2026-08-19T15:19:22+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-be0509312957",
+      "utterance": "Александр, можно мне номер технического специалиста, вопрос обсуждаем о том как проходит процесс изменения обьема или веса дозы, в случае изменения объемного веса нашего продукта как подстраивать дозировщик",
+      "source": {
+        "deal_id": "18615",
+        "line": 345,
+        "timestamp": "2026-08-21T12:31:31+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-763ad9a1711c",
+      "utterance": "Или допустим мы добавляем фрукт какой-то 30 гр, а другой 40 гр и нужно быстро изменить обьем дозирования, как это происходит",
+      "source": {
+        "deal_id": "18615",
+        "line": 346,
+        "timestamp": "2026-08-21T12:32:56+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-66fa18e87b22",
+      "utterance": "На дисплее выставляем нужный обьем? Или нужно переналадка делать на дозировке с помощью регулировки положения датчиков и механизмов?",
+      "source": {
+        "deal_id": "18615",
+        "line": 347,
+        "timestamp": "2026-08-21T12:34:13+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-0580e6bcb240",
+      "utterance": "По влажности предлагаем 85 указать",
+      "source": {
+        "deal_id": "18615",
+        "line": 351,
+        "timestamp": "2026-08-21T12:54:45+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-e995911286b7",
+      "utterance": "Еще нет",
+      "source": {
+        "deal_id": "18615",
+        "line": 362,
+        "timestamp": "2026-08-24T15:30:30+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-e10fcd1a76b1",
+      "utterance": "Александр, в вязкости давайте тоже диапазон поставим",
+      "source": {
+        "deal_id": "18615",
+        "line": 382,
+        "timestamp": "2026-08-26T16:12:28+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-1f56743cabe5",
+      "utterance": "Я пытался объяснить)",
+      "source": {
+        "deal_id": "18615",
+        "line": 384,
+        "timestamp": "2026-08-26T16:19:35+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c51f0a74ab9f",
+      "utterance": "Давайте от воды",
+      "source": {
+        "deal_id": "18615",
+        "line": 385,
+        "timestamp": "2026-08-26T16:19:42+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-7ba2f0dd2652",
+      "utterance": "Да, загрузил",
+      "source": {
+        "deal_id": "18615",
+        "line": 393,
+        "timestamp": "2026-08-26T18:30:10+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-67c80dd10653",
+      "utterance": "Взяли на подпись",
+      "source": {
+        "deal_id": "18615",
+        "line": 398,
+        "timestamp": "2026-08-27T15:58:20+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-1e4a157bef39",
+      "utterance": "Надеюсь сегодня подпишется",
+      "source": {
+        "deal_id": "18615",
+        "line": 399,
+        "timestamp": "2026-08-27T15:58:36+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4293da50636b",
+      "utterance": "Направляю подписанный договор, жду обратно с вашими печатью и подписью.\nДалее подписание в ЭДО и оплата",
+      "source": {
+        "deal_id": "18615",
+        "line": 410,
+        "timestamp": "2026-08-28T13:48:49+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-309f9c635972",
+      "utterance": "Александр отправил подписанный договор на почту",
+      "source": {
+        "deal_id": "18615",
+        "line": 411,
+        "timestamp": "2026-08-28T13:53:10+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-68f6e6b4ccb6",
+      "utterance": "Доброе",
+      "source": {
+        "deal_id": "18615",
+        "line": 419,
+        "timestamp": "2026-08-31T10:22:42+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-e8554c2d88b4",
+      "utterance": "Договор подписали в пятницу",
+      "source": {
+        "deal_id": "18615",
+        "line": 420,
+        "timestamp": "2026-08-31T10:22:54+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-7c254ed5373b",
+      "utterance": "Пришлите мне счет на почту",
+      "source": {
+        "deal_id": "18615",
+        "line": 421,
+        "timestamp": "2026-08-31T10:23:23+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-91d95e96cc3a",
+      "utterance": "Спасибо.",
+      "source": {
+        "deal_id": "18629",
+        "line": 18,
+        "timestamp": "2026-07-08T17:47:03+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-517c1bc2ee07",
+      "utterance": "+ vras@\nАлександр спасибо за оперативность!\nМы ещё обсуждали возможность нанесения на этикетку марки честный знак (Дата Матрикс).",
+      "source": {
+        "deal_id": "18629",
+        "line": 31,
+        "timestamp": "2026-07-10T17:45:08+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-f2fc33044c94",
+      "utterance": "Добрый день, Александр.\nСейчас аудит. Позже наберу.",
+      "source": {
+        "deal_id": "18629",
+        "line": 37,
+        "timestamp": "2026-07-13T10:27:02+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-8a96c1aa3747",
+      "utterance": "58х60",
+      "source": {
+        "deal_id": "18629",
+        "line": 50,
+        "timestamp": "2026-07-13T12:36:57+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-346585591748",
+      "utterance": "Александр, добрый день! Когда можно получить обновлённое КП. И есть ли возможность посмотреть оборудование?",
+      "source": {
+        "deal_id": "18629",
+        "line": 55,
+        "timestamp": "2026-07-15T15:19:31+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-3eb679b5b9be",
+      "utterance": "Спасибо. Ждём.",
+      "source": {
+        "deal_id": "18629",
+        "line": 57,
+        "timestamp": "2026-07-15T15:25:03+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-2a1c7a126635",
+      "utterance": "Спасибо, ждём где посмотреть.",
+      "source": {
+        "deal_id": "18629",
+        "line": 71,
+        "timestamp": "2026-07-20T12:44:20+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-5c43b0dc4c4b",
+      "utterance": "Александр, добрый день!",
+      "source": {
+        "deal_id": "18635",
+        "line": 18,
+        "timestamp": "2026-07-09T09:23:27+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-16939b99b244",
+      "utterance": "Производительность в итоге так и останется 1000шт в час ?",
+      "source": {
+        "deal_id": "18635",
+        "line": 19,
+        "timestamp": "2026-07-09T09:23:47+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-e1cbad7f1e3b",
+      "utterance": "Сроки так же 2 мес? Быстрее не получится ?",
+      "source": {
+        "deal_id": "18635",
+        "line": 21,
+        "timestamp": "2026-07-09T09:26:35+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-040f8574b3ae",
+      "utterance": "И этикетки, как она считывает? Нужна какая определённая намотка ?",
+      "source": {
+        "deal_id": "18635",
+        "line": 22,
+        "timestamp": "2026-07-09T09:30:18+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-03d80b901b18",
+      "utterance": "Спасибо, жду информацию",
+      "source": {
+        "deal_id": "18635",
+        "line": 25,
+        "timestamp": "2026-07-09T09:42:58+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ffa237058e27",
+      "utterance": "Это ИИ визуализация или есть конкретный прототип? Можем попробовать на нашей банке и этикетке ?",
+      "source": {
+        "deal_id": "18635",
+        "line": 26,
+        "timestamp": "2026-07-09T10:32:48+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-0bb60c454a05",
+      "utterance": "Понял. Тогда жду информацию по срокам.",
+      "source": {
+        "deal_id": "18635",
+        "line": 28,
+        "timestamp": "2026-07-09T10:36:43+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c007bbd4a5b8",
+      "utterance": "Добрый день!Во вложении!",
+      "source": {
+        "deal_id": "18635",
+        "line": 48,
+        "timestamp": "2026-07-14T17:52:50+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-53e5ccd0ab7f",
+      "utterance": "Добрый день!",
+      "source": {
+        "deal_id": "18635",
+        "line": 54,
+        "timestamp": "2026-07-15T13:13:08+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-6d1d5954d09d",
+      "utterance": "От меня нужны еще какие данные ?",
+      "source": {
+        "deal_id": "18635",
+        "line": 56,
+        "timestamp": "2026-07-15T13:13:21+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-075f78144367",
+      "utterance": "Благодарю, ждем!",
+      "source": {
+        "deal_id": "18635",
+        "line": 62,
+        "timestamp": "2026-07-15T15:04:27+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-bf1ca5bff129",
+      "utterance": "Александр, добрый день!\nПо договору внесли в протокол разногласий 1 пункт.\nПо договору:\n1.Приложение № 2 - отсутствуют подписи сторон.\n2.Приложение № 4 - нарушена нумерация пунктов.\nПросим внести изменения в формулировку п. 3 (по счету п. № 4) в части фразы \"не поступило\". Пункт акта должен носить характер бланка. Стороны решат на месте и внесут данные - поступили или нет замечания в момент демонстрации работоспособности оборудования и какие именно замечания.\nТакже, форма акта подразумевает внесение данных представителей сторон договора (должность, на основании какого документа действует лицо, ФИО), непосредственно участвовавших в проведении действий ( не директоров).",
+      "source": {
+        "deal_id": "18635",
+        "line": 74,
+        "timestamp": "2026-07-20T12:53:48+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-27136d0cf7dc",
+      "utterance": "89209310600 Ирина",
+      "source": {
+        "deal_id": "18635",
+        "line": 77,
+        "timestamp": "2026-07-20T14:07:04+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-9439d95793b8",
+      "utterance": "Позвоните еще раз, она была занята",
+      "source": {
+        "deal_id": "18635",
+        "line": 83,
+        "timestamp": "2026-07-20T15:53:25+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-676c4e7566fa",
+      "utterance": "Добрый день!\nПо протоколу замечаний нет.\nВнесенные в приложение изменения немного отредактировала.\nЖелаю хорошего дня Вам и Вашим коллегам!",
+      "source": {
+        "deal_id": "18635",
+        "line": 87,
+        "timestamp": "2026-07-21T08:53:15+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-5f0ccb546372",
+      "utterance": "Приняли",
+      "source": {
+        "deal_id": "18635",
+        "line": 95,
+        "timestamp": "2026-07-21T17:40:46+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e0b17fa2c83b",
+      "utterance": "Добрый день!\nПриглашение приняли!",
+      "source": {
+        "deal_id": "18635",
+        "line": 97,
+        "timestamp": "2026-07-22T12:35:18+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-bae2a9480802",
+      "utterance": "Можно счет на почту в pdf",
+      "source": {
+        "deal_id": "18635",
+        "line": 109,
+        "timestamp": "2026-07-23T15:01:33+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-d013ea9f5760",
+      "utterance": "Не можем открыть",
+      "source": {
+        "deal_id": "18635",
+        "line": 110,
+        "timestamp": "2026-07-23T15:01:48+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-6b8dac9e6d78",
+      "utterance": "Счет на 954 тыс, мы по нему частично платим 70%, верно?",
+      "source": {
+        "deal_id": "18635",
+        "line": 115,
+        "timestamp": "2026-07-23T15:50:55+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4d97561b5b3d",
+      "utterance": "Платеж провели",
+      "source": {
+        "deal_id": "18635",
+        "line": 121,
+        "timestamp": "2026-07-24T09:31:11+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-123a7f4ae57f",
+      "utterance": "Александр, добрый день.\nДокументация на тару от производителя:\nКанистра 10 л - Канистра К15\nКрышка для канистры 10 л - Пробка канистровая П55\nКанистра 5 л - Канистра и крышка 5 л",
+      "source": {
+        "deal_id": "18731",
+        "line": 3,
+        "timestamp": "2026-07-23T10:13:23+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-d84938789f6e",
+      "utterance": "Фото во вложении",
+      "source": {
+        "deal_id": "18731",
+        "line": 7,
+        "timestamp": "2026-07-23T11:24:18+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-adfd0ab1dd0c",
+      "utterance": "Александр, добрый день.\nКанистра 5 л крышка - D = 50.2 , h = 21.3\nКанистра 10 л крышка - файл во вложении.",
+      "source": {
+        "deal_id": "18731",
+        "line": 17,
+        "timestamp": "2026-07-28T07:43:08+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-33f36d7a621f",
+      "utterance": "К производству планируется 2 раствора.\n1. Раствор формалина пример: Формалин 10% забуферный нейтральный (гистологический)\n2. Раствор спиртовой , для примера подходит: Изопропиловый спирт химически чистый (ХЧ)\nРастворы готовятся заранее в объемах от 2000л.\nСмешивание не допустимо.",
+      "source": {
+        "deal_id": "18731",
+        "line": 20,
+        "timestamp": "2026-07-28T14:23:36+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-7c42969f562e",
+      "utterance": "Добрый день, находился на совещании, не смог ответить",
+      "source": {
+        "deal_id": "18731",
+        "line": 39,
+        "timestamp": "2026-08-06T17:04:35+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-5263353c450c",
+      "utterance": "Рабочее время 08:30-15:30",
+      "source": {
+        "deal_id": "18731",
+        "line": 40,
+        "timestamp": "2026-08-06T17:05:04+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-b8dc7932ea4a",
+      "utterance": "Хорошо, к 12 буду свободен",
+      "source": {
+        "deal_id": "18731",
+        "line": 42,
+        "timestamp": "2026-08-06T17:08:47+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4287a772de95",
+      "utterance": "вот что имею сейчас с рулеткой позже.",
+      "source": {
+        "deal_id": "18733",
+        "line": 4,
+        "timestamp": "2026-07-23T13:13:40+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-ebb00e7a26dc",
+      "utterance": "100 мл",
+      "source": {
+        "deal_id": "18733",
+        "line": 21,
+        "timestamp": "2026-07-28T09:38:21+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-f80df19c00f5",
+      "utterance": "доброго дня.\nпозвоните мне в ближайшее время, есть информация по Вашему оборудованию.",
+      "source": {
+        "deal_id": "18733",
+        "line": 68,
+        "timestamp": "2026-08-06T10:40:52+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-b8b48b34fe36",
+      "utterance": "карточка для выставления счета и договора",
+      "source": {
+        "deal_id": "18733",
+        "line": 76,
+        "timestamp": "2026-08-07T06:23:57+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-669d4c416ab6",
+      "utterance": "опросного листа во вложении нет.",
+      "source": {
+        "deal_id": "18733",
+        "line": 77,
+        "timestamp": "2026-08-07T06:24:24+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-c3e18aac2b0b",
+      "utterance": "КП с ценой итоговой вышлите пожалуйста.\nперед договором и счетом, мне сначала удорожание нужно согласовать.",
+      "source": {
+        "deal_id": "18733",
+        "line": 87,
+        "timestamp": "2026-08-07T10:35:53+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-435b866bc5cf",
+      "utterance": "файл с правками.",
+      "source": {
+        "deal_id": "18733",
+        "line": 199,
+        "timestamp": "2026-08-31T12:34:25+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-70f7ec642fec",
+      "utterance": "доброго дня.\nполучил - проверил, у меня вопросов нет.\nМаксим после обеда даст свой ответ.\nвышлите пожалуйста счет на оплату.",
+      "source": {
+        "deal_id": "18733",
+        "line": 205,
+        "timestamp": "2026-09-01T06:31:56+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-2e429b5f05af",
+      "utterance": "доброго дня.\nоплата прошла.",
+      "source": {
+        "deal_id": "18733",
+        "line": 225,
+        "timestamp": "2026-09-07T10:52:01+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-0636b2a617f2",
+      "utterance": "Здравствуйте. Конец месяца загрузка большая.",
+      "source": {
+        "deal_id": "18755",
+        "line": 19,
+        "timestamp": "2026-07-30T12:31:17+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-543adc271a08",
+      "utterance": "Этикетка 90х100",
+      "source": {
+        "deal_id": "18755",
+        "line": 23,
+        "timestamp": "2026-07-30T12:32:02+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-06fb96d75b80",
+      "utterance": "Крышка 48",
+      "source": {
+        "deal_id": "18755",
+        "line": 24,
+        "timestamp": "2026-07-30T12:32:10+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-09b998fb38d3",
+      "utterance": "1,5 нету размеров",
+      "source": {
+        "deal_id": "18755",
+        "line": 27,
+        "timestamp": "2026-07-30T12:35:34+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-1ad5a95c3439",
+      "utterance": "Возьмите сттандартную полтарашку за основу",
+      "source": {
+        "deal_id": "18755",
+        "line": 28,
+        "timestamp": "2026-07-30T12:35:47+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-d23fa39a2338",
+      "utterance": "Слицевой стороны",
+      "source": {
+        "deal_id": "18755",
+        "line": 30,
+        "timestamp": "2026-07-30T12:36:56+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-77e7f8b8514e",
+      "utterance": "цилиндрическая",
+      "source": {
+        "deal_id": "18755",
+        "line": 33,
+        "timestamp": "2026-07-30T12:52:23+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-d807b603a582",
+      "utterance": "Скиньте предложения с ним без него",
+      "source": {
+        "deal_id": "18755",
+        "line": 39,
+        "timestamp": "2026-07-30T13:53:04+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-efe1c02cc896",
+      "utterance": "На всех ведрах так приклеены этикетки.",
+      "source": {
+        "deal_id": "18765",
+        "line": 16,
+        "timestamp": "2026-07-30T13:37:58+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e72baebbd50a",
+      "utterance": "Здравствуйте, вторник после 14. Я не работаю сегодня",
+      "source": {
+        "deal_id": "18765",
+        "line": 46,
+        "timestamp": "2026-08-07T15:54:17+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-6a8fa096e0d5",
+      "utterance": "Здравствуйте. Пока от директора информации нет. Как будет, я Вам сообщу.",
+      "source": {
+        "deal_id": "18765",
+        "line": 59,
+        "timestamp": "2026-08-17T16:51:52+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-ee4e664a1da3",
+      "utterance": "Здравствуйте. Сейчас очень напряженная обстановка с сырьём.\nПоэтому оборудование отошло на задний план.",
+      "source": {
+        "deal_id": "18765",
+        "line": 76,
+        "timestamp": "2026-09-23T18:17:53+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4c9a30f60f14",
+      "utterance": "Добрый день. ок",
+      "source": {
+        "deal_id": "18773",
+        "line": 42,
+        "timestamp": "2026-08-10T16:37:52+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-284fd6252bf0",
+      "utterance": "На основание ОГРНИП",
+      "source": {
+        "deal_id": "18773",
+        "line": 89,
+        "timestamp": "2026-09-03T12:24:49+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-6752c02de010",
+      "utterance": "Добрый день",
+      "source": {
+        "deal_id": "18773",
+        "line": 105,
+        "timestamp": "2026-09-07T15:27:16+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-54bac0463ad3",
+      "utterance": "На этикетку",
+      "source": {
+        "deal_id": "18873",
+        "line": 49,
+        "timestamp": "2026-08-28T09:38:25+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-4c399bca0b6c",
+      "utterance": "Нет, остановимся на вакууме",
+      "source": {
+        "deal_id": "18873",
+        "line": 58,
+        "timestamp": "2026-09-04T16:08:51+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-16aef6609b5d",
+      "utterance": "Александр, добрый день!\nВ настоящее время рассматриваем несколько предложений. Вернусь к Вам с ответом до конца недели.",
+      "source": {
+        "deal_id": "18929",
+        "line": 25,
+        "timestamp": "2026-08-26T11:46:11+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-bfbe35cde6dd",
+      "utterance": "Добрый день!\nВо вложении высылаю эскиз канистры, а также пример этикеток с размерами.",
+      "source": {
+        "deal_id": "19007",
+        "line": 6,
+        "timestamp": "2026-09-08T13:59:15+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-b5238f8599e9",
+      "utterance": "Добрый день! Высылаю видео.",
+      "source": {
+        "deal_id": "19007",
+        "line": 30,
+        "timestamp": "2026-09-18T12:44:53+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-7f06c2bd9f7f",
+      "utterance": "Добрый день\nБлагодарю",
+      "source": {
+        "deal_id": "5017",
+        "line": 43,
+        "timestamp": "2025-08-22T11:19:29+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-f2ae6faa73a2",
+      "utterance": "Давайте без принимающего",
+      "source": {
+        "deal_id": "5017",
+        "line": 44,
+        "timestamp": "2025-08-22T11:30:14+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-6cb2066cdb26",
+      "utterance": "Подающий + удлинение",
+      "source": {
+        "deal_id": "5017",
+        "line": 46,
+        "timestamp": "2025-08-22T11:30:16+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-e9fa3769f6e5",
+      "utterance": "Александр, еще хотелось бы узнать\nВозможно ли оплата\n60/30/10",
+      "source": {
+        "deal_id": "5017",
+        "line": 49,
+        "timestamp": "2025-08-22T12:13:22+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-639399627a6a",
+      "utterance": "60 предоплата + 30 после изготовления и пробы у вас в цеху и 10 после наладки у нас",
+      "source": {
+        "deal_id": "5017",
+        "line": 50,
+        "timestamp": "2025-08-22T12:13:51+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-3b4881ed9f6e",
+      "utterance": "И аппликатор с зеркальной стороны как он в цеху у вас стоял",
+      "source": {
+        "deal_id": "5017",
+        "line": 51,
+        "timestamp": "2025-08-22T12:15:06+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-3f01fea6c398",
+      "utterance": "Доброе утро",
+      "source": {
+        "deal_id": "5017",
+        "line": 68,
+        "timestamp": "2025-08-25T11:19:06+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c989de9fca33",
+      "utterance": "Я так понял в вопросе про крышку имеется ввиду используется ли крышка во время этикирования",
+      "source": {
+        "deal_id": "5017",
+        "line": 71,
+        "timestamp": "2025-08-25T11:24:11+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-05bf35841cff",
+      "utterance": "минуту",
+      "source": {
+        "deal_id": "5017",
+        "line": 76,
+        "timestamp": "2025-08-25T11:38:15+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-c78f470394ac",
+      "utterance": "немного обманул",
+      "source": {
+        "deal_id": "5017",
+        "line": 77,
+        "timestamp": "2025-08-25T11:38:16+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-30a38a7700f4",
+      "utterance": "переделаю щас",
+      "source": {
+        "deal_id": "5017",
+        "line": 78,
+        "timestamp": "2025-08-25T11:38:18+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-17d9f1ca0ecc",
+      "utterance": "30101810200000000593",
+      "source": {
+        "deal_id": "5017",
+        "line": 84,
+        "timestamp": "2025-08-25T11:49:54+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-40bbfd01f352",
+      "utterance": "Получили",
+      "source": {
+        "deal_id": "5017",
+        "line": 90,
+        "timestamp": "2025-08-25T17:07:03+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-f0724d1bcac4",
+      "utterance": "Добрый день\nВсе подписали, сканируем",
+      "source": {
+        "deal_id": "5017",
+        "line": 105,
+        "timestamp": "2025-08-28T13:01:28+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-49413037d0bc",
+      "utterance": "Получили доки?",
+      "source": {
+        "deal_id": "5017",
+        "line": 108,
+        "timestamp": "2025-08-28T13:37:21+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-9ca523e97827",
+      "utterance": "Хорошо",
+      "source": {
+        "deal_id": "5017",
+        "line": 123,
+        "timestamp": "2025-08-28T14:09:46+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-985c8389011d",
+      "utterance": "70% сегодня-завтра оплатим",
+      "source": {
+        "deal_id": "5017",
+        "line": 125,
+        "timestamp": "2025-08-28T14:10:19+03:00",
+        "event_type": "message"
+      }
+    },
+    {
+      "example_id": "C01-03dc830d6541",
+      "utterance": "спасибо\nзабыл еще уточнить — процесс замывки материала насколько сложен технически(требуется разбор дозатора?)",
+      "source": {
+        "deal_id": "6135",
+        "line": 30,
+        "timestamp": "2025-10-30T13:48:53+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-14583662e394",
+      "utterance": "Пришлите пожалуйста договор в word формате.",
+      "source": {
+        "deal_id": "6885",
+        "line": 57,
+        "timestamp": "2026-02-13T12:50:59+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-301b294b4ff4",
+      "utterance": "Отправляю на проверку.",
+      "source": {
+        "deal_id": "6885",
+        "line": 59,
+        "timestamp": "2026-02-13T13:51:10+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-8fb5b059679f",
+      "utterance": "Здравствуйте! Не могу найти файл во вложении. Продублируйте пожалуйста.",
+      "source": {
+        "deal_id": "6885",
+        "line": 63,
+        "timestamp": "2026-02-16T13:03:43+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-cb41b2b37c0f",
+      "utterance": "Подписанный договор.",
+      "source": {
+        "deal_id": "6885",
+        "line": 68,
+        "timestamp": "2026-02-18T15:21:18+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-69c1fd62aaf1",
+      "utterance": "Добрый день! На этой неделе постараемся подписать.",
+      "source": {
+        "deal_id": "6983",
+        "line": 56,
+        "timestamp": "2026-03-03T08:23:14+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-145e681c9d7e",
+      "utterance": "Александр, добрый день! Во вложении скан подписанного с нашей стороны договора.",
+      "source": {
+        "deal_id": "6983",
+        "line": 79,
+        "timestamp": "2026-03-18T14:43:42+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-273562421ca3",
+      "utterance": "Добрый день!\nФото во вложении.\nРазмер этикетки 58х40",
+      "source": {
+        "deal_id": "7191",
+        "line": 3,
+        "timestamp": "2026-03-03T16:10:15+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-6690115214bf",
+      "utterance": "Добрый день!\nНе смог до вас дозвониться.\nСвяжитесь со мной, пожалуйста.",
+      "source": {
+        "deal_id": "7191",
+        "line": 16,
+        "timestamp": "2026-03-05T10:49:44+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-c32548c91e69",
+      "utterance": "Александр, добрый день!\nПодскажите, пожалуйста, можем ли перенести встречу на четверг 12.03. 11.00?",
+      "source": {
+        "deal_id": "7191",
+        "line": 25,
+        "timestamp": "2026-03-10T11:36:56+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-2a0c1004d2de",
+      "utterance": "По второму листу я половину не понимаю как заполнять, да и этикетировщика в этом заказе нет.\nБутылки с колпачком я Вам могу передать с курьером на следующей неделе.",
+      "source": {
+        "deal_id": "7191",
+        "line": 39,
+        "timestamp": "2026-03-13T14:01:57+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e3a27e05aef9",
+      "utterance": "Добрый день!\nИз наличия пока что нашли у поставщика круглую бутылку размером 6х14 см., она немного больше, чем нам нужна, но начинать работать будем на ней.\nВ дальнейшем планируем установить свой выдув, сделать свою форму и высота будет около 12 см при том же диаметре 6 см.\nСможем ли мы сами перенастроить линию под новый размер?\nИ еще есть вопрос по ориентации самой линии. Нам обязательно нужно чтобы она работала слева направо, чтобы шланги и подвоз продукта осуществлялся за ней (указал на схеме).",
+      "source": {
+        "deal_id": "7191",
+        "line": 46,
+        "timestamp": "2026-03-16T14:31:42+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-7590b3ee8277",
+      "utterance": "Бухгалтерия не видит документов в ЭДО",
+      "source": {
+        "deal_id": "7191",
+        "line": 69,
+        "timestamp": "2026-03-19T14:20:45+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-cab743dcdb92",
+      "utterance": "Александр, информация по высоте расположения от пола до нанесения этикетки - от 1050 мм до 1150 мм",
+      "source": {
+        "deal_id": "7243",
+        "line": 38,
+        "timestamp": "2026-04-03T13:02:24+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-bbf3f9f7f7ac",
+      "utterance": "Александр, день добрый, прошу прощение за задержку, загрузка по производству и не успеваю все сделать. Вот фирменный бланк, на выходных вышлю вам опросный лист.",
+      "source": {
+        "deal_id": "7243",
+        "line": 103,
+        "timestamp": "2026-05-22T13:18:19+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-1a4f44b9f91b",
+      "utterance": "Александр, день дорбрый. Да сегодня вышлю вам ориентировочно в 12 часов по мск",
+      "source": {
+        "deal_id": "7243",
+        "line": 115,
+        "timestamp": "2026-05-27T10:05:10+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-abbf7886dd29",
+      "utterance": "Александр, добрый день, предоставляю фото расстояния от пола, где будут устанавливаться аппликаторы. Можно ли сделать дигающуюся стойку с разбегом в +- 10 см",
+      "source": {
+        "deal_id": "7243",
+        "line": 134,
+        "timestamp": "2026-06-03T13:35:41+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-3c72ae69015d",
+      "utterance": "Вы нам ранее предлагали вот такую машину:AS-S05",
+      "source": {
+        "deal_id": "7601",
+        "line": 6,
+        "timestamp": "2026-04-27T14:36:16+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e3eafcb3872a",
+      "utterance": "флаконы фото",
+      "source": {
+        "deal_id": "7601",
+        "line": 14,
+        "timestamp": "2026-04-30T08:06:05+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-62bb727b6342",
+      "utterance": "еще фото",
+      "source": {
+        "deal_id": "7601",
+        "line": 17,
+        "timestamp": "2026-04-30T10:10:23+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e596829d4e67",
+      "utterance": "Вот все что могу по чертежам.",
+      "source": {
+        "deal_id": "7601",
+        "line": 19,
+        "timestamp": "2026-04-30T12:52:45+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-3ef8127be14c",
+      "utterance": "Здравствуйте ! Ну тут у нас диллема. Не можем определится с пятью видами тары.",
+      "source": {
+        "deal_id": "7601",
+        "line": 24,
+        "timestamp": "2026-05-04T15:44:08+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-799ecd3ba5fe",
+      "utterance": "Здравствуйте! Вот например этот точно есть чертеж. и этот точно нужен.",
+      "source": {
+        "deal_id": "7601",
+        "line": 30,
+        "timestamp": "2026-05-06T09:44:12+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-070b6029be2b",
+      "utterance": "Это второй тоже точно нужен.",
+      "source": {
+        "deal_id": "7601",
+        "line": 31,
+        "timestamp": "2026-05-06T09:47:34+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-f01d59c90f6d",
+      "utterance": "Можем связаться по Максу?",
+      "source": {
+        "deal_id": "7601",
+        "line": 33,
+        "timestamp": "2026-05-06T09:56:14+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-73b4cc926a75",
+      "utterance": "Сейчас прямо можно",
+      "source": {
+        "deal_id": "7601",
+        "line": 35,
+        "timestamp": "2026-05-06T10:01:26+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-61d74b2fd904",
+      "utterance": "Цилиндрические тары нужно клеить этикетку на все виды. Возможно нужны комплекты сменных обкаточных валов, разной высоты.",
+      "source": {
+        "deal_id": "7601",
+        "line": 36,
+        "timestamp": "2026-05-06T10:06:53+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-2d771fa03a9d",
+      "utterance": "цилиндрические",
+      "source": {
+        "deal_id": "7601",
+        "line": 41,
+        "timestamp": "2026-05-07T13:25:40+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-5c714a97c6ce",
+      "utterance": "бушон",
+      "source": {
+        "deal_id": "7601",
+        "line": 42,
+        "timestamp": "2026-05-07T13:26:48+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-01ce80962442",
+      "utterance": "разные овальные сложные",
+      "source": {
+        "deal_id": "7601",
+        "line": 43,
+        "timestamp": "2026-05-07T13:28:46+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-f6eb5b7f5f7c",
+      "utterance": "Бушон, Цилиндрические, Ромб,Биокон оранжевый, и любую другую сложную форму",
+      "source": {
+        "deal_id": "7601",
+        "line": 44,
+        "timestamp": "2026-05-07T13:29:46+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-e3fc47b155fe",
+      "utterance": "Добрый день! Отправляем завтра образцы флаконов 8 видов по две штуки и ещё 5 видов флаконов по 30шт каждого. СДЭК по вашему указанному адресу.",
+      "source": {
+        "deal_id": "7601",
+        "line": 65,
+        "timestamp": "2026-05-20T13:30:04+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-ee73243f623f",
+      "utterance": "Заказ: 10269879545Дата создания: 21.05.26\nНомер заказа интернет-магазина: c4-758861391129053\nОтправитель:\n\"АЛЬФА-ПЛЮС-ДОН\"\nРоссия, Матвеев Курган\nПолучатель:\nКуроченков Сергей\nРоссия, Малаховка\nш Егорьевское, 1",
+      "source": {
+        "deal_id": "7601",
+        "line": 76,
+        "timestamp": "2026-05-26T07:02:35+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-2ad50bf3659c",
+      "utterance": "17323252255261.mp4",
+      "source": {
+        "deal_id": "7601",
+        "line": 96,
+        "timestamp": "2026-06-05T13:30:21+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-a52eaf9ca107",
+      "utterance": "Добрый день! В продолжение разговора высылаю вопросы от мех.службы по КП.1.Для овального флакона: Возможность наклейки этикетки отдельно \"лицо и Оборот\"",
+      "source": {
+        "deal_id": "7601",
+        "line": 108,
+        "timestamp": "2026-06-15T10:12:05+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-70c2ab2082ed",
+      "utterance": "Добрый день! В продолжение разговора высылаю вопросы от мех.службы по КП.1.Для овального флакона: Возможность наклейки этикетки отдельно \"лицо и Оборот\"\nПечать даты на этикетке на двух аппликаторах, отдельно тыл отдельно фронт. Термотрансферный датер\n2. Для круглого флакона:\nВОзможность наклейки одной и двух этикеток\nПечать даты на этикетке,если две этикетки печать даты на второй(тыльной этикетке)\n3. Наличие приемного вращающегося стола\n4.Высота этикетки до 200мм",
+      "source": {
+        "deal_id": "7601",
+        "line": 109,
+        "timestamp": "2026-06-15T10:15:31+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-0c8f489bb3fa",
+      "utterance": "Добрый день Александр! К разговору про комплекс оборудования для ЧЗ, который мы у вас брали. Ждем от вас КП на всё тоже самое, кроме прижимного устройства.",
+      "source": {
+        "deal_id": "7601",
+        "line": 124,
+        "timestamp": "2026-06-30T14:43:43+03:00",
+        "event_type": "email"
+      }
+    },
+    {
+      "example_id": "C01-b529788f8d08",
+      "utterance": "А именно по списку: автоматическая этикетировочная машина серии AS .арт.ЭМ04.00 (спец.исполнение) 2. конвейер с электроприводом ленточный 152,5мм, 3м, 3. узел ориентации тары 600мм,4. шкаф управления",
+      "source": {
+        "deal_id": "7601",
+        "line": 125,
+        "timestamp": "2026-06-30T14:51:35+03:00",
+        "event_type": "email"
+      }
+    }
+  ]
+}

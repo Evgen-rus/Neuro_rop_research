@@ -1,0 +1,1157 @@
+{
+  "status": "complete",
+  "responses": [
+    {
+      "example_id": "C01-f5dbb6ba1e79",
+      "probability": 0.46,
+      "latency_seconds": 0.49793850001879036,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.46
+          }
+        },
+        "usage": {
+          "input_tokens": 481,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-0a1e35274779",
+      "probability": 0.08,
+      "latency_seconds": 0.4584896999876946,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.08
+          }
+        },
+        "usage": {
+          "input_tokens": 487,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-7b97fd0449ff",
+      "probability": 0.13,
+      "latency_seconds": 0.48767189984209836,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.13
+          }
+        },
+        "usage": {
+          "input_tokens": 431,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-0e5102e45c31",
+      "probability": 0.87,
+      "latency_seconds": 0.4740438999142498,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.87
+          }
+        },
+        "usage": {
+          "input_tokens": 448,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-d864906a9cc0",
+      "probability": 0.05,
+      "latency_seconds": 0.5255281000863761,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 398,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-1abe14287f95",
+      "probability": 0.03,
+      "latency_seconds": 0.4765612001065165,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 433,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-bb28cbcdadd4",
+      "probability": 0.08,
+      "latency_seconds": 0.482166999951005,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.08
+          }
+        },
+        "usage": {
+          "input_tokens": 406,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-cd373220454e",
+      "probability": 0.58,
+      "latency_seconds": 0.5264028999954462,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.58
+          }
+        },
+        "usage": {
+          "input_tokens": 426,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-3428016e7526",
+      "probability": 0.05,
+      "latency_seconds": 0.441901900107041,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 418,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-4f8c5a05338c",
+      "probability": 0.06,
+      "latency_seconds": 0.48724859999492764,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.06
+          }
+        },
+        "usage": {
+          "input_tokens": 410,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-49c2ad5d7adf",
+      "probability": 0.05,
+      "latency_seconds": 0.49620880000293255,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 483,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-0057771838a6",
+      "probability": 0.71,
+      "latency_seconds": 0.49641470005735755,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.71
+          }
+        },
+        "usage": {
+          "input_tokens": 412,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-2add08ba2f4f",
+      "probability": 0.44,
+      "latency_seconds": 0.4623147000093013,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.44
+          }
+        },
+        "usage": {
+          "input_tokens": 425,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-ac2ce796309d",
+      "probability": 0.1,
+      "latency_seconds": 0.4761817001271993,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.1
+          }
+        },
+        "usage": {
+          "input_tokens": 416,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-5156f1d66b74",
+      "probability": 0.03,
+      "latency_seconds": 0.49454789981245995,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 429,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-8c9dbecf8f57",
+      "probability": 0.04,
+      "latency_seconds": 0.5312864000443369,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 952,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-763ad9a1711c",
+      "probability": 0.05,
+      "latency_seconds": 0.479651500005275,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 461,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-66fa18e87b22",
+      "probability": 0.04,
+      "latency_seconds": 0.4604615999851376,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 484,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-4293da50636b",
+      "probability": 0.4,
+      "latency_seconds": 0.44247610005550086,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.4
+          }
+        },
+        "usage": {
+          "input_tokens": 472,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-309f9c635972",
+      "probability": 0.04,
+      "latency_seconds": 0.4746484998613596,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 431,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-7c254ed5373b",
+      "probability": 0.04,
+      "latency_seconds": 0.49434740003198385,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 412,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-91d95e96cc3a",
+      "probability": 0.02,
+      "latency_seconds": 0.4784025999251753,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 404,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-517c1bc2ee07",
+      "probability": 0.05,
+      "latency_seconds": 0.46790140005759895,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 474,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-f2fc33044c94",
+      "probability": 0.71,
+      "latency_seconds": 0.4410981999244541,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.71
+          }
+        },
+        "usage": {
+          "input_tokens": 426,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-346585591748",
+      "probability": 0.04,
+      "latency_seconds": 0.43855810002423823,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 437,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-2a1c7a126635",
+      "probability": 0.09,
+      "latency_seconds": 0.4791802999097854,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.09
+          }
+        },
+        "usage": {
+          "input_tokens": 411,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-5c43b0dc4c4b",
+      "probability": 0.02,
+      "latency_seconds": 0.47264300007373095,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 414,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-03d80b901b18",
+      "probability": 0.05,
+      "latency_seconds": 0.4951236001215875,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 408,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-0bb60c454a05",
+      "probability": 0.07,
+      "latency_seconds": 0.491082499967888,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.07
+          }
+        },
+        "usage": {
+          "input_tokens": 415,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-bf1ca5bff129",
+      "probability": 0.17,
+      "latency_seconds": 0.471972799859941,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.17
+          }
+        },
+        "usage": {
+          "input_tokens": 833,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-676c4e7566fa",
+      "probability": 0.04,
+      "latency_seconds": 0.4647369000595063,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 484,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-123a7f4ae57f",
+      "probability": 0.03,
+      "latency_seconds": 0.4697902000043541,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 530,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-7c42969f562e",
+      "probability": 0.03,
+      "latency_seconds": 0.44651310006156564,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 434,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-4287a772de95",
+      "probability": 0.32,
+      "latency_seconds": 0.4595137001015246,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.32
+          }
+        },
+        "usage": {
+          "input_tokens": 416,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-ebb00e7a26dc",
+      "probability": 0.03,
+      "latency_seconds": 0.49916730006225407,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 400,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-c3e18aac2b0b",
+      "probability": 0.08,
+      "latency_seconds": 0.49351579998619854,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.08
+          }
+        },
+        "usage": {
+          "input_tokens": 468,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-70f7ec642fec",
+      "probability": 0.54,
+      "latency_seconds": 0.5415429999120533,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.54
+          }
+        },
+        "usage": {
+          "input_tokens": 460,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-0636b2a617f2",
+      "probability": 0.03,
+      "latency_seconds": 0.4493382000364363,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 425,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-efe1c02cc896",
+      "probability": 0.03,
+      "latency_seconds": 0.45612409990280867,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 423,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-6a8fa096e0d5",
+      "probability": 0.58,
+      "latency_seconds": 0.47595049999654293,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.58
+          }
+        },
+        "usage": {
+          "input_tokens": 427,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-4c9a30f60f14",
+      "probability": 0.03,
+      "latency_seconds": 0.4790032999590039,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 405,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-54bac0463ad3",
+      "probability": 0.05,
+      "latency_seconds": 0.468606699956581,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 405,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-4c399bca0b6c",
+      "probability": 0.17,
+      "latency_seconds": 0.4461050000973046,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.17
+          }
+        },
+        "usage": {
+          "input_tokens": 417,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-16aef6609b5d",
+      "probability": 0.85,
+      "latency_seconds": 0.44711999990977347,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.85
+          }
+        },
+        "usage": {
+          "input_tokens": 464,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-bfbe35cde6dd",
+      "probability": 0.24,
+      "latency_seconds": 0.4551180999260396,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.24
+          }
+        },
+        "usage": {
+          "input_tokens": 456,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-7f06c2bd9f7f",
+      "probability": 0.02,
+      "latency_seconds": 0.4750747000798583,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 413,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-e9fa3769f6e5",
+      "probability": 0.04,
+      "latency_seconds": 0.4856833000667393,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 435,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-30a38a7700f4",
+      "probability": 0.83,
+      "latency_seconds": 0.5022615999914706,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.83
+          }
+        },
+        "usage": {
+          "input_tokens": 408,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-985c8389011d",
+      "probability": 0.87,
+      "latency_seconds": 0.49416870018467307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.87
+          }
+        },
+        "usage": {
+          "input_tokens": 414,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-03dc830d6541",
+      "probability": 0.03,
+      "latency_seconds": 0.44678370002657175,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 470,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-14583662e394",
+      "probability": 0.03,
+      "latency_seconds": 0.459230899810791,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 410,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-301b294b4ff4",
+      "probability": 0.66,
+      "latency_seconds": 0.4895028998143971,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.66
+          }
+        },
+        "usage": {
+          "input_tokens": 415,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-8fb5b059679f",
+      "probability": 0.04,
+      "latency_seconds": 0.45060520013794303,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 438,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-69c1fd62aaf1",
+      "probability": 0.15,
+      "latency_seconds": 0.4769188999198377,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.15
+          }
+        },
+        "usage": {
+          "input_tokens": 433,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-145e681c9d7e",
+      "probability": 0.05,
+      "latency_seconds": 0.46485140011645854,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 444,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-273562421ca3",
+      "probability": 0.04,
+      "latency_seconds": 0.4585343999788165,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 435,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-e3a27e05aef9",
+      "probability": 0.59,
+      "latency_seconds": 0.4564288000110537,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.59
+          }
+        },
+        "usage": {
+          "input_tokens": 646,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-bbf3f9f7f7ac",
+      "probability": 0.92,
+      "latency_seconds": 0.464851199882105,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.92
+          }
+        },
+        "usage": {
+          "input_tokens": 511,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-1a4f44b9f91b",
+      "probability": 0.76,
+      "latency_seconds": 0.4807158000767231,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.76
+          }
+        },
+        "usage": {
+          "input_tokens": 446,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-61d74b2fd904",
+      "probability": 0.06,
+      "latency_seconds": 0.44309429987333715,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.06
+          }
+        },
+        "usage": {
+          "input_tokens": 480,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-e3fc47b155fe",
+      "probability": 0.89,
+      "latency_seconds": 0.4439444001764059,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.89
+          }
+        },
+        "usage": {
+          "input_tokens": 478,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-ee73243f623f",
+      "probability": 0.04,
+      "latency_seconds": 0.42484109988436103,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 557,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-a52eaf9ca107",
+      "probability": 0.05,
+      "latency_seconds": 0.470020700013265,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 508,
+          "output_tokens": 22
+        }
+      }
+    },
+    {
+      "example_id": "C01-70c2ab2082ed",
+      "probability": 0.04,
+      "latency_seconds": 0.5077392000239342,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "C01": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 736,
+          "output_tokens": 22
+        }
+      }
+    }
+  ]
+}

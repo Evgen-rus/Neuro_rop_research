@@ -1,0 +1,32 @@
+{
+  "status": "scored",
+  "frozen_at_utc": "2026-09-28T17:51:09.899213+00:00",
+  "benchmark_sha256": "64b2499d53020f3afa755fd32f7cc20ff9c2dc0a9a3d67bd964f1ea5a1104047",
+  "manifest_sha256": "1a5428e168969b659988080a8e97bdb1d583ab61dab6b36b06bec1febe145bc0",
+  "outcome_used": false,
+  "dataset_modified": false,
+  "jev_requests_completed": 64,
+  "last_call_utc": "2026-09-28T17:52:23.243929+00:00",
+  "scored_at_utc": "2026-09-28T17:55:34.506301+00:00",
+  "reference_count": 62,
+  "fallback_count": 7,
+  "acceptance_metric_gates_pass": true,
+  "size_target_met": false,
+  "outputs_sha256": {
+    "classifier_contract.md": "cd38378798b25f8df537c9f917d7c84f3365743e731edc6c5492817eb76ce8d0",
+    "preprocessing_rules.md": "cc87cfadee8ca1ea6134a07ed627461259ef9fd88d9381b4bc1afddb9f10c621",
+    "candidate_pool.json": "8c1c791972848a10c8c29478ed0296b3ea893a3aaea7a318f5c5986567b8994a",
+    "labels/label_input.json": "c558e10f00cf84cdee4b7dc53d2ea2568f1f29739eefafd05eb624199c9bbf39",
+    "labels/labeler_A.json": "cd09094773929e9e483731e21319b3e5a29edcb56313d0113982126d1d827571",
+    "labels/labeler_B.json": "80d0d07306c38ee81f21e99f59d569ffd72147d7bd3d4d4c1139e1c3059d74ea",
+    "benchmark.json": "64b2499d53020f3afa755fd32f7cc20ff9c2dc0a9a3d67bd964f1ea5a1104047",
+    "benchmark_manifest.json": "1a5428e168969b659988080a8e97bdb1d583ab61dab6b36b06bec1febe145bc0",
+    "jev_responses.json": "ea7ac94cb6a1c377603226086230ab4805b3c0772188f80545cb4cefa5d2cad3",
+    "fallback_assignment.json": "a95dde54b40a1b0cef382e7c8e01a33bc07ab5efb8ff89a231f41e1a7d731ab5",
+    "luna_fallback_labels.json": "4fb880191905aa032a27de143943792e6904a241009bf0dd6809becb0c8ab903",
+    "predictions.json": "12c41a93b80689485ce89b333ad97b20c31c9c484ccdcc45e1c6f45144133f0e",
+    "metrics.json": "c655ccc596fe591f34070a4cb8076e3e3e81fbc84edd3bce841edb0bdefa329d",
+    "error_analysis.md": "ebe7f0f441d86be932754dfc988ed043a338e84f869f5feaeb4dc8685cb0b501",
+    "executive_summary.md": "d81259b47afa813cdb200164a4add91524b3cd3c88425041963add910e159e10"
+  }
+}
