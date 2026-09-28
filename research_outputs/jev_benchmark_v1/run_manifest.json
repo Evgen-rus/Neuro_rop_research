@@ -1,0 +1,12 @@
+{
+  "status": "prepared_no_live_calls",
+  "prepared_at_utc": "2026-09-28T16:08:05.077561+00:00",
+  "official_docs": [
+    "https://docs.typesafe.ai/api",
+    "https://docs.typesafe.ai/models"
+  ],
+  "key_present": false,
+  "requests_completed": 0,
+  "outcome_used": false,
+  "dataset_modified": false
+}

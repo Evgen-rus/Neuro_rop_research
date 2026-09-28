@@ -1,0 +1,10 @@
+{
+  "status": "not_run",
+  "thresholds": [
+    0.5,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "reason": "No live Jev responses"
+}
