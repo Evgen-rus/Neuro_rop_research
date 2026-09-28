@@ -1,0 +1,870 @@
+[
+  {
+    "example_id": "J01-f5dbb6ba1e79",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0a1e35274779",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7b97fd0449ff",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-10f173c1bb86",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-93c07ae49860",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0e5102e45c31",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-d864906a9cc0",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1e480e203022",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-feae4448db00",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8460b0906382",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1abe14287f95",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-37bb1378d150",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8c03e5d5964d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-87df5138ebe7",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-16afa3d583a8",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-c2a3e3f57e72",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-5ad6e1bf0de5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-872c2a6c0583",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-bb28cbcdadd4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-d3ac9adbd41b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c4f1809849e8",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-fbc0776c16ed",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-41d36f447f32",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-be3803096065",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-cd373220454e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-adfa00ed03a8",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-a82215e18e05",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c98766190c49",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-9ec8e1b8df57",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f8ada0f740c4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-3428016e7526",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4f8c5a05338c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2cfc27e73a9e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-49c2ad5d7adf",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-85d22f91c3c8",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-443e7bfb13e6",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-edebd24bf87a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-33d9e1c0bac0",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7d2a0c070efb",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ac824317bb8e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2b555c8a9bf4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-aef8e0ab9451",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ba744a97e721",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-79bcf84fb06b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0a2c955d1a47",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0057771838a6",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-cc30a50f22e5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f60d6be545b5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-65ef7f07a293",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-bc36ab35c2c0",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-103729b98e89",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-010bd4bea07f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2add08ba2f4f",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-ca5478dadc63",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-ac2ce796309d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-9ff5dda5d989",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-5156f1d66b74",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8c9dbecf8f57",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-be0509312957",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-763ad9a1711c",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-66fa18e87b22",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-0580e6bcb240",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-e995911286b7",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e10fcd1a76b1",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-1f56743cabe5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c51f0a74ab9f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7ba2f0dd2652",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-67c80dd10653",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1e4a157bef39",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0c9f33a1083d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4293da50636b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-309f9c635972",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-68f6e6b4ccb6",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e8554c2d88b4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7c254ed5373b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-91d95e96cc3a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-d8bfe4d8417b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-517c1bc2ee07",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-f2fc33044c94",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8a96c1aa3747",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-346585591748",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-3eb679b5b9be",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2a1c7a126635",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-5c43b0dc4c4b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-16939b99b244",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-e1cbad7f1e3b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-040f8574b3ae",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-03d80b901b18",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ffa237058e27",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-0bb60c454a05",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c007bbd4a5b8",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-53e5ccd0ab7f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-6d1d5954d09d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-075f78144367",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-bf1ca5bff129",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-27136d0cf7dc",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-9439d95793b8",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-676c4e7566fa",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-5f0ccb546372",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e0b17fa2c83b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-bae2a9480802",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-d013ea9f5760",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-6b8dac9e6d78",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4d97561b5b3d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-123a7f4ae57f",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-d84938789f6e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-adfd0ab1dd0c",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-33f36d7a621f",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-7c42969f562e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-5263353c450c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-b8dc7932ea4a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4287a772de95",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ebb00e7a26dc",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-f80df19c00f5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-b8b48b34fe36",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-669d4c416ab6",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c3e18aac2b0b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-435b866bc5cf",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-70f7ec642fec",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2e429b5f05af",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8ea4f72d9572",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-0636b2a617f2",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-543adc271a08",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-06fb96d75b80",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-09b998fb38d3",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1ad5a95c3439",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-d23fa39a2338",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-77e7f8b8514e",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-d807b603a582",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-efe1c02cc896",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e72baebbd50a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-6a8fa096e0d5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ee4e664a1da3",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4c9a30f60f14",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-284fd6252bf0",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-6752c02de010",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-54bac0463ad3",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-4c399bca0b6c",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-010b921eb089",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-16aef6609b5d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-029f4087e230",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-bfbe35cde6dd",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-b5238f8599e9",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7f06c2bd9f7f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f2ae6faa73a2",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-6cb2066cdb26",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-e9fa3769f6e5",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-639399627a6a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-3b4881ed9f6e",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-3f01fea6c398",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c989de9fca33",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-05bf35841cff",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c78f470394ac",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-30a38a7700f4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-17d9f1ca0ecc",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-40bbfd01f352",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f0724d1bcac4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-49413037d0bc",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-9ca523e97827",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-985c8389011d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ad5ac106e69c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-41184ed55d63",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-b54713957a01",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8d4171a8802f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ddbfe3e833eb",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-a81afb5367fa",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7ca52bf8c739",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1ba82e2cde3f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-d4d8cb9a95e3",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f59250c6d250",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ae5d7747e936",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-a1c934918719",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8f1b7748ce8e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-402d826c5e1b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8adcb486a9a6",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-26945484ab9c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-03dc830d6541",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-14583662e394",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-301b294b4ff4",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-8fb5b059679f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-cb41b2b37c0f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-69c1fd62aaf1",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-145e681c9d7e",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-273562421ca3",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-6690115214bf",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-c32548c91e69",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-45bbcd29b323",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-2a0c1004d2de",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e3a27e05aef9",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-a87ec6c9b044",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-7590b3ee8277",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-cab743dcdb92",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-bbf3f9f7f7ac",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-1a4f44b9f91b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-abbf7886dd29",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-3c72ae69015d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e3eafcb3872a",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-62bb727b6342",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-e596829d4e67",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-3ef8127be14c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-799ecd3ba5fe",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-070b6029be2b",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-f01d59c90f6d",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-73b4cc926a75",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-61d74b2fd904",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-2d771fa03a9d",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-5c714a97c6ce",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-01ce80962442",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-f6eb5b7f5f7c",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-e3fc47b155fe",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-ee73243f623f",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-2ad50bf3659c",
+    "label": "NO"
+  },
+  {
+    "example_id": "J01-a52eaf9ca107",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-70c2ab2082ed",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-0c8f489bb3fa",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-b529788f8d08",
+    "label": "YES"
+  },
+  {
+    "example_id": "J01-f790f1c48ad1",
+    "label": "NO"
+  }
+]

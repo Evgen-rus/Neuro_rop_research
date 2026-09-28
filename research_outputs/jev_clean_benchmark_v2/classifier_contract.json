@@ -1,0 +1,10 @@
+{
+  "id": "J01",
+  "name": "CHECKABLE_CUSTOMER_TECH_FACT",
+  "unit": "one speaker-clean customer utterance",
+  "question": "Does this customer utterance contain a concrete technical parameter, constraint, requirement, or technical question that can be checked, measured, calculated, tested, or answered?",
+  "labels": ["YES", "NO"],
+  "yes_rule": "The utterance itself states a concrete technical parameter, constraint, requirement, or answerable technical question about the customer's application or proposed equipment. A dimension, capacity, material, process constraint, or specific technical compatibility question qualifies. A number is not required when the technical fact is concrete.",
+  "no_rule": "The utterance has no concrete checkable technical content. Generic interest, acknowledgments, timing or commercial matters, mentions of missing attachments or measurements, and generic requests for specifications without a specific parameter or constraint are NO. Do not infer content from other messages, attachments, or quoted threads.",
+  "exclusions": ["buyer interest", "deal stage", "requirement quality", "technical-data sufficiency", "seller text", "outcome"]
+}

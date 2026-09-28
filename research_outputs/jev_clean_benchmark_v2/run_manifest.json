@@ -1,0 +1,18 @@
+{
+  "status": "scored",
+  "frozen_at_utc": "2026-09-28T17:21:59.732904+00:00",
+  "requests_completed": 98,
+  "initial_review_rejection": "Automatic approval review initially rejected export of 98 customer utterances to https://api.typesafe.ai/v1/systemone. The user then explicitly approved that exact action, and the same runner was allowed to complete.",
+  "outcome_used": false,
+  "dataset_modified": false,
+  "benchmark_sha256": "5bdd7ec2f11edece99fb1175ecd33340ba03fc3a4d1bcd7bc1686b187972a4d4",
+  "manifest_sha256": "7254a71ab2e1a8fd218f179fac854aee7c921321eec5deb0616522f00d86dc0a",
+  "last_call_utc": "2026-09-28T17:24:54.996787+00:00",
+  "scored_at_utc": "2026-09-28T17:25:06.066755+00:00",
+  "raw_responses_sha256": "069fda98a7ff46396b0ae9844c32fe0a931cdc79fc3ff4f1424d3c1d83a41fd5",
+  "metrics_sha256": "444e6e35581133639b7456e46385cb8978a9197bb91e3dac74c8ad27b7ae83fd",
+  "model_ids": [
+    "jev-1.13.0"
+  ],
+  "error_analysis_sha256": "db1f4e64edbc8c113d62a4039145c1ca2f806f3f31eac65be15512411947db4e"
+}
