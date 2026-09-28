@@ -9,8 +9,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from dotenv import load_dotenv
 
 OUT = Path(__file__).resolve().parent
+load_dotenv(OUT.parents[1] / ".env")
 SRC = OUT.parent / "validation_2a2"
 BENCH_SHA = "b3e75f873a85d52398726e73d15ae3f2070704a847f3a8e580a870209e473081"
 CONTRACT_SHA = "94a9b4c47702ca458031da23d68ab38ca58de5cba086da3a14a4b7346777124a"
@@ -136,7 +138,7 @@ def run():
         raw["status"] = "complete" if len(raw["responses"]) == 43 else "partial"
         save(OUT / "raw_responses.json", raw)
         run_manifest = load(OUT / "run_manifest.json")
-        run_manifest.update(status=raw["status"], requests_completed=len(raw["responses"]), last_call_utc=datetime.now(timezone.utc).isoformat())
+        run_manifest.update(status=raw["status"], key_present=True, requests_completed=len(raw["responses"]), last_call_utc=datetime.now(timezone.utc).isoformat())
         save(OUT / "run_manifest.json", run_manifest)
         print(f"{len(raw['responses'])}/43 {example['example_id']} p={row['probability']:.4f}")
     print("All calls completed. Run --score separately.")

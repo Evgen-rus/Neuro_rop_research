@@ -1,12 +1,14 @@
 {
-  "status": "prepared_no_live_calls",
+  "status": "scored",
   "prepared_at_utc": "2026-09-28T16:08:05.077561+00:00",
   "official_docs": [
     "https://docs.typesafe.ai/api",
     "https://docs.typesafe.ai/models"
   ],
-  "key_present": false,
-  "requests_completed": 0,
+  "key_present": true,
+  "requests_completed": 43,
   "outcome_used": false,
-  "dataset_modified": false
+  "dataset_modified": false,
+  "last_call_utc": "2026-09-28T16:16:35.417335+00:00",
+  "scored_at_utc": "2026-09-28T16:16:51.528511+00:00"
 }
