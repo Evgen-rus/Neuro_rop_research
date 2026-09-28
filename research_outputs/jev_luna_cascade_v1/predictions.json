@@ -1,0 +1,1846 @@
+{
+  "0.70/0.30": [
+    {
+      "example_id": "J01-f5dbb6ba1e79",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0a1e35274779",
+      "reference": "NO",
+      "jev_probability": 0.09,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d864906a9cc0",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1e480e203022",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1abe14287f95",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16afa3d583a8",
+      "reference": "YES",
+      "jev_probability": 0.81,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-c2a3e3f57e72",
+      "reference": "NO",
+      "jev_probability": 0.2,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-85d22f91c3c8",
+      "reference": "NO",
+      "jev_probability": 0.11,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-33d9e1c0bac0",
+      "reference": "NO",
+      "jev_probability": 0.49,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "NO",
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ac824317bb8e",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-103729b98e89",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2add08ba2f4f",
+      "reference": "YES",
+      "jev_probability": 0.32,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ca5478dadc63",
+      "reference": "YES",
+      "jev_probability": 0.93,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-9ff5dda5d989",
+      "reference": "YES",
+      "jev_probability": 0.96,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-8c9dbecf8f57",
+      "reference": "YES",
+      "jev_probability": 0.97,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-be0509312957",
+      "reference": "YES",
+      "jev_probability": 0.8,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-763ad9a1711c",
+      "reference": "YES",
+      "jev_probability": 0.62,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-66fa18e87b22",
+      "reference": "YES",
+      "jev_probability": 0.81,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0580e6bcb240",
+      "reference": "YES",
+      "jev_probability": 0.89,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e10fcd1a76b1",
+      "reference": "YES",
+      "jev_probability": 0.3,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": false
+    },
+    {
+      "example_id": "J01-91d95e96cc3a",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-517c1bc2ee07",
+      "reference": "YES",
+      "jev_probability": 0.45,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f2fc33044c94",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-8a96c1aa3747",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-346585591748",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-5c43b0dc4c4b",
+      "reference": "NO",
+      "jev_probability": 0.01,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16939b99b244",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e1cbad7f1e3b",
+      "reference": "NO",
+      "jev_probability": 0.13,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-040f8574b3ae",
+      "reference": "YES",
+      "jev_probability": 0.78,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ffa237058e27",
+      "reference": "YES",
+      "jev_probability": 0.32,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bf1ca5bff129",
+      "reference": "NO",
+      "jev_probability": 0.19,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-123a7f4ae57f",
+      "reference": "YES",
+      "jev_probability": 0.69,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d84938789f6e",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-adfd0ab1dd0c",
+      "reference": "YES",
+      "jev_probability": 0.9,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-33f36d7a621f",
+      "reference": "YES",
+      "jev_probability": 0.96,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-7c42969f562e",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4287a772de95",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ebb00e7a26dc",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f80df19c00f5",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b8b48b34fe36",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0636b2a617f2",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-543adc271a08",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-06fb96d75b80",
+      "reference": "YES",
+      "jev_probability": 0.59,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-09b998fb38d3",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1ad5a95c3439",
+      "reference": "YES",
+      "jev_probability": 0.58,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-77e7f8b8514e",
+      "reference": "YES",
+      "jev_probability": 0.47,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d807b603a582",
+      "reference": "NO",
+      "jev_probability": 0.14,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-efe1c02cc896",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e72baebbd50a",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6a8fa096e0d5",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ee4e664a1da3",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4c9a30f60f14",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-284fd6252bf0",
+      "reference": "NO",
+      "jev_probability": 0.12,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-54bac0463ad3",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4c399bca0b6c",
+      "reference": "YES",
+      "jev_probability": 0.41,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16aef6609b5d",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bfbe35cde6dd",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b5238f8599e9",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-7f06c2bd9f7f",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f2ae6faa73a2",
+      "reference": "YES",
+      "jev_probability": 0.4,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6cb2066cdb26",
+      "reference": "YES",
+      "jev_probability": 0.31,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e9fa3769f6e5",
+      "reference": "NO",
+      "jev_probability": 0.3,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3b4881ed9f6e",
+      "reference": "YES",
+      "jev_probability": 0.18,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": false
+    },
+    {
+      "example_id": "J01-c989de9fca33",
+      "reference": "YES",
+      "jev_probability": 0.49,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-03dc830d6541",
+      "reference": "YES",
+      "jev_probability": 0.91,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-14583662e394",
+      "reference": "NO",
+      "jev_probability": 0.25,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-301b294b4ff4",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-69c1fd62aaf1",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-145e681c9d7e",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-273562421ca3",
+      "reference": "YES",
+      "jev_probability": 0.91,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6690115214bf",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-c32548c91e69",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2a0c1004d2de",
+      "reference": "NO",
+      "jev_probability": 0.15,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3a27e05aef9",
+      "reference": "YES",
+      "jev_probability": 0.98,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-cab743dcdb92",
+      "reference": "YES",
+      "jev_probability": 0.95,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bbf3f9f7f7ac",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1a4f44b9f91b",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-abbf7886dd29",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3c72ae69015d",
+      "reference": "NO",
+      "jev_probability": 0.1,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3eafcb3872a",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e596829d4e67",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3ef8127be14c",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-799ecd3ba5fe",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-61d74b2fd904",
+      "reference": "YES",
+      "jev_probability": 0.71,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2d771fa03a9d",
+      "reference": "YES",
+      "jev_probability": 0.46,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-01ce80962442",
+      "reference": "YES",
+      "jev_probability": 0.1,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": false
+    },
+    {
+      "example_id": "J01-f6eb5b7f5f7c",
+      "reference": "YES",
+      "jev_probability": 0.39,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3fc47b155fe",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-a52eaf9ca107",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-70c2ab2082ed",
+      "reference": "YES",
+      "jev_probability": 0.97,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0c8f489bb3fa",
+      "reference": "YES",
+      "jev_probability": 0.46,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b529788f8d08",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    }
+  ],
+  "0.80/0.20": [
+    {
+      "example_id": "J01-f5dbb6ba1e79",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0a1e35274779",
+      "reference": "NO",
+      "jev_probability": 0.09,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d864906a9cc0",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1e480e203022",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1abe14287f95",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16afa3d583a8",
+      "reference": "YES",
+      "jev_probability": 0.81,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-c2a3e3f57e72",
+      "reference": "NO",
+      "jev_probability": 0.2,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-85d22f91c3c8",
+      "reference": "NO",
+      "jev_probability": 0.11,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-33d9e1c0bac0",
+      "reference": "NO",
+      "jev_probability": 0.49,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "NO",
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ac824317bb8e",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-103729b98e89",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2add08ba2f4f",
+      "reference": "YES",
+      "jev_probability": 0.32,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ca5478dadc63",
+      "reference": "YES",
+      "jev_probability": 0.93,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-9ff5dda5d989",
+      "reference": "YES",
+      "jev_probability": 0.96,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-8c9dbecf8f57",
+      "reference": "YES",
+      "jev_probability": 0.97,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-be0509312957",
+      "reference": "YES",
+      "jev_probability": 0.8,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-763ad9a1711c",
+      "reference": "YES",
+      "jev_probability": 0.62,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-66fa18e87b22",
+      "reference": "YES",
+      "jev_probability": 0.81,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0580e6bcb240",
+      "reference": "YES",
+      "jev_probability": 0.89,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e10fcd1a76b1",
+      "reference": "YES",
+      "jev_probability": 0.3,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-91d95e96cc3a",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-517c1bc2ee07",
+      "reference": "YES",
+      "jev_probability": 0.45,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f2fc33044c94",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-8a96c1aa3747",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-346585591748",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-5c43b0dc4c4b",
+      "reference": "NO",
+      "jev_probability": 0.01,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16939b99b244",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e1cbad7f1e3b",
+      "reference": "NO",
+      "jev_probability": 0.13,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-040f8574b3ae",
+      "reference": "YES",
+      "jev_probability": 0.78,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ffa237058e27",
+      "reference": "YES",
+      "jev_probability": 0.32,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bf1ca5bff129",
+      "reference": "NO",
+      "jev_probability": 0.19,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-123a7f4ae57f",
+      "reference": "YES",
+      "jev_probability": 0.69,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d84938789f6e",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-adfd0ab1dd0c",
+      "reference": "YES",
+      "jev_probability": 0.9,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-33f36d7a621f",
+      "reference": "YES",
+      "jev_probability": 0.96,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-7c42969f562e",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4287a772de95",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ebb00e7a26dc",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f80df19c00f5",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b8b48b34fe36",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0636b2a617f2",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-543adc271a08",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-06fb96d75b80",
+      "reference": "YES",
+      "jev_probability": 0.59,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-09b998fb38d3",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1ad5a95c3439",
+      "reference": "YES",
+      "jev_probability": 0.58,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-77e7f8b8514e",
+      "reference": "YES",
+      "jev_probability": 0.47,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-d807b603a582",
+      "reference": "NO",
+      "jev_probability": 0.14,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-efe1c02cc896",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e72baebbd50a",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6a8fa096e0d5",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-ee4e664a1da3",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4c9a30f60f14",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-284fd6252bf0",
+      "reference": "NO",
+      "jev_probability": 0.12,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-54bac0463ad3",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-4c399bca0b6c",
+      "reference": "YES",
+      "jev_probability": 0.41,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-16aef6609b5d",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bfbe35cde6dd",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b5238f8599e9",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-7f06c2bd9f7f",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-f2ae6faa73a2",
+      "reference": "YES",
+      "jev_probability": 0.4,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6cb2066cdb26",
+      "reference": "YES",
+      "jev_probability": 0.31,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e9fa3769f6e5",
+      "reference": "NO",
+      "jev_probability": 0.3,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "NO",
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3b4881ed9f6e",
+      "reference": "YES",
+      "jev_probability": 0.18,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": false
+    },
+    {
+      "example_id": "J01-c989de9fca33",
+      "reference": "YES",
+      "jev_probability": 0.49,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-03dc830d6541",
+      "reference": "YES",
+      "jev_probability": 0.91,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-14583662e394",
+      "reference": "NO",
+      "jev_probability": 0.25,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "NO",
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-301b294b4ff4",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-69c1fd62aaf1",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-145e681c9d7e",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-273562421ca3",
+      "reference": "YES",
+      "jev_probability": 0.91,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-6690115214bf",
+      "reference": "NO",
+      "jev_probability": 0.02,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-c32548c91e69",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2a0c1004d2de",
+      "reference": "NO",
+      "jev_probability": 0.15,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3a27e05aef9",
+      "reference": "YES",
+      "jev_probability": 0.98,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-cab743dcdb92",
+      "reference": "YES",
+      "jev_probability": 0.95,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-bbf3f9f7f7ac",
+      "reference": "NO",
+      "jev_probability": 0.03,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-1a4f44b9f91b",
+      "reference": "NO",
+      "jev_probability": 0.05,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-abbf7886dd29",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3c72ae69015d",
+      "reference": "NO",
+      "jev_probability": 0.1,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3eafcb3872a",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e596829d4e67",
+      "reference": "NO",
+      "jev_probability": 0.04,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-3ef8127be14c",
+      "reference": "NO",
+      "jev_probability": 0.07,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-799ecd3ba5fe",
+      "reference": "NO",
+      "jev_probability": 0.06,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-61d74b2fd904",
+      "reference": "YES",
+      "jev_probability": 0.71,
+      "route": "LUNA",
+      "jev_prediction": "YES",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-2d771fa03a9d",
+      "reference": "YES",
+      "jev_probability": 0.46,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-01ce80962442",
+      "reference": "YES",
+      "jev_probability": 0.1,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": false
+    },
+    {
+      "example_id": "J01-f6eb5b7f5f7c",
+      "reference": "YES",
+      "jev_probability": 0.39,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-e3fc47b155fe",
+      "reference": "NO",
+      "jev_probability": 0.17,
+      "route": "JEV",
+      "jev_prediction": "NO",
+      "luna_prediction": null,
+      "final_prediction": "NO",
+      "correct": true
+    },
+    {
+      "example_id": "J01-a52eaf9ca107",
+      "reference": "YES",
+      "jev_probability": 0.85,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-70c2ab2082ed",
+      "reference": "YES",
+      "jev_probability": 0.97,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-0c8f489bb3fa",
+      "reference": "YES",
+      "jev_probability": 0.46,
+      "route": "LUNA",
+      "jev_prediction": "NO",
+      "luna_prediction": "YES",
+      "final_prediction": "YES",
+      "correct": true
+    },
+    {
+      "example_id": "J01-b529788f8d08",
+      "reference": "YES",
+      "jev_probability": 0.94,
+      "route": "JEV",
+      "jev_prediction": "YES",
+      "luna_prediction": null,
+      "final_prediction": "YES",
+      "correct": true
+    }
+  ]
+}

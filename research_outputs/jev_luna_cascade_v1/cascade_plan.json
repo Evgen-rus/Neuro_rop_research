@@ -1,0 +1,27 @@
+{
+  "classifier_id": "J01",
+  "reference_count": 92,
+  "yes": 42,
+  "no": 50,
+  "disputed_excluded": 6,
+  "jev_model": "jev-1.13.0",
+  "primary": {
+    "yes_at_least": 0.7,
+    "no_at_most": 0.3
+  },
+  "secondary": {
+    "yes_at_least": 0.8,
+    "no_at_most": 0.2
+  },
+  "acceptance_primary": {
+    "overall_at_least": 0.95,
+    "yes_at_least": 0.9,
+    "no_at_least": 0.9,
+    "llm_reduction_at_least": 0.6
+  },
+  "source_sha256": {
+    "classifier_contract.json": "2785de7fd417afef38ff3b921d36b1725704be10c99b53efde5ac80d8668c528",
+    "clean_benchmark.json": "5bdd7ec2f11edece99fb1175ecd33340ba03fc3a4d1bcd7bc1686b187972a4d4",
+    "raw_responses.json": "069fda98a7ff46396b0ae9844c32fe0a931cdc79fc3ff4f1424d3c1d83a41fd5"
+  }
+}

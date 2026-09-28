@@ -1,0 +1,50 @@
+{
+  "reference_count": 92,
+  "reference_yes": 42,
+  "reference_no": 50,
+  "jev_only_0.50_agreement": 0.8478260869565217,
+  "jev_median_latency_seconds": 0.4736451500793919,
+  "fallback_luna_latency_seconds": null,
+  "cascade": {
+    "0.70/0.30": {
+      "final_overall_agreement": 0.967391304347826,
+      "final_yes_agreement": 0.9285714285714286,
+      "final_no_agreement": 1.0,
+      "TP": 39,
+      "TN": 50,
+      "FP": 0,
+      "FN": 3,
+      "jev_routed_count": 76,
+      "luna_routed_count": 16,
+      "llm_call_rate": 0.17391304347826086,
+      "llm_call_reduction": 0.8260869565217391,
+      "jev_auto_routed_errors": 3,
+      "luna_fallback_errors": 0,
+      "original_jev_errors_saved_by_fallback": 11,
+      "oracle_fallback_ceiling": 0.967391304347826,
+      "llm_calls_avoided": 76,
+      "jev_calls": 92,
+      "acceptance_pass": true
+    },
+    "0.80/0.20": {
+      "final_overall_agreement": 0.9782608695652174,
+      "final_yes_agreement": 0.9523809523809523,
+      "final_no_agreement": 1.0,
+      "TP": 40,
+      "TN": 50,
+      "FP": 0,
+      "FN": 2,
+      "jev_routed_count": 71,
+      "luna_routed_count": 21,
+      "llm_call_rate": 0.22826086956521738,
+      "llm_call_reduction": 0.7717391304347826,
+      "jev_auto_routed_errors": 2,
+      "luna_fallback_errors": 0,
+      "original_jev_errors_saved_by_fallback": 12,
+      "oracle_fallback_ceiling": 0.9782608695652174,
+      "llm_calls_avoided": 71,
+      "jev_calls": 92,
+      "acceptance_pass": true
+    }
+  }
+}

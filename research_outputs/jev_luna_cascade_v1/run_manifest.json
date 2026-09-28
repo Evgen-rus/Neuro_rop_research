@@ -1,0 +1,23 @@
+{
+  "benchmark": "Jev → Luna Cascade Benchmark v1",
+  "status": "complete",
+  "completed_at_utc": "2026-09-28T17:39:57.989548+00:00",
+  "source": "research_outputs/jev_clean_benchmark_v2",
+  "classifier": "J01",
+  "reference_examples": 92,
+  "disputed_excluded": 6,
+  "luna_union_examples": 21,
+  "luna_worker": "fresh independent Luna Max worker; blind to Jev and reference",
+  "new_jev_calls": 0,
+  "outcome_used": false,
+  "dataset_modified": false,
+  "files_sha256": {
+    "cascade_plan.json": "fb4f1a779e03617585266c6c05787fdf676579d85122dcc9e2bc68ec74625078",
+    "fallback_assignment.json": "fb929671f88c7cd1c703e1894a091f1324c857c925fa67a44d4b14d96988ee18",
+    "luna_labels.json": "f9f55d119fbbb2fccd0c7b7c331a9c3df676831314dc7d5343cc0bca9a84eab5",
+    "predictions.json": "2bc9f5a41c3bde17a0ad5525a5654bdd8f36549d727efe877b909d7bc1666b14",
+    "metrics.json": "80874e4cebf38437b85843bc407d6f4e1222c73bdf7e965c54ec5b65e2a97154",
+    "error_analysis.md": "e58358e007462bc1c501423f2e990643602fd8c4fc46cf00cfbef47f9fda8a64",
+    "executive_summary.md": "fd41de6c564d46889a136e9b84c4fdfb4cec21a55a4ebb7510fbc1f357f6d60a"
+  }
+}
