@@ -1,0 +1,22 @@
+{
+  "reference_counts": {
+    "fresh_only": {
+      "NO": 142,
+      "DISPUTED_REFERENCE": 1,
+      "YES": 2
+    },
+    "all": {
+      "YES": 14,
+      "NO": 193,
+      "DISPUTED_REFERENCE": 2
+    }
+  },
+  "fresh_only_minimum": {
+    "YES": 50,
+    "NO": 50
+  },
+  "fresh_only_size_gate_met": false,
+  "jev_only": null,
+  "cascade": null,
+  "acceptance": "NOT_CONFIRMED_INSUFFICIENT_FRESH_YES"
+}

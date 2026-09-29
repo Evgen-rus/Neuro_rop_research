@@ -1,0 +1,11 @@
+{
+  "status": "stopped_before_jev_insufficient_fresh_yes",
+  "completed_at_utc": "2026-09-28T18:28:07.475043+00:00",
+  "frozen_sha256": "96a0ad2392e157ae1f9c51a20f9b4d7533983451ff53d01082c642db7fa2270a",
+  "output_sha256": {
+    "benchmark.json": "0c7a6543b2b8c64035d32cec0a50f54582a60097e15cd7a5ca5fdb67efff92da",
+    "metrics.json": "80ef7f9fe1791ce479c667cf19984e4fdd74d471c8cfc436530a05bab419e156",
+    "error_analysis.md": "ccec5f0f2b5d5b48ebde713fb961100d7b7b37d8584cbaddf1bba80841637ca6",
+    "executive_summary.md": "bcf35d7e25143a538f618d2162473bb83f2bbdc46065779556628352207ca19a"
+  }
+}

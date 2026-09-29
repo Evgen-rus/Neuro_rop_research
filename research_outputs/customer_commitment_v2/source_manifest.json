@@ -1,0 +1,19 @@
+{
+  "source": "dataset/deals/*/clean_timeline.jsonl",
+  "outcomes_used": false,
+  "sources": {
+    "email": 85,
+    "message": 121,
+    "max_voice": 3
+  },
+  "exclusions": {
+    "empty_system_pii_or_outcome": 109,
+    "duplicate": 18
+  },
+  "total": 209,
+  "old_benchmark_overlap": 64,
+  "call_extraction_files": [
+    "call_candidates_a.json",
+    "call_candidates_b.json"
+  ]
+}
