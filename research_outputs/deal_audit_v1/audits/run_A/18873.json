@@ -1,0 +1,215 @@
+{
+  "deal_id": "18873",
+  "deal_summary": "The visible trajectory is a labeling-equipment inquiry for vacuum-packed sausage. The initial specification called for a circular label around the sausage and a top label; the buyer later said to keep to the vacuum-packaged product, while the exact application and dimensions remained under clarification. After receiving a proposal, she said another, more compact and cheaper solution fit better. The seller offered a shorter conveyor and was still requesting the buyer's dimensions or maximum length at the last visible event. No final decision is established. [E0, E9, E14, E16]",
+  "customer_need": {
+    "summary": "Initially described in a date-only manager worklog as automatic application of one circular and one top self-adhesive label to vacuum-packed sausage, at 500–1,000 units/hour. In direct messages, the buyer removed the circular sausage-label requirement; the remaining packaging/application details and acceptable machine length were not fully resolved in the visible record. [E0, E9, E16]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "A manager worklog said the customer was labeling by hand, wanted installation by October, and was not deterred by an initial 4.5M price; these are manager-recorded claims. The buyer repeatedly promised product photos, citing the weekend and a production inspection, and sent images on August 28. [E0, E1, E2, E3, E5, E6]",
+    "middle": "The seller asked about label placement and whether circumferential labeling was still required. On September 4 the buyer said they would stick with the vacuum-packaged product. Manager worklogs report that an external supplier, Inox, was being consulted and then declined the requested solution; these are not buyer-confirmed facts. A proposal was sent September 9. [E6, E7, E8, E9, E10, E11]",
+    "late": "The buyer reviewed the proposal, then directly said another option fit better because it was cheaper and more compact. The seller offered a shorter conveyor and asked for dimensions; the buyer said she would provide them, and a September 18 seller message again requested the dimensions or a maximum length. The revised configuration and buyer response are not visible. [E12, E14, E15, E16]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer repeatedly engaged on the requested photos, sent images on August 28, and clarified the labeling scope on September 4. [E1, E2, E3, E5, E6, E9]",
+      "She reviewed the proposal, agreed to continue the discussion, identified the fit and price concerns, and said she had prepared dimensions for a revision. [E12, E14, E15]"
+    ],
+    "negative_signals": [
+      "The promised photos arrived after multiple follow-ups, and the buyer postponed one proposal discussion after leaving work. [E1, E2, E3, E5, E12]",
+      "The buyer preferred another solution on price and footprint, and the exact dimensions needed for a revised offer were still being requested at the last visible event. [E14, E15, E16]"
+    ],
+    "initiative": "Mixed: the buyer eventually supplied photos and specified a narrower label scope, but the seller initiated most follow-ups and was still asking for dimensions at the view endpoint. [E1, E2, E3, E5, E6, E9, E15, E16]",
+    "decision_process": "The visible comparison centered on application fit, equipment footprint, and price. The buyer referenced another smaller, cheaper option, but the record does not identify its supplier, the buyer's decision authority, or a procurement timetable. [E0, E14]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "Followed up to obtain photos and application details, then sent the information to technical staff for a solution. [E1, E2, E3, E5, E6, E7]",
+      "Sent a proposal after confirming the destination address and, when the buyer raised footprint concerns, offered a shorter conveyor and asked for the target length. [E10, E11, E14, E16]"
+    ],
+    "weak_actions": [
+      "The date-only worklog says that after the requested solution was referred to Inox, Inox declined and the team was still asking what could be offered. This signals a company-side solution constraint, but its effect on the buyer's choice is not confirmed. [E8]",
+      "The visible trajectory ends with the dimensions still being requested after the buyer said she had prepared them; the record does not show whether they were sent through another channel or whether a revised proposal followed. [E15, E16]"
+    ],
+    "follow_up_quality": "Persistent and scheduled: the seller repeatedly pursued photos, arranged follow-up calls, sent the proposal, and later requested dimensions. The repeated photo reminders reflect a dependency on buyer-provided inputs; the record does not establish that every follow-up interval was avoidable. [E1, E2, E3, E5, E10, E12, E14, E16]",
+    "next_step_control": "The next step was concrete—confirm maximum machine length and issue or discuss a revised configuration—but not completed in the visible record. The September 18 request is a seller message with unknown direction metadata, so it does not establish that the buyer ignored an earlier request. [E14, E15, E16]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-26T13:34:06+07:00",
+      "description": "The buyer said the business direction had changed, while explicitly clarifying that this was not a dismissal of the seller; the conversation remained open with a planned Friday call. [E4]",
+      "importance": "medium",
+      "evidence_indices": [4]
+    },
+    {
+      "timestamp": "2026-09-04T19:59:31+07:00",
+      "description": "The buyer dropped the previously discussed circular label around the sausage and said to keep to the vacuum-packaged product, changing the application scope. [E9]",
+      "importance": "medium",
+      "evidence_indices": [9]
+    },
+    {
+      "timestamp": "2026-09-11T13:52:43+07:00",
+      "description": "The buyer directly compared the proposal with another solution that was cheaper and more compact. The seller offered to shorten the conveyor, making exact dimensions the key next input. [E14]",
+      "importance": "high",
+      "evidence_indices": [14]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Unresolved price and footprint fit after scope clarification",
+    "explanation": "The buyer narrowed the application, then said a competing solution better matched the need on price and compactness. The seller offered a shorter conveyor, but the needed dimensions or maximum length were still being requested at the visible endpoint, so the trajectory remained dependent on a fit-and-price revision. The initial manager note that 4.5M had not deterred the buyer does not override the later direct price comparison, and the Inox refusal is only a manager-worklog claim. This explains the visible next-step dependency, not a final deal result. [E0, E8, E9, E14, E15, E16]",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [0, 8, 9, 14, 15, 16]
+  },
+  "secondary_factors": [
+    "Buyer-provided photos and then machine dimensions were dependencies; photos followed several reminders, and the view ends with a request for dimensions. [E1, E2, E3, E5, E6, E15, E16]",
+    "The buyer said the business direction had changed, but gave no details about that change. [E4]",
+    "The manager worklog reports an external supplier refusal, which may have constrained solution design but is not corroborated by customer-sourced evidence. [E8]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Once the buyer raised compactness and price, present a revised footprint and comparable price together, based on a confirmed maximum length, then schedule a specific review. The seller had already offered a shorter conveyor, but no completed revision appears in the view. [E14, E15, E16]",
+      "Clarify the exact remaining label application after the scope changed, and confirm whether the available company or partner configuration can meet it before promising a proposal. [E7, E8, E9]"
+    ],
+    "limits": [
+      "The buyer controlled when photos and dimensions were supplied and reported that the business direction had changed; the seller could not control those inputs or the buyer's comparison with another option. [E1, E2, E3, E4, E15]",
+      "The reported Inox refusal suggests a company or supplier capability constraint; the record does not show whether an alternative configuration was feasible. [E8]",
+      "No final decision, final revised quote, or evidence of the buyer's procurement authority is present in the visible trajectory. [E14, E15, E16]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-08-13T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes a sausage producer using vacuum packaging, manual labeling, one circular and one top label, 500–1,000 units/hour, October installation target, and an initial 4.5M price that reportedly did not deter the buyer. Manager claim, not buyer-confirmed."
+    },
+    {
+      "timestamp": "2026-08-17T13:05:56+07:00",
+      "event_type": "call_transcript",
+      "event_id": "647207",
+      "source_line": 7,
+      "paraphrase": "Buyer said photos could be provided after the weekend and promised to try to send them by end of day; seller followed up on the previously expected information."
+    },
+    {
+      "timestamp": "2026-08-19T13:17:53+07:00",
+      "event_type": "call_transcript",
+      "event_id": "648459",
+      "source_line": 14,
+      "paraphrase": "Buyer said she was uploading the requested photos at that moment."
+    },
+    {
+      "timestamp": "2026-08-24T13:16:20+07:00",
+      "event_type": "call_transcript",
+      "event_id": "651519",
+      "source_line": 27,
+      "paraphrase": "Buyer said a production inspection was ending and agreed to send the information the following day; seller set a follow-up expectation."
+    },
+    {
+      "timestamp": "2026-08-26T13:34:06+07:00",
+      "event_type": "call_transcript",
+      "event_id": "653763",
+      "source_line": 33,
+      "paraphrase": "Buyer said the business direction had shifted, but that she was not dismissing the seller; both agreed to continue the discussion on Friday."
+    },
+    {
+      "timestamp": "2026-08-28T13:07:01+07:00",
+      "event_type": "call_transcript",
+      "event_id": "655889",
+      "source_line": 36,
+      "paraphrase": "Buyer said she would send the requested photos through Max that day."
+    },
+    {
+      "timestamp": "2026-08-28T13:15:45+07:00",
+      "event_type": "message",
+      "event_id": "3043049",
+      "source_line": 42,
+      "paraphrase": "Seller thanked the buyer for the photos and asked whether the last two products would receive labels on top."
+    },
+    {
+      "timestamp": "2026-08-31T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 52,
+      "paraphrase": "Date-only manager worklog (time inferred): says the team was looking for an application solution and was not yet ready to say whether it could take the work; manager claim."
+    },
+    {
+      "timestamp": "2026-09-02T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 54,
+      "paraphrase": "Date-only manager worklog (time inferred): says external supplier Inox declined the proposed solution and the team asked what it could offer instead; manager claim."
+    },
+    {
+      "timestamp": "2026-09-04T19:59:31+07:00",
+      "event_type": "message",
+      "event_id": "3071793",
+      "source_line": 57,
+      "paraphrase": "Seller asked whether circular labeling around the sausage was still required, noting that the supplied photos did not show such labels."
+    },
+    {
+      "timestamp": "2026-09-04T20:08:51+07:00",
+      "event_type": "message",
+      "event_id": "3071873",
+      "source_line": 58,
+      "paraphrase": "Buyer replied, 'No, we will stick to the vacuum,' removing the circular sausage-label application from the clarified scope."
+    },
+    {
+      "timestamp": "2026-09-09T13:28:43+07:00",
+      "event_type": "call_transcript",
+      "event_id": "665009",
+      "source_line": 66,
+      "paraphrase": "Seller said the proposal was ready, confirmed the email address with the buyer, and agreed to follow up after she reviewed it."
+    },
+    {
+      "timestamp": "2026-09-09T13:32:54+07:00",
+      "event_type": "email",
+      "event_id": "665015",
+      "source_line": 67,
+      "paraphrase": "Seller sent a commercial proposal for the requested equipment and asked the buyer to review it and respond."
+    },
+    {
+      "timestamp": "2026-09-10T13:35:34+07:00",
+      "event_type": "call_transcript",
+      "event_id": "666219",
+      "source_line": 77,
+      "paraphrase": "Buyer said she had reviewed the proposal but had left work and asked to postpone discussion until the next day; seller agreed."
+    },
+    {
+      "timestamp": "2026-09-11T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 78,
+      "paraphrase": "Date-only manager worklog (time inferred): says the preliminary offer did not appeal, another option was smaller and cheaper, and the manager understood the buyer to be choosing by cost alone; this characterization is a manager claim and the subsequent buyer call also mentions footprint."
+    },
+    {
+      "timestamp": "2026-09-11T13:52:43+07:00",
+      "event_type": "call_transcript",
+      "event_id": "667437",
+      "source_line": 80,
+      "paraphrase": "Buyer said another solution fit better and was cheaper, specifying both price and size. Seller offered a shorter conveyor; buyer said she would provide the needed length later, and they planned to speak Monday."
+    },
+    {
+      "timestamp": "2026-09-15T13:16:15+07:00",
+      "event_type": "call_transcript",
+      "event_id": "669355",
+      "source_line": 84,
+      "paraphrase": "Buyer acknowledged that she owed the dimensions for a revised proposal and said she had worked them out and expected to send the information by the next day."
+    },
+    {
+      "timestamp": "2026-09-18T13:10:52+07:00",
+      "event_type": "message",
+      "event_id": "3119853",
+      "source_line": 95,
+      "paraphrase": "Seller message with unknown direction metadata asks for the prepared dimensions or maximum acceptable equipment length so the vacuum-packaging equipment proposal can be revised and compared with the smaller, cheaper option."
+    }
+  ],
+  "uncertainties": [
+    "The initial specification, 4.5M price reaction, and October target come from a date-only manager worklog; there is no corroborating buyer transcript for those points. [E0]",
+    "The August 26 business-direction change is not explained. The September 4 reply is interpreted narrowly as dropping circular sausage labeling; it does not establish that all labeling equipment was no longer needed. [E4, E9]",
+    "The reported Inox refusal is a manager-worklog claim. The view does not show the supplier exchange or establish that this refusal caused the buyer's later comparison. [E8, E14]",
+    "The September 18 message has unknown direction metadata, and the view does not establish whether the buyer sent dimensions via another channel, whether a revised proposal was issued, or what decision followed. [E15, E16]"
+  ]
+}

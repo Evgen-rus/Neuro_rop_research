@@ -1,0 +1,182 @@
+{
+  "deal_id": "7243",
+  "deal_summary": "A customer explored a customized labeling solution for its production line, with the application arrangement changing during technical review. The visible trajectory is substantial technical discovery followed by repeated postponement for internal review, a fixed budget and other equipment purchases; the latest retained event is the seller asking for consolidated technical feedback, with no customer answer in this view. [evidence: 1, 8, 10, 11]",
+  "customer_need": {
+    "summary": "A labeling solution involving two applicators for the customer's production equipment, with placement and mounting adapted to its line and labels. The customer later asked for two-sided/left-right side application, technical specifications, and transport wheels; exact final configuration remains unconfirmed. [evidence: 4, 8, 10, 11]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The manager's dated worklog reports that product and label photos/sizes were requested, that a standalone installation with possible side application was considered, and that the customer was open to a price from 1.2 million; these are manager-recorded claims, not a direct customer quotation. Customer email supplied the installation height range of 1050–1150 mm. [evidence: 1, 2]",
+    "middle": "On a call, the customer said the CEO had approved the project price and payment terms, expected an initial payment in June, and still planned to discuss with the technical department. The customer clarified label winding and later sent installation photos and requested an adjustable stand. Contract preparation then encountered a legal review delay; a June 30 call still had no lawyer feedback, and the customer said payment would move to July. [evidence: 3, 4, 5, 6, 7]",
+    "late": "In July, the customer moved the purchase discussion to early August because technical staff still needed to define serviceability changes and the budget could not be revised; in the same call, the customer shifted the two-applicator arrangement from bottom application to left/right side application. In August, the customer again reported a technical-review pause and concurrent equipment purchasing, requested missing technical details and wheels, then asked for an updated specification. A seller email on September 10 asks whether the current side-application/wheel version is final; no answer is present in the retained view. [evidence: 8, 9, 10, 11]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied installation dimensions and photos, clarified label winding, and requested a height-adjustable stand for the actual placement. [evidence: 2, 4, 5]",
+      "The customer reported CEO approval of price/payment terms, agreed to contract preparation, and continued to discuss technical changes and procurement. [evidence: 3, 8, 10, 11]",
+      "The customer raised concrete technical questions about power, speed, dimensions, weight, and mobility, then asked for the quote/specification to reflect wheels. [evidence: 10, 11]"
+    ],
+    "negative_signals": [
+      "The customer repeatedly deferred decisions and could not give a firm purchase date, citing unresolved technical review, a fixed budget, and another equipment purchase. [evidence: 8, 9, 10]",
+      "The July contract review had not cleared the customer's lawyer by June 30, and the customer shifted the anticipated payment from June to July; the record does not establish whether later legal review was completed. [evidence: 7, 8]"
+    ],
+    "initiative": "Mixed: the customer supplied technical information, sought clarifications, and initiated a call about the technical department's missing specifications and mobility needs; manager worklogs also record repeated reminders to obtain information and feedback. [evidence: 2, 5, 6, 10]",
+    "decision_process": "The customer described CEO approval of commercial terms but continuing technical-department review. A lawyer was also reviewing the contract, and the customer said the allocated budget could not be revised; the customer later cited a concurrent equipment purchase. [evidence: 3, 7, 8, 10]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager clarified label winding and separate installation/start-up services, then used customer photos and dimensions to discuss adjustable mounting. [evidence: 4, 5]",
+      "The manager revisited the application arrangement with the customer, answered detailed technical questions, and sent an updated commercial proposal after the wheel request. [evidence: 8, 10, 11]",
+      "The manager proposed scheduled calls and, in the latest retained email, asked the customer to consolidate technical comments and confirm whether the current version was final. [evidence: 9, 11]"
+    ],
+    "weak_actions": [
+      "The July discussion surfaced a meaningful bottom-versus-side application change after earlier technical scoping; the record does not show whether this was a customer change of preference or an earlier discovery gap. [evidence: 8]",
+      "In August the customer said the technical department could not find power/operating details in the commercial proposal and separately asked for weight and wheels. This indicates that key review information was not readily usable to the buyer at that point, although the manager supplied answers during the call. [evidence: 10]"
+    ],
+    "follow_up_quality": "Follow-up was persistent and used email, calls, and agreed callback times, but many contacts were reminders while customer-side dependencies remained open. The August 24 call established a Thursday 11:00 Moscow-time callback, and the August 27 call renewed a specific next-day discussion. [evidence: 1, 6, 8, 9, 10]",
+    "next_step_control": "Control improved when the manager agreed concrete callback windows and asked for one consolidated technical comment list. The latest evidence remains an unanswered seller email asking for confirmation of the final configuration, so no customer-owned deadline or completed decision is visible. [evidence: 9, 11]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-05-19T16:03:33+03:00",
+      "description": "The customer reported CEO approval of price and payment terms and an expected initial payment in June, while retaining a technical-department discussion. This moved the conversation into paperwork but did not resolve technical review. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [3]
+    },
+    {
+      "timestamp": "2026-06-30T10:58:05+03:00",
+      "description": "The customer said the lawyer had not yet returned feedback on the contract; the seller noted that July was approaching and asked about payment. The manager's later worklog records payment moving to July. [evidence: 7]",
+      "importance": "medium",
+      "evidence_indices": [7]
+    },
+    {
+      "timestamp": "2026-07-15T09:31:07+03:00",
+      "description": "The customer postponed the project to early August for technical-department input and a fixed budget, and changed the discussed applicator placement from bottom to side. [evidence: 8]",
+      "importance": "high",
+      "evidence_indices": [8]
+    },
+    {
+      "timestamp": "2026-08-27T15:28:42+03:00",
+      "description": "The customer identified gaps in the technical information available to its team, requested weight and mobility details, and said another equipment purchase was also in progress. [evidence: 10]",
+      "importance": "high",
+      "evidence_indices": [10]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Internal technical and budget review with evolving configuration",
+    "explanation": "The trajectory is most visibly explained by an extended customer-side review process: CEO and technical input, legal review, a budget that could not be revised, concurrent equipment purchasing, and a later change in applicator placement. Missing or hard-to-find technical detail in the proposal may have added review friction. The timeline does not establish which factor was decisive or whether the project would proceed after the latest unanswered request. [evidence: 3, 7, 8, 10, 11]",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [3, 7, 8, 10, 11]
+  },
+  "secondary_factors": [
+    "Configuration was revised from bottom application to side application, then wheels were added; the record does not establish whether all technical comments were consolidated before the revisions. [evidence: 8, 10, 11]",
+    "Contract progress depended on legal review; a June 30 call reported that feedback was still pending. [evidence: 7]",
+    "The customer requested an updated proposal showing the wheels and technical revision, and the seller later asked whether that configuration was final. The view does not establish whether those changes altered price or how the customer assessed it. [evidence: 10, 11]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Send one consolidated technical sheet covering power, speed, dimensions, weight, connections, mounting, and the side-application configuration before the customer's internal review. [evidence: 8, 10]",
+      "After each internal review, agree on a named decision owner, a specific feedback date, and whether remaining questions are technical, legal, or budget-related. [evidence: 7, 8, 9, 10]",
+      "When revising the commercial proposal, list the configuration changes (including wheels) and show how they affect the quoted price so the buyer can compare the version accurately. [evidence: 10, 11]"
+    ],
+    "limits": [
+      "The customer's technical approval, lawyer review, fixed budget, and concurrent equipment purchase were outside the manager's direct control. [evidence: 3, 7, 8, 10]",
+      "The record does not show the customer's final response to the September 10 request or whether the project remained active after it. [evidence: 11]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-03-10T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2563333",
+      "source_line": 1,
+      "paraphrase": "Manager worklog reports that product/label photos and dimensions were requested, the customer planned procurement around late March/early April, and a price from 1.2 million was acceptable; this is a manager claim, not customer speech."
+    },
+    {
+      "timestamp": "2026-04-03T13:02:24+03:00",
+      "event_type": "email",
+      "event_id": "552361",
+      "source_line": 38,
+      "paraphrase": "Customer supplied the height from floor to label application point as 1050–1150 mm."
+    },
+    {
+      "timestamp": "2026-05-19T16:03:33+03:00",
+      "event_type": "call_transcript",
+      "event_id": "581019",
+      "source_line": 90,
+      "paraphrase": "Customer said the CEO had approved the project and its price/payment terms, expected to estimate initial payment for early June, and would still discuss it with the technical department."
+    },
+    {
+      "timestamp": "2026-05-25T13:04:40+03:00",
+      "event_type": "call_transcript",
+      "event_id": "586025",
+      "source_line": 109,
+      "paraphrase": "Customer clarified label winding as type 3.4; the call also clarified that start-up and supervisory installation services were separate contracts."
+    },
+    {
+      "timestamp": "2026-06-03T13:39:05+03:00",
+      "event_type": "call_transcript",
+      "event_id": "594643",
+      "source_line": 138,
+      "paraphrase": "Customer confirmed sending installation photos and asked whether the stand could adjust approximately plus or minus 10 cm; manager said this could be included in the technical specification."
+    },
+    {
+      "timestamp": "2026-06-22T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2834087",
+      "source_line": 171,
+      "paraphrase": "Manager worklog records that the lawyer had not given feedback and that payment would move to July; this is a manager's record of the customer's status, not a direct customer statement."
+    },
+    {
+      "timestamp": "2026-06-30T10:58:05+03:00",
+      "event_type": "call_transcript",
+      "event_id": "612305",
+      "source_line": 184,
+      "paraphrase": "Customer said the lawyer had not yet returned contract feedback and would be asked again that day."
+    },
+    {
+      "timestamp": "2026-07-15T09:31:07+03:00",
+      "event_type": "call_transcript",
+      "event_id": "620111",
+      "source_line": 216,
+      "paraphrase": "Customer postponed the project to early August while technical staff reviewed serviceability changes and said the budget could not be revised; the customer and manager also switched the discussed applicator arrangement from bottom to side application."
+    },
+    {
+      "timestamp": "2026-08-04T09:51:34+03:00",
+      "event_type": "call_transcript",
+      "event_id": "637557",
+      "source_line": 219,
+      "paraphrase": "Customer said the project had stalled pending technical-department approval of implementation and agreed to revisit it around August 10."
+    },
+    {
+      "timestamp": "2026-08-27T15:28:42+03:00",
+      "event_type": "call_transcript",
+      "event_id": "655373",
+      "source_line": 256,
+      "paraphrase": "Customer said its technical team could not find some power/operating details in the proposal, asked about weight and transport wheels, and noted another equipment procurement was underway; the manager supplied operating figures and discussed wheels."
+    },
+    {
+      "timestamp": "2026-08-28T15:00:28+03:00",
+      "event_type": "call_transcript",
+      "event_id": "656611",
+      "source_line": 261,
+      "paraphrase": "Customer said technical departments would provide feedback the following week, requested the commercial proposal be updated to show wheels and the technical revision, and the manager agreed to send it."
+    },
+    {
+      "timestamp": "2026-09-10T10:24:33+03:00",
+      "event_type": "email",
+      "event_id": "666337",
+      "source_line": 279,
+      "paraphrase": "Seller asked whether the current side-application and wheel configuration was final and requested technical comments in one list; no customer response is present in this view."
+    }
+  ],
+  "uncertainties": [
+    "The March willingness-to-buy date and price threshold are recorded only in a manager worklog, not in a customer-authored event. [evidence: 1]",
+    "The customer's target configuration changed during discussion; the record does not establish whether the bottom-to-side change reflects newly discovered requirements or an earlier misunderstanding. [evidence: 8]",
+    "The timing and completion of the legal review after June 30 are not established, nor is a payment or signed-contract status after the customer said June payment would move to July. [evidence: 6, 7]",
+    "The customer requested an updated proposal showing the wheels and technical revision, and the seller later asked whether that configuration was final. The view does not establish whether those changes altered price or how the customer assessed it. [evidence: 10, 11]",
+    "No customer response to the September 10 seller email is present in the retained view. [evidence: 11]"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "deal_id": "19007",
+  "deal_summary": "Manager intake notes describe labeling flat 10L canisters at 1,000 units/hour. After receiving a quote for a unit described as having its own conveyor, the customer clarified that the need was two applicators on an existing line. The customer sent requested line video for production review; the view ends before a technical answer or revised proposal. [evidence: 0, 2, 3, 5, 8, 9]",
+  "customer_need": {
+    "summary": "Directly stated need: replace two applicators on the customer's existing conveyor; the customer questioned adaptation feasibility and price. Canister, label, throughput, budget and buying-window details are mainly manager-worklog records in this view. [evidence: 0, 1, 5]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "Manager worklogs record a 10L flat canister, two side labels, 1,000 units/hour, and an initial budget and procurement window. The customer sent a canister sketch and label sample after they were requested. [evidence: 0, 1, 2]",
+    "middle": "Seller sent a quote and equipment video. Customer said the offer was only partly reviewed, then clarified the existing-line retrofit requirement. Seller committed to consult production and requested a video of the setup. [evidence: 3, 4, 5]",
+    "late": "Customer explained that the line was seasonally idle, delayed the video, and later sent it after a seller reminder. Seller acknowledged receipt and forwarded it to production. The view ends before a technical conclusion, revised price or customer review. [evidence: 6, 7, 8, 9]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "Sent a canister sketch and label sample after the request. [evidence: 2]",
+      "Explained the two-applicator retrofit need and raised price implications. [evidence: 5]",
+      "Sent the requested line video after a delay. [evidence: 6, 8]"
+    ],
+    "negative_signals": [
+      "Had only partly reviewed the offer and delayed the promised video; it arrived after another email reminder. [evidence: 4, 6, 7, 8]"
+    ],
+    "initiative": "Provided technical materials, clarified the required configuration, and sent a line video. [evidence: 2, 5, 8]",
+    "decision_process": "The customer said they had partly reviewed the offer and planned to study it further. A manager worklog says they would compare offers, but the call does not corroborate this. No approval chain or confirmed decision date is visible. [evidence: 1, 4]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "Requested container and label materials and sent a quote with equipment video. [evidence: 2, 3]",
+      "After the retrofit requirement surfaced, requested a setup video and said production would assess feasibility. [evidence: 5]",
+      "Followed up for the video, acknowledged receipt, and forwarded it to production. [evidence: 7, 9]"
+    ],
+    "weak_actions": [
+      "Potential scoping gap in the visible record: the quote was described by the customer as including its own conveyor, while the existing-conveyor need became explicit after quote review. The view does not establish whether this had been discussed earlier. [evidence: 3, 5]"
+    ],
+    "follow_up_quality": "Follow-up on the quote and video is visible, including the production handoff. The technical response cannot be assessed because the view ends after that handoff. [evidence: 3, 4, 7, 9]",
+    "next_step_control": "Production review is pending at the end of the view; no due date or customer review slot after the video handoff is recorded. [evidence: 9]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-09-08T13:59:15+03:00",
+      "description": "Customer supplied a canister sketch and label sample; the detailed intake specifications remain manager-reported. [evidence: 0, 2]",
+      "importance": "medium",
+      "evidence_indices": [0, 2]
+    },
+    {
+      "timestamp": "2026-09-15T15:30:11+03:00",
+      "description": "Customer identified the configuration mismatch: two applicators integrated into an existing conveyor, not a standalone machine with its own conveyor. Seller agreed to check feasibility and requested a video. [evidence: 5]",
+      "importance": "high",
+      "evidence_indices": [5]
+    },
+    {
+      "timestamp": "2026-09-18T13:51:20+03:00",
+      "description": "After explaining seasonal line downtime and delaying the video, customer sent it; seller forwarded it to production. No technical answer is visible. [evidence: 6, 7, 8, 9]",
+      "importance": "high",
+      "evidence_indices": [6, 7, 8, 9]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Technical qualification of an existing-line retrofit",
+    "explanation": "The trajectory shifted from a packaged-machine quote to a request for two applicators on the customer's conveyor. The unresolved step is whether production can support the retrofit and at what scope and price. The customer sent the requested video, but the view records only its receipt and handoff, not the assessment result. This explains the visible trajectory and does not infer a final outcome. [evidence: 3, 5, 8, 9]",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [3, 5, 8, 9]
+  },
+  "secondary_factors": [
+    "Customer said the line was seasonally idle although the equipment remained onsite, limiting live observation or testing. [evidence: 6]",
+    "Sketch and video attachments are unavailable in the view, so physical compatibility cannot be assessed. [evidence: 2, 8]",
+    "Budget acceptance and September/October timing appear only in manager worklogs, without customer-source confirmation here. [evidence: 1]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Set a production response date, return with retrofit feasibility, required interfaces and installation scope, revised pricing, then schedule a customer review. [evidence: 5, 9]"
+    ],
+    "limits": [
+      "This can close the visible technical and commercial information gap but cannot prove compatibility or purchase intent. [evidence: 5, 9]",
+      "Seasonal downtime and unavailable video contents limit assessment from this record. [evidence: 6, 8]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-09-04T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "3080805",
+      "source_line": 1,
+      "paraphrase": "Manager worklog records a flat 10L canister, two side labels, 1,000 units/hour and a request to state budget."
+    },
+    {
+      "timestamp": "2026-09-07T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "3080805",
+      "source_line": 2,
+      "paraphrase": "Manager worklog says an initial price around 1.6 million was acceptable and notes September/October procurement; neither is customer-source confirmation here."
+    },
+    {
+      "timestamp": "2026-09-08T13:59:15+03:00",
+      "event_type": "email",
+      "event_id": "664465",
+      "source_line": 6,
+      "paraphrase": "Customer says a canister sketch and label-size example are attached."
+    },
+    {
+      "timestamp": "2026-09-10T15:20:17+03:00",
+      "event_type": "email",
+      "event_id": "666939",
+      "source_line": 15,
+      "paraphrase": "Seller sends a commercial proposal and equipment video."
+    },
+    {
+      "timestamp": "2026-09-11T15:13:02+03:00",
+      "event_type": "call_transcript",
+      "event_id": "667909",
+      "source_line": 19,
+      "paraphrase": "Customer confirms receipt, says review is partial, plans to study it further, and agrees to a later Tuesday-afternoon discussion."
+    },
+    {
+      "timestamp": "2026-09-15T15:30:11+03:00",
+      "event_type": "call_transcript",
+      "event_id": "669811",
+      "source_line": 22,
+      "paraphrase": "Customer says the machine's own conveyor does not fit; an existing conveyor and two applicators are needed. Customer questions adaptation effort and price. Seller promises a production check and requests a setup video."
+    },
+    {
+      "timestamp": "2026-09-16T15:45:05+03:00",
+      "event_type": "call_transcript",
+      "event_id": "670695",
+      "source_line": 25,
+      "paraphrase": "Customer says the video is not prepared, promises an overview, and explains the line is seasonally idle although the equipment remains onsite."
+    },
+    {
+      "timestamp": "2026-09-17T15:48:59+03:00",
+      "event_type": "email",
+      "event_id": "671641",
+      "source_line": 28,
+      "paraphrase": "Seller follows up by email asking whether the placement video is ready."
+    },
+    {
+      "timestamp": "2026-09-18T12:44:53+03:00",
+      "event_type": "email",
+      "event_id": "672285",
+      "source_line": 30,
+      "paraphrase": "Customer email says they are sending the video."
+    },
+    {
+      "timestamp": "2026-09-18T13:51:20+03:00",
+      "event_type": "email",
+      "event_id": "672323",
+      "source_line": 31,
+      "paraphrase": "Seller thanks the customer for the video and says it was sent to production for review."
+    }
+  ],
+  "uncertainties": [
+    "The view does not show whether the existing-conveyor constraint was discussed before the quote. [evidence: 3, 5]",
+    "Sketch and video contents are unavailable, so physical compatibility cannot be judged from this view. [evidence: 2, 8]",
+    "Budget and buying window are manager-worklog statements; comparison with other offers is also not corroborated by customer-source events here. [evidence: 1, 4]",
+    "No production result, revised offer, confirmed approval process or customer decision appears in the available view; no final outcome is inferred. [evidence: 9]"
+  ]
+}

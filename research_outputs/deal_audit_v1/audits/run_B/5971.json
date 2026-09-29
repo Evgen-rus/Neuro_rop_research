@@ -1,0 +1,142 @@
+{
+  "deal_id": "5971",
+  "deal_summary": "The trajectory starts with an equipment need partly advanced through another supplier and shifts into leasing, specification, contract, and urgent delivery coordination (evidence 0, 2, 3, 4).",
+  "customer_need": {
+    "summary": "The visible request concerns packaging and labeling equipment for the customer's containers through Baltic Leasing; exact configuration is spread across customer and lessor exchanges (evidence 1, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The customer said a partly prepared transaction with another supplier stalled after a dispute, while leasing review was underway (evidence 0).",
+    "middle": "The parties coordinated container dimensions and contract structure; the customer said measurements had already been sent to the lessor contact (evidence 1, 2).",
+    "late": "The customer pressed for delivery by Wednesday and asked about transport and acceptance while payment and production timing were still being coordinated; the lessor proposed acceptance at the lessee site (evidence 3, 4)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer described an active equipment process and asked for a direct contact route (evidence 0).",
+      "The customer requested expedited delivery and offered to pay transport (evidence 3)."
+    ],
+    "negative_signals": [
+      "The customer said there was little time to complete the leasing questionnaire and referred the seller to information already given to another participant (evidence 1)."
+    ],
+    "initiative": "The customer asked about delivery timing, transport, and an alternative acceptance arrangement (evidence 3, 4).",
+    "decision_process": "The lessor and end customer both had roles in financing, signatures, and acceptance; the view does not confirm final delivery resolution (evidence 2, 4)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller coordinated specifications and contract structure with the lessor and customer (evidence 1, 2).",
+      "The seller pursued another acceptance route after the power-of-attorney proposal was rejected (evidence 4)."
+    ],
+    "weak_actions": [
+      "The seller asked the customer to restate dimensions that she said she had already provided to the lessor contact, indicating an information handoff gap (evidence 1, 2)."
+    ],
+    "follow_up_quality": "The seller remained active across leasing, legal, customer, and production questions, though information moved through several parties (evidence 2, 3, 4).",
+    "next_step_control": "Shipping date, payment timing, and acceptance documents remained under coordination at the end of the visible sequence (evidence 3, 4)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "10.10.2025 21:32:25",
+      "description": "The customer explained that another supplier's partly prepared transaction stalled after a dispute (evidence 0).",
+      "importance": "high",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "timestamp": "13.10.2025 15:40:49",
+      "description": "The parties aligned on container dimensions and discussed the lessor's two-party contract constraint (evidence 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "20.10.2025 20:04:24",
+      "description": "The customer requested delivery by Wednesday and raised transport and acceptance logistics (evidence 3).",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "20.10.2025 21:10:43",
+      "description": "The lessor proposed acceptance at the lessee site as a possible way through the signature issue (evidence 4).",
+      "importance": "medium",
+      "evidence_indices": [
+        4
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "lease-backed contracting and delivery coordination",
+    "explanation": "The visible trajectory moved from recovery of a transaction disrupted with another supplier into technical and legal coordination, then urgent delivery planning. The last exchange proposes a delivery and acceptance arrangement but does not confirm completion (evidence 0, 2, 3, 4).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  "secondary_factors": [
+    "The customer was unavailable for some paperwork and had parallel information flows through the lessor (evidence 1, 2).",
+    "The requested date was time-sensitive while production and payment timing were still being confirmed (evidence 3).",
+    "The end customer would not be present for delivery, making acceptance paperwork material (evidence 3, 4)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Keep one confirmed specification record shared with the lessor and end customer (evidence 1, 2).",
+      "Agree delivery, payment-trigger, transport, and acceptance requirements before a requested ship date becomes urgent (evidence 3, 4)."
+    ],
+    "limits": [
+      "Lessor approval and legal requirements were not under the seller's unilateral control (evidence 2, 4).",
+      "Customer availability and the requested date constrained the coordination window (evidence 1, 3).",
+      "The view ends before the proposed acceptance route is confirmed (evidence 4)."
+    ]
+  },
+  "evidence": [
+    {
+      "source_line": 12,
+      "paraphrase": "Customer says another supplier's transaction was partly prepared but stalled after a dispute; documents were sent for review and the customer expected a possible near-term signature.",
+      "timestamp": "2025-10-10T17:32:25+03:00",
+      "event_type": "call_transcript",
+      "event_id": "490613"
+    },
+    {
+      "source_line": 17,
+      "paraphrase": "Customer says there is no time to fill the leasing questionnaire and that container dimensions were already given to Sergey; seller agrees to retrieve them.",
+      "timestamp": "2025-10-13T11:36:04+03:00",
+      "event_type": "call_transcript",
+      "event_id": "490877"
+    },
+    {
+      "source_line": 19,
+      "paraphrase": "Seller and lessor contact confirm container heights and discuss that different e-signature operators restrict the supply agreement to two parties.",
+      "timestamp": "2025-10-13T11:40:49+03:00",
+      "event_type": "call_transcript",
+      "event_id": "490897"
+    },
+    {
+      "source_line": 76,
+      "paraphrase": "Customer says delivery by Wednesday is critical, asks whether the seller can arrange transport, and raises acceptance signing because the customer will be away.",
+      "timestamp": "2025-10-20T16:04:24+03:00",
+      "event_type": "call_transcript",
+      "event_id": "494159"
+    },
+    {
+      "source_line": 84,
+      "paraphrase": "Lessor contact proposes delivery to the lessee and later acceptance signatures there, while asking which transfer documents will be needed.",
+      "timestamp": "2025-10-20T17:10:43+03:00",
+      "event_type": "call_transcript",
+      "event_id": "494193"
+    }
+  ]
+,
+  "uncertainties": [
+  "Payment and dispatch were still prospective at the view end. The 20 Oct manager worklog claims the customer had prepaid the leasing company and expected funds the next day, while the leasing call describes payment approval being sent that day and likely receipt the next day; the seller says production timing depends on receipt. The view does not establish that funds arrived (source_line 68, 74, 80).",
+  "The customer requested next-day dispatch and Wednesday arrival, but the seller could not confirm timing before payment and production feedback, and said shipment through a transport company could not be arranged. A workable dispatch plan is not shown (source_line 76, 80).",
+  "The acceptance route remained unresolved: the seller declined to act as proxy for signing, and leasing proposed signing the acceptance act at the lessee after delivery while raising the related transport-document or UPD timing. No final agreement is captured (source_line 82, 84).",
+  "One long leasing call is represented as segment 1/3, so the view does not expose the full call context (source_line 22)."
+]
+}

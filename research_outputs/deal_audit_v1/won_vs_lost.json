@@ -1,0 +1,2261 @@
+{
+  "version": "1.0",
+  "method": "Outcome labels joined from dataset/manifest.json only after final_audit_freeze.json was verified; final audit files were not edited after label access.",
+  "manifest_sha256": "9c77ff17aeb0f667970eae664e2c5e11eb84b379c3e27110a037e3fb2e1b968d",
+  "final_audit_freeze_sha256": "d78384ef2f4b0a2ecc0919b68155df93694d4d155e15d9fd65568fdf0663c19e",
+  "sample": {
+    "WON": {
+      "count": 12,
+      "deal_ids": [
+        "18615",
+        "18773",
+        "18733",
+        "18745",
+        "5971",
+        "18485",
+        "18635",
+        "6885",
+        "7191",
+        "6983",
+        "6135",
+        "5017"
+      ],
+      "median_life_days": 37.5,
+      "median_amount_rub": 1249500.0,
+      "median_original_approx_tokens": 31014.5,
+      "median_view_approx_tokens": 26445.5,
+      "pipeline_counts": {
+        "17": 4,
+        "15": 8
+      },
+      "calls_ge36_without_transcript": 3
+    },
+    "LOST": {
+      "count": 11,
+      "deal_ids": [
+        "18755",
+        "18747",
+        "18873",
+        "7243",
+        "18775",
+        "19007",
+        "7601",
+        "18929",
+        "18629",
+        "18731",
+        "18765"
+      ],
+      "median_life_days": 34.0,
+      "median_amount_rub": 1792000.0,
+      "median_original_approx_tokens": 13212,
+      "median_view_approx_tokens": 10087,
+      "pipeline_counts": {
+        "15": 9,
+        "17": 2
+      },
+      "calls_ge36_without_transcript": 37
+    }
+  },
+  "patterns": [
+    {
+      "id": "T1",
+      "name": "Material technical fit or proof still unresolved at visible endpoint",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 2,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18629",
+        "18747",
+        "18873",
+        "19007"
+      ],
+      "won_counterexamples": [
+        "18635",
+        "18773"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T2",
+      "name": "Customer-reported budget or project-priority deferral",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 2,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18731",
+        "18765",
+        "7243",
+        "7601"
+      ],
+      "won_counterexamples": [
+        "18773",
+        "6983"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T3",
+      "name": "Direct customer comparison with another offer or supplier",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 1,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18629",
+        "18765",
+        "18873",
+        "18929"
+      ],
+      "won_counterexamples": [
+        "18773"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T4",
+      "name": "Material scope or review-information rework after first proposal",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 5,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18747",
+        "7243",
+        "7601",
+        "19007"
+      ],
+      "won_counterexamples": [
+        "18615",
+        "18733",
+        "6885",
+        "6983",
+        "7191"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T5",
+      "name": "Customer explicitly objects to follow-up frequency",
+      "lost_count": 2,
+      "lost_denominator": 11,
+      "won_counterexample_count": 1,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18755",
+        "18765"
+      ],
+      "won_counterexamples": [
+        "18745"
+      ],
+      "membership_is_selective": true
+    }
+  ],
+  "deals": {
+    "18615": {
+      "outcome": "WON",
+      "trajectory_category": "Iterative technical scope and commercial alignment",
+      "trajectory_explanation": "The visible trajectory is an extended fit-and-alignment process: the offer was resized after a reported budget mismatch; marking, product, packaging, and cap requirements evolved; laboratory and legal review added dependencies; and the customer later challenged delivery time and requested extensive technical detail. The buyer eventually reported the contract signed and requested the invoice, but the last call still records payment as awaited (e1-e2, e3-e11, e14-e22). This describes the documented path, not a claim about final deal outcome or a single causal factor.",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-05-13T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 17,
+          "paraphrase": "Date-only manager worklog (time inferred): says the customer found the calculated price too high and requested a revised offer for 1,000 units/hour. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-06-05T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 23,
+          "paraphrase": "Date-only manager worklog (time inferred): says the customer was awaiting Chinese offers, lacked space for the machine, and did not expect to buy before July/August. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-07-06T15:17:07+07:00",
+          "event_type": "call_transcript",
+          "event_id": "614769",
+          "source_line": 34,
+          "paraphrase": "Customer says QR labeling will remain manual and asks whether a dry topping doser can be added; the seller says they will check with engineering and notes this is outside their usual equipment."
+        },
+        {
+          "timestamp": "2026-07-06T15:42:33+07:00",
+          "event_type": "call_transcript",
+          "event_id": "614799",
+          "source_line": 36,
+          "paraphrase": "Customer insists on a July 17 factory visit and asks for written answers about marking integration; seller says engineering declined the dry-topping equipment, and the customer agrees to drop that option for now."
+        },
+        {
+          "timestamp": "2026-07-27T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 127,
+          "paraphrase": "Date-only manager worklog (time inferred): reports that viscosity and density information was with a laboratory and the customer was also sending the draft contract to a lawyer. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-03T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 177,
+          "paraphrase": "Date-only manager worklog (time inferred): reports a container change because the label dimensions did not fit and that more time was needed to agree on the container. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-05T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 186,
+          "paraphrase": "Date-only manager worklog (time inferred): says a 7.5% price increase effective Aug 17 was communicated while the container choice remained unresolved. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-10T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2859569",
+          "source_line": 204,
+          "paraphrase": "Date-only manager worklog (time inferred): reports the customer returned to a screw cap and sent final container/cap dimensions for a corrected offer. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-14T15:21:23+07:00",
+          "event_type": "call_transcript",
+          "event_id": "646505",
+          "source_line": 250,
+          "paraphrase": "Customer directly says the 75-working-day production lead time is too long and proposes either reducing the advance to 50% or shortening delivery to about three calendar months; seller says they will consult the director and production."
+        },
+        {
+          "timestamp": "2026-08-14T15:59:15+07:00",
+          "event_type": "message",
+          "event_id": "2998075,2998077",
+          "source_line": 253,
+          "paraphrase": "Customer asks for a dimensioned line-layout drawing to accompany the contract."
+        },
+        {
+          "timestamp": "2026-08-17T17:41:25+07:00",
+          "event_type": "message",
+          "event_id": "3002667,3002669",
+          "source_line": 300,
+          "paraphrase": "Customer says their 65 mm container does not fit the discussed arrangement."
+        },
+        {
+          "timestamp": "2026-08-17T17:44:19+07:00",
+          "event_type": "message",
+          "event_id": "3002703,3002705",
+          "source_line": 307,
+          "paraphrase": "Customer adds that QR-code marking equipment is needed."
+        },
+        {
+          "timestamp": "2026-08-19T17:42:56+07:00",
+          "event_type": "message",
+          "event_id": "3014293,3014295",
+          "source_line": 326,
+          "paraphrase": "Customer asks whether the equipment can handle caps up to 90 mm when the current stated range is up to 80 mm."
+        },
+        {
+          "timestamp": "2026-08-19T19:19:22+07:00",
+          "event_type": "email",
+          "event_id": "649041",
+          "source_line": 333,
+          "paraphrase": "Customer lists contract/specification questions about staffing, a missing 100 L intermediate tank and transfer pump, air-pressure reducers, cap-hopper capacity, and container-size range."
+        },
+        {
+          "timestamp": "2026-08-21T16:31:31+07:00",
+          "event_type": "message",
+          "event_id": "3022917,3022919",
+          "source_line": 345,
+          "paraphrase": "Customer asks how the dosing machine would be adjusted if product density or dose volume changes."
+        },
+        {
+          "timestamp": "2026-08-26T15:54:32+07:00",
+          "event_type": "call_transcript",
+          "event_id": "654023",
+          "source_line": 374,
+          "paraphrase": "Customer asks how to document density and viscosity ranges for product variants; the seller offers to consult production and provide ranges for the contract."
+        },
+        {
+          "timestamp": "2026-08-26T20:12:28+07:00",
+          "event_type": "message",
+          "event_id": "3037785,3037787",
+          "source_line": 382,
+          "paraphrase": "Customer asks to include a viscosity range as well."
+        },
+        {
+          "timestamp": "2026-08-28T15:22:36+07:00",
+          "event_type": "email",
+          "event_id": "656173",
+          "source_line": 404,
+          "paraphrase": "Customer requests a production-line video for the marking-system integrator, explaining that this could avoid waiting three months for the new line."
+        },
+        {
+          "timestamp": "2026-08-28T17:48:49+07:00",
+          "event_type": "email",
+          "event_id": "656425",
+          "source_line": 410,
+          "paraphrase": "Customer email says a signed contract is being sent back and requests the seller's stamp/signature before electronic signing and payment."
+        },
+        {
+          "timestamp": "2026-08-31T14:22:54+07:00",
+          "event_type": "message",
+          "event_id": "3048107,3048109",
+          "source_line": 420,
+          "paraphrase": "Customer says the contract was signed on Friday."
+        },
+        {
+          "timestamp": "2026-08-31T14:23:23+07:00",
+          "event_type": "message",
+          "event_id": "3048115,3048117",
+          "source_line": 421,
+          "paraphrase": "Customer asks for the invoice by email."
+        }
+      ],
+      "manager_strong_actions": [
+        "A manager worklog reports reworking the offer for lower throughput after the price concern (e1).",
+        "The seller discussed the dry-addition request with engineering, communicated that the equipment could not be supplied, and coordinated a factory visit and written integration questions (e3-e4).",
+        "Manager worklogs report revised quotations as packaging changed; the email thread later says a production-line video was sent to help the customer's marking-system integrator (e9, e19)."
+      ],
+      "manager_weak_actions": [
+        "No clear individual manager error is established. However, the customer was still asking for important line-layout, tank, pump, pressure, hopper, and container-range clarifications during contract review, showing that technical alignment remained incomplete at that checkpoint (e11).",
+        "The customer raised a specific delivery-time/advance-payment trade-off and the seller said they would consult internally; the cited record does not establish the resolution of that request (e10)."
+      ],
+      "customer_positive_signals": [
+        "The customer initiated a factory visit and requested written answers for the marking-system integration (e4).",
+        "The customer sent packaging information, requested detailed drawings and technical clarifications, and engaged in contract revisions (e9, e11, e15).",
+        "The customer pursued signature and invoicing: a signed-contract email is in the view, followed by a direct message confirming signature and a request for the invoice (e20-e22)."
+      ],
+      "customer_negative_signals": [
+        "Manager worklogs report early price sensitivity, comparison with Chinese suppliers, and a delayed purchase because the customer lacked space (e1-e2).",
+        "Container, label, cap, QR, and product-property requirements continued to change or need clarification during the technical and contract process (e3, e7-e18).",
+        "The customer directly objected to the 75-working-day delivery estimate and proposed alternative delivery or advance-payment terms (e10)."
+      ],
+      "uncertainties": [
+        "Date-only manager worklogs use inferred times and are manager claims, not contemporaneous customer speech (e0-e2, e5-e9).",
+        "The final approved machine configuration and the exact resolution of the delivery-time/advance-payment request are not established by the cited events (e10-e18).",
+        "The customer reports a signed contract, but this view does not establish whether the electronic-signing process completed or whether payment was received by Aug 31 (e20-e22).",
+        "Some technical, laboratory, financing, and legal status is available only through manager worklogs; the customer's direct messages corroborate several questions but not every reported internal milestone (e5-e9)."
+      ]
+    },
+    "18773": {
+      "outcome": "WON",
+      "trajectory_category": "funding_dependency_and_competitive_evaluation",
+      "trajectory_explanation": "The buyer directly described a price/technical comparison with another supplier and a funding certificate that had to arrive before the purchase could move forward. Those dependencies extended the decision period while the seller updated the package configuration. In September the discussion advanced into document and payment arrangements, while an additional 0.33 L fit question remained technically open. This explains the visible path only and does not assign a final outcome (evidence indices 3, 5, 7, 8, 9, 10, 11, 12, 14, 19).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-07T15:54:41+07:00",
+          "event_type": "call_transcript",
+          "event_id": "641463",
+          "source_line": 32,
+          "paraphrase": "Buyer says another supplier was asked to quote the same task and that price and technical aspects would both be compared."
+        },
+        {
+          "timestamp": "2026-08-10T15:57:20+07:00",
+          "event_type": "call_transcript",
+          "event_id": "643065",
+          "source_line": 39,
+          "paraphrase": "Buyer is still waiting for a competing offer and asks how semi-automatic packaging works; the seller explains the packaging alternatives."
+        },
+        {
+          "timestamp": "2026-08-19T15:35:48+07:00",
+          "event_type": "call_transcript",
+          "event_id": "648661",
+          "source_line": 49,
+          "paraphrase": "Buyer says the competitor still has not sent its offer but he is considering the seller's equipment and expects to decide the following week."
+        },
+        {
+          "timestamp": "2026-08-24T15:18:51+07:00",
+          "event_type": "call_transcript",
+          "event_id": "651745",
+          "source_line": 52,
+          "paraphrase": "Buyer says a funding-related certificate ordered through MFC takes six to seven working days and that a clear decision should follow once it arrives and funds are available."
+        },
+        {
+          "timestamp": "2026-08-28T14:39:38+07:00",
+          "event_type": "call_transcript",
+          "event_id": "656071",
+          "source_line": 55,
+          "paraphrase": "Buyer says the certificate is still being checked by a lawyer and hopes funds will be available the following week; the competitor still has not replied."
+        },
+        {
+          "timestamp": "2026-09-01T15:31:41+07:00",
+          "event_type": "call_transcript",
+          "event_id": "658629",
+          "source_line": 58,
+          "paraphrase": "Buyer reviews the listed equipment and asks clarifying questions about what the date coder marks and which parts are included."
+        },
+        {
+          "timestamp": "2026-09-02T13:47:58+07:00",
+          "event_type": "message",
+          "event_id": "3058113",
+          "source_line": 64,
+          "paraphrase": "Seller sends a revised offer removing the date coder and showing automatic and semi-automatic packaging options."
+        },
+        {
+          "timestamp": "2026-09-02T13:49:13+07:00",
+          "event_type": "call_transcript",
+          "event_id": "659555",
+          "source_line": 67,
+          "paraphrase": "Seller and buyer discuss that the proposed no-VAT route would require cash payment; buyer asks whether a bank-card transfer is possible."
+        },
+        {
+          "timestamp": "2026-09-02T21:02:08+07:00",
+          "event_type": "call_transcript",
+          "event_id": "660521",
+          "source_line": 74,
+          "paraphrase": "Seller proposes an IP-to-IP payment with standard paperwork and equipment described as used; buyer says he expects no problem with that arrangement."
+        },
+        {
+          "timestamp": "2026-09-07T19:04:18+07:00",
+          "event_type": "call_transcript",
+          "event_id": "663451",
+          "source_line": 104,
+          "paraphrase": "Buyer says 0.5 L glass is a real format and 0.33 L is only a possible future order; seller says a drawing or measured photo is needed to verify the smaller format."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager updated the proposal as the scope changed, offered automatic and semi-automatic packaging comparisons, and sent supporting line videos (evidence indices 4, 5, 10, 11, 15).",
+        "The manager maintained agreed check-ins while the buyer waited on financing and a competitor, then clarified the buyer's requested documents and revised the commercial paperwork (evidence indices 6, 7, 8, 9, 12, 13, 14, 17).",
+        "When the buyer asked about 0.33 L, the manager checked with production and requested bottle drawings or measured photos before confirming fit (evidence index 19)."
+      ],
+      "manager_weak_actions": [
+        "The equipment/packaging configuration and payment-document approach underwent several late revisions. A base configuration with separately priced options and an earlier checklist of required payment documents could have reduced repeated proposal changes (evidence indices 5, 10, 11, 12, 13, 14).",
+        "The view does not show a completed technical confirmation for the possible 0.33 L package before the payment-status message; the buyer had described it as a possible future format, so it should remain an open fit question (evidence indices 18, 19, 20)."
+      ],
+      "customer_positive_signals": [
+        "The buyer actively compared the offer on price and technical fit, stayed in contact while waiting for the competing supplier, and said a decision would be made even if that offer did not arrive (evidence indices 3, 7).",
+        "The buyer discussed a funding timeline, reviewed revised packaging options, provided company details for paperwork, and raised a specific additional bottle-format question (evidence indices 8, 10, 15, 16, 18, 19)."
+      ],
+      "customer_negative_signals": [
+        "The buyer repeatedly deferred proposal review and decision timing while a production incident, funding certificate, and competitor comparison were pending (evidence indices 2, 6, 7, 8, 9).",
+        "The project scope remained fluid: packaging options changed, the date coder was removed, and an additional 0.33 L format was raised late without a bottle drawing or dimensions (evidence indices 5, 10, 11, 18, 19)."
+      ],
+      "uncertainties": [
+        "Initial capacity, size, and price details are recorded in a date-only manager worklog; direct evidence confirms the multi-format project but does not independently verify every initial metric (evidence indices 0, 1).",
+        "The external funding certificate and competitor offer were not yet available during the August review; the view does not establish how either would have changed the decision (evidence indices 3, 7, 8, 9).",
+        "The 0.33 L format remained unverified without dimensions or a drawing, while the buyer described it as a possible future need (evidence indices 18, 19).",
+        "A deal-channel message says payment was received, but its sender direction is unknown and no bank document is present in the view. A separate internal comment is timestamped 28 Jul while containing later dated notes, so it was not used as customer-confirmed payment evidence (evidence indices 20, 22)."
+      ]
+    },
+    "18733": {
+      "outcome": "WON",
+      "trajectory_category": "scope_refinement_and_internal_approval",
+      "trajectory_explanation": "The visible path lengthened as optional conical containers changed the price and technical scope, specifications/questionnaire details were completed, and the buyer's management and legal reviewers controlled approval and contract timing. The customer later directly confirmed purchase approval and reported payment, so the preceding delay is best explained by scope and internal process rather than a visible loss of interest. This describes the trajectory only and does not assign a final outcome label (evidence indices 3, 4, 5, 6, 7, 8, 9, 12, 14, 15).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-05T17:28:11+07:00",
+          "event_type": "call_transcript",
+          "event_id": "639465",
+          "source_line": 66,
+          "paraphrase": "Buyer says leadership was occupied/on leave and the equipment discussion had not yet been reached amid other priorities."
+        },
+        {
+          "timestamp": "2026-08-07T14:35:53+07:00",
+          "event_type": "email",
+          "event_id": "641257",
+          "source_line": 87,
+          "paraphrase": "Buyer requests the final quote before contract and invoice because the higher price needs internal approval."
+        },
+        {
+          "timestamp": "2026-08-10T16:38:20+07:00",
+          "event_type": "call_transcript",
+          "event_id": "643111",
+          "source_line": 105,
+          "paraphrase": "Buyer says the questionnaire remains incomplete because label dimensions were not recorded and he had not had time to finish it."
+        },
+        {
+          "timestamp": "2026-08-13T16:50:23+07:00",
+          "event_type": "call_transcript",
+          "event_id": "645607",
+          "source_line": 132,
+          "paraphrase": "Buyer says the contract was forwarded to the lawyer and describes a legal review process that could take time."
+        },
+        {
+          "timestamp": "2026-08-25T15:52:31+07:00",
+          "event_type": "call_transcript",
+          "event_id": "652825",
+          "source_line": 170,
+          "paraphrase": "Buyer says management is reconsidering the conical-container configuration because of added operating and logistics complexity."
+        },
+        {
+          "timestamp": "2026-08-26T16:25:46+07:00",
+          "event_type": "call_transcript",
+          "event_id": "654071",
+          "source_line": 174,
+          "paraphrase": "Buyer confirms that the conical option is excluded, asks for a recalculated quote and contract, and says the active configuration has three cylindrical package positions."
+        },
+        {
+          "timestamp": "2026-08-28T15:01:00+07:00",
+          "event_type": "call_transcript",
+          "event_id": "656109",
+          "source_line": 191,
+          "paraphrase": "Buyer directly says the purchase is approved and contract edits are being handled."
+        },
+        {
+          "timestamp": "2026-09-02T14:19:09+07:00",
+          "event_type": "call_transcript",
+          "event_id": "659615",
+          "source_line": 214,
+          "paraphrase": "Buyer says documents are sent for signature and payment, with another responsible person still needing to process them."
+        },
+        {
+          "timestamp": "2026-09-04T15:43:43+07:00",
+          "event_type": "call_transcript",
+          "event_id": "662021",
+          "source_line": 224,
+          "paraphrase": "Buyer does not know whether payment will happen that day or the following week and says he will check with the director."
+        },
+        {
+          "timestamp": "2026-09-07T14:52:01+07:00",
+          "event_type": "email",
+          "event_id": "662983",
+          "source_line": 225,
+          "paraphrase": "Customer email states that payment went through. This is customer-reported payment status, not an independent bank-credit confirmation."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager obtained package information, involved production in feasibility checks, and revised the proposal as the buyer considered the conical option and later removed it (evidence indices 0, 4, 7, 8).",
+        "The manager provided contract and technical follow-up, including a direct response to the buyer's concern about applying a label to the cylindrical cardboard cup (evidence indices 6, 10, 11)."
+      ],
+      "manager_weak_actions": [
+        "Questionnaire handling created avoidable friction: the buyer said the attachment was missing and later explained that the form was incomplete because dimensions were not recorded; the contract path depended on completing those details (evidence indices 5, 6).",
+        "Scope and price needed several revisions as the optional conical format was introduced and then removed. This was partly customer-led, but consolidating a clear base configuration plus priced options could have reduced rework (evidence indices 4, 7, 8)."
+      ],
+      "customer_positive_signals": [
+        "The buyer forwarded the proposal for management review, requested a revised final quote when scope changed, and provided company and package information (evidence indices 2, 4, 5).",
+        "The buyer worked through legal review and technical questions, then directly stated that the purchase was approved and later sent a signed contract (evidence indices 6, 9, 10, 13)."
+      ],
+      "customer_negative_signals": [
+        "The buyer could not consistently prioritize the questionnaire and equipment discussion while other work and management reviews were pending; this limited speed of specification and approval, but does not by itself show disinterest (evidence indices 3, 5, 6).",
+        "The conical-container option was reconsidered and removed after it raised additional cost and operational questions, requiring another proposal and contract adjustment (evidence indices 4, 7, 8)."
+      ],
+      "uncertainties": [
+        "Two date-only manager worklogs conflict on initial price acceptance; the buyer-sourced call only establishes that the proposal was forwarded for internal review (evidence indices 0, 1, 2).",
+        "The detailed starting capacity and size range are in a manager worklog; later customer calls support the cylindrical/conical scope changes but do not independently verify every initial specification (evidence indices 0, 7, 8).",
+        "Payment is self-reported by the customer, followed by a seller production handoff; there is no independent bank confirmation in the view. This is a strong indirect outcome cue and is not used to predict or assign WON/LOST (evidence indices 14, 15, 16)."
+      ]
+    },
+    "18745": {
+      "outcome": "WON",
+      "trajectory_category": "internal_approval_and_payment_coordination",
+      "trajectory_explanation": "The visible trajectory advanced technically and contractually, while director/investor availability and subsequent legal/accounting steps delayed the decision and payment schedule. The manager's contract omissions created avoidable rework, and repeated payment reminders irritated the buyer after the buyer said finance controlled timing. These factors describe process friction and delay; the uncertain internal 80% payment note is not used as customer-confirmed status or as an outcome label (evidence indices 2, 3, 6, 7, 9, 10, 11, 12, 15, 17).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-27T17:30:06+07:00",
+          "event_type": "call_transcript",
+          "event_id": "630239",
+          "source_line": 22,
+          "paraphrase": "Buyer says the price is acceptable to him and that he forwarded the proposal to the director/investor, who had not yet reviewed it."
+        },
+        {
+          "timestamp": "2026-08-03T16:41:20+07:00",
+          "event_type": "call_transcript",
+          "event_id": "636549",
+          "source_line": 42,
+          "paraphrase": "Buyer says the director and investor are expected to decide during the week."
+        },
+        {
+          "timestamp": "2026-08-05T14:43:30+07:00",
+          "event_type": "call_transcript",
+          "event_id": "638981",
+          "source_line": 47,
+          "paraphrase": "Buyer says the decision is nearly made, requests the complete package including commissioning, confirms the quoted price range, and notes that internal bureaucracy may delay review."
+        },
+        {
+          "timestamp": "2026-08-06T19:08:52+07:00",
+          "event_type": "call_transcript",
+          "event_id": "640837",
+          "source_line": 72,
+          "paraphrase": "Buyer flags that the contract names the wrong director and lacks the commissioning contract, asking for both documents together."
+        },
+        {
+          "timestamp": "2026-08-10T14:27:08+07:00",
+          "event_type": "call_transcript",
+          "event_id": "642873",
+          "source_line": 80,
+          "paraphrase": "Buyer says the director has not yet responded and the company is still waiting, although the equipment is needed."
+        },
+        {
+          "timestamp": "2026-08-12T15:19:37+07:00",
+          "event_type": "call_transcript",
+          "event_id": "644641",
+          "source_line": 84,
+          "paraphrase": "Buyer says the director is not answering and he has no decision update."
+        },
+        {
+          "timestamp": "2026-08-14T15:10:54+07:00",
+          "event_type": "call_transcript",
+          "event_id": "646481",
+          "source_line": 87,
+          "paraphrase": "Buyer reports director approval and says contract review will still take time, with a later check-in planned."
+        },
+        {
+          "timestamp": "2026-08-20T15:58:58+07:00",
+          "event_type": "message",
+          "event_id": "3018267",
+          "source_line": 94,
+          "paraphrase": "Buyer says payment is planned for the following Tuesday."
+        },
+        {
+          "timestamp": "2026-08-26T13:59:49+07:00",
+          "event_type": "call_transcript",
+          "event_id": "653777",
+          "source_line": 118,
+          "paraphrase": "Buyer says the equipment is approved and awaiting payment, but says repeated daily payment questions are irritating and that accounting controls the payment day."
+        },
+        {
+          "timestamp": "2026-07-24T14:30:42+07:00",
+          "event_type": "comment",
+          "event_id": "2909975",
+          "source_line": 3,
+          "paraphrase": "Internal comment stamped 24 Jul contains dated running notes through 27 Aug and a manager claim of 80% payment received; chronology is uncertain and the claim is not treated as customer-confirmed."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager requested package dimensions, sent the proposal and video, checked technical fit against the containers, and continued through proposal and contract revision (evidence indices 1, 6, 7, 8).",
+        "After the buyer flagged contract defects, the manager sent a changed contract the next day and later coordinated the invoice and payment follow-up (evidence indices 7, 8, 13, 16)."
+      ],
+      "manager_weak_actions": [
+        "The first contract package used the wrong director title and omitted the separate commissioning agreement; the buyer had to point out both issues and ask for a complete package (evidence index 7).",
+        "Repeated payment checks were too frequent for the buyer and caused explicit irritation; aligning directly with accounting or agreeing one payment check-in could have reduced friction (evidence indices 15, 16)."
+      ],
+      "customer_positive_signals": [
+        "The buyer said the quoted price was acceptable personally and forwarded it to management; later he provided package information and asked for a complete contract and commissioning scope (evidence indices 1, 2, 4, 5, 6).",
+        "The buyer directly said the equipment contract was approved and described payment as awaiting the company's payment process (evidence index 15)."
+      ],
+      "customer_negative_signals": [
+        "Director access and internal review were slow, and the buyer often could not give an approval date (evidence indices 3, 9, 10).",
+        "The buyer became irritated by repeated payment requests, saying payment timing was handled by accounting and that he could not promise a particular day (evidence index 15)."
+      ],
+      "uncertainties": [
+        "The detailed unit rate and initial readiness are from a date-only manager worklog; the buyer directly confirms cylindrical packages and printing but not every initial metric (evidence indices 0, 1).",
+        "The internal comment is timestamped 24 Jul but contains later dated notes, including a 27 Aug payment claim. Its exact chronology and the claimed 80% receipt are uncertain; customer-sourced 26 Aug evidence still describes payment as awaiting accounting (evidence indices 15, 17).",
+        "The later filling-module inquiry is different scope and should not be merged with the labeler trajectory (evidence index 14)."
+      ]
+    },
+    "5971": {
+      "outcome": "WON",
+      "trajectory_category": "contract_progress_with_delivery_coordination",
+      "trajectory_explanation": "The visible trajectory moved from contract and compliance review to a signed scan, then shifted to shipment scheduling and the permitted acceptance route. The view ends with the alternative route being checked, so it does not establish that dispatch or acceptance was completed (evidence: 3-10).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2025-10-15T13:36:32+07:00",
+          "event_type": "email",
+          "event_id": "492293",
+          "source_line": 41,
+          "paraphrase": "Leasing said material contract changes required higher-level review and that it expected a decision that day."
+        },
+        {
+          "timestamp": "2025-10-15T19:07:35+07:00",
+          "event_type": "email",
+          "event_id": "492737",
+          "source_line": 44,
+          "paraphrase": "Leasing sent a contract with legal comments and accepted edits for review and agreement."
+        },
+        {
+          "timestamp": "2025-10-17T17:02:56+07:00",
+          "event_type": "email",
+          "event_id": "493533",
+          "source_line": 57,
+          "paraphrase": "Leasing sent a scan of the signed purchase contract."
+        },
+        {
+          "timestamp": "2025-10-17T20:24:50+07:00",
+          "event_type": "email",
+          "event_id": "493697",
+          "source_line": 66,
+          "paraphrase": "The end-customer contact asked when shipment could be planned."
+        },
+        {
+          "timestamp": "2025-10-20T20:28:47+07:00",
+          "event_type": "call_transcript",
+          "event_id": "494171",
+          "source_line": 78,
+          "paraphrase": "Leasing said the customer would be absent from Moscow and was ready to issue a power of attorney for acceptance, asking if a vendor employee could sign."
+        },
+        {
+          "timestamp": "2025-10-20T20:39:31+07:00",
+          "event_type": "call_transcript",
+          "event_id": "494179",
+          "source_line": 82,
+          "paraphrase": "Vendor legal declined the power-of-attorney plan because the vendor was an interested party; production had not yet confirmed the shipping date."
+        },
+        {
+          "timestamp": "2025-10-20T21:10:43+07:00",
+          "event_type": "call_transcript",
+          "event_id": "494193",
+          "source_line": 84,
+          "paraphrase": "Leasing proposed shipment to its recipient, with the acceptance act signed there, and asked the vendor to confirm the route."
+        }
+      ],
+      "manager_strong_actions": [
+        "Raised the need to attach packaging and label specifications to the contract and engaged on legal and acceptance questions (evidence: 1,9-10)."
+      ],
+      "manager_weak_actions": [],
+      "customer_positive_signals": [
+        "The leasing contact reported internal circulation and sent a signed contract scan (evidence: 0,5).",
+        "The customer requested shipment timing and proposed alternatives for delivery and acceptance (evidence: 6-8,10)."
+      ],
+      "customer_negative_signals": [],
+      "uncertainties": [
+        "The previous preprocessing role gave me residual familiarity with the raw chronology and lifecycle anomalies, so this audit is label-blind but not fully chronology-blind.",
+        "No outcome labels or prior audit files were consulted for this audit; same-day status beyond the visible exchanges is not established by this view.",
+        "Run A auditor previously handled source preprocessing; this deal's paired independence is limited."
+      ]
+    },
+    "18485": {
+      "outcome": "WON",
+      "trajectory_category": "legal_approval_with_document_routing_uncertainty",
+      "trajectory_explanation": "The visible sequence advanced from a quote and specification additions into legal review. Counsel approval was reported, but EDI receipt and the contract's signed status remained under recheck at the last retained call; this is a process state, not evidence of a final outcome (evidence: 2,4-9).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-06-19T15:21:17+07:00",
+          "event_type": "call_transcript",
+          "event_id": "605831",
+          "source_line": 29,
+          "paraphrase": "The customer asked to add a printer-marker, two cartridges, and the cartridge model to the contract specification."
+        },
+        {
+          "timestamp": "2026-06-23T18:20:34+07:00",
+          "event_type": "call_transcript",
+          "event_id": "607821",
+          "source_line": 38,
+          "paraphrase": "The customer asked how long the process would take, described preparing labels and tubes, and said it wanted to secure the price before a July 1 increase because internal contract approval was complex."
+        },
+        {
+          "timestamp": "2026-06-25T09:56:16+07:00",
+          "event_type": "email",
+          "event_id": "609185",
+          "source_line": 44,
+          "paraphrase": "The customer said its lawyers requested a tax-compliance certificate."
+        },
+        {
+          "timestamp": "2026-06-25T11:42:23+07:00",
+          "event_type": "email",
+          "event_id": "609209",
+          "source_line": 46,
+          "paraphrase": "The customer acknowledged the certificate response and said it would see what counsel replied."
+        },
+        {
+          "timestamp": "2026-06-25T12:26:08+07:00",
+          "event_type": "email",
+          "event_id": "609213",
+          "source_line": 47,
+          "paraphrase": "The customer reported that counsel approved and asked for the contract and invoice in EDI."
+        },
+        {
+          "timestamp": "2026-06-25T13:40:07+07:00",
+          "event_type": "email",
+          "event_id": "609317",
+          "source_line": 52,
+          "paraphrase": "The customer said its side had not received the contract and invoice through EDI."
+        },
+        {
+          "timestamp": "2026-06-25T14:07:57+07:00",
+          "event_type": "call_transcript",
+          "event_id": "609363",
+          "source_line": 57,
+          "paraphrase": "The customer thought the invoice was signed but the contract was not, and the parties agreed to recheck the document status."
+        }
+      ],
+      "manager_strong_actions": [
+        "Presented a shortened production lead-time estimate, discussed label placement, and agreed to revise the specification for the requested printer-marker and cartridges (evidence: 1-2).",
+        "A covering manager took the customer's status call and responded to the stated urgency (evidence: 4)."
+      ],
+      "manager_weak_actions": [
+        "A manager worklog reports using the announced price increase to pressure the customer to speed approval; this is self-reported and the customer only independently confirms concern about the price window (evidence: 3-4)."
+      ],
+      "customer_positive_signals": [
+        "The customer proactively asked to add specific equipment and consumable details to the contract specification (evidence: 2).",
+        "The customer shared legal requirements, responded to the certificate request, and reported when counsel had approved the documents (evidence: 5-7)."
+      ],
+      "customer_negative_signals": [
+        "The client expressed concern about lengthy internal contract approvals and uncertainty about receiving or signing the EDI documents (evidence: 3,8-9)."
+      ],
+      "uncertainties": [
+        "The previous preprocessing role gave me residual familiarity with raw chronology and lifecycle-boundary corrections, so this audit is label-blind but not fully chronology-blind.",
+        "The initial product and schedule detail comes from a manager worklog rather than customer statements in the retained events.",
+        "The view ends during active document-status checks; no final outcome is established.",
+        "Run A auditor previously handled source preprocessing; this deal's paired independence is limited."
+      ]
+    },
+    "18635": {
+      "outcome": "WON",
+      "trajectory_category": "Technical fit and acceptance-test alignment",
+      "trajectory_explanation": "The visible trajectory centers on how a keyed can would be positioned and labeled at the desired speed, and how the customer could verify performance on its own can. The seller clearly stated the automatic-orientation speed constraint and could not provide a pre-manufacture sample test; the customer therefore focused on documenting a post-manufacture test and acceptance procedure. Contract and invoice steps advanced, and the final direct call records the customer's stated intention to pay and prepare samples, but the view does not confirm payment receipt (e1-e5, e10-e18).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-08T21:07:56+07:00",
+          "event_type": "call_transcript",
+          "event_id": "616211",
+          "source_line": 11,
+          "paraphrase": "Seller says automatic rotation to align the can key limits throughput to about 1,000-1,200/hour; manually pre-positioning cans could increase speed."
+        },
+        {
+          "timestamp": "2026-07-09T13:23:47+07:00",
+          "event_type": "message",
+          "event_id": "2865799,2865801",
+          "source_line": 19,
+          "paraphrase": "Customer asks whether the final throughput will remain 1,000 cans/hour."
+        },
+        {
+          "timestamp": "2026-07-09T14:32:48+07:00",
+          "event_type": "message",
+          "event_id": "2866301,2866303",
+          "source_line": 26,
+          "paraphrase": "Customer asks whether the video is an AI visualization or a real prototype and whether its own can and label can be tested."
+        },
+        {
+          "timestamp": "2026-07-09T14:35:53+07:00",
+          "event_type": "message",
+          "event_id": "2866325,2866327",
+          "source_line": 27,
+          "paraphrase": "Seller says the example is from an earlier project, no equipment is currently available for testing, and testing will take place after manufacture."
+        },
+        {
+          "timestamp": "2026-07-20T16:53:48+07:00",
+          "event_type": "email",
+          "event_id": "624601",
+          "source_line": 74,
+          "paraphrase": "Customer asks for contract corrections to appendices and wants the acceptance act to record whether the equipment demonstration worked and any objections at the time of demonstration."
+        },
+        {
+          "timestamp": "2026-07-20T16:57:37+07:00",
+          "event_type": "email",
+          "event_id": "624607",
+          "source_line": 75,
+          "paraphrase": "Seller confirms receipt of the customer's contract edits and says they were sent to legal for review."
+        },
+        {
+          "timestamp": "2026-07-21T12:53:15+07:00",
+          "event_type": "email",
+          "event_id": "625383",
+          "source_line": 87,
+          "paraphrase": "Customer says there are no remaining comments on the disagreement protocol after editing an appendix."
+        },
+        {
+          "timestamp": "2026-07-21T14:56:07+07:00",
+          "event_type": "call_transcript",
+          "event_id": "625679",
+          "source_line": 89,
+          "paraphrase": "Customer says to proceed with signing and payment quickly and confirms the contract can be sent through EDO."
+        },
+        {
+          "timestamp": "2026-07-22T20:26:08+07:00",
+          "event_type": "call_transcript",
+          "event_id": "627315",
+          "source_line": 103,
+          "paraphrase": "Customer says contract documents arrived but were not yet reviewed; seller says the invoice was sent, and customer will check it. Payment is not confirmed."
+        },
+        {
+          "timestamp": "2026-07-23T19:24:11+07:00",
+          "event_type": "call_transcript",
+          "event_id": "628201",
+          "source_line": 114,
+          "paraphrase": "Customer says payment is expected that day or the next, asks the seller to prepare production, and agrees to send label rolls and 50 product cans for testing. The call records expected payment, not receipt."
+        },
+        {
+          "timestamp": "2026-07-23T19:50:55+07:00",
+          "event_type": "message",
+          "event_id": "2908177,2908179,2908183",
+          "source_line": 115,
+          "paraphrase": "Customer asks whether 70% of the current 954,000 invoice is the initial payment."
+        }
+      ],
+      "manager_strong_actions": [
+        "The seller stated the throughput limit early and explained the can-positioning tradeoff, then answered questions about payment, label sensing, and the questionnaire (e1-e3, e7-e8).",
+        "The seller sent example footage, disclosed that a sample test was unavailable before manufacturing, and said the detailed acceptance test would be conducted after manufacturing (e4-e5).",
+        "The seller involved legal in the buyer's contract edits, responded to the buyer's EDO invitation and invoice questions, and coordinated the requested sample materials for a test (e10-e12, e15-e18)."
+      ],
+      "manager_weak_actions": [
+        "The buyer's central validation need could not be met before manufacture; the seller offered post-manufacture testing, leaving the customer exposed to a wait before seeing its own can run on the equipment (e4-e5, e16). This is a solution-capability limit, not clearly an individual manager error.",
+        "The final manager worklog states that a payment order was submitted, but same-day customer-sourced messages and call discuss payment as upcoming; this difference in timing/source should not be treated as confirmed receipt (e14, e16-e18)."
+      ],
+      "customer_positive_signals": [
+        "The customer engaged on throughput, key alignment, label roll requirements, service, payment terms, and testing details (e1-e8).",
+        "The customer provided packaging and label measurements, completed the questionnaire, supplied contract revisions, and accepted the revised protocol (e8-e12).",
+        "The customer directly said to sign and pay quickly, then discussed sending product cans and labels for the post-manufacture test (e13, e16-e18)."
+      ],
+      "customer_negative_signals": [
+        "The requested 2,000 cans/hour exceeded the seller's stated automatic-orientation rate of about 1,000-1,200/hour; no measured production result appears in the view (e1-e2).",
+        "The customer could not test its own can before ordering; it requested that testing and acceptance conditions be made explicit in the contract (e4-e5, e10).",
+        "The customer needed to resolve contract edits and asked for invoice re-delivery because the original invoice could not be opened (e10-e12, e15-e17)."
+      ],
+      "uncertainties": [
+        "Initial price acceptance and early readiness-to-buy are date-only manager claims rather than direct customer messages in the cited events (e0).",
+        "Actual throughput and label performance on the customer's cans are not measured in this view; the planned sample run is after manufacture (e1, e4-e5, e16).",
+        "The date-only worklog says a payment order was submitted, while customer-sourced same-day events discuss paying and ask about the 70% amount; no bank receipt or completed transfer is established here (e14, e16-e18).",
+        "The final signed-contract/payment chronology is uncertain because the manager worklog uses an inferred time and summarizes multiple milestones, while the same-day customer call describes payment as upcoming (e14, e16-e18)."
+      ]
+    },
+    "6885": {
+      "outcome": "WON",
+      "trajectory_category": "Technical qualification and contract progressed; payment confirmation remains open",
+      "trajectory_explanation": "The buyer's director approved the approach after technical questions were answered, and the parties moved through contract review to a signed contract and invoice. The visible remaining steps are contract-channel confirmation and payment; the final call records expected payment, not confirmed receipt. [evidence: 5, 6, 7, 9, 11, 12, 13]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-02-04T13:24:04+03:00",
+          "event_type": "call_transcript",
+          "event_id": "528669",
+          "source_line": 31,
+          "paraphrase": "Manager said a divider could be added for 128k and proposed 50/20/30 payment stages; buyer would present it to the director."
+        },
+        {
+          "timestamp": "2026-02-06T13:01:32+03:00",
+          "event_type": "call_transcript",
+          "event_id": "529553",
+          "source_line": 38,
+          "paraphrase": "Buyer said the director approved moving to a contract for an individual entrepreneur and discussed sending container samples and using EDO."
+        },
+        {
+          "timestamp": "2026-02-09T15:48:18+03:00",
+          "event_type": "call_transcript",
+          "event_id": "530215",
+          "source_line": 47,
+          "paraphrase": "Manager sent a standard contract and disagreement protocol and explained the next review/signature step."
+        },
+        {
+          "timestamp": "2026-02-16T13:03:43+03:00",
+          "event_type": "email",
+          "event_id": null,
+          "source_line": 63,
+          "paraphrase": "Buyer said the revised contract attachment was missing and asked the seller to resend it."
+        },
+        {
+          "timestamp": "2026-02-19T10:28:22+03:00",
+          "event_type": "email",
+          "event_id": null,
+          "source_line": 73,
+          "paraphrase": "Seller returned the countersigned contract and sent an invoice."
+        },
+        {
+          "timestamp": "2026-02-19T10:28:34+03:00",
+          "event_type": "call_transcript",
+          "event_id": "533263",
+          "source_line": 75,
+          "paraphrase": "Buyer said payment was being arranged and expected it promptly; no payment proof is visible here."
+        },
+        {
+          "timestamp": "2026-02-20T13:00:44+03:00",
+          "event_type": "call_transcript",
+          "event_id": "533935",
+          "source_line": 80,
+          "paraphrase": "Customer could not yet reach the contract signer; a half-payment appeared in a payment list, and a payment order was expected. No bank receipt is confirmed."
+        }
+      ],
+      "manager_strong_actions": [
+        "Obtained a production-backed solution and explained the conveyor, side supports, sensor, and optional divider. [evidence: 1, 5, 6]",
+        "Provided a revised offer, video, and structured payment terms after the director's questions. [evidence: 5, 6]",
+        "Prepared a contract for the buyer's legal review, sent it in Word when requested, and returned the seller-signed copy with an invoice. [evidence: 7, 10, 11]"
+      ],
+      "manager_weak_actions": [
+        "The initial quote did not resolve the buyer's key concern about closely spaced containers; a sample run or clear separation diagram was needed after the director raised it. [evidence: 1, 5]",
+        "The offer/contract email was not received promptly and had to be re-sent through Telegram; the customer also later could not find the contract attachment and requested a Word copy. [evidence: 2, 10]",
+        "Pickup/carrier responsibility was clarified only after legal review, leaving two delivery clauses unresolved. [evidence: 9]"
+      ],
+      "customer_positive_signals": [
+        "Provided container photos and asked for a concrete technical solution and exact price. [evidence: 0, 1]",
+        "Said the director was leaning toward the seller's option, then approved starting contract preparation. [evidence: 3, 7]",
+        "Returned signed paperwork and continued coordinating payment and document format. [evidence: 11, 12, 13]"
+      ],
+      "customer_negative_signals": [
+        "The director required additional assurance about spacing, sensing, print quality, and divider operation before settling the design. [evidence: 5]",
+        "The customer's legal review challenged delivery-risk clauses and requested the editable contract. [evidence: 9, 10]"
+      ],
+      "uncertainties": [
+        "The Jan. 24 manager note reports 50% received, but the later 50/20/30 schedule and invoice are not reconciled in the customer-facing excerpts. [evidence: 0, 6, 13]",
+        "No payment confirmation or equipment delivery/acceptance is present after the buyer's expected payment date. [evidence: 13]",
+        "The physical sample-test result is not shown. [evidence: 1, 5]",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+      ]
+    },
+    "7191": {
+      "outcome": "WON",
+      "trajectory_category": "Scope phased to fit the buyer's new facility; contract progressed and payment remained pending",
+      "trajectory_explanation": "The buyer did not reject the solution; it deliberately narrowed the initial purchase to core filling/capping equipment and tables, leaving the labeler and automatic cap feed for later. Technical questions about product transfer and bottle formats were addressed, and the buyer proceeded through contract review. The endpoint is signed paperwork and an invoice with payment timing still open, not a confirmed payment or production start. [evidence: 2, 4, 6, 9, 10, 12, 14]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-03-06T13:48:32+03:00",
+          "event_type": "call_transcript",
+          "event_id": "538375",
+          "source_line": 21,
+          "paraphrase": "Seller said a ten-meter transfer path could be too long, proposed moving/raising the tank or a booster pump, and agreed to 50/20/30 payments; buyer planned to move the vessel closer."
+        },
+        {
+          "timestamp": "2026-03-13T10:34:25+03:00",
+          "event_type": "call_transcript",
+          "event_id": "540359",
+          "source_line": 35,
+          "paraphrase": "Buyer said it could not buy a full line now and selected a feed table, filler, capper, and receiving table, postponing the cap hopper and labeler."
+        },
+        {
+          "timestamp": "2026-03-16T10:58:06+03:00",
+          "event_type": "call_transcript",
+          "event_id": "540985",
+          "source_line": 45,
+          "paraphrase": "Buyer corrected an apparently erroneous pH value and said current bottles would be cylindrical, with samples and dimensions to follow."
+        },
+        {
+          "timestamp": "2026-03-18T09:52:14+03:00",
+          "event_type": "call_transcript",
+          "event_id": "542019",
+          "source_line": 62,
+          "paraphrase": "Buyer confirmed the contract had arrived, was under security review, and expected signing and payment that week."
+        },
+        {
+          "timestamp": "2026-03-19T11:42:20+03:00",
+          "event_type": "call_transcript",
+          "event_id": "542819",
+          "source_line": 67,
+          "paraphrase": "Buyer asked to send the contract and protocol through EDO and said it would sign and pay that day."
+        },
+        {
+          "timestamp": "2026-03-24T12:17:21+03:00",
+          "event_type": "call_transcript",
+          "event_id": "545097",
+          "source_line": 84,
+          "paraphrase": "Another customer contact said the buyer was traveling and would return around Mar. 25–26."
+        },
+        {
+          "timestamp": "2026-04-07T11:51:03+03:00",
+          "event_type": "call_transcript",
+          "event_id": "553873",
+          "source_line": 107,
+          "paraphrase": "Buyer said security had additional protocol edits after its absence; seller agreed to review them with legal."
+        }
+      ],
+      "manager_strong_actions": [
+        "Requested and routed product and packaging details for technical review. [evidence: 0, 1]",
+        "Explained the limitation of a ten-meter product-transfer line and laid out practical alternatives. [evidence: 2]",
+        "Hosted the factory visit, added requested tables, revised the quote, and agreed to build the contract scope around the equipment the buyer chose now. [evidence: 4, 5, 6]",
+        "Confirmed that the line could be adjusted for the future bottle size and specified left-to-right orientation in the technical documents. [evidence: 9, 10]"
+      ],
+      "manager_weak_actions": [
+        "The original proposal omitted a cap hopper, and the buyer learned during the factory visit that caps would be manually placed; this needed clearer disclosure earlier. [evidence: 6]",
+        "The customer had to flag that the second specification sheet was difficult and that labeling was not part of this purchase; the seller then offered to fill some of it and requested only the critical dimensions. [evidence: 7]",
+        "An EDO invitation/roaming issue meant the buyer's accounting team could not see the contract documents, requiring another resend path. [evidence: 12, 13]"
+      ],
+      "customer_positive_signals": [
+        "Sent container photos and label dimensions and engaged with detailed technical questions. [evidence: 0, 1]",
+        "Visited the factory and refined the offer by asking to add input/output tables. [evidence: 4, 5]",
+        "Accepted the 50/20/30 payment structure and gave a clear first-stage scope: tables, filler, and capper. [evidence: 2, 6]",
+        "Provided bottle sizes and line-orientation requirements, then returned signed contractual documents according to the seller's Apr. 13 message. [evidence: 9, 10, 14]"
+      ],
+      "customer_negative_signals": [
+        "The buyer could not commit to the entire line at once and postponed the labeler and cap hopper. [evidence: 6]",
+        "The customer raised multiple document-processing questions and was unavailable while traveling, which delayed signature and payment follow-up. [evidence: 12, 13, 14]"
+      ],
+      "uncertainties": [
+        "The approximate 3M price acceptance and early purchase timing appear in a manager worklog and are not directly stated by the customer in the shown events. [evidence: 0]",
+        "The final bottle sample, cap-feeding choice, and labeler timing are not resolved in this view. [evidence: 6, 9]",
+        "No payment confirmation or production start appears after the seller's Apr. 13 request. [evidence: 14]"
+      ]
+    },
+    "6983": {
+      "outcome": "WON",
+      "trajectory_category": "Capacity rework followed by staged financing and scope additions",
+      "trajectory_explanation": "The visible trajectory moved through a capacity revision, customer approval and contract signature, then slower installment payments under a buyer-reported credit burden. Connecting conveyor sections and a date coder were added after the main agreement, requiring further sizing and an amendment. The buyer's final payment and production-start request remain unconfirmed in the view. [evidence: 1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-02-05T16:18:28+03:00",
+          "event_type": "call_transcript",
+          "event_id": "529243",
+          "source_line": 14,
+          "paraphrase": "Manager explained the 831k conveyor/labeling proposal and said production designed for 300mm-wide product and around 1,000/hour; buyer asked about spacing, sensors, and a sample test."
+        },
+        {
+          "timestamp": "2026-02-10T10:50:56+03:00",
+          "event_type": "call_transcript",
+          "event_id": "530379",
+          "source_line": 23,
+          "paraphrase": "Buyer said a shrink tunnel runs at 4,000/hour and asked whether the labeling line could be revised to that capacity."
+        },
+        {
+          "timestamp": "2026-02-16T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2501441",
+          "source_line": 27,
+          "paraphrase": "Manager worklog says the revised 4,000-per-hour proposal was acceptable and the buyer would send the order form; this is a manager claim."
+        },
+        {
+          "timestamp": "2026-03-18T14:43:42+03:00",
+          "event_type": "email",
+          "event_id": "542329",
+          "source_line": 79,
+          "paraphrase": "Customer sent a scan of the contract signed on its side."
+        },
+        {
+          "timestamp": "2026-04-07T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2501441",
+          "source_line": 112,
+          "paraphrase": "Manager worklog says buyer requested a refreshed invoice and planned multiple 200–250k payments over about two weeks; it describes buyer's reported payment plan."
+        },
+        {
+          "timestamp": "2026-04-08T09:04:39+03:00",
+          "event_type": "call_transcript",
+          "event_id": "554525",
+          "source_line": 119,
+          "paraphrase": "Buyer said it would submit a first payment that day and asked for an additional connecting conveyor; exact length was still needed."
+        },
+        {
+          "timestamp": "2026-04-13T10:05:44+03:00",
+          "event_type": "call_transcript",
+          "event_id": "556529",
+          "source_line": 123,
+          "paraphrase": "Buyer said payments had started, expected more over the next two weeks, and was still preparing dimensions for extra conveyor sections."
+        },
+        {
+          "timestamp": "2026-04-23T11:15:06+03:00",
+          "event_type": "call_transcript",
+          "event_id": "561037",
+          "source_line": 144,
+          "paraphrase": "Buyer said a 300k payment was planned and described a financing burden; it also asked whether a date coder was included, and the manager said it was not in the original configuration."
+        },
+        {
+          "timestamp": "2026-04-29T11:15:00+03:00",
+          "event_type": "call_transcript",
+          "event_id": "565397",
+          "source_line": 151,
+          "paraphrase": "Buyer accepted the 282k thermal inkjet date coder with mounting and asked to proceed with an addendum."
+        },
+        {
+          "timestamp": "2026-05-04T15:09:29+03:00",
+          "event_type": "call_transcript",
+          "event_id": "567607",
+          "source_line": 156,
+          "paraphrase": "Manager said production normally starts after the full 80% advance; buyer said the addendum had arrived and would be signed the next day."
+        },
+        {
+          "timestamp": "2026-05-12T15:48:55+03:00",
+          "event_type": "call_transcript",
+          "event_id": "575047",
+          "source_line": 164,
+          "paraphrase": "Buyer reported 1.5M paid and promised another 300k the next day to reach 80%; manager said he would ask production to start after the promised payment."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager took the 4,000-per-hour requirement back for technical review and sent a revised proposal. [evidence: 2, 3]",
+        "The manager prepared the contract after the buyer accepted the revised proposal and returned the buyer-signed agreement for seller signature and invoicing. [evidence: 4, 5, 6]",
+        "The manager checked invoice/payment progress, clarified the separate conveyor request, and obtained technical/pricing information for the date-coder add-on. [evidence: 7, 8, 9, 10, 11]"
+      ],
+      "manager_weak_actions": [
+        "The initial proposal assumed materially lower throughput than the buyer's neighboring shrink tunnel. Confirming line speed and interfaces before issuing the first offer could have reduced rework. [evidence: 1, 2]",
+        "The date-coding need was not captured in the main equipment scope and surfaced after the contract was signed, creating a separate amendment during payment follow-up. [evidence: 6, 10, 11, 12, 13]",
+        "The May 4 explanation said production would begin after the full advance, while the May 12 call framed the remaining amount as the balance to an 80% production threshold. The view does not clarify whether these were the same contractual milestone. [evidence: 12, 13]"
+      ],
+      "customer_positive_signals": [
+        "The buyer raised the throughput mismatch, reviewed the revised quote, and said the second proposal was acceptable. [evidence: 2, 4]",
+        "The buyer returned a customer-signed contract scan. [evidence: 6]",
+        "The buyer discussed payment plans, reported 1.5M paid, and proposed a further payment toward the seller's stated production threshold. [evidence: 7, 8, 9, 10, 13]",
+        "The buyer identified additional practical needs, including connecting conveyors and a date coder, and accepted the quoted coder add-on. [evidence: 8, 10, 11]"
+      ],
+      "customer_negative_signals": [
+        "The initial throughput assumption did not match the adjacent shrink tunnel, so the technical offer required revision. [evidence: 1, 2]",
+        "The buyer could not give a firm payment completion date and described a large credit obligation as a financial burden. [evidence: 5, 8, 10]",
+        "The date coder was raised after the main agreement was in process; the customer had not confirmed signing the amendment by the last retained call. [evidence: 10, 11, 12, 13]"
+      ],
+      "uncertainties": [
+        "The initial 700k price tolerance appears only in a manager worklog, not customer-authored speech. [evidence: 0]",
+        "The buyer had not reported receipt of the final 300k or confirmed production release in the latest retained event. [evidence: 13]",
+        "The coder-amendment signature is promised but not confirmed in the retained view. [evidence: 12, 13]",
+        "The May 4 description of production starting after the full advance and the May 12 description of an 80% threshold may refer to the same contractual milestone, but the view does not make this clear. [evidence: 12, 13]"
+      ]
+    },
+    "6135": {
+      "outcome": "WON",
+      "trajectory_category": "technical_scope_convergence_with_implementation_dependencies",
+      "trajectory_explanation": "The visible record shows gradual narrowing of the equipment configuration and substantial technical discussion. A line was later described as nearing readiness, but customer-side input, site readiness, acceptance, and warranty timing remained relevant dependencies; this does not establish the final commercial outcome (evidence: 2-7).",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2025-11-11T15:42:23+07:00",
+          "event_type": "call_transcript",
+          "event_id": "500629",
+          "source_line": 34,
+          "paraphrase": "The customer said samples and marketing decisions were still pending and promised to provide new information when available."
+        },
+        {
+          "timestamp": "2025-11-20T17:44:01+07:00",
+          "event_type": "call_transcript",
+          "event_id": "504057",
+          "source_line": 39,
+          "paraphrase": "The parties discussed an added feed-hopper option estimated at about 1.5 million rubles; the customer said it would review the option with its chief engineer."
+        },
+        {
+          "timestamp": "2025-12-15T15:09:31+07:00",
+          "event_type": "call_transcript",
+          "event_id": "514091",
+          "source_line": 53,
+          "paraphrase": "The manager outlined price-reduction options including a linear configuration; the customer asked about cleaning and servicing the peristaltic dosing unit."
+        },
+        {
+          "timestamp": "2025-12-16T18:00:26+07:00",
+          "event_type": "call_transcript",
+          "event_id": "514837",
+          "source_line": 62,
+          "paraphrase": "The customer said the carousel configuration would be retained and continued discussing layout and how to handle potentially leaking packages."
+        },
+        {
+          "timestamp": "2025-12-17T20:39:46+07:00",
+          "event_type": "call_transcript",
+          "event_id": "515507",
+          "source_line": 66,
+          "paraphrase": "The customer clarified that the label would go on the bucket rather than its lid and asked about future integration of a marker or applicator."
+        },
+        {
+          "timestamp": "2025-12-24T14:19:52+07:00",
+          "event_type": "call_transcript",
+          "event_id": "517715",
+          "source_line": 88,
+          "paraphrase": "The manager described one line as nearly ready; the customer discussed delayed acceptance, site readiness, and concern about warranty starting before installation, while another line scope still needed preliminary design inputs."
+        }
+      ],
+      "manager_strong_actions": [
+        "Presented alternative configurations and cost paths, followed up on technical requirements, and shared a production-readiness estimate for one line (evidence: 1,4,7)."
+      ],
+      "manager_weak_actions": [],
+      "customer_positive_signals": [
+        "The customer engaged in detailed configuration and maintenance discussions and stated a preference for the carousel arrangement (evidence: 1,4-5).",
+        "The customer clarified that marking was needed on the bucket and discussed possible future integration (evidence: 6)."
+      ],
+      "customer_negative_signals": [
+        "On Nov 11 the customer said sample and marketing inputs were not yet available, delaying final technical definition (evidence: 2)."
+      ],
+      "uncertainties": [
+        "The previous preprocessing role gave me prior raw-timeline chronology familiarity, including awareness that lifecycle-boundary content required conservative treatment; this limits chronology blindness even though no outcome label was consulted.",
+        "The detailed opening specifications come from a manager worklog, not direct customer speech in the retained events.",
+        "The late conversation covers more than one equipment scope; progress on one should not be assumed to apply to all of them.",
+        "The reported 70% advance is seller-side speech, not a bank record.",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause.",
+        "Run A auditor previously handled source preprocessing; this deal's paired independence is limited."
+      ]
+    },
+    "5017": {
+      "outcome": "WON",
+      "trajectory_category": "Technical fit and commercial steps progressed; initial payment unconfirmed in the retained view",
+      "trajectory_explanation": "The visible trajectory advanced through a factory test, configuration clarification, agreement on staged payment, and contract/invoice exchange. The latest customer message states an intention to pay 70% within a day, but the view contains no confirmation of payment or later production start. This describes the observed trajectory, not its eventual result. [evidence: 2, 3, 5, 6, 7, 10, 11, 12]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2025-08-11T12:13:09+03:00",
+          "event_type": "call_transcript",
+          "event_id": "464521",
+          "source_line": 26,
+          "paraphrase": "Buyer confirmed the visit was for a test run with cylindrical packaging; manager scheduled and prepared it."
+        },
+        {
+          "timestamp": "2025-08-22T10:53:25+03:00",
+          "event_type": "call_transcript",
+          "event_id": "468767",
+          "source_line": 39,
+          "paraphrase": "After visiting, buyer requested prices for the base machine and options including a feed table, conveyor extension, and mirrored applicator."
+        },
+        {
+          "timestamp": "2025-08-22T12:15:10+03:00",
+          "event_type": "call_transcript",
+          "event_id": "468817",
+          "source_line": 54,
+          "paraphrase": "Manager explained the usual 70/30 structure and testing sequence; buyer agreed to 70/30."
+        },
+        {
+          "timestamp": "2025-08-22T12:17:39+03:00",
+          "event_type": "call_transcript",
+          "event_id": "468821",
+          "source_line": 56,
+          "paraphrase": "Buyer said the test run went well and confirmed the applicator should be mirrored; manager requested company details and a specification form."
+        },
+        {
+          "timestamp": "2025-08-25T11:25:38+03:00",
+          "event_type": "call_transcript",
+          "event_id": "469209",
+          "source_line": 73,
+          "paraphrase": "They clarified label/container dimensions, feed-table direction, conveyor, and applicator size; buyer preferred the standard winding unit over the more expensive larger option."
+        },
+        {
+          "timestamp": "2025-08-28T13:01:28+03:00",
+          "event_type": "message",
+          "event_id": null,
+          "source_line": 105,
+          "paraphrase": "Buyer said all parties had signed the contract and it was being scanned."
+        },
+        {
+          "timestamp": "2025-08-28T13:52:46+03:00",
+          "event_type": "message",
+          "event_id": null,
+          "source_line": 116,
+          "paraphrase": "Manager said the received documents were being passed to accounting."
+        },
+        {
+          "timestamp": "2025-08-28T14:10:19+03:00",
+          "event_type": "message",
+          "event_id": null,
+          "source_line": 125,
+          "paraphrase": "Buyer said 70% would be paid that day or the next; this is an intention, not payment confirmation."
+        }
+      ],
+      "manager_strong_actions": [
+        "Coordinated factory access and preparation for a product test. [evidence: 1, 2]",
+        "Responded to the post-visit request with revised, itemized pricing and technical clarifications. [evidence: 3, 6, 7]",
+        "Explained the 70/30 payment structure and requested missing contract specifications. [evidence: 5, 6, 7]",
+        "Responded to the director's request for supporting material with a comparable project video. [evidence: 8]"
+      ],
+      "manager_weak_actions": [
+        "The table and conveyor discussion required repeated clarification; one written configuration recap for buyer confirmation could reduce ambiguity. [evidence: 3, 6, 7]",
+        "The manager said he would place the deal in the September production plan on his own responsibility before signature and payment were confirmed. [evidence: 9]"
+      ],
+      "customer_positive_signals": [
+        "Requested and attended a factory test with its packaging. [evidence: 1, 2]",
+        "Asked for itemized configuration pricing and specified modifications after the visit. [evidence: 3, 6, 7]",
+        "Accepted the 70/30 structure, provided technical details, and advanced contract review. [evidence: 5, 6, 7, 9, 10]",
+        "Reported signed documents were being scanned and stated a near-term plan for the 70% payment. [evidence: 11, 12]"
+      ],
+      "customer_negative_signals": [],
+      "uncertainties": [
+        "The approximate 700k price acceptance is recorded by a manager, not directly confirmed by the customer. [evidence: 0]",
+        "The final amount/configuration is not shown as one customer-confirmed offer. [evidence: 3, 6, 7]",
+        "No payment confirmation or later event appears after the customer's stated payment timing. [evidence: 12]"
+      ]
+    },
+    "18755": {
+      "outcome": "LOST",
+      "trajectory_category": "price_competitiveness_reported_by_manager",
+      "trajectory_explanation": "The manager's date-only worklog attributes the stalled comparison to the proposal being far above alternatives and says the buyer did not consider it competitive. The customer-sourced record supports that a quote was sent and a follow-up was planned, but does not directly confirm the price objection or the two-week decision timing. Accordingly, price/value is the strongest recorded explanation, with medium confidence and explicit source uncertainty (evidence indices 9, 10, 11).",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-31T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 41,
+          "paraphrase": "Date-only manager worklog (time inferred): says the proposal was much less competitive than alternatives and that the buyer expected to make a decision in about two weeks; manager claim, not customer speech."
+        },
+        {
+          "timestamp": "2026-07-31T13:43:26+07:00",
+          "event_type": "call_transcript",
+          "event_id": "635145",
+          "source_line": 43,
+          "paraphrase": "Buyer says he cannot review the proposal during the current call because he is busy, but agrees to a callback in about an hour and a half."
+        },
+        {
+          "timestamp": "2026-07-31T13:45:39+07:00",
+          "event_type": "message",
+          "event_id": "2954339",
+          "source_line": 45,
+          "paraphrase": "Seller sends the proposal and asks the buyer to review and respond."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager gathered bottle, cap, label, and barcode requirements through a series of focused questions and agreed to prepare alternative configurations (evidence indices 2, 3, 4, 5, 6, 7, 8).",
+        "The manager sent the proposal and video and established a specific follow-up time after the buyer said he could not review the materials during the call (evidence indices 10, 11)."
+      ],
+      "manager_weak_actions": [
+        "A final specification for the 1.5 L bottle was not available, yet a standard-bottle assumption was used. That was transparent, but fit should remain provisional until the actual bottle is confirmed (evidence indices 4, 5).",
+        "The buyer noted several calls and said the call was inconvenient; agreeing on a single check-in time before repeated calls could reduce interruption (evidence index 10)."
+      ],
+      "customer_positive_signals": [
+        "The buyer supplied label and cap details, clarified the 1.5 L bottle shape and label placement, and requested comparison proposals with and without the barcode (evidence indices 2, 3, 4, 5, 6, 7, 8).",
+        "Despite being busy at month-end, the buyer agreed to a later follow-up call after the proposal was prepared (evidence indices 1, 10)."
+      ],
+      "customer_negative_signals": [
+        "The buyer had no dimensions for the 1.5 L bottle and needed a standard-bottle assumption, leaving that portion of the specification less certain (evidence indices 4, 5).",
+        "The buyer said the current call was inconvenient and noted that the seller had called several times; he did agree to a later call, so this is a cadence concern rather than a refusal (evidence index 10)."
+      ],
+      "uncertainties": [
+        "The claimed strong price objection and competing offer details are from a date-only manager worklog, not from customer speech in the view; the buyer's direct response is not recorded (evidence indices 9, 10, 11).",
+        "The 1.5 L bottle was represented by a standard-bottle assumption because actual dimensions were unavailable (evidence indices 4, 5, 7).",
+        "The view ends just after proposal delivery and contains no direct customer decision or evaluation (evidence indices 10, 11)."
+      ],
+      "observed_preclosure_driver": {
+        "category": "reported_price_competitiveness",
+        "controllability": "mixed",
+        "confidence": "medium",
+        "objective_status": "manager_worklog_only_for_price_reason"
+      }
+    },
+    "18747": {
+      "outcome": "LOST",
+      "trajectory_category": "unstable_technical_scope_and_missing_specifications",
+      "trajectory_explanation": "The customer wanted one reusable line for varied future perfume orders, but the actual containers and mandatory functions were not defined early enough for production to validate a universal configuration. Measurements were delayed, drawings were unavailable, and the proposal later failed on at least one block; at the end, the buyer had not yet supplied the precise mismatch. Competing work also delayed the buyer's technical review. This explains the visible stall without assigning a final deal outcome (evidence indices 1, 2, 3, 4, 7, 9, 10, 12, 13, 14).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-28T16:31:48+07:00",
+          "event_type": "call_transcript",
+          "event_id": "631497",
+          "source_line": 9,
+          "paraphrase": "Buyer says future orders and bottle formats vary, so he wants a reusable base and changeover kits; he gives rough dimensions and describes small order sizes."
+        },
+        {
+          "timestamp": "2026-07-30T17:17:19+07:00",
+          "event_type": "call_transcript",
+          "event_id": "634319",
+          "source_line": 25,
+          "paraphrase": "Production cannot confirm a solution from the photos without container and cap dimensions; buyer says those items are supplied by customers and exact drawings are unavailable."
+        },
+        {
+          "timestamp": "2026-07-31T17:10:47+07:00",
+          "event_type": "call_transcript",
+          "event_id": "635593",
+          "source_line": 29,
+          "paraphrase": "Buyer says he is traveling and cannot measure the available bottle until the following week."
+        },
+        {
+          "timestamp": "2026-08-04T19:49:06+07:00",
+          "event_type": "call_transcript",
+          "event_id": "638403",
+          "source_line": 37,
+          "paraphrase": "Buyer says there are no drawings but physical bottles are available and agrees to send photos with a ruler."
+        },
+        {
+          "timestamp": "2026-08-05T19:55:40+07:00",
+          "event_type": "message",
+          "event_id": "2973163",
+          "source_line": 48,
+          "paraphrase": "Seller says substantially different bottle geometries may require different lines and asks whether only the current format should be included."
+        },
+        {
+          "timestamp": "2026-08-12T15:23:29+07:00",
+          "event_type": "call_transcript",
+          "event_id": "644645",
+          "source_line": 68,
+          "paraphrase": "Buyer confirms receiving the proposal/video and says it has been passed to production for review."
+        },
+        {
+          "timestamp": "2026-08-17T19:17:17+07:00",
+          "event_type": "call_transcript",
+          "event_id": "647579",
+          "source_line": 78,
+          "paraphrase": "Buyer says other work is underway and he expects to return to the line discussion the following week."
+        },
+        {
+          "timestamp": "2026-08-25T19:06:07+07:00",
+          "event_type": "call_transcript",
+          "event_id": "653181",
+          "source_line": 86,
+          "paraphrase": "Buyer says one block in the proposal is unsuitable and agrees to check which one with production."
+        },
+        {
+          "timestamp": "2026-08-27T19:40:31+07:00",
+          "event_type": "message",
+          "event_id": "3041421",
+          "source_line": 93,
+          "paraphrase": "Seller asks which block should change and which formats/changeovers are essential for the first stage."
+        },
+        {
+          "timestamp": "2026-09-01T14:47:44+07:00",
+          "event_type": "message",
+          "event_id": "3053031",
+          "source_line": 97,
+          "paraphrase": "Seller narrows the outstanding technical question to the specific unsuitable block and the function it must provide."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager repeatedly asked for dimensions or sample-based photos, explained why those inputs were needed, and clarified that materially different bottle shapes might require different line configurations (evidence indices 2, 4, 6, 7).",
+        "The manager sent a proposal and video, checked that production was reviewing them, and later asked the buyer to identify the exact unsuitable block and mandatory requirements (evidence indices 8, 9, 11, 13, 14)."
+      ],
+      "manager_weak_actions": [
+        "Image exchange was not coordinated on one usable channel: the buyer sent photos by MMS to the caller's number, which the seller could not open, so the buyer had to resend them through MAX (evidence index 6).",
+        "The broad requirement was quoted before exact dimensions and must-have functions were settled; the buyer later reported one block did not fit. A clearer minimum-specification gate or representative baseline format could have reduced technical rework (evidence indices 1, 2, 12)."
+      ],
+      "customer_positive_signals": [
+        "The buyer described a real recurring need for flexible equipment across small orders, sent package photos, and forwarded the proposal/video to production for review (evidence indices 1, 4, 8, 9).",
+        "The buyer gave specific negative feedback that one proposed block did not fit and said he would check with production, creating a concrete path to technical revision (evidence index 12)."
+      ],
+      "customer_negative_signals": [
+        "The buyer repeatedly lacked or delayed the dimensions needed for a reliable proposal, including because he was traveling and had no drawings for the received bottles (evidence indices 2, 3, 4).",
+        "The buyer postponed review to the following week and had not identified the unsuitable block by the final visible request (evidence indices 10, 12, 14)."
+      ],
+      "uncertainties": [
+        "The detailed initial size, line rate, and price reaction are recorded only in a date-only manager worklog; the buyer's direct call supports a broad variable-format need but not each initial metric (evidence indices 0, 1).",
+        "The view ends after the seller asks for the exact block and required function; it contains no buyer response resolving the technical mismatch (evidence indices 12, 13, 14).",
+        "The buyer said future orders and formats were not predictable, so the required level of universality and the compatibility of unprovided containers remain uncertain (evidence indices 1, 2, 4).",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+      ],
+      "observed_preclosure_driver": {
+        "category": "unresolved_multi_format_specification",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "not_objective_only"
+      }
+    },
+    "18873": {
+      "outcome": "LOST",
+      "trajectory_category": "Unresolved price and footprint fit after scope clarification",
+      "trajectory_explanation": "The buyer narrowed the application, then said a competing solution better matched the need on price and compactness. The seller offered a shorter conveyor, but the needed dimensions or maximum length were still being requested at the visible endpoint, so the trajectory remained dependent on a fit-and-price revision. The initial manager note that 4.5M had not deterred the buyer does not override the later direct price comparison, and the Inox refusal is only a manager-worklog claim. This explains the visible next-step dependency, not a final deal result. [E0, E8, E9, E14, E15, E16]",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-13T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 1,
+          "paraphrase": "Date-only manager worklog (time inferred): describes a sausage producer using vacuum packaging, manual labeling, one circular and one top label, 500–1,000 units/hour, October installation target, and an initial 4.5M price that reportedly did not deter the buyer. Manager claim, not buyer-confirmed."
+        },
+        {
+          "timestamp": "2026-09-02T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 54,
+          "paraphrase": "Date-only manager worklog (time inferred): says external supplier Inox declined the proposed solution and the team asked what it could offer instead; manager claim."
+        },
+        {
+          "timestamp": "2026-09-04T19:59:31+07:00",
+          "event_type": "message",
+          "event_id": "3071793",
+          "source_line": 57,
+          "paraphrase": "Seller asked whether circular labeling around the sausage was still required, noting that the supplied photos did not show such labels."
+        },
+        {
+          "timestamp": "2026-09-11T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 78,
+          "paraphrase": "Date-only manager worklog (time inferred): says the preliminary offer did not appeal, another option was smaller and cheaper, and the manager understood the buyer to be choosing by cost alone; this characterization is a manager claim and the subsequent buyer call also mentions footprint."
+        },
+        {
+          "timestamp": "2026-09-11T13:52:43+07:00",
+          "event_type": "call_transcript",
+          "event_id": "667437",
+          "source_line": 80,
+          "paraphrase": "Buyer said another solution fit better and was cheaper, specifying both price and size. Seller offered a shorter conveyor; buyer said she would provide the needed length later, and they planned to speak Monday."
+        },
+        {
+          "timestamp": "2026-09-15T13:16:15+07:00",
+          "event_type": "call_transcript",
+          "event_id": "669355",
+          "source_line": 84,
+          "paraphrase": "Buyer acknowledged that she owed the dimensions for a revised proposal and said she had worked them out and expected to send the information by the next day."
+        }
+      ],
+      "manager_strong_actions": [
+        "Followed up to obtain photos and application details, then sent the information to technical staff for a solution. [E1, E2, E3, E5, E6, E7]",
+        "Sent a proposal after confirming the destination address and, when the buyer raised footprint concerns, offered a shorter conveyor and asked for the target length. [E10, E11, E14, E16]"
+      ],
+      "manager_weak_actions": [
+        "The date-only worklog says that after the requested solution was referred to Inox, Inox declined and the team was still asking what could be offered. This signals a company-side solution constraint, but its effect on the buyer's choice is not confirmed. [E8]",
+        "The visible trajectory ends with the dimensions still being requested after the buyer said she had prepared them; the record does not show whether they were sent through another channel or whether a revised proposal followed. [E15, E16]"
+      ],
+      "customer_positive_signals": [
+        "The buyer repeatedly engaged on the requested photos, sent images on August 28, and clarified the labeling scope on September 4. [E1, E2, E3, E5, E6, E9]",
+        "She reviewed the proposal, agreed to continue the discussion, identified the fit and price concerns, and said she had prepared dimensions for a revision. [E12, E14, E15]"
+      ],
+      "customer_negative_signals": [
+        "The promised photos arrived after multiple follow-ups, and the buyer postponed one proposal discussion after leaving work. [E1, E2, E3, E5, E12]",
+        "The buyer preferred another solution on price and footprint, and the exact dimensions needed for a revised offer were still being requested at the last visible event. [E14, E15, E16]"
+      ],
+      "uncertainties": [
+        "The initial specification, 4.5M price reaction, and October target come from a date-only manager worklog; there is no corroborating buyer transcript for those points. [E0]",
+        "The August 26 business-direction change is not explained. The September 4 reply is interpreted narrowly as dropping circular sausage labeling; it does not establish that all labeling equipment was no longer needed. [E4, E9]",
+        "The reported Inox refusal is a manager-worklog claim. The view does not show the supplier exchange or establish that this refusal caused the buyer's later comparison. [E8, E14]",
+        "The September 18 message has unknown direction metadata, and the view does not establish whether the buyer sent dimensions via another channel, whether a revised proposal was issued, or what decision followed. [E15, E16]"
+      ],
+      "observed_preclosure_driver": {
+        "category": "competitor_fit_price_and_open_revision",
+        "controllability": "mixed",
+        "confidence": "medium",
+        "objective_status": "customer_comparison_direct_supplier_refusal_manager_reported"
+      }
+    },
+    "7243": {
+      "outcome": "LOST",
+      "trajectory_category": "Internal technical and budget review with evolving configuration",
+      "trajectory_explanation": "The trajectory is most visibly explained by an extended customer-side review process: CEO and technical input, legal review, a budget that could not be revised, concurrent equipment purchasing, and a later change in applicator placement. Missing or hard-to-find technical detail in the proposal may have added review friction. The timeline does not establish which factor was decisive or whether the project would proceed after the latest unanswered request. [evidence: 3, 7, 8, 10, 11]",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-05-25T13:04:40+03:00",
+          "event_type": "call_transcript",
+          "event_id": "586025",
+          "source_line": 109,
+          "paraphrase": "Customer clarified label winding as type 3.4; the call also clarified that start-up and supervisory installation services were separate contracts."
+        },
+        {
+          "timestamp": "2026-07-15T09:31:07+03:00",
+          "event_type": "call_transcript",
+          "event_id": "620111",
+          "source_line": 216,
+          "paraphrase": "Customer postponed the project to early August while technical staff reviewed serviceability changes and said the budget could not be revised; the customer and manager also switched the discussed applicator arrangement from bottom to side application."
+        },
+        {
+          "timestamp": "2026-08-04T09:51:34+03:00",
+          "event_type": "call_transcript",
+          "event_id": "637557",
+          "source_line": 219,
+          "paraphrase": "Customer said the project had stalled pending technical-department approval of implementation and agreed to revisit it around August 10."
+        },
+        {
+          "timestamp": "2026-08-28T15:00:28+03:00",
+          "event_type": "call_transcript",
+          "event_id": "656611",
+          "source_line": 261,
+          "paraphrase": "Customer said technical departments would provide feedback the following week, requested the commercial proposal be updated to show wheels and the technical revision, and the manager agreed to send it."
+        },
+        {
+          "timestamp": "2026-09-10T10:24:33+03:00",
+          "event_type": "email",
+          "event_id": "666337",
+          "source_line": 279,
+          "paraphrase": "Seller asked whether the current side-application and wheel configuration was final and requested technical comments in one list; no customer response is present in this view."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager clarified label winding and separate installation/start-up services, then used customer photos and dimensions to discuss adjustable mounting. [evidence: 4, 5]",
+        "The manager revisited the application arrangement with the customer, answered detailed technical questions, and sent an updated commercial proposal after the wheel request. [evidence: 8, 10, 11]",
+        "The manager proposed scheduled calls and, in the latest retained email, asked the customer to consolidate technical comments and confirm whether the current version was final. [evidence: 9, 11]"
+      ],
+      "manager_weak_actions": [
+        "The July discussion surfaced a meaningful bottom-versus-side application change after earlier technical scoping; the record does not show whether this was a customer change of preference or an earlier discovery gap. [evidence: 8]",
+        "In August the customer said the technical department could not find power/operating details in the commercial proposal and separately asked for weight and wheels. This indicates that key review information was not readily usable to the buyer at that point, although the manager supplied answers during the call. [evidence: 10]"
+      ],
+      "customer_positive_signals": [
+        "The customer supplied installation dimensions and photos, clarified label winding, and requested a height-adjustable stand for the actual placement. [evidence: 2, 4, 5]",
+        "The customer reported CEO approval of price/payment terms, agreed to contract preparation, and continued to discuss technical changes and procurement. [evidence: 3, 8, 10, 11]",
+        "The customer raised concrete technical questions about power, speed, dimensions, weight, and mobility, then asked for the quote/specification to reflect wheels. [evidence: 10, 11]"
+      ],
+      "customer_negative_signals": [
+        "The customer repeatedly deferred decisions and could not give a firm purchase date, citing unresolved technical review, a fixed budget, and another equipment purchase. [evidence: 8, 9, 10]",
+        "The July contract review had not cleared the customer's lawyer by June 30, and the customer shifted the anticipated payment from June to July; the record does not establish whether later legal review was completed. [evidence: 7, 8]"
+      ],
+      "uncertainties": [
+        "The March willingness-to-buy date and price threshold are recorded only in a manager worklog, not in a customer-authored event. [evidence: 1]",
+        "The customer's target configuration changed during discussion; the record does not establish whether the bottom-to-side change reflects newly discovered requirements or an earlier misunderstanding. [evidence: 8]",
+        "The timing and completion of the legal review after June 30 are not established, nor is a payment or signed-contract status after the customer said June payment would move to July. [evidence: 6, 7]",
+        "The customer requested an updated proposal showing the wheels and technical revision, and the seller later asked whether that configuration was final. The view does not establish whether those changes altered price or how the customer assessed it. [evidence: 10, 11]",
+        "No customer response to the September 10 seller email is present in the retained view. [evidence: 11]"
+      ],
+      "observed_preclosure_driver": {
+        "category": "extended_internal_review_and_configuration",
+        "controllability": "mixed",
+        "confidence": "medium",
+        "objective_status": "customer_budget_and_approval_reported"
+      }
+    },
+    "18775": {
+      "outcome": "LOST",
+      "trajectory_category": "technical_validation_and_buyer_coordination",
+      "trajectory_explanation": "The request covered a broad set of formats and the buyer supplied an envelope rather than detailed dimensions for every package. The buyer said the quote was broadly suitable but somewhat expensive and transferred the next conversation to purchasing staff. A manager worklog says a physical test was needed, so the seller's proposed sample test/visit became the concrete path forward; the view ends before that validation or a decision is documented. Price and buyer-side coordination also constrained progress (evidence indices 1, 2, 5, 6, 7, 8, 9, 10, 11).",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-29T19:08:01+07:00",
+          "event_type": "message",
+          "event_id": "2947267",
+          "source_line": 12,
+          "paraphrase": "Seller says production needs exact dimensions of each container and label to confirm equipment fit."
+        },
+        {
+          "timestamp": "2026-07-30T14:42:47+07:00",
+          "event_type": "call_transcript",
+          "event_id": "633993",
+          "source_line": 15,
+          "paraphrase": "Buyer says listing every label is not useful, gives a 5–23 cm label range, and reports maximum product width of 160 mm."
+        },
+        {
+          "timestamp": "2026-08-04T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 32,
+          "paraphrase": "Date-only manager worklog (time inferred): says the buyer liked the proposal, found the price somewhat high, wanted a test before purchase, and expected purchasing staff to contact the seller; manager claim."
+        },
+        {
+          "timestamp": "2026-08-04T16:47:38+07:00",
+          "event_type": "call_transcript",
+          "event_id": "638053",
+          "source_line": 34,
+          "paraphrase": "Buyer says he passed the information to four purchasing staff who were traveling, could not say who would contact the seller, and described the offer as broadly suitable but somewhat expensive."
+        },
+        {
+          "timestamp": "2026-08-07T18:55:56+07:00",
+          "event_type": "call_transcript",
+          "event_id": "641869",
+          "source_line": 41,
+          "paraphrase": "Seller asks for product samples so the plant can test labeling and send the buyer a demonstration video."
+        },
+        {
+          "timestamp": "2026-08-10T19:33:40+07:00",
+          "event_type": "message",
+          "event_id": "2984995",
+          "source_line": 45,
+          "paraphrase": "Seller asks which purchasing contact can coordinate sending samples for a labeling test."
+        },
+        {
+          "timestamp": "2026-08-14T15:51:50+07:00",
+          "event_type": "message",
+          "event_id": "2998019",
+          "source_line": 51,
+          "paraphrase": "Seller invites the buyer to the Moscow plant to see application/orientation units on sample containers, discuss requirements with an engineer, and discuss a price within budget."
+        },
+        {
+          "timestamp": "2026-08-17T15:11:49+07:00",
+          "event_type": "message",
+          "event_id": "3002135",
+          "source_line": 55,
+          "paraphrase": "Seller asks which of three weekdays works for the buyer and management to visit the demonstration room."
+        },
+        {
+          "timestamp": "2026-08-19T14:56:42+07:00",
+          "event_type": "message",
+          "event_id": "3013321",
+          "source_line": 58,
+          "paraphrase": "Seller asks the buyer to indicate whether the project is still active or no longer current; no buyer response is present in the view."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager requested exact fit information, prepared and sent a proposal/video, and shifted toward a sample-based technical validation after the buyer supplied a broad envelope (evidence indices 1, 2, 3, 7).",
+        "The manager offered a Moscow plant visit with applicator/orientation demonstrations, engineering discussion, and a possible price discussion within the buyer's budget (evidence indices 9, 10)."
+      ],
+      "manager_weak_actions": [
+        "The buyer explicitly said a complete list of every label was not useful and gave a practical envelope instead. The manager could have confirmed a representative maximum/minimum sample set and a test protocol earlier (evidence indices 1, 2, 7).",
+        "The quote was described as somewhat expensive. A base price plus options and a clear validation step could have made the value/price discussion more concrete (evidence indices 6, 9)."
+      ],
+      "customer_positive_signals": [
+        "A date-only manager worklog records that the buyer sent photos; directly, the buyer gave a practical size envelope and later said the proposed equipment was broadly suitable (evidence indices 0, 2, 6).",
+        "The buyer passed the proposal to purchasing staff and said they would contact the seller, keeping a route open for technical review (evidence index 6)."
+      ],
+      "customer_negative_signals": [
+        "The buyer did not provide every exact container/label dimension, saying the full range was better represented by an envelope; actual-fit validation therefore remained necessary (evidence indices 1, 2, 7).",
+        "The buyer described the proposal as somewhat expensive and then delegated the next contact to purchasing staff, with no response to the final project-status message in the view (evidence indices 6, 11)."
+      ],
+      "uncertainties": [
+        "The initial product range, capacity, and price acceptance come from a date-only manager worklog; direct customer evidence gives a broad size envelope but not every starting specification (evidence indices 0, 2).",
+        "The manager worklog says a test was required and that the buyer did not want to provide a purchasing contact; customer-sourced evidence confirms purchasing delegation but does not confirm that the buyer refused to share contact information or agreed to a test (evidence indices 5, 6, 7, 8, 12).",
+        "The view ends after the seller's active/inactive status request with no customer reply, leaving the project status and any later technical validation unknown (evidence index 11)."
+      ],
+      "observed_preclosure_driver": {
+        "category": "sample_validation_price_and_buyer_handoff",
+        "controllability": "mixed",
+        "confidence": "medium",
+        "objective_status": "test_need_partly_manager_reported"
+      }
+    },
+    "19007": {
+      "outcome": "LOST",
+      "trajectory_category": "Переход от отдельной машины к интеграции аппликаторов в существующий конвейер",
+      "trajectory_explanation": "Предложение было подготовлено для отдельной машины с конвейером, тогда как клиенту нужны только аппликаторы с установкой на его существующую линию. После уточнения этого различия поставщик запросил обзор текущей линии; клиент прислал видео, и оно передано на техническую оценку. На момент окончания вида остается открытым вопрос реализуемости и цены интеграционного решения, а не зафиксированное решение клиента о покупке. [evidence: 3, 4, 5, 7, 8]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-09-10T15:20:17+03:00",
+          "event_type": "email",
+          "event_id": "666939",
+          "source_line": 15,
+          "paraphrase": "Поставщик отправил коммерческое предложение на запрошенное оборудование и видео."
+        },
+        {
+          "timestamp": "2026-09-11T15:13:02+03:00",
+          "event_type": "call_transcript",
+          "event_id": "667909",
+          "source_line": 19,
+          "paraphrase": "Клиент подтвердил получение предложения, сказал, что просмотрел его пока не подробно, и согласовал обсуждение на вторник во второй половине дня."
+        },
+        {
+          "timestamp": "2026-09-15T15:30:11+03:00",
+          "event_type": "call_transcript",
+          "event_id": "669811",
+          "source_line": 22,
+          "paraphrase": "Клиент объяснил, что не нужна автономная машина с отдельным конвейером: требуются два аппликатора на его существующий конвейер и установка на площадке клиента; он согласился прислать видео текущего размещения."
+        },
+        {
+          "timestamp": "2026-09-18T12:44:53+03:00",
+          "event_type": "email",
+          "event_id": "672285",
+          "source_line": 30,
+          "paraphrase": "Клиент направил обзорное видео существующей линии."
+        },
+        {
+          "timestamp": "2026-09-18T13:51:20+03:00",
+          "event_type": "email",
+          "event_id": "672323",
+          "source_line": 31,
+          "paraphrase": "Поставщик подтвердил получение видео и сообщил, что передал его на производство для ознакомления."
+        }
+      ],
+      "manager_strong_actions": [
+        "Менеджер запросил исходные данные, подготовил и направил коммерческое предложение с видео. [evidence: 2, 3]",
+        "После уточнения задачи запросил видео существующей линии, напомнил о нем после задержки и передал полученный материал на производство. [evidence: 5, 6, 7, 8]"
+      ],
+      "manager_weak_actions": [],
+      "customer_positive_signals": [
+        "Клиент прислал эскиз канистры и пример этикеток с размерами. [evidence: 2]",
+        "Клиент конкретизировал требование к интеграции существующего конвейера и отправил видео текущей линии после запроса поставщика. [evidence: 5, 6, 7]"
+      ],
+      "customer_negative_signals": [
+        "После изучения предложения клиент сообщил, что автономная машина с отдельным конвейером не соответствует задаче; объем требуемой интеграции прояснился после отправки предложения. [evidence: 3, 5]",
+        "Видео не было готово в первый согласованный день, поэтому техническая оценка сдвинулась на несколько дней. [evidence: 6, 7]"
+      ],
+      "uncertainties": [
+        "Цена от 1,6 млн рублей и срок закупки в сентябре–октябре встречаются только в рабочих записях менеджера; клиентских подтверждений этих условий в виде нет. [evidence: 1]",
+        "Вложения с рисунком и видео упомянуты, но ответа по технической оценке или обновленного предложения после видео в просмотренной переписке нет. Точные параметры сопряжения и пересмотренная цена пока неизвестны. [evidence: 2, 7, 8]"
+      ],
+      "observed_preclosure_driver": {
+        "category": "existing_line_integration_fit_unresolved",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "technical_assessment_not_in_view"
+      }
+    },
+    "7601": {
+      "outcome": "LOST",
+      "trajectory_category": "Broad technical scope followed by customer-side and external pause",
+      "trajectory_explanation": "The visible trajectory combines a technically broad request spanning many container formats, continued mechanical/management review and supplier comparison, and a later explicit pause across all projects because of a poor season and regional security concerns. The first factors could prolong specification and approval; the customer's final stated pause is attributed to business conditions outside the manager's direct control. The record does not establish whether either factor alone would have prevented purchase. [evidence: 3, 6, 8, 10, 11, 12]",
+      "controllability": "mixed",
+      "confidence": "medium",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-05-07T13:29:46+03:00",
+          "event_type": "email",
+          "event_id": "572325",
+          "source_line": 44,
+          "paraphrase": "Customer listed several desired package forms, including a cap-shaped container, cylindrical containers, a rhombus form, and a complex shape."
+        },
+        {
+          "timestamp": "2026-06-05T00:00:00+03:00",
+          "event_type": "comment",
+          "event_id": "2660309",
+          "source_line": 94,
+          "paraphrase": "Manager worklog says the customer wanted a universal machine and was not interested in two separate units; it also records willingness to consider changeover kits. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-06-30T14:43:43+03:00",
+          "event_type": "email",
+          "event_id": "612563",
+          "source_line": 124,
+          "paraphrase": "Customer requested a quote for the same previously purchased package for its marking project, excluding the top presser."
+        },
+        {
+          "timestamp": "2026-08-03T12:44:42+03:00",
+          "event_type": "call_transcript",
+          "event_id": "636553",
+          "source_line": 147,
+          "paraphrase": "Customer said mechanics had received several offers but had not given a concrete decision, and management had not yet reported back on the separate marking-related project."
+        },
+        {
+          "timestamp": "2026-08-05T12:21:15+03:00",
+          "event_type": "call_transcript",
+          "event_id": "639279",
+          "source_line": 150,
+          "paraphrase": "Customer described an off-season, low activity, few new orders, and an understaffed production site, and agreed to revisit after a couple of weeks."
+        },
+        {
+          "timestamp": "2026-08-19T13:28:50+03:00",
+          "event_type": "email",
+          "event_id": "648845",
+          "source_line": 155,
+          "paraphrase": "Customer said all projects were on hold because of the regional security situation and a poor season, and that production was idle."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager requested product photos/dimensions, coordinated sample delivery, and forwarded the customer's mechanical questions for technical review. [evidence: 3, 5, 6]",
+        "The manager followed up on the repeat-equipment request, explained supplier/component appearance changes, and sent a quote for the same functional package with the requested top presser removed. [evidence: 8, 9]",
+        "The manager maintained contact through agreed follow-up windows and checked whether the customer had a management decision. [evidence: 10, 11, 12]"
+      ],
+      "manager_weak_actions": [
+        "The customer struggled to narrow many container formats to the five types the seller could assess, and the manager's worklog later says the customer wanted one universal machine rather than two. This suggests the scope and feasibility boundary could have been made concrete earlier; the latter detail is manager-reported. [evidence: 3, 7]",
+        "The customer forwarded detailed mechanical questions about labeling, printing, and output handling. The available view shows these questions but does not show a complete, customer-confirmed requirement matrix before the proposal was reviewed. [evidence: 6, 8]"
+      ],
+      "customer_positive_signals": [
+        "The customer sent bottle photos and drawings, selected container types for discussion, and arranged shipment of samples for equipment testing. [evidence: 3, 4, 5]",
+        "The customer supplied a detailed mechanical-service question list and requested a repeat quote for a package it had previously purchased. [evidence: 6, 9]",
+        "The customer said the previously supplied line had performed reliably, was easy to operate and maintain, and that seller support had helped with setup. [evidence: 8]"
+      ],
+      "customer_negative_signals": [
+        "The customer could not promptly choose the limited set of container formats for engineering review and later said internal technical and management decisions were still pending. [evidence: 3, 8, 10, 11]",
+        "The customer ultimately paused all projects and did not provide a restart date in the August 19 email. [evidence: 12]"
+      ],
+      "uncertainties": [
+        "The stated initial price tolerance and intent to buy soon appear only in the manager worklog and are not confirmed by a customer-authored event. [evidence: 1]",
+        "The view contains a broad multi-format line and a repeat-equipment quote; their formal relationship, relative priority, and separate budgets are not established. [evidence: 8, 9]",
+        "The manager's note that the customer rejected two units in favor of one universal machine is not corroborated by a direct customer statement in the retained events. [evidence: 7]",
+        "No customer response after the August 19 all-projects pause is present in this view. [evidence: 12]",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+      ],
+      "observed_preclosure_driver": {
+        "category": "customer_reported_all_project_pause",
+        "controllability": "customer_or_external_with_partial_company_response",
+        "confidence": "medium",
+        "objective_status": "customer_reported_not_independently_verified"
+      }
+    },
+    "18929": {
+      "outcome": "LOST",
+      "trajectory_category": "Internal procurement review with competing proposals",
+      "trajectory_explanation": "The seller supplied an updated proposal and advanced contract paperwork, but the direct purchasing contact said several offers were still being reviewed. The process therefore remained dependent on the customer's internal comparison and decision timing; the view ends after the seller's follow-up, before any customer decision is recorded. The earlier worklog statements that the offer was accepted or purchase confirmed are manager claims and conflict with the later customer-sourced description of active comparison. [E1, E2, E5, E8, E10, E13]",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-18T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 2,
+          "paraphrase": "Date-only manager worklog (time inferred): records that the updated commercial proposal was sent; manager claim."
+        },
+        {
+          "timestamp": "2026-08-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 3,
+          "paraphrase": "Date-only manager worklog (time inferred): says the option suited the buyer and that Georgiy was expected to reconnect in two days to discuss purchase and contract; not a customer-confirmed commitment."
+        },
+        {
+          "timestamp": "2026-08-25T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": null,
+          "source_line": 16,
+          "paraphrase": "Date-only manager worklog (time inferred): says the purchase was confirmed and the contract sent for approval; manager claim."
+        },
+        {
+          "timestamp": "2026-08-26T15:35:58+07:00",
+          "event_type": "call_transcript",
+          "event_id": "653963",
+          "source_line": 23,
+          "paraphrase": "The existing buyer-side contact confirmed passing the information to the managers who would handle the purchase and said Georgiy had no available phone number, only email."
+        },
+        {
+          "timestamp": "2026-08-26T15:46:11+07:00",
+          "event_type": "email",
+          "event_id": "653995",
+          "source_line": 25,
+          "paraphrase": "Incoming email from Georgiy says several offers were currently under consideration and promises a response by the end of the week."
+        },
+        {
+          "timestamp": "2026-08-28T15:12:46+07:00",
+          "event_type": "email",
+          "event_id": "656133",
+          "source_line": 28,
+          "paraphrase": "Seller emailed Georgiy asking how the equipment-purchase discussion had gone; no buyer reply appears after this in the visible view."
+        }
+      ],
+      "manager_strong_actions": [
+        "Updated and sent the proposal in response to the request recorded by the manager. [E0, E1]",
+        "Sought to move the transaction into contracting, checked whether it could be included in the next production plan, and followed up after the buyer's stated response window. [E4, E5, E6, E9, E13]",
+        "Contacted the existing buyer-side contact and then emailed Georgiy after learning the contract had been passed to him. [E8, E9]"
+      ],
+      "manager_weak_actions": [
+        "The visible record does not show the seller clarifying the other offers' comparison criteria or arranging a direct review with the purchasing contact after Georgiy said several offers were under consideration. [E8, E10, E13]",
+        "Manager worklogs say purchase was confirmed or ready to proceed, but the customer-sourced email still describes active comparison; relying on the worklog status without checking directly could overstate commitment. [E2, E5, E10]"
+      ],
+      "customer_positive_signals": [
+        "The existing contact confirmed that the proposal and contract information had been forwarded to the managers handling the purchase. [E8]",
+        "The purchasing contact replied directly that the offers were under review and gave an expected response window of the end of that week. [E10]"
+      ],
+      "customer_negative_signals": [
+        "The buyer's direct email says multiple proposals were still being considered, so purchase was not confirmed in the visible customer-sourced evidence. [E10]",
+        "The existing contact said the seller had only Georgiy's email, not a phone number, limiting the direct channel visible in this record. [E8]"
+      ],
+      "uncertainties": [
+        "The repeat-purchase history, earlier positive fit, purchase confirmation, contract routing, and reminder details come partly or entirely from manager worklogs rather than direct buyer statements. [E0, E2, E5, E6, E12]",
+        "The August 24 internal comment contains later dated entries, so it is not reliable for precise chronology; independently timestamped emails show that several offers were still being considered on August 26. [E3, E10]",
+        "The visible view does not show whether Georgiy responded after the August 28 follow-up, which offer was selected, whether the contract was signed, or what the final decision was. [E10, E13]",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+      ],
+      "observed_preclosure_driver": {
+        "category": "active_competitive_procurement",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "no_final_customer_choice_in_view"
+      }
+    },
+    "18629": {
+      "outcome": "LOST",
+      "trajectory_category": "Unverified application fit",
+      "trajectory_explanation": "The clearest trajectory driver is the customer's need to verify that labels would apply reliably to its specific flexible pouch. The customer described a prior fit problem and explicitly said it would not commit without a test; the seller could not provide a matching demonstration, and a competing supplier had the customer's samples for testing. The final recorded choice remained conditional on that external test (e5, e9-e12). Price and changing marking configuration were relevant, but the cited evidence does not make them the primary unresolved issue at the end of the view (e3-e4, e8).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-07-13T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2861675",
+          "source_line": 33,
+          "paraphrase": "Date-only manager worklog (time inferred): says adding a printer-applicator would add about 1 million, that the price did not alarm the customer, and that technical questions remained. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-07-13T16:27:51+07:00",
+          "event_type": "call_transcript",
+          "event_id": "618531",
+          "source_line": 49,
+          "paraphrase": "Customer says labels had previously shifted on its transparent pouches and asks for a demonstration or trial before paying, citing the risk of losing time and money if the application fails."
+        },
+        {
+          "timestamp": "2026-07-20T15:22:11+07:00",
+          "event_type": "call_transcript",
+          "event_id": "624321",
+          "source_line": 67,
+          "paraphrase": "Customer says only one pouch label is now needed, with marks printed separately by the customer, and asks again where the equipment can be seen."
+        },
+        {
+          "timestamp": "2026-07-21T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2861675",
+          "source_line": 74,
+          "paraphrase": "Date-only manager worklog (time inferred): says a physical run was unavailable and that application details could instead be written into the contract. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-07-21T17:20:32+07:00",
+          "event_type": "call_transcript",
+          "event_id": "626039",
+          "source_line": 78,
+          "paraphrase": "Seller says the other suppliers contacted would not host a visit and that a sample run on the needed equipment was unavailable; customer says it needs to test the pouch and label before ordering."
+        },
+        {
+          "timestamp": "2026-07-24T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2861675",
+          "source_line": 87,
+          "paraphrase": "Date-only manager worklog (time inferred): reports the customer sent samples to another company for a roughly ten-day test and would choose that company if the test succeeded. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-07-24T19:00:36+07:00",
+          "event_type": "call_transcript",
+          "event_id": "629147",
+          "source_line": 94,
+          "paraphrase": "Customer directly says its samples and labels are being tested by another company; if they work, it will not buy from this seller, and if problems appear, it will return to discuss the project."
+        }
+      ],
+      "manager_strong_actions": [
+        "The seller clarified the difference between applicators and printer-applicator options, explained the approximate added price, and reworked the offer when the customer changed the label configuration (e1-e4, e8).",
+        "The seller explored whether existing supplier equipment could be visited and was direct with the customer when those suppliers declined access; the seller also offered to document the application's dimensions and constraints in the contract (e9-e10)."
+      ],
+      "manager_weak_actions": [
+        "The requested sample trial or compatible demonstration did not materialize, despite the customer's explicit concern that an untested pouch application could waste time and money. Supplier access constraints are documented, so individual manager responsibility is uncertain (e5, e9-e12).",
+        "The customer's request for an updated quote and an equipment viewing remained live across several date-only manager follow-ups before the revised proposal and viewing status were clarified (e6-e7). This timing comes partly from manager worklogs and should be interpreted cautiously."
+      ],
+      "customer_positive_signals": [
+        "The customer actively clarified the machine configuration, marking approach, and pouch dimensions (e1-e4).",
+        "The customer asked when the revised quote would be ready and whether equipment could be seen, then offered its own package/label samples for a practical test (e6, e10, e12).",
+        "The customer said it would return to the seller if the competing test revealed problems, leaving a conditional path open (e12)."
+      ],
+      "customer_negative_signals": [
+        "The customer made any purchase dependent on verifying label adhesion on its pouch; a successful competing test would lead it not to buy from this seller (e5, e12).",
+        "The requested physical proof was not available through the seller's discussed suppliers, so the customer directed samples to another company (e10-e12)."
+      ],
+      "uncertainties": [
+        "The initial throughput, acceptable starting price, and near-term buying expectation are from a date-only manager worklog, not direct customer evidence in the cited events (e0).",
+        "The final configuration and the competing supplier's test result are not present because the view ends before the approximate ten-day testing window (e8, e11-e12).",
+        "It is unclear whether a third-party test or demo could have been arranged sooner; the seller reports supplier access limits but the view does not establish which alternatives were feasible (e9-e10).",
+        "The manager worklog's claim that a successful trial would determine the supplier is consistent with, but secondary to, the customer's direct conditional statement (e11-e12)."
+      ],
+      "observed_preclosure_driver": {
+        "category": "technical_application_proof",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "supplier_test_access_unverified"
+      }
+    },
+    "18731": {
+      "outcome": "LOST",
+      "trajectory_category": "Internal budget priority and approval timing",
+      "trajectory_explanation": "The seller and customer developed a technically relevant custom configuration, and the customer explicitly said the proposal remained interesting. The clearest late-stage constraint is the customer's account that the general director had not prioritized the review and that funds were ultimately allocated to another project. The final call points to a later budget window rather than a technical rejection (e5, e7, e9-e14). This describes the observed trajectory and does not predict a later decision.",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-03T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2905047",
+          "source_line": 25,
+          "paraphrase": "Date-only manager worklog (time inferred): says the customer liked the proposal technically and on price, was collecting offers through August, and planned to decide on autumn purchasing; it also lists further dosage, label-height, and printer changes. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-07T04:00:00+07:00",
+          "event_type": "comment",
+          "event_id": "2905047",
+          "source_line": 44,
+          "paraphrase": "Date-only manager worklog (time inferred): reports several proposals in the 6-8 million range and says this offer was technically attractive because it would not require washing the equipment. This is a manager claim."
+        },
+        {
+          "timestamp": "2026-08-11T17:18:08+07:00",
+          "event_type": "call_transcript",
+          "event_id": "644029",
+          "source_line": 53,
+          "paraphrase": "Customer says the director has not responded to any of the proposals, but the customer is interested and wants to plan staffing and future production."
+        },
+        {
+          "timestamp": "2026-08-13T19:06:48+07:00",
+          "event_type": "call_transcript",
+          "event_id": "645777",
+          "source_line": 60,
+          "paraphrase": "Customer explains that the director must review first; production and facilities/utility representatives would then discuss installation conditions before a broader supplier meeting. Timing depends on the director's availability."
+        },
+        {
+          "timestamp": "2026-08-14T17:51:48+07:00",
+          "event_type": "message",
+          "event_id": "2999129,2999131",
+          "source_line": 62,
+          "paraphrase": "Seller sends a one-page summary for the management meeting and offers a 15-minute engineering call for the director."
+        },
+        {
+          "timestamp": "2026-08-18T19:06:59+07:00",
+          "event_type": "call_transcript",
+          "event_id": "648205",
+          "source_line": 66,
+          "paraphrase": "Customer says the director has seen the offer but has not had time to review it or give a decision; the parties defer another check-in by about a week."
+        },
+        {
+          "timestamp": "2026-08-25T19:27:11+07:00",
+          "event_type": "message",
+          "event_id": "3033441,3033443",
+          "source_line": 69,
+          "paraphrase": "Seller asks whether the director has questions about the two-product separation, pump, or communications and offers to collect them for a video meeting."
+        },
+        {
+          "timestamp": "2026-08-25T19:38:25+07:00",
+          "event_type": "call_transcript",
+          "event_id": "653245",
+          "source_line": 71,
+          "paraphrase": "Customer says the proposal is technically interesting but was not financially approved because the money was allocated to another project; the customer estimates reconsideration in at least about three months, possibly closer to December."
+        }
+      ],
+      "manager_strong_actions": [
+        "The seller requested exact container/cap information and forwarded the customer's product details for technical review (e1-e4).",
+        "The seller sent a revised proposal for two separate products with a supporting line video, then discussed the pump and custom configuration with the customer (e6, e8).",
+        "The seller prepared a one-page management summary and offered a short online engineering call when director review was pending (e11)."
+      ],
+      "manager_weak_actions": [
+        "The director's review remained the next step across repeated check-ins; the record does not show a firm director meeting date or an alternate approval route before the final budget deferral (e9-e13).",
+        "The custom quotation depended on additional supplier/production calculations. Some of that timing is described only in date-only manager worklogs, so exact elapsed time and individual responsibility are uncertain (e5, e7)."
+      ],
+      "customer_positive_signals": [
+        "The customer provided cap measurements and detailed the two-product requirement, including that the solutions could not be mixed (e2-e4).",
+        "The customer engaged with the revised custom proposal, asked about the pump, and described production/staffing plans if the project proceeded (e6, e8-e9).",
+        "The customer directly said the proposal remained interesting and that no technical questions were then outstanding, while explaining the funding constraint (e14)."
+      ],
+      "customer_negative_signals": [
+        "The customer's general director did not review or decide on the proposal for several weeks, according to the customer's calls (e9-e10, e12).",
+        "The customer said the available money was allocated to another project, moving any possible review out by several months (e14)."
+      ],
+      "uncertainties": [
+        "Initial price comfort, six-month installation goal, and intermediate proposal status are date-only manager claims rather than direct customer statements (e0, e5, e7).",
+        "The final price and equipment specification may have changed as the custom two-product design evolved; the customer's final direct explanation was that funds were redirected rather than a specific price objection (e5-e8, e14).",
+        "The manager cannot be shown to have controlled the director's review schedule or internal allocation of funds; the customer described these as internal decisions (e10, e12, e14).",
+        "The view ends before the customer's stated possible future review window, so no later decision is established (e14)."
+      ],
+      "observed_preclosure_driver": {
+        "category": "customer_budget_reallocation",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "customer_reported_not_independently_verified"
+      }
+    },
+    "18765": {
+      "outcome": "LOST",
+      "trajectory_category": "budget_and_purchase_priority_constraints",
+      "trajectory_explanation": "The buyer directly said the detailed price was too high relative to available funds and limited the immediate request to a labeler, then explored leasing. After the financing calculation went to the director, the organization compared other offers and described the purchase as non-urgent; the later reply cited raw-material pressure. These are visible affordability and priority constraints, not a prediction about the final result (evidence indices 5, 6, 7, 8, 10, 11, 13).",
+      "controllability": "mixed",
+      "confidence": "high",
+      "primary_evidence": [
+        {
+          "timestamp": "2026-08-05T19:04:48+07:00",
+          "event_type": "call_transcript",
+          "event_id": "639587",
+          "source_line": 35,
+          "paraphrase": "Buyer says the proposal shows a different price from the amount previously quoted and asks to call back after she reviews it."
+        },
+        {
+          "timestamp": "2026-08-05T20:00:05+07:00",
+          "event_type": "call_transcript",
+          "event_id": "639735",
+          "source_line": 37,
+          "paraphrase": "Buyer says only a labeler is in scope for now, excluding capping and date coding; she says 2 million is too expensive, gives a 1.0–1.2 million range, and asks for leasing options."
+        },
+        {
+          "timestamp": "2026-08-06T17:24:34+07:00",
+          "event_type": "email",
+          "event_id": "640669",
+          "source_line": 39,
+          "paraphrase": "Seller sends one- and three-year lease calculations for the labeler."
+        },
+        {
+          "timestamp": "2026-08-11T19:31:40+07:00",
+          "event_type": "call_transcript",
+          "event_id": "644213",
+          "source_line": 50,
+          "paraphrase": "Buyer says the leasing calculation was sent to the director, who had not yet answered; she could not give a decision date and agreed to a Friday check-in."
+        },
+        {
+          "timestamp": "2026-08-19T15:25:23+07:00",
+          "event_type": "call_transcript",
+          "event_id": "648657",
+          "source_line": 63,
+          "paraphrase": "Buyer says the director has the leasing information, timing is hard to predict, and asks the seller not to call so often because she will contact them when she has information."
+        },
+        {
+          "timestamp": "2026-09-02T15:12:10+07:00",
+          "event_type": "call_transcript",
+          "event_id": "659747",
+          "source_line": 66,
+          "paraphrase": "Buyer says the director is comparing other proposals and the purchase is not urgent."
+        },
+        {
+          "timestamp": "2026-09-23T22:17:52+07:00",
+          "event_type": "message",
+          "event_id": "3135383",
+          "source_line": 75,
+          "paraphrase": "Reply message says raw-material conditions are very strained and equipment has become a lower priority."
+        }
+      ],
+      "manager_strong_actions": [
+        "The manager gathered label and container specifications, provided a proposal/video, and discussed removing capping and date coding from the current scope (evidence indices 0, 1, 4, 5, 6).",
+        "After the buyer raised affordability, the manager arranged one- and three-year lease calculations and sent them for review (evidence indices 6, 7).",
+        "The manager later asked how the director was comparing offers and what criteria mattered, creating an opening for a like-for-like scope discussion (evidence indices 11, 12)."
+      ],
+      "manager_weak_actions": [
+        "The buyer said the detailed proposal price differed from the previously stated preliminary price; clearly separating a preliminary estimate from the final priced configuration earlier could have reduced surprise (evidence indices 0, 5, 6).",
+        "The buyer explicitly requested less frequent calls. The later two-week check-in was within the cadence discussed, but message-based follow-up would better preserve the buyer's stated preference (evidence indices 10, 11, 12)."
+      ],
+      "customer_positive_signals": [
+        "The buyer supplied bucket/label details and confirmed that labels are attached the same way across buckets (evidence indices 1, 2).",
+        "The buyer engaged with the price and financing discussion, requested leasing calculations, and gave a clear reason and preferred cadence for further contact (evidence indices 5, 6, 7, 10)."
+      ],
+      "customer_negative_signals": [
+        "The buyer's stated budget for the labeler was below the quoted price, and the buyer said funds were limited (evidence index 6).",
+        "The director's comparison and raw-material constraints made the purchase non-urgent; the buyer explicitly asked for less frequent calls (evidence indices 10, 11, 13)."
+      ],
+      "uncertainties": [
+        "Initial price acceptance is recorded in a date-only manager worklog, while the buyer directly says the detailed quote exceeded the earlier amount and her available budget; exact preliminary quote terms are not in this view (evidence indices 0, 5, 6).",
+        "The later reply about raw materials has unknown direction metadata, although it follows the seller's question about the director's comparison criteria; its content is reported without treating it as an independently verified cause (evidence indices 12, 13).",
+        "No final customer decision is present in the view; it records continued comparison and a reprioritization message only (evidence indices 11, 13).",
+        "The 23 Sep message has unknown recorded direction; do not attribute it to either party.",
+        "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+      ],
+      "observed_preclosure_driver": {
+        "category": "budget_price_and_priority",
+        "controllability": "mixed",
+        "confidence": "high",
+        "objective_status": "customer_budget_direct_raw_material_message_direction_uncertain"
+      }
+    }
+  },
+  "limits": [
+    "23 deals from one manager are a development dataset, not a causal or predictive test.",
+    "Pattern memberships were selected from observed frozen audits and are not exhaustive classifiers over every deal.",
+    "Customer-reported budget, security, and project pauses are not independently verified objective facts.",
+    "Original/view token counts are UTF-8 byte/4 proxies, not model tokenizer counts.",
+    "Same-day outcome leakage and lifecycle cutoff exclusions remain possible as described in input_contract.md."
+  ]
+}

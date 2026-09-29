@@ -1,0 +1,146 @@
+{
+  "deal_id": "18773",
+  "deal_summary": "A returning customer revised the packaging-line scope and compared suppliers while waiting on funding; the process advanced to contract/invoice work, and the seller later reported receiving payment while EDI signatures were still being sent (evidence 0, 1, 2, 3, 4, 5).",
+  "customer_need": {
+    "summary": "A manager log describes an updated filling/packaging project with a 19-liter option; later offers removed a date coder and compared automatic and semi-automatic packaging (evidence 0, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller sent updated quotes and videos for the returning customer's project (evidence 0, 1).",
+    "middle": "The manager recorded competitor comparison and pending funding; the customer kept refining the equipment and payment format (evidence 2, 3).",
+    "late": "The seller sent contract and invoice documents; on September 7 a seller message said payment was received and documents were sent for EDI signing (evidence 4, 5)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer returned to discuss the project, exchanged company details, and continued technical review (evidence 0, 3, 4).",
+      "The customer asked a final technical question and responded to the EDI document message (evidence 4, 5)."
+    ],
+    "negative_signals": [
+      "Funding and competitor comparison delayed a firm decision, according to manager records (evidence 2, 3)."
+    ],
+    "initiative": "The customer considered alternative configurations and supplied legal/company details needed for contract preparation (evidence 2, 3).",
+    "decision_process": "The purchase depended on funding, a competitor comparison, and company/legal paperwork; the final EDI signature state is not shown (evidence 2, 3, 4, 5)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller changed the proposal as packaging scope changed and sent supporting videos (evidence 1, 2).",
+      "The seller prepared contract and invoice documents and routed them through EDI (evidence 4, 5)."
+    ],
+    "weak_actions": [
+      "The payment/tax format required repeated rework; a manager worklog says a no-VAT offer was available only for cash and the customer wanted bank transfer (evidence 3)."
+    ],
+    "follow_up_quality": "The seller stayed engaged through technical revisions, funding questions, paperwork, and payment tracking (evidence 2, 4, 5).",
+    "next_step_control": "The seller said payment was received and sent documents for EDI signature; signature and production start were still unconfirmed in the visible record (evidence 5)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-28T00:00:00+03:00",
+      "description": "The customer returned to the project with an expanded packaging option (evidence 0).",
+      "importance": "medium",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T09:47:58+03:00",
+      "description": "The quote changed to remove the date coder and include automatic and semi-automatic packaging options (evidence 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T00:00:00+03:00",
+      "description": "The customer supplied company details and the seller sent the contract and invoice package (evidence 3, 4).",
+      "importance": "high",
+      "evidence_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "timestamp": "2026-09-07T15:32:11+03:00",
+      "description": "The seller reported payment received and sent documents through EDI (evidence 5).",
+      "importance": "high",
+      "evidence_indices": [
+        5
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "funding and configuration changes followed by contract processing",
+    "explanation": "The trajectory combined changing packaging requirements with delayed funding and supplier comparison. It reached a seller-reported payment and EDI-document stage, but the view does not confirm bank settlement, signatures, production, or delivery (evidence 2, 3, 4, 5).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "A manager log records a mismatch between the customer's preferred bank transfer and a cash-only no-VAT quote option; this remains a worklog claim (evidence 3).",
+    "The customer had not settled all technical details when paperwork began (evidence 4)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Confirm the final configuration and legal payment basis before preparing contract documents (evidence 2, 3, 4).",
+      "Track payment receipt, EDI signature, and production release as separate milestones (evidence 5)."
+    ],
+    "limits": [
+      "Funding availability and customer payment method were not fully controlled by the seller (evidence 2, 3).",
+      "The record ends before EDI completion or delivery is confirmed (evidence 5)."
+    ]
+  },
+  "uncertainties": [
+    "Funding and payment-format details come partly from manager worklogs, not independent customer or bank records (evidence 2, 3).",
+    "The September 7 payment message is a seller report; no bank statement or signed EDI document appears in the view (evidence 5).",
+    "The exact final equipment package and any production outcome remain uncertain (evidence 2, 4, 5)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log says a returning customer is updating a project and is considering a 19-liter packaging option.",
+      "timestamp": "2026-07-28T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2942251"
+    },
+    {
+      "source_line": 35,
+      "paraphrase": "Seller sends a revised offer adding a compliance-label applicator and a date printer.",
+      "timestamp": "2026-08-07T17:27:05+03:00",
+      "event_type": "message",
+      "event_id": "2981777"
+    },
+    {
+      "source_line": 64,
+      "paraphrase": "Seller sends a revised proposal with the date coder removed and automatic and semi-automatic packaging options added.",
+      "timestamp": "2026-09-02T09:47:58+03:00",
+      "event_type": "message",
+      "event_id": "3058113"
+    },
+    {
+      "source_line": 63,
+      "paraphrase": "Manager worklog says the no-VAT option was limited to cash without documents and the customer preferred a bank transfer; this is a worklog claim.",
+      "timestamp": "2026-09-02T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2942251"
+    },
+    {
+      "source_line": 97,
+      "paraphrase": "Seller tells the customer that the contract and invoice package was sent and describes the equipment execution.",
+      "timestamp": "2026-09-04T15:33:53+03:00",
+      "event_type": "call_transcript",
+      "event_id": "662405"
+    },
+    {
+      "source_line": 107,
+      "paraphrase": "Seller message says payment was received and EDI documents were sent for signature; this is not bank evidence.",
+      "timestamp": "2026-09-07T15:32:11+03:00",
+      "event_type": "message",
+      "event_id": "3076269"
+    }
+  ]
+}

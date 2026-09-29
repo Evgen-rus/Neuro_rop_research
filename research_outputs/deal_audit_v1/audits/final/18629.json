@@ -1,0 +1,206 @@
+{
+  "deal_id": "18629",
+  "deal_summary": "The customer sought an automatic applicator for labels on flexible Doypack-style pouches, with up to 1,800 packs/hour noted in a date-only manager worklog (e0). The configuration changed as the parties discussed front/back labels and DataMatrix marking; the customer then said one label and manual printing would be sufficient (e1-e4, e8). The decisive unresolved need became physical proof that labels would adhere to the customer's pouch: the seller could not arrange a compatible test or demonstration, while the customer sent samples to another supplier and said its test would guide the choice (e5, e9-e12). The view ends with that test still pending; it does not establish the customer's final decision.",
+  "customer_need": {
+    "summary": "Automate applying a main label to 150x200 mm flexible pouches, initially with an additional small DataMatrix label and date coding, at up to 1,800 units/hour. The customer later changed the requirement to one applied label and said it could print and apply the marking manually; the exact final configuration is therefore best described as an evolving pouch-labeling requirement (e0, e1, e2, e8).",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "A date-only manager worklog says the customer already labeled by hand, had production, was comfortable with a price from 1 million, and expected to buy soon (e0). Direct calls then show the customer trying to understand the proposed applicators and how front/back labels and DataMatrix printing would work (e1-e2).",
+    "middle": "The seller and customer discussed a printer-applicator that would add close to 1 million, while the customer asked to see a machine and requested a trial on its transparent pouches because a prior labeling attempt had slipped or misaligned (e3-e6). On July 20, the customer simplified the scope to one applicator and manual printing of its own marks (e8).",
+    "late": "The seller said it could not provide a physical test or arrange a visit to other customers' equipment. The customer said a trial was necessary before committing, sent pouches and labels to another company for testing, and described its decision as conditional on the result (e9-e12)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer actively clarified the machine configuration, marking approach, and pouch dimensions (e1-e4).",
+      "The customer asked when the revised quote would be ready and whether equipment could be seen, then offered its own package/label samples for a practical test (e6, e10, e12).",
+      "The customer said it would return to the seller if the competing test revealed problems, leaving a conditional path open (e12)."
+    ],
+    "negative_signals": [
+      "The customer made any purchase dependent on verifying label adhesion on its pouch; a successful competing test would lead it not to buy from this seller (e5, e12).",
+      "The requested physical proof was not available through the seller's discussed suppliers, so the customer directed samples to another company (e10-e12)."
+    ],
+    "initiative": "Customer initiative was high: it repeatedly asked technical questions, pursued a viewing/test, clarified its revised label configuration, supplied package details, and arranged an external sample test (e1-e2, e5-e6, e8, e12).",
+    "decision_process": "The customer said its management would review price and the final option; a manager worklog reports that the offer would be passed to the director. The direct customer call identifies the sample test as the practical decision gate and places an answer after roughly ten days (e7, e12)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller clarified the difference between applicators and printer-applicator options, explained the approximate added price, and reworked the offer when the customer changed the label configuration (e1-e4, e8).",
+      "The seller explored whether existing supplier equipment could be visited and was direct with the customer when those suppliers declined access; the seller also offered to document the application's dimensions and constraints in the contract (e9-e10)."
+    ],
+    "weak_actions": [
+      "The requested sample trial or compatible demonstration did not materialize, despite the customer's explicit concern that an untested pouch application could waste time and money. Supplier access constraints are documented, so individual manager responsibility is uncertain (e5, e9-e12).",
+      "The customer's request for an updated quote and an equipment viewing remained live across several date-only manager follow-ups before the revised proposal and viewing status were clarified (e6-e7). This timing comes partly from manager worklogs and should be interpreted cautiously."
+    ],
+    "follow_up_quality": "The seller kept discussing technical options and revising the proposal, but the central application-fit concern was not resolved with a physical test in the available trajectory (e3-e10). The customer then organized an external trial and deferred a final decision pending its result (e11-e12).",
+    "next_step_control": "The seller and customer agreed to reconnect after the external test, but the only explicit timing is the customer's approximate ten-day test window and a mid-August follow-up recorded in a manager worklog (e11-e12). A dated checkpoint tied to receipt of test results would have made the next step clearer."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-13T16:27:51+07:00",
+      "description": "The customer explained that a previous automated label attempt had shifted on the transparent pouch and asked for a way to see or test the proposed application before paying.",
+      "importance": "high",
+      "evidence_indices": [
+        5
+      ]
+    },
+    {
+      "timestamp": "2026-07-20T15:22:11+07:00",
+      "description": "The customer simplified the requested setup to one applicator and said it could print the marking separately, removing the need for the proposed second applicator/printer-applicator configuration.",
+      "importance": "medium",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "timestamp": "2026-07-21T17:20:32+07:00",
+      "description": "The seller confirmed it could not offer a compatible sample test or customer-site visit; the customer reiterated that it did not want to order without checking label fit.",
+      "importance": "high",
+      "evidence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "timestamp": "2026-07-24T19:00:36+07:00",
+      "description": "The customer said samples were being tested by another company and that a successful test would mean not buying this solution; if the test found problems, the customer would return to the seller.",
+      "importance": "high",
+      "evidence_indices": [
+        11,
+        12
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Unverified application fit",
+    "explanation": "The clearest trajectory driver is the customer's need to verify that labels would apply reliably to its specific flexible pouch. The customer described a prior fit problem and explicitly said it would not commit without a test; the seller could not provide a matching demonstration, and a competing supplier had the customer's samples for testing. The final recorded choice remained conditional on that external test (e5, e9-e12). Price and changing marking configuration were relevant, but the cited evidence does not make them the primary unresolved issue at the end of the view (e3-e4, e8).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      3,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "secondary_factors": [
+    "The required label and DataMatrix configuration changed during the discussion, including a late simplification to one label applicator and manual printing (e1-e4, e8).",
+    "A date-only manager worklog reports that price remained important for the director's review, though the customer had initially indicated the price from 1 million was acceptable (e0, e7).",
+    "The requested pouch-specific demonstration depended on access to equipment held by other suppliers, who declined a visit according to the seller's call (e10)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "For future flexible-package proposals, make a pre-sale sample-application check an explicit step with a named facility, owner, acceptance criteria, and decision date; if the seller cannot run it, identify a third-party test route before finalizing the offer (e5, e9-e12).",
+      "When a physical test is unavailable, present that limitation and the alternative evidence path early, then schedule a dated review around the customer's test result (e6, e10-e12).",
+      "Keep the evolving label, code-printing, and applicator configuration in one customer-approved scope sheet before each revised quotation (e1-e4, e8)."
+    ],
+    "limits": [
+      "The seller said its discussed suppliers would not allow a site visit and that it could not run a pouch test on equipment it had not yet manufactured (e10).",
+      "The customer had already sent its samples to another company for testing, and that result was outside the seller's direct control (e12).",
+      "The current view ends before the reported test window and does not show the customer's final choice (e11-e12)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-07T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2861675",
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time/year inferred): describes 150x200 mm empty pouches, currently hand-labeled, with up to 1,800 units/hour and an initial price from 1 million said to be acceptable. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-09T15:05:57+07:00",
+      "event_type": "call_transcript",
+      "event_id": "616525",
+      "source_line": 26,
+      "paraphrase": "Customer asks how the quoted applicators differ and clarifies that labels are needed on opposite sides of the package, including a marking label."
+    },
+    {
+      "timestamp": "2026-07-10T21:45:08+07:00",
+      "event_type": "email",
+      "event_id": "618151",
+      "source_line": 31,
+      "paraphrase": "Customer thanks the seller for the revised proposal and asks how DataMatrix marking can be applied to the back label."
+    },
+    {
+      "timestamp": "2026-07-13T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2861675",
+      "source_line": 33,
+      "paraphrase": "Date-only manager worklog (time inferred): says adding a printer-applicator would add about 1 million, that the price did not alarm the customer, and that technical questions remained. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-13T15:18:26+07:00",
+      "event_type": "call_transcript",
+      "event_id": "618447",
+      "source_line": 44,
+      "paraphrase": "Seller explains that DataMatrix printing would require replacing the lower applicator with a printer-applicator and would materially increase its price."
+    },
+    {
+      "timestamp": "2026-07-13T16:27:51+07:00",
+      "event_type": "call_transcript",
+      "event_id": "618531",
+      "source_line": 49,
+      "paraphrase": "Customer says labels had previously shifted on its transparent pouches and asks for a demonstration or trial before paying, citing the risk of losing time and money if the application fails."
+    },
+    {
+      "timestamp": "2026-07-15T19:19:31+07:00",
+      "event_type": "message",
+      "event_id": "2881933,2881935,2881937",
+      "source_line": 55,
+      "paraphrase": "Customer asks when the updated proposal will be ready and whether the equipment can be viewed."
+    },
+    {
+      "timestamp": "2026-07-20T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2861675",
+      "source_line": 60,
+      "paraphrase": "Date-only manager worklog (time inferred): says a revised quotation was sent and that cost would be reviewed by the director; also notes that the requested technical configuration had changed. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-20T15:22:11+07:00",
+      "event_type": "call_transcript",
+      "event_id": "624321",
+      "source_line": 67,
+      "paraphrase": "Customer says only one pouch label is now needed, with marks printed separately by the customer, and asks again where the equipment can be seen."
+    },
+    {
+      "timestamp": "2026-07-21T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2861675",
+      "source_line": 74,
+      "paraphrase": "Date-only manager worklog (time inferred): says a physical run was unavailable and that application details could instead be written into the contract. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-21T17:20:32+07:00",
+      "event_type": "call_transcript",
+      "event_id": "626039",
+      "source_line": 78,
+      "paraphrase": "Seller says the other suppliers contacted would not host a visit and that a sample run on the needed equipment was unavailable; customer says it needs to test the pouch and label before ordering."
+    },
+    {
+      "timestamp": "2026-07-24T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2861675",
+      "source_line": 87,
+      "paraphrase": "Date-only manager worklog (time inferred): reports the customer sent samples to another company for a roughly ten-day test and would choose that company if the test succeeded. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-24T19:00:36+07:00",
+      "event_type": "call_transcript",
+      "event_id": "629147",
+      "source_line": 94,
+      "paraphrase": "Customer directly says its samples and labels are being tested by another company; if they work, it will not buy from this seller, and if problems appear, it will return to discuss the project."
+    }
+  ],
+  "uncertainties": [
+    "The initial throughput, acceptable starting price, and near-term buying expectation are from a date-only manager worklog, not direct customer evidence in the cited events (e0).",
+    "The final configuration and the competing supplier's test result are not present because the view ends before the approximate ten-day testing window (e8, e11-e12).",
+    "It is unclear whether a third-party test or demo could have been arranged sooner; the seller reports supplier access limits but the view does not establish which alternatives were feasible (e9-e10).",
+    "The manager worklog's claim that a successful trial would determine the supplier is consistent with, but secondary to, the customer's direct conditional statement (e11-e12)."
+  ]
+}

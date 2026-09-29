@@ -1,0 +1,178 @@
+{
+  "deal_id": "18755",
+  "deal_summary": "The buyer sought automation for distilled-water filling and labeling across a 5 L square bottle and a 1.5 L cylindrical bottle, while some dimensions were unavailable. The buyer supplied label/cap details and requested quotes with and without a 5 L barcode; a date-only manager worklog later reported that the offer was not price-competitive, but the view contains no direct customer price evaluation or follow-up decision (evidence indices 0, 2, 3, 4, 5, 6, 7, 8, 9, 11).",
+  "customer_need": {
+    "summary": "Automation for distilled-water filling and labeling, with a 5 L square PET bottle and a 1.5 L cylindrical bottle. The manager's date-only note gives an approximate 200 units/hour target and a side label on the 5 L bottle; the buyer directly supplied 90x100 label dimensions, a 48 mm cap, and said to use a standard 1.5 L bottle where actual dimensions were unavailable (evidence indices 0, 2, 3, 4, 5, 6, 7).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The buyer was busy at month-end and delayed sending package details. He then supplied information for the 5 L bottle, said the 1.5 L bottle had no available dimensions, and asked the seller to use a standard bottle as a basis (evidence indices 1, 2, 4, 5).",
+    "middle": "The seller clarified label side, bottle shape, cap, and whether the 5 L barcode was required; the buyer asked to see proposals with and without it. The seller sent the proposal and video, but the contemporaneous direct messages do not record the buyer's price reaction (evidence indices 3, 6, 7, 8, 10, 11).",
+    "late": "A date-only manager worklog says the proposal was not competitive against lower-priced alternatives and that the buyer expected to decide in about two weeks. This remains a manager claim: the visible customer-sourced events show the quote was sent and a follow-up was agreed, but no customer evaluation or decision appears in the view (evidence indices 9, 10, 11)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer supplied label and cap details, clarified the 1.5 L bottle shape and label placement, and requested comparison proposals with and without the barcode (evidence indices 2, 3, 4, 5, 6, 7, 8).",
+      "Despite being busy at month-end, the buyer agreed to a later follow-up call after the proposal was prepared (evidence indices 1, 10)."
+    ],
+    "negative_signals": [
+      "The buyer had no dimensions for the 1.5 L bottle and needed a standard-bottle assumption, leaving that portion of the specification less certain (evidence indices 4, 5).",
+      "The buyer said the current call was inconvenient and noted that the seller had called several times; he did agree to a later call, so this is a cadence concern rather than a refusal (evidence index 10)."
+    ],
+    "initiative": "The buyer sent bottle-related information, clarified label placement and bottle shape, and requested a with/without-barcode comparison (evidence indices 2, 3, 5, 6, 7, 8).",
+    "decision_process": "The buyer's final comparison and decision timing are reported only in the manager's date-only note; the customer-sourced view ends after the proposal is sent and a follow-up call is agreed (evidence indices 9, 10, 11)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager gathered bottle, cap, label, and barcode requirements through a series of focused questions and agreed to prepare alternative configurations (evidence indices 2, 3, 4, 5, 6, 7, 8).",
+      "The manager sent the proposal and video and established a specific follow-up time after the buyer said he could not review the materials during the call (evidence indices 10, 11)."
+    ],
+    "weak_actions": [
+      "A final specification for the 1.5 L bottle was not available, yet a standard-bottle assumption was used. That was transparent, but fit should remain provisional until the actual bottle is confirmed (evidence indices 4, 5).",
+      "The buyer noted several calls and said the call was inconvenient; agreeing on a single check-in time before repeated calls could reduce interruption (evidence index 10)."
+    ],
+    "follow_up_quality": "The manager persisted in collecting requirements and sending a proposal, but the buyer explicitly said the current call was inconvenient after several calls. The buyer accepted a specific later call, and the view does not show whether that review occurred (evidence indices 1, 10, 11).",
+    "next_step_control": "The manager set a follow-up time after sending the quote, but the view ends before the customer evaluates the options. The manager's claim of a two-week decision window has no later customer-sourced confirmation in this view (evidence indices 9, 10, 11)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-30T16:35:34+07:00",
+      "description": "The buyer said 1.5 L bottle dimensions were unavailable and instructed the seller to use a standard bottle as the basis (evidence indices 4, 5).",
+      "importance": "medium",
+      "evidence_indices": [4, 5]
+    },
+    {
+      "timestamp": "2026-07-30T17:53:04+07:00",
+      "description": "The buyer asked for proposals both with and without the barcode on the 5 L bottle, making the comparison scope explicit (evidence index 8).",
+      "importance": "medium",
+      "evidence_indices": [8]
+    },
+    {
+      "timestamp": "2026-07-31T04:00:00+07:00",
+      "description": "A date-only manager worklog reports the offer was substantially above alternatives and that a decision was expected in two weeks; this is a manager claim, not a customer-sourced price objection (evidence index 9).",
+      "importance": "high",
+      "evidence_indices": [9]
+    },
+    {
+      "timestamp": "2026-07-31T13:45:39+07:00",
+      "description": "The seller sent the proposal; the buyer had agreed to a later call rather than reviewing it during the initial call (evidence indices 10, 11).",
+      "importance": "medium",
+      "evidence_indices": [10, 11]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "price_competitiveness_reported_by_manager",
+    "explanation": "The manager's date-only worklog attributes the stalled comparison to the proposal being far above alternatives and says the buyer did not consider it competitive. The customer-sourced record supports that a quote was sent and a follow-up was planned, but does not directly confirm the price objection or the two-week decision timing. Accordingly, price/value is the strongest recorded explanation, with medium confidence and explicit source uncertainty (evidence indices 9, 10, 11).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [9, 10, 11]
+  },
+  "secondary_factors": [
+    "The actual 1.5 L bottle dimensions were missing, so the proposed fit for that format depended on using a standard-bottle assumption (evidence indices 4, 5).",
+    "The buyer asked to compare barcode and no-barcode configurations, indicating an opportunity to separate optional scope from the base quote (evidence index 8).",
+    "The buyer reported being overloaded at month-end and unable to discuss the proposal immediately (evidence indices 1, 10)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Present a concise base option and separately priced barcode option, then compare them against the buyer's required output and reference proposals (evidence indices 8, 9).",
+      "Keep the 1.5 L bottle assumption provisional and request confirmation from an actual sample before locking performance or fit (evidence indices 4, 5).",
+      "Honor the agreed follow-up time and ask the buyer to choose a preferred option or share the competitor scope at that call (evidence indices 10, 11)."
+    ],
+    "limits": [
+      "The view does not include competitor specifications or a customer-sourced price objection, so it cannot establish whether a lower price or narrower scope would have changed the decision (evidence indices 9, 10, 11).",
+      "The 1.5 L container was not available for measurement, and the buyer's month-end workload limited immediate review (evidence indices 1, 4, 5)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-27T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes distilled-water filling, 1.5 L and 5 L PET bottles, a 200 units/hour target, label/cap details, and a manager-reported initial budget expectation."
+    },
+    {
+      "timestamp": "2026-07-30T16:31:17+07:00",
+      "event_type": "message",
+      "event_id": "2951155",
+      "source_line": 19,
+      "paraphrase": "Buyer says month-end workload is heavy."
+    },
+    {
+      "timestamp": "2026-07-30T16:32:02+07:00",
+      "event_type": "message",
+      "event_id": "2951181",
+      "source_line": 23,
+      "paraphrase": "Buyer gives a 90x100 label size."
+    },
+    {
+      "timestamp": "2026-07-30T16:32:10+07:00",
+      "event_type": "message",
+      "event_id": "2951187",
+      "source_line": 24,
+      "paraphrase": "Buyer specifies a 48 mm cap."
+    },
+    {
+      "timestamp": "2026-07-30T16:35:34+07:00",
+      "event_type": "message",
+      "event_id": "2951213",
+      "source_line": 27,
+      "paraphrase": "Buyer says he does not have dimensions for the 1.5 L bottle."
+    },
+    {
+      "timestamp": "2026-07-30T16:35:47+07:00",
+      "event_type": "message",
+      "event_id": "2951219",
+      "source_line": 28,
+      "paraphrase": "Buyer tells the seller to use a standard 1.5 L bottle as the basis."
+    },
+    {
+      "timestamp": "2026-07-30T16:36:56+07:00",
+      "event_type": "message",
+      "event_id": "2951239",
+      "source_line": 30,
+      "paraphrase": "Buyer says the label should be applied on the front side."
+    },
+    {
+      "timestamp": "2026-07-30T16:52:23+07:00",
+      "event_type": "message",
+      "event_id": "2951359",
+      "source_line": 33,
+      "paraphrase": "Buyer says the 1.5 L bottle is cylindrical."
+    },
+    {
+      "timestamp": "2026-07-30T17:53:04+07:00",
+      "event_type": "message",
+      "event_id": "2951825",
+      "source_line": 39,
+      "paraphrase": "Buyer requests proposals with and without the barcode."
+    },
+    {
+      "timestamp": "2026-07-31T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 41,
+      "paraphrase": "Date-only manager worklog (time inferred): says the proposal was much less competitive than alternatives and that the buyer expected to make a decision in about two weeks; manager claim, not customer speech."
+    },
+    {
+      "timestamp": "2026-07-31T13:43:26+07:00",
+      "event_type": "call_transcript",
+      "event_id": "635145",
+      "source_line": 43,
+      "paraphrase": "Buyer says he cannot review the proposal during the current call because he is busy, but agrees to a callback in about an hour and a half."
+    },
+    {
+      "timestamp": "2026-07-31T13:45:39+07:00",
+      "event_type": "message",
+      "event_id": "2954339",
+      "source_line": 45,
+      "paraphrase": "Seller sends the proposal and asks the buyer to review and respond."
+    }
+  ],
+  "uncertainties": [
+    "The claimed strong price objection and competing offer details are from a date-only manager worklog, not from customer speech in the view; the buyer's direct response is not recorded (evidence indices 9, 10, 11).",
+    "The 1.5 L bottle was represented by a standard-bottle assumption because actual dimensions were unavailable (evidence indices 4, 5, 7).",
+    "The view ends just after proposal delivery and contains no direct customer decision or evaluation (evidence indices 10, 11)."
+  ]
+}

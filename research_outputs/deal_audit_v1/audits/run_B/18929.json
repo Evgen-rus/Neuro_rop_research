@@ -1,0 +1,126 @@
+{
+  "deal_id": "18929",
+  "deal_summary": "A repeat-equipment request received an updated quote and moved to a procurement contact; that contact said several proposals were under review and promised an update, after which the view records only a seller follow-up (evidence 0, 1, 2, 3, 4).",
+  "customer_need": {
+    "summary": "A manager worklog says the customer wanted an item identical to a prior purchase and requested updated pricing; that repeat-purchase description is not independently detailed in customer-authored text (evidence 0).",
+    "confidence": "low"
+  },
+  "deal_dynamics": {
+    "early": "The seller refreshed the quote and manager notes recorded that the offer was acceptable for consideration (evidence 0, 1).",
+    "middle": "The customer routed the contract to procurement; the seller had only the project manager's email for follow-up (evidence 2).",
+    "late": "The procurement contact said several offers were being considered and promised a response by the end of the week; a seller follow-up appears after that date with no reply in view (evidence 3, 4)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The manager log says the offer was acceptable for consideration and the customer requested contract preparation (evidence 1)."
+    ],
+    "negative_signals": [
+      "The procurement contact was evaluating several proposals, so the customer's decision was not settled (evidence 3)."
+    ],
+    "initiative": "The customer routed the contract to procurement and gave the seller an expected response date (evidence 2, 3).",
+    "decision_process": "The decision had moved to a procurement group; the seller had no direct phone contact for the named project manager (evidence 2, 3)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller updated pricing, sent the contract to procurement, and acknowledged the customer's stated review date (evidence 0, 2, 3)."
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "The seller used the available email channel and followed up after the promised response date (evidence 3, 4).",
+    "next_step_control": "No revised decision date or procurement response is visible after the follow-up (evidence 4)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-17T00:00:00+03:00",
+      "description": "The quote was updated for a repeat-equipment request (evidence 0).",
+      "importance": "medium",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "timestamp": "2026-08-26T11:35:58+03:00",
+      "description": "The customer transferred the review to procurement and confirmed multiple offers were being considered (evidence 2, 3).",
+      "importance": "high",
+      "evidence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-08-28T11:12:46+03:00",
+      "description": "The seller followed up after the promised response date, with no reply in the available view (evidence 4).",
+      "importance": "medium",
+      "evidence_indices": [
+        4
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "procurement comparison after quote refresh",
+    "explanation": "The visible trajectory is a quote refresh followed by centralized procurement comparison. The customer's stated update date passed without a recorded decision in this view, so the purchase status remains unknown (evidence 0, 2, 3, 4).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  "secondary_factors": [
+    "The claim that this was identical to an earlier purchase comes from manager worklog (evidence 0).",
+    "The record contains no direct technical objection or price objection from the procurement contact (evidence 3)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Ask procurement which comparison dimensions are still open and agree a new review date (evidence 3, 4).",
+      "Request a direct procurement contact route if email-only coordination continues (evidence 2)."
+    ],
+    "limits": [
+      "The customer's procurement group controlled the supplier comparison and response timing (evidence 2, 3).",
+      "No response after the last seller follow-up is shown (evidence 4)."
+    ]
+  },
+  "uncertainties": [
+    "The repeat-purchase description and early quote acceptance are manager-worklog claims (evidence 0, 1).",
+    "The view ends after a seller follow-up; the procurement decision and final deal status are unknown (evidence 3, 4)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log says the request was for an item identical to one previously purchased and asks for current pricing.",
+      "timestamp": "2026-08-17T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "3028797"
+    },
+    {
+      "source_line": 3,
+      "paraphrase": "Manager log says the offer was acceptable for consideration and records a planned follow-up with the purchasing contact.",
+      "timestamp": "2026-08-24T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "3028797"
+    },
+    {
+      "source_line": 23,
+      "paraphrase": "Customer contact confirms the contract was sent to procurement and says only the procurement contact's email is available.",
+      "timestamp": "2026-08-26T11:35:58+03:00",
+      "event_type": "call_transcript",
+      "event_id": "653963"
+    },
+    {
+      "source_line": 25,
+      "paraphrase": "Procurement contact says several proposals are under review and promises an answer by the end of the week.",
+      "timestamp": "2026-08-26T11:46:11+03:00",
+      "event_type": "email",
+      "event_id": "653995"
+    },
+    {
+      "source_line": 28,
+      "paraphrase": "Seller asks how the procurement discussion went after the expected answer date.",
+      "timestamp": "2026-08-28T11:12:46+03:00",
+      "event_type": "email",
+      "event_id": "656133"
+    }
+  ]
+}

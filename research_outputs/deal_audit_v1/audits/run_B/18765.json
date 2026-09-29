@@ -1,0 +1,117 @@
+{
+  "deal_id": "18765",
+  "deal_summary": "A bucket-labeling proposal moved into financing and director comparison, then lost urgency when the customer said raw-material pressure had pushed equipment behind other priorities (evidence 0, 2, 3, 4).",
+  "customer_need": {
+    "summary": "The manager log describes labeling cylindrical and conical buckets for production; the exact need is primarily recorded in that log (evidence 0).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller gathered container information and sent an equipment proposal and video (evidence 0, 1).",
+    "middle": "The customer said the director still had not decided; the seller sent one- and three-year leasing calculations for comparison (evidence 2, 3).",
+    "late": "The customer said raw-material conditions were tense and the equipment purchase had moved to the background (evidence 4)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied product/packaging information and reviewed the proposal (evidence 1, 2)."
+    ],
+    "negative_signals": [
+      "The customer said the decision depended on the director and that equipment had become a lower priority because of raw-material pressure (evidence 2, 4)."
+    ],
+    "initiative": "The customer shared product information and stated when a decision was unavailable; later the customer directly explained the reprioritization (evidence 1, 2, 4).",
+    "decision_process": "The customer said the director was reviewing financing and competing options before deciding (evidence 2, 3)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller sent a proposal, video, and leasing schedules and arranged follow-up around the customer's availability (evidence 1, 3)."
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "The seller followed up at agreed times and asked about the review timeline; the buying priority later shifted for a reason outside the equipment discussion (evidence 2, 4).",
+    "next_step_control": "No purchase date or next customer decision is recorded after the customer deprioritized the equipment (evidence 4)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-17T16:51:52+03:00",
+      "description": "The customer had not received a director decision and was reviewing leasing schedules (evidence 2, 3).",
+      "importance": "high",
+      "evidence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-09-23T18:17:52+03:00",
+      "description": "The customer said raw-material pressure had moved the equipment purchase behind other priorities (evidence 4).",
+      "importance": "high",
+      "evidence_indices": [
+        4
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "internal approval and external reprioritization",
+    "explanation": "The visible delay was tied first to director comparison and financing, then to the customer's stated raw-material pressure. The record does not establish a final purchase decision (evidence 2, 3, 4).",
+    "controllability": "customer",
+    "confidence": "high",
+    "evidence_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  "secondary_factors": [
+    "The initial purchase timing and budget come from a manager worklog (evidence 0).",
+    "The customer was comparing other options, according to a manager worklog (evidence 3)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Keep the proposal available and agree a later review date once raw-material conditions stabilize (evidence 4).",
+      "Offer a like-for-like comparison of the leasing schedule and equipment scope (evidence 3)."
+    ],
+    "limits": [
+      "The customer explicitly prioritized raw-material conditions over equipment (evidence 4).",
+      "The customer said director approval was still pending (evidence 2)."
+    ]
+  },
+  "uncertainties": [
+    "The final status after the customer's reprioritization is not shown (evidence 4).",
+    "The view contains a proposal and lease schedules but no direct confirmation of a firm purchase date or signed contract (evidence 1, 3)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes bucket sizes, labeling requirements, target budget, and near-term purchase intent.",
+      "timestamp": "2026-07-28T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2946247"
+    },
+    {
+      "source_line": 25,
+      "paraphrase": "Seller sends the equipment proposal and a video for review.",
+      "timestamp": "2026-08-04T10:25:42+03:00",
+      "event_type": "email",
+      "event_id": "637657"
+    },
+    {
+      "source_line": 59,
+      "paraphrase": "Customer says there is no director decision yet and promises to update when there is one.",
+      "timestamp": "2026-08-17T16:51:52+03:00",
+      "event_type": "message",
+      "event_id": "3004041"
+    },
+    {
+      "source_line": 39,
+      "paraphrase": "Seller sends leasing calculations for one- and three-year terms.",
+      "timestamp": "2026-08-06T13:24:34+03:00",
+      "event_type": "email",
+      "event_id": "640669"
+    },
+    {
+      "source_line": 75,
+      "paraphrase": "Customer says raw-material conditions are tense and equipment has moved to the background.",
+      "timestamp": "2026-09-23T18:17:52+03:00",
+      "event_type": "message",
+      "event_id": "3135383"
+    }
+  ]
+}

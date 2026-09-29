@@ -1,0 +1,281 @@
+{
+  "deal_id": "18615",
+  "deal_summary": "The customer explored a custom filling, capping, and labeling line for small square PET/glass containers, initially described at 3,000 units/hour; after a reported price mismatch, the parties considered a 1,000/hour configuration (e0-e1). The scope and product/container details continued to change, and technical, legal, delivery, and payment terms were worked through over several months (e3-e19). On Aug 31 the customer said the contract had been signed and requested the invoice; the final call records the seller awaiting payment, with no payment confirmation in this view (e21-e22).",
+  "customer_need": {
+    "summary": "Initial need was a line for square 70-250 ml PET/glass containers with screw caps, side labeling and a tamper-evident L-shaped label, initially around 3,000 units/hour. The customer later discussed lower throughput, manual QR application, product additions, and changing container/cap requirements, so the final operating specification was still evolving in the reviewed events (e0-e4, e7-e18).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "A manager worklog reports that the initial price was acceptable, but after calculations the customer said the offer was beyond budget and asked for a 1,000/hour alternative; another worklog says they were waiting for Chinese supplier offers and had no place for the machine before July/August (e0-e2). These early timing and price details are manager-reported, not direct customer messages in the cited events.",
+    "middle": "The customer discussed leaving QR labels manual, asked about adding a dry topping doser, requested a factory visit and written technical answers, and later sent changing packaging information. A manager worklog reports a successful visit and a move toward financing, while another reports laboratory and legal reviews still pending (e3-e9).",
+    "late": "Contract review brought a direct objection to the 75-working-day lead time and a request to consider either lower advance payment or a shorter schedule; the customer also sought dimensional drawings and raised fit and equipment questions. In late August, the customer and seller discussed product-property ranges; the customer then reported the contract signed and requested an invoice, but the final call still has the seller awaiting payment (e10-e22)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer initiated a factory visit and requested written answers for the marking-system integration (e4).",
+      "The customer sent packaging information, requested detailed drawings and technical clarifications, and engaged in contract revisions (e9, e11, e15).",
+      "The customer pursued signature and invoicing: a signed-contract email is in the view, followed by a direct message confirming signature and a request for the invoice (e20-e22)."
+    ],
+    "negative_signals": [
+      "Manager worklogs report early price sensitivity, comparison with Chinese suppliers, and a delayed purchase because the customer lacked space (e1-e2).",
+      "Container, label, cap, QR, and product-property requirements continued to change or need clarification during the technical and contract process (e3, e7-e18).",
+      "The customer directly objected to the 75-working-day delivery estimate and proposed alternative delivery or advance-payment terms (e10)."
+    ],
+    "initiative": "Customer initiative was substantial in the later trajectory: they pressed for an on-site visit, requested written integration information, sent dimensions, surfaced technical questions, proposed a contract path, and asked for invoice/signature follow-through (e4, e9, e11, e14-e16, e20-e22).",
+    "decision_process": "The record points to a multi-person process involving the customer contact, management/director, technical staff, laboratory, and legal review. Some of the management, lab, and legal status is reported only in manager worklogs; the customer directly discusses the general director and product-property ranges in a call (e6, e15-e16)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "A manager worklog reports reworking the offer for lower throughput after the price concern (e1).",
+      "The seller discussed the dry-addition request with engineering, communicated that the equipment could not be supplied, and coordinated a factory visit and written integration questions (e3-e4).",
+      "Manager worklogs report revised quotations as packaging changed; the email thread later says a production-line video was sent to help the customer's marking-system integrator (e9, e19)."
+    ],
+    "weak_actions": [
+      "No clear individual manager error is established. However, the customer was still asking for important line-layout, tank, pump, pressure, hopper, and container-range clarifications during contract review, showing that technical alignment remained incomplete at that checkpoint (e11).",
+      "The customer raised a specific delivery-time/advance-payment trade-off and the seller said they would consult internally; the cited record does not establish the resolution of that request (e10)."
+    ],
+    "follow_up_quality": "Follow-up was sustained across quotation, engineering, site visit, and contract work, but the scope kept changing and the customer was still asking material technical questions late in the process (e3-e11, e14-e19). Some milestone statements, including visit results and readiness to buy, appear only in manager worklogs and should be treated as manager claims (e5-e9).",
+    "next_step_control": "The manager arranged subsequent calls and technical follow-up, while the customer had its own director, technical, laboratory, and legal dependencies (e4-e6, e15-e16). For the lead-time negotiation, a dated written answer and clear owner would have made the next step more concrete; the cited record leaves that particular resolution uncertain (e10)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-05-13T04:00:00+07:00",
+      "description": "A date-only manager worklog says the initial configuration did not fit the customer's price expectations and that a 1,000/hour alternative was requested, reframing the commercial scope.",
+      "importance": "high",
+      "evidence_indices": [1]
+    },
+    {
+      "timestamp": "2026-07-06T15:17:07+07:00",
+      "description": "The customer raised manual QR application and a possible dry-topping step; the seller said engineering would not make that dosing equipment, while the customer continued with the line and pressed for an in-person visit and written integration answers.",
+      "importance": "medium",
+      "evidence_indices": [3, 4]
+    },
+    {
+      "timestamp": "2026-07-27T04:00:00+07:00",
+      "description": "A date-only manager worklog records laboratory data and legal review as dependencies after earlier reported readiness to contract, leaving technical and contractual details open.",
+      "importance": "high",
+      "evidence_indices": [5, 6]
+    },
+    {
+      "timestamp": "2026-08-14T15:21:23+07:00",
+      "description": "The customer objected to the 75-working-day lead time and proposed a shorter schedule or lower advance payment, creating a direct commercial negotiation point.",
+      "importance": "high",
+      "evidence_indices": [10]
+    },
+    {
+      "timestamp": "2026-08-19T19:19:22+07:00",
+      "description": "The customer's email itemized multiple technical details still needing confirmation in the contract package.",
+      "importance": "high",
+      "evidence_indices": [11, 12, 13, 14, 15]
+    },
+    {
+      "timestamp": "2026-08-26T15:54:32+07:00",
+      "description": "The customer discussed how product density and viscosity ranges would be documented; the final dated events then show the customer reporting a signed contract while payment remained unconfirmed in the call record.",
+      "importance": "high",
+      "evidence_indices": [16, 17, 20, 21, 22]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Iterative technical scope and commercial alignment",
+    "explanation": "The visible trajectory is an extended fit-and-alignment process: the offer was resized after a reported budget mismatch; marking, product, packaging, and cap requirements evolved; laboratory and legal review added dependencies; and the customer later challenged delivery time and requested extensive technical detail. The buyer eventually reported the contract signed and requested the invoice, but the last call still records payment as awaited (e1-e2, e3-e11, e14-e22). This describes the documented path, not a claim about final deal outcome or a single causal factor.",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+  },
+  "secondary_factors": [
+    "Price sensitivity and early comparison with Chinese suppliers are reported in manager worklogs; the customer also initially lacked space for the machine (e1-e2).",
+    "Customer-side packaging and product choices changed during the process, including label/container fit and return to a screw cap; these changes are partly documented through manager worklogs (e7-e9).",
+    "The requested marking-system integration depended on an outside integrator's needs, and the customer sought a video to avoid waiting for the line to be installed (e19).",
+    "The customer raised a long delivery estimate and proposed changing schedule or advance-payment terms (e10)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Before final quotation and contract circulation, consolidate the container, cap, labeling, QR-marking, product-property, throughput, and included-equipment requirements into one customer-approved specification list (e3, e7-e9, e11, e14-e18).",
+      "Resolve the delivery-time/advance-payment alternatives with a named internal owner and a dated written response (e10).",
+      "Track lab, legal, and customer-side approval dependencies as separate next steps, with the responsible party and expected date recorded (e6, e15-e16)."
+    ],
+    "limits": [
+      "The customer changed or reconsidered packaging, cap, and product specifications during the process (e7-e9, e12-e18).",
+      "The manager worklog reports customer-side lab, legal, and financing dependencies; their timing was not shown as controlled by the seller (e5-e6).",
+      "The delivery schedule depended on internal production consultation, and the marking-system process involved an outside integrator (e10, e19).",
+      "Payment is not confirmed by the last event in this view (e22)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-04-13T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 3,
+      "paraphrase": "Date-only manager worklog (time/year inferred): records an initial 70-250 ml square PET/glass bottle line with screw cap, side and tamper-evident labels, and 3,000 units/hour; says the price from 5 million was acceptable. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-05-13T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 17,
+      "paraphrase": "Date-only manager worklog (time inferred): says the customer found the calculated price too high and requested a revised offer for 1,000 units/hour. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-06-05T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 23,
+      "paraphrase": "Date-only manager worklog (time inferred): says the customer was awaiting Chinese offers, lacked space for the machine, and did not expect to buy before July/August. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-06T15:17:07+07:00",
+      "event_type": "call_transcript",
+      "event_id": "614769",
+      "source_line": 34,
+      "paraphrase": "Customer says QR labeling will remain manual and asks whether a dry topping doser can be added; the seller says they will check with engineering and notes this is outside their usual equipment."
+    },
+    {
+      "timestamp": "2026-07-06T15:42:33+07:00",
+      "event_type": "call_transcript",
+      "event_id": "614799",
+      "source_line": 36,
+      "paraphrase": "Customer insists on a July 17 factory visit and asks for written answers about marking integration; seller says engineering declined the dry-topping equipment, and the customer agrees to drop that option for now."
+    },
+    {
+      "timestamp": "2026-07-17T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 57,
+      "paraphrase": "Date-only manager worklog (time inferred): reports the customer visited successfully, would send cap information, and would seek leadership approval/financing. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-27T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 127,
+      "paraphrase": "Date-only manager worklog (time inferred): reports that viscosity and density information was with a laboratory and the customer was also sending the draft contract to a lawyer. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-03T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 177,
+      "paraphrase": "Date-only manager worklog (time inferred): reports a container change because the label dimensions did not fit and that more time was needed to agree on the container. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-05T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 186,
+      "paraphrase": "Date-only manager worklog (time inferred): says a 7.5% price increase effective Aug 17 was communicated while the container choice remained unresolved. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-10T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2859569",
+      "source_line": 204,
+      "paraphrase": "Date-only manager worklog (time inferred): reports the customer returned to a screw cap and sent final container/cap dimensions for a corrected offer. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-14T15:21:23+07:00",
+      "event_type": "call_transcript",
+      "event_id": "646505",
+      "source_line": 250,
+      "paraphrase": "Customer directly says the 75-working-day production lead time is too long and proposes either reducing the advance to 50% or shortening delivery to about three calendar months; seller says they will consult the director and production."
+    },
+    {
+      "timestamp": "2026-08-14T15:59:15+07:00",
+      "event_type": "message",
+      "event_id": "2998075,2998077",
+      "source_line": 253,
+      "paraphrase": "Customer asks for a dimensioned line-layout drawing to accompany the contract."
+    },
+    {
+      "timestamp": "2026-08-17T17:41:25+07:00",
+      "event_type": "message",
+      "event_id": "3002667,3002669",
+      "source_line": 300,
+      "paraphrase": "Customer says their 65 mm container does not fit the discussed arrangement."
+    },
+    {
+      "timestamp": "2026-08-17T17:44:19+07:00",
+      "event_type": "message",
+      "event_id": "3002703,3002705",
+      "source_line": 307,
+      "paraphrase": "Customer adds that QR-code marking equipment is needed."
+    },
+    {
+      "timestamp": "2026-08-19T17:42:56+07:00",
+      "event_type": "message",
+      "event_id": "3014293,3014295",
+      "source_line": 326,
+      "paraphrase": "Customer asks whether the equipment can handle caps up to 90 mm when the current stated range is up to 80 mm."
+    },
+    {
+      "timestamp": "2026-08-19T19:19:22+07:00",
+      "event_type": "email",
+      "event_id": "649041",
+      "source_line": 333,
+      "paraphrase": "Customer lists contract/specification questions about staffing, a missing 100 L intermediate tank and transfer pump, air-pressure reducers, cap-hopper capacity, and container-size range."
+    },
+    {
+      "timestamp": "2026-08-21T16:31:31+07:00",
+      "event_type": "message",
+      "event_id": "3022917,3022919",
+      "source_line": 345,
+      "paraphrase": "Customer asks how the dosing machine would be adjusted if product density or dose volume changes."
+    },
+    {
+      "timestamp": "2026-08-26T15:54:32+07:00",
+      "event_type": "call_transcript",
+      "event_id": "654023",
+      "source_line": 374,
+      "paraphrase": "Customer asks how to document density and viscosity ranges for product variants; the seller offers to consult production and provide ranges for the contract."
+    },
+    {
+      "timestamp": "2026-08-26T20:12:28+07:00",
+      "event_type": "message",
+      "event_id": "3037785,3037787",
+      "source_line": 382,
+      "paraphrase": "Customer asks to include a viscosity range as well."
+    },
+    {
+      "timestamp": "2026-08-28T15:22:36+07:00",
+      "event_type": "email",
+      "event_id": "656173",
+      "source_line": 404,
+      "paraphrase": "Customer requests a production-line video for the marking-system integrator, explaining that this could avoid waiting three months for the new line."
+    },
+    {
+      "timestamp": "2026-08-28T17:48:49+07:00",
+      "event_type": "email",
+      "event_id": "656425",
+      "source_line": 410,
+      "paraphrase": "Customer email says a signed contract is being sent back and requests the seller's stamp/signature before electronic signing and payment."
+    },
+    {
+      "timestamp": "2026-08-31T14:22:54+07:00",
+      "event_type": "message",
+      "event_id": "3048107,3048109",
+      "source_line": 420,
+      "paraphrase": "Customer says the contract was signed on Friday."
+    },
+    {
+      "timestamp": "2026-08-31T14:23:23+07:00",
+      "event_type": "message",
+      "event_id": "3048115,3048117",
+      "source_line": 421,
+      "paraphrase": "Customer asks for the invoice by email."
+    },
+    {
+      "timestamp": "2026-08-31T14:45:33+07:00",
+      "event_type": "call_transcript",
+      "event_id": "657351",
+      "source_line": 424,
+      "paraphrase": "Customer says they found the invoice and mentions the contract was signed Friday; the seller ends by saying they are waiting for payment."
+    }
+  ],
+  "uncertainties": [
+    "Date-only manager worklogs use inferred times and are manager claims, not contemporaneous customer speech (e0-e2, e5-e9).",
+    "The final approved machine configuration and the exact resolution of the delivery-time/advance-payment request are not established by the cited events (e10-e18).",
+    "The customer reports a signed contract, but this view does not establish whether the electronic-signing process completed or whether payment was received by Aug 31 (e20-e22).",
+    "Some technical, laboratory, financing, and legal status is available only through manager worklogs; the customer's direct messages corroborate several questions but not every reported internal milestone (e5-e9)."
+  ]
+}

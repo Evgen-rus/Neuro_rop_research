@@ -1,0 +1,163 @@
+{
+  "deal_id": "18745",
+  "deal_summary": "An equipment proposal led to customer and director review, contract preparation, and a stated payment date; repeated payment follow-up reportedly irritated the customer, while a separate filling-line need appeared late in the record (evidence 0, 2, 3, 4, 5, 6).",
+  "customer_need": {
+    "summary": "A manager log describes a labeling project for cylindrical PET containers with a purchase target in August; later customer messages request a specification, commissioning work, and an invoice (evidence 0, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller sent a quote and video; the customer sent packaging information and asked to move to a specified contract (evidence 1, 2).",
+    "middle": "The decision depended on a director's review, followed by legal review and a signed-document exchange (evidence 3, 4).",
+    "late": "The customer stated a Tuesday payment date; a manager worklog reports irritation with repeated payment checks, and a later call introduces another filling-line scope (evidence 5, 6, 7)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer requested contract preparation and gave a payment date (evidence 2, 5).",
+      "The customer later supplied technical information about a four-doser filling block for two canister types (evidence 7)."
+    ],
+    "negative_signals": [
+      "The customer could not obtain a decision from the director during the review period (evidence 3, 4).",
+      "A manager worklog says the customer reacted negatively to repeated payment reminders; this is not a direct customer quote (evidence 6)."
+    ],
+    "initiative": "The customer supplied specifications, requested commissioning work, and asked how to handle payment coordination (evidence 2, 5, 7).",
+    "decision_process": "The labeling purchase went through director and contract review; a separate filling-line discussion also involved technical clarification. The view does not establish whether both scopes belonged to one purchase (evidence 3, 4, 7)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller sent a proposal and followed the customer's request to prepare a specified contract and commissioning scope (evidence 1, 2).",
+      "The seller collected filling-product details and asked about foaming before sending the information to technical staff (evidence 7)."
+    ],
+    "weak_actions": [
+      "A manager worklog reports repeated payment inquiries despite a stated payment date and a strongly negative customer reaction (evidence 5, 6)."
+    ],
+    "follow_up_quality": "Follow-up continued across proposal, director review, contract, and technical clarification, but the payment contact cadence appears to have strained the relationship (evidence 3, 5, 6).",
+    "next_step_control": "The customer had supplied a payment date, but no receipt confirmation is shown; the filling-line requirements also needed a separate technical path (evidence 5, 7)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-05T10:42:06+03:00",
+      "description": "The customer requested a specified contract and commissioning work after receiving the proposal (evidence 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-08-10T10:27:08+03:00",
+      "description": "The customer said the director had not yet returned a decision (evidence 3, 4).",
+      "importance": "high",
+      "evidence_indices": [
+        3,
+        4
+      ]
+    },
+    {
+      "timestamp": "2026-08-20T11:58:58+03:00",
+      "description": "The customer set a payment date, after which a worklog records frustration with repeated payment reminders (evidence 5, 6).",
+      "importance": "high",
+      "evidence_indices": [
+        5,
+        6
+      ]
+    },
+    {
+      "timestamp": "2026-08-25T08:52:33+03:00",
+      "description": "The call record introduces a separate filling-block specification (evidence 7).",
+      "importance": "medium",
+      "evidence_indices": [
+        7
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "director-gated purchase with payment follow-up friction",
+    "explanation": "The labeling proposal advanced into contract and invoice processing, but decision authority sat with the director and payment timing remained unconfirmed. Repeated payment checking was reported as a source of customer friction; a second technical requirement appears late and may be separate (evidence 2, 3, 5, 6, 7).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ]
+  },
+  "secondary_factors": [
+    "A filling-line requirement appears during payment follow-up, but its relation to the labeling purchase is unclear (evidence 7).",
+    "Payment timing is represented by a customer-stated date and a manager worklog, not a bank record (evidence 5, 6)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree one payment-check date and channel after the customer states a transfer date (evidence 5, 6).",
+      "Track the filling-line request separately until the customer confirms whether it is part of the same purchase (evidence 7)."
+    ],
+    "limits": [
+      "Director approval and the customer's finance process were outside the seller's direct control (evidence 3, 4).",
+      "The visible record ends before payment receipt or final technical scope is confirmed (evidence 5, 7)."
+    ]
+  },
+  "uncertainties": [
+    "The starting equipment brief is in a manager worklog and is not fully corroborated by direct customer language (evidence 0).",
+    "The reported negative response to payment reminders comes from a manager worklog, not a customer-authored statement (evidence 6).",
+    "The view does not confirm whether the stated payment date was met or whether the filling line was included in this deal (evidence 5, 7)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes a PET-container labeling project, a target budget, and a planned August purchase.",
+      "timestamp": "2026-07-24T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2909975"
+    },
+    {
+      "source_line": 19,
+      "paraphrase": "Seller sends the requested labeling-equipment proposal and a video.",
+      "timestamp": "2026-07-27T10:15:23+03:00",
+      "event_type": "email",
+      "event_id": "629769"
+    },
+    {
+      "source_line": 44,
+      "paraphrase": "Customer sends packaging dimensions and asks the seller to prepare a contract with specification and commissioning work.",
+      "timestamp": "2026-08-05T10:42:06+03:00",
+      "event_type": "message",
+      "event_id": "2969729"
+    },
+    {
+      "source_line": 80,
+      "paraphrase": "Customer says the director has not yet called back with a decision.",
+      "timestamp": "2026-08-10T10:27:08+03:00",
+      "event_type": "call_transcript",
+      "event_id": "642873"
+    },
+    {
+      "source_line": 84,
+      "paraphrase": "Customer again says the boss is not responding and no decision is available.",
+      "timestamp": "2026-08-12T11:19:37+03:00",
+      "event_type": "call_transcript",
+      "event_id": "644641"
+    },
+    {
+      "source_line": 94,
+      "paraphrase": "Customer says payment is planned for the following Tuesday.",
+      "timestamp": "2026-08-20T11:58:58+03:00",
+      "event_type": "message",
+      "event_id": "3018267"
+    },
+    {
+      "source_line": 116,
+      "paraphrase": "Manager worklog says the customer reacted strongly to repeated payment questions and expected payment Thursday; this is a manager claim.",
+      "timestamp": "2026-08-26T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2909975"
+    },
+    {
+      "source_line": 105,
+      "paraphrase": "The call turns to a four-doser block for two canister types with different product viscosities, creating a possible additional project scope.",
+      "timestamp": "2026-08-25T08:52:33+03:00",
+      "event_type": "call_transcript",
+      "event_id": "652453"
+    }
+  ]
+}

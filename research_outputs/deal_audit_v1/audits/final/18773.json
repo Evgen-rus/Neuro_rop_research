@@ -1,0 +1,285 @@
+{
+  "deal_id": "18773",
+  "deal_summary": "The buyer evaluated a filling/capping/labeling line for multiple bottle sizes, compared a competing proposal, and waited on funding documents before narrowing packaging and documentation options. In early September the parties reviewed revised equipment and payment-document terms; the buyer still asked about a possible 0.33 L format, and a deal-channel message later stated that payment was received and EDO documents were sent. That message is a recorded status cue, not an outcome label or independent bank confirmation (evidence indices 0, 3, 7, 8, 10, 12, 14, 18, 19, 20).",
+  "customer_need": {
+    "summary": "A line for filling, capping, and labeling several PET bottle sizes, with a 19 L option also discussed; packaging was added later. Detailed initial sizes and rates are in a date-only manager worklog, while direct calls confirm the buyer was comparing variants, considered adding packaging, and asked whether 0.5 L glass and a potential 0.33 L format could be run (evidence indices 0, 1, 5, 18, 19).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller sent an updated proposal and the buyer planned to review it alongside pending financial matters. A production incident delayed the review, and the buyer later requested a second offer for a price/technical comparison (evidence indices 1, 2, 3).",
+    "middle": "The buyer waited for a competing supplier's proposal and for a funding-related certificate before deciding; the buyer said the certificate took six to seven working days and that the funds would follow. The seller discussed packaging alternatives and sent updated options while that comparison and funding process continued (evidence indices 5, 6, 7, 8, 9, 10).",
+    "late": "The parties removed the date coder, compared automatic and semi-automatic packaging, and discussed payment/document terms for a sole-proprietor purchase. Contract and invoice documents were sent; the buyer then asked about a possible 0.33 L format. A deal-channel message later stated payment was received and documents sent through EDO for signature, with sender direction unknown (evidence indices 11, 12, 13, 14, 15, 17, 18, 19, 20)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer actively compared the offer on price and technical fit, stayed in contact while waiting for the competing supplier, and said a decision would be made even if that offer did not arrive (evidence indices 3, 7).",
+      "The buyer discussed a funding timeline, reviewed revised packaging options, provided company details for paperwork, and raised a specific additional bottle-format question (evidence indices 8, 10, 15, 16, 18, 19)."
+    ],
+    "negative_signals": [
+      "The buyer repeatedly deferred proposal review and decision timing while a production incident, funding certificate, and competitor comparison were pending (evidence indices 2, 6, 7, 8, 9).",
+      "The project scope remained fluid: packaging options changed, the date coder was removed, and an additional 0.33 L format was raised late without a bottle drawing or dimensions (evidence indices 5, 10, 11, 18, 19)."
+    ],
+    "initiative": "The buyer requested a competitor comparison, specified that price and technical features both mattered, discussed packaging formats, supplied business details for the contract, and asked about equipment compatibility with additional bottle sizes (evidence indices 3, 5, 7, 10, 16, 18, 19).",
+    "decision_process": "The buyer depended on external funding paperwork and compared another supplier on price and technical fit. Later, a director/seller discussion addressed payment and document form; the buyer asked for a contract, UPD if available, and invoice, and said the proposed paperwork arrangement should be workable (evidence indices 3, 7, 8, 9, 12, 13, 14)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager updated the proposal as the scope changed, offered automatic and semi-automatic packaging comparisons, and sent supporting line videos (evidence indices 4, 5, 10, 11, 15).",
+      "The manager maintained agreed check-ins while the buyer waited on financing and a competitor, then clarified the buyer's requested documents and revised the commercial paperwork (evidence indices 6, 7, 8, 9, 12, 13, 14, 17).",
+      "When the buyer asked about 0.33 L, the manager checked with production and requested bottle drawings or measured photos before confirming fit (evidence index 19)."
+    ],
+    "weak_actions": [
+      "The equipment/packaging configuration and payment-document approach underwent several late revisions. A base configuration with separately priced options and an earlier checklist of required payment documents could have reduced repeated proposal changes (evidence indices 5, 10, 11, 12, 13, 14).",
+      "The view does not show a completed technical confirmation for the possible 0.33 L package before the payment-status message; the buyer had described it as a possible future format, so it should remain an open fit question (evidence indices 18, 19, 20)."
+    ],
+    "follow_up_quality": "The manager generally set and honored check-in dates while the buyer waited on funding and a competing quote. The review still depended on external documents and decision-makers; recurring calls did not control those timelines (evidence indices 1, 6, 7, 8, 9, 10).",
+    "next_step_control": "The seller established concrete next steps for proposal revisions, funding updates, documentation, and bottle-fit verification. The buyer's funding provider, competitor, and internal signatories controlled key dates; by the last call, 0.33 L fit still required sample dimensions (evidence indices 8, 9, 11, 14, 17, 19)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-07T15:54:41+07:00",
+      "description": "The buyer said another supplier was preparing an offer and that price and technical aspects would both be compared (evidence index 3).",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T15:18:51+07:00",
+      "description": "The buyer said a funding-related certificate was still outstanding, expected to take six to seven working days, and that clarity should follow once the funds were available (evidence index 8).",
+      "importance": "high",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T21:02:08+07:00",
+      "description": "The buyer accepted the discussed paperwork route in principle, with equipment described as used in the documents and the other requested documents retained (evidence index 14).",
+      "importance": "high",
+      "evidence_indices": [
+        14
+      ]
+    },
+    {
+      "timestamp": "2026-09-07T19:04:18+07:00",
+      "description": "The buyer revisited technical compatibility for a possible 0.33 L package; the seller said production needed a drawing or measured photo to verify fit (evidence index 19).",
+      "importance": "medium",
+      "evidence_indices": [
+        19
+      ]
+    },
+    {
+      "timestamp": "2026-09-07T19:32:11+07:00",
+      "description": "A deal-channel message states that payment was received and EDO documents were sent for signature; the sender direction is unknown (evidence index 20).",
+      "importance": "high",
+      "evidence_indices": [
+        20
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "funding_dependency_and_competitive_evaluation",
+    "explanation": "The buyer directly described a price/technical comparison with another supplier and a funding certificate that had to arrive before the purchase could move forward. Those dependencies extended the decision period while the seller updated the package configuration. In September the discussion advanced into document and payment arrangements, while an additional 0.33 L fit question remained technically open. This explains the visible path only and does not assign a final outcome (evidence indices 3, 5, 7, 8, 9, 10, 11, 12, 14, 19).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      19
+    ]
+  },
+  "secondary_factors": [
+    "The buyer's funding certificate was delayed in external processing; the buyer said it was at a lawyer's office and expected funds after it cleared (evidence indices 8, 9).",
+    "The equipment scope changed several times, including adding packaging options and later removing the date coder (evidence indices 5, 10, 11).",
+    "The buyer asked for a sole-proprietor transaction with supporting contract, UPD, and invoice documents; the seller and buyer discussed how to describe the equipment in the documents (evidence indices 12, 13, 14).",
+    "The final payment message has unknown sender direction, and the internal comment with a July timestamp contains later dated notes; treat both as status records with source/chronology limits (evidence indices 20, 22)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Separate the base filling/capping/labeling line from optional date coding and packaging, with comparable automatic and semi-automatic prices on one decision sheet (evidence indices 5, 10, 11).",
+      "Ask at the start which legal/tax documents and payment channel the buyer requires, then confirm a workable documented route before revising the offer (evidence indices 12, 13, 14).",
+      "Keep 0.33 L as an unverified option until the buyer supplies bottle dimensions or a drawing; preserve the confirmed formats separately (evidence indices 18, 19)."
+    ],
+    "limits": [
+      "The buyer depended on an external funding certificate and competitor proposal; the manager could not control their timing or terms (evidence indices 3, 7, 8, 9).",
+      "The buyer's final format choices and required business documents depended on their internal process, and compatibility for an unprovided bottle could not be confirmed from the view (evidence indices 14, 18, 19)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-28T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes multiple PET bottle sizes, filling/capping/labeling, a 19 L option, and an initial purchase window/price expectation; these are manager claims."
+    },
+    {
+      "timestamp": "2026-07-30T14:24:44+07:00",
+      "event_type": "call_transcript",
+      "event_id": "633947",
+      "source_line": 21,
+      "paraphrase": "Buyer says the proposal was not fully reviewed and financial issues were being resolved; agrees to a Monday follow-up."
+    },
+    {
+      "timestamp": "2026-08-03T16:38:31+07:00",
+      "event_type": "call_transcript",
+      "event_id": "636547",
+      "source_line": 28,
+      "paraphrase": "Buyer says a production incident delayed review, he was still waiting on funds, and he needed more time to examine the proposal."
+    },
+    {
+      "timestamp": "2026-08-07T15:54:41+07:00",
+      "event_type": "call_transcript",
+      "event_id": "641463",
+      "source_line": 32,
+      "paraphrase": "Buyer says another supplier was asked to quote the same task and that price and technical aspects would both be compared."
+    },
+    {
+      "timestamp": "2026-08-07T21:27:05+07:00",
+      "event_type": "message",
+      "event_id": "2981777",
+      "source_line": 35,
+      "paraphrase": "Seller sends a revised proposal adding a marking-code applicator and an inkjet date printer."
+    },
+    {
+      "timestamp": "2026-08-10T15:57:20+07:00",
+      "event_type": "call_transcript",
+      "event_id": "643065",
+      "source_line": 39,
+      "paraphrase": "Buyer is still waiting for a competing offer and asks how semi-automatic packaging works; the seller explains the packaging alternatives."
+    },
+    {
+      "timestamp": "2026-08-12T15:46:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "644661",
+      "source_line": 46,
+      "paraphrase": "Buyer says he has not obtained the information and asks to postpone the review another week because he is in a meeting."
+    },
+    {
+      "timestamp": "2026-08-19T15:35:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "648661",
+      "source_line": 49,
+      "paraphrase": "Buyer says the competitor still has not sent its offer but he is considering the seller's equipment and expects to decide the following week."
+    },
+    {
+      "timestamp": "2026-08-24T15:18:51+07:00",
+      "event_type": "call_transcript",
+      "event_id": "651745",
+      "source_line": 52,
+      "paraphrase": "Buyer says a funding-related certificate ordered through MFC takes six to seven working days and that a clear decision should follow once it arrives and funds are available."
+    },
+    {
+      "timestamp": "2026-08-28T14:39:38+07:00",
+      "event_type": "call_transcript",
+      "event_id": "656071",
+      "source_line": 55,
+      "paraphrase": "Buyer says the certificate is still being checked by a lawyer and hopes funds will be available the following week; the competitor still has not replied."
+    },
+    {
+      "timestamp": "2026-09-01T15:31:41+07:00",
+      "event_type": "call_transcript",
+      "event_id": "658629",
+      "source_line": 58,
+      "paraphrase": "Buyer reviews the listed equipment and asks clarifying questions about what the date coder marks and which parts are included."
+    },
+    {
+      "timestamp": "2026-09-02T13:47:58+07:00",
+      "event_type": "message",
+      "event_id": "3058113",
+      "source_line": 64,
+      "paraphrase": "Seller sends a revised offer removing the date coder and showing automatic and semi-automatic packaging options."
+    },
+    {
+      "timestamp": "2026-09-02T13:49:13+07:00",
+      "event_type": "call_transcript",
+      "event_id": "659555",
+      "source_line": 67,
+      "paraphrase": "Seller and buyer discuss that the proposed no-VAT route would require cash payment; buyer asks whether a bank-card transfer is possible."
+    },
+    {
+      "timestamp": "2026-09-02T19:33:20+07:00",
+      "event_type": "call_transcript",
+      "event_id": "660413",
+      "source_line": 69,
+      "paraphrase": "Buyer lists the documents needed for the transaction: a contract, UPD if available, and an invoice."
+    },
+    {
+      "timestamp": "2026-09-02T21:02:08+07:00",
+      "event_type": "call_transcript",
+      "event_id": "660521",
+      "source_line": 74,
+      "paraphrase": "Seller proposes an IP-to-IP payment with standard paperwork and equipment described as used; buyer says he expects no problem with that arrangement."
+    },
+    {
+      "timestamp": "2026-09-03T15:12:46+07:00",
+      "event_type": "call_transcript",
+      "event_id": "660927",
+      "source_line": 80,
+      "paraphrase": "Buyer says he has not yet reviewed the commercial proposal and compares automatic with semi-automatic packaging options."
+    },
+    {
+      "timestamp": "2026-09-03T15:49:01+07:00",
+      "event_type": "call_transcript",
+      "event_id": "660941",
+      "source_line": 83,
+      "paraphrase": "Buyer says the company card had not yet been sent, that he requested it from accounting, and that he would forward it."
+    },
+    {
+      "timestamp": "2026-09-04T19:31:56+07:00",
+      "event_type": "email",
+      "event_id": "662385",
+      "source_line": 94,
+      "paraphrase": "Seller emails the standard contract package for review/signature and an invoice."
+    },
+    {
+      "timestamp": "2026-09-04T19:33:53+07:00",
+      "event_type": "call_transcript",
+      "event_id": "662405",
+      "source_line": 97,
+      "paraphrase": "Buyer says he will review the documents and asks whether the equipment can also handle 0.5 L glass and a possible 0.33 L format."
+    },
+    {
+      "timestamp": "2026-09-07T19:04:18+07:00",
+      "event_type": "call_transcript",
+      "event_id": "663451",
+      "source_line": 104,
+      "paraphrase": "Buyer says 0.5 L glass is a real format and 0.33 L is only a possible future order; seller says a drawing or measured photo is needed to verify the smaller format."
+    },
+    {
+      "timestamp": "2026-09-07T19:32:11+07:00",
+      "event_type": "message",
+      "event_id": "3076269",
+      "source_line": 107,
+      "paraphrase": "Deal-channel message states payment was received and documents were sent through EDO for signature; direction metadata is unknown, and the message is not independent bank confirmation."
+    },
+    {
+      "timestamp": "2026-09-07T19:36:08+07:00",
+      "event_type": "message",
+      "event_id": "3076423",
+      "source_line": 108,
+      "paraphrase": "Incoming reply says 'OK' after the message about payment and EDO documents."
+    },
+    {
+      "timestamp": "2026-07-28T20:10:00+07:00",
+      "event_type": "comment",
+      "event_id": "2942251",
+      "source_line": 6,
+      "paraphrase": "Internal deal comment has an outer 28 Jul timestamp but contains a rolling note with entries dated through 7 Sep; its exact event chronology is uncertain."
+    }
+  ],
+  "uncertainties": [
+    "Initial capacity, size, and price details are recorded in a date-only manager worklog; direct evidence confirms the multi-format project but does not independently verify every initial metric (evidence indices 0, 1).",
+    "The external funding certificate and competitor offer were not yet available during the August review; the view does not establish how either would have changed the decision (evidence indices 3, 7, 8, 9).",
+    "The 0.33 L format remained unverified without dimensions or a drawing, while the buyer described it as a possible future need (evidence indices 18, 19).",
+    "A deal-channel message says payment was received, but its sender direction is unknown and no bank document is present in the view. A separate internal comment is timestamped 28 Jul while containing later dated notes, so it was not used as customer-confirmed payment evidence (evidence indices 20, 22)."
+  ]
+}

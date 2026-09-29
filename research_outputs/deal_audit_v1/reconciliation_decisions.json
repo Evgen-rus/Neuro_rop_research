@@ -1,0 +1,419 @@
+{
+  "version": "1.0",
+  "outcome_accessed": false,
+  "deals": [
+    {
+      "deal_id": "18485",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "AGREE",
+        "POS": "AGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "B primary indices repeat e5 and omit e4 (counsel approval); its external-fund framing is not supported by the cited evidence."
+      ]
+    },
+    {
+      "deal_id": "18615",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "AGREE",
+        "POS": "AGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "18629",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "AGREE",
+        "M": "AGREE",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "B's primary says early price was acceptable, but its cited evidence does not clearly record customer price acceptance."
+      ]
+    },
+    {
+      "deal_id": "18635",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "AGREE",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Corrected the July 22 document/invoice paraphrase against source line 103."
+      ],
+      "critic_flags": [
+        "A:e14 and B:e5 point to event_id 627315 on 2026-07-22 but paraphrase document/payment status differently."
+      ]
+    },
+    {
+      "deal_id": "18731",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "PARTIAL",
+        "T": "AGREE",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "18733",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "AGREE",
+        "M": "AGREE",
+        "W": "PARTIAL",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "B POS cites e0/e1/e3 for photos, competitor discussion, and company/legal information; the comparison email is e2, and cited paraphrases do not support all details."
+      ]
+    },
+    {
+      "deal_id": "18745",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "B frames payment-reminder irritation as a manager-log report; A:e15 is the customer's direct request to stop repeated inquiries."
+      ]
+    },
+    {
+      "deal_id": "18747",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "AGREE",
+        "M": "PARTIAL",
+        "W": "DISAGREE",
+        "POS": "PARTIAL",
+        "NEG": "AGREE"
+      },
+      "amendments": [
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "18755",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "PARTIAL",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "B primary discusses manager-reported price comparison but omits B:e7, the worklog entry, from primary evidence_indices; no customer price objection is confirmed."
+      ]
+    },
+    {
+      "deal_id": "18765",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "PARTIAL",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "DISAGREE",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Removed unsupported sender attribution for source line 74.",
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": [
+        "B attributes the raw-material message to the customer; A describes it as a reply. Direction is unresolved in this paired-audit-only review."
+      ]
+    },
+    {
+      "deal_id": "18773",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "A says payment/EDI message sender direction is unknown; B calls payment seller-reported. Treat attribution as unresolved."
+      ]
+    },
+    {
+      "deal_id": "18775",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "PARTIAL",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "18873",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "18929",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "AGREE",
+        "W": "DISAGREE",
+        "POS": "DISAGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": [
+        "B positive_customer_signal cites manager-log status at e1, not direct customer speech; A explicitly separates the two."
+      ]
+    },
+    {
+      "deal_id": "19007",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "AGREE",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [
+        "Used fresh canonical B replacement; excluded prior non-blind B audit."
+      ],
+      "critic_flags": [
+        "Canonical B is the fresh replacement; excluded original B was not read."
+      ]
+    },
+    {
+      "deal_id": "5017",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "AGREE"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "5971",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "DISAGREE"
+      },
+      "amendments": [],
+      "critic_flags": [
+        "A run had prior source-preprocessing exposure; interpret this pair cautiously."
+      ]
+    },
+    {
+      "deal_id": "6135",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "DISAGREE",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Included B's late seller-side payment discussion without treating funds as verified.",
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": [
+        "A run had prior source-preprocessing exposure; A and B select materially different late events."
+      ]
+    },
+    {
+      "deal_id": "6885",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "PARTIAL",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "DISAGREE",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Reconciled both clauses of the February 20 call at source line 80.",
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": [
+        "A:e13 and B:e10 refer to event_id 533935 on 2026-02-20; their paraphrases conflict (payment order expected versus unable to reach director)."
+      ]
+    },
+    {
+      "deal_id": "6983",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "7191",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "PARTIAL",
+        "POS": "AGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "7243",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "AGREE",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "AGREE",
+        "POS": "AGREE",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [],
+      "critic_flags": []
+    },
+    {
+      "deal_id": "7601",
+      "base": "run_A",
+      "reason": "Run A retains more addressed evidence; B was used for semantic challenge and supported amendments.",
+      "ratings": {
+        "P": "AGREE",
+        "C": "PARTIAL",
+        "T": "PARTIAL",
+        "M": "PARTIAL",
+        "W": "DISAGREE",
+        "POS": "PARTIAL",
+        "NEG": "PARTIAL"
+      },
+      "amendments": [
+        "Qualified manager-weakness disagreement."
+      ],
+      "critic_flags": []
+    }
+  ]
+}

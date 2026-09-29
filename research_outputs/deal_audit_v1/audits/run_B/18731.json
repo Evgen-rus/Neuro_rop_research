@@ -1,0 +1,132 @@
+{
+  "deal_id": "18731",
+  "deal_summary": "The customer explored a filling, capping and labeling line for 5 L and 10 L canisters containing two different liquid products. The supplier iterated the configuration and discussed product separation, then the customer reported that management found the proposal interesting but allocated available funds to another project, deferring this purchase for roughly a quarter. [evidence: 1, 2, 3, 6]",
+  "customer_need": {
+    "summary": "A line to fill and cap two canister formats and apply labels, with equipment configuration informed by the two product formulations and existing packaging. [evidence: 0, 1, 2]",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "The customer supplied packaging information and then product composition details requested for technical review. [evidence: 0, 1]",
+    "middle": "The supplier reviewed a proposed filling, capping and labeling configuration with the customer, corrected a label-applicator dimension in the proposal, and discussed optional equipment and utility requirements. [evidence: 2]",
+    "late": "The customer said the proposal was awaiting senior-management attention; after an internal meeting, the customer reported that it was viewed as interesting but funding had been assigned elsewhere, with reconsideration expected no earlier than the next budgeting period. [evidence: 3, 4, 6]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied canister and cap documentation and product composition details for equipment review. [evidence: 0, 1]",
+      "The customer engaged in a detailed proposal review and, in the later call, described the proposal as interesting. [evidence: 2, 6]"
+    ],
+    "negative_signals": [
+      "The customer reported that the director had not had time to review or decide on the proposal. [evidence: 3, 4]",
+      "The customer said available funds were committed to another project and that near-term budget approval was unavailable. [evidence: 6]"
+    ],
+    "initiative": "The customer provided requested packaging and product information and described its internal review process; the evidence shows no customer-initiated funding or procurement step. [evidence: 0, 1, 3, 6]",
+    "decision_process": "The customer described director review followed by internal discussion with production and operations before a possible joint supplier meeting; the final call reports a favorable discussion but no funding approval. [evidence: 3, 4, 6]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager gathered packaging and product details for technical sizing, walked through the proposed configuration, and discussed correcting the label dimensions and checking pump utility requirements. [evidence: 1, 2]",
+      "The manager offered to arrange a joint technical discussion and later asked whether questions remained on the separate product circuits or other components. [evidence: 3, 5]"
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "Follow-up was active and tied to the customer's expected internal review; the customer repeatedly confirmed that management review was pending. The view does not show a date-specific re-entry commitment after the budget deferral. [evidence: 3, 4, 5, 6]",
+    "next_step_control": "Before the deferral, calls were scheduled around the customer's expected management discussions. After the customer reported no near-term funding, the call ended with a general plan to reconnect closer to winter rather than a dated next action. [evidence: 3, 4, 6]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-03T10:58:48+03:00",
+      "description": "The customer reviewed the line proposal with the supplier and discussed configuration details and corrections, establishing technical engagement but not a procurement commitment. [evidence: 2]",
+      "importance": "medium",
+      "evidence_indices": [2]
+    },
+    {
+      "timestamp": "2026-08-13T15:06:48+03:00",
+      "description": "The customer said the proposal was still awaiting the director's attention and described additional internal production and operations review steps. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [3]
+    },
+    {
+      "timestamp": "2026-08-25T15:38:25+03:00",
+      "description": "The customer reported that the proposal was interesting but the funding was allocated to another project, moving consideration to a later budget period. [evidence: 6]",
+      "importance": "high",
+      "evidence_indices": [6]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Customer-side leadership review followed by budget reprioritization",
+    "explanation": "The visible trajectory progressed through technical information gathering and proposal review, but the customer-side decision process remained pending at senior-management level. The customer ultimately attributed the delay to funds being directed to another project and described the equipment purchase as a later-period possibility; this is a reported budget constraint, not evidence that technical interest or future purchase is assured. [evidence: 0, 1, 2, 3, 4, 6]",
+    "controllability": "customer",
+    "confidence": "high",
+    "evidence_indices": [2, 3, 4, 6]
+  },
+  "secondary_factors": [
+    "Configuration required information about two products and existing 5 L and 10 L packaging, including separate product handling and utility checks. [evidence: 0, 1, 2, 5]",
+    "The customer described long equipment lead times and internal coordination involving management, production and operations. [evidence: 3]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": false,
+    "what_could_be_done": [
+      "Agree a specific date or budget-review trigger for reconnecting, and refresh the technical and commercial assumptions before that period. [evidence: 6]"
+    ],
+    "limits": [
+      "The customer directly said that available funds had been assigned to a different project and that current funding would not cover this purchase; the view does not establish that supplier follow-up could change that allocation. [evidence: 6]",
+      "Any later requirements or financial conditions could change before reconsideration; the customer explicitly noted that inputs might change. [evidence: 6]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-23T10:13:23+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 3,
+      "paraphrase": "Customer sent documentation for 5 L and 10 L canisters and their caps."
+    },
+    {
+      "timestamp": "2026-07-28T14:23:36+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 20,
+      "paraphrase": "Customer described two planned liquid products and supplied example formulations in response to a technical question."
+    },
+    {
+      "timestamp": "2026-08-03T10:58:48+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 27,
+      "paraphrase": "Supplier and customer reviewed the proposed filling, capping and labeling configuration; they discussed the 5 L/10 L cap changeover, correcting the label applicator length and checking the existing pump and air supply."
+    },
+    {
+      "timestamp": "2026-08-13T15:06:48+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 60,
+      "paraphrase": "Customer said the proposal had been sent to the director but remained pending his attention, described internal production and operations review before a supplier meeting, and acknowledged the long manufacturing lead time."
+    },
+    {
+      "timestamp": "2026-08-18T15:06:59+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 66,
+      "paraphrase": "Customer said the director had seen the proposal but had not found time to decide; they agreed to revisit after about a week."
+    },
+    {
+      "timestamp": "2026-08-25T15:27:11+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 69,
+      "paraphrase": "Supplier followed up by identifying separate circuits for the two products as a design point and offered to collect questions for a technical meeting."
+    },
+    {
+      "timestamp": "2026-08-25T15:38:25+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 71,
+      "paraphrase": "Customer reported that the proposal was interesting but not financially approved because funds went to another project; they expected no new funding for this purchase for roughly three months and said technical discussion could resume if inputs or funding changed."
+    }
+  ],
+  "uncertainties": [
+    "No customer-verified procurement date is stated beyond the budget deferral. [evidence: 6]",
+    "The view ends after the customer reported the budget deferral; it does not establish what happened in the later period. [evidence: 6]"
+  ]
+}
+
+

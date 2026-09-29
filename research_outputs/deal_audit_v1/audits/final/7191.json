@@ -1,0 +1,246 @@
+{
+  "deal_id": "7191",
+  "deal_summary": "The customer explored a full bottling line for a new facility but narrowed the current purchase to feed table, filler, capper, and receiving table, deferring the cap hopper and labeler. The seller addressed a long product-transfer distance and payment terms, hosted a factory visit, revised the offer, and exchanged a contract and disagreement protocol. By Apr. 13 the seller said signed documents had arrived and asked for payment timing; payment is not confirmed in the view. [evidence: 0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 14]",
+  "customer_need": {
+    "summary": "A filling/capping solution for a new beverage/compote facility using a 500L product vessel, with product transfer, cap placement, and input/output tables. The customer initially considered labeling too, but chose to defer the labeler and cap hopper. It requested flexibility for a current 6×14cm bottle and planned 6×12cm bottle, with left-to-right line orientation. [evidence: 1, 6, 8, 9]",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "The buyer sent packaging photos and reviewed a proposal for a four-head filling line; it asked how the product would reach the filler from a vessel about ten meters away and how residue/solids would be handled. [evidence: 0, 1]",
+    "middle": "The seller warned that the ten-meter transfer could impair suction and suggested moving/raising the vessel or adding a booster pump. Buyer accepted staged 50/20/30 payments, visited the factory, and requested input/output tables. It then narrowed current scope to filling and capping while postponing labeling and automatic cap feeding. [evidence: 2, 4, 5, 6]",
+    "late": "The customer clarified bottle sizes, future format changes, line direction, and product description. The parties exchanged a contract and protocol through EDO; the buyer reported visibility problems with documents and had a later absence that delayed review. Seller subsequently said signed documents were received and sent an invoice; payment timing remained the next step. [evidence: 8, 9, 10, 12, 13, 14]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "Sent container photos and label dimensions and engaged with detailed technical questions. [evidence: 0, 1]",
+      "Visited the factory and refined the offer by asking to add input/output tables. [evidence: 4, 5]",
+      "Accepted the 50/20/30 payment structure and gave a clear first-stage scope: tables, filler, and capper. [evidence: 2, 6]",
+      "Provided bottle sizes and line-orientation requirements, then returned signed contractual documents according to the seller's Apr. 13 message. [evidence: 9, 10, 14]"
+    ],
+    "negative_signals": [
+      "The buyer could not commit to the entire line at once and postponed the labeler and cap hopper. [evidence: 6]",
+      "The customer raised multiple document-processing questions and was unavailable while traveling, which delayed signature and payment follow-up. [evidence: 12, 13, 14]"
+    ],
+    "initiative": "The buyer asked about product transfer, cap handling, later labeler purchase, bottle changeover, and line direction; it also raised a product-form question and requested a revised scope. [evidence: 1, 5, 6, 8, 9]",
+    "decision_process": "The customer was opening a new facility and planned to acquire equipment in parts; it reviewed documents with its accountant/security process and used EDO, with staged payments proposed. [evidence: 2, 6, 12, 13]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "Requested and routed product and packaging details for technical review. [evidence: 0, 1]",
+      "Explained the limitation of a ten-meter product-transfer line and laid out practical alternatives. [evidence: 2]",
+      "Hosted the factory visit, added requested tables, revised the quote, and agreed to build the contract scope around the equipment the buyer chose now. [evidence: 4, 5, 6]",
+      "Confirmed that the line could be adjusted for the future bottle size and specified left-to-right orientation in the technical documents. [evidence: 9, 10]"
+    ],
+    "weak_actions": [
+      "The original proposal omitted a cap hopper, and the buyer learned during the factory visit that caps would be manually placed; this needed clearer disclosure earlier. [evidence: 6]",
+      "The customer had to flag that the second specification sheet was difficult and that labeling was not part of this purchase; the seller then offered to fill some of it and requested only the critical dimensions. [evidence: 7]",
+      "An EDO invitation/roaming issue meant the buyer's accounting team could not see the contract documents, requiring another resend path. [evidence: 12, 13]"
+    ],
+    "follow_up_quality": "Responsive across technical changes, the visit, and document questions. The seller kept checking for signature and payment, but the view ends after asking for a payment date. [evidence: 2, 5, 7, 10, 12, 14]",
+    "next_step_control": "The signed contract/protocol were reportedly received and an invoice was sent; the immediate next step was payment. No receipt confirmation or production start is visible. [evidence: 14]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-03-05T10:57:55+03:00",
+      "description": "Buyer asked about transfer from a 500L tank, solids, and cap handling, and said the whole line might be bought in phases depending on payment terms. [evidence: 1]",
+      "importance": "high",
+      "evidence_indices": [
+        1
+      ]
+    },
+    {
+      "timestamp": "2026-03-06T13:48:32+03:00",
+      "description": "Seller explained that a ten-meter transfer path was not recommended and agreed a 50/20/30 payment schedule; buyer chose to plan around a movable vessel. [evidence: 2]",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-03-13T10:34:25+03:00",
+      "description": "Buyer narrowed the current order to input table, filler, capper, and receiving table, deferring the cap hopper and labeler. [evidence: 6]",
+      "importance": "high",
+      "evidence_indices": [
+        6
+      ]
+    },
+    {
+      "timestamp": "2026-03-16T14:31:42+03:00",
+      "description": "Buyer specified a current bottle size, a future bottle size, and left-to-right orientation; seller confirmed changeover flexibility. [evidence: 9, 10]",
+      "importance": "high",
+      "evidence_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "timestamp": "2026-03-19T11:42:20+03:00",
+      "description": "Buyer asked to send the revised contract and disagreement protocol through EDO and said it expected to sign and pay that day; accounting then reported it could not see the documents. [evidence: 12, 13]",
+      "importance": "medium",
+      "evidence_indices": [
+        12,
+        13
+      ]
+    },
+    {
+      "timestamp": "2026-04-13T10:14:53+03:00",
+      "description": "Seller said the signed contract and protocol had been received and asked when the invoice would be paid. [evidence: 14]",
+      "importance": "high",
+      "evidence_indices": [
+        14
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Scope phased to fit the buyer's new facility; contract progressed and payment remained pending",
+    "explanation": "The buyer did not reject the solution; it deliberately narrowed the initial purchase to core filling/capping equipment and tables, leaving the labeler and automatic cap feed for later. Technical questions about product transfer and bottle formats were addressed, and the buyer proceeded through contract review. The endpoint is signed paperwork and an invoice with payment timing still open, not a confirmed payment or production start. [evidence: 2, 4, 6, 9, 10, 12, 14]",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      2,
+      4,
+      6,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  "secondary_factors": [
+    "The customer planned to begin with an available bottle and later switch to an in-house blown bottle, which requires changeover capability. [evidence: 9]",
+    "The ten-meter gap between the product vessel and filler required process/layout clarification before the equipment configuration was settled. [evidence: 1, 2]",
+    "The product pH value in a technical sheet appeared erroneous to the customer; the customer said to use the product name rather than the numeric value. [evidence: 8]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Make manual cap placement and the phased scope explicit in the initial offer and technical scope. [evidence: 6]",
+      "Confirm transfer distance, vessel mobility/elevation, solids handling, and bottle changeover in a single buyer-approved technical specification. [evidence: 1, 2, 8, 9]",
+      "Confirm that EDO invitation and contract/protocol are visible to the buyer's accountant before setting signature/payment dates. [evidence: 12, 13]"
+    ],
+    "limits": [
+      "The buyer chose to defer part of the line because of its new-facility spending plan. [evidence: 6]",
+      "The buyer's travel and internal accounting/security review delayed document turnaround. [evidence: 12, 13]",
+      "No payment receipt or later production event appears after the Apr. 13 invoice follow-up. [evidence: 14]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-03-03T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2549079",
+      "source_line": 1,
+      "paraphrase": "Manager worklog says the buyer manually fills today, price above 3M was acceptable, and it wanted a filling-line solution; this is a manager claim."
+    },
+    {
+      "timestamp": "2026-03-05T10:57:55+03:00",
+      "event_type": "call_transcript",
+      "event_id": "537691",
+      "source_line": 18,
+      "paraphrase": "Buyer asked about pumping from a 500L tank, possible solids in compote, cap handling, and said it might purchase filling/capping first and the labeler later depending on payment terms."
+    },
+    {
+      "timestamp": "2026-03-06T13:48:32+03:00",
+      "event_type": "call_transcript",
+      "event_id": "538375",
+      "source_line": 21,
+      "paraphrase": "Seller said a ten-meter transfer path could be too long, proposed moving/raising the tank or a booster pump, and agreed to 50/20/30 payments; buyer planned to move the vessel closer."
+    },
+    {
+      "timestamp": "2026-03-12T12:07:48+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 31,
+      "paraphrase": "Buyer asked the seller to add input and receiving tables to the quote after the factory visit."
+    },
+    {
+      "timestamp": "2026-03-13T10:34:25+03:00",
+      "event_type": "call_transcript",
+      "event_id": "540359",
+      "source_line": 35,
+      "paraphrase": "Buyer said it could not buy a full line now and selected a feed table, filler, capper, and receiving table, postponing the cap hopper and labeler."
+    },
+    {
+      "timestamp": "2026-03-13T14:01:57+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 39,
+      "paraphrase": "Buyer said it did not understand much of the second questionnaire and noted that a labeler was not in this order; offered to send bottles and caps."
+    },
+    {
+      "timestamp": "2026-03-16T10:58:06+03:00",
+      "event_type": "call_transcript",
+      "event_id": "540985",
+      "source_line": 45,
+      "paraphrase": "Buyer corrected an apparently erroneous pH value and said current bottles would be cylindrical, with samples and dimensions to follow."
+    },
+    {
+      "timestamp": "2026-03-16T14:31:42+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 46,
+      "paraphrase": "Buyer specified available bottles at 6×14cm, a planned future 6×12cm size, and a left-to-right line layout."
+    },
+    {
+      "timestamp": "2026-03-16T15:30:13+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 47,
+      "paraphrase": "Seller confirmed changeover to a new container size and left-to-right orientation would be included in the contract specification."
+    },
+    {
+      "timestamp": "2026-03-18T09:52:14+03:00",
+      "event_type": "call_transcript",
+      "event_id": "542019",
+      "source_line": 62,
+      "paraphrase": "Buyer confirmed the contract had arrived, was under security review, and expected signing and payment that week."
+    },
+    {
+      "timestamp": "2026-03-19T11:42:20+03:00",
+      "event_type": "call_transcript",
+      "event_id": "542819",
+      "source_line": 67,
+      "paraphrase": "Buyer asked to send the contract and protocol through EDO and said it would sign and pay that day."
+    },
+    {
+      "timestamp": "2026-03-19T14:20:45+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 69,
+      "paraphrase": "Buyer said its accounting team could not see the EDO documents; seller explained an invitation must be accepted first."
+    },
+    {
+      "timestamp": "2026-03-24T12:17:21+03:00",
+      "event_type": "call_transcript",
+      "event_id": "545097",
+      "source_line": 84,
+      "paraphrase": "Another customer contact said the buyer was traveling and would return around Mar. 25–26."
+    },
+    {
+      "timestamp": "2026-03-26T10:26:03+03:00",
+      "event_type": "call_transcript",
+      "event_id": "546363",
+      "source_line": 87,
+      "paraphrase": "Buyer said it would review the agreement with accounting and asked the seller to send the invoice by email."
+    },
+    {
+      "timestamp": "2026-04-07T11:51:03+03:00",
+      "event_type": "call_transcript",
+      "event_id": "553873",
+      "source_line": 107,
+      "paraphrase": "Buyer said security had additional protocol edits after its absence; seller agreed to review them with legal."
+    },
+    {
+      "timestamp": "2026-04-13T10:14:53+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 123,
+      "paraphrase": "Seller said it had received the signed contract and protocol and asked for the planned payment date."
+    }
+  ],
+  "uncertainties": [
+    "The approximate 3M price acceptance and early purchase timing appear in a manager worklog and are not directly stated by the customer in the shown events. [evidence: 0]",
+    "The final bottle sample, cap-feeding choice, and labeler timing are not resolved in this view. [evidence: 6, 9]",
+    "No payment confirmation or production start appears after the seller's Apr. 13 request. [evidence: 14]"
+  ]
+}

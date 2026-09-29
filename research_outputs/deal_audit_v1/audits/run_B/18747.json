@@ -1,0 +1,130 @@
+{
+  "deal_id": "18747",
+  "deal_summary": "The customer explored a packaging line for changing bottle formats and said it needed a flexible base with changeover options because end-customer orders and bottle sizes vary. Exact dimensional inputs were incomplete, and the supplier warned that distinctly shaped containers may require different labeling solutions. After receiving a proposal and video, the customer said one block did not fit but did not identify it in the available view, leaving the proposed revision undefined. [evidence: 0, 1, 2, 3, 4, 5]",
+  "customer_need": {
+    "summary": "A line for multiple bottle formats, with a flexible base and changeover components; exact future container specifications were not available because formats depend on incoming orders. [evidence: 0, 1]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The customer described variable customer orders and requested a broadly adaptable equipment base, but could not initially supply dimensions or samples for every format. [evidence: 0, 1]",
+    "middle": "The supplier explained that substantially different bottle geometries may need separate line approaches, then sent a proposal and video for the available information. [evidence: 2, 3]",
+    "late": "The customer said its production team had the materials and later reported that a specific block was unsuitable, without identifying the block or required alternative in the view. The supplier asked again for a precise change request. [evidence: 4, 5, 6]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer articulated a future-facing need for a flexible base and changeover components and supplied photos of available containers. [evidence: 0, 1]",
+      "The customer confirmed that the proposal and video were received and routed them to production for review. [evidence: 3, 4]"
+    ],
+    "negative_signals": [
+      "Exact dimensions for relevant formats were unavailable, and the customer described the bottle formats as dependent on future orders. [evidence: 0, 1]",
+      "The customer rejected one block in the proposal but did not specify which block or what technical requirement it failed to meet in the available exchange. [evidence: 5, 6]"
+    ],
+    "initiative": "The customer described its variable-format use case, supplied photos, and reported that production reviewed the materials; it did not provide a specific correction request after saying a block was unsuitable. [evidence: 0, 1, 4, 5]",
+    "decision_process": "The customer referred technical review to its production team. No decision-maker approval, contracting step or agreed correction specification is visible in the supplied view. [evidence: 4, 5, 6]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager sought container and label dimensions and explained that materially different shapes may require distinct equipment approaches. [evidence: 1, 2]",
+      "The manager sent a proposal and video, then asked the customer to identify mandatory formats and the block to change so a limited revision could be evaluated. [evidence: 3, 5, 6]"
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "The manager followed up after the customer deferred review and tried to convert the objection into a concrete technical request. The view ends without that clarification, so the effectiveness of the follow-up is unresolved. [evidence: 4, 5, 6]",
+    "next_step_control": "The supplier's last visible step was a request to name the unsuitable block and required format or changeover; the view contains no customer response or mutually dated next step. [evidence: 5, 6]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-28T12:31:48+03:00",
+      "description": "The customer described changing end-customer orders and sought a flexible equipment base rather than a solution for one fixed format, while acknowledging that future bottle specifications were uncertain. [evidence: 0]",
+      "importance": "high",
+      "evidence_indices": [0]
+    },
+    {
+      "timestamp": "2026-08-11T15:45:36+03:00",
+      "description": "The proposal and video were sent for review by the customer's production team. [evidence: 3, 4]",
+      "importance": "medium",
+      "evidence_indices": [3, 4]
+    },
+    {
+      "timestamp": "2026-08-25T15:06:07+03:00",
+      "description": "The customer said a specific block in the proposal was unsuitable, but the available call did not identify which block or the required change. [evidence: 5]",
+      "importance": "high",
+      "evidence_indices": [5]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Variable-format requirements and unresolved technical objection",
+    "explanation": "The customer wanted broad format flexibility while exact dimensions and future container shapes remained uncertain. The supplier provided a proposal, but the customer's later objection was not translated into a named block and specific requirement in the visible record, preventing a defined revision. This describes the documented trajectory and does not establish whether a more detailed scope or a later response would change the customer's decision. [evidence: 0, 1, 2, 3, 5, 6]",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [0, 1, 2, 3, 5, 6]
+  },
+  "secondary_factors": [
+    "The customer said its production team was handling other complex issues and asked to return to the equipment discussion the following week. [evidence: 4]",
+    "The manager's message notes that strongly differing elongated and wider cylindrical containers can require different labeling approaches; the customer's complete must-have format list is not visible. [evidence: 2, 6]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "If the customer re-engages, separate current must-have containers from possible future formats and confirm the exact block and failure criterion before revising the proposal. [evidence: 0, 1, 5, 6]"
+    ],
+    "limits": [
+      "The customer said bottle formats depend on end-customer orders and that exact samples or dimensions were not consistently available. [evidence: 0, 1]",
+      "The customer did not identify the unsuitable block in the latest visible discussion, so the cause of the objection cannot be assessed. [evidence: 5, 6]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-28T12:31:48+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 9,
+      "paraphrase": "Customer said current and future end-customer orders may use bottles of different sizes, so it wanted a flexible base with changeover options rather than a line for one fixed format."
+    },
+    {
+      "timestamp": "2026-07-30T13:17:19+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 25,
+      "paraphrase": "Customer said it did not have drawings for the end-customer containers and that samples were supplied with later orders; manager asked whether available stock bottles could be measured."
+    },
+    {
+      "timestamp": "2026-08-05T15:55:40+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 48,
+      "paraphrase": "Supplier said significantly different elongated and wider cylindrical containers may need different line designs and asked whether the current scope covered only existing containers."
+    },
+    {
+      "timestamp": "2026-08-11T15:45:36+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 62,
+      "paraphrase": "Supplier sent the commercial proposal for the requested equipment and asked the customer to review it."
+    },
+    {
+      "timestamp": "2026-08-12T11:23:29+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 68,
+      "paraphrase": "Customer confirmed that the proposal and video were received and said the production team would review them."
+    },
+    {
+      "timestamp": "2026-08-25T15:06:07+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 86,
+      "paraphrase": "Customer said the proposal did not fit because of one block; when asked which one, the customer agreed to check and provide more detail."
+    },
+    {
+      "timestamp": "2026-09-01T10:47:44+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 97,
+      "paraphrase": "Supplier again asked the customer to identify the unsuitable block and state mandatory format and changeover requirements."
+    }
+  ],
+  "uncertainties": [
+    "The full set of container formats and the precise technical block rejected by the customer are not available in the view. [evidence: 0, 1, 5, 6]",
+    "The supplied view ends with a supplier clarification request and contains no subsequent customer response. [evidence: 6]"
+  ]
+}

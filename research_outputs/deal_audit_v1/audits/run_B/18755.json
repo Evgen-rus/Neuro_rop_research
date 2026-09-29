@@ -1,0 +1,140 @@
+{
+  "deal_id": "18755",
+  "deal_summary": "The customer discussed automating filling and side labeling for two bottle formats, provided available packaging details, and asked for alternative proposals with and without a code on the 5 L bottle. The supplier sent a proposal and video. A manager worklog reports that the proposal was priced above competing options, but the supplied view contains no customer-sourced price feedback or later decision. [evidence: 1, 2, 3, 4, 5, 6]",
+  "customer_need": {
+    "summary": "Automated filling and side labeling for a 5 L bottle and a cylindrical 1.5 L bottle, with the code-printing requirement for the 5 L bottle left open for comparison. [evidence: 2, 3, 4]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The customer said it was busy at month end, then supplied packaging details for the 5 L bottle. It did not have dimensions for the 1.5 L bottle and asked the supplier to use a standard bottle as a starting point. [evidence: 1, 2]",
+    "middle": "The customer clarified that the 1.5 L bottle would be cylindrical and requested two proposal versions for the 5 L bottle, with and without code printing. [evidence: 3, 4]",
+    "late": "The supplier sent a proposal and video. A manager worklog reports that competing proposals were substantially cheaper and that the customer was not considering the supplier's offer, but the customer does not directly confirm this in the view. [evidence: 5, 6]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied available bottle, cap and label information and answered follow-up questions about the 1.5 L format. [evidence: 1, 2, 3]",
+      "The customer asked to compare proposals with and without code printing, allowing the supplier to distinguish an optional feature. [evidence: 4]"
+    ],
+    "negative_signals": [
+      "The customer did not have measurements for the 1.5 L bottle and asked the supplier to assume a standard format. [evidence: 2]",
+      "At the proposal call, the customer said it was inconvenient to talk and noted that the supplier had called more than once. [evidence: 5]"
+    ],
+    "initiative": "The customer supplied some specifications, answered questions about bottle shape, and requested alternative configurations; the view contains no customer-sourced response to the proposal's price or technical fit. [evidence: 2, 3, 4, 5, 6]",
+    "decision_process": "A manager worklog says the customer would make a final decision after about two weeks, but that timing and the reported competitor comparisons are not corroborated by a customer-sourced event in the available view. [evidence: 6]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager asked for missing bottle dimensions, clarified the 1.5 L bottle shape, and asked whether code printing was required on the 5 L bottle. [evidence: 2, 3]",
+      "The manager sent a proposal and video after the customer requested versions with and without code printing. [evidence: 4, 6]"
+    ],
+    "weak_actions": [
+      "During the proposal call, the customer said repeated calls made it inconvenient to discuss the proposal at that moment. [evidence: 5]"
+    ],
+    "follow_up_quality": "The manager gathered packaging details and delivered the proposal, but outreach frequency may have been poorly timed; the customer's stated inconvenience is direct evidence. Subsequent follow-up quality cannot be assessed because the view ends on the proposal date. [evidence: 2, 4, 5, 6]",
+    "next_step_control": "The customer agreed to a later callback, and a manager worklog records a possible decision review in roughly two weeks. The view does not show a completed review or customer-confirmed next step after the proposal was sent. [evidence: 5, 6]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-30T12:31:17+03:00",
+      "description": "The customer said it was overloaded at month end but began providing available package specifications. [evidence: 1, 2]",
+      "importance": "medium",
+      "evidence_indices": [1, 2]
+    },
+    {
+      "timestamp": "2026-07-30T13:53:04+03:00",
+      "description": "The customer requested proposals with and without code printing on the 5 L bottle, clarifying an optional part of the scope. [evidence: 4]",
+      "importance": "medium",
+      "evidence_indices": [4]
+    },
+    {
+      "timestamp": "2026-07-31T09:45:38+03:00",
+      "description": "The proposal was sent; the customer had not reviewed it in the brief call and asked to discuss later. A same-date worklog later records a price comparison, but that claim is not corroborated by the customer in the available view. [evidence: 5, 6]",
+      "importance": "high",
+      "evidence_indices": [5, 6]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Proposal delivered; price competitiveness is a manager-reported concern and customer response is not captured",
+    "explanation": "The customer provided enough information for a proposal, and the supplier sent it with a video. A manager worklog reports that the customer's alternatives were cheaper and the supplier's offer was not being considered, but no customer-sourced event in this view confirms the comparison or the response to the supplier's proposal. The visible trajectory therefore ends before a verified technical or commercial decision. [evidence: 2, 3, 4, 5, 6]",
+    "controllability": "unknown",
+    "confidence": "medium",
+    "evidence_indices": [4, 5, 6]
+  },
+  "secondary_factors": [
+    "Dimensions for the 1.5 L package were unavailable, so the customer asked the supplier to use a standard bottle as an assumption. [evidence: 2]",
+    "A manager worklog records an initial acceptable price threshold of at least 3.5 million and later reports cheaper competing offers; neither price comparison is confirmed by customer-sourced evidence in the view. [evidence: 0, 6]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "If the customer resumes the discussion, compare the offers on a like-for-like basis and separate essential filling and labeling features from optional code printing before proposing a lower-scope configuration. [evidence: 4, 6]",
+      "Agree one specific follow-up time and avoid additional calls before it. [evidence: 5]"
+    ],
+    "limits": [
+      "The competitor comparison and reported price concern come only from a manager worklog; configuration and service comparability are not established. [evidence: 6]",
+      "The view ends on the proposal date and does not show whether the customer reviewed or rejected it. [evidence: 5, 6]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-27T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Manager worklog records an initial estimate of at least 3.5 million as acceptable, a September purchase plan, and a 5 L/1.5 L bottle-line requirement; these are manager claims, not direct customer statements."
+    },
+    {
+      "timestamp": "2026-07-30T12:31:17+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 19,
+      "paraphrase": "Customer said the end of the month was very busy."
+    },
+    {
+      "timestamp": "2026-07-30T12:35:34+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 27,
+      "paraphrase": "Customer said it did not have dimensions for the 1.5 L bottle and asked the supplier to use a standard bottle as the basis."
+    },
+    {
+      "timestamp": "2026-07-30T12:52:23+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 33,
+      "paraphrase": "Customer confirmed that the 1.5 L bottle would be cylindrical."
+    },
+    {
+      "timestamp": "2026-07-30T13:53:04+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 39,
+      "paraphrase": "Customer asked the supplier to send proposal options with and without code printing."
+    },
+    {
+      "timestamp": "2026-07-31T09:43:26+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 43,
+      "paraphrase": "When the supplier called to send the prepared proposal, the customer said it was inconvenient to talk then and agreed to a callback in about 90 minutes."
+    },
+    {
+      "timestamp": "2026-07-31T09:45:38+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 44,
+      "paraphrase": "Supplier sent the commercial proposal and requested that the customer review it."
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 41,
+      "paraphrase": "Manager worklog reports competing offers of about 1 million and 2 million, says the supplier's offer was not competitive, and records an expected decision after about two weeks; these claims are not corroborated by a customer-sourced event in the view."
+    }
+  ],
+  "uncertainties": [
+    "The proposal amount and exact scope relative to the cited competing offers are not available in the customer-sourced events shown, so price comparability and the reported price objection remain unverified. [evidence: 6]",
+    "The latest view contains no customer-sourced post-proposal acceptance, rejection or technical assessment. [evidence: 5, 6]"
+  ]
+}

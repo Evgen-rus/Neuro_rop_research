@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "status": "complete",
+  "created_at": "2026-09-29T09:22:29.8512656Z",
+  "scope": "offline retrospective audit of 23 Pakhomov deals",
+  "dataset_immutable_verified": true,
+  "input_deal_count": 23,
+  "paired_blind_audit_count": 23,
+  "final_audit_count": 23,
+  "outcome_labels_opened_after_final_audit_freeze": true,
+  "canonical_pair_freeze": "paired_audit_freeze_v2.json",
+  "final_audit_freeze": "final_audit_freeze.json",
+  "canonical_b_19007": "audits/run_B_replacement/19007.json",
+  "superseded_audits_preserved": "audits/invalidated/",
+  "independent_audit_limitation": "A auditor for deals 5971, 6135, 18485 also participated in preprocessing",
+  "analysis_limitations": [
+    "One manager and 23 historical deals; no causal or predictive claim",
+    "WON and LOST differ in timeline size and missing call transcripts",
+    "Audit-view cutoff may exclude legitimate late events; same-day timing can be ambiguous",
+    "Manager worklogs are not direct customer confirmation"
+  ],
+  "files": [
+    {
+      "path": "audit_schema.json",
+      "sha256": "0aa1e30c9b8785cb44a30f3c42ec1be2c552cef796171a3fe816b9ba3dba01f9"
+    },
+    {
+      "path": "input_contract.md",
+      "sha256": "e9b61b4d35861dd7039082f8544afb73ea7ffeef4c12f482c6e98ea81aad5adb"
+    },
+    {
+      "path": "audit_manifest.json",
+      "sha256": "6fbf464a84b8b1793da79cb103216fa6cadfa258023672252fc9576361cea121"
+    },
+    {
+      "path": "paired_audit_freeze_v2.json",
+      "sha256": "e99992980a57771cfe0d04341d76737e87ce2414eaa8add482e365abbcbd783b"
+    },
+    {
+      "path": "reliability.json",
+      "sha256": "6f39554ab8f9c23e2b36d0cbeab33adb05fc6708e5d02cab509afb669a10d13f"
+    },
+    {
+      "path": "reliability_summary.md",
+      "sha256": "63556e2b48065e0f1cd9996c9e00a7b9dcbed69aab724aad5b055fe5535ce33b"
+    },
+    {
+      "path": "reconciliation_decisions.json",
+      "sha256": "f6491af5838c9e13c0b3a0cf0da978ae150cdadcdbdbc8eef84e27e0ebe2a5b8"
+    },
+    {
+      "path": "final_audit_freeze.json",
+      "sha256": "d78384ef2f4b0a2ecc0919b68155df93694d4d155e15d9fd65568fdf0663c19e"
+    },
+    {
+      "path": "taxonomy.json",
+      "sha256": "e9c9f56c457db76c5d7e6f4e8870bb31d215032ab7b60fbf9192af169556387e"
+    },
+    {
+      "path": "won_vs_lost.json",
+      "sha256": "4a19041515eb1b23ad844fe944ea0c0f80eb36392bf203566c0d7ec23db29f8a"
+    },
+    {
+      "path": "business_findings.md",
+      "sha256": "377077b6d922f649274b01245c6d0cf381ecb49c4dc1472e465dafdddc645965"
+    },
+    {
+      "path": "executive_summary.md",
+      "sha256": "01e3e99d58ccb013814d54106a3ba70cb1604e5ef49674581c282092580ce20a"
+    }
+  ]
+}

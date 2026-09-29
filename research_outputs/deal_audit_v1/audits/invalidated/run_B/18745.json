@@ -1,0 +1,162 @@
+{
+  "deal_id": "18745",
+  "deal_summary": "The customer evaluated an automatic labeler for cylindrical PET bottles with date printing. After reviewing the proposal, the customer asked for contracting and commissioning scope; the first contract packet had errors that required correction. The customer later reported that the internal approvals were complete and payment was scheduled, while also objecting to repeated payment inquiries. A separate filling-line need emerged during the final exchange. [evidence: 0, 2, 3, 6, 7, 8]",
+  "customer_need": {
+    "summary": "Automatic labeling of cylindrical PET bottles in several formats, including date printing. [evidence: 0]",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "The customer clarified bottle shapes and label requirements, then reviewed the sent proposal and said the price appeared acceptable to him while the director and investor had not yet discussed it. [evidence: 0, 1]",
+    "middle": "The customer said the decision was nearly made and requested the contract, specification and commissioning work. During review, the customer identified incorrect company-role information and a missing commissioning agreement; revised documents followed. [evidence: 2, 3]",
+    "late": "The customer later reported approval and returned contract files, with payment planned for a stated weekday. In the last calls, the customer said payment was in process but objected to being asked about it repeatedly; the customer also raised a separate filling-line request. [evidence: 6, 7, 8]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied packaging information and engaged in an early proposal review. [evidence: 0, 1]",
+      "The customer asked for contract and commissioning documents, returned signed files, and gave a payment schedule. [evidence: 2, 6, 7]",
+      "The customer initiated a separate request for an integrated filling block and provided follow-up technical details. [evidence: 7, 8]"
+    ],
+    "negative_signals": [
+      "The initial contract documents contained errors and omitted commissioning scope, requiring correction before review could continue. [evidence: 3]",
+      "The customer said repeated payment inquiries were unwelcome and reminded the manager that a payment day had already been provided. [evidence: 8]"
+    ],
+    "initiative": "The customer provided bottle details, corrected the scope and contracting information, returned contract files, stated a payment schedule, and introduced a separate equipment request. [evidence: 0, 2, 3, 6, 7]",
+    "decision_process": "The customer described a director and investor review, followed by contract review and signature handling. The customer later said the paperwork was approved and payment was being processed, but the view does not show independent receipt confirmation. [evidence: 1, 4, 5, 6, 8]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager gathered bottle and label information, discussed the requested date printer, and adjusted the proposed scope as technical requirements were clarified. [evidence: 0, 2]",
+      "After the customer identified contract errors and missing commissioning documents, the manager sent a corrected contract packet. [evidence: 3]"
+    ],
+    "weak_actions": [
+      "The first contract packet had inaccurate customer-role information and did not include the requested commissioning agreement, which the customer said would waste time. [evidence: 3]",
+      "The manager continued seeking payment updates despite the customer's stated Tuesday/Thursday payment process; the customer directly objected to repeated inquiries. [evidence: 7, 8]"
+    ],
+    "follow_up_quality": "The manager kept the technical and contract process moving, but payment follow-up became too frequent for the customer's stated schedule and caused explicit irritation. A deal comment dated July 24 also has a chronology inconsistency and is not relied on for payment status. [evidence: 3, 7, 8, 9]",
+    "next_step_control": "Contract files and an invoice were sent, and the customer gave a payment day. The last exchange does not establish a receipt confirmation or a mutually agreed follow-up date after that day. [evidence: 6, 7, 8]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-05T10:43:30+03:00",
+      "description": "The customer said the solution was nearly decided and requested the contract, specification and commissioning work, moving the discussion into document preparation. [evidence: 2]",
+      "importance": "high",
+      "evidence_indices": [2]
+    },
+    {
+      "timestamp": "2026-08-06T15:08:52+03:00",
+      "description": "The customer identified errors in the contract packet and the absent commissioning contract, requiring document correction. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [3]
+    },
+    {
+      "timestamp": "2026-08-20T11:58:58+03:00",
+      "description": "The customer requested the supplier-signed copies and stated that payment was planned for the following Tuesday. [evidence: 6]",
+      "importance": "high",
+      "evidence_indices": [6]
+    },
+    {
+      "timestamp": "2026-08-26T09:59:49+03:00",
+      "description": "The customer said payment was being processed, objected to repeated payment calls, and discussed a distinct filling-line requirement. [evidence: 8]",
+      "importance": "high",
+      "evidence_indices": [8]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Technical acceptance and contract progression with payment timing and follow-up friction",
+    "explanation": "The customer moved from proposal review to contract and commissioning requests, reported that the approval process had advanced, and gave a payment schedule. The visible late-stage issue is that payment was still described as in process while repeated inquiries had strained contact. The view does not independently confirm payment receipt. [evidence: 1, 2, 3, 5, 6, 7, 8]",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [2, 3, 6, 7, 8]
+  },
+  "secondary_factors": [
+    "The customer raised a separate request for a four-doser filling block integrated with existing equipment; the view shows information gathering, not a completed proposal for this added scope. [evidence: 7, 8]",
+    "A deal comment timestamped 2026-07-24 refers to events dated 2026-08-26 and 2026-08-27, so it cannot establish those later events in chronological order. [evidence: 9]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Acknowledge the stated payment window and agree on one check-in after it, preferably through the customer's finance contact rather than repeated calls to the production manager. [evidence: 7, 8]",
+      "Use a document checklist for customer legal details and commissioning scope before sending the next contract packet. [evidence: 3]"
+    ],
+    "limits": [
+      "The customer said the payment process depended on its scheduled finance days; the view does not show whether supplier follow-up could change the actual transfer timing. [evidence: 7, 8]",
+      "The view ends while the additional filling-line request is still being scoped. [evidence: 8]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-24T10:31:31+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 6,
+      "paraphrase": "Customer described round cylindrical bottles in multiple sizes and asked for equipment with printing."
+    },
+    {
+      "timestamp": "2026-07-27T13:30:06+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 22,
+      "paraphrase": "Customer said the proposal had reached the director, the director was away with an investor, and the price seemed acceptable to the customer."
+    },
+    {
+      "timestamp": "2026-08-05T10:43:30+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 47,
+      "paraphrase": "Customer said the decision was nearly made, requested the contract, specification and commissioning work, and asked the supplier to verify fit for the supplied bottle sizes."
+    },
+    {
+      "timestamp": "2026-08-06T15:08:52+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 72,
+      "paraphrase": "Customer said the contract had the wrong customer-role information and lacked a separate commissioning agreement, and asked for the documents together."
+    },
+    {
+      "timestamp": "2026-08-10T10:27:08+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 80,
+      "paraphrase": "Customer said the director had not yet reviewed the materials and that the timing of the decision was uncertain."
+    },
+    {
+      "timestamp": "2026-08-14T11:10:54+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 87,
+      "paraphrase": "Customer said the director had approved the contract and that additional approval steps remained."
+    },
+    {
+      "timestamp": "2026-08-20T11:58:58+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 94,
+      "paraphrase": "Customer requested supplier-signed copies and said payment was scheduled for the following Tuesday."
+    },
+    {
+      "timestamp": "2026-08-25T08:52:33+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 105,
+      "paraphrase": "Customer said payment for the labeling equipment was in process, then asked about replacing an unsatisfactory filling block with a four-doser unit for 5 L and 20 L canisters."
+    },
+    {
+      "timestamp": "2026-08-26T09:59:49+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 118,
+      "paraphrase": "Customer said payment was scheduled on Tuesday or Thursday, objected to daily payment inquiries, and asked that the production manager not be called repeatedly about payment."
+    },
+    {
+      "timestamp": "2026-07-24T10:30:42+03:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 3,
+      "paraphrase": "A deal comment timestamped July 24 contains references to payment and a customer reaction dated August 26/27, which is chronologically inconsistent with the comment timestamp."
+    }
+  ],
+  "uncertainties": [
+    "The July 24 comment that mentions later August events has an inconsistent timestamp and was not used to establish payment chronology. [evidence: 9]",
+    "The latest direct customer statement describes payment as scheduled or in process; the view contains no independent bank receipt confirmation. [evidence: 7, 8]"
+  ]
+}

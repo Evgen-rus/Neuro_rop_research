@@ -1,0 +1,139 @@
+{
+  "deal_id": "18635",
+  "deal_summary": "The customer pursued a labeling solution with a real-sample validation requirement; discussion advanced into contract and invoice processing after the seller disclosed a long build time and deferred testing until manufacture (evidence 0, 1, 2, 3, 4).",
+  "customer_need": {
+    "summary": "The manager log describes automating hand-applied labeling; the customer asked about 1,000 units per hour, lead time, and testing the proposed setup on its own container and label (evidence 0, 1).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller shared a quote and a comparable-project video; the customer checked speed, lead time, label handling, and whether the displayed solution was a real prototype (evidence 0, 1).",
+    "middle": "The customer wanted a test on its own packaging, but the seller said no unit was available and testing would follow manufacture; production quoted up to 55 working days (evidence 1, 2).",
+    "late": "The parties reviewed contract changes and the customer asked whether 70% of a 954,000 invoice was the agreed first payment; a worklog says documents were signed and a payment order sent, but no bank confirmation appears (evidence 3, 4, 5)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer asked detailed performance and label-sensing questions and supplied an equipment questionnaire (evidence 0, 1).",
+      "The customer proceeded to contract and asked for confirmation of the 70% payment split (evidence 3, 4)."
+    ],
+    "negative_signals": [
+      "The customer sought a real sample test before purchase, which could not be performed on an available unit (evidence 1)."
+    ],
+    "initiative": "The customer asked for a prototype/test, queried the lead time, and returned contract corrections (evidence 0, 1, 3).",
+    "decision_process": "The customer evaluated technical fit and then used e-signature and staged payment steps; payment completion is not directly evidenced (evidence 1, 4, 5)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller gave direct answers about the prototype and manufacturing lead time (evidence 1, 2).",
+      "The seller processed customer contract corrections and clarified the staged invoice amount (evidence 3, 4)."
+    ],
+    "weak_actions": [
+      "The proposed proof of fit was deferred until after manufacture, leaving the customer's sample-validation concern unresolved before contracting (evidence 1, 2)."
+    ],
+    "follow_up_quality": "The seller stayed engaged through technical, contract, and payment questions (evidence 1, 3, 4).",
+    "next_step_control": "The visible next step was the customer's 70% invoice payment and production start, but receipt is not independently confirmed (evidence 4, 5)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-07T00:00:00+03:00",
+      "description": "The customer asked to test the proposal on its own container and label (evidence 0).",
+      "importance": "high",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "timestamp": "2026-07-09T10:32:48+03:00",
+      "description": "The seller clarified that a real test would occur only after manufacture and gave a lead time of up to 55 working days (evidence 1, 2).",
+      "importance": "high",
+      "evidence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-07-23T15:50:55+03:00",
+      "description": "The customer asked to confirm the 70% first payment on the invoice (evidence 4).",
+      "importance": "high",
+      "evidence_indices": [
+        4
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "sample-validation requirement followed by contract processing",
+    "explanation": "The main decision tension was the customer's need to validate application on its own packaging against the seller's lack of a ready unit and a 55-working-day build period. The process then advanced to contract/invoice steps, though payment and production release remain unverified here (evidence 0, 1, 2, 4, 5).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "The customer returned one contract correction, which was routed for review (evidence 3).",
+    "The agreed 70/30 payment split reduced the amount due at order stage but is not proof of receipt (evidence 4, 5)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree an explicit sample-validation protocol and acceptance criteria before promising the production schedule (evidence 0, 1, 2).",
+      "Track contract signature and payment receipt separately from a sent payment order (evidence 4, 5)."
+    ],
+    "limits": [
+      "No finished unit was available for a pre-purchase trial (evidence 1).",
+      "The customer controls its payment and signature timing (evidence 4, 5)."
+    ]
+  },
+  "uncertainties": [
+    "The initial requirement is partly from a manager worklog (evidence 0).",
+    "A manager worklog says the e-signed contract and payment order were sent, while customer messages only confirm the payment split discussion; no bank receipt is shown (evidence 4, 5).",
+    "The view ends before the requested customer-specific test or commissioning result (evidence 1, 2)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes the customer as seeking automation of hand labeling and records a target price range and packaging.",
+      "timestamp": "2026-07-07T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2862473"
+    },
+    {
+      "source_line": 26,
+      "paraphrase": "Customer asks whether the image is a real prototype and whether the seller can test on the customer's jar and label.",
+      "timestamp": "2026-07-09T10:32:48+03:00",
+      "event_type": "message",
+      "event_id": "2866301"
+    },
+    {
+      "source_line": 27,
+      "paraphrase": "Seller says the shown equipment is from an earlier project, none is currently available for testing, and testing will occur after manufacture.",
+      "timestamp": "2026-07-09T10:35:53+03:00",
+      "event_type": "message",
+      "event_id": "2866325"
+    },
+    {
+      "source_line": 74,
+      "paraphrase": "Customer returns contract corrections involving signatures and supply-document wording.",
+      "timestamp": "2026-07-20T12:53:48+03:00",
+      "event_type": "email",
+      "event_id": "624601"
+    },
+    {
+      "source_line": 115,
+      "paraphrase": "Customer asks whether 70% of the 954,000 invoice is the correct first payment.",
+      "timestamp": "2026-07-23T15:50:55+03:00",
+      "event_type": "message",
+      "event_id": "2908177"
+    },
+    {
+      "source_line": 104,
+      "paraphrase": "Manager worklog says the contract was signed through e-signature and the payment order was sent; this is a worklog claim, not bank confirmation.",
+      "timestamp": "2026-07-23T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2862473"
+    }
+  ]
+}

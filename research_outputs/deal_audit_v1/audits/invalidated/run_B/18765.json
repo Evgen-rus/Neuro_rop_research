@@ -1,0 +1,159 @@
+{
+  "deal_id": "18765",
+  "deal_summary": "The customer reviewed a labeling solution for bucket formats, then clarified that it wanted labeling only and said the quoted amount was well above its stated range. Leasing schedules were supplied for director review, but the customer later said the director was comparing other options and the purchase was not urgent. The customer subsequently cited a tense raw-material situation and said equipment had moved to the background. [evidence: 2, 3, 4, 6, 7]",
+  "customer_need": {
+    "summary": "Automatic labeling of the customer's bucket products; during proposal review, the customer clarified that bucket capping was not part of the current purchase and gave a lower price range for labeling equipment. [evidence: 2, 3]",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "The customer sent packaging information and examples of how labels were applied, allowing the supplier to prepare a proposal. [evidence: 0, 1]",
+    "middle": "When reviewing the proposal, the customer clarified that it needed labeling only, questioned the price increase from the preliminary amount, and stated that around 1.0–1.2 million would be more acceptable than the roughly 2 million quoted. The supplier then sent one- and three-year leasing calculations. [evidence: 2, 3, 4]",
+    "late": "The customer said the director had not yet responded to the financing calculation, later described comparison with other offers and no urgency, and then said a tense raw-material situation had moved equipment down the priority list. [evidence: 5, 6, 7]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer provided packaging information and reviewed the proposal. [evidence: 0, 1, 2]",
+      "The customer engaged on price and financing and said the director was reviewing alternatives. [evidence: 3, 4, 5, 6]"
+    ],
+    "negative_signals": [
+      "The customer said the quoted price was too high relative to its stated 1.0–1.2 million range. [evidence: 3]",
+      "The customer reported no urgency, an ongoing comparison of other offers, and a raw-material situation that took priority over the equipment purchase. [evidence: 6, 7]"
+    ],
+    "initiative": "The customer supplied product information, clarified the desired scope and budget, routed financing materials to the director, and directly communicated the later business constraint. [evidence: 0, 1, 3, 5, 6, 7]",
+    "decision_process": "The customer said the director would review the leasing calculations and other offers; the customer later confirmed that no immediate purchase timing had been set. [evidence: 5, 6]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager prepared a tailored proposal, discussed the customer's clarified labeling-only scope, and sent one- and three-year leasing calculations for review. [evidence: 2, 3, 4]",
+      "After the customer said raw materials were the immediate concern, the manager acknowledged the pause and left the door open to resume discussion. [evidence: 7, 8]"
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "The manager supplied financing options and later used the customer's stated preference for less frequent contact; the customer had asked not to be contacted too often. [evidence: 4, 5, 8]",
+    "next_step_control": "The next review depended on the director's comparison, and the customer reported no urgency. After the customer stated the raw-material constraint, the manager acknowledged a temporary pause without a dated follow-up. [evidence: 6, 7, 8]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-05T16:00:05+03:00",
+      "description": "The customer clarified that only labeling was in scope and said the quoted price was too high for its stated range. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [3]
+    },
+    {
+      "timestamp": "2026-08-06T13:24:34+03:00",
+      "description": "The supplier sent one- and three-year leasing calculations, giving the customer a financing path to review with the director. [evidence: 4]",
+      "importance": "medium",
+      "evidence_indices": [4]
+    },
+    {
+      "timestamp": "2026-09-23T18:17:52+03:00",
+      "description": "The customer said raw-material conditions were very tense and equipment had become a lower priority. [evidence: 7]",
+      "importance": "high",
+      "evidence_indices": [7]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Price and capital-priority deferral",
+    "explanation": "The customer said the quoted labeling-only solution was above its stated budget range, then left the leasing calculation and alternative offers with the director. The customer later reported no urgency and a raw-material constraint that displaced equipment from current priorities. These are customer-reported commercial and operating constraints; the view does not establish whether a different configuration or later conditions would change them. [evidence: 3, 4, 5, 6, 7]",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [3, 4, 5, 6, 7]
+  },
+  "secondary_factors": [
+    "The customer clarified that capping was not needed in the current scope, while the proposal review involved packaging and labeling equipment. [evidence: 2, 3]",
+    "The customer asked not to be contacted too frequently while waiting for the director's decision. [evidence: 5]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "If the customer reopens the project, confirm the labeling-only scope and compare a technically equivalent configuration against the customer's stated budget range before revising price or financing. [evidence: 2, 3, 4]"
+    ],
+    "limits": [
+      "The director was comparing other offers and the customer said raw-material conditions had become the immediate priority. [evidence: 6, 7]",
+      "The view does not contain the competing offers or enough detail to compare their equipment scope, service or performance. [evidence: 6]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-30T13:37:58+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 16,
+      "paraphrase": "Customer replied that the labels were applied this way on all buckets."
+    },
+    {
+      "timestamp": "2026-08-04T10:17:10+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 24,
+      "paraphrase": "Supplier said a proposal for packaging and labeling equipment was ready; the customer was away from work and agreed to review it the next day."
+    },
+    {
+      "timestamp": "2026-08-05T15:04:48+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 35,
+      "paraphrase": "Customer said the proposal price differed from the preliminary amount and asked for time to assess it."
+    },
+    {
+      "timestamp": "2026-08-05T16:00:05+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 37,
+      "paraphrase": "Customer clarified that bucket capping was not currently needed, said it wanted labeling only, and stated that 1.0–1.2 million would be more acceptable than the roughly 2 million discussed."
+    },
+    {
+      "timestamp": "2026-08-06T13:24:34+03:00",
+      "event_type": "email",
+      "event_id": null,
+      "source_line": 39,
+      "paraphrase": "Supplier sent one- and three-year leasing calculations for the labeling equipment."
+    },
+    {
+      "timestamp": "2026-08-17T16:51:52+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 59,
+      "paraphrase": "Customer said there was still no information from the director and that the customer would report back when available."
+    },
+    {
+      "timestamp": "2026-08-19T11:25:23+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 63,
+      "paraphrase": "Customer said the director had the leasing information, the purchase timing was hard to predict, and asked the supplier not to contact them too frequently."
+    },
+    {
+      "timestamp": "2026-09-02T11:12:10+03:00",
+      "event_type": "call_transcript",
+      "event_id": null,
+      "source_line": 66,
+      "paraphrase": "Customer said the director was collecting other offers for comparison and there was no urgency to buy the equipment."
+    },
+    {
+      "timestamp": "2026-09-23T11:43:09+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 74,
+      "paraphrase": "Supplier asked what was determining the director's choice and noted that price comparison required equivalent equipment scope and format requirements."
+    },
+    {
+      "timestamp": "2026-09-23T18:17:52+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 75,
+      "paraphrase": "Customer said raw-material conditions were very tense and equipment had moved to the background."
+    },
+    {
+      "timestamp": "2026-09-24T09:29:51+03:00",
+      "event_type": "message",
+      "event_id": null,
+      "source_line": 77,
+      "paraphrase": "Supplier acknowledged the temporary deferral and said discussion could resume if the project restarted."
+    }
+  ],
+  "uncertainties": [
+    "The customer-reported price range is clear, but the exact proposal configuration and competing offers are not available for like-for-like comparison. [evidence: 3, 6, 9]",
+    "The view ends with the project temporarily deferred; it does not establish whether the customer later resumed consideration. [evidence: 7, 10]"
+  ]
+}
+

@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "source": "23 frozen outcome-blind final deal audits, then manifest labels",
+  "interpretation": "Deal-level observed patterns, not proved causes of WON/LOST or estimates of predictive lift.",
+  "patterns": [
+    {
+      "id": "T1",
+      "name": "Material technical fit or proof still unresolved at visible endpoint",
+      "definition": "A customer-relevant fit, sample test, or integration answer remains a concrete next-step dependency in the retained view.",
+      "lost_deals": ["18629", "18747", "18873", "19007"],
+      "won_counterexamples": ["18635", "18773"],
+      "controllability": "mixed",
+      "process_change_to_test": "Before a firm proposal, document the customer's critical product/line constraints and agree a test or explicit acceptance path for the highest-risk fit question.",
+      "limits": "An open technical question also appears in WON; outcome labels do not prove that resolving it changes conversion."
+    },
+    {
+      "id": "T2",
+      "name": "Customer-reported budget or project-priority deferral",
+      "definition": "The customer directly describes funding, another project, or an organizational pause as constraining the next purchase step.",
+      "lost_deals": ["18731", "18765", "7243", "7601"],
+      "won_counterexamples": ["18773", "6983"],
+      "controllability": "customer_or_external_with_partial_company_response",
+      "process_change_to_test": "Record the decision owner, funding checkpoint, and agreed revisit date; offer a scoped or staged alternative only when the buyer confirms it is useful.",
+      "limits": "Customer statements about funding and external conditions are not independently verified; WON cases also had funding dependencies."
+    },
+    {
+      "id": "T3",
+      "name": "Direct customer comparison with another offer or supplier",
+      "definition": "A customer-sourced event explicitly mentions evaluating another supplier, test, or competing proposal.",
+      "lost_deals": ["18629", "18765", "18873", "18929"],
+      "won_counterexamples": ["18773"],
+      "controllability": "mixed",
+      "process_change_to_test": "Ask which comparable requirements and proof points decide the choice; respond with a short side-by-side fit and validation plan.",
+      "limits": "Comparison itself is buying activity and occurs in a WON case; it is not a negative signal on its own."
+    },
+    {
+      "id": "T4",
+      "name": "Material scope or review-information rework after first proposal",
+      "definition": "The visible proposal path requires a substantive specification revision or missing technical/review information before the buyer can decide.",
+      "lost_deals": ["18747", "7243", "7601", "19007"],
+      "won_counterexamples": ["18615", "18733", "6885", "6983", "7191"],
+      "controllability": "manager_or_company_partial",
+      "process_change_to_test": "Use a short pre-proposal checklist for line interface, representative formats, must-have functions, acceptance proof, and buyer review documents.",
+      "limits": "Substantial rework also occurs in WON; some changes originated with customers after the first proposal."
+    },
+    {
+      "id": "T5",
+      "name": "Customer explicitly objects to follow-up frequency",
+      "definition": "A customer directly says calls or payment reminders are too frequent or inconvenient.",
+      "lost_deals": ["18755", "18765"],
+      "won_counterexamples": ["18745"],
+      "controllability": "manager",
+      "process_change_to_test": "Agree the next contact date and channel with the buyer, and route payment checks through the agreed accounting contact where available.",
+      "limits": "The same friction appears in a WON deal; no causal effect on these outcomes is established."
+    }
+  ],
+  "lost_preclosure_drivers": {
+    "18629": {"category": "technical_application_proof", "controllability": "mixed", "confidence": "high", "objective_status": "supplier_test_access_unverified"},
+    "18731": {"category": "customer_budget_reallocation", "controllability": "mixed", "confidence": "high", "objective_status": "customer_reported_not_independently_verified"},
+    "18747": {"category": "unresolved_multi_format_specification", "controllability": "mixed", "confidence": "high", "objective_status": "not_objective_only"},
+    "18755": {"category": "reported_price_competitiveness", "controllability": "mixed", "confidence": "medium", "objective_status": "manager_worklog_only_for_price_reason"},
+    "18765": {"category": "budget_price_and_priority", "controllability": "mixed", "confidence": "high", "objective_status": "customer_budget_direct_raw_material_message_direction_uncertain"},
+    "18775": {"category": "sample_validation_price_and_buyer_handoff", "controllability": "mixed", "confidence": "medium", "objective_status": "test_need_partly_manager_reported"},
+    "18873": {"category": "competitor_fit_price_and_open_revision", "controllability": "mixed", "confidence": "medium", "objective_status": "customer_comparison_direct_supplier_refusal_manager_reported"},
+    "18929": {"category": "active_competitive_procurement", "controllability": "mixed", "confidence": "high", "objective_status": "no_final_customer_choice_in_view"},
+    "19007": {"category": "existing_line_integration_fit_unresolved", "controllability": "mixed", "confidence": "high", "objective_status": "technical_assessment_not_in_view"},
+    "7243": {"category": "extended_internal_review_and_configuration", "controllability": "mixed", "confidence": "medium", "objective_status": "customer_budget_and_approval_reported"},
+    "7601": {"category": "customer_reported_all_project_pause", "controllability": "customer_or_external_with_partial_company_response", "confidence": "medium", "objective_status": "customer_reported_not_independently_verified"}
+  }
+}

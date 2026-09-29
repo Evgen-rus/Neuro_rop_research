@@ -1,0 +1,190 @@
+{
+  "deal_id": "18485",
+  "deal_summary": "The customer explored a compact labeler for cylindrical PET tubes with a short requested lead time. It asked about self-installation by video, planned to submit the purchase for fund review, then requested a printer-marker and cartridges be added to the contract. Legal approval and tax documentation were handled, but the customer reported an EDO visibility/signature issue and said it would send payment confirmation once funds posted. No payment receipt is present in the retained view. [evidence: 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13]",
+  "customer_need": {
+    "summary": "A labeler for cylindrical PET tubes, initially described in the manager's worklog as one wraparound self-adhesive label at up to 1,000 units per hour. The customer later asked to include date printing with two cartridges and sought clarity on equipment setup and label positioning. The exact final technical specification should be treated as evolving. [evidence: 1, 3, 5, 6]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The manager's worklog records that the customer wanted procurement soon, valued a short lead time, and accepted a price from 800k; these are manager-recorded claims. The seller said production could complete the selected version in 15 working days. [evidence: 1, 2]",
+    "middle": "The customer asked whether it could set up the machine using seller videos to avoid paid on-site setup, and said funding would go through a fund with review taking about a week. It requested a contract, then asked to add a printer-marker and two cartridges, including their model in the specification. The customer wanted the tubes/labels tested before contract to avoid later changes and to fix the price before a planned July increase. [evidence: 3, 4, 5, 6, 7]",
+    "late": "The customer forwarded a tax-certificate request from its lawyers, then said its lawyers had approved the deal and it was waiting for contract/invoice delivery through EDO. The customer later said the invoice appeared signed but the contract was not visible to its team, and that payment was planned for Monday. On June 29 it said it would send the payment order once the payment posted; the view contains no confirmation of payment. [evidence: 8, 9, 10, 11, 12, 13]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer asked the seller to prepare a contract so it could begin fund review, and said it expected review within about a week. [evidence: 3, 4]",
+      "The customer raised a specification gap before signature by requesting date printing and two cartridges, and asked that the cartridge model be written in the specification. [evidence: 5]",
+      "The customer worked through legal-document requests, reported its lawyers' approval, and said it would send payment proof after payment posted. [evidence: 8, 10, 13]"
+    ],
+    "negative_signals": [
+      "The transaction depended on fund and legal review, and the final retained emails show payment still conditional on it posting. [evidence: 3, 4, 10, 13]",
+      "The customer wanted sample testing before contract while the seller proposed testing after the contract entered production, leaving sequencing and fit validation unresolved in the discussion. [evidence: 6, 7]",
+      "The customer's team could not see the contract through its EDO process even though the invoice appeared signed, creating uncertainty about document completion. [evidence: 10, 11, 12]"
+    ],
+    "initiative": "The customer asked about setup and label positioning, requested a printer-marker and cartridges be added, sought pre-contract sample testing, obtained a tax certificate, and reported the EDO/payment status. [evidence: 3, 5, 6, 8, 11, 12, 13]",
+    "decision_process": "The customer said purchase funding would go through a fund after internal legal review. Lawyers requested a tax certificate; the customer later reported legal approval and expected to proceed through EDO and payment. [evidence: 3, 4, 8, 10, 11, 13]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager obtained a 15-working-day manufacturing lead time and offered equipment setup videos, with a remote call available if self-installation did not work. [evidence: 2, 3]",
+      "The manager discussed date-marking and positioning-sensor functions, agreed to update the specification for a printer-marker and cartridges, and offered to return the customer's unused samples after testing. [evidence: 3, 5]",
+      "The manager sent the contract for review, requested the tax certificate needed by the customer, and followed up through EDO and email when the documents were not visible to the customer. [evidence: 4, 8, 9, 10, 11, 12]"
+    ],
+    "weak_actions": [
+      "The customer wanted to test its tubes and labels before contracting, while the seller said those samples could be sent after the contract was concluded. Agreeing a documented sample-validation step before signature, or making its timing/risks explicit, could have reduced uncertainty about final fit. [evidence: 6, 7]",
+      "A manager worklog says a price-increase warning was used to accelerate contract review. The customer also expressed concern about price fixation, but the view does not show that the warning shortened approval. [evidence: 7]"
+    ],
+    "follow_up_quality": "The manager and a substitute colleague maintained contact through the contract, specification change, tax-document request, EDO transfer, and payment check. The customer was warned about the manager's leave, and the final evidence still leaves payment confirmation outstanding. [evidence: 4, 5, 8, 9, 10, 11, 12, 13]",
+    "next_step_control": "The last clear customer commitment was to send a payment order after funds posted. Before that, the customer said the invoice was signed but its team could not see the contract in EDO. The view does not show a completed contract-signature check or receipt of funds. [evidence: 11, 12, 13]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-06-17T09:09:13+03:00",
+      "description": "The customer said the equipment would be funded through a fund and asked the seller to prepare a contract for the review process. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [2]
+    },
+    {
+      "timestamp": "2026-06-19T11:21:17+03:00",
+      "description": "The customer asked to add a printer-marker and two cartridges to the specification, changing the scope after the first contract draft. [evidence: 5]",
+      "importance": "high",
+      "evidence_indices": [4]
+    },
+    {
+      "timestamp": "2026-06-23T14:20:34+03:00",
+      "description": "The customer wanted its tubes and labels tested before contract to avoid later changes, while also trying to fix price before a July increase. [evidence: 7]",
+      "importance": "medium",
+      "evidence_indices": [6]
+    },
+    {
+      "timestamp": "2026-06-25T10:07:57+03:00",
+      "description": "The customer and seller found that the invoice appeared signed while the contract was not visible to the customer's team in EDO; the customer still expected payment on Monday. [evidence: 12]",
+      "importance": "high",
+      "evidence_indices": [11]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Fund/legal approval and document execution after scope refinement",
+    "explanation": "The customer expressed purchase interest and requested a contract, but the decision depended on fund and legal review. A printer-marker and cartridges were added after the first draft; the customer also asked for pre-contract sample validation. By the endpoint, legal approval was reported but document visibility/signature through EDO was unclear and payment remained conditional on posting. The view does not establish whether these were the only remaining steps. [evidence: 3, 4, 5, 6, 8, 10, 11, 12, 13]",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [2, 3, 4, 5, 7, 9, 10, 11, 12]
+  },
+  "secondary_factors": [
+    "The customer sought to self-install from setup videos rather than pay for on-site configuration; the final setup arrangement is not confirmed. [evidence: 3]",
+    "The customer wanted to test labels and tubes before contract, while the seller's suggested sequence put sample submission after contracting. [evidence: 6, 7]",
+    "The customer reported that its legal team asked for a tax-discipline certificate and later approved the documents. [evidence: 8, 9, 10]",
+    "The manager's worklog reports a July 1 price increase warning as an acceleration tactic; the view does not show whether that affected approval timing. [evidence: 7]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree and document when the customer will send tubes/labels and what test results are required before the final specification is signed. [evidence: 5, 6, 7]",
+      "Confirm the fund's required contract and specification format before sending the first draft, including the printer-marker, cartridge models, and tax documentation. [evidence: 3, 5, 8]",
+      "Verify that the customer can see and sign both contract and invoice through its EDO operator, and assign a named payment-confirmation date. [evidence: 10, 11, 12, 13]"
+    ],
+    "limits": [
+      "Fund and customer legal review were outside the manager's direct control. [evidence: 3, 4, 8, 10]",
+      "The customer said it would provide a payment order only after funds had posted; the view contains no proof of posting or payment. [evidence: 13]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-06-15T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2820563",
+      "source_line": 1,
+      "paraphrase": "Manager worklog describes cylindrical PET tubes, one wraparound self-adhesive label, up to 1,000/hour, a requested short lead time, and a price from 800k as acceptable; these are manager-recorded claims."
+    },
+    {
+      "timestamp": "2026-06-16T10:10:37+03:00",
+      "event_type": "call_transcript",
+      "event_id": "602755",
+      "source_line": 9,
+      "paraphrase": "Seller told the customer the manufacturing lead time had been reduced to 15 working days."
+    },
+    {
+      "timestamp": "2026-06-17T09:09:13+03:00",
+      "event_type": "call_transcript",
+      "event_id": "603671",
+      "source_line": 13,
+      "paraphrase": "Customer asked about self-setup by video, discussed the date-marking/positioning sensor, said funding would go through a fund, and asked the seller to prepare a contract for review."
+    },
+    {
+      "timestamp": "2026-06-18T09:43:51+03:00",
+      "event_type": "call_transcript",
+      "event_id": "604707",
+      "source_line": 25,
+      "paraphrase": "Customer said fund review usually takes about a week and described purchase by the end of the week as the current plan; seller said a colleague would cover during leave."
+    },
+    {
+      "timestamp": "2026-06-19T11:21:17+03:00",
+      "event_type": "call_transcript",
+      "event_id": "605831",
+      "source_line": 29,
+      "paraphrase": "Customer asked to add a printer-marker and two cartridges to the contract specification and requested that the cartridge model be specified."
+    },
+    {
+      "timestamp": "2026-06-23T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2836011",
+      "source_line": 33,
+      "paraphrase": "Manager worklog says a price-increase warning was used to accelerate the customer's contract review; this is a manager claim."
+    },
+    {
+      "timestamp": "2026-06-23T14:20:34+03:00",
+      "event_type": "call_transcript",
+      "event_id": "607821",
+      "source_line": 38,
+      "paraphrase": "Customer wanted to send tubes and labels for testing before contract to avoid later corrections and said it wanted to fix the price before a planned July increase; customer described its legal review as detailed."
+    },
+    {
+      "timestamp": "2026-06-25T05:56:16+03:00",
+      "event_type": "email",
+      "event_id": "609185",
+      "source_line": 44,
+      "paraphrase": "Customer forwarded that its lawyers requested a tax certificate to confirm tax compliance."
+    },
+    {
+      "timestamp": "2026-06-25T07:42:23+03:00",
+      "event_type": "email",
+      "event_id": "609209",
+      "source_line": 46,
+      "paraphrase": "Customer said it had sent the certificate and was waiting to see the response."
+    },
+    {
+      "timestamp": "2026-06-25T08:26:08+03:00",
+      "event_type": "email",
+      "event_id": "609213",
+      "source_line": 47,
+      "paraphrase": "Customer said its lawyers had approved and it was waiting for the contract and invoice through EDO."
+    },
+    {
+      "timestamp": "2026-06-25T09:40:07+03:00",
+      "event_type": "email",
+      "event_id": "609317",
+      "source_line": 52,
+      "paraphrase": "Customer said its team had not received the documents in EDO."
+    },
+    {
+      "timestamp": "2026-06-25T10:07:57+03:00",
+      "event_type": "call_transcript",
+      "event_id": "609363",
+      "source_line": 57,
+      "paraphrase": "Customer and seller checked EDO status: the invoice appeared signed but the contract was not visible; customer said payment was planned for Monday and discussed label-stock requirements."
+    },
+    {
+      "timestamp": "2026-06-29T08:50:17+03:00",
+      "event_type": "email",
+      "event_id": "611189",
+      "source_line": 61,
+      "paraphrase": "Customer said it would send the payment order once payment had posted."
+    }
+  ],
+  "uncertainties": [
+    "The equipment description, price tolerance, and initial purchase urgency come from a manager worklog; customer-authored confirmation of the full initial specification is limited. [evidence: 1]",
+    "The view does not confirm that the fund approved funding, that the contract was fully signed by both parties, or that payment posted. [evidence: 3, 4, 10, 11, 12, 13]",
+    "The customer's request to test tubes/labels before contract was not resolved in the retained events. [evidence: 6, 7]",
+    "The exact impact of the planned July price increase on the customer's timing is uncertain; both customer and manager referenced it, but no causal effect is established. [evidence: 6, 7]"
+  ]
+}

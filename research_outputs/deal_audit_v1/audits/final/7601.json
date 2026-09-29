@@ -1,0 +1,204 @@
+{
+  "deal_id": "7601",
+  "deal_summary": "The retained view contains two equipment discussions: a broad, configurable labeling solution for several bottle shapes and a repeat quote for a previously purchased marking/labeling complex with one component removed. The customer exchanged samples and detailed mechanical questions, but the broader solution remained under internal review and competing proposals; on August 19 the customer said all projects were on hold because of the regional security situation and a poor season, with production idle. [evidence: 1, 3, 5, 6, 8, 9, 11, 12]",
+  "customer_need": {
+    "summary": "For the new solution, the customer sought labeling across varied bottle/container formats and explored a flexible setup, including front/back labels, date printing, and a receiving table. For the repeat purchase, the customer requested a quote for the previously acquired equipment package with the top presser omitted. The record does not establish whether these were formally separate projects or how the customer intended to prioritize them. [evidence: 4, 6, 8, 9]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The manager's worklog says the customer was open to a price from 1.5 million and expected to buy soon; this is a manager-recorded claim. The customer referred to a previous AS-S05 proposal, sent bottle photos/drawings, and said it was difficult to choose the five container types the seller's production team could evaluate. [evidence: 1, 2, 3, 4]",
+    "middle": "The customer sent samples and later forwarded mechanical-service requirements, including two-sided labeling for oval bottles, one/two labels for round bottles, date printing, a receiving table, and labels up to 200 mm. In parallel, the customer requested a repeat quote for its previously purchased complex without the top presser. The customer described positive experience with the installed equipment but said management was still comparing proposals for a broader line. [evidence: 5, 6, 8, 9]",
+    "late": "The broader line still awaited leadership and mechanical feedback while key staff took leave; the customer said no decision had been made. In early August the customer described an off-season with few/no new orders and an understaffed production site. On August 19 the customer explicitly put all projects on hold, citing the regional security situation and a poor season, and reported that production was idle. [evidence: 10, 11, 12]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer sent bottle photos and drawings, selected container types for discussion, and arranged shipment of samples for equipment testing. [evidence: 3, 4, 5]",
+      "The customer supplied a detailed mechanical-service question list and requested a repeat quote for a package it had previously purchased. [evidence: 6, 9]",
+      "The customer said the previously supplied line had performed reliably, was easy to operate and maintain, and that seller support had helped with setup. [evidence: 8]"
+    ],
+    "negative_signals": [
+      "The customer could not promptly choose the limited set of container formats for engineering review and later said internal technical and management decisions were still pending. [evidence: 3, 8, 10, 11]",
+      "The customer ultimately paused all projects and did not provide a restart date in the August 19 email. [evidence: 12]"
+    ],
+    "initiative": "The customer actively provided samples, bottle information, technical questions, and a repeat-order request. Decision progress depended on the customer's mechanics and management; in July the customer said competing proposals were still being collected and leadership was away. [evidence: 5, 6, 8, 10]",
+    "decision_process": "The customer routed the broader solution through mechanics and management and compared other supplier proposals; its main contact had to gather technical answers for decision makers. The customer later cited the seasonal slowdown and regional security situation as reasons to stop all projects. [evidence: 6, 8, 10, 11, 12]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager requested product photos/dimensions, coordinated sample delivery, and forwarded the customer's mechanical questions for technical review. [evidence: 3, 5, 6]",
+      "The manager followed up on the repeat-equipment request, explained supplier/component appearance changes, and sent a quote for the same functional package with the requested top presser removed. [evidence: 8, 9]",
+      "The manager maintained contact through agreed follow-up windows and checked whether the customer had a management decision. [evidence: 10, 11, 12]"
+    ],
+    "weak_actions": [
+      "The customer struggled to narrow many container formats to the five types the seller could assess, and the manager's worklog later says the customer wanted one universal machine rather than two. This suggests the scope and feasibility boundary could have been made concrete earlier; the latter detail is manager-reported. [evidence: 3, 7]",
+      "The customer forwarded detailed mechanical questions about labeling, printing, and output handling. The available view shows these questions but does not show a complete, customer-confirmed requirement matrix before the proposal was reviewed. [evidence: 6, 8]"
+    ],
+    "follow_up_quality": "The manager used email and scheduled calls, including callbacks around the customer's return from travel/leave. Follow-up was consistent, but decision timing depended on the customer's internal reviewers and seasonal availability; the August discussion ended with a broad pause across projects. [evidence: 8, 10, 11, 12]",
+    "next_step_control": "The customer and manager arranged successive follow-ups, but there is no customer-owned decision date or restart plan after the August 19 pause. The manager's final retained outreach asks for the broader proposal decision, and the customer responds that all projects are on hold. [evidence: 11, 12]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-05-04T15:44:08+03:00",
+      "description": "The customer said it could not decide which five container formats to prioritize for engineering, showing a mismatch between the broad product range and the seller's evaluation limit. [evidence: 3]",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-06-15T10:15:31+03:00",
+      "description": "The customer sent a detailed mechanical-service question list, expanding the configuration beyond a basic labeler to multiple label positions, date printing, and receiving-table requirements. [evidence: 6]",
+      "importance": "high",
+      "evidence_indices": [
+        6
+      ]
+    },
+    {
+      "timestamp": "2026-07-09T10:06:13+03:00",
+      "description": "The customer confirmed that the existing equipment worked reliably and that it wanted to show a repeat-line proposal to leadership, while other supplier proposals and leadership leave delayed a decision on the broader line. [evidence: 8]",
+      "importance": "medium",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "timestamp": "2026-08-19T13:28:50+03:00",
+      "description": "The customer explicitly stopped all projects because of the regional security situation and a poor season, reporting that production was idle. This is the clearest stated reason for the pause in the retained trajectory. [evidence: 12]",
+      "importance": "high",
+      "evidence_indices": [
+        12
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Broad technical scope followed by customer-side and external pause",
+    "explanation": "The visible trajectory combines a technically broad request spanning many container formats, continued mechanical/management review and supplier comparison, and a later explicit pause across all projects because of a poor season and regional security concerns. The first factors could prolong specification and approval; the customer's final stated pause is attributed to business conditions outside the manager's direct control. The record does not establish whether either factor alone would have prevented purchase. [evidence: 3, 6, 8, 10, 11, 12]",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      3,
+      6,
+      8,
+      10,
+      11,
+      12
+    ]
+  },
+  "secondary_factors": [
+    "The customer referred to a previous AS-S05 proposal and then expressed difficulty choosing a limited set of container formats; the manager's worklog separately says a universal solution was preferred over two separate machines. [evidence: 2, 3, 7]",
+    "The repeat quote concerned an existing equipment package and was distinct in content from the broader line discussion; the view does not establish how the customer prioritized or separated the purchasing decisions. [evidence: 8, 9]",
+    "The customer's main contact and other reviewers were on leave during July and August, limiting the availability of people who could provide technical or management feedback. [evidence: 10, 11, 12]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "At discovery, agree on a ranked list of container formats, label positions, and test criteria, and explain the engineering limit before sample collection and pricing. [evidence: 3, 5, 6]",
+      "Separate the broader universal-line decision from the repeat-equipment quote, each with its own scope, owner, and next decision point. [evidence: 8, 9, 10]",
+      "Send one consolidated response to the mechanical-service questions and obtain confirmation from the customer contact that it is ready for management review. [evidence: 6, 8]"
+    ],
+    "limits": [
+      "The customer said leadership and mechanics were on leave and that it was comparing other proposals; the seller could not directly control their availability or selection process. [evidence: 8, 10, 11]",
+      "The customer attributed the August pause to the regional security situation, poor season, and production idle time; the manager had no direct control over these conditions. [evidence: 12]"
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-04-27T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2660309",
+      "source_line": 1,
+      "paraphrase": "Manager worklog says a new request concerned flat, oval, and round bottles, the customer was ready to buy soon, and a price from 1.5 million was acceptable; these are manager-recorded claims."
+    },
+    {
+      "timestamp": "2026-04-27T14:36:16+03:00",
+      "event_type": "email",
+      "event_id": "563359",
+      "source_line": 6,
+      "paraphrase": "Customer referred to an earlier offer for an AS-S05 machine."
+    },
+    {
+      "timestamp": "2026-05-04T15:44:08+03:00",
+      "event_type": "email",
+      "event_id": "567709",
+      "source_line": 24,
+      "paraphrase": "Customer said it could not decide which five container types to select from its range for the seller's production team to evaluate."
+    },
+    {
+      "timestamp": "2026-05-07T13:29:46+03:00",
+      "event_type": "email",
+      "event_id": "572325",
+      "source_line": 44,
+      "paraphrase": "Customer listed several desired package forms, including a cap-shaped container, cylindrical containers, a rhombus form, and a complex shape."
+    },
+    {
+      "timestamp": "2026-05-20T13:30:04+03:00",
+      "event_type": "email",
+      "event_id": "581981",
+      "source_line": 65,
+      "paraphrase": "Customer said it would send samples of eight bottle types in pairs and five other types in batches of 30."
+    },
+    {
+      "timestamp": "2026-06-15T10:15:31+03:00",
+      "event_type": "email",
+      "event_id": "601611",
+      "source_line": 109,
+      "paraphrase": "Customer forwarded mechanics' questions on front/back labeling, date printing, one or two labels for round bottles, a receiving table, and labels up to 200 mm."
+    },
+    {
+      "timestamp": "2026-06-05T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2660309",
+      "source_line": 94,
+      "paraphrase": "Manager worklog says the customer wanted a universal machine and was not interested in two separate units; it also records willingness to consider changeover kits. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-09T10:06:13+03:00",
+      "event_type": "call_transcript",
+      "event_id": "616395",
+      "source_line": 134,
+      "paraphrase": "Customer said it was still collecting offers for the broader line, management was away, and it wanted to show a repeat-line proposal for next season. It also described the existing line as reliable and easy to maintain, with prior seller support useful during setup."
+    },
+    {
+      "timestamp": "2026-06-30T14:43:43+03:00",
+      "event_type": "email",
+      "event_id": "612563",
+      "source_line": 124,
+      "paraphrase": "Customer requested a quote for the same previously purchased package for its marking project, excluding the top presser."
+    },
+    {
+      "timestamp": "2026-07-14T10:06:33+03:00",
+      "event_type": "call_transcript",
+      "event_id": "619285",
+      "source_line": 137,
+      "paraphrase": "Customer said the project had not advanced because the manager had only just returned from leave and the customer contact was about to take leave; the contact still had technical questions to resolve."
+    },
+    {
+      "timestamp": "2026-08-03T12:44:42+03:00",
+      "event_type": "call_transcript",
+      "event_id": "636553",
+      "source_line": 147,
+      "paraphrase": "Customer said mechanics had received several offers but had not given a concrete decision, and management had not yet reported back on the separate marking-related project."
+    },
+    {
+      "timestamp": "2026-08-05T12:21:15+03:00",
+      "event_type": "call_transcript",
+      "event_id": "639279",
+      "source_line": 150,
+      "paraphrase": "Customer described an off-season, low activity, few new orders, and an understaffed production site, and agreed to revisit after a couple of weeks."
+    },
+    {
+      "timestamp": "2026-08-19T13:28:50+03:00",
+      "event_type": "email",
+      "event_id": "648845",
+      "source_line": 155,
+      "paraphrase": "Customer said all projects were on hold because of the regional security situation and a poor season, and that production was idle."
+    }
+  ],
+  "uncertainties": [
+    "The stated initial price tolerance and intent to buy soon appear only in the manager worklog and are not confirmed by a customer-authored event. [evidence: 1]",
+    "The view contains a broad multi-format line and a repeat-equipment quote; their formal relationship, relative priority, and separate budgets are not established. [evidence: 8, 9]",
+    "The manager's note that the customer rejected two units in favor of one universal machine is not corroborated by a direct customer statement in the retained events. [evidence: 7]",
+    "No customer response after the August 19 all-projects pause is present in this view. [evidence: 12]",
+    "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+  ]
+}

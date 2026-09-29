@@ -1,0 +1,233 @@
+{
+  "deal_id": "18745",
+  "deal_summary": "The buyer explored an automatic labeler for cylindrical PET bottles and moved from a proposal through director/legal review to contract and payment processing. The customer later described the purchase as approved and awaiting payment; an internal comment separately claims 80% payment was received but has a conflicting outer timestamp, so that claim is treated cautiously (evidence indices 0, 1, 2, 7, 11, 12, 15, 17).",
+  "customer_need": {
+    "summary": "The date-only manager note describes round PET bottles of 150, 250, and 500 ml, up to about 500 units/hour, with one printed wraparound label. The buyer directly confirmed cylindrical containers, shared package/label details, and emphasized that printing was required (evidence indices 0, 1).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The buyer said the quoted price was acceptable to him personally but had sent the proposal to the director/investor for a decision; the buyer's availability and the director's schedule delayed that review (evidence indices 2, 3).",
+    "middle": "The buyer moved toward contracting, requested commissioning work in the package, and supplied additional dimensions. Contract drafting then required corrections to the buyer's legal title and a separate commissioning agreement; later director and legal review extended the timeline (evidence indices 4, 5, 6, 7, 9, 10, 11).",
+    "late": "The buyer promised payment for the following Tuesday, and the seller sent signed-side contracts and an invoice. On 26 Aug the buyer said the equipment was approved and awaiting payment, while objecting to frequent payment queries. A time-anomalous internal comment contains a manager claim that 80% had been received on 27 Aug; it is not customer-confirmed in the contemporaneous direct messages (evidence indices 12, 13, 15, 17, 18)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer said the quoted price was acceptable personally and forwarded it to management; later he provided package information and asked for a complete contract and commissioning scope (evidence indices 1, 2, 4, 5, 6).",
+      "The buyer directly said the equipment contract was approved and described payment as awaiting the company's payment process (evidence index 15)."
+    ],
+    "negative_signals": [
+      "Director access and internal review were slow, and the buyer often could not give an approval date (evidence indices 3, 9, 10).",
+      "The buyer became irritated by repeated payment requests, saying payment timing was handled by accounting and that he could not promise a particular day (evidence index 15)."
+    ],
+    "initiative": "The buyer sent package information, requested both the equipment and commissioning agreements, and gave a next-week payment date (evidence indices 1, 4, 5, 12).",
+    "decision_process": "The production contact relied on a director/investor decision, followed by legal review and accounting/payment processing. The buyer reported that the contract and equipment were approved while payment timing remained with finance (evidence indices 2, 3, 9, 10, 11, 15)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager requested package dimensions, sent the proposal and video, checked technical fit against the containers, and continued through proposal and contract revision (evidence indices 1, 6, 7, 8).",
+      "After the buyer flagged contract defects, the manager sent a changed contract the next day and later coordinated the invoice and payment follow-up (evidence indices 7, 8, 13, 16)."
+    ],
+    "weak_actions": [
+      "The first contract package used the wrong director title and omitted the separate commissioning agreement; the buyer had to point out both issues and ask for a complete package (evidence index 7).",
+      "Repeated payment checks were too frequent for the buyer and caused explicit irritation; aligning directly with accounting or agreeing one payment check-in could have reduced friction (evidence indices 15, 16)."
+    ],
+    "follow_up_quality": "The manager maintained contact and advanced technical and contract tasks, but payment follow-up became repetitive after the buyer had stated the expected accounting schedule. The evidence shows relationship friction, not that follow-up changed the payment date (evidence indices 12, 13, 15, 16).",
+    "next_step_control": "The manager established concrete actions for package dimensions, contract correction, and the invoice. The customer's director and accounting team retained control over final approval and payment timing (evidence indices 4, 7, 8, 12, 13, 15)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-27T17:30:06+07:00",
+      "description": "The buyer said the price looked acceptable to him but the director/investor had not yet discussed the proposal (evidence index 2).",
+      "importance": "high",
+      "evidence_indices": [2]
+    },
+    {
+      "timestamp": "2026-08-05T14:43:30+07:00",
+      "description": "The buyer said the decision was nearly made and asked for the complete equipment/commissioning contract package, while explaining that internal bureaucracy could slow the process (evidence index 6).",
+      "importance": "high",
+      "evidence_indices": [6]
+    },
+    {
+      "timestamp": "2026-08-06T19:08:52+07:00",
+      "description": "The buyer identified an incorrect director title and a missing commissioning agreement in the contract package (evidence index 7).",
+      "importance": "medium",
+      "evidence_indices": [7]
+    },
+    {
+      "timestamp": "2026-08-20T15:58:58+07:00",
+      "description": "The buyer gave a payment date for the following Tuesday after contract files were exchanged (evidence indices 12, 13).",
+      "importance": "high",
+      "evidence_indices": [12, 13]
+    },
+    {
+      "timestamp": "2026-08-26T13:59:49+07:00",
+      "description": "The buyer said the equipment and contract were approved and awaiting payment, but asked the seller to stop repeated payment inquiries (evidence index 15).",
+      "importance": "high",
+      "evidence_indices": [15]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "internal_approval_and_payment_coordination",
+    "explanation": "The visible trajectory advanced technically and contractually, while director/investor availability and subsequent legal/accounting steps delayed the decision and payment schedule. The manager's contract omissions created avoidable rework, and repeated payment reminders irritated the buyer after the buyer said finance controlled timing. These factors describe process friction and delay; the uncertain internal 80% payment note is not used as customer-confirmed status or as an outcome label (evidence indices 2, 3, 6, 7, 9, 10, 11, 12, 15, 17).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [2, 3, 6, 7, 9, 10, 11, 12, 15, 17]
+  },
+  "secondary_factors": [
+    "An internal comment stamped 24 Jul contains dated notes through 27 Aug, including a manager claim that 80% payment was received; its chronology and the claim's confirmation status are uncertain (evidence index 17).",
+    "A separate filling-module inquiry surfaced during the labeler payment discussion. The customer described that as different scope, so it is not treated as evidence about the labeler purchase (evidence index 14).",
+    "The buyer reported poor internet and had to resend package information, adding friction to technical specification exchange (evidence indices 6, 7)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Use a contract checklist for legal entity details and separate commissioning documents before sending the package (evidence indices 7, 8).",
+      "Agree a finance contact and a single payment-status check-in after the buyer states the accounting schedule, rather than repeated daily queries (evidence indices 15, 16).",
+      "Record director/investor approval as a buyer-owned dependency and set follow-up dates around the buyer's stated availability (evidence indices 3, 9, 10, 11)."
+    ],
+    "limits": [
+      "The director/investor review, legal process, and accounting run controlled the approval and payment dates; the manager could not guarantee those timelines (evidence indices 3, 9, 10, 11, 15).",
+      "The internal comment's 80% payment note is not a customer-sourced confirmation, and process changes cannot establish what payment timing would have been otherwise (evidence index 17)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-24T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes cylindrical PET bottles in three sizes, a printed wraparound label, about 500 units/hour, and initial readiness/price expectations; these are manager claims."
+    },
+    {
+      "timestamp": "2026-07-24T14:31:31+07:00",
+      "event_type": "call_transcript",
+      "event_id": "628711",
+      "source_line": 6,
+      "paraphrase": "Buyer confirms round cylindrical bottles and says the label must include printing; exact package sizes still need checking."
+    },
+    {
+      "timestamp": "2026-07-27T17:30:06+07:00",
+      "event_type": "call_transcript",
+      "event_id": "630239",
+      "source_line": 22,
+      "paraphrase": "Buyer says the price is acceptable to him and that he forwarded the proposal to the director/investor, who had not yet reviewed it."
+    },
+    {
+      "timestamp": "2026-08-03T16:41:20+07:00",
+      "event_type": "call_transcript",
+      "event_id": "636549",
+      "source_line": 42,
+      "paraphrase": "Buyer says the director and investor are expected to decide during the week."
+    },
+    {
+      "timestamp": "2026-08-05T14:42:06+07:00",
+      "event_type": "message",
+      "event_id": "2969729",
+      "source_line": 44,
+      "paraphrase": "Buyer asks for the contract and specification after sending package photos and label dimensions."
+    },
+    {
+      "timestamp": "2026-08-05T14:43:00+07:00",
+      "event_type": "message",
+      "event_id": "2969745",
+      "source_line": 45,
+      "paraphrase": "Buyer asks that commissioning work and the invoice be included."
+    },
+    {
+      "timestamp": "2026-08-05T14:43:30+07:00",
+      "event_type": "call_transcript",
+      "event_id": "638981",
+      "source_line": 47,
+      "paraphrase": "Buyer says the decision is nearly made, requests the complete package including commissioning, confirms the quoted price range, and notes that internal bureaucracy may delay review."
+    },
+    {
+      "timestamp": "2026-08-06T19:08:52+07:00",
+      "event_type": "call_transcript",
+      "event_id": "640837",
+      "source_line": 72,
+      "paraphrase": "Buyer flags that the contract names the wrong director and lacks the commissioning contract, asking for both documents together."
+    },
+    {
+      "timestamp": "2026-08-07T17:37:22+07:00",
+      "event_type": "email",
+      "event_id": "641661",
+      "source_line": 76,
+      "paraphrase": "Seller sends a changed contract after the buyer's correction request."
+    },
+    {
+      "timestamp": "2026-08-10T14:27:08+07:00",
+      "event_type": "call_transcript",
+      "event_id": "642873",
+      "source_line": 80,
+      "paraphrase": "Buyer says the director has not yet responded and the company is still waiting, although the equipment is needed."
+    },
+    {
+      "timestamp": "2026-08-12T15:19:37+07:00",
+      "event_type": "call_transcript",
+      "event_id": "644641",
+      "source_line": 84,
+      "paraphrase": "Buyer says the director is not answering and he has no decision update."
+    },
+    {
+      "timestamp": "2026-08-14T15:10:54+07:00",
+      "event_type": "call_transcript",
+      "event_id": "646481",
+      "source_line": 87,
+      "paraphrase": "Buyer reports director approval and says contract review will still take time, with a later check-in planned."
+    },
+    {
+      "timestamp": "2026-08-20T15:58:58+07:00",
+      "event_type": "message",
+      "event_id": "3018267",
+      "source_line": 94,
+      "paraphrase": "Buyer says payment is planned for the following Tuesday."
+    },
+    {
+      "timestamp": "2026-08-20T19:11:17+07:00",
+      "event_type": "message",
+      "event_id": "3019981",
+      "source_line": 97,
+      "paraphrase": "Seller sends its signed-side contracts and an invoice for the equipment."
+    },
+    {
+      "timestamp": "2026-08-25T12:52:33+07:00",
+      "event_type": "call_transcript",
+      "event_id": "652453",
+      "source_line": 105,
+      "paraphrase": "During a separate filling-module inquiry, the buyer distinguishes that new scope from the labeler and describes funds allocated for the filling block."
+    },
+    {
+      "timestamp": "2026-08-26T13:59:49+07:00",
+      "event_type": "call_transcript",
+      "event_id": "653777",
+      "source_line": 118,
+      "paraphrase": "Buyer says the equipment is approved and awaiting payment, but says repeated daily payment questions are irritating and that accounting controls the payment day."
+    },
+    {
+      "timestamp": "2026-08-26T14:05:17+07:00",
+      "event_type": "message",
+      "event_id": "3035203",
+      "source_line": 122,
+      "paraphrase": "Seller asks for the buyer's accounting contact to coordinate payment timing."
+    },
+    {
+      "timestamp": "2026-07-24T14:30:42+07:00",
+      "event_type": "comment",
+      "event_id": "2909975",
+      "source_line": 3,
+      "paraphrase": "Internal comment stamped 24 Jul contains dated running notes through 27 Aug and a manager claim of 80% payment received; chronology is uncertain and the claim is not treated as customer-confirmed."
+    },
+    {
+      "timestamp": "2026-08-25T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 102,
+      "paraphrase": "Date-only manager worklog (time inferred): says the invoice was sent for payment and funds had not arrived as of the note; manager claim."
+    }
+  ],
+  "uncertainties": [
+    "The detailed unit rate and initial readiness are from a date-only manager worklog; the buyer directly confirms cylindrical packages and printing but not every initial metric (evidence indices 0, 1).",
+    "The internal comment is timestamped 24 Jul but contains later dated notes, including a 27 Aug payment claim. Its exact chronology and the claimed 80% receipt are uncertain; customer-sourced 26 Aug evidence still describes payment as awaiting accounting (evidence indices 15, 17).",
+    "The later filling-module inquiry is different scope and should not be merged with the labeler trajectory (evidence index 14)."
+  ]
+}

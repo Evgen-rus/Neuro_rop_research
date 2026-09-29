@@ -1,0 +1,233 @@
+{
+  "deal_id": "18733",
+  "deal_summary": "A buyer explored an automatic labeler for glass containers, with an optional conical-container configuration. The trajectory involved repeated technical and scope refinement, director/committee and legal review, then customer-reported payment and a seller production handoff; this is a description of the visible sequence, not an outcome label (evidence indices 0, 4, 6, 8, 9, 15, 16).",
+  "customer_need": {
+    "summary": "The date-only manager note describes one wraparound self-adhesive label on round glass jars of several sizes at about 1,000 units/hour; later direct customer calls narrow the active scope to cylindrical packages and discuss an optional conical format, which was eventually removed (evidence indices 0, 7, 8).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The buyer received a roughly 650k proposal and forwarded it to management for review; an internal worklog gives conflicting accounts of initial price acceptance, so the price reaction is uncertain (evidence indices 1, 2).",
+    "middle": "The buyer's organization had not yet prioritized an equipment decision, and adding the conical package required a higher price and further technical checks. The buyer requested the final adjusted quote before seeking price approval, while questionnaire and size details remained incomplete; contract review then moved to the buyer's lawyer (evidence indices 3, 4, 5, 6).",
+    "late": "The buyer later removed the conical option, confirmed internal approval to purchase, and continued contract and technical clarification. The buyer reported that payment had gone through on 7 Sep, after which the seller said the project was being sent to production; payment is recorded as customer-reported, without independent bank confirmation (evidence indices 8, 9, 10, 11, 12, 13, 14, 15, 16)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer forwarded the proposal for management review, requested a revised final quote when scope changed, and provided company and package information (evidence indices 2, 4, 5).",
+      "The buyer worked through legal review and technical questions, then directly stated that the purchase was approved and later sent a signed contract (evidence indices 6, 9, 10, 13)."
+    ],
+    "negative_signals": [
+      "The buyer could not consistently prioritize the questionnaire and equipment discussion while other work and management reviews were pending; this limited speed of specification and approval, but does not by itself show disinterest (evidence indices 3, 5, 6).",
+      "The conical-container option was reconsidered and removed after it raised additional cost and operational questions, requiring another proposal and contract adjustment (evidence indices 4, 7, 8)."
+    ],
+    "initiative": "The buyer forwarded the proposal internally, asked for an adjusted quote before approving the price increase, supplied company/package information, proposed excluding the conical option, raised a label-application question, and sent a signed contract (evidence indices 2, 4, 5, 8, 10, 13).",
+    "decision_process": "The production contact depended on management/committee approval and legal review. The buyer described waiting on responsible signatories and payment processing after the purchase decision; timing remained uncertain even after contract progress (evidence indices 2, 3, 6, 9, 12, 14)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager obtained package information, involved production in feasibility checks, and revised the proposal as the buyer considered the conical option and later removed it (evidence indices 0, 4, 7, 8).",
+      "The manager provided contract and technical follow-up, including a direct response to the buyer's concern about applying a label to the cylindrical cardboard cup (evidence indices 6, 10, 11)."
+    ],
+    "weak_actions": [
+      "Questionnaire handling created avoidable friction: the buyer said the attachment was missing and later explained that the form was incomplete because dimensions were not recorded; the contract path depended on completing those details (evidence indices 5, 6).",
+      "Scope and price needed several revisions as the optional conical format was introduced and then removed. This was partly customer-led, but consolidating a clear base configuration plus priced options could have reduced rework (evidence indices 4, 7, 8)."
+    ],
+    "follow_up_quality": "The manager kept regular contact and set many check-ins, but the approval and legal steps remained controlled by the buyer's organization. The evidence shows delay despite frequent contact, not that the cadence caused the delay (evidence indices 3, 6, 12, 14).",
+    "next_step_control": "Technical and document actions were usually explicit, while the buyer's director/committee, lawyer, and payment approver controlled the final dates. Calls often established a next check-in, but could not secure a reliable sign-off date (evidence indices 3, 6, 9, 12, 14)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-07T14:35:53+07:00",
+      "description": "After considering the added conical-container option, the buyer asked for the final quote before contract preparation because the price increase still needed approval (evidence index 4).",
+      "importance": "high",
+      "evidence_indices": [
+        4
+      ]
+    },
+    {
+      "timestamp": "2026-08-26T16:25:46+07:00",
+      "description": "The buyer removed the conical option, returned to three cylindrical package positions, and requested a recalculated quote and contract (evidence index 8).",
+      "importance": "high",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "timestamp": "2026-08-28T15:01:00+07:00",
+      "description": "The buyer directly stated that the purchase had been approved and assigned contract edits for completion (evidence index 9).",
+      "importance": "high",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "timestamp": "2026-09-07T14:52:01+07:00",
+      "description": "The buyer emailed that payment had gone through; the seller replied that the project was being sent to production. This is a payment/production status cue, not a WON/LOST inference (evidence indices 15, 16).",
+      "importance": "high",
+      "evidence_indices": [
+        15,
+        16
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "scope_refinement_and_internal_approval",
+    "explanation": "The visible path lengthened as optional conical containers changed the price and technical scope, specifications/questionnaire details were completed, and the buyer's management and legal reviewers controlled approval and contract timing. The customer later directly confirmed purchase approval and reported payment, so the preceding delay is best explained by scope and internal process rather than a visible loss of interest. This describes the trajectory only and does not assign a final outcome label (evidence indices 3, 4, 5, 6, 7, 8, 9, 12, 14, 15).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12,
+      14,
+      15
+    ]
+  },
+  "secondary_factors": [
+    "Initial price acceptance is inconsistent across two date-only manager worklogs; the buyer's direct account says the offer was forwarded for internal review, so the initial reaction cannot be resolved from these records (evidence indices 0, 1, 2).",
+    "A technical concern about label application to the cylindrical cardboard cup required an additional reassurance, even after the conical option was removed (evidence index 10).",
+    "The buyer reported not knowing the payment date while checking with the responsible director; the subsequent customer email reported payment, which is a strong indirect outcome cue and should remain separate from any outcome prediction (evidence indices 14, 15)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Send one confirmed questionnaire with the required fields and attachment, and track whether the buyer received it before making it a prerequisite for contract drafting (evidence indices 5, 6).",
+      "Present the core cylindrical configuration and the conical option as separate priced alternatives, then carry the selected scope consistently into the quote and contract (evidence indices 4, 7, 8).",
+      "Agree on a buyer-side decision owner and a realistic check-in date during legal/payment review instead of treating recurring calls as control over those dates (evidence indices 6, 12, 14)."
+    ],
+    "limits": [
+      "The buyer's management, committee, lawyer, and payment signatories controlled review and payment timing; the manager could not guarantee their availability or approval speed (evidence indices 3, 6, 9, 12, 14).",
+      "The buyer changed the packaging scope and reported payment status directly; process improvements cannot establish what would have happened under a different configuration or schedule (evidence indices 7, 8, 15)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-23T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): records round glass jars in several sizes, a wraparound self-adhesive label, about 1,000 units/hour, and that application quality mattered; these are manager claims."
+    },
+    {
+      "timestamp": "2026-07-28T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 17,
+      "paraphrase": "Date-only manager worklog (time inferred): says the price was not accepted and notes a cheaper 516k alternative; manager claim, not customer speech."
+    },
+    {
+      "timestamp": "2026-07-29T14:53:53+07:00",
+      "event_type": "call_transcript",
+      "event_id": "632685",
+      "source_line": 44,
+      "paraphrase": "Buyer says the approximately 650k proposal was received and forwarded to managers, who had not yet discussed it."
+    },
+    {
+      "timestamp": "2026-08-05T17:28:11+07:00",
+      "event_type": "call_transcript",
+      "event_id": "639465",
+      "source_line": 66,
+      "paraphrase": "Buyer says leadership was occupied/on leave and the equipment discussion had not yet been reached amid other priorities."
+    },
+    {
+      "timestamp": "2026-08-07T14:35:53+07:00",
+      "event_type": "email",
+      "event_id": "641257",
+      "source_line": 87,
+      "paraphrase": "Buyer requests the final quote before contract and invoice because the higher price needs internal approval."
+    },
+    {
+      "timestamp": "2026-08-10T16:38:20+07:00",
+      "event_type": "call_transcript",
+      "event_id": "643111",
+      "source_line": 105,
+      "paraphrase": "Buyer says the questionnaire remains incomplete because label dimensions were not recorded and he had not had time to finish it."
+    },
+    {
+      "timestamp": "2026-08-13T16:50:23+07:00",
+      "event_type": "call_transcript",
+      "event_id": "645607",
+      "source_line": 132,
+      "paraphrase": "Buyer says the contract was forwarded to the lawyer and describes a legal review process that could take time."
+    },
+    {
+      "timestamp": "2026-08-25T15:52:31+07:00",
+      "event_type": "call_transcript",
+      "event_id": "652825",
+      "source_line": 170,
+      "paraphrase": "Buyer says management is reconsidering the conical-container configuration because of added operating and logistics complexity."
+    },
+    {
+      "timestamp": "2026-08-26T16:25:46+07:00",
+      "event_type": "call_transcript",
+      "event_id": "654071",
+      "source_line": 174,
+      "paraphrase": "Buyer confirms that the conical option is excluded, asks for a recalculated quote and contract, and says the active configuration has three cylindrical package positions."
+    },
+    {
+      "timestamp": "2026-08-28T15:01:00+07:00",
+      "event_type": "call_transcript",
+      "event_id": "656109",
+      "source_line": 191,
+      "paraphrase": "Buyer directly says the purchase is approved and contract edits are being handled."
+    },
+    {
+      "timestamp": "2026-08-31T16:47:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "657559",
+      "source_line": 202,
+      "paraphrase": "Buyer asks whether an ordinary label can be applied to the cylindrical cardboard cup; the manager gives a technical reassurance."
+    },
+    {
+      "timestamp": "2026-09-01T10:31:56+07:00",
+      "event_type": "email",
+      "event_id": "658061",
+      "source_line": 205,
+      "paraphrase": "Buyer says the contract has been checked with no questions and asks for the payment invoice."
+    },
+    {
+      "timestamp": "2026-09-02T14:19:09+07:00",
+      "event_type": "call_transcript",
+      "event_id": "659615",
+      "source_line": 214,
+      "paraphrase": "Buyer says documents are sent for signature and payment, with another responsible person still needing to process them."
+    },
+    {
+      "timestamp": "2026-09-03T16:24:26+07:00",
+      "event_type": "call_transcript",
+      "event_id": "661003",
+      "source_line": 218,
+      "paraphrase": "Buyer sends the signed contract during the call and says payment follows after the seller returns its signed copy."
+    },
+    {
+      "timestamp": "2026-09-04T15:43:43+07:00",
+      "event_type": "call_transcript",
+      "event_id": "662021",
+      "source_line": 224,
+      "paraphrase": "Buyer does not know whether payment will happen that day or the following week and says he will check with the director."
+    },
+    {
+      "timestamp": "2026-09-07T14:52:01+07:00",
+      "event_type": "email",
+      "event_id": "662983",
+      "source_line": 225,
+      "paraphrase": "Customer email states that payment went through. This is customer-reported payment status, not an independent bank-credit confirmation."
+    },
+    {
+      "timestamp": "2026-09-07T15:06:09+07:00",
+      "event_type": "email",
+      "event_id": "662995",
+      "source_line": 226,
+      "paraphrase": "Seller replies that the information was received and the project is being sent to production."
+    }
+  ],
+  "uncertainties": [
+    "Two date-only manager worklogs conflict on initial price acceptance; the buyer-sourced call only establishes that the proposal was forwarded for internal review (evidence indices 0, 1, 2).",
+    "The detailed starting capacity and size range are in a manager worklog; later customer calls support the cylindrical/conical scope changes but do not independently verify every initial specification (evidence indices 0, 7, 8).",
+    "Payment is self-reported by the customer, followed by a seller production handoff; there is no independent bank confirmation in the view. This is a strong indirect outcome cue and is not used to predict or assign WON/LOST (evidence indices 14, 15, 16)."
+  ]
+}

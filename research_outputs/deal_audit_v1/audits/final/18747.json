@@ -1,0 +1,241 @@
+{
+  "deal_id": "18747",
+  "deal_summary": "The buyer sought a flexible perfume line for small runs across varying bottle formats, but exact samples and technical criteria were slow to establish. After receiving a proposal and sending it to production, the buyer said one equipment block did not fit; the final visible messages ask for the specific block and required changeover criteria, with no answer in the view (evidence indices 1, 2, 8, 9, 12, 13, 14).",
+  "customer_need": {
+    "summary": "The buyer wanted a reusable base line for perfume bottles and small, changing orders rather than equipment for only one short run. The buyer gave rough body-size ranges and described variation in bottle shapes, closures, and labels, but initially lacked drawings and exact dimensions; a date-only manager note supplies the more detailed 3–50 ml and rate figures (evidence indices 0, 1, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The buyer explained that future bottle formats and orders were unpredictable and asked for a flexible line with changeover options. Exact dimensions were unavailable, so production could not confirm fit from the early photos alone (evidence indices 1, 2).",
+    "middle": "Photos and measurements arrived only after multiple requests, and some images were sent by a channel the seller could not open. The seller clarified that substantially different bottle geometries could require different lines, then sent a proposal/video that the buyer passed to production for review (evidence indices 3, 4, 5, 6, 7, 8, 9).",
+    "late": "The buyer postponed technical review while other work was underway, then said one block in the proposal did not fit. The buyer needed to ask production which block was unsuitable; the seller's final visible messages narrowed the question to the exact block and mandatory format/changeover requirements (evidence indices 10, 11, 12, 13, 14)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer described a real recurring need for flexible equipment across small orders, sent package photos, and forwarded the proposal/video to production for review (evidence indices 1, 4, 8, 9).",
+      "The buyer gave specific negative feedback that one proposed block did not fit and said he would check with production, creating a concrete path to technical revision (evidence index 12)."
+    ],
+    "negative_signals": [
+      "The buyer repeatedly lacked or delayed the dimensions needed for a reliable proposal, including because he was traveling and had no drawings for the received bottles (evidence indices 2, 3, 4).",
+      "The buyer postponed review to the following week and had not identified the unsuitable block by the final visible request (evidence indices 10, 12, 14)."
+    ],
+    "initiative": "The buyer explained the need for a flexible base with changeover kits, supplied images, passed the proposal to production, and flagged the specific existence of a mismatch even though its technical details were still pending (evidence indices 1, 4, 9, 12).",
+    "decision_process": "The production/technology team had to assess the proposal, while the buyer managed a changing set of small customer orders and competing work. The final decision point visible in the view is technical feedback on the unsuitable block, not a recorded final purchase decision (evidence indices 1, 9, 10, 12, 13, 14)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager repeatedly asked for dimensions or sample-based photos, explained why those inputs were needed, and clarified that materially different bottle shapes might require different line configurations (evidence indices 2, 4, 6, 7).",
+      "The manager sent a proposal and video, checked that production was reviewing them, and later asked the buyer to identify the exact unsuitable block and mandatory requirements (evidence indices 8, 9, 11, 13, 14)."
+    ],
+    "weak_actions": [
+      "Image exchange was not coordinated on one usable channel: the buyer sent photos by MMS to the caller's number, which the seller could not open, so the buyer had to resend them through MAX (evidence index 6).",
+      "The broad requirement was quoted before exact dimensions and must-have functions were settled; the buyer later reported one block did not fit. A clearer minimum-specification gate or representative baseline format could have reduced technical rework (evidence indices 1, 2, 12)."
+    ],
+    "follow_up_quality": "Follow-up was persistent and moved from general requests for feedback toward a specific request for the unsuitable block and required changeovers. The view ends before the buyer supplies that clarification, so the next technical step remained open (evidence indices 8, 10, 11, 12, 13, 14).",
+    "next_step_control": "At the end of the view, the manager had asked a concrete question: which block failed the buyer's needs and what it must do. Progress depended on the buyer's production team returning that detail (evidence indices 12, 13, 14)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-28T16:31:48+07:00",
+      "description": "The buyer defined the need as a reusable base for varying small orders and described broad dimensions rather than a single stable package specification (evidence index 1).",
+      "importance": "high",
+      "evidence_indices": [
+        1
+      ]
+    },
+    {
+      "timestamp": "2026-08-05T19:55:40+07:00",
+      "description": "After resending the photos, the seller warned that substantially different bottle geometries could require different line configurations and asked whether the buyer wanted only the current format covered (evidence index 7).",
+      "importance": "high",
+      "evidence_indices": [
+        7
+      ]
+    },
+    {
+      "timestamp": "2026-08-12T15:23:29+07:00",
+      "description": "The buyer confirmed receiving the proposal/video and passing it to production for technical review (evidence index 9).",
+      "importance": "medium",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "timestamp": "2026-08-25T19:06:07+07:00",
+      "description": "The buyer said the proposal was unsuitable because one specific block did not fit, but needed to confirm the details with production (evidence index 12).",
+      "importance": "high",
+      "evidence_indices": [
+        12
+      ]
+    },
+    {
+      "timestamp": "2026-09-01T14:47:44+07:00",
+      "description": "The manager's final visible message asks which block is wrong and which functions are mandatory, leaving a specific technical response outstanding (evidence index 14).",
+      "importance": "high",
+      "evidence_indices": [
+        14
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "unstable_technical_scope_and_missing_specifications",
+    "explanation": "The customer wanted one reusable line for varied future perfume orders, but the actual containers and mandatory functions were not defined early enough for production to validate a universal configuration. Measurements were delayed, drawings were unavailable, and the proposal later failed on at least one block; at the end, the buyer had not yet supplied the precise mismatch. Competing work also delayed the buyer's technical review. This explains the visible stall without assigning a final deal outcome (evidence indices 1, 2, 3, 4, 7, 9, 10, 12, 13, 14).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      10,
+      12,
+      13,
+      14
+    ]
+  },
+  "secondary_factors": [
+    "The buyer said small orders can last only a few weeks, making a dedicated machine for one format unattractive; this helps explain the broad changeover requirement (evidence index 1).",
+    "The proposal's costing depended on an external China estimate recorded in date-only manager worklogs, so the seller's proposal timing was partly outside the manager's direct control (evidence indices 15, 16).",
+    "The photo transfer first used MMS, which the seller could not open, before being resent through MAX (evidence index 6)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree on one usable channel for package images and confirm receipt immediately, avoiding repeated photo requests (evidence index 6).",
+      "Before a final quote, define one representative bottle, cap, and label configuration plus which changeover kits are mandatory versus optional (evidence indices 1, 2, 7).",
+      "Schedule a short technical review with the buyer and production contact, ending with the exact block to change and its required behavior (evidence indices 9, 12, 13, 14)."
+    ],
+    "limits": [
+      "The customer had no drawings for some incoming orders and could not predict future bottle formats; no quote can establish compatibility with unknown packages (evidence indices 1, 2, 4).",
+      "The buyer's competing work and production team's review controlled when usable feedback became available (evidence indices 10, 12, 14)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-27T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes perfume bottles, varying glass formats/caps/labels, an approximate size/rate target, and a manager-reported initial price reaction."
+    },
+    {
+      "timestamp": "2026-07-28T16:31:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "631497",
+      "source_line": 9,
+      "paraphrase": "Buyer says future orders and bottle formats vary, so he wants a reusable base and changeover kits; he gives rough dimensions and describes small order sizes."
+    },
+    {
+      "timestamp": "2026-07-30T17:17:19+07:00",
+      "event_type": "call_transcript",
+      "event_id": "634319",
+      "source_line": 25,
+      "paraphrase": "Production cannot confirm a solution from the photos without container and cap dimensions; buyer says those items are supplied by customers and exact drawings are unavailable."
+    },
+    {
+      "timestamp": "2026-07-31T17:10:47+07:00",
+      "event_type": "call_transcript",
+      "event_id": "635593",
+      "source_line": 29,
+      "paraphrase": "Buyer says he is traveling and cannot measure the available bottle until the following week."
+    },
+    {
+      "timestamp": "2026-08-04T19:49:06+07:00",
+      "event_type": "call_transcript",
+      "event_id": "638403",
+      "source_line": 37,
+      "paraphrase": "Buyer says there are no drawings but physical bottles are available and agrees to send photos with a ruler."
+    },
+    {
+      "timestamp": "2026-08-05T14:23:32+07:00",
+      "event_type": "message",
+      "event_id": "2969611",
+      "source_line": 40,
+      "paraphrase": "Seller requests photos with dimensions by 16:00 and says the project will otherwise be treated as not current."
+    },
+    {
+      "timestamp": "2026-08-05T19:46:54+07:00",
+      "event_type": "call_transcript",
+      "event_id": "639705",
+      "source_line": 44,
+      "paraphrase": "Buyer says photos were sent by SMS/MMS; seller says the message cannot be opened and redirects the transfer to MAX."
+    },
+    {
+      "timestamp": "2026-08-05T19:55:40+07:00",
+      "event_type": "message",
+      "event_id": "2973163",
+      "source_line": 48,
+      "paraphrase": "Seller says substantially different bottle geometries may require different lines and asks whether only the current format should be included."
+    },
+    {
+      "timestamp": "2026-08-11T19:45:36+07:00",
+      "event_type": "message",
+      "event_id": "2988839",
+      "source_line": 62,
+      "paraphrase": "Seller sends the requested proposal and asks the buyer to review and respond."
+    },
+    {
+      "timestamp": "2026-08-12T15:23:29+07:00",
+      "event_type": "call_transcript",
+      "event_id": "644645",
+      "source_line": 68,
+      "paraphrase": "Buyer confirms receiving the proposal/video and says it has been passed to production for review."
+    },
+    {
+      "timestamp": "2026-08-17T19:17:17+07:00",
+      "event_type": "call_transcript",
+      "event_id": "647579",
+      "source_line": 78,
+      "paraphrase": "Buyer says other work is underway and he expects to return to the line discussion the following week."
+    },
+    {
+      "timestamp": "2026-08-24T19:08:01+07:00",
+      "event_type": "message",
+      "event_id": "3028619",
+      "source_line": 82,
+      "paraphrase": "Seller asks the buyer to identify which container formats and changeovers production considers mandatory."
+    },
+    {
+      "timestamp": "2026-08-25T19:06:07+07:00",
+      "event_type": "call_transcript",
+      "event_id": "653181",
+      "source_line": 86,
+      "paraphrase": "Buyer says one block in the proposal is unsuitable and agrees to check which one with production."
+    },
+    {
+      "timestamp": "2026-08-27T19:40:31+07:00",
+      "event_type": "message",
+      "event_id": "3041421",
+      "source_line": 93,
+      "paraphrase": "Seller asks which block should change and which formats/changeovers are essential for the first stage."
+    },
+    {
+      "timestamp": "2026-09-01T14:47:44+07:00",
+      "event_type": "message",
+      "event_id": "3053031",
+      "source_line": 97,
+      "paraphrase": "Seller narrows the outstanding technical question to the specific unsuitable block and the function it must provide."
+    },
+    {
+      "timestamp": "2026-08-07T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 52,
+      "paraphrase": "Date-only manager worklog (time inferred): records that the external China costing would not arrive before Monday; manager claim."
+    },
+    {
+      "timestamp": "2026-08-10T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 53,
+      "paraphrase": "Date-only manager worklog (time inferred): records receiving the external proposal and preparing the customer quote; manager claim."
+    }
+  ],
+  "uncertainties": [
+    "The detailed initial size, line rate, and price reaction are recorded only in a date-only manager worklog; the buyer's direct call supports a broad variable-format need but not each initial metric (evidence indices 0, 1).",
+    "The view ends after the seller asks for the exact block and required function; it contains no buyer response resolving the technical mismatch (evidence indices 12, 13, 14).",
+    "The buyer said future orders and formats were not predictable, so the required level of universality and the compatibility of unprovided containers remain uncertain (evidence indices 1, 2, 4).",
+    "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause."
+  ]
+}

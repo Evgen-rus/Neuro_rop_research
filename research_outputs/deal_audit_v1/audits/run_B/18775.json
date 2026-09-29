@@ -1,0 +1,137 @@
+{
+  "deal_id": "18775",
+  "deal_summary": "The customer's proposal depended on a real test of labeling on its own product and acceptable pricing; the seller offered sample testing and a factory visit, but no test or confirmed next step appears by the last message (evidence 0, 2, 3, 4).",
+  "customer_need": {
+    "summary": "A manager log describes automated labeling across PET bottles and canisters; the customer later asked to validate performance with a real test before purchase (evidence 0, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The customer sent packaging photos and received a quote and video (evidence 0, 1).",
+    "middle": "The customer referred follow-up to procurement and the manager log says test results and price were central to purchase consideration (evidence 2, 3).",
+    "late": "The seller offered sample testing and an on-site demonstration; the final visible message asks whether the project is still active, with no customer response recorded (evidence 4, 5)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer shared packaging information and reviewed the proposal (evidence 0, 1).",
+      "The customer said procurement would continue the conversation (evidence 2)."
+    ],
+    "negative_signals": [
+      "The customer required a product test before considering purchase; the manager log also records a price concern (evidence 3).",
+      "The customer did not confirm a visit or sample shipment in the available view (evidence 4, 5)."
+    ],
+    "initiative": "The customer asked for validation of the solution and routed further contact to procurement (evidence 2, 3).",
+    "decision_process": "The manager log identifies the contact as the purchase decision-maker but the contact redirected follow-up to procurement; the precise procurement role is not documented (evidence 2, 3)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller shared a proposal and video, then offered an in-person equipment demonstration with customer samples (evidence 1, 4)."
+    ],
+    "weak_actions": [
+      "The available record ends without a scheduled sample test, named procurement handoff, or confirmed factory visit (evidence 2, 4, 5)."
+    ],
+    "follow_up_quality": "The seller kept proposing concrete test and visit options, but there is no recorded customer commitment after the procurement referral (evidence 2, 4, 5).",
+    "next_step_control": "The immediate next step remained unresolved after the seller asked whether the project was still active (evidence 5)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-04T00:00:00+03:00",
+      "description": "The manager log records that testing on customer samples was required before purchase would be considered (evidence 3).",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-08-04T12:47:38+03:00",
+      "description": "The customer referred follow-up to procurement rather than sharing a direct contact route (evidence 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-08-14T11:51:50+03:00",
+      "description": "The seller offered a production-floor demonstration with sample packaging, but no visit is confirmed (evidence 4, 5).",
+      "importance": "medium",
+      "evidence_indices": [
+        4,
+        5
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "purchase gated on sample validation and price",
+    "explanation": "The visible trajectory was constrained by the customer's requirement to test on actual packaging and a manager-recorded price concern. The seller offered an in-person test and visit, but the view ends without those steps being scheduled (evidence 2, 3, 4, 5).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "Packaging included bottles and canisters in multiple shapes and sizes, raising technical-fit questions (evidence 0).",
+    "The manager's note about price and test requirements is not a customer-authored quote (evidence 3)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree a named procurement contact, sample-delivery route, and test date before extending the quote cycle (evidence 2, 4, 5).",
+      "Clarify price range against the tested scope before arranging travel and demonstration (evidence 3, 4)."
+    ],
+    "limits": [
+      "The customer controlled sample availability and whether to attend a demonstration (evidence 2, 4).",
+      "The view ends with no customer response to the last status check (evidence 5)."
+    ]
+  },
+  "uncertainties": [
+    "The price objection and purchase-test condition are recorded in manager worklogs, not direct customer text (evidence 3).",
+    "No sample test, factory visit, or updated customer decision appears in the view after the final status-check message (evidence 4, 5)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes the requested equipment and records that the customer expected a near-term purchase at the stated price range.",
+      "timestamp": "2026-07-29T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2947271"
+    },
+    {
+      "source_line": 20,
+      "paraphrase": "Customer agrees to receive the proposal through the preferred messenger and schedule a follow-up.",
+      "timestamp": "2026-07-31T10:23:39+03:00",
+      "event_type": "call_transcript",
+      "event_id": "635243"
+    },
+    {
+      "source_line": 34,
+      "paraphrase": "Customer says the proposal was passed to purchasing and that purchasing would contact the seller.",
+      "timestamp": "2026-08-04T12:47:38+03:00",
+      "event_type": "call_transcript",
+      "event_id": "638053"
+    },
+    {
+      "source_line": 32,
+      "paraphrase": "Manager log says the customer required a real test before purchase and that price was somewhat high; these are manager claims.",
+      "timestamp": "2026-08-04T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2947271"
+    },
+    {
+      "source_line": 51,
+      "paraphrase": "Seller invites the customer and leadership to the factory to test applicators on sample packaging.",
+      "timestamp": "2026-08-14T11:51:50+03:00",
+      "event_type": "message",
+      "event_id": "2998019"
+    },
+    {
+      "source_line": 58,
+      "paraphrase": "Seller asks whether the project is still active and offers a short numbered response; no customer reply is visible afterward.",
+      "timestamp": "2026-08-19T10:56:42+03:00",
+      "event_type": "message",
+      "event_id": "3013321"
+    }
+  ]
+}

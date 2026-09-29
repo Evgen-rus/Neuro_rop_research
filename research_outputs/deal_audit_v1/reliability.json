@@ -1,0 +1,245 @@
+{
+  "version": "1.0",
+  "freeze": "paired_audit_freeze_v2.json",
+  "deal_count": 23,
+  "comparison_count": 161,
+  "outcome_accessed": false,
+  "canonical_B_19007": "audits/run_B_replacement/19007.json",
+  "excluded_file": "audits/run_B/19007.json",
+  "field_order": ["P", "C", "T", "M", "W", "POS", "NEG"],
+  "field_definitions": {
+    "P": "Primary visible trajectory explanation.",
+    "C": "Controllability category in the primary explanation.",
+    "T": "Most consequential turning point or transition.",
+    "M": "Manager influence: whether/how manager actions could materially improve the visible path.",
+    "W": "Strongest manager weakness; an empty evidence list means none recorded.",
+    "POS": "Strongest positive customer-side signal.",
+    "NEG": "Strongest negative customer-side signal."
+  },
+  "tuple_order": ["rating", "short reason", "A evidence indices", "canonical B evidence indices"],
+  "pointer_convention": "Indices are zero-based in each audit's evidence[]; B for 19007 means run_B_replacement/19007.json.",
+  "ratings_by_field": {
+    "P": {"AGREE": 13, "PARTIAL": 10, "DISAGREE": 0},
+    "C": {"AGREE": 19, "PARTIAL": 4, "DISAGREE": 0},
+    "T": {"AGREE": 5, "PARTIAL": 18, "DISAGREE": 0},
+    "M": {"AGREE": 8, "PARTIAL": 15, "DISAGREE": 0},
+    "W": {"AGREE": 4, "PARTIAL": 13, "DISAGREE": 6},
+    "POS": {"AGREE": 12, "PARTIAL": 10, "DISAGREE": 1},
+    "NEG": {"AGREE": 7, "PARTIAL": 15, "DISAGREE": 1}
+  },
+  "deals": [
+    {"deal_id":"18485","ratings":{
+      "P":["PARTIAL","Same legal/contract path; A centers EDI uncertainty, B adds scope/fund review.",[2,4,7,8,9],[1,2,3,4,5]],
+      "C":["AGREE","Both classify control as mixed.",[4,7],[3,4]],
+      "T":["PARTIAL","Both select scope addition and legal review; late emphasis differs.",[2,3,4,7,8,9],[1,2,3,4,5]],
+      "M":["AGREE","Both propose checklist and dated follow-up within legal/finance limits.",[5,7,8,9],[2,3,4,5]],
+      "W":["AGREE","Both identify price-increase pressure as the salient weakness.",[3,4],[2]],
+      "POS":["AGREE","Both note scope additions and cooperation with legal documents.",[2,5,6,7],[1,4,5]],
+      "NEG":["PARTIAL","Both note review delay; B's fund-review framing lacks a clear cited event.",[4,8,9],[2,3,5]]
+    },"flags":["B primary indices repeat e5 and omit e4 (counsel approval); its external-fund framing is not supported by the cited evidence."]},
+    {"deal_id":"18615","ratings":{
+      "P":["AGREE","Both describe iterative technical/commercial alignment continuing into document and payment processing.",[1,3,10,15,20,21,22],[1,3,8,10,11,13,14]],
+      "C":["AGREE","Both classify control as mixed.",[10],[10]],
+      "T":["PARTIAL","Both include price, specification changes, and late contracting; turning-point selection differs.",[1,3,10,11,15,17,20,22],[1,3,5,8,10,11,13,14]],
+      "M":["AGREE","Both recommend consolidating technical requirements and tracking approvals/payment.",[10,11,15,17,22],[6,8,9,10,11,12]],
+      "W":["AGREE","Both identify unresolved technical scope during contract review.",[10,11],[6,8,9,10,11,12]],
+      "POS":["AGREE","Both note sustained technical engagement and progress through signed paperwork.",[4,9,11,20,21,22],[3,4,10,11,13]],
+      "NEG":["PARTIAL","Both note cost/scope constraints; A stresses lead time and detail gaps, B financing and changing scope.",[1,2,10,14,15],[1,2,8,9,10]]
+    },"flags":[]},
+    {"deal_id":"18629","ratings":{
+      "P":["PARTIAL","Both center unverified pouch application; A states the competitor-test consequence more explicitly.",[5,9,10,11,12],[0,6,7,8]],
+      "C":["AGREE","Both mark the path mixed-control.",[10,12],[7,8]],
+      "T":["AGREE","Both select unavailable proof and external sample testing as the late turn.",[5,9,10,11,12],[6,7,8]],
+      "M":["AGREE","Both see a test route as the relevant intervention while noting constraints.",[5,9,10,12],[7,8]],
+      "W":["PARTIAL","A lists a qualified process weakness; B records none despite the same unmet test gate.",[5,9,10],[7,8]],
+      "POS":["AGREE","Both note technical engagement and customer package information.",[1,6,8,10,12],[0,2,5,7,8]],
+      "NEG":["AGREE","Both identify refusal to choose without actual application testing.",[5,10,12],[7,8]]
+    },"flags":["B's primary says early price was acceptable, but its cited evidence does not clearly record customer price acceptance."]},
+    {"deal_id":"18635","ratings":{
+      "P":["PARTIAL","Both center sample validation; A also foregrounds throughput and acceptance terms.",[1,2,4,5,10,13,16,17],[0,1,2,4,5]],
+      "C":["AGREE","Both assign mixed controllability.",[1,4],[1,2]],
+      "T":["PARTIAL","Both highlight the unavailable pre-build test; A adds speed and acceptance-contract turns.",[0,1,4,5,10,13,16,17],[0,1,2,4]],
+      "M":["AGREE","Both recommend test/acceptance criteria and separate payment from release.",[1,4,5,10,16,17],[0,1,2,4,5]],
+      "W":["AGREE","Both identify inability to test before manufacture without assigning individual fault.",[4,5,16],[1,2]],
+      "POS":["PARTIAL","Both note technical engagement and contracting; A adds sample preparation/payment timing.",[2,4,8,10,13,16,17],[0,1,3,4]],
+      "NEG":["PARTIAL","Both identify the missing test; A also cites speed mismatch and invoice access.",[1,2,4,10,15,16],[1,2,4]]
+    },"flags":["A:e14 and B:e5 point to event_id 627315 on 2026-07-22 but paraphrase document/payment status differently."]},
+    {"deal_id":"18731","ratings":{
+      "P":["AGREE","Both explain late delay through director review and customer budget reprioritization.",[9,10,12,14],[2,3,4,6]],
+      "C":["PARTIAL","A says mixed; B assigns the cause to customer control despite manager follow-up options.",[9,10,14],[3,4,6]],
+      "T":["AGREE","Both select pending director review followed by funds moving to another project.",[9,10,12,14],[3,4,6]],
+      "M":["PARTIAL","Both propose budget-window follow-up; A leaves material influence unknown, B says no.",[9,10,11,14],[3,4,6]],
+      "W":["PARTIAL","A notes no dated director meeting; B records no weakness, and neither proves manager fault.",[9,10,12],[3,4]],
+      "POS":["AGREE","Both note technical engagement and stated continued interest.",[3,4,8,9,14],[0,1,2,6]],
+      "NEG":["AGREE","Both identify director delay and funds reassigned to another project.",[9,10,12,14],[3,4,6]]
+    },"flags":[]},
+    {"deal_id":"18733","ratings":{
+      "P":["AGREE","Both describe iterative scope clarification followed by customer approval and reported payment.",[4,7,8,9,15],[3,4,5,6]],
+      "C":["AGREE","Both classify the trajectory as mixed-control.",[4,8,9],[3,4,5]],
+      "T":["AGREE","Both select scope/price change, option removal, approval, and later payment report.",[4,5,6,8,9,15],[1,3,4,5,6]],
+      "M":["AGREE","Both favor questionnaire/specification checks and clearer payment/production milestones.",[5,6,8,12,15],[1,3,4,6]],
+      "W":["PARTIAL","Both see questionnaire/scope rework; A adds pricing rework, B cites the missing attachment.",[4,5,6,7,8],[1,3,4]],
+      "POS":["PARTIAL","Both note engagement and approval/payment; B's first signal cites mismatched indices for several details.",[2,5,6,9,13,15],[0,1,3,5,6]],
+      "NEG":["PARTIAL","Both note configuration revisions; A also includes delayed prioritization.",[3,4,5,6,7],[3,4]]
+    },"flags":["B POS cites e0/e1/e3 for photos, competitor discussion, and company/legal information; the comparison email is e2, and cited paraphrases do not support all details."]},
+    {"deal_id":"18745","ratings":{
+      "P":["PARTIAL","Both identify director-gated approval/payment friction; A also centers contract-package errors.",[2,6,7,9,10,11,12,15],[2,3,5,6,7]],
+      "C":["AGREE","Both classify control as mixed.",[2,6,15],[2,3,5]],
+      "T":["PARTIAL","Both select approval/payment friction; A includes contract errors, B a separate filling inquiry.",[6,7,12,15],[2,3,5,6,7]],
+      "M":["PARTIAL","Both propose one payment check; A also covers contract defects and director timing.",[7,15,16],[3,4,5,6]],
+      "W":["PARTIAL","Both identify repeated payment checks; A also documents contract-title/scope errors.",[7,15,16],[5,6]],
+      "POS":["PARTIAL","Both note contract progression; A has direct approval evidence, B includes a late separate inquiry.",[2,4,5,6,15],[2,5,7]],
+      "NEG":["PARTIAL","Both note approval delay/payment reminders; B's irritation claim is manager-reported.",[3,9,10,15],[3,4,6]]
+    },"flags":["B frames payment-reminder irritation as a manager-log report; A:e15 is the customer's direct request to stop repeated inquiries."]},
+    {"deal_id":"18747","ratings":{
+      "P":["AGREE","Both center variable package formats and an unresolved technical objection to a proposed block.",[1,2,7,9,12,14],[0,1,4,5,6]],
+      "C":["AGREE","Both classify control as mixed.",[1,12],[0,5]],
+      "T":["AGREE","Both select broad-format scoping, production review, and the unspecified block-fit objection.",[1,7,9,12,14],[0,3,4,5]],
+      "M":["PARTIAL","A says material improvement is possible; B is uncertain, though both suggest narrowing scope.",[6,7,12,14],[0,1,5,6]],
+      "W":["DISAGREE","A identifies channel coordination and broad scoping weaknesses; B lists none.",[6,7,12],[]],
+      "POS":["PARTIAL","Both note engagement/review; A also counts the customer's specific corrective feedback.",[1,4,8,9,12],[0,1,3,4,5]],
+      "NEG":["AGREE","Both identify unavailable dimensions and an unspecified failed block.",[2,3,4,10,12,14],[0,1,4,5,6]]
+    },"flags":[]},
+    {"deal_id":"18755","ratings":{
+      "P":["PARTIAL","A treats manager-reported price as leading; B stops at an unverified proposal response.",[9,10,11],[4,5,6,7]],
+      "C":["PARTIAL","A labels control mixed; B leaves controllability unknown because price feedback is unverified.",[9,10],[4,5,6]],
+      "T":["PARTIAL","Both select missing dimensions, optional coding, and an unreviewed proposal; price weighting differs.",[4,5,8,9,10,11],[2,4,5,6,7]],
+      "M":["PARTIAL","Both suggest comparison and agreed follow-up; A also keeps fit assumptions provisional.",[4,5,8,10,11],[4,5,6]],
+      "W":["PARTIAL","Both note repeated calls; A also flags unmeasured bottle-fit assumptions.",[4,5,10],[2,5]],
+      "POS":["AGREE","Both identify customer package information and an optional coding choice.",[2,3,4,5,8],[1,2,3,4]],
+      "NEG":["AGREE","Both identify missing bottle dimensions and inconvenient/repeated-call cadence.",[4,5,10],[2,5]]
+    },"flags":["B primary discusses manager-reported price comparison but omits B:e7, the worklog entry, from primary evidence_indices; no customer price objection is confirmed."]},
+    {"deal_id":"18765","ratings":{
+      "P":["PARTIAL","Both end at director review/external reprioritization; A also centers direct price and leasing pivot.",[5,6,7,10,11,13],[2,3,4]],
+      "C":["PARTIAL","A assigns mixed control; B assigns the delay to customer control.",[6,10,11,13],[2,3,4]],
+      "T":["PARTIAL","A includes price shock, leasing, and contact cadence; B selects director and raw-material delay.",[6,7,10,11,13],[2,3,4]],
+      "M":["PARTIAL","Both suggest comparison and customer-led follow-up; A adds scope and cadence steps.",[6,7,10,11,12],[2,3,4]],
+      "W":["DISAGREE","A identifies pricing/cadence weaknesses; B lists none.",[5,6,10,11,12],[]],
+      "POS":["PARTIAL","Both note engagement; A includes direct financing discussion and preferred contact cadence.",[1,5,6,7,10],[1,2,3]],
+      "NEG":["PARTIAL","Both note director/budget reprioritization; A also records direct affordability and contact limits.",[6,10,11,13],[2,4]]
+    },"flags":["B attributes the raw-material message to the customer; A describes it as a reply. Direction is unresolved in this paired-audit-only review."]},
+    {"deal_id":"18773","ratings":{
+      "P":["PARTIAL","Both cover funding/competition and later documents; A also emphasizes unverified 0.33 L fit.",[3,8,9,14,19,20],[1,2,3,4,5]],
+      "C":["AGREE","Both assign mixed control.",[3,8,20],[2,3,5]],
+      "T":["PARTIAL","A includes competing offer/funding certificate; B prioritizes scope and contract/payment events.",[3,8,14,19,20],[0,2,3,4,5]],
+      "M":["PARTIAL","Both recommend configuration/document tracking; A adds explicit fit validation.",[5,8,12,14,19],[2,3,4]],
+      "W":["PARTIAL","Both identify scope/payment-document rework; A adds fit risk, B cash/no-VAT mismatch.",[10,12,14,18,19],[3,4]],
+      "POS":["PARTIAL","Both note engagement; A includes competitor/funding responsiveness, B project return and paperwork.",[3,7,8,15,18,19],[0,3,4]],
+      "NEG":["PARTIAL","Both describe funding/fluid scope; A includes repeated deferrals and fit gaps.",[2,6,7,8,9,18,19],[2,3,4]]
+    },"flags":["A says payment/EDI message sender direction is unknown; B calls payment seller-reported. Treat attribution as unresolved."]},
+    {"deal_id":"18775","ratings":{
+      "P":["AGREE","Both center sample validation, procurement handoff, and unresolved price/fit.",[2,6,7,9,10,11],[2,3,4,5]],
+      "C":["AGREE","Both label control mixed.",[2,9],[2,4]],
+      "T":["PARTIAL","Both select buyer handoff and unscheduled test; A adds size range and direct price qualification.",[2,6,9,11],[2,3,4,5]],
+      "M":["AGREE","Both recommend named procurement contact, sample plan, and clearer price/scope comparison.",[2,6,7,9,10],[2,3,4,5]],
+      "W":["PARTIAL","A notes specification/call cadence; B notes absent test/handoff but no individual fault.",[1,2,6,7,10],[2,3,4,5]],
+      "POS":["PARTIAL","Both note proposal review/procurement routing; A adds direct price and fit qualification.",[2,6,9],[1,2]],
+      "NEG":["PARTIAL","Both identify uncompleted testing; A includes direct price concern, B relies on manager log.",[2,6,11],[3,4,5]]
+    },"flags":[]},
+    {"deal_id":"18873","ratings":{
+      "P":["AGREE","Both center a cheaper/smaller competing option and unfinished dimensional revision.",[8,9,14,15,16],[0,3,4,5]],
+      "C":["AGREE","Both classify the cause as mixed-control.",[14,15],[4,5]],
+      "T":["PARTIAL","Both select scope narrowing and competitor fit/price; A adds supplier refusal and final measurement follow-up.",[4,8,9,14,15,16],[1,2,3,4]],
+      "M":["AGREE","Both recommend fit confirmation and equivalent price/footprint comparison.",[14,15,16],[2,3,4,5]],
+      "W":["PARTIAL","A notes supplier capability and missing measurement follow-through; B emphasizes early quote scope.",[8,14,15,16],[0,2,3,5]],
+      "POS":["AGREE","Both note customer photos, scope clarification, and direct competitor explanation.",[1,2,5,9,12,14,15],[1,2,3,4]],
+      "NEG":["AGREE","Both identify delayed inputs and preference for smaller/cheaper alternative.",[1,2,3,14,15,16],[1,2,4,5]]
+    },"flags":[]},
+    {"deal_id":"18929","ratings":{
+      "P":["AGREE","Both center procurement comparison after a refreshed quote and leave decision unknown.",[8,10,13],[2,3,4]],
+      "C":["AGREE","Both classify controllability as mixed.",[10],[3]],
+      "T":["PARTIAL","Both select procurement comparison; A contrasts it with earlier manager claims of confirmation.",[2,4,8,10,13],[1,2,3,4]],
+      "M":["AGREE","Both recommend clarifying comparison criteria and setting a direct review date.",[8,10,13],[2,3,4]],
+      "W":["DISAGREE","A flags unverified status and missing follow-up; B lists no weakness.",[2,5,8,10],[]],
+      "POS":["DISAGREE","A cites buyer forwarding/direct reply; B relies on a manager worklog as a customer signal.",[8,10],[1,2,3]],
+      "NEG":["PARTIAL","Both identify unsettled multi-offer review; A also notes limited direct channel and prior status conflict.",[8,10,13],[2,3,4]]
+    },"flags":["B positive_customer_signal cites manager-log status at e1, not direct customer speech; A explicitly separates the two."]},
+    {"deal_id":"19007","ratings":{
+      "P":["AGREE","Both center the shift from standalone equipment to an existing-line retrofit awaiting assessment.",[3,5,7,8],[3,5,8,9]],
+      "C":["AGREE","Both assign mixed control.",[5],[5]],
+      "T":["AGREE","Both select retrofit clarification and later video/production handoff.",[2,5,7,8],[2,5,8,9]],
+      "M":["PARTIAL","Both recommend feasibility follow-up; A leaves material influence unknown, B says yes.",[5,7,8],[5,7,9]],
+      "W":["PARTIAL","A identifies no clear weakness; B flags a qualified scoping gap that the view cannot resolve.",[3,5],[3,5]],
+      "POS":["AGREE","Both note customer technical materials, configuration clarification, and line video.",[2,5,7],[2,5,8]],
+      "NEG":["AGREE","Both note initial configuration mismatch and delayed video before review.",[5,6,7],[5,6,7]]
+    },"flags":["Canonical B is the fresh replacement; excluded original B was not read."]},
+    {"deal_id":"5017","ratings":{
+      "P":["AGREE","Both describe factory testing and contracting/payment progression with payment unconfirmed.",[2,3,5,6,7,10,11,12],[1,2,3,4,5,6,8,9]],
+      "C":["AGREE","Both primary explanations assign mixed control.",[2],[1]],
+      "T":["PARTIAL","Both select factory test/configuration and 70% payment intent; A adds director/contract timing.",[1,2,5,6,7,8,10,12],[1,2,3,4,8,9]],
+      "M":["PARTIAL","A says a recap/follow-up could help; B leaves influence unknown after payment intent.",[7,9,12],[7,8,9]],
+      "W":["PARTIAL","A flags premature production planning; B flags late proof materials after a director request.",[7,9],[6,7]],
+      "POS":["AGREE","Both note factory-test engagement, configuration details, and payment intent.",[1,2,3,5,6,7,10,12],[1,2,4,5,7,8,9]],
+      "NEG":["AGREE","Neither audit records a negative customer signal.",[],[]]
+    },"flags":[]},
+    {"deal_id":"5971","ratings":{
+      "P":["PARTIAL","Both end at delivery/acceptance coordination; B adds recovery from another supplier and spec handoff.",[5,6,7,8,9,10],[0,2,3,4]],
+      "C":["AGREE","Both assign mixed control.",[8,9,10],[2,3,4]],
+      "T":["PARTIAL","Both select urgent delivery and alternate acceptance; A emphasizes signed-contract/legal obstacle.",[5,6,7,8,9,10],[0,1,3,4]],
+      "M":["PARTIAL","A leaves material influence unknown; B proposes earlier specification and delivery planning.",[6,8,9,10],[1,2,3,4]],
+      "W":["PARTIAL","A records none; B identifies a dimension handoff gap with the lessor.",[],[1,2]],
+      "POS":["AGREE","Both note active customer/leasing coordination and expedited shipment.",[0,5,6,7,8,10],[0,3,4]],
+      "NEG":["DISAGREE","A records no negative signal; B highlights questionnaire/time pressure and dimension handoff.",[],[1,2]]
+    },"flags":["A run had prior source-preprocessing exposure; interpret this pair cautiously."]},
+    {"deal_id":"6135","ratings":{
+      "P":["PARTIAL","Both describe technical qualification; A ends at acceptance/site readiness, B follows later contract/payment events.",[2,5,7],[2,3,4,5]],
+      "C":["AGREE","Both classify control as mixed.",[2,7],[2,5]],
+      "T":["PARTIAL","A selects configuration/acceptance; B selects sample delay, feed option, and payment.",[2,5,7],[2,3,5]],
+      "M":["PARTIAL","Both propose scope tracking; A focuses acceptance/warranty, B payment/build authorization.",[2,5,7],[2,3,4,5]],
+      "W":["DISAGREE","A records none; B calls prolonged discovery a manager weakness.",[],[2,3,4]],
+      "POS":["PARTIAL","Both note technical engagement; A adds carousel and labeling specifics, B later contract steps.",[1,4,5,6],[1,3,5]],
+      "NEG":["PARTIAL","Both identify missing samples; A adds acceptance/site readiness, B payment delay.",[2,7],[2,5]]
+    },"flags":["A run had prior source-preprocessing exposure; A and B select materially different late events."]},
+    {"deal_id":"6885","ratings":{
+      "P":["PARTIAL","Both cover technical qualification through contracting; the final same-event paraphrase differs on payment versus director contact.",[1,5,6,7,9,11,12,13],[1,3,5,8,9,10]],
+      "C":["AGREE","Both classify control as mixed.",[5],[1]],
+      "T":["PARTIAL","A includes delivery terms and expected payment; B ends on inability to reach the director.",[1,5,6,7,9,11,13],[2,3,5,7,8,10]],
+      "M":["PARTIAL","A suggests technical/contract and payment steps; B leaves influence unknown at the director delay.",[5,9,10,12,13],[4,8,9,10]],
+      "W":["DISAGREE","A identifies technical/document/delivery weaknesses; B lists none.",[1,2,9,10],[]],
+      "POS":["PARTIAL","Both note proposal/technical review and signed documents; A includes payment arrangement.",[1,7,10,11,12],[2,5,7,8]],
+      "NEG":["PARTIAL","Both note an unresolved final step but describe the last call differently.",[9,10,12,13],[9,10]]
+    },"flags":["A:e13 and B:e10 refer to event_id 533935 on 2026-02-20; their paraphrases conflict (payment order expected versus unable to reach director)."]},
+    {"deal_id":"6983","ratings":{
+      "P":["AGREE","Both center capacity/scope rework, staged payment, and unconfirmed production release.",[2,4,5,8,10,11,13],[3,4,7,8,9,10]],
+      "C":["AGREE","Both assign mixed control.",[2,8,13],[3,7,10]],
+      "T":["PARTIAL","Both include capacity revision, contract, tranches, and coder; A adds interim payments.",[2,4,5,7,8,11,13],[2,4,5,7,10]],
+      "M":["PARTIAL","Both recommend scope/milestone tracking; A says influence is material, B leaves it unknown.",[2,8,10,11,12,13],[7,8,10]],
+      "W":["PARTIAL","Both identify late coder scope; A adds throughput mismatch and ambiguous start threshold.",[1,2,10,11,12,13],[7,8,9,10]],
+      "POS":["AGREE","Both note scope revision, signed paperwork, and engagement with tranche payments.",[2,4,5,8,10,11,13],[4,5,7,8,10]],
+      "NEG":["PARTIAL","Both cite financing delay; A also notes throughput rework and unsigned coder addendum.",[2,5,8,10,11,12,13],[7,8,9,10]]
+    },"flags":[]},
+    {"deal_id":"7191","ratings":{
+      "P":["AGREE","Both describe phased scope reaching signed documents while invoice payment remains open.",[1,2,6,9,10,12,14],[3,5,7,8,9,10,11]],
+      "C":["AGREE","Both classify control as mixed.",[2,6,14],[6,8,11]],
+      "T":["PARTIAL","Both include scope/document follow-up; A stresses phasing, B video and cap-feed gap.",[1,2,6,12,13,14],[3,5,7,10,11]],
+      "M":["PARTIAL","Both suggest scope/document coordination; A says material influence possible, B leaves it null.",[6,7,12,13],[6,9,10,11]],
+      "W":["PARTIAL","Both flag missing cap hopper; A also notes questionnaire clarity and EDO access.",[6,7,12,13],[6,7]],
+      "POS":["AGREE","Both note technical information, factory engagement, and signed documents.",[1,2,4,6,9,10,14],[1,3,5,10]],
+      "NEG":["PARTIAL","A stresses phased scope and document review; B sample/travel/EDO delays.",[6,12,13,14],[8,9,10,11]]
+    },"flags":[]},
+    {"deal_id":"7243","ratings":{
+      "P":["AGREE","Both describe extended technical/internal review with budget and timing unresolved.",[3,7,8,10,11],[5,7,8,9,10,11]],
+      "C":["AGREE","Both assign mixed control.",[3,8,10],[5,8,9]],
+      "T":["PARTIAL","Both select internal review delay; A highlights CEO/budget shifts, B earlier configuration turns.",[3,7,8,10],[2,5,7,9,11]],
+      "M":["PARTIAL","Both suggest consolidated technical needs and named review steps; materiality differs.",[8,10,11],[9,10,11]],
+      "W":["AGREE","Both identify late technical information/specification gaps as the strongest weakness.",[8,10],[9,10,11]],
+      "POS":["AGREE","Both note customer data, approval discussion, and technical engagement.",[2,3,4,8,10,11],[1,4,5,8,9]],
+      "NEG":["PARTIAL","Both note repeated internal delay; A adds legal/budget/concurrent purchase constraints.",[7,8,9,10],[7,8,9]]
+    },"flags":[]},
+    {"deal_id":"7601","ratings":{
+      "P":["AGREE","Both describe broad universal-line scoping followed by a seasonal/regional pause.",[3,6,8,10,11,12],[1,2,3,6,8,10]],
+      "C":["PARTIAL","A labels control mixed; B classifies the terminal pause as external.",[12],[10]],
+      "T":["PARTIAL","Both select format narrowing and external pause; other technical/repeat-project turns differ.",[3,6,8,10,12],[1,2,6,8,10]],
+      "M":["PARTIAL","A lists several review/scope interventions; B leaves influence unknown and suggests early format selection.",[3,6,8,12],[1,2,10]],
+      "W":["DISAGREE","A identifies requirement/scope weaknesses; B lists none.",[3,6,7],[]],
+      "POS":["PARTIAL","Both note technical engagement; A adds prior-line performance and arranged sample tests.",[3,4,5,6,8,12],[1,2,3,6,8]],
+      "NEG":["PARTIAL","Both identify slow internal review; A also includes the explicit all-project pause.",[3,8,10,11,12],[2,5,9,10]]
+    },"flags":[]}
+  ],
+  "limitations": [
+    "A auditors for 5971, 6135, and 18485 previously handled source preprocessing; interpret those comparisons cautiously.",
+    "B for 19007 is the fresh replacement named by the freeze; the excluded original was not read.",
+    "This is semantic reproducibility across frozen audits, not source truth, causal validation, predictive validation, or outcome analysis.",
+    "No manifest, raw timelines, prior research outputs, or outcome labels were accessed."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "deal_id": "18873",
+  "deal_summary": "The seller first waited for product photos and exact label placement, then the customer narrowed the task to vacuum-packed product, received a quote, and said a smaller, cheaper alternative fit better (evidence 0, 1, 2, 3, 4, 5).",
+  "customer_need": {
+    "summary": "A manager log describes automating labeling on vacuum-packed meat products with an intended October installation; direct messages later clarify top-applied labels on vacuum packs (evidence 0, 2, 3).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller requested photos and measurements needed to check technical fit; the customer delayed while handling a production inspection (evidence 0, 1).",
+    "middle": "The customer sent photos and clarified the label placement, then narrowed the project to vacuum packaging only (evidence 2, 3).",
+    "late": "The seller sent a quote; the customer said another smaller, cheaper option fit better and the seller asked for measurements to compare the configurations (evidence 4, 5)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer eventually sent product photos and clarified which product format to pursue (evidence 2, 3).",
+      "The customer reviewed the proposal and directly explained the competing option (evidence 4)."
+    ],
+    "negative_signals": [
+      "Required photos and measurements arrived after several follow-ups, delaying technical assessment (evidence 1, 2).",
+      "The customer preferred a smaller and cheaper alternative (evidence 4)."
+    ],
+    "initiative": "The customer sent photos, clarified that only vacuum packaging remained in scope, and compared the proposal to another option (evidence 2, 3, 4).",
+    "decision_process": "The visible decision was based on technical fit and comparative price; no final selection is recorded (evidence 4, 5)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller explained why photos and label dimensions were needed and followed up through the customer's production inspection (evidence 1, 2).",
+      "The seller narrowed the scope after the customer clarified vacuum-only labeling and requested dimensions for a fair comparison (evidence 3, 5)."
+    ],
+    "weak_actions": [
+      "The timeline shows quote development before final placement and exact packaging details were settled, leaving rework after the proposal (evidence 0, 2, 3, 5)."
+    ],
+    "follow_up_quality": "The seller kept contact and obtained the missing information, but channel and specification gaps extended qualification (evidence 1, 2, 5).",
+    "next_step_control": "The customer had not sent the measurements needed for the revised comparison by the final visible message (evidence 5)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-19T09:17:53+03:00",
+      "description": "The customer sent photos after several missed target dates and a production inspection (evidence 1, 2).",
+      "importance": "medium",
+      "evidence_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-09-04T16:08:51+03:00",
+      "description": "The customer clarified the scope as vacuum packaging only (evidence 3).",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-09-11T09:52:43+03:00",
+      "description": "The customer said a smaller and cheaper alternative fit better (evidence 4).",
+      "importance": "high",
+      "evidence_indices": [
+        4
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "technical fit and price comparison",
+    "explanation": "The project depended on exact label placement and packaging details, then on a competitive size/price comparison. The customer narrowed the application but preferred another smaller, cheaper option; the requested dimensions for a revised comparison were still outstanding at the end (evidence 2, 3, 4, 5).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "A manager log says an outside manufacturer could not support the initially discussed application; this is a manager-side claim (evidence 0).",
+    "The customer's production inspection affected the timing of information delivery (evidence 1, 2)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Confirm label location and exact package dimensions before asking production for a final quote (evidence 2, 3, 5).",
+      "Compare the competitor option using equivalent scope, footprint, and performance (evidence 4, 5)."
+    ],
+    "limits": [
+      "A manager log records that a third-party manufacturer declined the first proposed solution (evidence 0).",
+      "The customer controlled access to the product samples and comparison measurements (evidence 1, 5)."
+    ]
+  },
+  "uncertainties": [
+    "The initial equipment requirements and third-party manufacturer's response are partly represented by manager worklogs (evidence 0).",
+    "The customer said the smaller, cheaper option fit better, but no final selection or later response to the measurement request is shown (evidence 4, 5)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes a labeling project for vacuum-packed products and an intended October installation.",
+      "timestamp": "2026-08-13T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2996895"
+    },
+    {
+      "source_line": 14,
+      "paraphrase": "Customer says the photos are being sent after the seller asks again for product and label information.",
+      "timestamp": "2026-08-19T09:17:53+03:00",
+      "event_type": "call_transcript",
+      "event_id": "648459"
+    },
+    {
+      "source_line": 46,
+      "paraphrase": "Customer voice message explains that the products are vacuum-packed and the labels are on top.",
+      "timestamp": "2026-08-28T09:29:23+03:00",
+      "event_type": "message",
+      "event_id": "max_3043101_a2da0c5db964"
+    },
+    {
+      "source_line": 58,
+      "paraphrase": "Customer says to proceed only with the vacuum-packaging format.",
+      "timestamp": "2026-09-04T16:08:51+03:00",
+      "event_type": "message",
+      "event_id": "3071873"
+    },
+    {
+      "source_line": 80,
+      "paraphrase": "Customer says another, smaller and cheaper application fits better.",
+      "timestamp": "2026-09-11T09:52:43+03:00",
+      "event_type": "call_transcript",
+      "event_id": "667437"
+    },
+    {
+      "source_line": 95,
+      "paraphrase": "Seller requests exact dimensions to compare the customer's alternative on equivalent scope.",
+      "timestamp": "2026-09-18T09:10:52+03:00",
+      "event_type": "message",
+      "event_id": "3119853"
+    }
+  ]
+}

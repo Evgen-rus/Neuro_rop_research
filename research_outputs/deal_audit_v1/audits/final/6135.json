@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "blind_to_outcome": true,
+  "deal_id": "6135",
+  "deal_summary": "The project moved through technical and price choices for a filling line; by late December one line was described as nearing production readiness, while acceptance, warranty timing, and related scope questions were still being discussed (evidence: 0-7).",
+  "customer_need": {
+    "summary": "The manager worklog records a filling and labeling line for a paint-like product in PET containers; customer calls confirm discussion of multiple container formats, changeover, filling layout, and labeling (evidence: 0-1,5-6). Detailed baseline specifications are manager-recorded rather than independently repeated by the customer.",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "A manager note records the initial line requirements; in a later call the parties compared one versus multiple container setups, changeover time, and cost (evidence: 0-1).",
+    "middle": "The customer said samples and marketing inputs were not yet ready, then discussed the added feed-hopper cost and the need to consult an engineer; a lower-cost linear option was also reviewed (evidence: 2-4).",
+    "late": "The customer said the carousel layout was preferred and clarified marking needs; on Dec 24 the manager described one line as nearly ready, while the customer raised site readiness, acceptance, and warranty-start questions (evidence: 5-7). A later seller-side call reports a 70% advance and component ordering; this is not independent bank confirmation (source line 99)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer engaged in detailed configuration and maintenance discussions and stated a preference for the carousel arrangement (evidence: 1,4-5).",
+      "The customer clarified that marking was needed on the bucket and discussed possible future integration (evidence: 6)."
+    ],
+    "negative_signals": [
+      "On Nov 11 the customer said sample and marketing inputs were not yet available, delaying final technical definition (evidence: 2)."
+    ],
+    "initiative": "The customer discussed packaging and changeover alternatives, said it would consult its chief engineer, selected the carousel direction, and raised practical acceptance and warranty questions (evidence: 1,3,5,7).",
+    "decision_process": "The call record refers to marketing and engineering input on requirements; later discussion involved a director, customer colleagues, and legal review around inspection and warranty timing (evidence: 2-3,5,7)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "Presented alternative configurations and cost paths, followed up on technical requirements, and shared a production-readiness estimate for one line (evidence: 1,4,7)."
+    ],
+    "weak_actions": [],
+    "follow_up_quality": "Technical and commercial questions were revisited across the period; at the late stage, acceptance and warranty-start concerns still needed clarification (evidence: 3-7).",
+    "next_step_control": "The carousel direction and marking scope were clearer, but customer sample/design inputs for related scope and the acceptance, warranty, and site-readiness plan remained open (evidence: 2,5-7)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2025-11-11",
+      "description": "The customer reported that sample and marketing information was not yet ready, leaving the project in a theoretical scoping phase.",
+      "importance": "medium",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2025-12-16",
+      "description": "The customer stated a preference to retain the carousel layout while continuing to consider feed and package-handling details.",
+      "importance": "high",
+      "evidence_indices": [
+        5
+      ]
+    },
+    {
+      "timestamp": "2025-12-24",
+      "description": "One line was described as nearly ready, while the customer asked about acceptance timing, site readiness, and when warranty would begin.",
+      "importance": "high",
+      "evidence_indices": [
+        7
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "technical_scope_convergence_with_implementation_dependencies",
+    "explanation": "The visible record shows gradual narrowing of the equipment configuration and substantial technical discussion. A line was later described as nearing readiness, but customer-side input, site readiness, acceptance, and warranty timing remained relevant dependencies; this does not establish the final commercial outcome (evidence: 2-7).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "secondary_factors": [
+    "Packaging samples and marketing requirements delayed early technical definition (evidence: 2).",
+    "Several related equipment scopes appear in the late call, so progress on one should not be treated as resolution of every discussed scope (evidence: 7)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Confirm the acceptance plan and warranty-start condition in writing before dispatch, and maintain a dated checklist of customer sample and design inputs for remaining scope."
+    ],
+    "limits": [
+      "Customer marketing and engineering decisions, customer site readiness, and production specifications were outside the manager's sole control (evidence: 2-3,5,7).",
+      "The view does not show whether these open points changed the eventual outcome."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2025-10-17T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2339925",
+      "source_line": 1,
+      "paraphrase": "Manager worklog records a paint-like product, PET containers, target throughput, and filling/labeling equipment requirements; detailed specifications are manager-reported."
+    },
+    {
+      "timestamp": "2025-10-24T13:50:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "495743",
+      "source_line": 15,
+      "paraphrase": "The call compared one versus multiple container formats, changeover time, and cost; the customer said the discussed changeover duration was acceptable and asked to compare cost."
+    },
+    {
+      "timestamp": "2025-11-11T15:42:23+07:00",
+      "event_type": "call_transcript",
+      "event_id": "500629",
+      "source_line": 34,
+      "paraphrase": "The customer said samples and marketing decisions were still pending and promised to provide new information when available."
+    },
+    {
+      "timestamp": "2025-11-20T17:44:01+07:00",
+      "event_type": "call_transcript",
+      "event_id": "504057",
+      "source_line": 39,
+      "paraphrase": "The parties discussed an added feed-hopper option estimated at about 1.5 million rubles; the customer said it would review the option with its chief engineer."
+    },
+    {
+      "timestamp": "2025-12-15T15:09:31+07:00",
+      "event_type": "call_transcript",
+      "event_id": "514091",
+      "source_line": 53,
+      "paraphrase": "The manager outlined price-reduction options including a linear configuration; the customer asked about cleaning and servicing the peristaltic dosing unit."
+    },
+    {
+      "timestamp": "2025-12-16T18:00:26+07:00",
+      "event_type": "call_transcript",
+      "event_id": "514837",
+      "source_line": 62,
+      "paraphrase": "The customer said the carousel configuration would be retained and continued discussing layout and how to handle potentially leaking packages."
+    },
+    {
+      "timestamp": "2025-12-17T20:39:46+07:00",
+      "event_type": "call_transcript",
+      "event_id": "515507",
+      "source_line": 66,
+      "paraphrase": "The customer clarified that the label would go on the bucket rather than its lid and asked about future integration of a marker or applicator."
+    },
+    {
+      "timestamp": "2025-12-24T14:19:52+07:00",
+      "event_type": "call_transcript",
+      "event_id": "517715",
+      "source_line": 88,
+      "paraphrase": "The manager described one line as nearly ready; the customer discussed delayed acceptance, site readiness, and concern about warranty starting before installation, while another line scope still needed preliminary design inputs."
+    },
+    {
+      "source_line": 99,
+      "paraphrase": "Seller-side call discusses a payment of more than five million, described as a 70% advance, and ordering components; this is not a bank record.",
+      "timestamp": "2025-12-29T13:58:16+03:00",
+      "event_type": "call_transcript",
+      "event_id": "518925"
+    }
+  ],
+  "uncertainties": [
+    "The previous preprocessing role gave me prior raw-timeline chronology familiarity, including awareness that lifecycle-boundary content required conservative treatment; this limits chronology blindness even though no outcome label was consulted.",
+    "The detailed opening specifications come from a manager worklog, not direct customer speech in the retained events.",
+    "The late conversation covers more than one equipment scope; progress on one should not be assumed to apply to all of them.",
+    "The reported 70% advance is seller-side speech, not a bank record.",
+    "Independent audits differed on whether the observed process gap was a manager weakness; the listed action is a possible improvement, not a proven cause.",
+    "Run A auditor previously handled source preprocessing; this deal's paired independence is limited."
+  ]
+}

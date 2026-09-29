@@ -1,0 +1,138 @@
+{
+  "deal_id": "18485",
+  "deal_summary": "A fast-turnaround equipment purchase moved from quote acceptance through added specification, legal review, and e-signature/payment processing (evidence 0, 1, 3, 5, 6).",
+  "customer_need": {
+    "summary": "The manager log describes labeling PET tubes at up to 1,000 per hour and a short desired lead time; the customer later requested a printer-marker and cartridges in the specification (evidence 0, 1).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The manager recorded a short purchase window and a 15-working-day quote; the customer engaged and asked to add a printer-marker and cartridges (evidence 0, 1).",
+    "middle": "The seller revised the specification and sent contract materials while the customer routed them for legal and funding review (evidence 1, 2, 3).",
+    "late": "The customer's lawyers approved the documents, but e-signature visibility and whether the contract itself was signed remained unclear; the customer said payment was planned for Monday (evidence 4, 5, 6)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer accepted the proposed scope and requested the added printer-marker and cartridges (evidence 1).",
+      "The customer promptly supplied a requested tax certificate and reported legal approval (evidence 4, 5)."
+    ],
+    "negative_signals": [
+      "The customer required an external fund/legal review, which delayed final document confirmation (evidence 2, 3, 6)."
+    ],
+    "initiative": "The customer reviewed and amended the specification, supplied the requested certificate, and clarified the e-signature workflow (evidence 1, 4, 5).",
+    "decision_process": "The customer involved legal review and an external fund; signature and payment were separate steps, with payment described as planned rather than received (evidence 3, 5, 6)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller revised the specification promptly after the customer's request and sent the updated contract (evidence 1).",
+      "The substitute manager continued follow-up and supplied requested tax documentation during the original manager's absence (evidence 3, 4, 5)."
+    ],
+    "weak_actions": [
+      "A manager worklog says price-increase pressure was used to accelerate contract approval; this is a seller-side claim and may have added pressure during customer review (evidence 3)."
+    ],
+    "follow_up_quality": "Follow-up remained active through a staff handoff and legal review, though contract status in the e-signature system required repeated clarification (evidence 2, 3, 6).",
+    "next_step_control": "The immediate next step was confirming the contract signature and Monday payment plan; neither is independently confirmed as completed in the last exchange (evidence 6)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-06-19T11:21:17+03:00",
+      "description": "The customer requested that a printer-marker and cartridges be included, changing the contract specification (evidence 1).",
+      "importance": "high",
+      "evidence_indices": [
+        1
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T00:00:00+03:00",
+      "description": "The customer shifted to legal and fund review, with the seller following up during a staff handoff (evidence 2, 3).",
+      "importance": "medium",
+      "evidence_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T10:07:57+03:00",
+      "description": "The customer reported legal approval and discussed e-signature and payment status (evidence 5, 6).",
+      "importance": "high",
+      "evidence_indices": [
+        5,
+        5
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "contract processing after scope expansion",
+    "explanation": "The visible process was driven by a customer-requested scope addition and an external review chain. Legal approval was reported, but signature visibility and payment remained unresolved in the final customer call (evidence 1, 3, 5, 6).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      1,
+      3,
+      5,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "The initial short lead-time requirement increased the importance of a clear review and payment schedule (evidence 0).",
+    "The e-signature operators required an invitation to be accepted before documents appeared for the customer (evidence 5)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Use a single checklist for contract, tax certificate, e-signature invitation, and payment confirmation (evidence 4, 5, 6).",
+      "Agree a decision date with the customer and legal/fund reviewers before applying urgency language (evidence 3)."
+    ],
+    "limits": [
+      "The customer's legal and fund reviews were outside the seller's direct control (evidence 2, 3).",
+      "The customer stated payment was planned for Monday, but the view ends before any receipt confirmation (evidence 6)."
+    ]
+  },
+  "uncertainties": [
+    "The short lead time and product requirements come from a manager worklog, not a full customer specification in this view (evidence 0).",
+    "The customer said the account was signed but was unsure whether the contract was; no independent e-signature status or bank receipt is shown (evidence 6)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes PET tubes, labeling requirements, and a desired purchase/production window.",
+      "timestamp": "2026-06-15T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2820563"
+    },
+    {
+      "source_line": 29,
+      "paraphrase": "Customer asks to add a printer-marker and cartridges to the supply specification.",
+      "timestamp": "2026-06-19T11:21:17+03:00",
+      "event_type": "call_transcript",
+      "event_id": "605831"
+    },
+    {
+      "source_line": 33,
+      "paraphrase": "Manager worklog says the customer would discuss the contract with lawyers and records using a possible price increase to accelerate the review.",
+      "timestamp": "2026-06-23T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2836011"
+    },
+    {
+      "source_line": 38,
+      "paraphrase": "Substitute manager asks where the customer is in the review process and explains she is covering for the original manager.",
+      "timestamp": "2026-06-23T14:20:34+03:00",
+      "event_type": "call_transcript",
+      "event_id": "607821"
+    },
+    {
+      "source_line": 47,
+      "paraphrase": "Customer reports that its lawyers approved and asks for the contract and invoice through e-signature.",
+      "timestamp": "2026-06-25T08:26:08+03:00",
+      "event_type": "email",
+      "event_id": "609213"
+    },
+    {
+      "source_line": 57,
+      "paraphrase": "Customer says the invoice appears signed but the contract may not be; customer says payment is planned for Monday.",
+      "timestamp": "2026-06-25T10:07:57+03:00",
+      "event_type": "call_transcript",
+      "event_id": "609363"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "deal_id": "6135",
+  "deal_summary": "The recorded work expands from technical qualification for a filling line into repeated solution and scope revisions, then contract and payment steps; the final payment reference is internal to the seller (evidence 0, 2, 4, 5).",
+  "customer_need": {
+    "summary": "A manager log describes a new line for a paint-like product in PET bottles at 1,000–2,000 units per hour; later records also describe a bucket-labeling scope (evidence 0, 4). This brief is not fully customer-confirmed in the view.",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The seller was qualifying a second filling-line project and exchanging product/packaging information (evidence 0, 1).",
+    "middle": "Progress depended on samples and on resolving product-washing, dosing, and automatic container-feed questions; the customer could not give a sample timeline (evidence 2, 3).",
+    "late": "The seller sent revised proposals and a contract; a seller-side call later discussed a 70% advance payment and ordering components (evidence 4, 5)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer discussed the second line and requested the proposal by email (evidence 1).",
+      "The customer raised technical questions and later engaged with contract documents (evidence 3, 4)."
+    ],
+    "negative_signals": [
+      "The customer said samples had not arrived and could not estimate when they would (evidence 2)."
+    ],
+    "initiative": "The customer participated in technical clarification and requested answers about product handling and cleaning (evidence 1, 3).",
+    "decision_process": "The view shows technical qualification followed by contract review; the late payment reference is from a seller-side call, not a customer confirmation or bank record (evidence 4, 5)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller sought production input and revised proposals as the required configurations changed (evidence 3, 4).",
+      "The seller moved the second-line discussion into contract review (evidence 4)."
+    ],
+    "weak_actions": [
+      "The project remained in technical discovery for weeks while product samples and final configuration were unresolved (evidence 2, 3, 4)."
+    ],
+    "follow_up_quality": "The seller maintained technical follow-up and sent revised proposals, while several dependencies remained open (evidence 2, 3, 4).",
+    "next_step_control": "The latest internal discussion concerns component ordering after a payment described as a 70% advance; the view does not document customer confirmation or execution (evidence 5)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2025-11-11T11:42:23+03:00",
+      "description": "The customer said product samples had not arrived and the timing was unknown, leaving the technical design unverified (evidence 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2025-11-20T13:44:01+03:00",
+      "description": "The seller priced automatic container feed and continued resolving dosing and cleaning concerns (evidence 3).",
+      "importance": "medium",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2025-12-29T13:58:16+03:00",
+      "description": "A seller-side call discussed a 70% advance payment for the line and component ordering (evidence 5).",
+      "importance": "high",
+      "evidence_indices": [
+        5
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "technical qualification followed by contract and payment processing",
+    "explanation": "The trajectory was shaped first by a technically demanding line and missing samples, then by scope revisions and contract processing. The last payment reference is internal and does not establish settlement or delivery (evidence 2, 3, 4, 5).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "secondary_factors": [
+    "A bucket-labeling proposal appears alongside the filling-line scope, so the exact bundle may have changed (evidence 4).",
+    "The view does not independently confirm the payment described in the internal call (evidence 5)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Confirm one final configuration and sample-validation plan before reopening quote and contract details (evidence 2, 3, 4).",
+      "Confirm payment and component authorization with the customer and accounting before treating the build as released (evidence 5)."
+    ],
+    "limits": [
+      "The customer did not know when product samples would be available (evidence 2).",
+      "Manufacturing feasibility and supply decisions depended on production review (evidence 3, 4)."
+    ]
+  },
+  "uncertainties": [
+    "The need and capacity specification begins in a manager worklog and is not fully corroborated by customer speech (evidence 0).",
+    "The latest payment reference is in a seller-side call; there is no bank record or customer payment confirmation in the view (evidence 5).",
+    "The view ends before the final scope, signed contract, or delivery state is independently established (evidence 4, 5)."
+  ],
+  "evidence": [
+    {
+      "source_line": 1,
+      "paraphrase": "Manager log describes a new filling line for paint-like product in PET bottles, with a target of 1,000–2,000 units per hour.",
+      "timestamp": "2025-10-17T00:00:00+03:00",
+      "event_type": "comment",
+      "event_id": "2339925"
+    },
+    {
+      "source_line": 15,
+      "paraphrase": "Seller and customer discuss the second line and the need to work through a new filling-line solution.",
+      "timestamp": "2025-10-24T09:50:48+03:00",
+      "event_type": "call_transcript",
+      "event_id": "495743"
+    },
+    {
+      "source_line": 34,
+      "paraphrase": "Customer says samples have not arrived and cannot estimate when; the project is not ready to advance on a firm sample-based specification.",
+      "timestamp": "2025-11-11T11:42:23+03:00",
+      "event_type": "call_transcript",
+      "event_id": "500629"
+    },
+    {
+      "source_line": 39,
+      "paraphrase": "Seller gives a preliminary price for an automatic container-feed solution while continuing the technical discussion.",
+      "timestamp": "2025-11-20T13:44:01+03:00",
+      "event_type": "call_transcript",
+      "event_id": "504057"
+    },
+    {
+      "source_line": 50,
+      "paraphrase": "Seller sends revised proposals for the filling line and a separate bucket-labeling option.",
+      "timestamp": "2025-12-14T14:48:12+03:00",
+      "event_type": "email",
+      "event_id": "513891"
+    },
+    {
+      "source_line": 99,
+      "paraphrase": "Seller-side call discusses a payment of more than five million, described as a 70% advance, and ordering components; this is not a bank record.",
+      "timestamp": "2025-12-29T13:58:16+03:00",
+      "event_type": "call_transcript",
+      "event_id": "518925"
+    }
+  ]
+}

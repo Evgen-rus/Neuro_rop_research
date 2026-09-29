@@ -1,0 +1,169 @@
+{
+  "deal_id": "18733",
+  "deal_summary": "The customer iteratively refined container types and technical scope, compared alternatives, then explicitly approved a purchase route and later reported payment; production or delivery completion is not shown (evidence 0, 1, 2, 3, 4, 5, 6).",
+  "customer_need": {
+    "summary": "A manager log describes labeling several glass-container formats; direct exchanges show container photos and repeated technical changes, including removal of the conical-container unit (evidence 0, 3, 4).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The customer sent initial photos and followed with additional measurements and container samples as the seller requested them (evidence 0, 1).",
+    "middle": "The customer compared a competitor, needed approval for a price increase, and revised the container scope with internal decision-makers (evidence 2, 3, 4).",
+    "late": "The customer explicitly said the purchase was approved; contract revisions and invoice processing followed, and a customer email said payment had passed (evidence 5, 6)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer supplied photos, discussed competitor equipment, and provided company/legal information (evidence 0, 1, 3).",
+      "The customer said the purchase was approved and later reported payment (evidence 5, 6)."
+    ],
+    "negative_signals": [
+      "The specification changed across container shapes and label dimensions, requiring revised technical and contract work (evidence 3, 4)."
+    ],
+    "initiative": "The customer gathered director and legal input, requested a final quote before contract/invoice, and clarified the approved scope (evidence 3, 4, 5).",
+    "decision_process": "Approval involved the customer's chairperson/director and legal reviewer; the customer later reported payment, while production and delivery are not shown (evidence 4, 5, 6)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller compared the competitor proposal and revised the equipment configuration as the customer narrowed the container scope (evidence 2, 4).",
+      "The seller worked through contract revisions and sent the final paperwork (evidence 5, 6)."
+    ],
+    "weak_actions": [
+      "The customer said the questionnaire was missing from the attachment, so the seller had to resend it (evidence 1)."
+    ],
+    "follow_up_quality": "The seller maintained frequent contact through technical review, legal changes, and payment paperwork (evidence 2, 3, 5, 6).",
+    "next_step_control": "After the customer reported payment, the seller said the project was being sent to production; no build or delivery result appears in the view (evidence 6)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-23T13:13:40+03:00",
+      "description": "The customer began supplying dimensions and samples for a multi-container configuration (evidence 0, 1).",
+      "importance": "medium",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "timestamp": "2026-08-07T10:35:53+03:00",
+      "description": "The customer requested a final price before contract and invoice, indicating internal approval was needed for the revised cost (evidence 3).",
+      "importance": "high",
+      "evidence_indices": [
+        3
+      ]
+    },
+    {
+      "timestamp": "2026-08-25T11:52:31+03:00",
+      "description": "The customer narrowed the solution after director review, including dropping the conical-container unit (evidence 4).",
+      "importance": "high",
+      "evidence_indices": [
+        4
+      ]
+    },
+    {
+      "timestamp": "2026-08-28T11:01:00+03:00",
+      "description": "The customer said the purchase was approved (evidence 5).",
+      "importance": "high",
+      "evidence_indices": [
+        5
+      ]
+    },
+    {
+      "timestamp": "2026-09-07T10:52:01+03:00",
+      "description": "A customer email reported payment had passed, followed by the seller's production handoff message (evidence 6).",
+      "importance": "high",
+      "evidence_indices": [
+        6
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "iterative scope refinement followed by customer approval",
+    "explanation": "The process required repeated container/label clarification and internal price approval before the customer confirmed the purchase direction. The customer later reported payment and the seller stated it was passing the project to production; there is no evidence of manufacturing or delivery completion here (evidence 1, 3, 4, 5, 6).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "secondary_factors": [
+    "The customer compared a competitor offer before deciding (evidence 2).",
+    "Several package shapes and sizes were in scope and changed over time (evidence 0, 4)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Use an attachment checklist for the questionnaire and confirm every container/label dimension before issuing the final quote (evidence 1, 3, 4).",
+      "Separate customer payment confirmation from bank confirmation and production release (evidence 6)."
+    ],
+    "limits": [
+      "The customer's director and legal reviewer controlled internal approval timing (evidence 4, 5).",
+      "The customer-reported payment is not a bank statement, and later production status is absent (evidence 6)."
+    ]
+  },
+  "uncertainties": [
+    "The initial need and budget are partly represented by a manager worklog rather than a full customer-authored brief (evidence 0).",
+    "The customer email says payment passed, but no bank record, production completion, or delivery confirmation appears (evidence 6).",
+    "The scope changed several times, so the exact final package should be taken from the last contract, not inferred from earlier proposals (evidence 3, 4, 5)."
+  ],
+  "evidence": [
+    {
+      "source_line": 4,
+      "paraphrase": "Customer replies with initial container information and says measurements with a ruler will follow.",
+      "timestamp": "2026-07-23T13:13:40+03:00",
+      "event_type": "email",
+      "event_id": "627981"
+    },
+    {
+      "source_line": 77,
+      "paraphrase": "Customer says the questionnaire was not attached to the email.",
+      "timestamp": "2026-08-07T06:24:24+03:00",
+      "event_type": "email",
+      "event_id": "641111"
+    },
+    {
+      "source_line": 54,
+      "paraphrase": "Seller sends the result of a comparison between the current offer and competing equipment.",
+      "timestamp": "2026-07-31T10:13:47+03:00",
+      "event_type": "email",
+      "event_id": "635189"
+    },
+    {
+      "source_line": 87,
+      "paraphrase": "Customer asks for the final quote before contract and invoice because the increase needs approval.",
+      "timestamp": "2026-08-07T10:35:53+03:00",
+      "event_type": "email",
+      "event_id": "641257"
+    },
+    {
+      "source_line": 170,
+      "paraphrase": "Customer says a director reviewed the proposal and discusses removing the conical-container unit.",
+      "timestamp": "2026-08-25T11:52:31+03:00",
+      "event_type": "call_transcript",
+      "event_id": "652825"
+    },
+    {
+      "source_line": 191,
+      "paraphrase": "Customer states that all parties approved and that they will purchase from the seller.",
+      "timestamp": "2026-08-28T11:01:00+03:00",
+      "event_type": "call_transcript",
+      "event_id": "656109"
+    },
+    {
+      "source_line": 225,
+      "paraphrase": "Customer email says payment has passed.",
+      "timestamp": "2026-09-07T10:52:01+03:00",
+      "event_type": "email",
+      "event_id": "662983"
+    },
+    {
+      "source_line": 226,
+      "paraphrase": "Seller replies that the information was received and is being passed to production.",
+      "timestamp": "2026-09-07T11:06:09+03:00",
+      "event_type": "email",
+      "event_id": "662995"
+    }
+  ]
+}

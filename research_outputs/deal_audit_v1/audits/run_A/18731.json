@@ -1,0 +1,203 @@
+{
+  "deal_id": "18731",
+  "deal_summary": "The customer explored automating filling, capping, and labeling of 5 L and 10 L canisters, then specified two prepared solutions that must not be mixed (e0, e3-e4). The seller developed a custom two-product configuration and the customer remained technically interested, but internal review by the general director and operations stakeholders took time (e5-e13). In the final direct call, the customer said the proposal was interesting but not financially approved because funds were allocated to another project, with possible reconsideration months later (e14).",
+  "customer_need": {
+    "summary": "Automate filling 5 L and 10 L canisters with screw caps and a side label; the initial manager worklog gives a 500/hour target for 5 L. The customer later specified two separate prepared liquids, buffered formalin and isopropyl alcohol, which must not be mixed. Technical details for different caps and the custom two-product configuration were clarified during the process (e0, e3-e4, e6, e8).",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "A date-only manager worklog says the customer was manually filling, wanted equipment soon enough to install within six months, and initially considered a price from 4 million acceptable (e0). The seller requested exact cap and label information; the customer waited for cap drawings and then sent dimensions (e1-e3).",
+    "middle": "The customer specified two distinct solutions in batches of about 2,000 L and said mixing was not allowed. The seller developed an updated two-product line, and manager worklogs describe further production calculations and a quote range of 6-8 million. The customer continued to discuss the technical configuration and its pump (e4-e8).",
+    "late": "The customer described a staged approval process led by the general director, followed by production and facilities review. The seller sent a one-page proposal and offered a short online engineering meeting. The final direct call says the proposal remained interesting but finance was not approved because funds went to another project; the customer estimated a later review in about three months or closer to winter (e9-e14)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer provided cap measurements and detailed the two-product requirement, including that the solutions could not be mixed (e2-e4).",
+      "The customer engaged with the revised custom proposal, asked about the pump, and described production/staffing plans if the project proceeded (e6, e8-e9).",
+      "The customer directly said the proposal remained interesting and that no technical questions were then outstanding, while explaining the funding constraint (e14)."
+    ],
+    "negative_signals": [
+      "The customer's general director did not review or decide on the proposal for several weeks, according to the customer's calls (e9-e10, e12).",
+      "The customer said the available money was allocated to another project, moving any possible review out by several months (e14)."
+    ],
+    "initiative": "The customer supplied missing package data, clarified the solution composition and separation requirement, asked detailed questions about the custom equipment, and explained its decision process and funding position (e2-e4, e8-e10, e14).",
+    "decision_process": "The customer described a staged internal review: the director first reviews the proposal, then production and facilities/utility stakeholders discuss installation requirements, followed by a broader supplier discussion. The customer said the director's availability delayed the initial review and later said funds were allocated elsewhere (e10, e12, e14)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller requested exact container/cap information and forwarded the customer's product details for technical review (e1-e4).",
+      "The seller sent a revised proposal for two separate products with a supporting line video, then discussed the pump and custom configuration with the customer (e6, e8).",
+      "The seller prepared a one-page management summary and offered a short online engineering call when director review was pending (e11)."
+    ],
+    "weak_actions": [
+      "The director's review remained the next step across repeated check-ins; the record does not show a firm director meeting date or an alternate approval route before the final budget deferral (e9-e13).",
+      "The custom quotation depended on additional supplier/production calculations. Some of that timing is described only in date-only manager worklogs, so exact elapsed time and individual responsibility are uncertain (e5, e7)."
+    ],
+    "follow_up_quality": "The seller continued follow-up, collected technical information, revised the custom offer, and provided executive-facing material. However, the sequence remained dependent on a customer-side director review that was repeatedly delayed, and no meeting with the director is recorded before the funding update (e5-e13).",
+    "next_step_control": "The seller arranged check-ins around expected internal meetings and offered a video conference, but the customer could not predict when the director would review the proposal. The last direct exchange established a possible future review window rather than an immediate next step (e10-e14)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-28T18:23:36+07:00",
+      "description": "The customer specified two prepared liquids and stated that mixing them was not allowed, requiring a separated two-product configuration.",
+      "importance": "high",
+      "evidence_indices": [3, 4]
+    },
+    {
+      "timestamp": "2026-08-05T21:21:08+07:00",
+      "description": "The seller sent an updated proposal for filling two different products; the customer continued technical review of the custom configuration.",
+      "importance": "medium",
+      "evidence_indices": [5, 6, 8]
+    },
+    {
+      "timestamp": "2026-08-13T19:06:48+07:00",
+      "description": "The customer described the required director-first review and the later production/facilities review, making internal approval timing a visible dependency.",
+      "importance": "high",
+      "evidence_indices": [9, 10, 11, 12, 13]
+    },
+    {
+      "timestamp": "2026-08-25T19:38:25+07:00",
+      "description": "The customer said finance was not approved because funds had gone to another project, and estimated a later review several months away.",
+      "importance": "high",
+      "evidence_indices": [14]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Internal budget priority and approval timing",
+    "explanation": "The seller and customer developed a technically relevant custom configuration, and the customer explicitly said the proposal remained interesting. The clearest late-stage constraint is the customer's account that the general director had not prioritized the review and that funds were ultimately allocated to another project. The final call points to a later budget window rather than a technical rejection (e5, e7, e9-e14). This describes the observed trajectory and does not predict a later decision.",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [5, 7, 9, 10, 11, 12, 13, 14]
+  },
+  "secondary_factors": [
+    "The two liquids could not be mixed, so the offer required a custom separated-product setup (e4, e6, e8).",
+    "Date-only manager worklogs describe an initial price from 4 million as acceptable and later proposals in a 6-8 million range; the customer's final direct explanation was that funds went to another project, not that it rejected a stated price (e0, e7, e14).",
+    "The customer required cap drawings and exact product composition before the custom equipment could be finalized (e1-e4)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "When director review first begins slipping, ask the customer to schedule a short technical and financial review with the director and operations stakeholders, using the one-page summary already prepared (e9-e13).",
+      "Reconfirm budget availability, approval timing, and the customer's future purchase window before continuing supplier-specific quotation work (e7, e10, e14).",
+      "Keep the two-product separation, cap sizes, pump requirements, and installation assumptions in a customer-approved specification sheet for any later review (e3-e8, e10)."
+    ],
+    "limits": [
+      "The customer said the director controlled the review timing and that funds were committed to a different project (e10, e12, e14).",
+      "Production and facilities stakeholders were expected to assess installation only after the director's initial review (e10).",
+      "The custom configuration required supplier/production input, and some status about that work appears only in manager worklogs (e5, e7)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-23T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2905047",
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time/year inferred): describes manual filling, 5 L and 10 L canisters with screw caps, a side label, a 500/hour target for 5 L, a six-month installation goal, and initial price comfort around 4 million. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-24T17:15:46+07:00",
+      "event_type": "email",
+      "event_id": "629003",
+      "source_line": 11,
+      "paraphrase": "Seller asks for the exact diameter and height of the caps for the technical calculation."
+    },
+    {
+      "timestamp": "2026-07-27T14:20:04+07:00",
+      "event_type": "call_transcript",
+      "event_id": "629783",
+      "source_line": 14,
+      "paraphrase": "Customer says it requested cap drawings from the manufacturer and is waiting for them; seller says those dimensions are the remaining information needed for the proposal."
+    },
+    {
+      "timestamp": "2026-07-28T11:43:08+07:00",
+      "event_type": "email",
+      "event_id": "630863",
+      "source_line": 17,
+      "paraphrase": "Customer supplies a 50.2 mm diameter and 21.3 mm height for the 5 L cap and an attached drawing for the 10 L cap."
+    },
+    {
+      "timestamp": "2026-07-28T18:23:36+07:00",
+      "event_type": "email",
+      "event_id": "631795",
+      "source_line": 20,
+      "paraphrase": "Customer describes two planned solutions, buffered 10% formalin and isopropyl alcohol, prepared in advance in large batches, and says they must not be mixed."
+    },
+    {
+      "timestamp": "2026-08-03T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2905047",
+      "source_line": 25,
+      "paraphrase": "Date-only manager worklog (time inferred): says the customer liked the proposal technically and on price, was collecting offers through August, and planned to decide on autumn purchasing; it also lists further dosage, label-height, and printer changes. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-05T21:21:08+07:00",
+      "event_type": "email",
+      "event_id": "639921",
+      "source_line": 33,
+      "paraphrase": "Seller sends an updated quotation for filling two different products and includes a line video."
+    },
+    {
+      "timestamp": "2026-08-07T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2905047",
+      "source_line": 44,
+      "paraphrase": "Date-only manager worklog (time inferred): reports several proposals in the 6-8 million range and says this offer was technically attractive because it would not require washing the equipment. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-08-07T17:09:27+07:00",
+      "event_type": "call_transcript",
+      "event_id": "641635",
+      "source_line": 47,
+      "paraphrase": "Customer discusses the custom two-product filling setup and asks whether the membrane pump is pneumatic or electric, citing the alcohol product; seller agrees to clarify."
+    },
+    {
+      "timestamp": "2026-08-11T17:18:08+07:00",
+      "event_type": "call_transcript",
+      "event_id": "644029",
+      "source_line": 53,
+      "paraphrase": "Customer says the director has not responded to any of the proposals, but the customer is interested and wants to plan staffing and future production."
+    },
+    {
+      "timestamp": "2026-08-13T19:06:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "645777",
+      "source_line": 60,
+      "paraphrase": "Customer explains that the director must review first; production and facilities/utility representatives would then discuss installation conditions before a broader supplier meeting. Timing depends on the director's availability."
+    },
+    {
+      "timestamp": "2026-08-14T17:51:48+07:00",
+      "event_type": "message",
+      "event_id": "2999129,2999131",
+      "source_line": 62,
+      "paraphrase": "Seller sends a one-page summary for the management meeting and offers a 15-minute engineering call for the director."
+    },
+    {
+      "timestamp": "2026-08-18T19:06:59+07:00",
+      "event_type": "call_transcript",
+      "event_id": "648205",
+      "source_line": 66,
+      "paraphrase": "Customer says the director has seen the offer but has not had time to review it or give a decision; the parties defer another check-in by about a week."
+    },
+    {
+      "timestamp": "2026-08-25T19:27:11+07:00",
+      "event_type": "message",
+      "event_id": "3033441,3033443",
+      "source_line": 69,
+      "paraphrase": "Seller asks whether the director has questions about the two-product separation, pump, or communications and offers to collect them for a video meeting."
+    },
+    {
+      "timestamp": "2026-08-25T19:38:25+07:00",
+      "event_type": "call_transcript",
+      "event_id": "653245",
+      "source_line": 71,
+      "paraphrase": "Customer says the proposal is technically interesting but was not financially approved because the money was allocated to another project; the customer estimates reconsideration in at least about three months, possibly closer to December."
+    }
+  ],
+  "uncertainties": [
+    "Initial price comfort, six-month installation goal, and intermediate proposal status are date-only manager claims rather than direct customer statements (e0, e5, e7).",
+    "The final price and equipment specification may have changed as the custom two-product design evolved; the customer's final direct explanation was that funds were redirected rather than a specific price objection (e5-e8, e14).",
+    "The manager cannot be shown to have controlled the director's review schedule or internal allocation of funds; the customer described these as internal decisions (e10, e12, e14).",
+    "The view ends before the customer's stated possible future review window, so no later decision is established (e14)."
+  ]
+}

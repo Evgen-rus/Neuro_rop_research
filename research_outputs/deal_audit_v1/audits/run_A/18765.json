@@ -1,0 +1,199 @@
+{
+  "deal_id": "18765",
+  "deal_summary": "The buyer explored bucket labeling and capping equipment, then narrowed the current scope to labeling only after seeing the detailed price. The buyer considered leasing, awaited the director's comparison of offers, and later said raw-material pressure had pushed equipment down the priority list; no final deal outcome is inferred (evidence indices 0, 5, 6, 7, 9, 10, 11, 13).",
+  "customer_need": {
+    "summary": "Equipment to label 5 kg and 14 kg buckets, with capping initially considered. The date-only manager note describes two wraparound labels and about 200 units/hour for 5 kg; the buyer's direct call later says the present need is labeling only, with capping and date coding excluded for now (evidence indices 0, 1, 5, 6).",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "The buyer provided bucket and label details and asked the seller to evaluate the formats. The 5 Aug proposal price differed from the earlier preliminary figure, prompting a discussion of what was actually in scope (evidence indices 0, 1, 2, 3, 4, 5).",
+    "middle": "The buyer narrowed the scope to a labeler, gave a budget range of about 1.0–1.2 million for that item, and requested leasing calculations. The seller sent one- and three-year schedules; the buyer forwarded them to the director and waited for review (evidence indices 5, 6, 7, 8, 9).",
+    "late": "The buyer asked the seller not to call too often and said she would update when the director responded. On 2 Sep the buyer said the director was comparing other proposals and the purchase was not urgent; a 23 Sep reply said raw-material pressure had moved equipment to the back burner (evidence indices 10, 11, 12, 13)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The buyer supplied bucket/label details and confirmed that labels are attached the same way across buckets (evidence indices 1, 2).",
+      "The buyer engaged with the price and financing discussion, requested leasing calculations, and gave a clear reason and preferred cadence for further contact (evidence indices 5, 6, 7, 10)."
+    ],
+    "negative_signals": [
+      "The buyer's stated budget for the labeler was below the quoted price, and the buyer said funds were limited (evidence index 6).",
+      "The director's comparison and raw-material constraints made the purchase non-urgent; the buyer explicitly asked for less frequent calls (evidence indices 10, 11, 13)."
+    ],
+    "initiative": "The buyer supplied package data, narrowed the current scope, requested leasing options, forwarded the financing calculation to the director, and said she would contact the seller when she had an update (evidence indices 1, 2, 5, 6, 7, 10).",
+    "decision_process": "The buyer relayed the lease calculation to the director, who compared other offers; the buyer described the project as non-urgent and later reported raw-material pressure. The buyer asked to initiate the next update herself (evidence indices 8, 9, 10, 11, 13)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager gathered label and container specifications, provided a proposal/video, and discussed removing capping and date coding from the current scope (evidence indices 0, 1, 4, 5, 6).",
+      "After the buyer raised affordability, the manager arranged one- and three-year lease calculations and sent them for review (evidence indices 6, 7).",
+      "The manager later asked how the director was comparing offers and what criteria mattered, creating an opening for a like-for-like scope discussion (evidence indices 11, 12)."
+    ],
+    "weak_actions": [
+      "The buyer said the detailed proposal price differed from the previously stated preliminary price; clearly separating a preliminary estimate from the final priced configuration earlier could have reduced surprise (evidence indices 0, 5, 6).",
+      "The buyer explicitly requested less frequent calls. The later two-week check-in was within the cadence discussed, but message-based follow-up would better preserve the buyer's stated preference (evidence indices 10, 11, 12)."
+    ],
+    "follow_up_quality": "The manager responded to the affordability issue with leasing options and asked for the director's feedback. The buyer nevertheless asked not to be called often; subsequent contact should follow the agreed low-frequency or buyer-initiated cadence (evidence indices 6, 7, 8, 10, 11, 12).",
+    "next_step_control": "The buyer said she would contact the seller when the director decided; later she reported the comparison remained open and non-urgent. There was no customer-provided purchase date to control (evidence indices 10, 11, 13)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-08-05T20:00:05+07:00",
+      "description": "The buyer narrowed the current scope to labeling only, said the quoted price was too high for available funds, and asked about leasing (evidence index 6).",
+      "importance": "high",
+      "evidence_indices": [6]
+    },
+    {
+      "timestamp": "2026-08-06T17:24:34+07:00",
+      "description": "The seller sent one- and three-year leasing calculations for the labeler (evidence index 7).",
+      "importance": "medium",
+      "evidence_indices": [7]
+    },
+    {
+      "timestamp": "2026-08-19T15:25:23+07:00",
+      "description": "The buyer said the director had the leasing information, asked for fewer calls, and offered to contact the seller when there was an update (evidence index 10).",
+      "importance": "high",
+      "evidence_indices": [10]
+    },
+    {
+      "timestamp": "2026-09-02T15:12:10+07:00",
+      "description": "The buyer said the director was comparing offers and the equipment purchase was not urgent (evidence index 11).",
+      "importance": "high",
+      "evidence_indices": [11]
+    },
+    {
+      "timestamp": "2026-09-23T22:17:52+07:00",
+      "description": "A reply says raw-material constraints had pushed the equipment project to the back burner (evidence index 13).",
+      "importance": "high",
+      "evidence_indices": [13]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "budget_and_purchase_priority_constraints",
+    "explanation": "The buyer directly said the detailed price was too high relative to available funds and limited the immediate request to a labeler, then explored leasing. After the financing calculation went to the director, the organization compared other offers and described the purchase as non-urgent; the later reply cited raw-material pressure. These are visible affordability and priority constraints, not a prediction about the final result (evidence indices 5, 6, 7, 8, 10, 11, 13).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [5, 6, 7, 8, 10, 11, 13]
+  },
+  "secondary_factors": [
+    "The buyer said the detailed quote differed from the preliminary price discussed earlier, which created a price-expectation gap (evidence indices 0, 5, 6).",
+    "The original scope included capping, but the buyer later excluded capping and date coding, requiring a narrower label-only price and financing view (evidence indices 0, 5, 6).",
+    "The buyer asked that the seller reduce call frequency and said she would initiate contact when the director responded (evidence index 10)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "At quote stage, separate the labeler from optional capping/date coding and identify the full-price configuration before comparing it with the buyer's budget (evidence indices 5, 6).",
+      "Present a like-for-like comparison checklist for the director's other offers and keep the leasing schedule tied to the narrowed labeler scope (evidence indices 7, 11, 12).",
+      "Respect the buyer's request for fewer calls and use the buyer's preferred written update or agreed longer interval (evidence index 10)."
+    ],
+    "limits": [
+      "The director controlled supplier comparison and financing review; the manager could not guarantee approval or affordability (evidence indices 8, 9, 11).",
+      "The buyer cited raw-material pressure and a broader uncertain situation, which were outside the equipment manager's control (evidence indices 10, 13)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-28T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): describes 5 kg and 14 kg buckets, label formats, a 200 units/hour target for 5 kg, and an initial price expectation; these are manager claims."
+    },
+    {
+      "timestamp": "2026-07-30T17:34:56+07:00",
+      "event_type": "email",
+      "event_id": "634369",
+      "source_line": 15,
+      "paraphrase": "Buyer requests equipment for bucket labeling and capping and provides maximum/minimum label formats in the embedded email."
+    },
+    {
+      "timestamp": "2026-07-30T17:37:58+07:00",
+      "event_type": "email",
+      "event_id": "634383",
+      "source_line": 16,
+      "paraphrase": "Buyer says the labels are attached the same way on all buckets."
+    },
+    {
+      "timestamp": "2026-08-04T14:17:10+07:00",
+      "event_type": "call_transcript",
+      "event_id": "637627",
+      "source_line": 24,
+      "paraphrase": "Seller says the proposal for packaging and labeling equipment is ready; buyer asks for email delivery and agrees to discuss it the next day because she is not at work."
+    },
+    {
+      "timestamp": "2026-08-04T14:25:42+07:00",
+      "event_type": "email",
+      "event_id": "637657",
+      "source_line": 25,
+      "paraphrase": "Seller emails the commercial proposal and asks for feedback."
+    },
+    {
+      "timestamp": "2026-08-05T19:04:48+07:00",
+      "event_type": "call_transcript",
+      "event_id": "639587",
+      "source_line": 35,
+      "paraphrase": "Buyer says the proposal shows a different price from the amount previously quoted and asks to call back after she reviews it."
+    },
+    {
+      "timestamp": "2026-08-05T20:00:05+07:00",
+      "event_type": "call_transcript",
+      "event_id": "639735",
+      "source_line": 37,
+      "paraphrase": "Buyer says only a labeler is in scope for now, excluding capping and date coding; she says 2 million is too expensive, gives a 1.0–1.2 million range, and asks for leasing options."
+    },
+    {
+      "timestamp": "2026-08-06T17:24:34+07:00",
+      "event_type": "email",
+      "event_id": "640669",
+      "source_line": 39,
+      "paraphrase": "Seller sends one- and three-year lease calculations for the labeler."
+    },
+    {
+      "timestamp": "2026-08-11T19:31:40+07:00",
+      "event_type": "call_transcript",
+      "event_id": "644213",
+      "source_line": 50,
+      "paraphrase": "Buyer says the leasing calculation was sent to the director, who had not yet answered; she could not give a decision date and agreed to a Friday check-in."
+    },
+    {
+      "timestamp": "2026-08-17T20:51:52+07:00",
+      "event_type": "message",
+      "event_id": "3004041",
+      "source_line": 59,
+      "paraphrase": "Buyer says there is no information from the director yet and she will tell the seller when she has it."
+    },
+    {
+      "timestamp": "2026-08-19T15:25:23+07:00",
+      "event_type": "call_transcript",
+      "event_id": "648657",
+      "source_line": 63,
+      "paraphrase": "Buyer says the director has the leasing information, timing is hard to predict, and asks the seller not to call so often because she will contact them when she has information."
+    },
+    {
+      "timestamp": "2026-09-02T15:12:10+07:00",
+      "event_type": "call_transcript",
+      "event_id": "659747",
+      "source_line": 66,
+      "paraphrase": "Buyer says the director is comparing other proposals and the purchase is not urgent."
+    },
+    {
+      "timestamp": "2026-09-23T15:43:09+07:00",
+      "event_type": "message",
+      "event_id": "3133281",
+      "source_line": 74,
+      "paraphrase": "Seller asks what criteria currently determine the director's choice while comparing proposals."
+    },
+    {
+      "timestamp": "2026-09-23T22:17:52+07:00",
+      "event_type": "message",
+      "event_id": "3135383",
+      "source_line": 75,
+      "paraphrase": "Reply message says raw-material conditions are very strained and equipment has become a lower priority."
+    }
+  ],
+  "uncertainties": [
+    "Initial price acceptance is recorded in a date-only manager worklog, while the buyer directly says the detailed quote exceeded the earlier amount and her available budget; exact preliminary quote terms are not in this view (evidence indices 0, 5, 6).",
+    "The later reply about raw materials has unknown direction metadata, although it follows the seller's question about the director's comparison criteria; its content is reported without treating it as an independently verified cause (evidence indices 12, 13).",
+    "No final customer decision is present in the view; it records continued comparison and a reprioritization message only (evidence indices 11, 13)."
+  ]
+}
