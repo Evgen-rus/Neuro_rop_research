@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "blind_to_outcome": true,
+  "required": {
+    "deal_id": "string",
+    "deal_summary": "string",
+    "customer_need": {"summary": "string", "confidence": "high|medium|low"},
+    "deal_dynamics": {"early": "string", "middle": "string", "late": "string"},
+    "customer_behavior": {"positive_signals": ["string"], "negative_signals": ["string"], "initiative": "string", "decision_process": "string"},
+    "manager_behavior": {"strong_actions": ["string"], "weak_actions": ["string"], "follow_up_quality": "string", "next_step_control": "string"},
+    "turning_points": [{"timestamp": "string", "description": "string", "importance": "high|medium", "evidence_indices": [0]}],
+    "primary_trajectory_explanation": {"category": "string", "explanation": "string", "controllability": "manager|company|customer|external|mixed|unknown", "confidence": "high|medium|low", "evidence_indices": [0]},
+    "secondary_factors": ["string"],
+    "manager_influence": {"could_materially_improve": "boolean|null", "what_could_be_done": ["string"], "limits": ["string"]},
+    "evidence": [{"timestamp": "string", "event_type": "string", "event_id": "string|null", "source_line": 1, "paraphrase": "string"}],
+    "uncertainties": ["string"]
+  },
+  "instructions": [
+    "Do not predict or infer final WON/LOST label.",
+    "The primary explanation concerns visible trajectory, not a claimed closing cause.",
+    "Every substantive claim must be supported by indexed evidence or marked uncertain.",
+    "Worklog statements are manager claims unless corroborated by customer-sourced events.",
+    "Use an empty array for absent evidence and null for indeterminate manager influence."
+  ]
+}

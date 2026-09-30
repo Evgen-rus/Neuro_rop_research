@@ -1,0 +1,1263 @@
+{
+  "version": "2.0",
+  "deals": [
+    {
+      "deal_id": "5017",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "60d04ce617804443b5411cd7d541a752e4a503ad24fe2fa64774fef31756f77a",
+          "v2": "60d04ce617804443b5411cd7d541a752e4a503ad24fe2fa64774fef31756f77a"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "1574b9d23f145f0db644e0bffd7836a91c1d9b9fe3948994aea7ce2cb896f857",
+          "v2": "1574b9d23f145f0db644e0bffd7836a91c1d9b9fe3948994aea7ce2cb896f857"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2025-08-28T17:32:33+03:00",
+        "events": 129,
+        "calls": 23,
+        "transcripts_linked": 12,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 156
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 23,
+        "calls_with_measured_audio": 22,
+        "calls_lt_36": 10,
+        "eligible_calls_ge_36": 12,
+        "eligible_calls_with_transcript": 12,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 1,
+        "calls_unknown_duration": 1,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 22,
+          "no_files_check_expired": 1
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "5971",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "3ee4120bc65ff344ce66f926b76e6fca6e6455fb5b50e1e22a0d808e04e26696",
+          "v2": "3ee4120bc65ff344ce66f926b76e6fca6e6455fb5b50e1e22a0d808e04e26696"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "38e16800f13b64adf036d24fe0d916db1e66e16f19ecc1088dcd50cc29881f4d",
+          "v2": "38e16800f13b64adf036d24fe0d916db1e66e16f19ecc1088dcd50cc29881f4d"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2025-10-21T15:19:52+03:00",
+        "events": 102,
+        "calls": 27,
+        "transcripts_linked": 17,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 107
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 27,
+        "calls_with_measured_audio": 23,
+        "calls_lt_36": 6,
+        "eligible_calls_ge_36": 17,
+        "eligible_calls_with_transcript": 17,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 4,
+        "calls_unknown_duration": 4,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 23,
+          "no_files_check_expired": 4
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "6135",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "326240aac91abd2634f29b79e6526cd966b0d9d1356207f471b67bc1e3e9fed3",
+          "v2": "326240aac91abd2634f29b79e6526cd966b0d9d1356207f471b67bc1e3e9fed3"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "5e0180e89908c773515842c2e8ecf0bfec91ad316bd0ddf8e3a77ae6a0e4f85b",
+          "v2": "5e0180e89908c773515842c2e8ecf0bfec91ad316bd0ddf8e3a77ae6a0e4f85b"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2025-12-29T16:33:55+03:00",
+        "events": 101,
+        "calls": 23,
+        "transcripts_linked": 15,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 259,
+          "other_entity": 34
+        },
+        "terminal_stage": "C17:WON",
+        "total_calls": 23,
+        "calls_with_measured_audio": 17,
+        "calls_lt_36": 2,
+        "eligible_calls_ge_36": 15,
+        "eligible_calls_with_transcript": 15,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 6,
+        "calls_unknown_duration": 6,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 17,
+          "no_files_check_expired": 6
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "6885",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "a04971208c3a9fd2d8c7ecbf741484bfe965f880da29a3360c74fde261b39aa9",
+          "v2": "a04971208c3a9fd2d8c7ecbf741484bfe965f880da29a3360c74fde261b39aa9"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "cf4b22ea0f19b0e1ae3b07839e7b20a78125412fc360b548d999902e1c6ffd54",
+          "v2": "cf4b22ea0f19b0e1ae3b07839e7b20a78125412fc360b548d999902e1c6ffd54"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-02-24T12:23:23+03:00",
+        "events": 81,
+        "calls": 18,
+        "transcripts_linked": 13,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 43
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 18,
+        "calls_with_measured_audio": 16,
+        "calls_lt_36": 3,
+        "eligible_calls_ge_36": 13,
+        "eligible_calls_with_transcript": 13,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 2,
+        "calls_unknown_duration": 2,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 16,
+          "no_files_check_expired": 2
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "6983",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "de43736f02e54ab645cbdb9b3df6ac475ec781369336ac1282506a6945e2ad21",
+          "v2": "de43736f02e54ab645cbdb9b3df6ac475ec781369336ac1282506a6945e2ad21"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "abebd3dd150fee7fc0e81f32a9d34adcff0a5fe54a2f5d2b132c2fcffa84a3f5",
+          "v2": "abebd3dd150fee7fc0e81f32a9d34adcff0a5fe54a2f5d2b132c2fcffa84a3f5"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-05-12T15:53:47+03:00",
+        "events": 165,
+        "calls": 56,
+        "transcripts_linked": 21,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 224,
+          "other_entity": 10
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 56,
+        "calls_with_measured_audio": 21,
+        "calls_lt_36": 0,
+        "eligible_calls_ge_36": 21,
+        "eligible_calls_with_transcript": 21,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 35,
+        "calls_unknown_duration": 35,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 21,
+          "no_files_check_expired": 35
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "7191",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "6618ac9967f507fbacc101d5019866c00be729ba27c3ae334a78d4db179b9820",
+          "v2": "6618ac9967f507fbacc101d5019866c00be729ba27c3ae334a78d4db179b9820"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "c90254674bb09b6480190af17207e53edb8050c4271019a6ee4ddcb572bf267b",
+          "v2": "c90254674bb09b6480190af17207e53edb8050c4271019a6ee4ddcb572bf267b"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-04-14T10:18:50+03:00",
+        "events": 124,
+        "calls": 39,
+        "transcripts_linked": 13,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 57
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 39,
+        "calls_with_measured_audio": 20,
+        "calls_lt_36": 7,
+        "eligible_calls_ge_36": 13,
+        "eligible_calls_with_transcript": 13,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 19,
+        "calls_unknown_duration": 19,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "already_downloaded": 10,
+          "downloaded": 10,
+          "no_files_check_expired": 19
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "7243",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "5ca374fb1ea15290612928357c3ff74924c6115dedd5d0d9a997cec5ae5bd2e6",
+          "v2": "5ca374fb1ea15290612928357c3ff74924c6115dedd5d0d9a997cec5ae5bd2e6"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "4a4f985955a18d8d30c89ee9936ba3a7c3f05e7d21269e0d42b2af85c67384d9",
+          "v2": "6dd1e543dd637d1d662a8f7e4c7d87a5e75428fd79bee25310b33dcd9035106e"
+        }
+      },
+      "added": [
+        "539963",
+        "540945",
+        "542805",
+        "545651",
+        "549291",
+        "549875",
+        "552347",
+        "555531",
+        "559011",
+        "559659",
+        "568889",
+        "580097",
+        "594611",
+        "595229",
+        "599139"
+      ],
+      "updated": [
+        "581019",
+        "586025",
+        "594643",
+        "620111",
+        "637557",
+        "643619",
+        "652161",
+        "655373",
+        "656611"
+      ],
+      "unlinked": [
+        "538717"
+      ],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-09-16T09:49:01+03:00",
+        "events": 295,
+        "calls": 140,
+        "transcripts_linked": 29,
+        "transcripts_unlinked": [
+          "538717"
+        ],
+        "skipped": {
+          "outside_life": 4
+        },
+        "terminal_stage": "C15:UC_PZBQIN",
+        "total_calls": 140,
+        "calls_with_measured_audio": 39,
+        "calls_lt_36": 13,
+        "eligible_calls_ge_36": 26,
+        "eligible_calls_with_transcript": 26,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 101,
+        "calls_unknown_duration": 101,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "already_downloaded": 6,
+          "downloaded": 8,
+          "no_files_check_expired": 100,
+          "no_files_in_crm_activity": 1,
+          "not_downloaded": 1,
+          "transcribed_and_purged": 24
+        },
+        "practice_transcripts_unlinked": [
+          "538717"
+        ]
+      }
+    },
+    {
+      "deal_id": "7601",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "14ca29e86d1379af5be8384b15332caec1c8708e7709a2181a6bdad3e2e9db10",
+          "v2": "14ca29e86d1379af5be8384b15332caec1c8708e7709a2181a6bdad3e2e9db10"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "e85316953413719def93f407067ea72e0a88e4d7ffc68654c9ccc062e4fefb41",
+          "v2": "540cb86381fe7e7dacc806d99c6b3c8fb035c93b6b1d11d3930d48face10730d"
+        }
+      },
+      "added": [
+        "565905",
+        "573557",
+        "575747",
+        "576945",
+        "578347",
+        "578971",
+        "580199",
+        "581995",
+        "588225",
+        "589657",
+        "590927",
+        "593633",
+        "596397",
+        "597601",
+        "598695",
+        "599713",
+        "603931",
+        "604875"
+      ],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-19T13:54:01+03:00",
+        "events": 174,
+        "calls": 42,
+        "transcripts_linked": 24,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 242,
+          "other_entity": 6
+        },
+        "terminal_stage": "C17:LOSE",
+        "total_calls": 42,
+        "calls_with_measured_audio": 27,
+        "calls_lt_36": 3,
+        "eligible_calls_ge_36": 24,
+        "eligible_calls_with_transcript": 24,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 15,
+        "calls_unknown_duration": 15,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "already_downloaded": 9,
+          "no_files_check_expired": 15,
+          "transcribed_and_purged": 18
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18485",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "6564834537ffd43bba4e171d15aebbd3cea94daec9138d014e30d0fea52fe877",
+          "v2": "6564834537ffd43bba4e171d15aebbd3cea94daec9138d014e30d0fea52fe877"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "07892b37253e518cb62fa1277c0b48330062cf4f8971e01e4859ad8de1c5dd13",
+          "v2": "07892b37253e518cb62fa1277c0b48330062cf4f8971e01e4859ad8de1c5dd13"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-06-29T10:11:30+03:00",
+        "events": 64,
+        "calls": 12,
+        "transcripts_linked": 8,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 35
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 12,
+        "calls_with_measured_audio": 10,
+        "calls_lt_36": 2,
+        "eligible_calls_ge_36": 8,
+        "eligible_calls_with_transcript": 8,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 2,
+        "calls_unknown_duration": 2,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 10,
+          "no_files_check_expired": 2
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18615",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "6f0287053a541499f0a795aee139cd5a2b6134d098e2390818793530807941c5",
+          "v2": "6f0287053a541499f0a795aee139cd5a2b6134d098e2390818793530807941c5"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "f33a825bd3dd6b307bc99fc4b7c1e6bd4144094076fe667db7b2478065b0808c",
+          "v2": "d6a1be291509172c6e946ab8f35dc4a9fe6a99413e91a373b2cd4f446d403e48"
+        }
+      },
+      "added": [],
+      "updated": [
+        "614769",
+        "614799",
+        "615467",
+        "615809",
+        "616949",
+        "620445",
+        "623193",
+        "623799",
+        "625225",
+        "625597",
+        "626389",
+        "626885",
+        "627265",
+        "627717",
+        "628977",
+        "630255",
+        "630571",
+        "632845",
+        "634619",
+        "635569",
+        "636851",
+        "639695",
+        "642033",
+        "643193",
+        "643939",
+        "644737",
+        "645875",
+        "646505",
+        "646509",
+        "646977",
+        "647599",
+        "648027",
+        "648505",
+        "649019",
+        "649779",
+        "650405",
+        "651101",
+        "651241",
+        "652261",
+        "654023"
+      ],
+      "unlinked": [
+        "max_2955989_3aa5046bad30",
+        "max_2955991_3aa5046bad30",
+        "max_2961469_8f7d80635373",
+        "max_2961471_8f7d80635373"
+      ],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-08-31T13:45:53+03:00",
+        "events": 427,
+        "calls": 77,
+        "transcripts_linked": 45,
+        "transcripts_unlinked": [
+          "max_2913103_e8f06b59bc8b",
+          "max_2913105_e8f06b59bc8b",
+          "max_2955989_3aa5046bad30",
+          "max_2955991_3aa5046bad30",
+          "max_2961469_8f7d80635373",
+          "max_2961471_8f7d80635373"
+        ],
+        "skipped": {
+          "outside_life": 56
+        },
+        "terminal_stage": "C17:WON",
+        "total_calls": 77,
+        "calls_with_measured_audio": 51,
+        "calls_lt_36": 7,
+        "eligible_calls_ge_36": 44,
+        "eligible_calls_with_transcript": 44,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 26,
+        "calls_unknown_duration": 26,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "already_downloaded": 6,
+          "downloaded": 5,
+          "no_files_check_expired": 26,
+          "transcribed_and_purged": 40
+        },
+        "practice_transcripts_unlinked": [
+          "max_2955989_3aa5046bad30",
+          "max_2955991_3aa5046bad30",
+          "max_2961469_8f7d80635373",
+          "max_2961471_8f7d80635373"
+        ]
+      }
+    },
+    {
+      "deal_id": "18629",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "c7329d5d2070c3da88203690bcf1f61a1f24b3bcc21eaf90e7e629addb8cb70d",
+          "v2": "c7329d5d2070c3da88203690bcf1f61a1f24b3bcc21eaf90e7e629addb8cb70d"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "43b1d623c5d07336349a48b189b016fe876f56bf0a133c0510b721a1d101e866",
+          "v2": "7912852847061709c775412ab106edca584696e55695454311c5a6045d1325ac"
+        }
+      },
+      "added": [
+        "643651"
+      ],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-11T09:32:47+03:00",
+        "events": 97,
+        "calls": 31,
+        "transcripts_linked": 12,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 7,
+          "other_entity": 1
+        },
+        "terminal_stage": "C15:3",
+        "total_calls": 31,
+        "calls_with_measured_audio": 15,
+        "calls_lt_36": 3,
+        "eligible_calls_ge_36": 12,
+        "eligible_calls_with_transcript": 12,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 16,
+        "calls_unknown_duration": 16,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 14,
+          "no_files_check_expired": 16,
+          "transcribed_and_purged": 1
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18635",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "bf7c61b0f61cf0c68593f4e6ea51a129e1e82758edfee97c90696d9db6fc1691",
+          "v2": "bf7c61b0f61cf0c68593f4e6ea51a129e1e82758edfee97c90696d9db6fc1691"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "7288dd15fd226fab5c620282f5b34f3d4a44b7157d70d9ead6abcecf5fd08ecc",
+          "v2": "7288dd15fd226fab5c620282f5b34f3d4a44b7157d70d9ead6abcecf5fd08ecc"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-07-24T09:58:11+03:00",
+        "events": 123,
+        "calls": 23,
+        "transcripts_linked": 12,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 53
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 23,
+        "calls_with_measured_audio": 17,
+        "calls_lt_36": 5,
+        "eligible_calls_ge_36": 12,
+        "eligible_calls_with_transcript": 12,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 6,
+        "calls_unknown_duration": 6,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 17,
+          "no_files_check_expired": 6
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18731",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "08433cceb3547471b56587d5459c600a0e2f7a9e07c906ef0ed8c2b06f923d78",
+          "v2": "08433cceb3547471b56587d5459c600a0e2f7a9e07c906ef0ed8c2b06f923d78"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "9a76b8942955b46051949b065942735b74ba52fe32a47e7a942cd2ef48988398",
+          "v2": "9a76b8942955b46051949b065942735b74ba52fe32a47e7a942cd2ef48988398"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-25T15:43:48+03:00",
+        "events": 71,
+        "calls": 19,
+        "transcripts_linked": 8,
+        "transcripts_unlinked": [
+          "627527"
+        ],
+        "skipped": {
+          "outside_life": 5
+        },
+        "terminal_stage": "C15:3",
+        "total_calls": 19,
+        "calls_with_measured_audio": 10,
+        "calls_lt_36": 2,
+        "eligible_calls_ge_36": 8,
+        "eligible_calls_with_transcript": 8,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 9,
+        "calls_unknown_duration": 9,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 10,
+          "no_files_check_expired": 9
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18733",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "f8be9131dddab6986e34a625d07db1a5ae8312538854c5927801334ad6e066fb",
+          "v2": "f8be9131dddab6986e34a625d07db1a5ae8312538854c5927801334ad6e066fb"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "9c7fdbb086023696a3d992b18082f6b4aff9068dc9587c07066dc2d686b7f62d",
+          "v2": "cc0616b54c7c8ec9107aa561720b265bc61d01d25f6b8548f226c02757a337f1"
+        }
+      },
+      "added": [],
+      "updated": [
+        "628905",
+        "630089",
+        "630977",
+        "631041",
+        "631197",
+        "631585",
+        "631605",
+        "632685",
+        "634079",
+        "635083",
+        "635611",
+        "636603",
+        "638085",
+        "639465",
+        "640487",
+        "640525",
+        "641193",
+        "641235",
+        "641243",
+        "641293",
+        "641427",
+        "641489",
+        "641531",
+        "643111",
+        "644673",
+        "645335",
+        "645601",
+        "645607",
+        "646407",
+        "647295",
+        "647859",
+        "648125",
+        "649669",
+        "651755",
+        "652825",
+        "654071",
+        "654147",
+        "654957",
+        "656109",
+        "656321",
+        "657453",
+        "657559",
+        "658495",
+        "659615",
+        "661003",
+        "662021"
+      ],
+      "unlinked": [
+        "627755",
+        "665805"
+      ],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-09-07T12:18:06+03:00",
+        "events": 227,
+        "calls": 85,
+        "transcripts_linked": 46,
+        "transcripts_unlinked": [
+          "627755"
+        ],
+        "skipped": {
+          "outside_life": 10
+        },
+        "terminal_stage": "C15:WON",
+        "total_calls": 85,
+        "calls_with_measured_audio": 58,
+        "calls_lt_36": 16,
+        "eligible_calls_ge_36": 42,
+        "eligible_calls_with_transcript": 42,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 27,
+        "calls_unknown_duration": 27,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "already_downloaded": 12,
+          "no_files_check_expired": 27,
+          "transcribed_and_purged": 46
+        },
+        "practice_transcripts_unlinked": [
+          "627755",
+          "665805"
+        ]
+      }
+    },
+    {
+      "deal_id": "18745",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "8481cf9bf2b7af39aff24c78a1f166cf8ed46d4c91ce30679547658db81decb6",
+          "v2": "8481cf9bf2b7af39aff24c78a1f166cf8ed46d4c91ce30679547658db81decb6"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "beae02e761d8d873b2145a376ccc67121bdb2040e5791fbae301112b33a01c04",
+          "v2": "beae02e761d8d873b2145a376ccc67121bdb2040e5791fbae301112b33a01c04"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-08-27T15:13:16+03:00",
+        "events": 123,
+        "calls": 29,
+        "transcripts_linked": 14,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 192,
+          "other_entity": 5,
+          "contact_ambiguous": 3
+        },
+        "terminal_stage": "C17:WON",
+        "total_calls": 29,
+        "calls_with_measured_audio": 19,
+        "calls_lt_36": 7,
+        "eligible_calls_ge_36": 12,
+        "eligible_calls_with_transcript": 12,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 10,
+        "calls_unknown_duration": 10,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 19,
+          "no_files_check_expired": 10
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18747",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "a8371f24d595c72ceebd2cbc7e5530bde6e0103133a0a2910b649b4db8df774a",
+          "v2": "a8371f24d595c72ceebd2cbc7e5530bde6e0103133a0a2910b649b4db8df774a"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "d747d0f8f210488d4b19ea4432b986bf2a6edf112a24d80d90f9930b8d967d11",
+          "v2": "d747d0f8f210488d4b19ea4432b986bf2a6edf112a24d80d90f9930b8d967d11"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-09-03T15:15:44+03:00",
+        "events": 101,
+        "calls": 38,
+        "transcripts_linked": 19,
+        "transcripts_unlinked": [
+          "629609",
+          "629619"
+        ],
+        "skipped": {
+          "outside_life": 6
+        },
+        "terminal_stage": "C15:UC_PZBQIN",
+        "total_calls": 38,
+        "calls_with_measured_audio": 28,
+        "calls_lt_36": 14,
+        "eligible_calls_ge_36": 14,
+        "eligible_calls_with_transcript": 14,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 10,
+        "calls_unknown_duration": 10,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 28,
+          "no_files_check_expired": 10
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18755",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "c74ccc9e0c4dc791d23d15330d7535e21bcc67063ad9a52b5e69620b578aedf7",
+          "v2": "c74ccc9e0c4dc791d23d15330d7535e21bcc67063ad9a52b5e69620b578aedf7"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "223cf2a1466ef12dfa4864cba884f84e4057e0c1c526f863c47cc169d7ade1ad",
+          "v2": "d9a5a6ea2332f9489f5e8f6c358907ecc0a702feb7d54f3643e4cc36c0677737"
+        }
+      },
+      "added": [
+        "635353",
+        "644657"
+      ],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-12T11:38:17+03:00",
+        "events": 53,
+        "calls": 10,
+        "transcripts_linked": 5,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 5
+        },
+        "terminal_stage": "C15:1",
+        "total_calls": 10,
+        "calls_with_measured_audio": 7,
+        "calls_lt_36": 4,
+        "eligible_calls_ge_36": 3,
+        "eligible_calls_with_transcript": 3,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 3,
+        "calls_unknown_duration": 3,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 5,
+          "no_files_check_expired": 3,
+          "transcribed_and_purged": 2
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18765",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "af033cf488ca5b6573d4e4d318ac3bf39a6ca2131b4d25d0a462d1ef2ea035ca",
+          "v2": "af033cf488ca5b6573d4e4d318ac3bf39a6ca2131b4d25d0a462d1ef2ea035ca"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "68e40380a07750ca6d00f425acec9153600e2d2f7bdb3803889e57c27c872589",
+          "v2": "68e40380a07750ca6d00f425acec9153600e2d2f7bdb3803889e57c27c872589"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-09-24T09:30:44+03:00",
+        "events": 77,
+        "calls": 23,
+        "transcripts_linked": 9,
+        "transcripts_unlinked": [
+          "631397"
+        ],
+        "skipped": {
+          "outside_life": 5
+        },
+        "terminal_stage": "C15:3",
+        "total_calls": 23,
+        "calls_with_measured_audio": 12,
+        "calls_lt_36": 4,
+        "eligible_calls_ge_36": 8,
+        "eligible_calls_with_transcript": 8,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 11,
+        "calls_unknown_duration": 11,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 12,
+          "no_files_check_expired": 11
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18773",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "9d421c13f17e326a57f37af01b27b168323d5fd805c8d1c173396c0eed503b63",
+          "v2": "9d421c13f17e326a57f37af01b27b168323d5fd805c8d1c173396c0eed503b63"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "3ebb805edbb19bdff2d8803c8cfe47aaba7a1b1bacc0acc3b97d8d874736668f",
+          "v2": "3ebb805edbb19bdff2d8803c8cfe47aaba7a1b1bacc0acc3b97d8d874736668f"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "WON",
+        "closed_at": "2026-09-07T17:08:04+03:00",
+        "events": 111,
+        "calls": 32,
+        "transcripts_linked": 18,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 141
+        },
+        "terminal_stage": "C17:WON",
+        "total_calls": 32,
+        "calls_with_measured_audio": 19,
+        "calls_lt_36": 2,
+        "eligible_calls_ge_36": 17,
+        "eligible_calls_with_transcript": 17,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 13,
+        "calls_unknown_duration": 13,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 19,
+          "no_files_check_expired": 13
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18775",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "b64998c4163b31d91300a1fbad8ce58cf3c359358a6c3379c2ab73f265a4e00c",
+          "v2": "b64998c4163b31d91300a1fbad8ce58cf3c359358a6c3379c2ab73f265a4e00c"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "f098d2f4ac30c1bcd71370fab23e4510d8a463e07773f94551cea84a6850298c",
+          "v2": "f098d2f4ac30c1bcd71370fab23e4510d8a463e07773f94551cea84a6850298c"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-21T10:10:41+03:00",
+        "events": 60,
+        "calls": 21,
+        "transcripts_linked": 6,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 11
+        },
+        "terminal_stage": "C15:UC_PZBQIN",
+        "total_calls": 21,
+        "calls_with_measured_audio": 12,
+        "calls_lt_36": 8,
+        "eligible_calls_ge_36": 4,
+        "eligible_calls_with_transcript": 4,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 9,
+        "calls_unknown_duration": 9,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 12,
+          "no_files_check_expired": 9
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18873",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "35783017b9f8aba0d177cf183856d77cdc72f7fb0004c4cc97edac41f2123d2d",
+          "v2": "35783017b9f8aba0d177cf183856d77cdc72f7fb0004c4cc97edac41f2123d2d"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "cc80da7a6d074785a3b0a409cdfcd62cd7c381f808f2010d3baffdf23f6c207d",
+          "v2": "3ba24a71efe3c2f8d065cda3a7f54e5bf25db6160d0a044a26d0cfdea250dcc4"
+        }
+      },
+      "added": [
+        "649745"
+      ],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-09-22T09:20:29+03:00",
+        "events": 100,
+        "calls": 30,
+        "transcripts_linked": 10,
+        "transcripts_unlinked": [
+          "645425",
+          "645617",
+          "645629",
+          "646261",
+          "max_3043099_a2da0c5db964",
+          "max_3043101_a2da0c5db964"
+        ],
+        "skipped": {
+          "outside_life": 9
+        },
+        "terminal_stage": "C15:UC_PZBQIN",
+        "total_calls": 30,
+        "calls_with_measured_audio": 14,
+        "calls_lt_36": 8,
+        "eligible_calls_ge_36": 6,
+        "eligible_calls_with_transcript": 6,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 16,
+        "calls_unknown_duration": 16,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 13,
+          "no_files_check_expired": 16,
+          "transcribed_and_purged": 1
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "18929",
+      "changed": true,
+      "changed_fields": [
+        "clean_timeline.jsonl"
+      ],
+      "sha256": {
+        "neutral.json": {
+          "v1": "4f2197351ad0d623987d956703a658560bac88f97d9eee82558681001f441629",
+          "v2": "4f2197351ad0d623987d956703a658560bac88f97d9eee82558681001f441629"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "7821d89f5ae3476105028c73414732b6e345621948e4bd80097de93ef59ddb07",
+          "v2": "95efaa615631c61883063b58681c25934d6ae25fcf5b76be397fa413ba975d47"
+        }
+      },
+      "added": [],
+      "updated": [
+        "653963"
+      ],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-08-31T13:41:40+03:00",
+        "events": 31,
+        "calls": 2,
+        "transcripts_linked": 1,
+        "transcripts_unlinked": [],
+        "skipped": {
+          "outside_life": 97,
+          "other_entity": 5
+        },
+        "terminal_stage": "C17:LOSE",
+        "total_calls": 2,
+        "calls_with_measured_audio": 1,
+        "calls_lt_36": 0,
+        "eligible_calls_ge_36": 1,
+        "eligible_calls_with_transcript": 1,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 1,
+        "calls_unknown_duration": 1,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "no_files_in_crm_activity": 1,
+          "transcribed_and_purged": 1
+        },
+        "practice_transcripts_unlinked": []
+      }
+    },
+    {
+      "deal_id": "19007",
+      "changed": false,
+      "changed_fields": [],
+      "sha256": {
+        "neutral.json": {
+          "v1": "20da7a94603e8d91c7aa0dbced852c5edaaa5a71a8255e1c35f743b0253df312",
+          "v2": "20da7a94603e8d91c7aa0dbced852c5edaaa5a71a8255e1c35f743b0253df312"
+        },
+        "clean_timeline.jsonl": {
+          "v1": "50fb0bf6816048a578103bb73b27d36dc8d0f2f9e9268338e619ba865049292a",
+          "v2": "50fb0bf6816048a578103bb73b27d36dc8d0f2f9e9268338e619ba865049292a"
+        }
+      },
+      "added": [],
+      "updated": [],
+      "unlinked": [],
+      "build_quality": {
+        "outcome": "LOST",
+        "closed_at": "2026-09-21T15:37:30+03:00",
+        "events": 33,
+        "calls": 6,
+        "transcripts_linked": 5,
+        "transcripts_unlinked": [
+          "657345",
+          "661259",
+          "661585",
+          "663107"
+        ],
+        "skipped": {
+          "outside_life": 12
+        },
+        "terminal_stage": "C15:5",
+        "total_calls": 6,
+        "calls_with_measured_audio": 5,
+        "calls_lt_36": 0,
+        "eligible_calls_ge_36": 5,
+        "eligible_calls_with_transcript": 5,
+        "eligible_calls_without_transcript": 0,
+        "calls_audio_unavailable": 1,
+        "calls_unknown_duration": 1,
+        "calls_unknown_audio_availability": 0,
+        "audio_status_counts": {
+          "downloaded": 5,
+          "no_files_check_expired": 1
+        },
+        "practice_transcripts_unlinked": []
+      }
+    }
+  ],
+  "changed_deal_ids": [
+    "7243",
+    "7601",
+    "18615",
+    "18629",
+    "18733",
+    "18755",
+    "18873",
+    "18929"
+  ],
+  "changed_outcome_blind_view_ids": [
+    "7243",
+    "7601",
+    "18615",
+    "18733",
+    "18755",
+    "18873",
+    "18929"
+  ]
+}

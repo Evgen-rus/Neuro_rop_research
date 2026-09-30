@@ -1,0 +1,278 @@
+{
+  "token_method": "ceil(UTF-8 content bytes / 4), matching the audit-view size proxy; v1 summary tokenizer implementation was not present, so token totals are not directly comparable across versions.",
+  "deals": [
+    {
+      "deal_id": "5017",
+      "outcome": "WON",
+      "tokens": 11189,
+      "transcript": 8301,
+      "message": 1244,
+      "email": 866,
+      "other": 778,
+      "events": 129,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "5971",
+      "outcome": "WON",
+      "tokens": 26162,
+      "transcript": 16114,
+      "message": 0,
+      "email": 8867,
+      "other": 1181,
+      "events": 102,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "6135",
+      "outcome": "WON",
+      "tokens": 31917,
+      "transcript": 25489,
+      "message": 0,
+      "email": 3709,
+      "other": 2719,
+      "events": 101,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "6885",
+      "outcome": "WON",
+      "tokens": 13031,
+      "transcript": 8228,
+      "message": 0,
+      "email": 3705,
+      "other": 1098,
+      "events": 81,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "6983",
+      "outcome": "WON",
+      "tokens": 21668,
+      "transcript": 12442,
+      "message": 0,
+      "email": 6919,
+      "other": 2307,
+      "events": 165,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "7191",
+      "outcome": "WON",
+      "tokens": 20461,
+      "transcript": 7964,
+      "message": 0,
+      "email": 11065,
+      "other": 1432,
+      "events": 124,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "7243",
+      "outcome": "LOST",
+      "tokens": 32195,
+      "transcript": 17879,
+      "message": 524,
+      "email": 9784,
+      "other": 4008,
+      "events": 295,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "7601",
+      "outcome": "LOST",
+      "tokens": 40940,
+      "transcript": 21287,
+      "message": 0,
+      "email": 15908,
+      "other": 3745,
+      "events": 174,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18485",
+      "outcome": "WON",
+      "tokens": 17970,
+      "transcript": 11313,
+      "message": 0,
+      "email": 5522,
+      "other": 1135,
+      "events": 64,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18615",
+      "outcome": "WON",
+      "tokens": 60952,
+      "transcript": 40762,
+      "message": 6838,
+      "email": 6834,
+      "other": 6518,
+      "events": 427,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18629",
+      "outcome": "LOST",
+      "tokens": 19559,
+      "transcript": 16405,
+      "message": 798,
+      "email": 1192,
+      "other": 1164,
+      "events": 97,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18635",
+      "outcome": "WON",
+      "tokens": 17117,
+      "transcript": 10370,
+      "message": 1409,
+      "email": 3851,
+      "other": 1487,
+      "events": 123,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18731",
+      "outcome": "LOST",
+      "tokens": 21107,
+      "transcript": 15284,
+      "message": 489,
+      "email": 3659,
+      "other": 1675,
+      "events": 71,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18733",
+      "outcome": "WON",
+      "tokens": 47710,
+      "transcript": 29291,
+      "message": 0,
+      "email": 14741,
+      "other": 3678,
+      "events": 227,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18745",
+      "outcome": "WON",
+      "tokens": 13517,
+      "transcript": 9233,
+      "message": 1198,
+      "email": 1108,
+      "other": 1978,
+      "events": 123,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18747",
+      "outcome": "LOST",
+      "tokens": 6209,
+      "transcript": 4304,
+      "message": 1115,
+      "email": 0,
+      "other": 790,
+      "events": 101,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18755",
+      "outcome": "LOST",
+      "tokens": 3019,
+      "transcript": 1772,
+      "message": 693,
+      "email": 0,
+      "other": 554,
+      "events": 53,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18765",
+      "outcome": "LOST",
+      "tokens": 9343,
+      "transcript": 5071,
+      "message": 809,
+      "email": 2344,
+      "other": 1119,
+      "events": 77,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18773",
+      "outcome": "WON",
+      "tokens": 42419,
+      "transcript": 39422,
+      "message": 507,
+      "email": 204,
+      "other": 2286,
+      "events": 111,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18775",
+      "outcome": "LOST",
+      "tokens": 3860,
+      "transcript": 1788,
+      "message": 925,
+      "email": 0,
+      "other": 1147,
+      "events": 60,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18873",
+      "outcome": "LOST",
+      "tokens": 5667,
+      "transcript": 2815,
+      "message": 1308,
+      "email": 395,
+      "other": 1149,
+      "events": 100,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "18929",
+      "outcome": "LOST",
+      "tokens": 3557,
+      "transcript": 273,
+      "message": 0,
+      "email": 2361,
+      "other": 923,
+      "events": 31,
+      "calls_ge36_without_transcript": 0
+    },
+    {
+      "deal_id": "19007",
+      "outcome": "LOST",
+      "tokens": 4999,
+      "transcript": 2396,
+      "message": 0,
+      "email": 2020,
+      "other": 583,
+      "events": 33,
+      "calls_ge36_without_transcript": 0
+    }
+  ],
+  "totals": {
+    "all": 474568,
+    "median": 18764.5,
+    "WON": {
+      "n": 12,
+      "tokens": 324113,
+      "transcript": 218929,
+      "message": 11196,
+      "email": 67391,
+      "other": 26597
+    },
+    "LOST": {
+      "n": 11,
+      "tokens": 150455,
+      "transcript": 89274,
+      "message": 6661,
+      "email": 37663,
+      "other": 16857
+    }
+  }
+}

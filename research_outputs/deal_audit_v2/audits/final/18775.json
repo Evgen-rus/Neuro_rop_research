@@ -1,0 +1,203 @@
+{
+  "deal_id": "18775",
+  "deal_summary": "The buyer wanted labeling equipment for a broad range of PET bottles and cans, but provided an envelope rather than detailed dimensions for each format. The buyer said the proposal was broadly suitable but somewhat expensive, delegated further discussion to purchasing staff, and the seller proposed a sample test and plant visit; the view ends with a status check and no buyer response (evidence indices 0, 2, 5, 6, 8, 9, 10).",
+  "customer_need": {
+    "summary": "Labeling for varied PET bottles and containers, with several label types and sizes. A date-only manager note gives the 100 g–5 kg range and rate estimate; directly, the buyer says a 5–23 cm label envelope is more useful than sending every label and gives a maximum product width of about 160 mm (evidence indices 0, 2).",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "The buyer provided photos and a broad size envelope, but resisted sending dimensions for every container/label. The seller said production needed exact measurements to confirm fit, then sent a proposal and video (evidence indices 1, 2, 3).",
+    "middle": "The buyer said the solution was more or less suitable but somewhat expensive and had passed it to a group of four purchasing staff, who were traveling. A date-only manager worklog says a physical test was essential before purchase; the seller then asked for samples and invited the buyer's team to a plant demonstration (evidence indices 5, 6, 7, 8, 9, 10).",
+    "late": "The seller offered visit dates and later asked whether the project was still active. The view contains no customer response confirming a sample shipment, visit, or decision (evidence indices 10, 11)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "A date-only manager worklog records that the buyer sent photos; directly, the buyer gave a practical size envelope and later said the proposed equipment was broadly suitable (evidence indices 0, 2, 6).",
+      "The buyer passed the proposal to purchasing staff and said they would contact the seller, keeping a route open for technical review (evidence index 6)."
+    ],
+    "negative_signals": [
+      "The buyer did not provide every exact container/label dimension, saying the full range was better represented by an envelope; actual-fit validation therefore remained necessary (evidence indices 1, 2, 7).",
+      "The buyer described the proposal as somewhat expensive and then delegated the next contact to purchasing staff, with no response to the final project-status message in the view (evidence indices 6, 11)."
+    ],
+    "initiative": "A manager worklog records buyer-supplied photos; the buyer directly gave the maximum product width and label-size range, and routed the proposal to purchasing staff (evidence indices 0, 2, 6).",
+    "decision_process": "The buyer said four purchasing staff would review the offer but could not say which person would contact the seller. The manager's date-only note says a physical test was needed before the buyer would consider purchase; no direct customer confirmation of a scheduled test appears in the view (evidence indices 5, 6, 7, 8, 9)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager requested exact fit information, prepared and sent a proposal/video, and shifted toward a sample-based technical validation after the buyer supplied a broad envelope (evidence indices 1, 2, 3, 7).",
+      "The manager offered a Moscow plant visit with applicator/orientation demonstrations, engineering discussion, and a possible price discussion within the buyer's budget (evidence indices 9, 10)."
+    ],
+    "weak_actions": [
+      "The buyer explicitly said a complete list of every label was not useful and gave a practical envelope instead. The manager could have confirmed a representative maximum/minimum sample set and a test protocol earlier (evidence indices 1, 2, 7).",
+      "The quote was described as somewhat expensive. A base price plus options and a clear validation step could have made the value/price discussion more concrete (evidence indices 6, 9)."
+    ],
+    "follow_up_quality": "The manager maintained contact, agreed to follow-up times, and later used a written invitation rather than another call. However, the later test/visit plan depended on purchasing staff who did not appear in the view (evidence indices 3, 4, 6, 8, 9, 10, 11).",
+    "next_step_control": "The seller's next action was clear: obtain representative samples or arrange a plant visit for testing. The buyer's purchasing contacts and their availability controlled whether that step was scheduled (evidence indices 6, 7, 8, 9, 10)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-30T14:42:47+07:00",
+      "description": "The buyer pushed back on supplying every label size and instead gave a broad 5–23 cm label range and 160 mm maximum product width (evidence index 2).",
+      "importance": "high",
+      "evidence_indices": [
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-08-04T16:47:38+07:00",
+      "description": "The buyer said the solution was broadly suitable but somewhat expensive and that purchasing staff would continue the discussion (evidence index 6).",
+      "importance": "high",
+      "evidence_indices": [
+        6
+      ]
+    },
+    {
+      "timestamp": "2026-08-14T15:51:50+07:00",
+      "description": "The seller invited the buyer and management to a plant demonstration and offered technical review and a possible budget-oriented price discussion (evidence index 9).",
+      "importance": "medium",
+      "evidence_indices": [
+        9
+      ]
+    },
+    {
+      "timestamp": "2026-08-19T14:56:42+07:00",
+      "description": "The seller asked whether the project remained active; the view contains no reply (evidence index 11).",
+      "importance": "medium",
+      "evidence_indices": [
+        11
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "technical_validation_and_buyer_coordination",
+    "explanation": "The request covered a broad set of formats and the buyer supplied an envelope rather than detailed dimensions for every package. The buyer said the quote was broadly suitable but somewhat expensive and transferred the next conversation to purchasing staff. A manager worklog says a physical test was needed, so the seller's proposed sample test/visit became the concrete path forward; the view ends before that validation or a decision is documented. Price and buyer-side coordination also constrained progress (evidence indices 1, 2, 5, 6, 7, 8, 9, 10, 11).",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "secondary_factors": [
+    "The buyer's plant was undergoing an evacuation on 31 Jul, making the planned proposal review inconvenient at that time (evidence index 4).",
+    "The date-only manager worklog initially says a price from 1.5 million was acceptable, while the buyer later said the proposal was somewhat expensive; the initial expectation is a manager claim, not a direct customer statement (evidence indices 0, 5, 6).",
+    "The manager worklog says the buyer did not want to share a purchasing contact, while the direct call only establishes that the buyer did not know which of four staff would reach out (evidence indices 6, 12)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "Agree on a representative minimum/maximum set of containers and labels and test criteria rather than asking for every variant at once (evidence indices 1, 2, 7).",
+      "Ask the buyer to name one purchasing coordinator or forward a direct introduction so sample shipment and test scheduling have a clear owner (evidence indices 6, 8).",
+      "Separate the base equipment from optional adjustments and state the test/visit step before final price negotiation (evidence indices 6, 9, 10)."
+    ],
+    "limits": [
+      "The broad package range requires real samples to validate labeling and orientation; catalogue photos alone cannot establish performance (evidence indices 2, 7, 9).",
+      "The buyer's purchasing staff and plant schedule controlled whether a visit or test could happen (evidence indices 6, 8, 10)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-29T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time inferred): records buyer-supplied photos and describes varied PET bottles/cans, label formats, a high-rate target, and an initial price expectation; these are manager claims."
+    },
+    {
+      "timestamp": "2026-07-29T19:08:01+07:00",
+      "event_type": "message",
+      "event_id": "2947267",
+      "source_line": 12,
+      "paraphrase": "Seller says production needs exact dimensions of each container and label to confirm equipment fit."
+    },
+    {
+      "timestamp": "2026-07-30T14:42:47+07:00",
+      "event_type": "call_transcript",
+      "event_id": "633993",
+      "source_line": 15,
+      "paraphrase": "Buyer says listing every label is not useful, gives a 5–23 cm label range, and reports maximum product width of 160 mm."
+    },
+    {
+      "timestamp": "2026-07-31T14:25:03+07:00",
+      "event_type": "message",
+      "event_id": "2954643",
+      "source_line": 21,
+      "paraphrase": "Seller sends the proposal and equipment video."
+    },
+    {
+      "timestamp": "2026-07-31T16:13:15+07:00",
+      "event_type": "call_transcript",
+      "event_id": "635485",
+      "source_line": 25,
+      "paraphrase": "Buyer says a plant evacuation makes the current time inconvenient and agrees to talk again on Monday."
+    },
+    {
+      "timestamp": "2026-08-04T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 32,
+      "paraphrase": "Date-only manager worklog (time inferred): says the buyer liked the proposal, found the price somewhat high, wanted a test before purchase, and expected purchasing staff to contact the seller; manager claim."
+    },
+    {
+      "timestamp": "2026-08-04T16:47:38+07:00",
+      "event_type": "call_transcript",
+      "event_id": "638053",
+      "source_line": 34,
+      "paraphrase": "Buyer says he passed the information to four purchasing staff who were traveling, could not say who would contact the seller, and described the offer as broadly suitable but somewhat expensive."
+    },
+    {
+      "timestamp": "2026-08-07T18:55:56+07:00",
+      "event_type": "call_transcript",
+      "event_id": "641869",
+      "source_line": 41,
+      "paraphrase": "Seller asks for product samples so the plant can test labeling and send the buyer a demonstration video."
+    },
+    {
+      "timestamp": "2026-08-10T19:33:40+07:00",
+      "event_type": "message",
+      "event_id": "2984995",
+      "source_line": 45,
+      "paraphrase": "Seller asks which purchasing contact can coordinate sending samples for a labeling test."
+    },
+    {
+      "timestamp": "2026-08-14T15:51:50+07:00",
+      "event_type": "message",
+      "event_id": "2998019",
+      "source_line": 51,
+      "paraphrase": "Seller invites the buyer to the Moscow plant to see application/orientation units on sample containers, discuss requirements with an engineer, and discuss a price within budget."
+    },
+    {
+      "timestamp": "2026-08-17T15:11:49+07:00",
+      "event_type": "message",
+      "event_id": "3002135",
+      "source_line": 55,
+      "paraphrase": "Seller asks which of three weekdays works for the buyer and management to visit the demonstration room."
+    },
+    {
+      "timestamp": "2026-08-19T14:56:42+07:00",
+      "event_type": "message",
+      "event_id": "3013321",
+      "source_line": 58,
+      "paraphrase": "Seller asks the buyer to indicate whether the project is still active or no longer current; no buyer response is present in the view."
+    },
+    {
+      "timestamp": "2026-08-05T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": null,
+      "source_line": 35,
+      "paraphrase": "Date-only manager worklog (time inferred): says the buyer did not want to share the purchasing contact's number; this is a manager claim."
+    }
+  ],
+  "uncertainties": [
+    "The initial product range, capacity, and price acceptance come from a date-only manager worklog; direct customer evidence gives a broad size envelope but not every starting specification (evidence indices 0, 2).",
+    "The manager worklog says a test was required and that the buyer did not want to provide a purchasing contact; customer-sourced evidence confirms purchasing delegation but does not confirm that the buyer refused to share contact information or agreed to a test (evidence indices 5, 6, 7, 8, 12).",
+    "The view ends after the seller's active/inactive status request with no customer reply, leaving the project status and any later technical validation unknown (evidence index 11)."
+  ]
+}

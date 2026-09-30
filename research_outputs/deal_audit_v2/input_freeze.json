@@ -1,0 +1,125 @@
+{
+  "status": "v2_outcome_blind_views_frozen_before_semantic_audit",
+  "outcome_revealed": false,
+  "deal_count": 23,
+  "audit_schema_sha256": "0aa1e30c9b8785cb44a30f3c42ec1be2c552cef796171a3fe816b9ba3dba01f9",
+  "input_contract_sha256": "bc4aa727b373fa3e500bce6b1e183696110fec70738c3bd005e81c7fd71693a4",
+  "audit_manifest_sha256": "40c2e2f56bd11bbe04778efa020a3e576f55142b6b9f72a7062aad2f13c7bd4a",
+  "views": [
+    {
+      "deal_id": "5017",
+      "path": "views/5017.jsonl",
+      "sha256": "7f943150dde53548467c4b8c3aae59fbb3e564cf8f6417ae2f39253dd2cf0f38"
+    },
+    {
+      "deal_id": "5971",
+      "path": "views/5971.jsonl",
+      "sha256": "42ad36eff842c316bd4b8f08dc84a8f558bdaca18b89c5d18009b3b70285da6d"
+    },
+    {
+      "deal_id": "6135",
+      "path": "views/6135.jsonl",
+      "sha256": "3a67d5705bcfd4649afa25ee8f0c478122124110a393f53cc8fdbfe5197758a1"
+    },
+    {
+      "deal_id": "6885",
+      "path": "views/6885.jsonl",
+      "sha256": "984aff982a77144c0227d9c8fec61e92828f1651d5e9c2bd4c8dd4b0622c9493"
+    },
+    {
+      "deal_id": "6983",
+      "path": "views/6983.jsonl",
+      "sha256": "72d56784b7398697be31258f7c77ed9b52fa07ff810b94f15a721b6743bc4cfe"
+    },
+    {
+      "deal_id": "7191",
+      "path": "views/7191.jsonl",
+      "sha256": "669e49e6ad04e40567b4a5a8292d3e7a635170b86064d1a20c45755fdb8e1ae0"
+    },
+    {
+      "deal_id": "7243",
+      "path": "views/7243.jsonl",
+      "sha256": "d0453aca7e25ef9a875425bef46edeb1a86799639e9f2bfb14f0a2f8905ff841"
+    },
+    {
+      "deal_id": "7601",
+      "path": "views/7601.jsonl",
+      "sha256": "ed02d62cc3d9879b785b9459663c84652ce0ebef8be1d5e8f8c4e474b8c637ea"
+    },
+    {
+      "deal_id": "18485",
+      "path": "views/18485.jsonl",
+      "sha256": "a3ee94fd3773dcb089e703057da4da0a310f313007ab1211b20e78902eb6be1c"
+    },
+    {
+      "deal_id": "18615",
+      "path": "views/18615.jsonl",
+      "sha256": "d870b84dd49ede1276010559fb6df2c272201d646401ce6127288bc88a4f38e4"
+    },
+    {
+      "deal_id": "18629",
+      "path": "views/18629.jsonl",
+      "sha256": "d6b241b7969136d19bbd02daa77d2131cfde6630dbfd1cce49f6374b9ebcf599"
+    },
+    {
+      "deal_id": "18635",
+      "path": "views/18635.jsonl",
+      "sha256": "236fe872527407625a8ba1a301b2c0063d93fef9d4295809b3491200fd7bbd96"
+    },
+    {
+      "deal_id": "18731",
+      "path": "views/18731.jsonl",
+      "sha256": "732d0521dda6114d6d6e1e4cfe4eb4f0928e0d0bae414d77fd4c82698f10b5da"
+    },
+    {
+      "deal_id": "18733",
+      "path": "views/18733.jsonl",
+      "sha256": "8c6286c4d21008d4d6e791538d50f17ec4a4e7b82a4b3a9af0badced8a7dbbc3"
+    },
+    {
+      "deal_id": "18745",
+      "path": "views/18745.jsonl",
+      "sha256": "56acec310e03447b756760bb6591de286e4efe4146d15df5da0639e10a3efb48"
+    },
+    {
+      "deal_id": "18747",
+      "path": "views/18747.jsonl",
+      "sha256": "0276f12def5137bb36b2298a04b18f711235317c462c8cef79a18c067815a03e"
+    },
+    {
+      "deal_id": "18755",
+      "path": "views/18755.jsonl",
+      "sha256": "012850dd6f64aa1e1555184378c6fe4fdf0906da701875d55f11d424bf66a670"
+    },
+    {
+      "deal_id": "18765",
+      "path": "views/18765.jsonl",
+      "sha256": "3987ac5410bf079d27d30794993bb1ebf62cad5a72bdbfe3cf95f6bb05886f0e"
+    },
+    {
+      "deal_id": "18773",
+      "path": "views/18773.jsonl",
+      "sha256": "53e7bf5ba12dd4a8289afe8f91bafd6b05c3cfd9a822bd12ba117a2039070810"
+    },
+    {
+      "deal_id": "18775",
+      "path": "views/18775.jsonl",
+      "sha256": "3dd92241d9cb8d2370c7c32ea94fea12964cba790d8b5da4b5d0e2a12f73ae6e"
+    },
+    {
+      "deal_id": "18873",
+      "path": "views/18873.jsonl",
+      "sha256": "51c6d27b8a152b34692ad851dbbcd87ffc19993937aac002567d72b9bb8813e2"
+    },
+    {
+      "deal_id": "18929",
+      "path": "views/18929.jsonl",
+      "sha256": "aa2d78f7cebc197c5c7b8001c0020a164796a885bc22ddff649d292700030cf8"
+    },
+    {
+      "deal_id": "19007",
+      "path": "views/19007.jsonl",
+      "sha256": "a42197270c405a52eae1defafeddf633e11644a2359806257a8e201e4399174e"
+    }
+  ]
+}

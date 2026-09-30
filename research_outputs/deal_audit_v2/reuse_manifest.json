@@ -1,0 +1,101 @@
+{
+  "source_final_audit_freeze_sha256": "d78384ef2f4b0a2ecc0919b68155df93694d4d155e15d9fd65568fdf0663c19e",
+  "reused_unchanged_deals": [
+    {
+      "deal_id": "5017",
+      "source": "deal_audit_v1/audits/final/5017.json",
+      "sha256": "e3017b597feb19794f9896270f2743a4cd6a9ed4ca6269345b270018f98fecb8",
+      "view_sha256": "7f943150dde53548467c4b8c3aae59fbb3e564cf8f6417ae2f39253dd2cf0f38"
+    },
+    {
+      "deal_id": "5971",
+      "source": "deal_audit_v1/audits/final/5971.json",
+      "sha256": "23de0d88d7caba2953f85d54caf11e37fac8e602f8742ab6c68e142363ea6394",
+      "view_sha256": "42ad36eff842c316bd4b8f08dc84a8f558bdaca18b89c5d18009b3b70285da6d"
+    },
+    {
+      "deal_id": "6135",
+      "source": "deal_audit_v1/audits/final/6135.json",
+      "sha256": "8495adfc74720a8aadec2f3b34230e32138ed5197d3c36c52eacd2f4f43cf1a5",
+      "view_sha256": "3a67d5705bcfd4649afa25ee8f0c478122124110a393f53cc8fdbfe5197758a1"
+    },
+    {
+      "deal_id": "6885",
+      "source": "deal_audit_v1/audits/final/6885.json",
+      "sha256": "2e5f6352682671d238132abd0278592874564e76e1804c740a2596797a40d5a2",
+      "view_sha256": "984aff982a77144c0227d9c8fec61e92828f1651d5e9c2bd4c8dd4b0622c9493"
+    },
+    {
+      "deal_id": "6983",
+      "source": "deal_audit_v1/audits/final/6983.json",
+      "sha256": "00adb7cd3a66bf90c426da86d97d2cef33f054ca44f6856bd425fcf9358a53a5",
+      "view_sha256": "72d56784b7398697be31258f7c77ed9b52fa07ff810b94f15a721b6743bc4cfe"
+    },
+    {
+      "deal_id": "7191",
+      "source": "deal_audit_v1/audits/final/7191.json",
+      "sha256": "a5a9c67295f357f30c59ffba2380431f2d36c2773161d2b10737ed0082da37c8",
+      "view_sha256": "669e49e6ad04e40567b4a5a8292d3e7a635170b86064d1a20c45755fdb8e1ae0"
+    },
+    {
+      "deal_id": "18485",
+      "source": "deal_audit_v1/audits/final/18485.json",
+      "sha256": "b963e7642904403254a4b600673a31e7bdebb1abb61c44d38ccf67aa33d2f97b",
+      "view_sha256": "a3ee94fd3773dcb089e703057da4da0a310f313007ab1211b20e78902eb6be1c"
+    },
+    {
+      "deal_id": "18629",
+      "source": "deal_audit_v1/audits/final/18629.json",
+      "sha256": "50c1af1d6547984a8bcdc337535416fba25d438fa674d4c9747b41efc44d4e5d",
+      "view_sha256": "d6b241b7969136d19bbd02daa77d2131cfde6630dbfd1cce49f6374b9ebcf599"
+    },
+    {
+      "deal_id": "18635",
+      "source": "deal_audit_v1/audits/final/18635.json",
+      "sha256": "30ce443926e8bbecc0fca31c5aacefc920cdad7cdee48c440d32cb64c22357ec",
+      "view_sha256": "236fe872527407625a8ba1a301b2c0063d93fef9d4295809b3491200fd7bbd96"
+    },
+    {
+      "deal_id": "18731",
+      "source": "deal_audit_v1/audits/final/18731.json",
+      "sha256": "bc08af1f3988fc177b9f99319ea799802218350350f3e9ba8e825d14aef7c10d",
+      "view_sha256": "732d0521dda6114d6d6e1e4cfe4eb4f0928e0d0bae414d77fd4c82698f10b5da"
+    },
+    {
+      "deal_id": "18745",
+      "source": "deal_audit_v1/audits/final/18745.json",
+      "sha256": "ca8c95878a267a9d380713ff62c69b739a532de5d5ae2b13794a290fbfad511d",
+      "view_sha256": "56acec310e03447b756760bb6591de286e4efe4146d15df5da0639e10a3efb48"
+    },
+    {
+      "deal_id": "18747",
+      "source": "deal_audit_v1/audits/final/18747.json",
+      "sha256": "c3eb650ee75152bf9a983e76e160cbc36263c940c2ca88bb4c0ec29e29b72abf",
+      "view_sha256": "0276f12def5137bb36b2298a04b18f711235317c462c8cef79a18c067815a03e"
+    },
+    {
+      "deal_id": "18765",
+      "source": "deal_audit_v1/audits/final/18765.json",
+      "sha256": "aef8d55c908a2f0a82a8c3902f7faba614d6742628213e0f7021eed3fedab986",
+      "view_sha256": "3987ac5410bf079d27d30794993bb1ebf62cad5a72bdbfe3cf95f6bb05886f0e"
+    },
+    {
+      "deal_id": "18773",
+      "source": "deal_audit_v1/audits/final/18773.json",
+      "sha256": "226f83782b76266ddabdb62bc41e7c594ac592e71f596f96890dabb589312867",
+      "view_sha256": "53e7bf5ba12dd4a8289afe8f91bafd6b05c3cfd9a822bd12ba117a2039070810"
+    },
+    {
+      "deal_id": "18775",
+      "source": "deal_audit_v1/audits/final/18775.json",
+      "sha256": "ce1c3dc3014c9576cde261f5955d77a75b932279861929b844d8498d4e6a8e82",
+      "view_sha256": "3dd92241d9cb8d2370c7c32ea94fea12964cba790d8b5da4b5d0e2a12f73ae6e"
+    },
+    {
+      "deal_id": "19007",
+      "source": "deal_audit_v1/audits/final/19007.json",
+      "sha256": "2da72ad5096406c75c9094e21a965676a15415b7935444e9287d9aea0969bc6d",
+      "view_sha256": "a42197270c405a52eae1defafeddf633e11644a2359806257a8e201e4399174e"
+    }
+  ]
+}

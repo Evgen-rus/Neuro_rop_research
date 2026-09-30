@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "outcome_accessed": false,
+  "deal_count": 7,
+  "field_order": ["trajectory", "controllability", "turning_points", "manager_influence", "customer_signals"],
+  "deals": [
+    {"deal_id":"7243","ratings":{"trajectory":"AGREE","controllability":"AGREE","turning_points":"PARTIAL","manager_influence":"AGREE","customer_signals":"PARTIAL"},"critic_reconciliation_note":"Core path agrees: technical redesign, internal approval and delay; partial difference on the detail of late technical/legal follow-up. Manager influence agrees."},
+    {"deal_id":"7601","ratings":{"trajectory":"PARTIAL","controllability":"DISAGREE","turning_points":"PARTIAL","manager_influence":"DISAGREE","customer_signals":"AGREE"},"critic_reconciliation_note":"Both see technical fit/commercial work and the customer-reported external pause. Reconcile as a mixed visible process, with no attribution of the external pause to manager action; final manager influence is indeterminate."},
+    {"deal_id":"18615","ratings":{"trajectory":"AGREE","controllability":"AGREE","turning_points":"PARTIAL","manager_influence":"AGREE","customer_signals":"PARTIAL"},"critic_reconciliation_note":"Core path agrees: evolving technical/contract scope, customer-side review, reported signature and invoice submitted for payment. The 75-working-day term discussion is retained; payment and production are not confirmed."},
+    {"deal_id":"18733","ratings":{"trajectory":"PARTIAL","controllability":"PARTIAL","turning_points":"PARTIAL","manager_influence":"DISAGREE","customer_signals":"AGREE"},"critic_reconciliation_note":"Both identify fragile conical-package fit risk, later switch to cylindrical packaging, and contract/payment steps. Keep signer/legal dependencies; customer-reported payment and supplier production handoff do not prove delivery or operation. Manager influence is indeterminate."},
+    {"deal_id":"18755","ratings":{"trajectory":"AGREE","controllability":"AGREE","turning_points":"PARTIAL","manager_influence":"AGREE","customer_signals":"AGREE"},"critic_reconciliation_note":"Core path agrees: direct price/budget mismatch and cheaper alternatives. Keep the manager's preliminary price separate from the later direct 4.5M quote; alternative scope is not verified as equivalent."},
+    {"deal_id":"18873","ratings":{"trajectory":"AGREE","controllability":"AGREE","turning_points":"PARTIAL","manager_influence":"AGREE","customer_signals":"AGREE"},"critic_reconciliation_note":"Core path agrees: after scope clarification, customer preferred a cheaper/smaller alternative and promised dimensions for recalculation. No revised offer or final choice is visible."},
+    {"deal_id":"18929","ratings":{"trajectory":"AGREE","controllability":"AGREE","turning_points":"AGREE","manager_influence":"DISAGREE","customer_signals":"AGREE"},"critic_reconciliation_note":"Core path agrees: procurement compared offers and promised a response, with no later decision visible. The optimistic manager worklog is not buyer confirmation; manager material influence remains indeterminate."}
+  ],
+  "summary": {"AGREE": 20, "PARTIAL": 11, "DISAGREE": 4, "unit": "Qualitative A/B agreement rating by field; not statistical reliability."}
+}

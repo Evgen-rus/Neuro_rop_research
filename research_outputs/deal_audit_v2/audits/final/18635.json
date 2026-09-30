@@ -1,0 +1,258 @@
+{
+  "deal_id": "18635",
+  "deal_summary": "The customer sought to automate labeling of keyed 22-sized metal cans, initially targeting at least 2,000 cans/hour (e0, e1, e8). The seller said automatic key positioning would limit speed to roughly 1,000-1,200/hour and that it could not test the customer's samples before manufacturing; the customer asked to clarify acceptance/testing terms in the contract (e1, e4-e5, e10). The later direct events show contract and EDO review, an invoice discussion, and a plan to send cans and labels for an acceptance test; the customer said it expected to pay, but no bank receipt is evidenced here (e12-e18).",
+  "customer_need": {
+    "summary": "Automate positioning and applying a top self-adhesive label with a cutout for the key on metal cans, at the requested rate of at least 2,000 units/hour. The key-positioning requirement constrained the proposed rate, and the customer wanted clear sample-testing and acceptance terms before production (e0-e1, e4, e8, e10, e16).",
+    "confidence": "high"
+  },
+  "deal_dynamics": {
+    "early": "A date-only manager worklog says the customer had production, was labeling by hand, was ready to buy soon if price worked, and accepted a starting price around 900,000 (e0). In a direct call, the seller said automatic can rotation to align the key would cap output around 1,000-1,200/hour versus the 2,000/hour requested; the customer asked how manual pre-positioning might affect speed (e1-e3).",
+    "middle": "The customer asked whether the video showed an actual prototype and whether its own can and label could be tested. The seller said the example was from a prior project, no unit was currently available for testing, and testing would happen after manufacturing; it quoted up to 55 working days. The customer asked about delivery time, payment split, and technical questionnaire dimensions, then supplied further can and label measurements (e4-e8).",
+    "late": "The customer redlined the acceptance-test language and contract appendices; the seller routed the changes to legal and the customer later said the protocol was acceptable. In direct calls the customer said to proceed with signing and payment, asked for an invoice copy, and planned to send label rolls and 50 cans for testing. A date-only manager worklog also claims the contract was signed in EDO and a payment order was submitted, but the same-day customer events do not confirm bank receipt (e9-e18)."
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer engaged on throughput, key alignment, label roll requirements, service, payment terms, and testing details (e1-e8).",
+      "The customer provided packaging and label measurements, completed the questionnaire, supplied contract revisions, and accepted the revised protocol (e8-e12).",
+      "The customer directly said to sign and pay quickly, then discussed sending product cans and labels for the post-manufacture test (e13, e16-e18)."
+    ],
+    "negative_signals": [
+      "The requested 2,000 cans/hour exceeded the seller's stated automatic-orientation rate of about 1,000-1,200/hour; no measured production result appears in the view (e1-e2).",
+      "The customer could not test its own can before ordering; it requested that testing and acceptance conditions be made explicit in the contract (e4-e5, e10).",
+      "The customer needed to resolve contract edits and asked for invoice re-delivery because the original invoice could not be opened (e10-e12, e15-e17)."
+    ],
+    "initiative": "Customer initiative was high: it challenged the capacity assumptions, asked for a sample test, supplied exact can/label details, proposed contract revisions, and asked how to move payment and production forward (e1, e4, e8, e10, e13, e16-e18).",
+    "decision_process": "The customer involved a legal reviewer and a colleague responsible for technical or purchasing details; the customer directly requested updates to the acceptance act and later confirmed that the protocol had no remaining comments (e10-e12). A manager worklog says management was expected to decide early, but that timing is a manager claim (e8)."
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The seller stated the throughput limit early and explained the can-positioning tradeoff, then answered questions about payment, label sensing, and the questionnaire (e1-e3, e7-e8).",
+      "The seller sent example footage, disclosed that a sample test was unavailable before manufacturing, and said the detailed acceptance test would be conducted after manufacturing (e4-e5).",
+      "The seller involved legal in the buyer's contract edits, responded to the buyer's EDO invitation and invoice questions, and coordinated the requested sample materials for a test (e10-e12, e15-e18)."
+    ],
+    "weak_actions": [
+      "The buyer's central validation need could not be met before manufacture; the seller offered post-manufacture testing, leaving the customer exposed to a wait before seeing its own can run on the equipment (e4-e5, e16). This is a solution-capability limit, not clearly an individual manager error.",
+      "The final manager worklog states that a payment order was submitted, but same-day customer-sourced messages and call discuss payment as upcoming; this difference in timing/source should not be treated as confirmed receipt (e14, e16-e18)."
+    ],
+    "follow_up_quality": "Follow-up was frequent and the seller responded to the technical constraint, questionnaire, contract review, EDO setup, and invoice access issue (e1-e5, e7-e12, e15-e17). Several financing/signing milestones are also summarized in date-only manager worklogs, so customer-sourced confirmation is stronger where available (e8, e14).",
+    "next_step_control": "Next steps became concrete: contract review, EDO exchange, invoice clarification, and customer shipment of sample labels and cans for testing (e10-e18). Date-only worklogs give inferred-time status reports, so the exact ordering of the final signature/payment steps cannot be established from them alone (e14)."
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-08T21:07:56+07:00",
+      "description": "The seller disclosed that automatic key alignment would limit throughput to roughly 1,000-1,200 cans/hour, below the customer's stated target.",
+      "importance": "high",
+      "evidence_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "timestamp": "2026-07-09T14:32:48+07:00",
+      "description": "The customer asked if the example was an actual prototype and requested a trial with its own can and label; the seller said no equipment was available to test before manufacture and promised testing afterward.",
+      "importance": "high",
+      "evidence_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "timestamp": "2026-07-14T15:16:19+07:00",
+      "description": "The customer supplied can and label measurements and agreed to 70/30 payment terms while completing the technical questionnaire.",
+      "importance": "medium",
+      "evidence_indices": [
+        8
+      ]
+    },
+    {
+      "timestamp": "2026-07-20T16:53:48+07:00",
+      "description": "The customer requested changes to the acceptance act and contract appendices so the parties could record the equipment demonstration and any objections at acceptance.",
+      "importance": "high",
+      "evidence_indices": [
+        10
+      ]
+    },
+    {
+      "timestamp": "2026-07-21T14:56:07+07:00",
+      "description": "The customer said to proceed with signing and payment as quickly as possible; the later call discussed payment timing and preparing sample cans and labels for testing.",
+      "importance": "high",
+      "evidence_indices": [
+        13,
+        16,
+        17
+      ]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Technical fit and acceptance-test alignment",
+    "explanation": "The visible trajectory centers on how a keyed can would be positioned and labeled at the desired speed, and how the customer could verify performance on its own can. The seller clearly stated the automatic-orientation speed constraint and could not provide a pre-manufacture sample test; the customer therefore focused on documenting a post-manufacture test and acceptance procedure. Contract and invoice steps advanced, and the final direct call records the customer's stated intention to pay and prepare samples, but the view does not confirm payment receipt (e1-e5, e10-e18).",
+    "controllability": "mixed",
+    "confidence": "high",
+    "evidence_indices": [
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17
+    ]
+  },
+  "secondary_factors": [
+    "The buyer requested at least 2,000 cans/hour, while the seller described a lower rate for automatic orientation and a possible increase if cans were manually positioned (e1-e2).",
+    "The stated manufacturing lead time was up to 55 working days, and the customer said two months felt long (e6-e7).",
+    "The deal required technical questionnaire details, label/key placement, contract corrections, EDO setup, and invoice access before the planned start (e8-e12, e15-e17)."
+  ],
+  "manager_influence": {
+    "could_materially_improve": true,
+    "what_could_be_done": [
+      "State the rated throughput for the exact keyed-can setup, with the conditions under which manual pre-positioning could change it, in the first proposal and contract (e1-e2).",
+      "Use a written sample-test protocol with agreed cans, labels, speed, acceptance criteria, timing, and remedy before taking the order, since a pre-manufacture demonstration was unavailable (e4-e5, e10, e16).",
+      "Keep customer-sourced signing and payment confirmations separate from date-only worklog status, and confirm invoice accessibility and next steps in the same channel (e14-e18)."
+    ],
+    "limits": [
+      "The seller said a key-positioning mechanism constrained automatic throughput and that a physical sample test could not be run before manufacture (e1, e4-e5).",
+      "Contract review involved the customer's legal reviewer and required agreed acceptance language (e10-e12).",
+      "The final worklog is date-only and manager-authored; the customer-sourced events do not confirm that funds reached the seller (e14, e16-e18)."
+    ]
+  },
+  "evidence": [
+    {
+      "timestamp": "2026-07-07T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2862473",
+      "source_line": 1,
+      "paraphrase": "Date-only manager worklog (time/year inferred): describes manual labeling of keyed cans, a requested rate of at least 2,000/hour, a top label with a key cutout, and an initial price around 900,000 said to be acceptable. This is a manager claim."
+    },
+    {
+      "timestamp": "2026-07-08T21:07:56+07:00",
+      "event_type": "call_transcript",
+      "event_id": "616211",
+      "source_line": 11,
+      "paraphrase": "Seller says automatic rotation to align the can key limits throughput to about 1,000-1,200/hour; manually pre-positioning cans could increase speed."
+    },
+    {
+      "timestamp": "2026-07-09T13:23:47+07:00",
+      "event_type": "message",
+      "event_id": "2865799,2865801",
+      "source_line": 19,
+      "paraphrase": "Customer asks whether the final throughput will remain 1,000 cans/hour."
+    },
+    {
+      "timestamp": "2026-07-09T13:26:35+07:00",
+      "event_type": "message",
+      "event_id": "2865819,2865821",
+      "source_line": 21,
+      "paraphrase": "Customer asks whether the two-month manufacturing lead time can be shortened."
+    },
+    {
+      "timestamp": "2026-07-09T14:32:48+07:00",
+      "event_type": "message",
+      "event_id": "2866301,2866303",
+      "source_line": 26,
+      "paraphrase": "Customer asks whether the video is an AI visualization or a real prototype and whether its own can and label can be tested."
+    },
+    {
+      "timestamp": "2026-07-09T14:35:53+07:00",
+      "event_type": "message",
+      "event_id": "2866325,2866327",
+      "source_line": 27,
+      "paraphrase": "Seller says the example is from an earlier project, no equipment is currently available for testing, and testing will take place after manufacture."
+    },
+    {
+      "timestamp": "2026-07-09T15:43:32+07:00",
+      "event_type": "message",
+      "event_id": "2866645,2866647",
+      "source_line": 29,
+      "paraphrase": "Seller says production can complete the current project in up to 55 working days."
+    },
+    {
+      "timestamp": "2026-07-09T19:11:58+07:00",
+      "event_type": "call_transcript",
+      "event_id": "616965",
+      "source_line": 31,
+      "paraphrase": "Customer says two months is a long lead time, asks about split payment and service, and says the team expects to decide the following week."
+    },
+    {
+      "timestamp": "2026-07-14T15:16:19+07:00",
+      "event_type": "call_transcript",
+      "event_id": "619417",
+      "source_line": 42,
+      "paraphrase": "Customer clarifies that the can is size 22 and discusses a 70 mm label against a 73 mm lid position; the parties agree on 70/30 payment terms while completing the questionnaire."
+    },
+    {
+      "timestamp": "2026-07-16T14:56:06+07:00",
+      "event_type": "email",
+      "event_id": "621621",
+      "source_line": 64,
+      "paraphrase": "Seller sends a standard contract and a disagreement protocol for any requested changes."
+    },
+    {
+      "timestamp": "2026-07-20T16:53:48+07:00",
+      "event_type": "email",
+      "event_id": "624601",
+      "source_line": 74,
+      "paraphrase": "Customer asks for contract corrections to appendices and wants the acceptance act to record whether the equipment demonstration worked and any objections at the time of demonstration."
+    },
+    {
+      "timestamp": "2026-07-20T16:57:37+07:00",
+      "event_type": "email",
+      "event_id": "624607",
+      "source_line": 75,
+      "paraphrase": "Seller confirms receipt of the customer's contract edits and says they were sent to legal for review."
+    },
+    {
+      "timestamp": "2026-07-21T12:53:15+07:00",
+      "event_type": "email",
+      "event_id": "625383",
+      "source_line": 87,
+      "paraphrase": "Customer says there are no remaining comments on the disagreement protocol after editing an appendix."
+    },
+    {
+      "timestamp": "2026-07-21T14:56:07+07:00",
+      "event_type": "call_transcript",
+      "event_id": "625679",
+      "source_line": 89,
+      "paraphrase": "Customer says to proceed with signing and payment quickly and confirms the contract can be sent through EDO."
+    },
+    {
+      "timestamp": "2026-07-22T20:26:08+07:00",
+      "event_type": "call_transcript",
+      "event_id": "627315",
+      "source_line": 103,
+      "paraphrase": "Customer says contract documents arrived but were not yet reviewed; seller says the invoice was sent, and customer will check it. Payment is not confirmed."
+    },
+    {
+      "timestamp": "2026-07-23T04:00:00+07:00",
+      "event_type": "comment",
+      "event_id": "2862473",
+      "source_line": 104,
+      "paraphrase": "Date-only manager worklog (time inferred): claims the contract was signed in EDO and a payment order had been submitted. This is a manager claim and does not confirm bank receipt."
+    },
+    {
+      "timestamp": "2026-07-23T19:24:11+07:00",
+      "event_type": "call_transcript",
+      "event_id": "628201",
+      "source_line": 114,
+      "paraphrase": "Customer says payment is expected that day or the next, asks the seller to prepare production, and agrees to send label rolls and 50 product cans for testing. The call records expected payment, not receipt."
+    },
+    {
+      "timestamp": "2026-07-23T19:50:55+07:00",
+      "event_type": "message",
+      "event_id": "2908177,2908179,2908183",
+      "source_line": 115,
+      "paraphrase": "Customer asks whether 70% of the current 954,000 invoice is the initial payment."
+    }
+  ],
+  "uncertainties": [
+    "Initial price acceptance and early readiness-to-buy are date-only manager claims rather than direct customer messages in the cited events (e0).",
+    "Actual throughput and label performance on the customer's cans are not measured in this view; the planned sample run is after manufacture (e1, e4-e5, e16).",
+    "The date-only worklog says a payment order was submitted, while customer-sourced same-day events discuss paying and ask about the 70% amount; no bank receipt or completed transfer is established here (e14, e16-e18).",
+    "The final signed-contract/payment chronology is uncertain because the manager worklog uses an inferred time and summarizes multiple milestones, while the same-day customer call describes payment as upcoming (e14, e16-e18)."
+  ]
+}

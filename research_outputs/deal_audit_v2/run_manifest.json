@@ -1,0 +1,225 @@
+{
+  "version": "2.0",
+  "source": "v1 dataset plus current local practice transcript JSON linked by activity_id",
+  "transcript_source": "D:\\My_dev_project\\Neuro_rop_practice\\reports\\rop_assistant\\deals\\deal_<id>\\transcripts",
+  "call_duration_rule": "Neuro_rop_practice.openai_api.audio.short_call.load_recording_durations; transcript audio_duration_seconds used only when manifest duration is absent; eligible threshold >=36 seconds",
+  "manifest_unchanged": true,
+  "global_call_completeness": {
+    "total_calls": 806,
+    "calls_with_measured_audio": 463,
+    "calls_lt_36": 126,
+    "eligible_calls_ge_36": 337,
+    "eligible_calls_with_transcript": 337,
+    "eligible_calls_without_transcript": 0,
+    "calls_audio_unavailable": 343,
+    "calls_unknown_duration": 343,
+    "calls_unknown_audio_availability": 0,
+    "audio_status_counts": {
+      "already_downloaded": 43,
+      "downloaded": 286,
+      "no_files_check_expired": 341,
+      "no_files_in_crm_activity": 2,
+      "not_downloaded": 1,
+      "transcribed_and_purged": 133
+    },
+    "ready_for_rebuild": true
+  },
+  "transcript_delta": {
+    "7243": {
+      "added": [
+        "539963",
+        "540945",
+        "542805",
+        "545651",
+        "549291",
+        "549875",
+        "552347",
+        "555531",
+        "559011",
+        "559659",
+        "568889",
+        "580097",
+        "594611",
+        "595229",
+        "599139"
+      ],
+      "updated": [
+        "581019",
+        "586025",
+        "594643",
+        "620111",
+        "637557",
+        "643619",
+        "652161",
+        "655373",
+        "656611"
+      ],
+      "unlinked": [
+        "538717"
+      ]
+    },
+    "7601": {
+      "added": [
+        "565905",
+        "573557",
+        "575747",
+        "576945",
+        "578347",
+        "578971",
+        "580199",
+        "581995",
+        "588225",
+        "589657",
+        "590927",
+        "593633",
+        "596397",
+        "597601",
+        "598695",
+        "599713",
+        "603931",
+        "604875"
+      ],
+      "updated": [],
+      "unlinked": []
+    },
+    "18615": {
+      "added": [],
+      "updated": [
+        "614769",
+        "614799",
+        "615467",
+        "615809",
+        "616949",
+        "620445",
+        "623193",
+        "623799",
+        "625225",
+        "625597",
+        "626389",
+        "626885",
+        "627265",
+        "627717",
+        "628977",
+        "630255",
+        "630571",
+        "632845",
+        "634619",
+        "635569",
+        "636851",
+        "639695",
+        "642033",
+        "643193",
+        "643939",
+        "644737",
+        "645875",
+        "646505",
+        "646509",
+        "646977",
+        "647599",
+        "648027",
+        "648505",
+        "649019",
+        "649779",
+        "650405",
+        "651101",
+        "651241",
+        "652261",
+        "654023"
+      ],
+      "unlinked": [
+        "max_2955989_3aa5046bad30",
+        "max_2955991_3aa5046bad30",
+        "max_2961469_8f7d80635373",
+        "max_2961471_8f7d80635373"
+      ]
+    },
+    "18629": {
+      "added": [
+        "643651"
+      ],
+      "updated": [],
+      "unlinked": []
+    },
+    "18733": {
+      "added": [],
+      "updated": [
+        "628905",
+        "630089",
+        "630977",
+        "631041",
+        "631197",
+        "631585",
+        "631605",
+        "632685",
+        "634079",
+        "635083",
+        "635611",
+        "636603",
+        "638085",
+        "639465",
+        "640487",
+        "640525",
+        "641193",
+        "641235",
+        "641243",
+        "641293",
+        "641427",
+        "641489",
+        "641531",
+        "643111",
+        "644673",
+        "645335",
+        "645601",
+        "645607",
+        "646407",
+        "647295",
+        "647859",
+        "648125",
+        "649669",
+        "651755",
+        "652825",
+        "654071",
+        "654147",
+        "654957",
+        "656109",
+        "656321",
+        "657453",
+        "657559",
+        "658495",
+        "659615",
+        "661003",
+        "662021"
+      ],
+      "unlinked": [
+        "627755",
+        "665805"
+      ]
+    },
+    "18755": {
+      "added": [
+        "635353",
+        "644657"
+      ],
+      "updated": [],
+      "unlinked": []
+    },
+    "18873": {
+      "added": [
+        "649745"
+      ],
+      "updated": [],
+      "unlinked": []
+    },
+    "18929": {
+      "added": [],
+      "updated": [
+        "653963"
+      ],
+      "unlinked": []
+    }
+  },
+  "limitations": [
+    "Calls without measured audio duration remain unknown and are not eligible by default.",
+    "Summary token estimates use UTF-8 bytes/4 because the v1 summary tokenizer source was not present; do not compare token totals across versions."
+  ]
+}

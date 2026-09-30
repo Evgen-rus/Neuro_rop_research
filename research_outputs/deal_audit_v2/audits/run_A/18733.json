@@ -1,0 +1,147 @@
+{
+  "deal_id": "18733",
+  "deal_summary": "The view follows a request for a labeling machine for round glass jars, initially described in a manager worklog as four sizes and 1,000 units/hour. The customer reviewed the equipment and competitor alternatives, then added a fragile conical cup format that could not be tested on an unbuilt machine before the customer's seasonal deadline. The customer later changed that packaging to cylindrical cups, after which the parties completed contract revisions and signature steps; the customer reported payment had passed and the supplier said the project was sent to production. These are visible process events, not an inference about a terminal outcome label. [evidence: 0, 2, 4, 5, 8, 10, 11, 14, 16, 18, 21, 23, 24]",
+  "customer_need": {
+    "summary": "An automatic label applicator for round glass jars (100, 200, 350, and 750 ml) with a stated initial target of 1,000/hour; these initial specifications are recorded in a manager worklog. The customer subsequently explored labeling a fragile conical carton cup and asked for support, a test of actual packaging, and the option to expand the equipment. The final visible scope changed to glass and cylindrical packaging, including a cylindrical carton cup to avoid the conical-format issue. [evidence: 0, 2, 8, 10, 16, 19]",
+    "confidence": "medium"
+  },
+  "deal_dynamics": {
+    "early": "A manager worklog records the initial jar sizes, throughput, label type, and an acceptable-from-700k price expectation. The customer provided packaging photos and then scrutinized the proposal and video, asking about the sensor, container movement, printer, and conical-container handling. The customer said the quote had gone to leadership for review and welcomed a comparison with a competitor's offer. [evidence: 0, 1, 2, 3, 4, 5]",
+    "middle": "Leadership review was postponed while the customer's organization handled other legal-entity priorities. The customer still planned to buy a labeling machine, but had not yet selected an offer. A conical cup created the main technical gate: the customer worried the light packaging could be crushed, wanted a sample test, and needed equipment before the autumn peak; the supplier said the current machine could only be tested after manufacture and that a later retrofit would be uneconomic. [evidence: 6, 7, 8, 9, 10, 11]",
+    "late": "The customer raised contract and payment-risk questions with its lawyer and chairman. It then decided to replace the conical cup with cylindrical packaging to simplify supply and operation, and asked for the revised proposal and contract. The customer later reported that leadership approved purchase, discussed compatibility with the cylindrical carton cup, returned a signed contract, and reported payment had passed; the supplier said it was handing the project to production. [evidence: 14, 16, 17, 18, 19, 20, 21, 22, 23, 24]"
+  },
+  "customer_behavior": {
+    "positive_signals": [
+      "The customer sent packaging photos, reviewed the offer and video, and asked detailed questions about the sensor, container positioning, printer, and line configuration. [evidence: 1, 2]",
+      "The customer actively tried to validate fit for the fragile cup, including proposing a physical sample test rather than relying only on the demonstration video. [evidence: 10]",
+      "The customer involved leadership and legal reviewers, clarified a final packaging change, and explicitly said leadership had voted to acquire the equipment. [evidence: 14, 16, 18]",
+      "The customer returned a signed contract and later wrote that payment had passed; the supplier then said the project was sent to production. [evidence: 21, 23, 24]"
+    ],
+    "negative_signals": [
+      "Internal review and comparison dates moved more than once, including a delay while the customer's organization handled other priorities. This is a process dependency, not evidence of lack of interest. [evidence: 4, 6, 7]",
+      "Some required dimensions and questionnaire fields remained incomplete; the customer said they had not finished the form and had forgotten a label measurement. [evidence: 12]",
+      "The fragile conical cup remained an unresolved fit risk before manufacture, with a short seasonal window. The customer ultimately changed the package rather than obtaining a pre-purchase machine test. [evidence: 10, 11, 16]"
+    ],
+    "initiative": "The customer requested a comparison with competing equipment, proposed purchasing a sample for a real test, asked for written manufacturing timing and support terms, coordinated internal review, and chose a package change to remove the conical-cup issue. [evidence: 4, 8, 10, 12, 14, 16]",
+    "decision_process": "The customer's descriptions point to a multi-person decision involving production/management, a chairman or director, a lawyer, a reviewer named Maxim, and the person responsible for final signature/payment. The view does not establish a complete organization chart. [evidence: 6, 7, 14, 18, 20, 21, 22]"
+  },
+  "manager_behavior": {
+    "strong_actions": [
+      "The manager repeatedly requested packaging information, revised the offer when the customer added conical packaging, and discussed technical adjustments and pricing. [evidence: 1, 9]",
+      "The manager arranged a comparative review of the competitor proposal and explained the supplier's assessment as its own analysis rather than a verified independent test. [evidence: 4, 5]",
+      "The manager explained service and warranty terms and the possible future divider/marking additions when the customer asked what support would be available. [evidence: 8]",
+      "The manager clearly stated that the fragile-cup configuration could not be tested until the new equipment was manufactured and that adding the conical feature later would require substantial redesign. [evidence: 10, 11]",
+      "The manager used measurements from customer photos to help prepare the technical documents, coordinated legal review and revised contract terms, and confirmed the cylindrical cup could be labeled with adjustable roller pressure. [evidence: 13, 14, 17, 19]",
+      "After the customer reported payment, the manager acknowledged receipt of that information and said the project was being passed to production. [evidence: 23, 24]"
+    ],
+    "weak_actions": [
+      "A possible gap was the lack of a pre-purchase validation path for the fragile conical cup: the customer tied value to that feature, but the supplier could not test it on the unbuilt machine before manufacture. The customer later changed the packaging, so this does not establish avoidable manager error. [evidence: 10, 11, 16]"
+    ],
+    "follow_up_quality": "Follow-up was frequent and responsive across quote revisions, technical questions, legal review, and payment/signature steps. Several loops also reflected missing customer dimensions, mail in spam, and repeated internal approvals; the view does not assign all delay to either side. [evidence: 1, 9, 12, 13, 14, 17, 20, 21, 22]",
+    "next_step_control": "The customer and supplier established successive concrete steps: compare offers, resolve packaging fit, revise the contract, route it for signatures, arrange payment, and pass the project to production. The initial committee and legal review stages had shifting dates, while the visible final steps were completed in sequence. [evidence: 4, 6, 10, 14, 16, 17, 18, 20, 21, 22, 23, 24]"
+  },
+  "turning_points": [
+    {
+      "timestamp": "2026-07-28T13:13:22+03:00",
+      "description": "After reviewing the offer and video, the customer raised specific design questions about supporting conical containers and the printer, expanding the technical scope beyond the original jar application. [evidence: 2]",
+      "importance": "medium",
+      "evidence_indices": [2]
+    },
+    {
+      "timestamp": "2026-08-07T11:54:20+03:00",
+      "description": "The customer identified the conical cup as fragile, asked for a physical test, and said the machine was needed before the autumn season; the supplier said testing could only happen after manufacture. This made technical fit and lead time explicit gates. [evidence: 9, 10, 11]",
+      "importance": "high",
+      "evidence_indices": [9, 10, 11]
+    },
+    {
+      "timestamp": "2026-08-18T13:31:01+03:00",
+      "description": "The customer said its lawyer and chairman needed to decide how to handle the risk of paying for imported equipment before the conical-cup requirement was proven. [evidence: 14]",
+      "importance": "high",
+      "evidence_indices": [14]
+    },
+    {
+      "timestamp": "2026-08-26T12:25:46+03:00",
+      "description": "The customer decided to remove the conical packaging, use cylindrical formats instead, and revise the offer/contract around that simpler supply and operating plan. [evidence: 16, 17]",
+      "importance": "high",
+      "evidence_indices": [16, 17]
+    },
+    {
+      "timestamp": "2026-08-28T11:01:00+03:00",
+      "description": "The customer reported that leadership had voted to purchase and routed the contract to its reviewer for final edits. [evidence: 18]",
+      "importance": "high",
+      "evidence_indices": [18]
+    },
+    {
+      "timestamp": "2026-09-03T12:24:26+03:00",
+      "description": "The customer said its side had signed and sent the document, with the supplier's signature and payment still to follow. [evidence: 21]",
+      "importance": "high",
+      "evidence_indices": [21]
+    },
+    {
+      "timestamp": "2026-09-07T11:06:09+03:00",
+      "description": "The customer emailed that payment had passed; the supplier replied that it was sending the project to production. [evidence: 23, 24]",
+      "importance": "high",
+      "evidence_indices": [23, 24]
+    }
+  ],
+  "primary_trajectory_explanation": {
+    "category": "Technical fit risk addressed through a customer-led packaging change, followed by internal approvals",
+    "explanation": "The customer's interest in a labeling machine was visible early, but the conical cup introduced a product-fit risk that could not be proven on an unbuilt unit before the requested seasonal deadline. The customer's legal and management reviewers raised the commercial exposure; the customer then changed the conical packaging to cylindrical packaging, reducing that specific compatibility issue. Contract approval, signatures, payment, and the supplier's production handoff followed. Price comparison and customer-side review also affected timing. This explanation describes the visible sequence only and does not assign a terminal outcome label or claim a single cause. [evidence: 0, 2, 4, 5, 8, 10, 11, 14, 16, 18, 20, 21, 22, 23, 24]",
+    "controllability": "mixed",
+    "confidence": "medium",
+    "evidence_indices": [0, 2, 4, 5, 8, 10, 11, 14, 16, 18, 20, 21, 22, 23, 24]
+  },
+  "secondary_factors": [
+    "The original price/throughput/package data are from a manager worklog; later customer conversations corroborate the labeling-machine need but not every original specification. [evidence: 0, 8]",
+    "The supplier's competitor comparison was its own assessment of construction and performance; it was not an independent third-party test. [evidence: 4, 5]",
+    "The customer's seasonal deadline made the inability to test the fragile cup before manufacture more consequential. [evidence: 10, 11]",
+    "Package and label details changed while the customer coordinated with its own procurement, leadership, legal reviewers, and signer/payment authority. [evidence: 12, 14, 16, 18, 20, 22]",
+    "The last visible state is customer-reported payment completion followed by the supplier's production handoff. It does not independently verify later manufacturing or delivery. [evidence: 23, 24]"
+  ],
+  "manager_influence": {
+    "could_materially_improve": null,
+    "what_could_be_done": [
+      "When the conical format was added, document a go/no-go test plan and the exact limitation that the unit could only be tested after manufacture; offer the available choices explicitly: retain that risk, switch to cylindrical packaging, or delay until a test is possible. [evidence: 9, 10, 11, 16]",
+      "Use one packaging matrix and one open-items list for container dimensions, label lengths, sample availability, and contract fields, with named owners and dates. [evidence: 1, 12, 13, 14]",
+      "Keep a single dated approval/signature/payment checklist across the customer's leadership, lawyer, and authorized signer, so the next owner and expected date remain explicit. [evidence: 14, 18, 20, 21, 22]"
+    ],
+    "limits": [
+      "The equipment was not yet built, so the supplier could not demonstrate the exact conical-cup performance before manufacture; the customer ultimately changed the packaging instead. [evidence: 10, 11, 16]",
+      "The customer controlled package sourcing and internal decisions, and its legal and payment approvals involved several people. [evidence: 14, 16, 18, 20, 22]",
+      "The view cannot establish whether a different test arrangement or follow-up cadence would have materially changed timing or the customer's decision. [evidence: 10, 11, 16, 23]"
+    ]
+  },
+  "evidence": [
+    {"timestamp":"2026-07-23T00:00:00+03:00","event_type":"comment","event_id":"2910619","source_line":1,"paraphrase":"Manager worklog describes round glass jars in 100/200/350/750 ml sizes, a round self-adhesive label, 1,000 units/hour, quality of application as important, and a price from 700k as acceptable."},
+    {"timestamp":"2026-07-23T13:13:40+03:00","event_type":"email","event_id":"627981","source_line":4,"paraphrase":"Customer replied with the packaging information and said they would provide a photo with a measuring tape later."},
+    {"timestamp":"2026-07-28T13:13:22+03:00","event_type":"call_transcript","event_id":"631605","source_line":39,"paraphrase":"Customer reviewed the offer/video and asked about container stabilization for conical packaging, the line's container stop, and the printer price/type."},
+    {"timestamp":"2026-07-29T10:53:53+03:00","event_type":"call_transcript","event_id":"632685","source_line":44,"paraphrase":"Customer said the quoted amount had been sent to managers, who had not yet discussed it, and scheduled a follow-up after their review."},
+    {"timestamp":"2026-07-30T11:15:36+03:00","event_type":"call_transcript","event_id":"634079","source_line":48,"paraphrase":"Customer said leadership review had moved and offered to share another supplier's proposal for a comparison."},
+    {"timestamp":"2026-07-31T10:13:47+03:00","event_type":"email","event_id":"635189","source_line":54,"paraphrase":"Supplier sent its own comparison of the proposals, describing similar stated productivity but differences in conveyor length and construction."},
+    {"timestamp":"2026-07-31T13:15:16+03:00","event_type":"call_transcript","event_id":"635611","source_line":56,"paraphrase":"Customer said the project had not been discussed and other legal-entity priorities took precedence for the next few days."},
+    {"timestamp":"2026-08-03T13:24:57+03:00","event_type":"call_transcript","event_id":"636603","source_line":59,"paraphrase":"Customer said leadership planned to buy a labeling machine but had not yet chosen which offer."},
+    {"timestamp":"2026-08-06T12:14:48+03:00","event_type":"call_transcript","event_id":"640525","source_line":72,"paraphrase":"Customer reviewed a 650k labeling-machine offer, asked about technical support, service, warranty, and possible future divider/marking additions, and described the machine as important for the coming season."},
+    {"timestamp":"2026-08-07T10:18:23+03:00","event_type":"call_transcript","event_id":"641243","source_line":85,"paraphrase":"Supplier said adding the conical-container option would change the configuration and quoted 696k, then offered to provide an example video."},
+    {"timestamp":"2026-08-07T11:54:20+03:00","event_type":"call_transcript","event_id":"641489","source_line":92,"paraphrase":"Customer said the conical cup was fragile and proposed buying a sample for the supplier to test; the supplier said testing required the new machine to be manufactured. Customer said mid-September was needed for the season and that the price only made sense if the cup could be labeled."},
+    {"timestamp":"2026-08-07T12:36:55+03:00","event_type":"call_transcript","event_id":"641531","source_line":97,"paraphrase":"Supplier said the conical option could not be retrofitted economically; customer still asked for a draft including that option while discussing it internally."},
+    {"timestamp":"2026-08-10T12:38:20+03:00","event_type":"call_transcript","event_id":"643111","source_line":105,"paraphrase":"Customer said the questionnaire was incomplete because a label-height measurement was forgotten and requested the production timing in writing."},
+    {"timestamp":"2026-08-12T11:53:31+03:00","event_type":"call_transcript","event_id":"644673","source_line":117,"paraphrase":"Supplier said it used measurements from the customer's photos to populate the technical details; the parties clarified missing company-authority information and likely signing method."},
+    {"timestamp":"2026-08-18T13:31:01+03:00","event_type":"call_transcript","event_id":"648125","source_line":148,"paraphrase":"Customer said its lawyer wanted guidance from the chairman and raised the risk of paying for imported equipment before confirming it could label the conical cup."},
+    {"timestamp":"2026-08-24T11:23:54+03:00","event_type":"call_transcript","event_id":"651755","source_line":166,"paraphrase":"Customer confirmed seeing the supplier's label recommendation and asked whether the revised label dimensions had been fully checked for the application."},
+    {"timestamp":"2026-08-26T12:25:46+03:00","event_type":"call_transcript","event_id":"654071","source_line":174,"paraphrase":"Customer said it would stop using conical packaging, switch those products to cylindrical packaging, keep glass jars, and revise the offer/contract around the simpler format."},
+    {"timestamp":"2026-08-26T16:28:33+03:00","event_type":"email","event_id":"654495","source_line":181,"paraphrase":"Supplier sent a contract revised for the equipment configuration and payment conditions."},
+    {"timestamp":"2026-08-28T11:01:00+03:00","event_type":"call_transcript","event_id":"656109","source_line":191,"paraphrase":"Customer said its group had voted to purchase from the supplier and assigned contract edits to its reviewer."},
+    {"timestamp":"2026-08-31T12:47:48+03:00","event_type":"call_transcript","event_id":"657559","source_line":202,"paraphrase":"Customer asked whether a cylindrical cardboard cup could be labeled with an ordinary label; supplier said roller pressure could be adjusted and confirmed compatibility."},
+    {"timestamp":"2026-09-02T10:19:09+03:00","event_type":"call_transcript","event_id":"659615","source_line":214,"paraphrase":"Customer said the documents were in the signature/payment process, with final authorization dependent on the chairman and the person handling signature/payment."},
+    {"timestamp":"2026-09-03T12:24:26+03:00","event_type":"call_transcript","event_id":"661003","source_line":218,"paraphrase":"Customer said its side had signed and sent the contract; supplier said its own signature would be obtained before payment proceeded."},
+    {"timestamp":"2026-09-04T11:43:43+03:00","event_type":"call_transcript","event_id":"662021","source_line":224,"paraphrase":"Customer did not yet know whether payment would be made that day or the following week and planned to ask the director."},
+    {"timestamp":"2026-09-07T10:52:01+03:00","event_type":"email","event_id":"662983","source_line":225,"paraphrase":"Customer emailed that payment had passed."},
+    {"timestamp":"2026-09-07T11:06:09+03:00","event_type":"email","event_id":"662995","source_line":226,"paraphrase":"Supplier acknowledged the payment update and said it was sending the project to production for launch."}
+  ],
+  "uncertainties": [
+    "Initial jar sizes, throughput, and price acceptability are from a manager worklog; the later direct conversations do not independently restate every initial detail. [evidence: 0]",
+    "The exact performance of the machine on the fragile conical cup was never observed in this view, because the supplier said testing required manufacture and the customer changed that packaging. [evidence: 10, 11, 16]",
+    "Customer statements report payment completion and a supplier production handoff, but the view does not show later manufacturing, delivery, or operating performance. [evidence: 23, 24]",
+    "The view shows multiple internal reviewers and approval steps but cannot quantify their individual effect on timing. [evidence: 6, 14, 18, 20, 22]"
+  ]
+}
