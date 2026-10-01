@@ -1,10 +1,10 @@
 {
-  "status": "BLOCKED_SOURCE_POLICY_DECISION",
+  "status": "USER_APPROVED_QUARANTINE_APPLIED_QC_PASS",
   "scope": "Five mutable manager worklogs with conflicting inferred calendar years",
   "affected_deal_count": 5,
   "affected_entry_count": 144,
   "native_rule": "Endpoint year inferred from comment CREATED, then Dec/Jan rollover; no captured modification timestamp",
-  "semantic_audits_paused": true,
+  "semantic_audits_paused": false,
   "outcomes_revealed": false,
   "local_version_search": {
     "status": "COMPLETE_NO_HISTORICAL_PROOF",
@@ -23,7 +23,7 @@
     {"deal_id":"6695","worklog_id":"2449263","entry_count":15,"recorded_at":"2025-12-19T16:53:40+03:00","parsed_start":"2024-12-19","parsed_end":"2025-01-23","raw_context_sha256":"9beb6577aa0cc28b69990b0a4c098218f60c15a63b3eb3d2a4c259d1088ecd14"}
   ],
   "proposed_fallback_if_no_versioned_evidence": {
-    "status": "NOT_APPLIED",
+    "status": "APPLIED_REBUILD_COMPLETE_INDEPENDENT_QC_PASS",
     "action": "Quarantine only these five manager-worklog sources from blind inputs",
     "preserve": ["raw source files", "all cohort 50 IDs", "customer calls/emails/messages/tasks", "baseline datasets and audits"],
     "do_not": ["guess or silently shift years", "replace cohort deals", "let exposed workers audit these five deals"],

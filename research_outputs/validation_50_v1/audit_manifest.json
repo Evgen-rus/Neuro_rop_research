@@ -6,15 +6,15 @@
   "deals": [
     {
       "approx_tokens": {
-        "original": 104819,
-        "view": 105045
+        "original": 96740,
+        "view": 96737
       },
       "deal_id": "5293",
       "inputs": {
         "clean_timeline.jsonl": {
-          "approx_tokens": 104819,
-          "bytes": 419276,
-          "sha256": "847f1658b942cad3085f793c04d33d64a4e31451cbf59c47ab060636ebebb4b9"
+          "approx_tokens": 96740,
+          "bytes": 386959,
+          "sha256": "09f287b50e99122f85a398bf3afed537d5b999984bac88a1a123f4ff0898c3f7"
         },
         "neutral.json": {
           "approx_tokens": 73,
@@ -23,7 +23,7 @@
         }
       },
       "issues": [],
-      "original_event_count": 271,
+      "original_event_count": 220,
       "removed_categories": {
         "crm_stage_change": 13,
         "metadata_only_call_shell": 0,
@@ -35,23 +35,23 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 420177,
+        "bytes": 386947,
         "path": "views/5293.jsonl",
-        "sha256": "12c7e999ee9b3717e92c8dd0d5c343e8b08c30a45113a48d5569df598a0f0d86"
+        "sha256": "38beb2364e593a62811e8fbc38393113264884dc57ff4ad94218799861163534"
       },
-      "view_event_count": 258
+      "view_event_count": 207
     },
     {
       "approx_tokens": {
-        "original": 23231,
-        "view": 23123
+        "original": 18692,
+        "view": 18458
       },
       "deal_id": "6351",
       "inputs": {
         "clean_timeline.jsonl": {
-          "approx_tokens": 23231,
-          "bytes": 92922,
-          "sha256": "e78260e9700e966b6b24ef85fc8549a492ddc04ff93e250e6cb150c62e461af6"
+          "approx_tokens": 18692,
+          "bytes": 74767,
+          "sha256": "3bbc7d7c9a617d23e09d97fb4894aae4875abd783dd72bf1b0a49d5c671d4125"
         },
         "neutral.json": {
           "approx_tokens": 73,
@@ -60,7 +60,7 @@
         }
       },
       "issues": [],
-      "original_event_count": 97,
+      "original_event_count": 67,
       "removed_categories": {
         "crm_stage_change": 7,
         "metadata_only_call_shell": 0,
@@ -72,11 +72,11 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 92490,
+        "bytes": 73829,
         "path": "views/6351.jsonl",
-        "sha256": "a83ceb1677835895f10d13b83d58231448e020022392d5712934c9415168f1c6"
+        "sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8"
       },
-      "view_event_count": 90
+      "view_event_count": 60
     },
     {
       "approx_tokens": {
@@ -196,15 +196,15 @@
     },
     {
       "approx_tokens": {
-        "original": 32550,
-        "view": 32518
+        "original": 29221,
+        "view": 29096
       },
       "deal_id": "6673",
       "inputs": {
         "clean_timeline.jsonl": {
-          "approx_tokens": 32550,
-          "bytes": 130200,
-          "sha256": "17c06b47b21723aea90632f89eb5c8db8818e0c1986414804c4164428309a074"
+          "approx_tokens": 29221,
+          "bytes": 116881,
+          "sha256": "4ee71b63d136a282f1021dc2beeaf84548fac757df3c339ca79933843d877f4e"
         },
         "neutral.json": {
           "approx_tokens": 69,
@@ -213,7 +213,7 @@
         }
       },
       "issues": [],
-      "original_event_count": 80,
+      "original_event_count": 58,
       "removed_categories": {
         "crm_stage_change": 5,
         "metadata_only_call_shell": 0,
@@ -225,11 +225,11 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 130070,
+        "bytes": 116381,
         "path": "views/6673.jsonl",
-        "sha256": "08bd324edc5f04286aa62953538a4ea6c23330dc74d4b8bbd6a76723018fc026"
+        "sha256": "ba946a20fb57f3cf2f5d92f38a8148bdcf5ccda1ffec3d99320a8efe69f599b9"
       },
-      "view_event_count": 75
+      "view_event_count": 53
     },
     {
       "approx_tokens": {
@@ -270,15 +270,15 @@
     },
     {
       "approx_tokens": {
-        "original": 25982,
-        "view": 25370
+        "original": 22436,
+        "view": 21714
       },
       "deal_id": "6693",
       "inputs": {
         "clean_timeline.jsonl": {
-          "approx_tokens": 25982,
-          "bytes": 103926,
-          "sha256": "c911fcc878efd1a177e8c6ee22b126a952cd3bd3ec235bd0bd8ab139c5c6401a"
+          "approx_tokens": 22436,
+          "bytes": 89743,
+          "sha256": "9e15e5f0a97550a3c72d0d59056a8ea5c95787dffde1920a70ae59104a04d9e2"
         },
         "neutral.json": {
           "approx_tokens": 69,
@@ -287,7 +287,7 @@
         }
       },
       "issues": [],
-      "original_event_count": 84,
+      "original_event_count": 58,
       "removed_categories": {
         "crm_stage_change": 13,
         "metadata_only_call_shell": 0,
@@ -299,23 +299,23 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 101480,
+        "bytes": 86855,
         "path": "views/6693.jsonl",
-        "sha256": "765b218931f95939dc763448fe937b247ee3cd70230e55450ab8339752e51db1"
+        "sha256": "94392e53224eca111a9d2f32e31cff60b8261d85e94666050095f762215f315f"
       },
-      "view_event_count": 71
+      "view_event_count": 45
     },
     {
       "approx_tokens": {
-        "original": 12413,
-        "view": 11771
+        "original": 10348,
+        "view": 9644
       },
       "deal_id": "6695",
       "inputs": {
         "clean_timeline.jsonl": {
-          "approx_tokens": 12413,
-          "bytes": 49649,
-          "sha256": "e95a49ad4414e3e67796753f00c9c2cf883aca53eeca22ff8c2bc2d554c93830"
+          "approx_tokens": 10348,
+          "bytes": 41392,
+          "sha256": "5785ee865efddbd7ba84d2251d902665e85f03a598af465deb65a385760fc67d"
         },
         "neutral.json": {
           "approx_tokens": 70,
@@ -324,7 +324,7 @@
         }
       },
       "issues": [],
-      "original_event_count": 77,
+      "original_event_count": 62,
       "removed_categories": {
         "crm_stage_change": 13,
         "metadata_only_call_shell": 0,
@@ -336,11 +336,11 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 47084,
+        "bytes": 38575,
         "path": "views/6695.jsonl",
-        "sha256": "6b6d00fb6f2f16a35c9d58ad34af6b07eaa4e45de196f5459e37d21df420021d"
+        "sha256": "25511cb6661cc33a53613e6deb9e045591499d967e5392609679176b2257d2eb"
       },
-      "view_event_count": 64
+      "view_event_count": 49
     },
     {
       "approx_tokens": {
@@ -1872,11 +1872,12 @@
     "Remove all structured stage_change events and empty call metadata shells.",
     "Preserve same-day events, other event text, IDs, metadata, and input row order; add 1-based physical source_line.",
     "Validation source events at or after the final terminal stage timestamp were excluded before writing clean_timeline.jsonl.",
-    "Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged."
+    "Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged.",
+    "The five chronology-conflicted mutable manager worklogs in worklog_quarantine_policy.json (sha256 1e256f955083b1b9c0a42826440fd188cf93764ec0db05102dd8916766dc1a22) are excluded by exact deal/worklog ID and raw-context SHA-256. Their parsed entries and normalized copies of their source comments are excluded; raw sources and unrelated communications are retained."
   ],
   "totals": {
-    "original_approx_tokens": 4033043,
-    "original_event_count": 3673,
+    "original_approx_tokens": 4011485,
+    "original_event_count": 3529,
     "removed:crm_stage_change": 413,
     "removed:metadata_only_call_shell": 0,
     "removed:neutral_lifecycle_event": 0,
@@ -1884,8 +1885,8 @@
     "removed:terminal_marker": 1,
     "removed_content_segment_count": 2,
     "removed_event_count": 499,
-    "view_approx_tokens": 3959402,
-    "view_event_count": 3174
+    "view_approx_tokens": 3937224,
+    "view_event_count": 3030
   },
   "version": "1.0"
 }

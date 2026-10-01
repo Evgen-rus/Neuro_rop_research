@@ -236,6 +236,21 @@ def validate_phase(
         errors.append("audit_schema.json hash differs from input freeze")
     if input_freeze.get("audit_manifest_sha256") != digest(files["audit_manifest"]):
         errors.append("audit_manifest.json hash differs from input freeze")
+    if "worklog_quarantine_policy_sha256" in input_freeze:
+        try:
+            policy_raw = (root / "worklog_quarantine_policy.json").read_bytes()
+        except OSError as exc:
+            errors.append(f"worklog quarantine policy: cannot read ({type(exc).__name__})")
+        else:
+            if digest(policy_raw) != input_freeze["worklog_quarantine_policy_sha256"]:
+                errors.append("worklog quarantine policy hash differs from input freeze")
+            try:
+                policy = json.loads(policy_raw.decode("utf-8-sig"))
+            except (UnicodeDecodeError, json.JSONDecodeError):
+                errors.append("worklog quarantine policy is invalid JSON")
+            else:
+                if not isinstance(policy, dict) or policy.get("user_approved") is not True:
+                    errors.append("worklog quarantine policy is not user-approved")
 
     if manifest.get("complete") is not True or manifest.get("blind_to_outcome") is not True:
         errors.append("audit_manifest.json is not complete and outcome-blind")
@@ -454,9 +469,20 @@ def self_check() -> None:
             "deals": frozen_rows,
         }
         (root / "input_freeze.json").write_text(json.dumps(input_freeze), encoding="utf-8")
+        policy_raw = json.dumps({"user_approved": True}).encode("utf-8")
+        (root / "worklog_quarantine_policy.json").write_bytes(policy_raw)
+        input_freeze["worklog_quarantine_policy_sha256"] = digest(policy_raw)
+        (root / "input_freeze.json").write_text(json.dumps(input_freeze), encoding="utf-8")
         first_freeze = root / "primary_freeze.json"
         passed = validate_phase("primary", root, first_freeze)
         assert passed["status"] == "PASS", passed["errors"][:3]
+        (root / "worklog_quarantine_policy.json").write_text('{"user_approved": false}', encoding="utf-8")
+        policy_changed = validate_phase("primary", root)
+        assert policy_changed["status"] == "FAIL" and any("worklog quarantine policy hash" in item for item in policy_changed["errors"])
+        (root / "worklog_quarantine_policy.json").unlink()
+        policy_missing = validate_phase("primary", root)
+        assert policy_missing["status"] == "FAIL" and any("worklog quarantine policy: cannot read" in item for item in policy_missing["errors"])
+        (root / "worklog_quarantine_policy.json").write_bytes(policy_raw)
         frozen_bytes = first_freeze.read_bytes()
         overwritten = validate_phase("primary", root, first_freeze)
         assert overwritten["status"] == "FAIL" and first_freeze.read_bytes() == frozen_bytes

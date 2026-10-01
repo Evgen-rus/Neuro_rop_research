@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "user_approved": true,
+  "scope": "Exclude only five chronology-conflicted mutable manager worklogs from blind inputs; preserve all raw sources, cohort IDs and other communications",
+  "reason": "Unverified inferred years and no captured edit/version history; source chronology can expose terminal information",
+  "sources": [
+    {"deal_id":"5293","worklog_id":"2256255","raw_context_sha256":"a4c75a885a5029197f35f1fce2ec5767bfc7e634eb8e1aa2a22ca6e14763799a"},
+    {"deal_id":"6351","worklog_id":"2385479","raw_context_sha256":"a9fe7e5ce0138777d29eff605c1d14ef0f29926be28d44287ebed5b374448544"},
+    {"deal_id":"6673","worklog_id":"2444709","raw_context_sha256":"30899740cc0cf9f5781bff60cc569b3ca62ac02c2361c378a554ee503fa81f8f"},
+    {"deal_id":"6693","worklog_id":"2449053","raw_context_sha256":"2141494c7231bf68a3ecb5cd7f9cd3d6f3eb76801c9ba26c8c5ed2888143fea9"},
+    {"deal_id":"6695","worklog_id":"2449263","raw_context_sha256":"9beb6577aa0cc28b69990b0a4c098218f60c15a63b3eb3d2a4c259d1088ecd14"}
+  ]
+}

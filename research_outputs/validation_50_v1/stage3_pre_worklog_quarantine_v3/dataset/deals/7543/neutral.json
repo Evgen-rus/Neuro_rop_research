@@ -1,0 +1,12 @@
+{
+  "deal_id": "7543",
+  "created_at": "2026-04-17T10:59:22+03:00",
+  "life_days": 7,
+  "pipeline_id": "15",
+  "amount": "1453000.00",
+  "currency": "RUB",
+  "source_id": "CALL",
+  "source_description": "Звонок поступил на номер: [PHONE REDACTED].",
+  "repeat_customer": "N",
+  "repeated_approach": "N"
+}

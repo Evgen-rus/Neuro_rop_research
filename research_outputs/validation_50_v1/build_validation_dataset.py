@@ -18,6 +18,7 @@ os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "research_outputs" / "validation_50_v1"
+WORKLOG_QUARANTINE_POLICY = OUT / "worklog_quarantine_policy.json"
 RAW_DIR = OUT / "_private" / "raw"
 PRIVATE_AUDIO_DIR = OUT / "_private" / "audio"
 DATASET_DIR = OUT / "dataset"
@@ -53,6 +54,43 @@ def read_json(path: Path):
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def load_worklog_quarantine_policy() -> tuple[dict[str, dict[str, str]], str]:
+    raw = WORKLOG_QUARANTINE_POLICY.read_bytes()
+    policy = json.loads(raw.decode("utf-8-sig"))
+    if not isinstance(policy, dict):
+        raise ValueError("worklog quarantine policy must be an object")
+    sources = policy.get("sources")
+    if policy.get("version") != 1 or policy.get("user_approved") is not True or not isinstance(sources, list) or len(sources) != 5:
+        raise ValueError("worklog quarantine policy is missing approval or does not contain exactly five sources")
+    by_deal, seen_worklog_ids = {}, set()
+    for source in sources:
+        if not isinstance(source, dict) or set(source) != {"deal_id", "worklog_id", "raw_context_sha256"}:
+            raise ValueError("worklog quarantine policy source schema is invalid")
+        deal_id, worklog_id, raw_hash = (source[key] for key in ("deal_id", "worklog_id", "raw_context_sha256"))
+        if not isinstance(deal_id, str) or not deal_id.isdigit() or not isinstance(worklog_id, str) or not worklog_id.isdigit() or not isinstance(raw_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", raw_hash):
+            raise ValueError("worklog quarantine policy contains an invalid deal, worklog, or raw hash")
+        if deal_id in by_deal or worklog_id in seen_worklog_ids:
+            raise ValueError("worklog quarantine policy contains duplicate source identities")
+        by_deal[deal_id] = {worklog_id: raw_hash}
+        seen_worklog_ids.add(worklog_id)
+    return by_deal, sha256(raw)
+
+
+def validate_worklog_quarantine(raw: dict, deal_id: str, raw_context_sha256: str, sources: dict[str, str]) -> set[str]:
+    if not sources:
+        return set()
+    if any(expected_hash != raw_context_sha256 for expected_hash in sources.values()):
+        raise ValueError(f"raw context hash does not match worklog quarantine policy for deal {deal_id}")
+    rows = raw.get("manager_worklogs")
+    if not isinstance(rows, list):
+        raise ValueError("manager_worklogs must be a list")
+    for worklog_id in sources:
+        matches = [row for row in rows if isinstance(row, dict) and str(row.get("comment_id") or "").strip() == worklog_id]
+        if len(matches) != 1 or not isinstance(matches[0].get("entries"), list) or not matches[0]["entries"]:
+            raise ValueError(f"quarantined manager worklog {worklog_id} is missing or ambiguous in deal {deal_id}")
+    return set(sources)
 
 
 def parse_timestamp(value: str) -> datetime:
@@ -198,7 +236,7 @@ def raw_source_maps(raw: dict, normalizer) -> tuple[dict[str, dict], dict[str, d
     return activities, comments
 
 
-def communication_event(row: dict, activities: dict, comments: dict, normalizer, worklog_ids: set[str]) -> dict | None:
+def communication_event(row: dict, activities: dict, comments: dict, normalizer, worklog_ids: set[str], quarantined_worklog_ids: set[str] | None = None) -> dict | None:
     source_type = str(row.get("source_type") or "")
     channel = str(row.get("channel") or "").lower()
     if source_type == "crm_activity" and channel in {"call", "email", "message", "task"}:
@@ -212,6 +250,12 @@ def communication_event(row: dict, activities: dict, comments: dict, normalizer,
 
     source_values = row.get("source_ids") if isinstance(row.get("source_ids"), list) else []
     source_ids = list(dict.fromkeys(str(value).strip() for value in source_values if str(value).strip()))
+    if source_type == "crm_timeline_comment" and quarantined_worklog_ids:
+        quarantined_ids = set(source_ids) & quarantined_worklog_ids
+        if quarantined_ids and len(quarantined_ids) != len(source_ids):
+            raise ValueError("normalized timeline comment merges a quarantined worklog with other source records")
+        if quarantined_ids:
+            return None
     source_id = source_ids[0] if source_ids else ""
     if not source_id:
         raise ValueError("normalized communication has no source record id")
@@ -289,11 +333,13 @@ def wrapped_items(value) -> list[dict]:
     return []
 
 
-def manager_worklog_events(raw: dict, normalizer, cutoff: datetime) -> tuple[list[dict], set[str], int]:
+def manager_worklog_events(raw: dict, normalizer, cutoff: datetime, quarantined_worklog_ids: set[str] | None = None) -> tuple[list[dict], set[str], int, set[str], int]:
     rows = raw.get("manager_worklogs") or []
     if not isinstance(rows, list):
         raise ValueError("manager_worklogs must be a list")
-    output, ids, post_terminal = [], set(), 0
+    quarantined_worklog_ids = quarantined_worklog_ids or set()
+    output, ids, post_terminal, quarantined_ids = [], set(), 0, set()
+    quarantined_entries = 0
     for worklog in rows:
         if not isinstance(worklog, dict) or not isinstance(worklog.get("entries"), list):
             raise ValueError("manager worklog does not match the saved parser schema")
@@ -303,6 +349,12 @@ def manager_worklog_events(raw: dict, normalizer, cutoff: datetime) -> tuple[lis
         if not comment_id:
             raise ValueError("manager worklog is missing its source comment id")
         ids.add(comment_id)
+        if comment_id in quarantined_worklog_ids:
+            if comment_id in quarantined_ids:
+                raise ValueError(f"manager worklog {comment_id} appears more than once")
+            quarantined_ids.add(comment_id)
+            quarantined_entries += len(worklog["entries"])
+            continue
         if not before_cutoff(recorded_at, cutoff):
             post_terminal += 1
             continue
@@ -330,7 +382,10 @@ def manager_worklog_events(raw: dict, normalizer, cutoff: datetime) -> tuple[lis
                     "evidence_class": "manager_claim",
                 },
             })
-    return output, ids, post_terminal
+    if quarantined_ids != quarantined_worklog_ids:
+        missing = sorted(quarantined_worklog_ids - quarantined_ids)
+        raise ValueError(f"quarantined manager worklogs were not found: {', '.join(missing)}")
+    return output, ids, post_terminal, quarantined_ids, quarantined_entries
 
 
 def task_records(raw: dict):
@@ -592,7 +647,7 @@ def max_voice_transcript_event(activity_id: str, source: dict, voice: dict, mess
     }
 
 
-def prepare_deal(deal_id: str, raw_path: Path, normalizer) -> tuple[dict, list[dict], dict]:
+def prepare_deal(deal_id: str, raw_path: Path, normalizer, quarantine_sources: dict[str, str] | None = None) -> tuple[dict, list[dict], dict]:
     raw_bytes = raw_path.read_bytes()
     raw = json.loads(raw_bytes.decode("utf-8-sig"))
     if str(raw.get("deal_id") or "") != deal_id:
@@ -600,7 +655,10 @@ def prepare_deal(deal_id: str, raw_path: Path, normalizer) -> tuple[dict, list[d
     item = deal_item(raw)
     created_at, cutoff, life_days, history, terminal_count, reopened = lifecycle_boundary(raw)
     activities, comments = raw_source_maps(raw, normalizer)
-    worklogs, worklog_ids, post_terminal_worklogs = manager_worklog_events(raw, normalizer, cutoff)
+    quarantined_worklog_ids = validate_worklog_quarantine(raw, deal_id, sha256(raw_bytes), quarantine_sources or {})
+    worklogs, worklog_ids, post_terminal_worklogs, quarantined_ids, quarantined_entries = manager_worklog_events(
+        raw, normalizer, cutoff, quarantined_worklog_ids,
+    )
     events = list(worklogs)
     calls = {}
     normalized_communications = normalizer.build_deal_normalized_communications(raw)
@@ -616,7 +674,7 @@ def prepare_deal(deal_id: str, raw_path: Path, normalizer) -> tuple[dict, list[d
                     if previous and previous != owner:
                         raise ValueError(f"conflicting owner for source timeline comment {comment_id}")
                     comment_owners[comment_id] = owner
-        event = communication_event(row, activities, comments, normalizer, worklog_ids)
+        event = communication_event(row, activities, comments, normalizer, worklog_ids, quarantined_ids)
         if event is None:
             continue
         events.append(event)
@@ -726,6 +784,12 @@ def prepare_deal(deal_id: str, raw_path: Path, normalizer) -> tuple[dict, list[d
         "event_count": len(kept),
         "event_type_counts": dict(sorted(Counter(event["event_type"] for event in kept).items())),
     }
+    if quarantined_ids:
+        quality["manager_worklog_quarantine"] = {
+            "worklog_ids": sorted(quarantined_ids, key=int),
+            "entries_excluded": quarantined_entries,
+            "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        }
     return neutral, kept, quality
 
 
@@ -745,7 +809,7 @@ def verify_gate() -> bytes:
     return raw
 
 
-def deal_quality_record(deal_id: str, completeness: dict) -> dict:
+def deal_quality_record(deal_id: str, completeness: dict, source_quality: dict | None = None) -> dict:
     rows = completeness.get("deals") if isinstance(completeness, dict) else None
     if not isinstance(rows, list):
         raise ValueError("completeness deals must be a list")
@@ -764,7 +828,7 @@ def deal_quality_record(deal_id: str, completeness: dict) -> dict:
     result = {
         "deal_id": deal_id,
         "calls": calls,
-        "limitations": limitations if isinstance(limitations, list) else [],
+        "limitations": list(limitations) if isinstance(limitations, list) else [],
         "call_data_limitations": call_limitations if isinstance(call_limitations, list) else [],
         "data_quality": row.get("data_quality"),
         "sources": sources,
@@ -777,6 +841,10 @@ def deal_quality_record(deal_id: str, completeness: dict) -> dict:
         if not isinstance(voice_limitations, list):
             raise ValueError(f"completeness max_voice_data_limitations must be a list for deal {deal_id}")
         result["max_voice_data_limitations"] = voice_limitations
+    quarantine = (source_quality or {}).get("manager_worklog_quarantine")
+    if quarantine:
+        result["manager_worklog_quarantine"] = quarantine
+        result["limitations"].append(quarantine["limitation"])
     return result
 
 
@@ -845,6 +913,9 @@ def main() -> int:
             raise FileNotFoundError(f"required audit artifact is missing: {path.name}")
     schema_bytes, contract_bytes, view_builder_bytes = SCHEMA.read_bytes(), CONTRACT.read_bytes(), V1_VIEW_BUILDER.read_bytes()
     ids, labels = cohort_records()
+    quarantine_sources, quarantine_policy_sha256 = load_worklog_quarantine_policy()
+    if set(quarantine_sources) - set(ids):
+        raise ValueError("worklog quarantine policy names deals outside the validation cohort")
     baseline_dir = ROOT / "dataset" / "deals"
     if not baseline_dir.is_dir():
         raise FileNotFoundError("baseline deal directory is unavailable for overlap check")
@@ -860,17 +931,17 @@ def main() -> int:
 
     normalizer = load_communication_normalizer()
     prepared = {
-        deal_id: prepare_deal(deal_id, source_paths[deal_id], normalizer)
+        deal_id: prepare_deal(deal_id, source_paths[deal_id], normalizer, quarantine_sources.get(deal_id))
         for deal_id in ids
     }
     builder = load_view_builder()
     builder_source_bytes = Path(__file__).read_bytes()
 
-    for deal_id, (neutral, events, _) in prepared.items():
+    for deal_id, (neutral, events, source_quality) in prepared.items():
         folder = DEALS_DIR / deal_id
         folder.mkdir(parents=True)
         (folder / "neutral.json").write_text(json.dumps(neutral, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        quality = deal_quality_record(deal_id, completeness_data)
+        quality = deal_quality_record(deal_id, completeness_data, source_quality)
         (folder / "quality.json").write_text(json.dumps(quality, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         timeline = b"".join(
             (json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
@@ -889,6 +960,7 @@ def main() -> int:
     manifest["blind_to_outcome"] = True
     manifest["filter_policy"].append("Validation source events at or after the final terminal stage timestamp were excluded before writing clean_timeline.jsonl.")
     manifest["filter_policy"].append("Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged.")
+    manifest["filter_policy"].append(f"The five chronology-conflicted mutable manager worklogs in {WORKLOG_QUARANTINE_POLICY.name} (sha256 {quarantine_policy_sha256}) are excluded by exact deal/worklog ID and raw-context SHA-256. Their parsed entries and normalized copies of their source comments are excluded; raw sources and unrelated communications are retained.")
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     dataset_manifest_path = DATASET_DIR / "manifest.json"
@@ -926,6 +998,7 @@ def main() -> int:
         "deal_count": len(ids),
         "baseline_overlap_count": 0,
         "completeness_sha256": sha256(gate_bytes),
+        "worklog_quarantine_policy_sha256": quarantine_policy_sha256,
         "dataset_manifest_sha256": sha256(dataset_manifest_path.read_bytes()),
         "summary_sha256": sha256(summary_path.read_bytes()),
         "build_quality_sha256": sha256(quality_path.read_bytes()),
@@ -1009,19 +1082,24 @@ def self_check() -> None:
     assert len(chat) == 1 and chat[0]["event_id"] == "task_chat:41:msg-8"
     assert chat[0]["metadata"]["author_id"] == "6" and chat[0]["direction"] is None
 
-    quality = deal_quality_record("123", {"deals": [{
+    completeness_row = {
         "deal_id": "123", "calls": {"eligible_calls_ge_36": 2},
         "limitations": ["missing transcript"], "call_data_limitations": [],
         "data_quality": "partial", "sources": {"call_audio_manifest": "ok", "max_voice_manifest": "ok"},
         "max_voice": {"total_messages": 3, "messages_with_transcript": 1},
         "max_voice_data_limitations": ["2 unavailable messages"],
         "outcome": "WON", "stage_semantic_id": "S", "close_date": "2026-01-02",
-    }]})
+    }
+    quarantine_quality = {"worklog_ids": ["44"], "entries_excluded": 1, "limitation": "Chronology-conflicted worklog excluded"}
+    quality = deal_quality_record("123", {"deals": [completeness_row]}, {"manager_worklog_quarantine": quarantine_quality})
     assert quality["max_voice"] == {"total_messages": 3, "messages_with_transcript": 1}
     assert quality["max_voice_data_limitations"] == ["2 unavailable messages"]
     assert quality["sources"]["max_voice_manifest"] == "ok"
+    assert quality["manager_worklog_quarantine"] == quarantine_quality
+    assert quality["limitations"] == ["missing transcript", "Chronology-conflicted worklog excluded"]
+    assert completeness_row["limitations"] == ["missing transcript"]
     assert "max_voice" not in quality["calls"]
-    assert set(quality) == {"deal_id", "calls", "limitations", "call_data_limitations", "data_quality", "sources", "max_voice", "max_voice_data_limitations"}
+    assert set(quality) == {"deal_id", "calls", "limitations", "call_data_limitations", "data_quality", "sources", "max_voice", "max_voice_data_limitations", "manager_worklog_quarantine"}
     assert "outcome" not in quality and "stage_semantic_id" not in quality and "close_date" not in quality
 
     cutoff = parse_timestamp("2026-01-02T10:00:00+03:00")
@@ -1029,11 +1107,43 @@ def self_check() -> None:
         "comment_id": "44", "bitrix_created_at": "2026-01-01T12:00:00+03:00", "author_id": "8",
         "entries": [{"entry_date": "2026-01-01", "date_raw": "01.01", "year_inferred": True, "text": "Manager claim"}],
     }]}
-    worklogs, ids, post_cutoff = manager_worklog_events(raw, normalizer, cutoff)
+    worklogs, ids, post_cutoff, quarantined_ids, quarantined_entries = manager_worklog_events(raw, normalizer, cutoff)
     assert ids == {"44"} and post_cutoff == 0
+    assert quarantined_ids == set() and quarantined_entries == 0
     assert worklogs[0]["event_type"] == "comment" and worklogs[0]["source"] == "manager_worklog"
     assert worklogs[0]["timestamp"] == "2026-01-01T00:00:00+03:00"
     assert worklogs[0]["metadata"]["worklog_recorded_at"] == raw["manager_worklogs"][0]["bitrix_created_at"]
+    raw_hash = sha256(json.dumps(raw, separators=(",", ":")).encode("utf-8"))
+    assert validate_worklog_quarantine(raw, "123", raw_hash, {"44": raw_hash}) == {"44"}
+    quarantined, excluded_ids, post_cutoff, quarantined_ids, quarantined_entries = manager_worklog_events(raw, normalizer, cutoff, {"44"})
+    assert not quarantined and excluded_ids == {"44"} and post_cutoff == 0
+    assert quarantined_ids == {"44"} and quarantined_entries == 1
+    try:
+        validate_worklog_quarantine(raw, "123", raw_hash + "0", {"44": raw_hash})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("quarantine must fail closed when the raw-context hash changes")
+    try:
+        validate_worklog_quarantine(raw, "123", raw_hash, {"45": raw_hash})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("quarantine must fail closed when the source worklog ID is absent")
+
+    try:
+        communication_event({
+            "event_id": "crm_timeline_comment:98", "source_ids": ["98", "44"],
+            "occurred_at": "2026-01-01T11:00:00+03:00", "source_type": "crm_timeline_comment", "channel": "message",
+        }, {}, {"98": {"COMMENT": "Other communication"}, "44": {"COMMENT": "Quarantined manager comment"}}, normalizer, {"44"}, {"44"})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("mixed normalized source IDs must fail closed")
+    assert communication_event({
+        "event_id": "crm_timeline_comment:44", "source_ids": ["44"],
+        "occurred_at": "2026-01-01T11:00:00+03:00", "source_type": "crm_timeline_comment", "channel": "message",
+    }, {}, {"44": {"COMMENT": "Quarantined manager comment"}}, normalizer, {"44"}, {"44"}) is None
 
     raw = {
         "deal": {"item": {"DATE_CREATE": "2026-01-01T10:00:00+03:00"}},

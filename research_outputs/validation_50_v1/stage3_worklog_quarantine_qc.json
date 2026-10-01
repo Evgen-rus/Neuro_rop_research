@@ -1,0 +1,75 @@
+{
+  "verdict": "PASS",
+  "scope": "Independent metadata, hash, pointer, and input-reuse verification of stage3_pre_worklog_quarantine_v3 versus active stage3 inputs.",
+  "findings": [],
+  "checks": {
+    "exact_five_source_ids_and_raw_hashes_pinned": {
+      "pass": true,
+      "policy_sha256_matches_freeze": true,
+      "sources": [
+        {"deal_id": "5293", "worklog_id": "2256255", "raw_context_sha256_matches_policy_and_both_freezes": true},
+        {"deal_id": "6351", "worklog_id": "2385479", "raw_context_sha256_matches_policy_and_both_freezes": true},
+        {"deal_id": "6673", "worklog_id": "2444709", "raw_context_sha256_matches_policy_and_both_freezes": true},
+        {"deal_id": "6693", "worklog_id": "2449053", "raw_context_sha256_matches_policy_and_both_freezes": true},
+        {"deal_id": "6695", "worklog_id": "2449263", "raw_context_sha256_matches_policy_and_both_freezes": true}
+      ]
+    },
+    "frozen_50_id_sets_match": {"pass": true, "count": 50, "outcome_blind_views": true, "labels_separate_from_views": true},
+    "exact_144_manager_entries_removed_and_other_events_preserved": {
+      "pass": true,
+      "removed_total": 144,
+      "per_source": [
+        {"deal_id": "5293", "worklog_id": "2256255", "removed_entries": 51},
+        {"deal_id": "6351", "worklog_id": "2385479", "removed_entries": 30},
+        {"deal_id": "6673", "worklog_id": "2444709", "removed_entries": 22},
+        {"deal_id": "6693", "worklog_id": "2449053", "removed_entries": 26},
+        {"deal_id": "6695", "worklog_id": "2449263", "removed_entries": 15}
+      ],
+      "removed_records_are_manager_worklog_claims": true,
+      "all_other_normalized_event_bytes_preserved": true
+    },
+    "no_quarantined_source_ids_in_normalized_or_merged_comment_paths": {"pass": true, "files_scanned": 100, "residual_matches": 0},
+    "all_50_neutral_and_raw_context_hashes_unchanged": {"pass": true, "neutral_changed_ids": [], "raw_context_hashes_unchanged": true},
+    "only_expected_five_timelines_views_and_quality_files_changed": {
+      "pass": true,
+      "changed_ids": ["5293", "6351", "6673", "6693", "6695"]
+    },
+    "all_200_per_deal_hashes_match_active_freeze": {"pass": true, "deals": 50, "hashes_checked": 200},
+    "source_line_pointers_and_cutoffs_valid": {
+      "pass": true,
+      "view_source_line_pointers_checked": 3030,
+      "pointers_match_clean_timeline_event_ids": true,
+      "terminal_cutoffs_and_transition_counts_unchanged": true
+    },
+    "only_expected_per_deal_freeze_metadata_changed": {"pass": true, "unexpected_changed_fields": []},
+    "no_outcome_label_fields_in_views": {"pass": true, "forbidden_field_hits": 0},
+    "top_level_hashes_match_frozen_sources": {
+      "pass": true,
+      "audit_manifest_sha256": true,
+      "audit_schema_sha256": true,
+      "completeness_sha256": true,
+      "build_quality_sha256": true,
+      "builder_sha256": true,
+      "dataset_manifest_sha256": true,
+      "summary_sha256": true,
+      "view_builder_sha256": true,
+      "input_contract_sha256": true,
+      "worklog_quarantine_policy_sha256": true
+    },
+    "transcription_gate_470_of_470": {"pass": true, "eligible": 470, "transcribed": 470, "missing": 0, "status": "PASS"},
+    "baseline_296_hashes_verified": {"pass": true, "expected": 296, "checked": 296, "missing": 0, "mismatches": 0},
+    "23_primary_input_reuse": {
+      "pass": true,
+      "deals": 23,
+      "input_hashes_checked": 69,
+      "inputs": ["view", "neutral", "quality"],
+      "changed_input_paths": []
+    }
+  },
+  "scope_limits": {
+    "outcome_values_read": false,
+    "audit_bodies_read": false,
+    "raw_source_content_inspected": false,
+    "baseline_files_hashed_as_opaque_bytes": true
+  }
+}

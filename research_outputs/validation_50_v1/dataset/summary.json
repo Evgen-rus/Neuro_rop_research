@@ -107,17 +107,17 @@
       "events": 90
     },
     {
-      "approx_tokens": 25008,
-      "content_bytes": 100029,
+      "approx_tokens": 23768,
+      "content_bytes": 95072,
       "deal_id": "6673",
       "event_types": {
         "call": 31,
         "call_transcript": 17,
-        "comment": 24,
+        "comment": 2,
         "stage_change": 5,
         "task": 3
       },
-      "events": 80
+      "events": 58
     },
     {
       "approx_tokens": 4951,
@@ -146,18 +146,18 @@
       "events": 41
     },
     {
-      "approx_tokens": 14259,
-      "content_bytes": 57034,
+      "approx_tokens": 12574,
+      "content_bytes": 50296,
       "deal_id": "6351",
       "event_types": {
         "call": 38,
         "call_transcript": 13,
-        "comment": 33,
+        "comment": 3,
         "email": 3,
         "stage_change": 7,
         "task": 3
       },
-      "events": 97
+      "events": 67
     },
     {
       "approx_tokens": 14396,
@@ -332,32 +332,32 @@
       "events": 53
     },
     {
-      "approx_tokens": 5694,
-      "content_bytes": 22776,
+      "approx_tokens": 5055,
+      "content_bytes": 20218,
       "deal_id": "6695",
       "event_types": {
         "call": 36,
         "call_transcript": 5,
-        "comment": 18,
+        "comment": 3,
         "email": 1,
         "stage_change": 13,
         "task": 4
       },
-      "events": 77
+      "events": 62
     },
     {
-      "approx_tokens": 18271,
-      "content_bytes": 73083,
+      "approx_tokens": 17198,
+      "content_bytes": 68791,
       "deal_id": "6693",
       "event_types": {
         "call": 22,
         "call_transcript": 17,
-        "comment": 28,
+        "comment": 2,
         "email": 2,
         "stage_change": 13,
         "task": 2
       },
-      "events": 84
+      "events": 58
     },
     {
       "approx_tokens": 34962,
@@ -401,18 +401,17 @@
       "events": 124
     },
     {
-      "approx_tokens": 79156,
-      "content_bytes": 316623,
+      "approx_tokens": 75936,
+      "content_bytes": 303743,
       "deal_id": "5293",
       "event_types": {
         "call": 87,
         "call_transcript": 34,
-        "comment": 51,
         "email": 85,
         "stage_change": 13,
         "task": 1
       },
-      "events": 271
+      "events": 220
     },
     {
       "approx_tokens": 2666,
@@ -683,8 +682,8 @@
   ],
   "token_method": "ceil(UTF-8 content bytes / 4); coarse size proxy, not a model tokenizer",
   "totals": {
-    "approx_tokens": 3644293,
-    "content_bytes": 14577093,
-    "events": 3673
+    "approx_tokens": 3636436,
+    "content_bytes": 14545668,
+    "events": 3529
   }
 }

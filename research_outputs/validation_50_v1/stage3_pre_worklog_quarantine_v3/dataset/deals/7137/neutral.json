@@ -1,0 +1,12 @@
+{
+  "deal_id": "7137",
+  "created_at": "2026-02-24T16:46:45+03:00",
+  "life_days": 50,
+  "pipeline_id": "17",
+  "amount": "1548000.00",
+  "currency": "RUB",
+  "source_id": "",
+  "source_description": "",
+  "repeat_customer": "Y",
+  "repeated_approach": "N"
+}

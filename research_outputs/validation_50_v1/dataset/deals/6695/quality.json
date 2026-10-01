@@ -275,8 +275,16 @@
   "limitations": [
     "call_audio_duration_unknown",
     "call_audio_unavailable",
-    "separate_customer_chat_history_not_collected"
+    "separate_customer_chat_history_not_collected",
+    "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained."
   ],
+  "manager_worklog_quarantine": {
+    "entries_excluded": 15,
+    "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+    "worklog_ids": [
+      "2449263"
+    ]
+  },
   "max_voice": {
     "audio_unavailable": 0,
     "decoding_failed": 0,

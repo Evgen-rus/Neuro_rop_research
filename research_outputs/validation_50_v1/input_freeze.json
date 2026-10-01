@@ -1,10 +1,10 @@
 {
-  "audit_manifest_sha256": "f2016c93d7142908626bcc1bd4abcad15fef0b2a60b98a2eb879151a66cf76c6",
+  "audit_manifest_sha256": "f2bee1525fed7021e6fcc97422d139cd77c983fd64069b1b14853792d7873060",
   "audit_schema_copy": "audit_schema.json",
   "audit_schema_sha256": "0aa1e30c9b8785cb44a30f3c42ec1be2c552cef796171a3fe816b9ba3dba01f9",
   "baseline_overlap_count": 0,
-  "build_quality_sha256": "8d4941ebc006371b3fdb0296a9131411da434d078c2e4bafdad5c79a183843ad",
-  "builder_sha256": "da78819cb3daa50ba26c96b3a71b2782be87d41921e5f988ccbc2aaa4cda369c",
+  "build_quality_sha256": "0e06eeaa29ad57cf468ed919bad31ab171ccdf60a119c1a40784ebde9bef2940",
+  "builder_sha256": "18d341742a4fd0f247b55d28aeaec909ac2ac2ddaf087aee17e700e983955178",
   "completeness_sha256": "3db45e63c89eae864654136c410c48258bb24e47dc8446f8e9a21980fefd6df4",
   "dataset_manifest_sha256": "887369c0204fb748b444c3a5519ffe54d848bc04b840c6e47ffb57b152d04e6d",
   "deal_count": 50,
@@ -251,15 +251,22 @@
       "view_sha256": "bee52a862db4e16dd28d7bbf866039cff3361d9db37459a680bbd86a3f766bf9"
     },
     {
-      "clean_timeline_sha256": "17c06b47b21723aea90632f89eb5c8db8818e0c1986414804c4164428309a074",
+      "clean_timeline_sha256": "4ee71b63d136a282f1021dc2beeaf84548fac757df3c339ca79933843d877f4e",
       "deal_id": "6673",
-      "event_count": 80,
+      "event_count": 58,
       "event_type_counts": {
         "call": 31,
         "call_transcript": 17,
-        "comment": 24,
+        "comment": 2,
         "stage_change": 5,
         "task": 3
+      },
+      "manager_worklog_quarantine": {
+        "entries_excluded": 22,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2444709"
+        ]
       },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "28ea3f5b13f9760ece4e9a9ee23ac6eca817fc590428c9049e62037bdd73abb5",
@@ -271,14 +278,14 @@
       "post_terminal_events_excluded": 1,
       "post_terminal_task_snapshots_excluded": 0,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "0fc019fcf88c0860f439e8f365db349adff9c2da99b1fde25bb0a1866585ace9",
+      "quality_sha256": "c015a2e44cbb22c8c7ac7386c65df69935b72d00fc377a95ac1c83b16a50a18b",
       "raw_context_sha256": "30899740cc0cf9f5781bff60cc569b3ca62ac02c2361c378a554ee503fa81f8f",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": false,
       "terminal_transition_count": 1,
       "transcripts_linked": 17,
-      "view_sha256": "08bd324edc5f04286aa62953538a4ea6c23330dc74d4b8bbd6a76723018fc026"
+      "view_sha256": "ba946a20fb57f3cf2f5d92f38a8148bdcf5ccda1ffec3d99320a8efe69f599b9"
     },
     {
       "clean_timeline_sha256": "9ede5b44ea746bdc0eb4b0f63d61e5f1b66736a6bf374fa61a7624c3d9b87b32",
@@ -341,16 +348,23 @@
       "view_sha256": "49c1baea2efdcf903c526281f5aeb0e6a02f089dea52b0ba6c5ca37ee60313f9"
     },
     {
-      "clean_timeline_sha256": "e78260e9700e966b6b24ef85fc8549a492ddc04ff93e250e6cb150c62e461af6",
+      "clean_timeline_sha256": "3bbc7d7c9a617d23e09d97fb4894aae4875abd783dd72bf1b0a49d5c671d4125",
       "deal_id": "6351",
-      "event_count": 97,
+      "event_count": 67,
       "event_type_counts": {
         "call": 38,
         "call_transcript": 13,
-        "comment": 33,
+        "comment": 3,
         "email": 3,
         "stage_change": 7,
         "task": 3
+      },
+      "manager_worklog_quarantine": {
+        "entries_excluded": 30,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2385479"
+        ]
       },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "2fb3edf093f76f8a998184991e4f7b64c306f232575fafb9fb3fa31a7d3e791e",
@@ -362,14 +376,14 @@
       "post_terminal_events_excluded": 1,
       "post_terminal_task_snapshots_excluded": 1,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "f407d83383b702570129916231898ef89107123048b0ebaad7abfa51b83beab5",
+      "quality_sha256": "9c837100686a3753f7169ed0efc222d093a08638aa5071b3b74e82e842325457",
       "raw_context_sha256": "a9fe7e5ce0138777d29eff605c1d14ef0f29926be28d44287ebed5b374448544",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": true,
       "terminal_transition_count": 2,
       "transcripts_linked": 13,
-      "view_sha256": "a83ceb1677835895f10d13b83d58231448e020022392d5712934c9415168f1c6"
+      "view_sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8"
     },
     {
       "clean_timeline_sha256": "0c5c222ba5337b782c790a4eb401d7ce23394ee93ec762262f618e4682a1fc1c",
@@ -765,16 +779,23 @@
       "view_sha256": "da2e57621ee837264d71538a08b6132d056fea6afeced86a733ecaf41edfe715"
     },
     {
-      "clean_timeline_sha256": "e95a49ad4414e3e67796753f00c9c2cf883aca53eeca22ff8c2bc2d554c93830",
+      "clean_timeline_sha256": "5785ee865efddbd7ba84d2251d902665e85f03a598af465deb65a385760fc67d",
       "deal_id": "6695",
-      "event_count": 77,
+      "event_count": 62,
       "event_type_counts": {
         "call": 36,
         "call_transcript": 5,
-        "comment": 18,
+        "comment": 3,
         "email": 1,
         "stage_change": 13,
         "task": 4
+      },
+      "manager_worklog_quarantine": {
+        "entries_excluded": 15,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2449263"
+        ]
       },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "7b1bfe1f6431cc2f837900f19fa2af063d5f431f1c35598d4298b5c8fe33f5b5",
@@ -786,26 +807,33 @@
       "post_terminal_events_excluded": 8,
       "post_terminal_task_snapshots_excluded": 3,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "78bb6eae1af0b9066cdde9eec757ff6798fb511e55cb4b683bbb90bd043667a8",
+      "quality_sha256": "44582a1f69115783160f77bbc510dd99b1bb416ab1be4d57085f64c90853b823",
       "raw_context_sha256": "9beb6577aa0cc28b69990b0a4c098218f60c15a63b3eb3d2a4c259d1088ecd14",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": false,
       "terminal_transition_count": 1,
       "transcripts_linked": 7,
-      "view_sha256": "6b6d00fb6f2f16a35c9d58ad34af6b07eaa4e45de196f5459e37d21df420021d"
+      "view_sha256": "25511cb6661cc33a53613e6deb9e045591499d967e5392609679176b2257d2eb"
     },
     {
-      "clean_timeline_sha256": "c911fcc878efd1a177e8c6ee22b126a952cd3bd3ec235bd0bd8ab139c5c6401a",
+      "clean_timeline_sha256": "9e15e5f0a97550a3c72d0d59056a8ea5c95787dffde1920a70ae59104a04d9e2",
       "deal_id": "6693",
-      "event_count": 84,
+      "event_count": 58,
       "event_type_counts": {
         "call": 22,
         "call_transcript": 17,
-        "comment": 28,
+        "comment": 2,
         "email": 2,
         "stage_change": 13,
         "task": 2
+      },
+      "manager_worklog_quarantine": {
+        "entries_excluded": 26,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2449053"
+        ]
       },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "9995a1c4ba730f287bf43fc2222e8015a494f23e20d529452d34744db9c77695",
@@ -817,14 +845,14 @@
       "post_terminal_events_excluded": 1,
       "post_terminal_task_snapshots_excluded": 1,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "4c8b07248ce8d5058dc56b564da23dd66b069168f3705f089d8467129ad3c4d2",
+      "quality_sha256": "8fc2160d7aa345fd4bd46b9c800b284886480f89a6ed623539e29e393c2c608a",
       "raw_context_sha256": "2141494c7231bf68a3ecb5cd7f9cd3d6f3eb76801c9ba26c8c5ed2888143fea9",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": false,
       "terminal_transition_count": 1,
       "transcripts_linked": 17,
-      "view_sha256": "765b218931f95939dc763448fe937b247ee3cd70230e55450ab8339752e51db1"
+      "view_sha256": "94392e53224eca111a9d2f32e31cff60b8261d85e94666050095f762215f315f"
     },
     {
       "clean_timeline_sha256": "b3bedd4b86bd2f7c3f3976b19ddeb5a0dfc476255ccbac654f6c7904dd258ba5",
@@ -919,16 +947,22 @@
       "view_sha256": "56e931efa9b6bfe91d4d303a9fcd9ba7612f206323589b8fb1ea969019c13bfd"
     },
     {
-      "clean_timeline_sha256": "847f1658b942cad3085f793c04d33d64a4e31451cbf59c47ab060636ebebb4b9",
+      "clean_timeline_sha256": "09f287b50e99122f85a398bf3afed537d5b999984bac88a1a123f4ff0898c3f7",
       "deal_id": "5293",
-      "event_count": 271,
+      "event_count": 220,
       "event_type_counts": {
         "call": 87,
         "call_transcript": 34,
-        "comment": 51,
         "email": 85,
         "stage_change": 13,
         "task": 1
+      },
+      "manager_worklog_quarantine": {
+        "entries_excluded": 51,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2256255"
+        ]
       },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "4855a9452d4d0f3ea0286d21810d9efd352ec96e2083f1a64e7384cc9c86db85",
@@ -940,14 +974,14 @@
       "post_terminal_events_excluded": 6,
       "post_terminal_task_snapshots_excluded": 0,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "033d92c2f343b2b4232de1d406c70d0ef6549914dde7c7a1f74c5ed906ecbf4b",
+      "quality_sha256": "7d411041e9f4b5a0cb29913554768f906ef8e6d7b2f0e10d3c4d90f9eda66036",
       "raw_context_sha256": "a4c75a885a5029197f35f1fce2ec5767bfc7e634eb8e1aa2a22ca6e14763799a",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": false,
       "terminal_transition_count": 1,
       "transcripts_linked": 34,
-      "view_sha256": "12c7e999ee9b3717e92c8dd0d5c343e8b08c30a45113a48d5569df598a0f0d86"
+      "view_sha256": "38beb2364e593a62811e8fbc38393113264884dc57ff4ad94218799861163534"
     },
     {
       "clean_timeline_sha256": "0c5cbf957d715a6e72d4fed0bfd82d0454a8eb8557e051294b586a6c6b62ddaa",
@@ -1543,6 +1577,7 @@
   "outcome_blind_views": true,
   "outcome_labels_separate_from_views": true,
   "status": "validation_50_v1_outcome_blind_views_frozen_before_semantic_audit",
-  "summary_sha256": "86fdb4f41f758f48c0a2488bac01ff02fa4fa8cbfaaeda44070348794535a8c2",
-  "view_builder_sha256": "77ede5a2db7359c4cd2413b91f80f1ad09f5741f17bb655016d601cc01ec0571"
+  "summary_sha256": "a9efeef842f5e851f9c3fca9704a263c5e1cb733b822626e042d05c46c7827cd",
+  "view_builder_sha256": "77ede5a2db7359c4cd2413b91f80f1ad09f5741f17bb655016d601cc01ec0571",
+  "worklog_quarantine_policy_sha256": "1e256f955083b1b9c0a42826440fd188cf93764ec0db05102dd8916766dc1a22"
 }

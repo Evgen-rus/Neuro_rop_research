@@ -388,16 +388,22 @@
       "calls": 87,
       "calls_with_transcript": 34,
       "calls_without_transcript": 53,
-      "event_count": 271,
+      "event_count": 220,
       "event_type_counts": {
         "call": 87,
         "call_transcript": 34,
-        "comment": 51,
         "email": 85,
         "stage_change": 13,
         "task": 1
       },
-      "manager_worklog_entries": 51,
+      "manager_worklog_entries": 0,
+      "manager_worklog_quarantine": {
+        "entries_excluded": 51,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2256255"
+        ]
+      },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "4855a9452d4d0f3ea0286d21810d9efd352ec96e2083f1a64e7384cc9c86db85",
       "max_voice_messages_in_scope": 0,
@@ -420,16 +426,23 @@
       "calls": 38,
       "calls_with_transcript": 13,
       "calls_without_transcript": 25,
-      "event_count": 97,
+      "event_count": 67,
       "event_type_counts": {
         "call": 38,
         "call_transcript": 13,
-        "comment": 33,
+        "comment": 3,
         "email": 3,
         "stage_change": 7,
         "task": 3
       },
-      "manager_worklog_entries": 30,
+      "manager_worklog_entries": 0,
+      "manager_worklog_quarantine": {
+        "entries_excluded": 30,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2385479"
+        ]
+      },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "2fb3edf093f76f8a998184991e4f7b64c306f232575fafb9fb3fa31a7d3e791e",
       "max_voice_messages_in_scope": 0,
@@ -541,15 +554,22 @@
       "calls": 31,
       "calls_with_transcript": 17,
       "calls_without_transcript": 14,
-      "event_count": 80,
+      "event_count": 58,
       "event_type_counts": {
         "call": 31,
         "call_transcript": 17,
-        "comment": 24,
+        "comment": 2,
         "stage_change": 5,
         "task": 3
       },
-      "manager_worklog_entries": 22,
+      "manager_worklog_entries": 0,
+      "manager_worklog_quarantine": {
+        "entries_excluded": 22,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2444709"
+        ]
+      },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "28ea3f5b13f9760ece4e9a9ee23ac6eca817fc590428c9049e62037bdd73abb5",
       "max_voice_messages_in_scope": 0,
@@ -603,16 +623,23 @@
       "calls": 22,
       "calls_with_transcript": 17,
       "calls_without_transcript": 5,
-      "event_count": 84,
+      "event_count": 58,
       "event_type_counts": {
         "call": 22,
         "call_transcript": 17,
-        "comment": 28,
+        "comment": 2,
         "email": 2,
         "stage_change": 13,
         "task": 2
       },
-      "manager_worklog_entries": 26,
+      "manager_worklog_entries": 0,
+      "manager_worklog_quarantine": {
+        "entries_excluded": 26,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2449053"
+        ]
+      },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "9995a1c4ba730f287bf43fc2222e8015a494f23e20d529452d34744db9c77695",
       "max_voice_messages_in_scope": 0,
@@ -635,16 +662,23 @@
       "calls": 36,
       "calls_with_transcript": 5,
       "calls_without_transcript": 31,
-      "event_count": 77,
+      "event_count": 62,
       "event_type_counts": {
         "call": 36,
         "call_transcript": 5,
-        "comment": 18,
+        "comment": 3,
         "email": 1,
         "stage_change": 13,
         "task": 4
       },
-      "manager_worklog_entries": 15,
+      "manager_worklog_entries": 0,
+      "manager_worklog_quarantine": {
+        "entries_excluded": 15,
+        "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+        "worklog_ids": [
+          "2449263"
+        ]
+      },
       "max_voice_manifest_available": true,
       "max_voice_manifest_sha256": "7b1bfe1f6431cc2f837900f19fa2af063d5f431f1c35598d4298b5c8fe33f5b5",
       "max_voice_messages_in_scope": 0,
