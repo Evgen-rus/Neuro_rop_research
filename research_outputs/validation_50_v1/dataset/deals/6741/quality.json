@@ -1,0 +1,98 @@
+{
+  "call_data_limitations": [
+    {
+      "activity_id": "519459",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519459",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "521747",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "521747",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "522309",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "522309",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "522311",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "522311",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "523509",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "523509",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    }
+  ],
+  "calls": {
+    "calls_audio_unavailable": 5,
+    "calls_lt_36": 0,
+    "calls_unknown_duration": 5,
+    "calls_with_measured_audio": 3,
+    "eligible_calls_ge_36": 3,
+    "eligible_calls_with_transcript": 3,
+    "eligible_calls_without_transcript": 0,
+    "total_calls": 8
+  },
+  "data_quality": "limited",
+  "deal_id": "6741",
+  "limitations": [
+    "call_audio_duration_unknown",
+    "call_audio_unavailable",
+    "separate_customer_chat_history_not_collected"
+  ],
+  "max_voice": {
+    "audio_unavailable": 0,
+    "decoding_failed": 0,
+    "missing_activity_id": 0,
+    "missing_available_transcript": 0,
+    "scan_status": "checked",
+    "unavailable": 0,
+    "voice_message_count": 0,
+    "with_transcript": 0
+  },
+  "max_voice_data_limitations": [],
+  "sources": {
+    "call_audio_manifest": "ok",
+    "deal_activities": "ok",
+    "deal_card": "ok",
+    "max_voice_manifest": "ok",
+    "normalized_root_and_source_lead_channels": {
+      "call": 8,
+      "internal_comment": 2
+    },
+    "raw_context": "ok",
+    "separate_customer_chat_history": "not_collected",
+    "source_lead": "ok",
+    "stage_history": "ok",
+    "tasks": "ok",
+    "timeline_comments": "ok"
+  }
+}

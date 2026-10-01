@@ -1,0 +1,10 @@
+{
+  "canonical_inputs_unchanged": true,
+  "email_preview_is_not_complete_evidence": true,
+  "full_relevant_quoted_history_must_be_inspected": true,
+  "native_quote_helper_sha256": "c7744c987ba2be552b3c228c47f849c25a75e1d8dcb08c1c8f958621a8d11a9f",
+  "files": {
+    "audit_instructions.md": "e28cb87b110eca3290f1192fe0338ed42861b8f60da3dcbec54e3933654662cc",
+    "read_view.py": "568ea67da5ab4f1e4a4d2720b4e1f09c8ddaa074f646215a1018cc65f4a7edbf"
+  }
+}

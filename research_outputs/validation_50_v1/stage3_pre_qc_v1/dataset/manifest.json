@@ -1,0 +1,208 @@
+{
+  "baseline_overlap_count": 0,
+  "deal_count": 50,
+  "deals": [
+    {
+      "deal_id": "5293",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6351",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6573",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6589",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6665",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6673",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6691",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6693",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6695",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6707",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6741",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6791",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6811",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6813",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6841",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6907",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6941",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "6955",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "6999",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7009",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7031",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7035",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7043",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7103",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7107",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7137",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7161",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7217",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7221",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7307",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7337",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7417",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7543",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7565",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7567",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7619",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "7623",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "7639",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18283",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18339",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18357",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18385",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18523",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18533",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18639",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18729",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18819",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18845",
+      "outcome": "WON"
+    },
+    {
+      "deal_id": "18865",
+      "outcome": "LOST"
+    },
+    {
+      "deal_id": "18925",
+      "outcome": "WON"
+    }
+  ],
+  "labels_separate_from_blind_inputs": true,
+  "version": "validation_50_v1"
+}

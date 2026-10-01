@@ -1,0 +1,12 @@
+{
+  "deal_id": "6813",
+  "created_at": "2026-01-19T12:04:44+03:00",
+  "life_days": 3,
+  "pipeline_id": "15",
+  "amount": "0.00",
+  "currency": "RUB",
+  "source_id": "WZ539a17a1-428f-4c51-a233-f68c35bd9b49",
+  "source_description": "",
+  "repeat_customer": "N",
+  "repeated_approach": "N"
+}
