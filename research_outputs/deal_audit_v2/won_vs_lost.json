@@ -1,0 +1,146 @@
+{
+  "version": "2.0",
+  "method": "Outcomes joined only after final v2 audit hashes were verified; final audits not edited after label access.",
+  "manifest_sha256": "9c77ff17aeb0f667970eae664e2c5e11eb84b379c3e27110a037e3fb2e1b968d",
+  "final_audit_freeze_sha256": "a80b404d2588d45ef1debad4fa109deb9b44392402261b55997f1e8a02abbb35",
+  "sample": {
+    "WON": {
+      "count": 12,
+      "median_life_days": 37.5,
+      "median_amount_rub": 1249500,
+      "pipeline_counts": {
+        "15": 8,
+        "17": 4
+      },
+      "total_calls": 444,
+      "calls_with_measured_audio": 293,
+      "calls_lt_36": 67,
+      "eligible_calls_ge_36": 226,
+      "eligible_calls_with_transcript": 226,
+      "eligible_calls_without_transcript": 0,
+      "calls_audio_unavailable": 151,
+      "calls_unknown_duration": 151
+    },
+    "LOST": {
+      "count": 11,
+      "median_life_days": 34,
+      "median_amount_rub": 1792000,
+      "pipeline_counts": {
+        "15": 9,
+        "17": 2
+      },
+      "total_calls": 362,
+      "calls_with_measured_audio": 170,
+      "calls_lt_36": 59,
+      "eligible_calls_ge_36": 111,
+      "eligible_calls_with_transcript": 111,
+      "eligible_calls_without_transcript": 0,
+      "calls_audio_unavailable": 192,
+      "calls_unknown_duration": 192
+    }
+  },
+  "patterns": [
+    {
+      "id": "T1",
+      "name": "Material technical fit or proof still unresolved at visible endpoint",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 2,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18629",
+        "18747",
+        "18873",
+        "19007"
+      ],
+      "won_counterexamples": [
+        "18635",
+        "18773"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T2",
+      "name": "Customer-reported budget or project-priority deferral",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 2,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18731",
+        "18765",
+        "7243",
+        "7601"
+      ],
+      "won_counterexamples": [
+        "18773",
+        "6983"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T3",
+      "name": "Direct customer comparison with another offer or supplier",
+      "lost_count": 5,
+      "lost_denominator": 11,
+      "won_counterexample_count": 1,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18629",
+        "18765",
+        "18873",
+        "18929",
+        "18755"
+      ],
+      "won_counterexamples": [
+        "18773"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T4",
+      "name": "Material scope or review-information rework after first proposal",
+      "lost_count": 4,
+      "lost_denominator": 11,
+      "won_counterexample_count": 5,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18747",
+        "7243",
+        "7601",
+        "19007"
+      ],
+      "won_counterexamples": [
+        "18615",
+        "18733",
+        "6885",
+        "6983",
+        "7191"
+      ],
+      "membership_is_selective": true
+    },
+    {
+      "id": "T5",
+      "name": "Customer friction around contact timing or frequency",
+      "lost_count": 2,
+      "lost_denominator": 11,
+      "won_counterexample_count": 1,
+      "won_denominator": 12,
+      "lost_deals": [
+        "18755",
+        "18765"
+      ],
+      "won_counterexamples": [
+        "18745"
+      ],
+      "membership_is_selective": true
+    }
+  ],
+  "limits": [
+    "23 deals from one manager are a development dataset, not causal or predictive evidence.",
+    "Pattern memberships are selective and overlap.",
+    "343 calls have unknown measured duration/audio availability; this is a limitation, not negative evidence.",
+    "Customer-reported budgets, pauses, and comparisons are not independently verified facts.",
+    "Token proxies omitted because the v1/v2 method changed."
+  ]
+}

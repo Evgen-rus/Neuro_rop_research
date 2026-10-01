@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "outcome_accessed": false,
+  "changed_view_reconciliation": [
+    {
+      "deal_id": "7243",
+      "base": "run_B",
+      "resolution": "Retain technical redesign, continuous-product synchronization, and technical/financial/legal review as separate visible dependencies. Latest technical questions and unanswered final confirmation remain open; trajectory is mixed, not an outcome cause.",
+      "uncertainties": [
+        "No response to the September 10 final confirmation request is present.",
+        "No evidence establishes technical approval or payment."
+      ]
+    },
+    {
+      "deal_id": "7601",
+      "base": "run_B",
+      "resolution": "Retain both the earlier technical-fit/commercial complexity and the customer's direct August 19 report that all projects were paused due to regional conditions, season and idle production. Classify controllability as mixed; manager's material influence is indeterminate because the final pause is external.",
+      "uncertainties": [
+        "The two needs (universal line and repeat equipment for a second line) may be separate purchases.",
+        "The customer-reported external circumstances are not independently verified."
+      ]
+    },
+    {
+      "deal_id": "18615",
+      "base": "run_B",
+      "resolution": "Retain evolving package/product specifications, the 75-working-day production-term objection, contract revisions and the customer's report that the invoice was submitted for payment. Do not equate that report with funds received or production started.",
+      "uncertainties": [
+        "The early price/scope account partly comes from manager worklogs.",
+        "Payment and production are not confirmed in the view."
+      ]
+    },
+    {
+      "deal_id": "18733",
+      "base": "run_A",
+      "resolution": "Retain the fragile conical-package fit risk, the customer's later switch to cylindrical packaging, supplier selection, contract/signature steps, customer-reported payment and manager-reported production handoff. Do not infer delivery, installation or successful operation.",
+      "uncertainties": [
+        "The proposed fragile-product test has no recorded result.",
+        "Customer-reported payment is not independently verified."
+      ]
+    },
+    {
+      "deal_id": "18755",
+      "base": "run_B, supplemented with run_A evidence at source_line 43",
+      "resolution": "Direct call states the 4.5M-ruble offer exceeded the customer's 2M-ruble limit and that cheaper alternatives were being compared. Preserve the earlier inconvenient-call/rescheduled-contact signal without treating it as a proven manager failure.",
+      "uncertainties": [
+        "The compared alternatives are not confirmed to have equivalent equipment scope.",
+        "The customer's decision after the stated comparison period is absent."
+      ]
+    },
+    {
+      "deal_id": "18873",
+      "base": "run_B",
+      "resolution": "Restored calls clarify photo-transfer problems, product/label scope and that the customer preferred an alternative as cheaper and smaller, then promised dimensions for recalculation. The view ends before an updated offer or decision.",
+      "uncertainties": [
+        "Alternative price and technical scope are not independently comparable.",
+        "The final dimension request has no visible response."
+      ]
+    },
+    {
+      "deal_id": "18929",
+      "base": "run_B",
+      "resolution": "Use the buyer's direct statement that several offers were under comparison; the manager's optimistic worklog is not buyer confirmation. The manager's status email was sent on the date the buyer named, not after a proven missed deadline; material manager influence remains indeterminate.",
+      "uncertainties": [
+        "The buyer's decision and reply after August 28 are absent.",
+        "Comparison criteria and offer scope are not shown."
+      ]
+    }
+  ],
+  "reused_unchanged_view_deal_ids": [
+    "5017",
+    "5971",
+    "6135",
+    "6885",
+    "6983",
+    "7191",
+    "18485",
+    "18629",
+    "18635",
+    "18731",
+    "18745",
+    "18747",
+    "18765",
+    "18773",
+    "18775",
+    "19007"
+  ],
+  "changed_view_deal_ids": [
+    "7243",
+    "7601",
+    "18615",
+    "18733",
+    "18755",
+    "18873",
+    "18929"
+  ]
+}

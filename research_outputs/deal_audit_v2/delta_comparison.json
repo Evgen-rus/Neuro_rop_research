@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "baseline": "v1 preserved",
+  "dataset_changed_deals": [
+    "7243",
+    "7601",
+    "18615",
+    "18629",
+    "18733",
+    "18755",
+    "18873",
+    "18929"
+  ],
+  "outcome_blind_view_changed_deals": [
+    "18615",
+    "18733",
+    "18755",
+    "18873",
+    "7243",
+    "7601",
+    "18929"
+  ],
+  "dataset_changed_but_view_unchanged": [
+    "18629"
+  ],
+  "reused_v1_final_audits": [
+    "18485",
+    "18629",
+    "18635",
+    "18731",
+    "18745",
+    "18747",
+    "18765",
+    "18773",
+    "18775",
+    "19007",
+    "5017",
+    "5971",
+    "6135",
+    "6885",
+    "6983",
+    "7191"
+  ],
+  "re_audited_changed_views": [
+    "18615",
+    "18733",
+    "18755",
+    "18873",
+    "7243",
+    "7601",
+    "18929"
+  ],
+  "final_audit_count": 23,
+  "all_final_audit_hashes_verified": true,
+  "global_call_completeness": {
+    "total_calls": 806,
+    "calls_with_measured_audio": 463,
+    "calls_lt_36": 126,
+    "eligible_calls_ge_36": 337,
+    "eligible_calls_with_transcript": 337,
+    "eligible_calls_without_transcript": 0,
+    "calls_audio_unavailable": 343,
+    "calls_unknown_duration": 343,
+    "calls_unknown_audio_availability": 0,
+    "audio_status_counts": {
+      "already_downloaded": 43,
+      "downloaded": 286,
+      "no_files_check_expired": 341,
+      "no_files_in_crm_activity": 2,
+      "not_downloaded": 1,
+      "transcribed_and_purged": 133
+    },
+    "ready_for_rebuild": true
+  },
+  "notes": [
+    "Manifest unchanged: 12 WON, 11 LOST.",
+    "V1/v2 token proxies not compared.",
+    "Unknown-duration calls are a data-quality limitation."
+  ]
+}
