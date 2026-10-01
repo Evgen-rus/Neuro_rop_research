@@ -1,5 +1,9 @@
 # Continuation checkpoint — Stage 4, not complete
 
+Historical limit checkpoint. User reported limits reset and work resumed; use `run_manifest.json` and actual audit files for current progress. The incomplete-recording quality patch is now implemented and Stage2 regeneration passes; this document's remaining list below records the earlier stop.
+
+Latest checkpoint: 23 primary drafts pass schema/evidence-pointer QC. Semantic work is paused on a different, real gate: five mutable manager worklogs have unresolved inferred years (144 entries). Local snapshots/SQLite provide no historical proof. See `source_chronology_review.md/json` for the exact sources and an unapplied five-worklog quarantine proposal. No affected deal has an audit; no primary/canonical freeze or outcome reveal has occurred.
+
 All three active Luna agents failed with `usage limit`; their error suggested retry at 7:20 PM without a timezone. Desktop usage tool returned contradictory 0% usage. No reset credit or purchase was used. Do not replace the required Luna blind method silently.
 
 ## Completed

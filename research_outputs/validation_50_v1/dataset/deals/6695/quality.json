@@ -249,11 +249,20 @@
       "activity_id": "671351",
       "has_transcript": false,
       "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "516441",
+      "expected_call_duration_seconds": 340.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
     }
   ],
   "calls": {
     "calls_audio_unavailable": 25,
+    "calls_lt36_incomplete": 1,
     "calls_lt_36": 9,
+    "calls_recording_incomplete": 1,
     "calls_unknown_duration": 25,
     "calls_with_measured_audio": 16,
     "eligible_calls_ge_36": 7,

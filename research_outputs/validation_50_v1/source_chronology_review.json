@@ -1,0 +1,34 @@
+{
+  "status": "BLOCKED_SOURCE_POLICY_DECISION",
+  "scope": "Five mutable manager worklogs with conflicting inferred calendar years",
+  "affected_deal_count": 5,
+  "affected_entry_count": 144,
+  "native_rule": "Endpoint year inferred from comment CREATED, then Dec/Jan rollover; no captured modification timestamp",
+  "semantic_audits_paused": true,
+  "outcomes_revealed": false,
+  "local_version_search": {
+    "status": "COMPLETE_NO_HISTORICAL_PROOF",
+    "sqlite_open_mode": "read_only",
+    "validation_target_rows": "one latest row per target; seen/changed timestamps equal bundle import",
+    "practice_target_worklog_rows": 0,
+    "manager_trajectory_events_for_targets": 0,
+    "practice_exact_raw_contexts_present": 0,
+    "comment_modification_timestamp_available": false
+  },
+  "affected_sources": [
+    {"deal_id":"5293","worklog_id":"2256255","entry_count":51,"recorded_at":"2025-09-08T09:22:48+03:00","parsed_start":"2024-09-08","parsed_end":"2025-03-20","raw_context_sha256":"a4c75a885a5029197f35f1fce2ec5767bfc7e634eb8e1aa2a22ca6e14763799a"},
+    {"deal_id":"6351","worklog_id":"2385479","entry_count":30,"recorded_at":"2025-11-18T11:58:09+03:00","parsed_start":"2024-11-18","parsed_end":"2025-05-28","raw_context_sha256":"a9fe7e5ce0138777d29eff605c1d14ef0f29926be28d44287ebed5b374448544"},
+    {"deal_id":"6673","worklog_id":"2444709","entry_count":22,"recorded_at":"2025-12-19T16:39:20+03:00","parsed_start":"2024-12-19","parsed_end":"2025-03-03","raw_context_sha256":"30899740cc0cf9f5781bff60cc569b3ca62ac02c2361c378a554ee503fa81f8f"},
+    {"deal_id":"6693","worklog_id":"2449053","entry_count":26,"recorded_at":"2025-12-01T13:46:58+03:00","parsed_start":"2024-12-01","parsed_end":"2025-02-04","raw_context_sha256":"2141494c7231bf68a3ecb5cd7f9cd3d6f3eb76801c9ba26c8c5ed2888143fea9"},
+    {"deal_id":"6695","worklog_id":"2449263","entry_count":15,"recorded_at":"2025-12-19T16:53:40+03:00","parsed_start":"2024-12-19","parsed_end":"2025-01-23","raw_context_sha256":"9beb6577aa0cc28b69990b0a4c098218f60c15a63b3eb3d2a4c259d1088ecd14"}
+  ],
+  "proposed_fallback_if_no_versioned_evidence": {
+    "status": "NOT_APPLIED",
+    "action": "Quarantine only these five manager-worklog sources from blind inputs",
+    "preserve": ["raw source files", "all cohort 50 IDs", "customer calls/emails/messages/tasks", "baseline datasets and audits"],
+    "do_not": ["guess or silently shift years", "replace cohort deals", "let exposed workers audit these five deals"],
+    "quality": "Mark chronology-conflicted manager history as unavailable for predecision temporal evidence",
+    "gate": "Rebuild and QC views, then dispatch fresh workers for the affected five deals",
+    "requires_decision": "User task requires stopping for material ambiguity or changes relative to v2; source quarantine changes the v2 retention policy"
+  }
+}

@@ -359,11 +359,34 @@
       "activity_id": "555685",
       "has_transcript": false,
       "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "516303",
+      "expected_call_duration_seconds": 67.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516429",
+      "expected_call_duration_seconds": 20.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516447",
+      "expected_call_duration_seconds": 43.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
     }
   ],
   "calls": {
     "calls_audio_unavailable": 36,
+    "calls_lt36_incomplete": 3,
     "calls_lt_36": 22,
+    "calls_recording_incomplete": 3,
     "calls_unknown_duration": 36,
     "calls_with_measured_audio": 56,
     "eligible_calls_ge_36": 34,

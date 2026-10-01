@@ -179,11 +179,27 @@
       "activity_id": "545189",
       "has_transcript": false,
       "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "514215",
+      "expected_call_duration_seconds": 25.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516351",
+      "expected_call_duration_seconds": 125.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
     }
   ],
   "calls": {
     "calls_audio_unavailable": 18,
+    "calls_lt36_incomplete": 2,
     "calls_lt_36": 7,
+    "calls_recording_incomplete": 2,
     "calls_unknown_duration": 18,
     "calls_with_measured_audio": 20,
     "eligible_calls_ge_36": 13,

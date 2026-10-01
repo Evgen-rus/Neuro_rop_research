@@ -490,8 +490,11 @@ def call_facts(
         durations: list[tuple[float, bool]] = []
         audio_candidates: list[tuple[float, bool, Path]] = []
         audio_path: Path | None = None
+        recording_incomplete = False
+        expected_durations: list[float] = []
         for manifest_call in rows:
             call_is_short = manifest_call.get("call_quality") == "short_no_answer"
+            recording_incomplete = recording_incomplete or manifest_call.get("call_quality") == "recording_incomplete"
             transcription = manifest_call.get("transcription")
             if isinstance(transcription, dict):
                 value = transcription.get("source_duration_seconds")
@@ -505,8 +508,13 @@ def call_facts(
                     continue
                 if audio_path is None:
                     audio_path = candidate
+                expected = download.get("expected_call_duration_seconds")
+                if isinstance(expected, (int, float)) and not isinstance(expected, bool):
+                    expected_durations.append(float(expected))
+                download_incomplete = download.get("recording_stability_status") == "duration_incomplete"
+                recording_incomplete = recording_incomplete or download_incomplete
                 duration = download.get("duration_seconds")
-                short = bool(download.get("is_short_no_answer")) or call_is_short
+                short = (bool(download.get("is_short_no_answer")) or call_is_short) and not download_incomplete
                 if isinstance(duration, (int, float)) and not isinstance(duration, bool):
                     durations.append((float(duration), short))
                     audio_candidates.append((float(duration), short, candidate))
@@ -515,6 +523,9 @@ def call_facts(
                     if isinstance(measured, (int, float)):
                         durations.append((float(measured), False))
                         audio_candidates.append((float(measured), False, candidate))
+        if recording_incomplete:
+            durations = [(value, False) for value, _ in durations]
+            audio_candidates = [(value, False, path) for value, _, path in audio_candidates]
         duration: float | None = None
         is_short = False
         if durations:
@@ -537,6 +548,8 @@ def call_facts(
             "audio_path": audio_path,
             "duration_seconds": duration,
             "is_short_no_answer": is_short,
+            "recording_incomplete": recording_incomplete,
+            "expected_call_duration_seconds": max(expected_durations) if expected_durations else None,
             "has_transcript": has_transcript,
         })
     return facts
@@ -547,6 +560,8 @@ def summarize_calls(facts: list[dict[str, Any]], threshold: float) -> tuple[dict
     residual: list[dict[str, Any]] = []
     for call in facts:
         counts["total_calls"] += 1
+        if call.get("recording_incomplete"):
+            counts["calls_recording_incomplete"] += 1
         duration = call["duration_seconds"]
         if not call["audio_available"]:
             counts["calls_audio_unavailable"] += 1
@@ -556,6 +571,8 @@ def summarize_calls(facts: list[dict[str, Any]], threshold: float) -> tuple[dict
             counts["calls_with_measured_audio"] += 1
             if call["is_short_no_answer"] or duration < threshold:
                 counts["calls_lt_36"] += 1
+                if call.get("recording_incomplete") and duration < threshold:
+                    counts["calls_lt36_incomplete"] += 1
             else:
                 counts["eligible_calls_ge_36"] += 1
                 if call["has_transcript"]:
@@ -688,6 +705,13 @@ def deal_quality(
         if applies
     ]
     call_data_limitations.extend({
+        "activity_id": fact["activity_id"],
+        "issue": "recording_incomplete",
+        "has_transcript": fact["has_transcript"],
+        "measured_duration_seconds": fact["duration_seconds"],
+        "expected_call_duration_seconds": fact["expected_call_duration_seconds"],
+    } for fact in facts if fact["recording_incomplete"])
+    call_data_limitations.extend({
         "activity_id": row.get("activity_id"),
         "issue": "transcript_missing",
         "has_transcript": False,
@@ -812,7 +836,8 @@ def build_completeness(cohort_path: Path, practice: Path) -> dict[str, Any]:
         "totals": {name: totals.get(name, 0) for name in (
             "total_calls", "calls_with_measured_audio", "calls_lt_36", "eligible_calls_ge_36",
             "eligible_calls_with_transcript", "eligible_calls_without_transcript",
-            "calls_audio_unavailable", "calls_unknown_duration",
+            "calls_audio_unavailable", "calls_unknown_duration", "calls_recording_incomplete",
+            "calls_lt36_incomplete",
         )},
         "voice_totals": {name: voice_totals.get(name, 0) for name in (
             "voice_message_count", "with_transcript", "missing_available_transcript", "unavailable",
@@ -1036,6 +1061,47 @@ def self_check() -> None:
             get_audio_duration_seconds=lambda _path: None,
         )
         assert facts[0]["duration_seconds"] == 36.0 and not facts[0]["is_short_no_answer"]
+        incomplete = call_facts(
+            deal_id="12",
+            calls=[{"ID": "17"}],
+            manifest_rows={"17": [{
+                "call_quality": "recording_incomplete",
+                "downloads": [{
+                    "ok": True, "local_path": str(audio), "duration_seconds": 3.0,
+                    "expected_call_duration_seconds": 67.0, "is_short_no_answer": True,
+                    "recording_stability_status": "duration_incomplete",
+                    "recording_ready_for_transcription": False,
+                }],
+            }]},
+            workspace_roots=[],
+            threshold=36.0,
+            get_audio_duration_seconds=lambda _path: None,
+        )[0]
+        assert incomplete["recording_incomplete"] and not incomplete["is_short_no_answer"]
+        assert incomplete["duration_seconds"] == 3.0 and incomplete["expected_call_duration_seconds"] == 67.0
+        counts, residual = summarize_calls([incomplete], 36.0)
+        assert counts["calls_lt_36"] == counts["calls_lt36_incomplete"] == counts["calls_recording_incomplete"] == 1
+        assert counts["eligible_calls_ge_36"] == 0 and not residual
+        incomplete["duration_seconds"] = 36.0
+        counts, residual = summarize_calls([incomplete], 36.0)
+        assert counts["eligible_calls_ge_36"] == counts["eligible_calls_without_transcript"] == 1
+        assert counts["calls_lt_36"] == 0 and residual[0]["reason"] == "transcript_missing"
+        awaiting = call_facts(
+            deal_id="12",
+            calls=[{"ID": "17"}],
+            manifest_rows={"17": [{
+                "call_quality": "ok",
+                "downloads": [{
+                    "ok": True, "local_path": str(audio), "duration_seconds": 3.0,
+                    "recording_stability_status": "awaiting_second_size_observation",
+                    "recording_ready_for_transcription": False,
+                }],
+            }]},
+            workspace_roots=[],
+            threshold=36.0,
+            get_audio_duration_seconds=lambda _path: None,
+        )[0]
+        assert not awaiting["recording_incomplete"]
         transcript = root / "call_max_2_fingerprint_transcript.json"
         transcript.write_text(json.dumps({"metadata": {"entity_type": "deal", "entity_id": "12", "activity_id": "max_2_fingerprint"}, "text": "voice"}), encoding="utf-8")
         voice_counts, voice_residual, voice_limitations = voice_facts(
