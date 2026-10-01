@@ -8,15 +8,39 @@
 
 Ты - основной оркестратор исследования. Используй существующие правила агентов и субагентов из репозитория. Сам распределяй независимые задачи между доступными workers, когда это действительно ускоряет работу.
 
-Главный принцип: **не делать всё исследование одним большим непрерывным прогоном**.
+## Execution plan — validation 50, 2026-10-01
 
-Работаем по этапам. После каждого CHECKPOINT:
-1. остановиться;
-2. дать мне короткий отчёт;
-3. ничего из следующего этапа не запускать до моей команды.
+Stage 1 завершён, cohort frozen: 50 новых сделок, 25 WON / 25 LOST,
+baseline overlap 0. Артефакты: `research_outputs/validation_50_v1/cohort.json`
+и `closed_deal_pool.json`. Пахомов: 27/50; 10 менеджеров; pipelines
+15:32, 17:10, 47:8; период 2026-01-16 — 2026-09-30.
+Баланс 25/25 задан sampling design и не является conversion rate компании.
 
-Я буду передавать этот отчёт внешнему reviewer/РОПу и возвращаться с решением.
+Stage 2–6 выполняются последовательно без отдельного разрешения на каждый этап.
+CHECKPOINT теперь означает внутренний validation gate. Переход к следующему
+этапу выполняется автоматически только после PASS предыдущего gate.
 
+Последовательность: completeness штатным pipeline → отдельный validation dataset
+→ 50 основных blind audits по schema v2 → 12–15 независимых selective reliability
+audits → canonical freeze и проверка hashes → reveal outcomes → T1–T5,
+open discovery, manager robustness → business findings и executive summary.
+Reliability sample выбирается outcome-blind; два полных прохода по 50 не нужны.
+
+Hard gate Stage 2: `eligible_calls_without_transcript = 0` для measured audio >=36 sec.
+Dataset gate: точные frozen 50 IDs, baseline overlap 0, отдельные labels,
+completeness PASS, deterministic integrity. Freeze primary и canonical audits
+до reveal. Reliability не должна быть явно хуже baseline 23.
+
+Остановка только после Stage 6 либо при настоящем blocker: невыполнимый hard gate,
+существенная неполнота/повреждение данных, необходимость изменить методологию v2,
+записи в Bitrix/существенного production change или неоднозначность,
+способная существенно изменить выводы. Обычные технические проблемы решать
+штатными средствами самостоятельно.
+
+Старые datasets и deal_audit_v1/v2 неизменяемы. Новые артефакты только в
+`research_outputs/validation_50_v1/`. Bitrix read-only; существующий pipeline
+истории/audio/transcription разрешён для точных 50 IDs. Нет production integration,
+Jev, classifiers, predictive ML или расширения cohort. После финала commit и push.
 ---
 
 # Цель
@@ -35,7 +59,6 @@
 Это валидационный этап.
 
 Не надо снова уходить в исследования Jev, atomic classifiers или predictive ML.
-
 ---
 
 # Существующий baseline
@@ -52,79 +75,15 @@
 Известные candidate patterns T1-T5 использовать как **гипотезы для проверки**, а не как заранее истинные категории.
 
 Новая выборка может их подтвердить, ослабить, изменить или выявить новые паттерны.
-
 ---
 
-# STAGE 1 — выбрать cohort из 50 сделок
+# INTERNAL GATE 1 — cohort (historical; completed)
 
-Сначала НИЧЕГО не транскрибировать и не запускать semantic audits.
-
-Используя штатные read-only возможности `Neuro_rop_practice`, определить доступный пул закрытых сделок.
-
-Предпочтительно выбрать **50 новых сделок, не входящих в исходные 23**.
-
-Если 50 новых качественных сделок получить нельзя - не подменять молча. Показать доступный вариант.
-
-Критерии:
-
-- несколько менеджеров, если данные доступны;
-- WON и LOST максимально сбалансированы;
-- несколько pipeline допустимы;
-- не выбирать сделки только потому, что у них богатая история;
-- не cherry-pick по предполагаемым причинам исхода;
-- желательно разумно распределить по времени;
-- исключить явно технические/пустые сделки, где практически нет бизнес-взаимодействия.
-
-Для предлагаемого cohort показать:
-
-- количество;
-- WON / LOST;
-- managers;
-- pipelines;
-- период;
-- overlap с исходными 23;
-- сколько сделок имеют звонки;
-- приблизительную полноту доступных данных.
-
-Если выбор outcome используется для балансировки cohort - это нормально на этапе sampling. Но semantic audit позже должен быть outcome-blind.
-
-## CHECKPOINT 1
-
-Остановиться.
-
-Ответить кратко:
-
-```text
-Доступный pool: X
-
-Предлагаемый cohort: 50
-WON: X
-LOST: X
-
-Менеджеры:
-...
-
-Pipeline:
-...
-
-Период:
-...
-
-Overlap с исходными 23: X
-
-Проблемы/риски выборки:
-...
-
-Рекомендация: PROCEED / CHANGE COHORT
-```
-
-Не переходить к STAGE 2.
-
+Stage 1 завершён и заморожен: `research_outputs/validation_50_v1/cohort.json`
+и `closed_deal_pool.json`. Повторный sampling не выполняется.
 ---
 
-# STAGE 2 — completeness и подготовка источников
-
-После отдельного разрешения.
+# INTERNAL GATE 2 — completeness и подготовка источников
 
 Для утверждённых 50 сделок использовать **существующий pipeline `Neuro_rop_practice`**.
 
@@ -165,7 +124,6 @@ eligible_calls_without_transcript == 0
 
 Если gate не пройден - остановиться.
 
-## CHECKPOINT 2
 
 Ответить:
 
@@ -185,14 +143,9 @@ Audio unavailable / unknown duration: X
 
 DATA READY: YES / NO
 ```
-
-Не строить research dataset и не запускать Luna deal audits.
-
 ---
 
-# STAGE 3 — собрать новый validation dataset
-
-После разрешения.
+# INTERNAL GATE 3 — собрать новый validation dataset
 
 Создать отдельный versioned dataset для cohort 50.
 
@@ -216,9 +169,7 @@ DATA READY: YES / NO
 
 Проверить deterministic integrity и completeness.
 
-Не начинать semantic analysis.
 
-## CHECKPOINT 3
 
 Ответить:
 
@@ -239,14 +190,9 @@ events ...
 Основные ограничения:
 ...
 ```
-
-И остановиться.
-
 ---
 
-# STAGE 4 — основной blind audit 50 сделок
-
-После разрешения.
+# INTERNAL GATE 4 — основной blind audit 50 сделок
 
 Это основной semantic pass.
 
@@ -280,7 +226,6 @@ Workers не должны видеть:
 
 Сохранить frozen results перед reveal outcomes.
 
-## CHECKPOINT 4
 
 Ответить:
 
@@ -298,25 +243,20 @@ High data-quality concern: X
 
 AUDIT PASS READY FOR VALIDATION: YES / NO
 ```
-
-Не раскрывать outcomes и не агрегировать WON/LOST.
-
 ---
 
-# STAGE 5 — selective reliability check
-
-После разрешения.
+# INTERNAL GATE 5 — selective reliability check
 
 Не повторять все 50.
 
-Выбрать примерно **10-15 сделок** для второго независимого blind audit.
+Выбрать примерно **12–15 сделок** для второго независимого blind audit.
 
 Sampling должен включать:
 
 - часть случайных сделок;
 - самые неуверенные audits;
 - несколько сделок с потенциально сильным manager/process conclusion;
-- разные managers/outcomes, но outcome не показывать worker.
+- разные managers; sample выбирается строго outcome-blind без использования WON/LOST для отбора.
 
 Второй worker не видит первый audit.
 
@@ -334,7 +274,6 @@ Sampling должен включать:
 
 При DISAGREE проверить source evidence.
 
-## CHECKPOINT 5
 
 Ответить:
 
@@ -357,14 +296,9 @@ Manager/process opportunity:
 
 METHOD STABLE ENOUGH: YES / NO
 ```
-
-И остановиться.
-
 ---
 
-# STAGE 6 — reveal outcomes и portfolio analysis
-
-После разрешения.
+# INTERNAL GATE 6 — reveal outcomes и portfolio analysis
 
 Только теперь присоединить WON/LOST.
 
@@ -399,7 +333,6 @@ METHOD STABLE ENOUGH: YES / NO
 
 Не делать predictive model.
 
-## CHECKPOINT 6
 
 Остановиться и дать бизнес-результат.
 
@@ -434,7 +367,6 @@ T5: ...
 Рекомендация следующего шага:
 ...
 ```
-
 ---
 
 # Общие ограничения
@@ -453,9 +385,7 @@ T5: ...
 
 Использовать существующий код и manifests, где это возможно.
 
-Если возникает технический затык:
-1. сначала разобраться в существующей реализации;
-2. не строить параллельный pipeline без необходимости;
-3. если решение существенно меняет методику - остановиться на CHECKPOINT и описать проблему.
+При настоящем blocker остановить исследование и описать конкретную причину
+и минимальный вариант решения. Не запускать последующие этапы через failed gate.
 
 Главное: **получить надёжный ответ с минимальным количеством лишней работы и LLM-прогонов.**

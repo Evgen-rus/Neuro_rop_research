@@ -1,0 +1,4 @@
+# Runtime CRM sources may contain credentials/download URLs; never publish them.
+_private/
+__pycache__/
+*.pyc
