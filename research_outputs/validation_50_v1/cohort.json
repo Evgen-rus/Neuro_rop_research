@@ -1,0 +1,673 @@
+{
+  "schema_version": 1,
+  "pool_artifact": "closed_deal_pool.json",
+  "baseline_manifest": "dataset_v2/manifest.json",
+  "selection_method": "Seeded random sampling (20261001), 25 WON / 25 LOST; pipeline strata allocated proportionally within each outcome; no manager quotas.",
+  "filters": {
+    "close_date": ">=2026-01-01",
+    "pipelines": [
+      "15",
+      "17",
+      "47"
+    ]
+  },
+  "counts": {
+    "pool_all": 535,
+    "baseline_count": 23,
+    "pool_baseline_overlap": 20,
+    "new_pool": 515,
+    "eligible_after_exclusions": 504,
+    "cohort": 50,
+    "won": 25,
+    "lost": 25,
+    "baseline_overlap": 0,
+    "technical_service_deals_removed": 9,
+    "explicit_duplicate_stage_deals_removed": 2,
+    "obvious_empty_deals_removed": 0,
+    "invalid_outcomes": 0
+  },
+  "excluded_service_owners": {
+    "База Неактуально": 8,
+    "Холодная База": 1
+  },
+  "excluded_duplicate_stages": {
+    "C15:LOSE": 1,
+    "C47:LOSE": 1
+  },
+  "pipeline_quotas_by_outcome": {
+    "WON": {
+      "17": 9,
+      "47": 2,
+      "15": 14
+    },
+    "LOST": {
+      "15": 18,
+      "17": 1,
+      "47": 6
+    }
+  },
+  "period": {
+    "from": "2026-01-16",
+    "to": "2026-09-30"
+  },
+  "pipeline_counts": {
+    "15": 32,
+    "17": 10,
+    "47": 8
+  },
+  "manager_distribution": [
+    {
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "deals": 27
+    },
+    {
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "deals": 6
+    },
+    {
+      "manager_id": "2439",
+      "manager_name": "Денис Шилин",
+      "deals": 4
+    },
+    {
+      "manager_id": "2449",
+      "manager_name": "Валентина Кацюба",
+      "deals": 3
+    },
+    {
+      "manager_id": "2657",
+      "manager_name": "Виктория Егошина",
+      "deals": 3
+    },
+    {
+      "manager_id": "103",
+      "manager_name": "Андрей Подобеда",
+      "deals": 2
+    },
+    {
+      "manager_id": "1935",
+      "manager_name": "Яна Поповичева",
+      "deals": 2
+    },
+    {
+      "manager_id": "2539",
+      "manager_name": "Анна Старицына",
+      "deals": 1
+    },
+    {
+      "manager_id": "2751",
+      "manager_name": "Дарья Пшенникова",
+      "deals": 1
+    },
+    {
+      "manager_id": "2653",
+      "manager_name": "Наталья Пищулина",
+      "deals": 1
+    }
+  ],
+  "monthly_counts": {
+    "2026-01": 4,
+    "2026-02": 10,
+    "2026-03": 10,
+    "2026-04": 5,
+    "2026-05": 4,
+    "2026-06": 8,
+    "2026-07": 3,
+    "2026-08": 2,
+    "2026-09": 4
+  },
+  "deals": [
+    {
+      "deal_id": "6691",
+      "outcome": "LOST",
+      "manager_id": "2439",
+      "manager_name": "Денис Шилин",
+      "pipeline_id": "15",
+      "stage_id": "C15:4",
+      "close_date": "2026-01-16T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6741",
+      "outcome": "LOST",
+      "manager_id": "2439",
+      "manager_name": "Денис Шилин",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_PZBQIN",
+      "close_date": "2026-01-21T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6813",
+      "outcome": "LOST",
+      "manager_id": "2439",
+      "manager_name": "Денис Шилин",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_BCU6T4",
+      "close_date": "2026-01-22T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6941",
+      "outcome": "LOST",
+      "manager_id": "2751",
+      "manager_name": "Дарья Пшенникова",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_BCU6T4",
+      "close_date": "2026-02-06T03:00:00+03:00",
+      "amount": "1000000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6707",
+      "outcome": "LOST",
+      "manager_id": "103",
+      "manager_name": "Андрей Подобеда",
+      "pipeline_id": "15",
+      "stage_id": "C15:3",
+      "close_date": "2026-02-16T03:00:00+03:00",
+      "amount": "2755200.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7031",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:5",
+      "close_date": "2026-02-16T03:00:00+03:00",
+      "amount": "11882000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6841",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:1",
+      "close_date": "2026-02-25T03:00:00+03:00",
+      "amount": "8970000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6907",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_BCU6T4",
+      "close_date": "2026-02-26T03:00:00+03:00",
+      "amount": "850000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6673",
+      "outcome": "LOST",
+      "manager_id": "2539",
+      "manager_name": "Анна Старицына",
+      "pipeline_id": "15",
+      "stage_id": "C15:5",
+      "close_date": "2026-03-05T03:00:00+03:00",
+      "amount": "616000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7161",
+      "outcome": "LOST",
+      "manager_id": "1935",
+      "manager_name": "Яна Поповичева",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_PZBQIN",
+      "close_date": "2026-03-12T03:00:00+03:00",
+      "amount": "2679000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7221",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_BCU6T4",
+      "close_date": "2026-03-25T03:00:00+03:00",
+      "amount": "1022000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6351",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_BCU6T4",
+      "close_date": "2026-03-26T03:00:00+03:00",
+      "amount": "24211000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7337",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:3",
+      "close_date": "2026-04-07T03:00:00+03:00",
+      "amount": "1361000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7103",
+      "outcome": "LOST",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "15",
+      "stage_id": "C15:UC_PZBQIN",
+      "close_date": "2026-04-27T03:00:00+03:00",
+      "amount": "1078000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7623",
+      "outcome": "LOST",
+      "manager_id": "2657",
+      "manager_name": "Виктория Егошина",
+      "pipeline_id": "15",
+      "stage_id": "C15:3",
+      "close_date": "2026-05-19T03:00:00+03:00",
+      "amount": "1.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18357",
+      "outcome": "LOST",
+      "manager_id": "2657",
+      "manager_name": "Виктория Егошина",
+      "pipeline_id": "15",
+      "stage_id": "C15:1",
+      "close_date": "2026-06-02T03:00:00+03:00",
+      "amount": "800000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7565",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:3",
+      "close_date": "2026-06-09T03:00:00+03:00",
+      "amount": "864000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18729",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:3",
+      "close_date": "2026-07-27T03:00:00+03:00",
+      "amount": "2258000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7009",
+      "outcome": "LOST",
+      "manager_id": "2653",
+      "manager_name": "Наталья Пищулина",
+      "pipeline_id": "17",
+      "stage_id": "C17:LOSE",
+      "close_date": "2026-08-05T03:00:00+03:00",
+      "amount": "1562000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6589",
+      "outcome": "LOST",
+      "manager_id": "2439",
+      "manager_name": "Денис Шилин",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_HZRMAW",
+      "close_date": "2026-02-12T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6573",
+      "outcome": "LOST",
+      "manager_id": "2449",
+      "manager_name": "Валентина Кацюба",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_HZRMAW",
+      "close_date": "2026-02-26T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7043",
+      "outcome": "LOST",
+      "manager_id": "2449",
+      "manager_name": "Валентина Кацюба",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_RP1HN0",
+      "close_date": "2026-02-26T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6665",
+      "outcome": "LOST",
+      "manager_id": "2449",
+      "manager_name": "Валентина Кацюба",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_HZRMAW",
+      "close_date": "2026-03-02T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18865",
+      "outcome": "LOST",
+      "manager_id": "103",
+      "manager_name": "Андрей Подобеда",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_HZRMAW",
+      "close_date": "2026-08-13T03:00:00+03:00",
+      "amount": "785000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18819",
+      "outcome": "LOST",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "47",
+      "stage_id": "C47:UC_HZRMAW",
+      "close_date": "2026-09-03T03:00:00+03:00",
+      "amount": "7240000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6695",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-01-23T03:00:00+03:00",
+      "amount": "1729000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6693",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-02-04T03:00:00+03:00",
+      "amount": "2229000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6811",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-02-24T03:00:00+03:00",
+      "amount": "1661000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7107",
+      "outcome": "WON",
+      "manager_id": "1935",
+      "manager_name": "Яна Поповичева",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-03-13T03:00:00+03:00",
+      "amount": "1410000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6955",
+      "outcome": "WON",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-03-18T03:00:00+03:00",
+      "amount": "1185205.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "5293",
+      "outcome": "WON",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-03-20T03:00:00+03:00",
+      "amount": "7275970.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7543",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-04-24T03:00:00+03:00",
+      "amount": "1453000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6791",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-05-14T03:00:00+03:00",
+      "amount": "1446000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7619",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-05-25T03:00:00+03:00",
+      "amount": "1297000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18385",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-06-16T03:00:00+03:00",
+      "amount": "956000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18523",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-06-19T03:00:00+03:00",
+      "amount": "455000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18533",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-06-25T03:00:00+03:00",
+      "amount": "584000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7417",
+      "outcome": "WON",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-06-26T03:00:00+03:00",
+      "amount": "1110000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7217",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "15",
+      "stage_id": "C15:WON",
+      "close_date": "2026-07-01T03:00:00+03:00",
+      "amount": "3362600.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7035",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-03-02T03:00:00+03:00",
+      "amount": "1247000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "6999",
+      "outcome": "WON",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-03-27T03:00:00+03:00",
+      "amount": "1218000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7137",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-04-15T03:00:00+03:00",
+      "amount": "1548000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7639",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-05-07T03:00:00+03:00",
+      "amount": "3041000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18339",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-06-11T03:00:00+03:00",
+      "amount": "3288000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18283",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-06-15T03:00:00+03:00",
+      "amount": "6213000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18845",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-09-25T03:00:00+03:00",
+      "amount": "575000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18925",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-09-25T03:00:00+03:00",
+      "amount": "4901000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7567",
+      "outcome": "WON",
+      "manager_id": "1421",
+      "manager_name": "Александр Пахомов",
+      "pipeline_id": "17",
+      "stage_id": "C17:WON",
+      "close_date": "2026-09-30T03:00:00+03:00",
+      "amount": "2336000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "7307",
+      "outcome": "WON",
+      "manager_id": "1325",
+      "manager_name": "Катерина Андреева",
+      "pipeline_id": "47",
+      "stage_id": "C47:WON",
+      "close_date": "2026-04-21T03:00:00+03:00",
+      "amount": "997000.00000000",
+      "currency": "RUB"
+    },
+    {
+      "deal_id": "18639",
+      "outcome": "WON",
+      "manager_id": "2657",
+      "manager_name": "Виктория Егошина",
+      "pipeline_id": "47",
+      "stage_id": "C47:WON",
+      "close_date": "2026-07-08T03:00:00+03:00",
+      "amount": "0.00000000",
+      "currency": "RUB"
+    }
+  ]
+}
