@@ -1,0 +1,43 @@
+{
+  "status": "PARTIAL_PRIMARY_ARRIVAL_QC_PASS",
+  "input_freeze_sha256": "970a61cb6a7133890fad390053a06fb69c2cd3fe6a18b7a90bb34da849db5e02",
+  "accepted_count": 27,
+  "remaining_count": 23,
+  "outcomes_revealed": false,
+  "accepted_audit_sha256": {
+    "6573": "c1bb886bc7ffe257234433d89bda4b4991922fda2f079d7f78155289e7be0d6e",
+    "6589": "628faabcc09457b3de2e07c4636a33f040f77b2721c7358d9044c5c511da8014",
+    "6665": "b7313200ffaf06824b1735d71dcd8fe12703df0c6a2fd78217f576fed303c33c",
+    "6673": "1587e8b1909b65f861194de7e6a8ef03bb4a5eb6164c39611866352deac07501",
+    "6691": "acaf1c778cd417da42c2c894c20dbf5172286a8ba86e305fad246f719495d474",
+    "6693": "5835a3b0e6ce674f3c4ae3e8b95856729da994ccaf973d7529c5abf38667635d",
+    "6695": "ce7f16ce9493295e3606fbc626c7f91bdd456a39dbd84bb88ff45502e85b6709",
+    "6707": "c673bdae0bcce363a1c6eb304bbf88923f9649e37a15acd105f1a2e98c5a0aab",
+    "6741": "f125ddd622e847abf0e2f19c6623d975face27c1dc5fd774b97f950bbca7e03d",
+    "6813": "35a603a102e6f851de75a7e30f52e60a7df0159cf56f3f5d798c61057d08f345",
+    "6941": "f5db952fd5f9fd6f1e49ae10aa47d34b798200608caf07bb864de4fafb2ef2f3",
+    "7009": "d3d4a58414740755bfa92993e3add0fbd63ec0ef16142e28c2b7aa6551f80a8d",
+    "7031": "eed3b1fb22badb8e7a7de75a247831c393c947f9e48e642b1c47e5282f6f70e7",
+    "7043": "86eb6433f57460fabad423fd30c403b7e455d9be631d5486aa2e81db1b35c762",
+    "7103": "716f89a8d13c92c870220f234e72bfb9b6a7c7284a1ff3e34ab7eb9e7aa47ff8",
+    "7161": "a54ac70ec420f22ace89156e69fcddf3d33b5d54976ffeb1d3b54f5cd10f6e6a",
+    "7337": "e800417741ea3e0a3b1cfe0a8c55446e4f5b554a7edc2a6f96137c346bb35ffe",
+    "7417": "0bd7c358c2990f48de848f71f865044cbd308d9cb549f416a49e5057121235d4",
+    "7565": "3232c041fc98e6c18373717c5bb4dd842ddb09e8a82b2d813d23bf3ad72a0177",
+    "7623": "f25af178b8d1060d6e875fbd00e2387eb0e91d16ea5cceaa2cae8d61305a30e1",
+    "18639": "4ab0659cd7fdd50a408a5aae06de27b19e8d3242961e9627818e5124bb182434",
+    "18729": "15ee045a6ef598c0dcb018a0c68db0b939aec0fd9437b465d2cdc80faf02c640",
+    "18819": "2976a5e284c48ef3720e2cc097639c62cf0f94f1e50620d61b0140c4b5fc2f97",
+    "7543": "d775094070d6cb5a08952f425f2bd032abd8a907cf7025cde3f7b376ed56ba03",
+    "18533": "91b09408d733095346dff857aa329c4026f42198a04fea08af7a525aa30c0c86",
+    "18357": "0e2afe2b67c34e8b878cdada9e07d9ddb7c0cdf71917bd9f767575c08d0a9bc0",
+    "18523": "81cb98410170164ab29b7c56e6a1e7a49b89e1b986218ff9e3dfe6b9b2c13d95"
+  },
+  "new_checks": {
+    "7543": "Schema/evidence pointers PASS; primary explanation, source attribution, influence limits and turning points reviewed against selected source events.",
+    "18533": "Schema/evidence pointers PASS; technical fit, price alternatives, visit chronology and uncertain ASR time reviewed against all four source transcripts.",
+    "18357": "Schema/evidence PASS; source-supported explanation and influence limits reviewed; quality count wording corrected to distinguish source completeness from permitted view.",
+    "18523": "Schema/evidence PASS; sensor pricing, competing offer, variable dimensions and negotiated next steps reviewed against source transcripts; no outcome inference."
+  },
+  "pending_clarity_corrections": []
+}
