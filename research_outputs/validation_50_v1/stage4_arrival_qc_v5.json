@@ -1,8 +1,8 @@
 {
   "status": "PARTIAL_PRIMARY_ARRIVAL_QC_PASS",
   "input_freeze_sha256": "970a61cb6a7133890fad390053a06fb69c2cd3fe6a18b7a90bb34da849db5e02",
-  "accepted_count": 35,
-  "remaining_count": 15,
+  "accepted_count": 38,
+  "remaining_count": 12,
   "outcomes_revealed": false,
   "accepted_audit_sha256": {
     "6573": "c1bb886bc7ffe257234433d89bda4b4991922fda2f079d7f78155289e7be0d6e",
@@ -39,7 +39,10 @@
     "6351": "333b1f86f01dc5f128538b43ffb0c398fd6b3b529a235b5a45a4955d07955a3f",
     "7107": "3091bec92ffde36d0a246b718c68730f0b401a946cf7c8f64842cb9e731375c5",
     "18845": "77c9b66c4449c6f2557c3df9b50510602e20343e2264cbae4c64c7e0682ad80a",
-    "18865": "6f4a6a32bbf365be895268d9e0e64bb9261309a25bfecd8b8ca2f3da0d0715e3"
+    "18865": "6f4a6a32bbf365be895268d9e0e64bb9261309a25bfecd8b8ca2f3da0d0715e3",
+    "7307": "aac9ee1df31107930b9a1d4bbae3e62f02c7aaec3ba15a2766907d3cc2371ac3",
+    "6841": "ce9398281a5335b904e8913d6ad360d3658fd8b0e786dd8a122031df08462285",
+    "6999": "89d783d4ee37e829a98f06446232f590eb9cb4ab17f822456208b88df4e59fc6"
   },
   "new_checks": {
     "7543": "Schema/evidence pointers PASS; primary explanation, source attribution, influence limits and turning points reviewed against selected source events.",
@@ -53,7 +56,10 @@
     "6351": "Schema/evidence PASS; financing and legal-delay explanation reviewed against direct customer calls; incomplete audio and excluded worklogs limits retained.",
     "7107": "Schema/evidence PASS; competing offers, timing and winding discussions reviewed against source calls; conditional adaptation preserved; intrusive-call remark qualified by persuasion/consent context, not forced negative signal.",
     "18845": "Schema/evidence PASS; requirement changes reviewed against customer calls; direction-null legal mirror remains unattributed; P/S ASR discrepancy and project-track scope explicitly uncertain.",
-    "18865": "Schema/evidence PASS; technical diagnosis treated as specialist claim; price/leadership constraint supported by direct customer reports; final evidence references remapped and reviewed."
+    "18865": "Schema/evidence PASS; technical diagnosis treated as specialist claim; price/leadership constraint supported by direct customer reports; final evidence references remapped and reviewed.",
+    "7307": "Schema/evidence PASS; tender price justification and separate-project approval uncertainty checked against direct calls; ambiguous price-change utterance preserved as uncertainty, expectation alone not treated as proven weak action.",
+    "6841": "Schema/evidence PASS after exact event_type correction on seven worklog rows; proposal omissions and scope-dependent pricing reviewed; early identity/date and later manager-only status explicitly uncertain.",
+    "6999": "Schema/evidence PASS; external-financing dependency verified in customer email and lender call; lender's final awaiting-signature emails keep completion unconfirmed; source attribution preserved."
   },
   "pending_clarity_corrections": []
 }

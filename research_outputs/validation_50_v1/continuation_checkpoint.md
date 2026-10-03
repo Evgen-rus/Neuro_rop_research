@@ -1,5 +1,7 @@
 # Continuation checkpoint — Stage 4, not complete
 
+Latest accepted progress: 38/50 primary audits; 12 remain. Batch D completed; its evidence types and final factual wording were checked/corrected by primary. Batch E retains7035/7137, batch F owns6811/6907. Eight IDs unassigned:6955,5293,7567,18385,7619,7217,18283,6791. Secondary0/15, no phase freeze or reveal. Accepted hashes in `stage4_arrival_qc_v5.json`; earlier counts below are historical.
+
 Latest accepted progress: 35/50 primary audits; 15 remain. Batch C completed and accepted; batch D still owns7307/6841. Fresh batch E owns6999/7035/7137. Ten IDs not yet assigned:6811,6907,6955,5293,7567,18385,7619,7217,18283,6791. Accepted hashes and pre-freeze factual corrections are recorded in `stage4_arrival_qc_v5.json`. No labels revealed, no phase freeze. Earlier progress below is historical.
 
 Latest 2026-10-03: 31/50 primary audits accepted; 19 remain. All eight cases in batches A/B were accepted after schema, evidence-pointer and targeted semantic review. `stage4_arrival_qc_v5.json` pins accepted audit hashes. Fresh batches C (18845,18865,6351) and D (7107,7307,6841) are active; 13 remaining IDs not yet assigned:6999,7035,6811,6907,7137,6955,5293,7567,18385,7619,7217,18283,6791. No primary freeze, secondary audits or outcome reveal yet. 15 secondary audits remain. Earlier counts below are historical.
