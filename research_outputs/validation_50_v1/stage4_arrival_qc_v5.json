@@ -1,8 +1,8 @@
 {
   "status": "PARTIAL_PRIMARY_ARRIVAL_QC_PASS",
   "input_freeze_sha256": "970a61cb6a7133890fad390053a06fb69c2cd3fe6a18b7a90bb34da849db5e02",
-  "accepted_count": 31,
-  "remaining_count": 19,
+  "accepted_count": 35,
+  "remaining_count": 15,
   "outcomes_revealed": false,
   "accepted_audit_sha256": {
     "6573": "c1bb886bc7ffe257234433d89bda4b4991922fda2f079d7f78155289e7be0d6e",
@@ -35,7 +35,11 @@
     "18925": "7ddafec35a5a23492a7c5c45e88ebaa0629d5b169c21d9572974cfbf25ad9338",
     "7221": "a0a687adce7530558dcdc0006a517a3c7b63f9b1b88c20e838fcf00153f0b151",
     "7639": "87d187299bc78ff24fe62f86baa1bb0c570429acf326b706d6ee7ffe0ec80c37",
-    "18339": "a9609d0e5f01316b49e2e4ac5d0435183dec7de2f33b0f0f81920408a030b48f"
+    "18339": "a9609d0e5f01316b49e2e4ac5d0435183dec7de2f33b0f0f81920408a030b48f",
+    "6351": "333b1f86f01dc5f128538b43ffb0c398fd6b3b529a235b5a45a4955d07955a3f",
+    "7107": "3091bec92ffde36d0a246b718c68730f0b401a946cf7c8f64842cb9e731375c5",
+    "18845": "77c9b66c4449c6f2557c3df9b50510602e20343e2264cbae4c64c7e0682ad80a",
+    "18865": "6f4a6a32bbf365be895268d9e0e64bb9261309a25bfecd8b8ca2f3da0d0715e3"
   },
   "new_checks": {
     "7543": "Schema/evidence pointers PASS; primary explanation, source attribution, influence limits and turning points reviewed against selected source events.",
@@ -45,7 +49,11 @@
     "18925": "Schema/evidence PASS; packaging readiness, technical configuration and contract clarification reviewed against source transcripts; future signature/payment plans distinguished from completed acts.",
     "7221": "Schema/evidence PASS; supply timing, alternative testing and uncertain5000vs2000 requirement reviewed against original transcripts; uncertainties translated into Russian.",
     "7639": "Schema/evidence PASS; corrected final evidence references; pre-creation inferred worklog chronology explicitly uncertain; direct May payment discussions support limited explanation.",
-    "18339": "Schema/evidence PASS; director/legal dependency and source limits reviewed; later signing claim and future payment plan distinguished, no false contradiction with earlier customer update."
+    "18339": "Schema/evidence PASS; director/legal dependency and source limits reviewed; later signing claim and future payment plan distinguished, no false contradiction with earlier customer update.",
+    "6351": "Schema/evidence PASS; financing and legal-delay explanation reviewed against direct customer calls; incomplete audio and excluded worklogs limits retained.",
+    "7107": "Schema/evidence PASS; competing offers, timing and winding discussions reviewed against source calls; conditional adaptation preserved; intrusive-call remark qualified by persuasion/consent context, not forced negative signal.",
+    "18845": "Schema/evidence PASS; requirement changes reviewed against customer calls; direction-null legal mirror remains unattributed; P/S ASR discrepancy and project-track scope explicitly uncertain.",
+    "18865": "Schema/evidence PASS; technical diagnosis treated as specialist claim; price/leadership constraint supported by direct customer reports; final evidence references remapped and reviewed."
   },
   "pending_clarity_corrections": []
 }
