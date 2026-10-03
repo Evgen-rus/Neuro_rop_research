@@ -1,5 +1,7 @@
 # Continuation checkpoint — Stage 4, not complete
 
+Latest 2026-10-03: 41/50 primary audits accepted; nine remain. Batches E/F returned7137/6907 and both passed primary review.6811 draft is NOT accepted: view source_line98 manager_worklog:2474611:0 explicitly claims80%payment received. Scope review is checking this missed application of the already approved terminal-source principle; no freeze/reveal until corrected. Fresh batch G owns6955/18385/7619; five other unaudited IDs5293/7567/7217/18283/6791. Secondary0/15. Progress must distinguish accepted drafts from returned drafts; preserve unchanged accepted audits by input hashes.
+
 Latest accepted progress: 38/50 primary audits; 12 remain. Batch D completed; its evidence types and final factual wording were checked/corrected by primary. Batch E retains7035/7137, batch F owns6811/6907. Eight IDs unassigned:6955,5293,7567,18385,7619,7217,18283,6791. Secondary0/15, no phase freeze or reveal. Accepted hashes in `stage4_arrival_qc_v5.json`; earlier counts below are historical.
 
 Latest accepted progress: 35/50 primary audits; 15 remain. Batch C completed and accepted; batch D still owns7307/6841. Fresh batch E owns6999/7035/7137. Ten IDs not yet assigned:6811,6907,6955,5293,7567,18385,7619,7217,18283,6791. Accepted hashes and pre-freeze factual corrections are recorded in `stage4_arrival_qc_v5.json`. No labels revealed, no phase freeze. Earlier progress below is historical.
