@@ -1,0 +1,440 @@
+{
+  "call_data_limitations": [
+    {
+      "activity_id": "475325",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "475325",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "484691",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "484691",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "484693",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "484693",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "486623",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "486623",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "488633",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "488633",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "488671",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "488671",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "491977",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "491977",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "491991",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "491991",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "493675",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "493675",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "493677",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "493677",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "493915",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "493915",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "497791",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "497791",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "497797",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "497797",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "497985",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "497985",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "502681",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "502681",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "502685",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "502685",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "502917",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "502917",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "513545",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "513545",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "513549",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "513549",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "515883",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "515883",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "515885",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "515885",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "515887",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "515887",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "516743",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "516743",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "518457",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "518457",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "518459",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "518459",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "518541",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "518541",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "518715",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "518715",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "522167",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "522167",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "531599",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "531599",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "541127",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "541127",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "541137",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "541137",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "542231",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "542231",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "542243",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "542243",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "542747",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "542747",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "542749",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "542749",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "555685",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "555685",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "516303",
+      "expected_call_duration_seconds": 67.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516429",
+      "expected_call_duration_seconds": 20.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516447",
+      "expected_call_duration_seconds": 43.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    }
+  ],
+  "calls": {
+    "calls_audio_unavailable": 36,
+    "calls_lt36_incomplete": 3,
+    "calls_lt_36": 22,
+    "calls_recording_incomplete": 3,
+    "calls_unknown_duration": 36,
+    "calls_with_measured_audio": 56,
+    "eligible_calls_ge_36": 34,
+    "eligible_calls_with_transcript": 34,
+    "eligible_calls_without_transcript": 0,
+    "total_calls": 92
+  },
+  "data_quality": "limited",
+  "deal_id": "5293",
+  "limitations": [
+    "call_audio_duration_unknown",
+    "call_audio_unavailable",
+    "separate_customer_chat_history_not_collected",
+    "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained."
+  ],
+  "manager_worklog_quarantine": {
+    "entries_excluded": 51,
+    "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+    "worklog_ids": [
+      "2256255"
+    ]
+  },
+  "max_voice": {
+    "audio_unavailable": 0,
+    "decoding_failed": 0,
+    "missing_activity_id": 0,
+    "missing_available_transcript": 0,
+    "scan_status": "checked",
+    "unavailable": 0,
+    "voice_message_count": 0,
+    "with_transcript": 0
+  },
+  "max_voice_data_limitations": [],
+  "sources": {
+    "call_audio_manifest": "ok",
+    "deal_activities": "ok",
+    "deal_card": "ok",
+    "max_voice_manifest": "ok",
+    "normalized_root_and_source_lead_channels": {
+      "call": 92,
+      "email": 85,
+      "internal_comment": 2
+    },
+    "raw_context": "ok",
+    "separate_customer_chat_history": "not_collected",
+    "source_lead": "ok",
+    "stage_history": "ok",
+    "tasks": "ok",
+    "timeline_comments": "ok"
+  }
+}

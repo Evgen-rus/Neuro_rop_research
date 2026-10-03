@@ -1,0 +1,109 @@
+{
+  "call_data_limitations": [
+    {
+      "activity_id": "529383",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "529383",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "530795",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "530795",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "613501",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "613501",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "613555",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "613555",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "618775",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "618775",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "626081",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "626081",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    }
+  ],
+  "calls": {
+    "calls_audio_unavailable": 6,
+    "calls_lt_36": 13,
+    "calls_unknown_duration": 6,
+    "calls_with_measured_audio": 19,
+    "eligible_calls_ge_36": 6,
+    "eligible_calls_with_transcript": 6,
+    "eligible_calls_without_transcript": 0,
+    "total_calls": 25
+  },
+  "data_quality": "limited",
+  "deal_id": "7009",
+  "limitations": [
+    "call_audio_duration_unknown",
+    "call_audio_unavailable",
+    "separate_customer_chat_history_not_collected"
+  ],
+  "max_voice": {
+    "audio_unavailable": 0,
+    "decoding_failed": 0,
+    "missing_activity_id": 0,
+    "missing_available_transcript": 0,
+    "scan_status": "checked",
+    "unavailable": 0,
+    "voice_message_count": 0,
+    "with_transcript": 0
+  },
+  "max_voice_data_limitations": [],
+  "sources": {
+    "call_audio_manifest": "ok",
+    "deal_activities": "ok",
+    "deal_card": "ok",
+    "max_voice_manifest": "ok",
+    "normalized_root_and_source_lead_channels": {
+      "call": 25,
+      "internal_comment": 2,
+      "whatsapp": 2
+    },
+    "raw_context": "ok",
+    "separate_customer_chat_history": "not_collected",
+    "source_lead": "not_linked",
+    "stage_history": "ok",
+    "tasks": "ok",
+    "timeline_comments": "ok"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "call_data_limitations": [
+    {
+      "activity_id": "508413",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "508413",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "508237",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "508237",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "510209",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "510209",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "511233",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "511233",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "511237",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "511237",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "512117",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "512117",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "512209",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "512209",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "514213",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "514213",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "519037",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519037",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "519039",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519039",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "519041",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519041",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "519155",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519155",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "519157",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "519157",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "527283",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "527283",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "530263",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "530263",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "543049",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "543049",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "544055",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "544055",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "545189",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "545189",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "514215",
+      "expected_call_duration_seconds": 25.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    },
+    {
+      "activity_id": "516351",
+      "expected_call_duration_seconds": 125.0,
+      "has_transcript": false,
+      "issue": "recording_incomplete",
+      "measured_duration_seconds": 3.0
+    }
+  ],
+  "calls": {
+    "calls_audio_unavailable": 18,
+    "calls_lt36_incomplete": 2,
+    "calls_lt_36": 7,
+    "calls_recording_incomplete": 2,
+    "calls_unknown_duration": 18,
+    "calls_with_measured_audio": 20,
+    "eligible_calls_ge_36": 13,
+    "eligible_calls_with_transcript": 13,
+    "eligible_calls_without_transcript": 0,
+    "total_calls": 38
+  },
+  "data_quality": "limited",
+  "deal_id": "6351",
+  "limitations": [
+    "call_audio_duration_unknown",
+    "call_audio_unavailable",
+    "separate_customer_chat_history_not_collected",
+    "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained."
+  ],
+  "manager_worklog_quarantine": {
+    "entries_excluded": 30,
+    "limitation": "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+    "worklog_ids": [
+      "2385479"
+    ]
+  },
+  "max_voice": {
+    "audio_unavailable": 0,
+    "decoding_failed": 0,
+    "missing_activity_id": 0,
+    "missing_available_transcript": 0,
+    "scan_status": "checked",
+    "unavailable": 0,
+    "voice_message_count": 0,
+    "with_transcript": 0
+  },
+  "max_voice_data_limitations": [],
+  "sources": {
+    "call_audio_manifest": "ok",
+    "deal_activities": "ok",
+    "deal_card": "ok",
+    "max_voice_manifest": "ok",
+    "normalized_root_and_source_lead_channels": {
+      "call": 38,
+      "email": 3,
+      "internal_comment": 5
+    },
+    "raw_context": "ok",
+    "separate_customer_chat_history": "not_collected",
+    "source_lead": "ok",
+    "stage_history": "ok",
+    "tasks": "ok",
+    "timeline_comments": "ok"
+  }
+}

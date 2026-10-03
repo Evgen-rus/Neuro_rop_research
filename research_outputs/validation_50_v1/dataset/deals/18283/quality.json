@@ -13,7 +13,8 @@
   "data_quality": "limited",
   "deal_id": "18283",
   "limitations": [
-    "separate_customer_chat_history_not_collected"
+    "separate_customer_chat_history_not_collected",
+    "Some source records excluded under approved chronology/source-admissibility constraints; genuine predecision same-day/intervening-day communications may be missing."
   ],
   "max_voice": {
     "audio_unavailable": 0,

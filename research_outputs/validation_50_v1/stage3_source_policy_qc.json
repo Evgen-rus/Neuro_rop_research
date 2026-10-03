@@ -1,0 +1,38 @@
+{
+  "verdict": "PASS",
+  "scope": "Independent structural verification only; no outcome fields or semantic audit content were reviewed. Dataset manifest was hashed only, not decoded.",
+  "hashes": {
+    "input_freeze_sha256": "970a61cb6a7133890fad390053a06fb69c2cd3fe6a18b7a90bb34da849db5e02",
+    "terminal_source_policy_sha256": "f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba"
+  },
+  "counts": {
+    "deals": 50,
+    "neutral_unchanged_vs_v5": 50,
+    "canonical_timelines_unchanged_vs_v5": 50,
+    "views_changed": 20,
+    "views_unchanged": 30,
+    "view_events_before": 3028,
+    "view_events_after": 2957,
+    "events_removed": 71,
+    "quality_changed_with_same_limitation": 20,
+    "quality_unchanged": 30,
+    "retained_primary_inputs": 23,
+    "archived_drafts": 11,
+    "baseline_opaque_hashes_verified": 296,
+    "baseline_hash_mismatches": 0,
+    "eligible_calls_with_transcripts": 470,
+    "eligible_calls": 470,
+    "invalid_source_line_pointers_or_order": 0
+  },
+  "checks": {
+    "input_freeze_and_audit_manifest_pins_match": true,
+    "approved_policy_hash_and_exact_cutoff_quarantine_removals_match": true,
+    "retained_and_archived_input_hashes_match": true,
+    "audit_schema_unchanged": true,
+    "baseline_integrity_296_of_296": true,
+    "completeness_470_of_470": true
+  },
+  "limitations": [
+    "Two pre-existing content-only differences from canonical rows remain at source_line 12 in deal 6573 and source_line 5 in deal 6707; identity fields and order match, and both views are unchanged from v5. This check does not assess their semantic content."
+  ]
+}

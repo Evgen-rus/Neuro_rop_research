@@ -1,0 +1,86 @@
+{
+  "status": "EXPOSED_DRAFTS_ARCHIVED_BEFORE_APPROVED_INPUT_REVISION",
+  "user_approved": true,
+  "terminal_source_policy_sha256": "f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba",
+  "old_input_freeze_sha256": "a6a439e1729c9648fbc8bea026f4c31a1e2215d83447a21afd5caf39f5b12a19",
+  "fresh_workers_required": true,
+  "audits": [
+    {
+      "deal_id": "6351",
+      "archived_file": "6351.json",
+      "audit_sha256": "f9f303f81e31fbc19c6ba8c702b04517f4d29b4e84cb267a5b9e2751aaa652cd",
+      "old_view_sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8",
+      "old_quality_sha256": "9c837100686a3753f7169ed0efc222d093a08638aa5071b3b74e82e842325457"
+    },
+    {
+      "deal_id": "7221",
+      "archived_file": "7221.json",
+      "audit_sha256": "534c876e00bf97a1dd055c0bc2b79e1bbe0c6061a3ede647095a7da5e51c01ec",
+      "old_view_sha256": "49c1baea2efdcf903c526281f5aeb0e6a02f089dea52b0ba6c5ca37ee60313f9",
+      "old_quality_sha256": "77c435c4a01e0724e04cc76254c9e08badcf3ad67cf5c2653cc01955084cb2e3"
+    },
+    {
+      "deal_id": "7543",
+      "archived_file": "7543.json",
+      "audit_sha256": "737d03ed2f3aedb657219fbea791e4d2e7e506401e98f4a93fa4a4ae39d92714",
+      "old_view_sha256": "d7860d60b17b0d38bcb26e68faf8a4f7466a3ee505be3775f73e3cf2d815790b",
+      "old_quality_sha256": "3956e459d067c65edd8ae0b142c4d0e3d786f265558ca57772a133b2e9061390"
+    },
+    {
+      "deal_id": "7639",
+      "archived_file": "7639.json",
+      "audit_sha256": "298a854e247b54e2b4551d0561e2e79762ae9f678a22aadc045a26f5b41cf490",
+      "old_view_sha256": "f7a523509b33d8d0ebe44d6c19c5a25c878ad5d546790e30aee0cd352bf21770",
+      "old_quality_sha256": "e8d47d7ea6a8ef2302bb43b797e069b75876baa76c60b235773786eaa0a4df7c"
+    },
+    {
+      "deal_id": "18339",
+      "archived_file": "18339.json",
+      "audit_sha256": "f20dc118da1378f21ea1f78171b73deca3f7a27a422025624de95b0f27e5b567",
+      "old_view_sha256": "63294c70af5bdb9662c036988542d38c12f87f736aed47b7cc941d2ecfdd4656",
+      "old_quality_sha256": "f2d7a961296b2d04b40274e5979ae0028b08c0539314a2ba97f694d74753359b"
+    },
+    {
+      "deal_id": "18357",
+      "archived_file": "18357.json",
+      "audit_sha256": "b30c295deb4a7f8c4891490c08391f90e53c157465895097be199e334ea54b90",
+      "old_view_sha256": "45ddbc447e3f89a7482e5ab27c661b9f7fabdc9cacba0cbbcdd6c6c0e418850a",
+      "old_quality_sha256": "6390172dd4833b4974e0a058f3420c6d4af622f405ad88cda9982280af380e31"
+    },
+    {
+      "deal_id": "18523",
+      "archived_file": "18523.json",
+      "audit_sha256": "4de57f72b33301ad45543ae64116c441da088040ce66d4da32d465fe9c8eb07e",
+      "old_view_sha256": "cc90109075c13af9f4deed3cb5801bcf1ffb896f78bb352d837633b347291843",
+      "old_quality_sha256": "486ff08ed3169555247266aaa96b78a60ca765cd7423803b0201fbb8cee33e21"
+    },
+    {
+      "deal_id": "18533",
+      "archived_file": "18533.json",
+      "audit_sha256": "5bac8704ed3701feb50213db6fe556fec930ebf3f096d8cf5384cea0580ccb9a",
+      "old_view_sha256": "3f99bfa267826c70ee0427591877682c4bb75e9bb23791b5e1e9e39676603ccc",
+      "old_quality_sha256": "9a2c90f5d2912a1e3fed2f1382eca20766b1702d51212ba6beac707054c35ee0"
+    },
+    {
+      "deal_id": "18845",
+      "archived_file": "18845.json",
+      "audit_sha256": "2239b62b4908a5b3eb90a74cb5a0a6001e63e78bc5eea929272864089f0aea6d",
+      "old_view_sha256": "4140adb7842286dd727436f58eb91ca26488dcf04423905a156e2ae8b65cdf43",
+      "old_quality_sha256": "c9c63b816de4f64caa7e61df198b2925903699d9bf6768922e912d2b9330df43"
+    },
+    {
+      "deal_id": "18865",
+      "archived_file": "18865.json",
+      "audit_sha256": "c9b0bf1381cf9a3a5efe9ac7af37b6e87a0fad696ed0925558444258cf51f38b",
+      "old_view_sha256": "f3c7966b6cc1d93539e0ffe96c26ebc7cf5b639669d943776ff8c4f80fc88caf",
+      "old_quality_sha256": "357959c2c7f7709c844b6465d6162f4d598ca0f5f4ea050b2cf7b92a0bdbcfda"
+    },
+    {
+      "deal_id": "18925",
+      "archived_file": "18925.json",
+      "audit_sha256": "db83199ac16c60c82e1b3f9e3718e44add004b244583e3a2fbb52ab94c1e6eb9",
+      "old_view_sha256": "ce8efa2bdae472bfa6ff834e0d1fc4764875e4562b6fe6170cdda79fcc02e9ae",
+      "old_quality_sha256": "40a29a587b2e495fa63f9de3ba710a9dd5bbe0de6d0d1e19b3a2896e805ae18c"
+    }
+  ]
+}

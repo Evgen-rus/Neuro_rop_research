@@ -129,6 +129,145 @@ def read_view(path: Path, deal_id: str, errors: list[str]) -> tuple[dict[int, di
     return events, raw
 
 
+def validate_terminal_source_policy(
+    root: Path,
+    input_freeze: dict[str, Any],
+    manifest: dict[str, Any],
+    views: dict[str, dict[int, dict[str, Any]]],
+    errors: list[str],
+) -> None:
+    policy_path = root / "terminal_source_policy.json"
+    if not policy_path.exists():
+        if input_freeze.get("terminal_source_policy_sha256") is not None or manifest.get("terminal_source_policy_sha256") is not None:
+            errors.append("terminal source policy pin exists but policy file is missing")
+        return
+    try:
+        policy_raw = policy_path.read_bytes()
+        policy = json.loads(policy_raw.decode("utf-8-sig"))
+        cohort_raw = (root / "cohort.json").read_bytes()
+        proposal_raw = (root / "terminal_source_policy_proposal.json").read_bytes()
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        errors.append(f"terminal source policy: cannot load ({type(exc).__name__})")
+        return
+    if not isinstance(policy, dict) or policy.get("schema_version") != 1 or policy.get("user_approved") is not True:
+        errors.append("terminal source policy is not an approved version 1 policy")
+        return
+    policy_hash = digest(policy_raw)
+    if digest(cohort_raw) != policy.get("cohort_sha256"):
+        errors.append("cohort hash differs from terminal source policy")
+    if digest(proposal_raw) != policy.get("proposal_sha256"):
+        errors.append("proposal hash differs from terminal source policy")
+    if input_freeze.get("terminal_source_policy_sha256") != policy_hash:
+        errors.append("terminal source policy hash differs from input freeze")
+    if manifest.get("terminal_source_policy_sha256") != policy_hash:
+        errors.append("terminal source policy hash differs from audit manifest")
+    if policy.get("expected_affected_deals") != 20 or policy.get("expected_events_removed") != 71:
+        errors.append("terminal source policy has unexpected approved counts")
+
+    rows = policy.get("deals")
+    if not isinstance(rows, list) or len(rows) != 20:
+        errors.append("terminal source policy must contain exactly 20 deals")
+        return
+    by_id: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        deal_id = row.get("deal_id") if isinstance(row, dict) else None
+        if not valid_deal_id(deal_id) or deal_id in by_id or deal_id not in views:
+            errors.append("terminal source policy has an invalid, duplicate, or unknown deal_id")
+            continue
+        by_id[deal_id] = row
+    if len(by_id) != 20:
+        return
+
+    removed_total = 0
+    for deal_id, row in by_id.items():
+        for key in ("expected_prefilter_view_sha256", "expected_canonical_timeline_sha256"):
+            if not isinstance(row.get(key), str) or len(row[key]) != 64 or any(char not in "0123456789abcdef" for char in row[key]):
+                errors.append(f"terminal source policy {deal_id}: invalid {key}")
+        before, removed, after = (row.get(key) for key in ("expected_view_events_before", "expected_events_removed", "expected_events_after"))
+        if any(type(value) is not int or value < 0 for value in (before, removed, after)) or before - after != removed:
+            errors.append(f"terminal source policy {deal_id}: inconsistent event counts")
+            continue
+        removed_total += removed
+        cutoff_value = row.get("cutoff_inclusive")
+        try:
+            cutoff = parse_timestamp(cutoff_value) if cutoff_value is not None else None
+        except (TypeError, ValueError):
+            errors.append(f"terminal source policy {deal_id}: invalid inclusive cutoff")
+            continue
+
+        timeline_path = root / "dataset" / "deals" / deal_id / "clean_timeline.jsonl"
+        try:
+            timeline_raw = timeline_path.read_bytes()
+            timeline_text = timeline_raw.decode("utf-8-sig")
+        except (OSError, UnicodeDecodeError) as exc:
+            errors.append(f"terminal source policy {deal_id}: canonical timeline unavailable ({type(exc).__name__})")
+            continue
+        if digest(timeline_raw) != row.get("expected_canonical_timeline_sha256"):
+            errors.append(f"terminal source policy {deal_id}: canonical timeline hash mismatch")
+        canonical: dict[int, dict[str, Any]] = {}
+        for source_line, line in enumerate(timeline_text.splitlines(), start=1):
+            if not line.strip():
+                continue
+            try:
+                event = json.loads(line)
+            except json.JSONDecodeError:
+                errors.append(f"terminal source policy {deal_id}:{source_line}: invalid canonical JSON")
+                continue
+            if isinstance(event, dict):
+                canonical[source_line] = event
+
+        pins = row.get("source_pins")
+        if not isinstance(pins, list):
+            errors.append(f"terminal source policy {deal_id}: invalid source pins")
+            pins = []
+        for pin in pins:
+            source_line = pin.get("source_line") if isinstance(pin, dict) else None
+            event = canonical.get(source_line) if type(source_line) is int else None
+            if (
+                not isinstance(pin, dict)
+                or pin.get("view_matches_canonical") is not True
+                or event is None
+                or event.get("event_id") != pin.get("source_id")
+                or event.get("timestamp") != pin.get("timestamp")
+                or digest(str(event.get("content") or "").encode("utf-8")) != pin.get("content_sha256")
+            ):
+                errors.append(f"terminal source policy {deal_id}: source pin mismatch at line {source_line!r}")
+
+        banned_ids: set[str] = set()
+        quarantine = row.get("quarantine_events")
+        if not isinstance(quarantine, list):
+            errors.append(f"terminal source policy {deal_id}: invalid quarantine list")
+            quarantine = []
+        for item in quarantine:
+            source_line = item.get("source_line") if isinstance(item, dict) else None
+            event = canonical.get(source_line) if type(source_line) is int else None
+            if (
+                not isinstance(item, dict)
+                or not isinstance(item.get("event_id"), str)
+                or event is None
+                or event.get("event_id") != item.get("event_id")
+                or digest(str(event.get("content") or "").encode("utf-8")) != item.get("content_sha256")
+            ):
+                errors.append(f"terminal source policy {deal_id}: quarantine source mismatch at line {source_line!r}")
+            else:
+                banned_ids.add(item["event_id"])
+
+        view = views[deal_id]
+        if len(view) != after:
+            errors.append(f"terminal source policy {deal_id}: filtered view count differs from policy")
+        for event in view.values():
+            if event.get("event_id") in banned_ids:
+                errors.append(f"view {deal_id}: quarantined event remains")
+            if cutoff is not None:
+                try:
+                    if parse_timestamp(event.get("timestamp")) >= cutoff:
+                        errors.append(f"view {deal_id}: event at or after approved cutoff remains")
+                except (TypeError, ValueError):
+                    pass
+    if removed_total != 71:
+        errors.append("terminal source policy per-deal removed-event counts do not total 71")
+
+
 def check_evidence(
     deal_id: str,
     audit: dict[str, Any],
@@ -337,6 +476,8 @@ def validate_phase(
         if frozen.get("quality_sha256") != quality_hashes[deal_id]:
             errors.append(f"quality {deal_id}: hash differs from input freeze")
 
+    validate_terminal_source_policy(root, input_freeze, manifest, view_events, errors)
+
     audit_dir = root / "audits" / phase
     audit_paths = sorted(audit_dir.glob("*.json"), key=lambda p: int(p.stem) if p.stem.isdecimal() else 0) if audit_dir.is_dir() else []
     audit_ids = [path.stem for path in audit_paths]
@@ -392,7 +533,7 @@ def validate_phase(
         "files": [
             {
                 "deal_id": deal_id,
-                "audit_path": str((root / "audits" / phase / f"{deal_id}.json").relative_to(root)),
+                "audit_path": (root / "audits" / phase / f"{deal_id}.json").relative_to(root).as_posix(),
                 "audit_sha256": audit_hashes[deal_id],
                 "view_path": f"views/{deal_id}.jsonl",
                 "view_sha256": view_hashes[deal_id],
@@ -455,6 +596,50 @@ def self_check() -> None:
             frozen_rows.append({"deal_id": deal_id, "view_sha256": digest(view_raw), "quality_sha256": digest(quality_raw)})
             manifest_rows.append({"deal_id": deal_id, "status": "ok", "view": {"path": f"views/{deal_id}.jsonl", "sha256": digest(view_raw)}})
         manifest = {"complete": True, "blind_to_outcome": True, "expected_deal_count": 50, "deal_count": 50, "deals": manifest_rows}
+        cohort_raw, proposal_raw = b"synthetic cohort", b"synthetic proposal"
+        (root / "cohort.json").write_bytes(cohort_raw)
+        (root / "terminal_source_policy_proposal.json").write_bytes(proposal_raw)
+        policy_deals = []
+        for index, deal_id in enumerate(ids[:20], start=1):
+            removed = 4 if index <= 17 else 1
+            cutoff = "2026-01-02T10:00:00+03:00"
+            pin_event = {"timestamp": "2026-01-01T09:00:00+03:00", "event_type": "stage_change", "event_id": f"pin-{deal_id}", "source": "crm", "content": "Pinned source", "metadata": {}}
+            timeline_events = [pin_event, {"timestamp": "2026-01-01T09:30:00+03:00", "event_type": "stage_change", "event_id": f"stage-{deal_id}", "source": "crm", "content": "Stage", "metadata": {}}]
+            view_event = json.loads((root / "views" / f"{deal_id}.jsonl").read_text(encoding="utf-8"))
+            timeline_events.append({**view_event, "source": "crm", "content": "Retained", "metadata": {}})
+            removed_events = []
+            for suffix in range(removed):
+                event = {"timestamp": cutoff, "event_type": "comment", "event_id": f"cutoff-{deal_id}-{suffix}", "source": "crm", "content": "At cutoff", "metadata": {}, "source_line": len(timeline_events) + 1}
+                timeline_events.append({key: value for key, value in event.items() if key != "source_line"})
+                removed_events.append(event)
+            timeline_raw = b"".join((json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8") for event in timeline_events)
+            timeline_path = root / "dataset" / "deals" / deal_id / "clean_timeline.jsonl"
+            timeline_path.write_bytes(timeline_raw)
+            prefilter_events = [view_event, *removed_events]
+            prefilter_raw = b"".join((json.dumps(event, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8") for event in prefilter_events)
+            policy_deals.append({
+                "deal_id": deal_id,
+                "expected_prefilter_view_sha256": digest(prefilter_raw),
+                "expected_canonical_timeline_sha256": digest(timeline_raw),
+                "cutoff_inclusive": cutoff,
+                "quarantine_events": [],
+                "source_pins": [{"source_line": 1, "source_id": pin_event["event_id"], "timestamp": pin_event["timestamp"], "content_sha256": digest(pin_event["content"].encode("utf-8")), "view_matches_canonical": True}],
+                "expected_view_events_before": 1 + removed,
+                "expected_events_removed": removed,
+                "expected_events_after": 1,
+            })
+        policy = {
+            "schema_version": 1,
+            "user_approved": True,
+            "proposal_sha256": digest(proposal_raw),
+            "cohort_sha256": digest(cohort_raw),
+            "expected_affected_deals": 20,
+            "expected_events_removed": 71,
+            "deals": policy_deals,
+        }
+        policy_raw = json.dumps(policy, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        (root / "terminal_source_policy.json").write_bytes(policy_raw)
+        manifest["terminal_source_policy_sha256"] = digest(policy_raw)
         manifest_raw = json.dumps(manifest).encode("utf-8")
         (root / "audit_manifest.json").write_bytes(manifest_raw)
         (root / "audit_schema.json").write_bytes(schema_raw)
@@ -466,6 +651,7 @@ def self_check() -> None:
             "deal_count": 50,
             "audit_schema_sha256": digest(schema_raw),
             "audit_manifest_sha256": digest(manifest_raw),
+            "terminal_source_policy_sha256": digest(policy_raw),
             "deals": frozen_rows,
         }
         (root / "input_freeze.json").write_text(json.dumps(input_freeze), encoding="utf-8")
@@ -476,6 +662,28 @@ def self_check() -> None:
         first_freeze = root / "primary_freeze.json"
         passed = validate_phase("primary", root, first_freeze)
         assert passed["status"] == "PASS", passed["errors"][:3]
+        pinned_freeze = json.loads((root / "input_freeze.json").read_text(encoding="utf-8"))
+        pinned_manifest = json.loads((root / "audit_manifest.json").read_text(encoding="utf-8"))
+        policy_path = root / "terminal_source_policy.json"
+        policy_bytes = policy_path.read_bytes()
+        missing_pin_freeze = {key: value for key, value in pinned_freeze.items() if key != "terminal_source_policy_sha256"}
+        policy_errors: list[str] = []
+        validate_terminal_source_policy(root, missing_pin_freeze, pinned_manifest, {}, policy_errors)
+        assert any("hash differs from input freeze" in item for item in policy_errors)
+        wrong_pin_manifest = {**pinned_manifest, "terminal_source_policy_sha256": "0" * 64}
+        policy_errors = []
+        validate_terminal_source_policy(root, pinned_freeze, wrong_pin_manifest, {}, policy_errors)
+        assert any("hash differs from audit manifest" in item for item in policy_errors)
+        policy_path.unlink()
+        policy_errors = []
+        validate_terminal_source_policy(root, pinned_freeze, pinned_manifest, {}, policy_errors)
+        assert any("policy file is missing" in item for item in policy_errors)
+        legacy_freeze = {key: value for key, value in pinned_freeze.items() if key != "terminal_source_policy_sha256"}
+        legacy_manifest = {key: value for key, value in pinned_manifest.items() if key != "terminal_source_policy_sha256"}
+        policy_errors = []
+        validate_terminal_source_policy(root, legacy_freeze, legacy_manifest, {}, policy_errors)
+        assert not policy_errors
+        policy_path.write_bytes(policy_bytes)
         (root / "worklog_quarantine_policy.json").write_text('{"user_approved": false}', encoding="utf-8")
         policy_changed = validate_phase("primary", root)
         assert policy_changed["status"] == "FAIL" and any("worklog quarantine policy hash" in item for item in policy_changed["errors"])

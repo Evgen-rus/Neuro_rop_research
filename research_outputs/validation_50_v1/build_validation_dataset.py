@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import hashlib
 import importlib.util
 import json
@@ -9,8 +10,9 @@ import math
 import os
 import re
 import sys
+import tempfile
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.dont_write_bytecode = True
@@ -19,6 +21,9 @@ os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "research_outputs" / "validation_50_v1"
 WORKLOG_QUARANTINE_POLICY = OUT / "worklog_quarantine_policy.json"
+TERMINAL_SOURCE_POLICY = OUT / "terminal_source_policy.json"
+TERMINAL_SOURCE_PROPOSAL = OUT / "terminal_source_policy_proposal.json"
+TERMINAL_SOURCE_LIMITATION = "Some source records excluded under approved chronology/source-admissibility constraints; genuine predecision same-day/intervening-day communications may be missing."
 RAW_DIR = OUT / "_private" / "raw"
 PRIVATE_AUDIO_DIR = OUT / "_private" / "audio"
 DATASET_DIR = OUT / "dataset"
@@ -809,7 +814,7 @@ def verify_gate() -> bytes:
     return raw
 
 
-def deal_quality_record(deal_id: str, completeness: dict, source_quality: dict | None = None) -> dict:
+def deal_quality_record(deal_id: str, completeness: dict, source_quality: dict | None = None, terminal_source_limited: bool = False) -> dict:
     rows = completeness.get("deals") if isinstance(completeness, dict) else None
     if not isinstance(rows, list):
         raise ValueError("completeness deals must be a list")
@@ -845,7 +850,152 @@ def deal_quality_record(deal_id: str, completeness: dict, source_quality: dict |
     if quarantine:
         result["manager_worklog_quarantine"] = quarantine
         result["limitations"].append(quarantine["limitation"])
+    if terminal_source_limited:
+        result["limitations"].append(TERMINAL_SOURCE_LIMITATION)
     return result
+
+
+def filter_terminal_source_events(events: list[dict], deal_policy: dict) -> list[dict]:
+    quarantine_ids = {row["event_id"] for row in deal_policy["quarantine_events"]}
+    cutoff_value = deal_policy.get("cutoff_inclusive")
+    cutoff = parse_timestamp(cutoff_value) if cutoff_value else None
+    return [
+        event for event in events
+        if event.get("event_id") not in quarantine_ids
+        and (cutoff is None or parse_timestamp(event["timestamp"]) < cutoff)
+    ]
+
+
+def validate_terminal_source_deal(deal_policy: dict, neutral: dict, events: list[dict], builder) -> tuple[bytes, list[dict]]:
+    deal_id = deal_policy["deal_id"]
+    canonical = [{**event, "source_line": line} for line, event in enumerate(events, start=1)]
+    timeline_bytes = b"".join(
+        (json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
+        for event in events
+    )
+    if sha256(timeline_bytes) != deal_policy["expected_canonical_timeline_sha256"]:
+        raise ValueError(f"canonical timeline hash differs from terminal source policy for deal {deal_id}")
+
+    by_line = {event["source_line"]: event for event in canonical}
+    for pin in deal_policy["source_pins"]:
+        event = by_line.get(pin["source_line"])
+        if (
+            not pin.get("view_matches_canonical")
+            or event is None
+            or event.get("event_id") != pin.get("source_id")
+            or event.get("timestamp") != pin.get("timestamp")
+            or sha256(str(event.get("content") or "").encode("utf-8")) != pin.get("content_sha256")
+        ):
+            raise ValueError(f"source pin differs from canonical timeline for deal {deal_id} line {pin.get('source_line')}")
+
+    for row in deal_policy["quarantine_events"]:
+        event = by_line.get(row["source_line"])
+        if (
+            event is None
+            or event.get("event_id") != row.get("event_id")
+            or sha256(str(event.get("content") or "").encode("utf-8")) != row.get("content_sha256")
+        ):
+            raise ValueError(f"quarantine event differs from canonical timeline for deal {deal_id}")
+
+    end = parse_timestamp(neutral["created_at"]).date() + timedelta(days=int(neutral["life_days"]))
+    prefilter, _, _ = builder.build_view(copy.deepcopy(canonical), end)
+    prefilter_bytes = b"".join(
+        (json.dumps(event, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8")
+        for event in prefilter
+    )
+    if sha256(prefilter_bytes) != deal_policy["expected_prefilter_view_sha256"]:
+        raise ValueError(f"prefilter view hash differs from terminal source policy for deal {deal_id}")
+    if len(prefilter) != deal_policy["expected_view_events_before"]:
+        raise ValueError(f"prefilter view count differs from terminal source policy for deal {deal_id}")
+
+    kept = filter_terminal_source_events(prefilter, deal_policy)
+    if len(prefilter) - len(kept) != deal_policy["expected_events_removed"] or len(kept) != deal_policy["expected_events_after"]:
+        raise ValueError(f"filtered view counts differ from terminal source policy for deal {deal_id}")
+    return prefilter_bytes, kept
+
+
+def load_terminal_source_policy(ids: list[str]) -> tuple[dict[str, dict], str, str]:
+    raw = TERMINAL_SOURCE_POLICY.read_bytes()
+    policy = json.loads(raw.decode("utf-8-sig"))
+    if not isinstance(policy, dict) or policy.get("schema_version") != 1 or policy.get("user_approved") is not True:
+        raise ValueError("terminal source policy is missing approval or has an unsupported version")
+    if sha256((OUT / "cohort.json").read_bytes()) != policy.get("cohort_sha256"):
+        raise ValueError("cohort hash differs from terminal source policy")
+    if sha256(TERMINAL_SOURCE_PROPOSAL.read_bytes()) != policy.get("proposal_sha256"):
+        raise ValueError("proposal hash differs from terminal source policy")
+    if policy.get("expected_affected_deals") != 20 or policy.get("expected_events_removed") != 71:
+        raise ValueError("terminal source policy has unexpected approved counts")
+    limitation = policy.get("limitation")
+    if not isinstance(limitation, str) or not limitation.strip():
+        raise ValueError("terminal source policy has no approved limitation")
+
+    rows = policy.get("deals")
+    if not isinstance(rows, list) or len(rows) != 20:
+        raise ValueError("terminal source policy must contain exactly 20 deals")
+    by_id = {}
+    for row in rows:
+        if not isinstance(row, dict) or not isinstance(row.get("deal_id"), str) or row["deal_id"] not in ids or row["deal_id"] in by_id:
+            raise ValueError("terminal source policy has an invalid or duplicate deal")
+        for key in ("expected_prefilter_view_sha256", "expected_canonical_timeline_sha256"):
+            if not isinstance(row.get(key), str) or not re.fullmatch(r"[0-9a-f]{64}", row[key]):
+                raise ValueError(f"terminal source policy has an invalid {key}")
+        if not isinstance(row.get("source_pins"), list) or not isinstance(row.get("quarantine_events"), list):
+            raise ValueError("terminal source policy has invalid source pins or quarantine events")
+        if type(row.get("expected_events_removed")) is not int or type(row.get("expected_view_events_before")) is not int or type(row.get("expected_events_after")) is not int:
+            raise ValueError("terminal source policy has invalid event counts")
+        if row["expected_view_events_before"] - row["expected_events_after"] != row["expected_events_removed"]:
+            raise ValueError("terminal source policy per-deal counts do not reconcile")
+        if row.get("cutoff_inclusive") is not None:
+            parse_timestamp(row["cutoff_inclusive"])
+        by_id[row["deal_id"]] = row
+    if sum(row["expected_events_removed"] for row in rows) != 71:
+        raise ValueError("terminal source policy removed-event total is not 71")
+    return by_id, sha256(raw), limitation
+
+
+def apply_terminal_source_policy(policy_by_id: dict[str, dict], policy_sha256: str, limitation: str) -> None:
+    manifest_path = OUT / "audit_manifest.json"
+    manifest = read_json(manifest_path)
+    manifest_rows = {row["deal_id"]: row for row in manifest["deals"]}
+    removed_total = 0
+    filtered_views = {}
+    for deal_id, row in policy_by_id.items():
+        view_path = VIEWS_DIR / f"{deal_id}.jsonl"
+        original = view_path.read_bytes()
+        if sha256(original) != row["expected_prefilter_view_sha256"]:
+            raise ValueError(f"written prefilter view hash differs from terminal source policy for deal {deal_id}")
+        events = [json.loads(line) for line in original.decode("utf-8-sig").splitlines() if line.strip()]
+        kept = filter_terminal_source_events(events, row)
+        if len(events) != row["expected_view_events_before"] or len(events) - len(kept) != row["expected_events_removed"] or len(kept) != row["expected_events_after"]:
+            raise ValueError(f"written prefilter view count differs from terminal source policy for deal {deal_id}")
+        filtered_bytes = b"".join(
+            (json.dumps(event, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8")
+            for event in kept
+        )
+        entry = manifest_rows[deal_id]
+        if entry.get("view_event_count") != len(events):
+            raise ValueError(f"manifest prefilter view count differs from terminal source policy for deal {deal_id}")
+        filtered_views[deal_id] = (view_path, filtered_bytes, len(kept), len(events) - len(kept))
+        removed_total += len(events) - len(kept)
+    if len(policy_by_id) != 20 or removed_total != 71:
+        raise ValueError("terminal source policy affected counts differ from approval")
+    for deal_id, (view_path, filtered_bytes, kept_count, removed_count) in filtered_views.items():
+        view_path.write_bytes(filtered_bytes)
+        entry = manifest_rows[deal_id]
+        entry["view_event_count"] = kept_count
+        entry["view"]["sha256"] = sha256(filtered_bytes)
+        entry["view"]["bytes"] = len(filtered_bytes)
+        entry["approx_tokens"]["view"] = math.ceil(len(filtered_bytes) / 4)
+        entry["removed_categories"]["terminal_source_policy"] = removed_count
+    manifest["totals"]["view_event_count"] -= removed_total
+    manifest["totals"]["removed_event_count"] += removed_total
+    manifest["totals"]["removed:terminal_source_policy"] = removed_total
+    manifest["totals"]["view_approx_tokens"] = sum(row["approx_tokens"]["view"] for row in manifest["deals"] if row.get("status") == "ok")
+    manifest["terminal_source_policy_sha256"] = policy_sha256
+    manifest["filter_policy"].append(
+        f"Approved terminal source policy (sha256 {policy_sha256}) filters blind views only; it removes 71 events across 20 deals. Canonical timelines and source_line pointers are unchanged. Limitation: {limitation}"
+    )
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
 def load_view_builder():
@@ -854,6 +1004,16 @@ def load_view_builder():
         raise RuntimeError("cannot load v1 audit-view builder")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
+    original_terminal_marker = module.is_terminal_marker
+    subjectless_refusal = re.compile(r"\bот\s+нашего\s+(?:варианта|предложения)\s+отказались\b", re.I)
+
+    def terminal_marker(event):
+        if original_terminal_marker(event):
+            return True
+        text = str(event.get("content") or "")
+        return any(not re.search(r"\bне\s*$", text[:match.start()], re.I) for match in subjectless_refusal.finditer(text))
+
+    module.is_terminal_marker = terminal_marker
     module.OUT_DIR = OUT
     module.DEALS_DIR = DEALS_DIR
     module.VIEWS_DIR = VIEWS_DIR
@@ -935,13 +1095,17 @@ def main() -> int:
         for deal_id in ids
     }
     builder = load_view_builder()
+    terminal_policy_by_id, terminal_policy_sha256, terminal_policy_limitation = load_terminal_source_policy(ids)
+    for deal_id, deal_policy in terminal_policy_by_id.items():
+        neutral, events, _ = prepared[deal_id]
+        validate_terminal_source_deal(deal_policy, neutral, events, builder)
     builder_source_bytes = Path(__file__).read_bytes()
 
     for deal_id, (neutral, events, source_quality) in prepared.items():
         folder = DEALS_DIR / deal_id
         folder.mkdir(parents=True)
         (folder / "neutral.json").write_text(json.dumps(neutral, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        quality = deal_quality_record(deal_id, completeness_data, source_quality)
+        quality = deal_quality_record(deal_id, completeness_data, source_quality, deal_id in terminal_policy_by_id)
         (folder / "quality.json").write_text(json.dumps(quality, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         timeline = b"".join(
             (json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
@@ -950,6 +1114,7 @@ def main() -> int:
         (folder / "clean_timeline.jsonl").write_bytes(timeline)
 
     builder.main()
+    apply_terminal_source_policy(terminal_policy_by_id, terminal_policy_sha256, terminal_policy_limitation)
     SCHEMA_COPY.write_bytes(schema_bytes)
     manifest_path = OUT / "audit_manifest.json"
     manifest = read_json(manifest_path)
@@ -960,6 +1125,7 @@ def main() -> int:
     manifest["blind_to_outcome"] = True
     manifest["filter_policy"].append("Validation source events at or after the final terminal stage timestamp were excluded before writing clean_timeline.jsonl.")
     manifest["filter_policy"].append("Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged.")
+    manifest["filter_policy"].append("Validation views also cut at the exact subjectless phrase 'от нашего варианта отказались' or 'от нашего предложения отказались'; the negated forms 'от нашего варианта не отказались' and 'не от нашего варианта отказались' do not trigger the cutoff. Existing terminal-marker and post-terminal-suffix handling is unchanged.")
     manifest["filter_policy"].append(f"The five chronology-conflicted mutable manager worklogs in {WORKLOG_QUARANTINE_POLICY.name} (sha256 {quarantine_policy_sha256}) are excluded by exact deal/worklog ID and raw-context SHA-256. Their parsed entries and normalized copies of their source comments are excluded; raw sources and unrelated communications are retained.")
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
@@ -999,6 +1165,7 @@ def main() -> int:
         "baseline_overlap_count": 0,
         "completeness_sha256": sha256(gate_bytes),
         "worklog_quarantine_policy_sha256": quarantine_policy_sha256,
+        "terminal_source_policy_sha256": terminal_policy_sha256,
         "dataset_manifest_sha256": sha256(dataset_manifest_path.read_bytes()),
         "summary_sha256": sha256(summary_path.read_bytes()),
         "build_quality_sha256": sha256(quality_path.read_bytes()),
@@ -1189,6 +1356,95 @@ def self_check() -> None:
         "occurred_at": "2026-02-02T12:00:00+07:00", "source_type": "crm_timeline_comment", "channel": "message",
     }, {}, {"777": {"COMMENT": "Подписанный договор и оплата"}}, normalizer, set())
     assert customer_message is not None and customer_message["content"] == "Подписанный договор и оплата"
+
+    view_builder = load_view_builder()
+    terminal = lambda text: view_builder.is_terminal_marker({"event_type": "comment", "content": text, "metadata": {}})
+    assert terminal("от нашего варианта отказались")
+    assert terminal("От нашего предложения отказались")
+    assert not terminal("от нашего варианта не отказались")
+    assert not terminal("не от нашего варианта отказались")
+    assert not terminal("не  от нашего варианта отказались")
+    assert not terminal("не\tот нашего предложения отказались")
+    assert not terminal("техническая схема требует доработки")
+    kept, removed, _ = view_builder.build_view([
+        {"timestamp": "2026-01-01T10:00:00+03:00", "event_type": "comment", "content": "До отказа", "metadata": {}, "source_line": 1},
+        {"timestamp": "2026-01-01T11:00:00+03:00", "event_type": "comment", "content": "от нашего варианта отказались", "metadata": {}, "source_line": 2},
+        {"timestamp": "2026-01-01T12:00:00+03:00", "event_type": "comment", "content": "Позднее уточнение", "metadata": {}, "source_line": 3},
+    ], datetime(2026, 1, 2).date())
+    assert [event["source_line"] for event in kept] == [1]
+    assert removed["terminal_marker"] == 1 and removed["post_terminal_suffix"] == 1
+
+    terminal_cutoff = "2026-01-02T10:00:00+03:00"
+    source_events = [
+        {"timestamp": "2026-01-01T09:00:00+03:00", "event_type": "comment", "event_id": "keep", "content": "Keep", "source": "crm", "metadata": {}},
+        {"timestamp": terminal_cutoff, "event_type": "comment", "event_id": "boundary", "content": "Boundary", "source": "crm", "metadata": {}},
+        {"timestamp": "2026-01-01T11:00:00+03:00", "event_type": "comment", "event_id": "negative", "content": "от нашего варианта не отказались", "source": "crm", "metadata": {}},
+        {"timestamp": "2026-01-01T12:00:00+03:00", "event_type": "comment", "event_id": "quarantine", "content": "Pinned quarantine row", "source": "crm", "metadata": {}},
+    ]
+    canonical = [{**event, "source_line": line} for line, event in enumerate(source_events, start=1)]
+    timeline_bytes = b"".join((json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8") for event in source_events)
+    sample_neutral = {"created_at": "2026-01-01T00:00:00+03:00", "life_days": 2}
+    prefilter, _, _ = view_builder.build_view(copy.deepcopy(canonical), parse_timestamp("2026-01-03T00:00:00+03:00").date())
+    prefilter_bytes = b"".join((json.dumps(event, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8") for event in prefilter)
+    pin = {"source_line": 3, "source_id": "negative", "timestamp": source_events[2]["timestamp"], "content_sha256": sha256(source_events[2]["content"].encode("utf-8")), "view_matches_canonical": True}
+    source_policy_deal = {
+        "deal_id": "123", "expected_canonical_timeline_sha256": sha256(timeline_bytes),
+        "expected_prefilter_view_sha256": sha256(prefilter_bytes), "expected_view_events_before": 4,
+        "expected_events_removed": 2, "expected_events_after": 2, "cutoff_inclusive": terminal_cutoff,
+        "source_pins": [pin], "quarantine_events": [{"source_line": 4, "event_id": "quarantine", "content_sha256": sha256(source_events[3]["content"].encode("utf-8"))}],
+    }
+    _, source_kept = validate_terminal_source_deal(source_policy_deal, sample_neutral, source_events, view_builder)
+    assert [event["event_id"] for event in source_kept] == ["keep", "negative"]
+    assert len(filter_terminal_source_events(source_kept, {"quarantine_events": [], "cutoff_inclusive": None})) == 2
+    bad_source_policy = {**source_policy_deal, "source_pins": [{**pin, "content_sha256": "0" * 64}]}
+    with tempfile.TemporaryDirectory() as directory:
+        output = Path(directory) / "must-not-be-written"
+        try:
+            validate_terminal_source_deal(bad_source_policy, sample_neutral, source_events, view_builder)
+            output.write_text("unexpected", encoding="utf-8")
+        except ValueError:
+            pass
+        assert not output.exists()
+
+    with tempfile.TemporaryDirectory() as directory:
+        temp_root = Path(directory)
+        temp_views = temp_root / "views"
+        temp_views.mkdir()
+        old_out, old_views = OUT, VIEWS_DIR
+        try:
+            globals()["OUT"], globals()["VIEWS_DIR"] = temp_root, temp_views
+            policy_rows, manifest_rows = {}, []
+            prefilter_count = removed_total = 0
+            for index in range(1, 21):
+                deal_id = str(index)
+                removed = 4 if index <= 17 else 1
+                cutoff = "2026-01-02T10:00:00+03:00"
+                events = [{"timestamp": "2026-01-01T10:00:00+03:00", "event_type": "comment", "event_id": f"keep-{deal_id}", "source_line": 1}]
+                events.extend({"timestamp": cutoff, "event_type": "comment", "event_id": f"drop-{deal_id}-{n}", "source_line": n + 2} for n in range(removed))
+                original = b"".join((json.dumps(event, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8") for event in events)
+                (temp_views / f"{deal_id}.jsonl").write_bytes(original)
+                policy_rows[deal_id] = {
+                    "expected_prefilter_view_sha256": sha256(original), "expected_view_events_before": len(events),
+                    "expected_events_removed": removed, "expected_events_after": 1,
+                    "cutoff_inclusive": cutoff, "quarantine_events": [],
+                }
+                view_summary = {"sha256": sha256(original), "bytes": len(original)}
+                manifest_rows.append({"deal_id": deal_id, "status": "ok", "view_event_count": len(events), "view": view_summary, "approx_tokens": {"view": math.ceil(len(original) / 4)}, "removed_categories": {}})
+                prefilter_count += len(events)
+                removed_total += removed
+            synthetic_manifest = {"deals": manifest_rows, "totals": {"view_event_count": prefilter_count, "removed_event_count": 0, "view_approx_tokens": 0}, "filter_policy": []}
+            (temp_root / "audit_manifest.json").write_text(json.dumps(synthetic_manifest), encoding="utf-8")
+            apply_terminal_source_policy(policy_rows, "a" * 64, "synthetic limitation")
+            updated_manifest = json.loads((temp_root / "audit_manifest.json").read_text(encoding="utf-8"))
+            assert updated_manifest["totals"]["view_event_count"] == 20
+            assert updated_manifest["totals"]["removed_event_count"] == 71 == removed_total
+            assert updated_manifest["terminal_source_policy_sha256"] == "a" * 64
+            for row in updated_manifest["deals"]:
+                written = (temp_views / f"{row['deal_id']}.jsonl").read_bytes()
+                assert row["view_event_count"] == 1 and row["view"]["sha256"] == sha256(written)
+                assert row["removed_categories"]["terminal_source_policy"] == policy_rows[row["deal_id"]]["expected_events_removed"]
+        finally:
+            globals()["OUT"], globals()["VIEWS_DIR"] = old_out, old_views
     print("validation builder self-check: PASS")
 
 

@@ -1,0 +1,289 @@
+{
+  "review": "terminal_semantic_qc_a",
+  "scope": "Explicit terminal-decision and post-decision leakage QC of assigned frozen audit views only; no deal outcomes inferred.",
+  "source": "views/<deal_id>.jsonl, read via read_view.py --compact-emails",
+  "records": [
+    {
+      "deal_id": "5293",
+      "source_view_sha256": "38beb2364e593a62811e8fbc38393113264884dc57ff4ad94218799861163534",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "review_items": [
+        {
+          "classification": "SIGNATURE_ONLY_NOT_TERMINAL",
+          "event_id": "crm_activity:542287",
+          "source_line": 202,
+          "timestamp": "2026-03-18T13:56:13+03:00",
+          "paraphrase": "Outgoing seller email says contract is signed and attaches contract/invoice; customer had earlier claimed signature but attachment was missing (source_line 198)."
+        },
+        {
+          "classification": "PAYMENT_ORDER_NOT_SETTLEMENT_PROOF",
+          "event_id": "crm_activity:543845",
+          "source_line": 218,
+          "timestamp": "2026-03-20T11:51:28+03:00",
+          "paraphrase": "Customer sent a payment order attachment; earlier customer email says the payment was not made the previous day and was expected that day. No settled-payment confirmation is in the view."
+        }
+      ],
+      "note": "Signature alone and payment-order attachment remain nonterminal under unchanged v2; no independently confirmed settlement."
+    },
+    {
+      "deal_id": "6351",
+      "source_view_sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8",
+      "status": "FAIL",
+      "first_terminal_event": {
+        "classification": "CLEAR_EXISTING_RULE_LEAK",
+        "event_id": "call_transcript:589631",
+        "source_line": 67,
+        "timestamp": "2026-05-28T11:26:04+03:00",
+        "paraphrase": "Customer says the project was fully closed and put into bankruptcy, therefore the purchase is no longer relevant."
+      },
+      "additional_leaks": [],
+      "note": "Direct timestamped customer statement, not a manager worklog."
+    },
+    {
+      "deal_id": "6573",
+      "source_view_sha256": "02f2e8c00a157806c8d3a9cf4d3bdadba454a925e5e58e599be62843cc6df5e0",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source_line 5 says temporarily not relevant and possibly in spring; deferral, no definitive refusal."
+    },
+    {
+      "deal_id": "6589",
+      "source_view_sha256": "7690b73445d5a7cd612000435c849858548af38c96e05e9ffe3e27d63e0286a9",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "review_items": [
+        {
+          "classification": "SEMANTIC_REVIEW_REQUIRED",
+          "event_id": "crm_timeline_comment:2515621",
+          "source_line": 6,
+          "timestamp": "2026-02-12T10:16:37+03:00",
+          "paraphrase": "Internal note says only 'not relevant'; it does not say whether this is a temporary pause or final refusal."
+        }
+      ],
+      "note": "Terse manager not-relevant note does not prove a definitive whole-request refusal; preserve as uncertain manager claim."
+    },
+    {
+      "deal_id": "6665",
+      "source_view_sha256": "3e0db4cec95d5b1b631a8865bd9c52f57b99aaf91f9629eecf9af626f4b8588b",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source_line 13 says the project is put aside for now, still being explored, with a requested later follow-up; no decision to refuse."
+    },
+    {
+      "deal_id": "6673",
+      "source_view_sha256": "ba946a20fb57f3cf2f5d92f38a8148bdcf5ccda1ffec3d99320a8efe69f599b9",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source_line 58 is conditional willingness to pay if the factory label test succeeds; future condition, not completed payment or refusal."
+    },
+    {
+      "deal_id": "6691",
+      "source_view_sha256": "6943b29c46e794d16c754778afb7585c389b9d15af380763229b52c2c419948b",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "No explicit terminal event; technical inability to supply listed solvents is not a customer refusal or other terminal decision."
+    },
+    {
+      "deal_id": "6693",
+      "source_view_sha256": "94392e53224eca111a9d2f32e31cff60b8261d85e94666050095f762215f315f",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source_line 28 records a future plan to contract and receive payment; no completed signature/payment."
+    },
+    {
+      "deal_id": "6695",
+      "source_view_sha256": "25511cb6661cc33a53613e6deb9e045591499d967e5392609679176b2257d2eb",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source_line 5 mentions another unit sold from supplier stock to an unrelated buyer; not this customer's purchase or proposal."
+    },
+    {
+      "deal_id": "6707",
+      "source_view_sha256": "92e1b3c45328823834da6460d1a86d3e3571f755a1950b4b3940563c4a067ccf",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Budget diverted to generators and purchase timing uncertain in comments; no definitive refusal or completed purchase."
+    },
+    {
+      "deal_id": "6741",
+      "source_view_sha256": "4037c4d9f99881863815f5af7f999c1f85f7ae674767f8a7b2b3dddb16dffc8a",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Price/budget objection and unanswered follow-ups only; no explicit refusal."
+    },
+    {
+      "deal_id": "6791",
+      "source_view_sha256": "2560a30eabada6af2c5276d27bb5b851945fa7ba85a4b09d6b09255a1fc557e7",
+      "status": "REVIEW_REQUIRED",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "review_items": [
+        {
+          "classification": "SIGNATURE_ONLY_NOT_TERMINAL",
+          "event_id": "crm_activity:577119",
+          "source_line": 209,
+          "timestamp": "2026-05-14T10:55:14+03:00",
+          "paraphrase": "Customer says their side confirmed EDI signature the previous day and says payment will happen today; this is actual signature reporting but only a payment plan."
+        },
+        {
+          "classification": "SOURCE_CHRONOLOGY_AMBIGUITY",
+          "event_id": "manager_worklog:2468671:0",
+          "source_line": 207,
+          "timestamp": "2026-05-14T00:00:00+03:00",
+          "embedded_date": "14.05 (year inferred)",
+          "paraphrase": "Manager worklog says 50% payment was received. This is date-only at midnight; the customer email at 10:55 says payment will happen today. The order within the day is unknown, so do not infer contradiction; no receipt/bank artifact is shown."
+        }
+      ],
+      "note": "Signature alone remains nonterminal. Date-only payment claim has unknown hour; source-policy decision required, no same-day contradiction inferred."
+    },
+    {
+      "deal_id": "6811",
+      "source_view_sha256": "1ef4d15f02c9626ed641904df959632aa2de7b834ee400894a866908a0069900",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Refusal of P-shaped labeling/one container and reluctance to buy two machines are component/scope objections; purchase discussions continue."
+    },
+    {
+      "deal_id": "6813",
+      "source_view_sha256": "7f1b5705100fe3d16cf691d652f0a3a36166c4db21064d1a2a9fe01e5635562f",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Internal notes say timing was too slow and unanswered; no customer refusal or purchase elsewhere."
+    },
+    {
+      "deal_id": "6841",
+      "source_view_sha256": "1ce7a35cfc06e8eb2fde50aa02d78dcfe47a487c0898611313e83997bdc02a8e",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "6907",
+      "source_view_sha256": "bee52a862db4e16dd28d7bbf866039cff3361d9db37459a680bbd86a3f766bf9",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "6941",
+      "source_view_sha256": "cefa05f6f9ed76e63f3b8f12fd9d01d039a9379fe9278a20edd83d5620431db6",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "6955",
+      "source_view_sha256": "56e931efa9b6bfe91d4d303a9fcd9ba7612f206323589b8fb1ea969019c13bfd",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Signature claim at source120 followed by not-yet-signed at123; signature alone remains nonterminal and source discrepancy is a limitation."
+    },
+    {
+      "deal_id": "6999",
+      "source_view_sha256": "49936cb747ceab84003bdad5a28694700e14bf2813161400600429c2aaadc601",
+      "status": "REVIEW_REQUIRED",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Normalized midnight is not observed payment time. Source-policy decision required; no contradiction inferred.",
+      "review_items": [
+        {
+          "classification": "SOURCE_CHRONOLOGY_AMBIGUITY",
+          "event_id": "manager_worklog:2507023:0",
+          "source_line": 120,
+          "timestamp": "2026-03-27T00:00:00+03:00",
+          "paraphrase": "Manager claims payment was executed; bank settlement is not independently confirmed."
+        }
+      ]
+    },
+    {
+      "deal_id": "7009",
+      "source_view_sha256": "fdc5a67a4d5b4aed1aff6ceb5b7e85ae05c3d5c9f2b9430f4ae9dcc02b91d853",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Source28 declines partial configuration while discussing a future full line; ordinary scope objection, not definitive refusal of supplier/request."
+    },
+    {
+      "deal_id": "7031",
+      "source_view_sha256": "cb37a378357ef04fefe58b69423e8ef207b2aa412b562105ecdf1d4896a422dc",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "7035",
+      "source_view_sha256": "c0cd6b637467bce8a121727e01bdb8b528b836f1b90e589a0c1fa0e53a49b68f",
+      "status": "REVIEW_REQUIRED",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Normalized midnight is not observed payment time. Source-policy decision required; no contradiction inferred.",
+      "review_items": [
+        {
+          "classification": "SOURCE_CHRONOLOGY_AMBIGUITY",
+          "event_id": "manager_worklog:2511097:0",
+          "source_line": 74,
+          "timestamp": "2026-03-02T00:00:00+03:00",
+          "paraphrase": "Date-only manager claim says 80% payment received."
+        }
+      ]
+    },
+    {
+      "deal_id": "7043",
+      "source_view_sha256": "3160c0113b9e4673560718f75c1f03d0562d2f174cd15378f958dc46432d9c77",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "7103",
+      "source_view_sha256": "eaf9a584f17b34d79e954b2c226c4e1d784455c4c2ac8defbe7f99bc4d4be34f",
+      "status": "PASS",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Assigned worker confirmed full view reviewed; no qualifying terminal event identified under unchanged v2."
+    },
+    {
+      "deal_id": "7107",
+      "source_view_sha256": "caebd860b9a4ab3caf542e7fa2bfc24b9217b213ae096712ce6d899f1fd66722",
+      "status": "REVIEW_REQUIRED",
+      "first_terminal_event": null,
+      "additional_leaks": [],
+      "note": "Normalized midnight is not observed payment time. Source-policy decision required; no contradiction inferred.",
+      "review_items": [
+        {
+          "classification": "SOURCE_CHRONOLOGY_AMBIGUITY",
+          "event_id": "manager_worklog:2527525:0",
+          "source_line": 60,
+          "timestamp": "2026-03-13T00:00:00+03:00",
+          "paraphrase": "Date-only manager claim says payment executed, not independently confirmed receipt."
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "counts": {
+    "PASS": 20,
+    "REVIEW_REQUIRED": 4,
+    "FAIL": 1
+  },
+  "integration_note": "Primary mechanically finalized from worker final handoff and independently checked cited6999/7035/7107/6351 rows. Corrected one transcription error in7107 recorded SHA against actual bytes and frozen input pin; source file unchanged. No outcomes used; no source inputs changed."
+}

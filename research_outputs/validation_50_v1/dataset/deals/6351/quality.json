@@ -213,7 +213,8 @@
     "call_audio_duration_unknown",
     "call_audio_unavailable",
     "separate_customer_chat_history_not_collected",
-    "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained."
+    "Chronology-conflicted mutable manager worklog excluded; inferred year is unverified and no captured edit/version history exists. Raw source retained.",
+    "Some source records excluded under approved chronology/source-admissibility constraints; genuine predecision same-day/intervening-day communications may be missing."
   ],
   "manager_worklog_quarantine": {
     "entries_excluded": 30,

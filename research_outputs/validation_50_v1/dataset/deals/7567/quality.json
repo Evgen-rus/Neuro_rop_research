@@ -783,7 +783,8 @@
     "call_audio_unavailable",
     "max_voice_audio_unavailable",
     "max_voice_available_transcript_missing",
-    "separate_customer_chat_history_not_collected"
+    "separate_customer_chat_history_not_collected",
+    "Some source records excluded under approved chronology/source-admissibility constraints; genuine predecision same-day/intervening-day communications may be missing."
   ],
   "max_voice": {
     "audio_unavailable": 4,

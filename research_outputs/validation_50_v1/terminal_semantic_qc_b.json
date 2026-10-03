@@ -1,0 +1,536 @@
+{
+  "report_name": "terminal_semantic_qc_b",
+  "audit_root": "D:/My_dev_project/Neuro_rop_research/research_outputs/validation_50_v1",
+  "review_scope": {
+    "deal_ids": [
+      "7137",
+      "7161",
+      "7217",
+      "7221",
+      "7307",
+      "7337",
+      "7417",
+      "7543",
+      "7565",
+      "7567",
+      "7619",
+      "7623",
+      "7639",
+      "18283",
+      "18339",
+      "18357",
+      "18385",
+      "18523",
+      "18533",
+      "18639",
+      "18729",
+      "18819",
+      "18845",
+      "18865",
+      "18925"
+    ],
+    "review_method": "Streamed the assigned views through read_view.py --compact-emails; screened text-bearing rows for terminal evidence and reopened relevant source_line records. Email bodies were compacted before review. No outcome labels were inferred.",
+    "decision_rule": "Under the unchanged narrow v2 rule, explicit refusal, confirmed purchase elsewhere for the current request, and completed payment/post-payment execution are terminal. Signature alone with payment still expected, future payment plans, unrelated purchases, and unresolved technical, budget, or project constraints are not automatic terminal cutoffs.",
+    "date_only_worklog_timing_review": "A manager_worklog claim with a date-only source value is not an observed midnight event. Its parsed 00:00 timestamp cannot safely establish an exact terminal cutoff. Keep the deal REVIEW_REQUIRED unless an independently timed source confirms the terminal fact; same-day payment-pending speech can precede a later payment and is not inherently contradictory."
+  },
+  "counts": {
+    "PASS": 10,
+    "FAIL": 2,
+    "REVIEW_REQUIRED": 13,
+    "total": 25
+  },
+  "policy_review": {
+    "issue": "SOURCE_CHRONOLOGY_AMBIGUITY",
+    "affected_deal_ids": [
+      "7137",
+      "7543",
+      "7639",
+      "18283",
+      "18339",
+      "18385",
+      "18845",
+      "18925",
+      "18523",
+      "18533"
+    ],
+    "proposal": "Do not apply an automatic terminal cutoff from (a) a date-only manager_worklog whose view timestamp is normalized to 00:00, or (b) a mutable multi-date CRM timeline comment whose parsed timestamp does not identify the embedded status date. Preserve the candidate event for manual chronology review; set a cutoff only at an independently timed confirmation or after explicit chronology resolution. A date-only payment report is not evidence of the payment hour, and same-day pending-payment speech does not itself contradict a later payment."
+  },
+  "deals": [
+    {
+      "deal_id": "7137",
+      "view_sha256": "2e9c43ac29fe26b630fc9b6c3006c5769258fcb231da7de31f285c00992ed0a4",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2533067:0",
+          "source_line": 90,
+          "timestamp": "2026-04-15T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog explicitly claims 100% payment was received.",
+          "reason": "Completed payment would be terminal under the existing rule, but this date-only manager claim does not establish an exact cutoff. No independently timed confirmation was identified in the assigned view."
+        }
+      ],
+      "additional_notes": [
+        {
+          "event_id": "manager_worklog:2533067:6",
+          "source_line": 67,
+          "timestamp": "2026-03-31T00:00:00+03:00",
+          "note": "Earlier signed-contract claim is signature-only; it is not used as a cutoff."
+        }
+      ]
+    },
+    {
+      "deal_id": "7161",
+      "view_sha256": "bd807de95aa49b5e2cbf49e591ad3212322a1698f4a1f094bd19a94c1e9618b2",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "The manager worklog at source_line 13 says no purchase is currently planned while they try to repair an old unit; it also makes a future purchase conditional on repair options failing. Source_line 24 is a manager instruction to move the record to refusal, not a buyer decision. No qualifying terminal event found."
+    },
+    {
+      "deal_id": "7217",
+      "view_sha256": "366976d3b74f9f3bd529aa78cfb0feac81bfde411a592124edc7308fb978fa56",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "The FRP financing route was declined in the manager worklog at source_line 123, but the customer then said leasing was preparing a contract at source_line 160; negotiations over two equipment specifications were still active at source_lines 272 and 284. Financing-route refusal is not refusal of the equipment proposal."
+    },
+    {
+      "deal_id": "7221",
+      "view_sha256": "49c1baea2efdcf903c526281f5aeb0e6a02f089dea52b0ba6c5ca37ee60313f9",
+      "status": "FAIL",
+      "finding_type": "CLEAR_EXISTING_RULE_LEAK",
+      "earliest_terminal_event": {
+        "event_id": "call_transcript:562169",
+        "source_line": 41,
+        "timestamp": "2026-04-24T13:25:49+03:00",
+        "source_kind": "customer_call",
+        "evidence": "Customer confirms the China machine was paid for, says they will work with it for now, and will return only if it does not meet expectations.",
+        "reason": "This independently timed customer confirmation establishes that the customer had paid for and would use the other machine for the active request by this call."
+      },
+      "additional_notes": [
+        {
+          "event_id": "manager_worklog:2553847:0",
+          "source_line": 39,
+          "timestamp": "2026-04-20T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed purchase time.",
+          "note": "Worklog says they bought the machine in China; it is corroborated by the later timed customer call but does not establish an exact earlier cutoff."
+        }
+      ]
+    },
+    {
+      "deal_id": "7307",
+      "view_sha256": "26a5b261124e4e7293e274617d78d2c729329338b8fcdb7739789fee4ace45b7",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "At source_line 39 the customer says leadership has not made a decision and the technical director still needs to review the tender; this is pending evaluation, not a definitive refusal."
+    },
+    {
+      "deal_id": "7337",
+      "view_sha256": "32197538f287eb072eaa99092f1416264f1567927b250aba182f09711e51c01f",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "The source_line 39 manager worklog reports no installation space, no known delay length, and that the customer will contact them if circumstances change. This is an unresolved project constraint, not a definitive refusal."
+    },
+    {
+      "deal_id": "7417",
+      "view_sha256": "420b496c9c1c154b2e947ea93b5fb0a495fe8e966fa9ec7ca164b2e083ce7eb6",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "method_limitation": {
+        "signal_type": "METHOD_DECISION_REQUIRED",
+        "evidence": [
+          {
+            "event_id": "manager_worklog:2616467:5",
+            "source_line": 85,
+            "timestamp": "2026-06-15T00:00:00+03:00",
+            "paraphrase": "Manager claims the contract was signed; payment is still expected Wednesday or Friday."
+          },
+          {
+            "event_id": "crm_activity:601543",
+            "source_line": 90,
+            "timestamp": "2026-06-15T09:35:25+03:00",
+            "paraphrase": "Seller says the contract attached was signed on the seller's side."
+          }
+        ],
+        "current_v2_handling": "Signature-only evidence with payment still expected is not an automatic terminal cutoff; no completed payment is shown in the view."
+      }
+    },
+    {
+      "deal_id": "7543",
+      "view_sha256": "d7860d60b17b0d38bcb26e68faf8a4f7466a3ee505be3775f73e3cf2d815790b",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2645149:0",
+          "source_line": 30,
+          "timestamp": "2026-04-24T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog claims 35% payment was received and mentions another payment planned for that day.",
+          "reason": "Payment receipt would be terminal under the existing rule, but this date-only claim does not establish an exact cutoff. The other payment plan does not itself contradict a completed earlier payment. No independently timed confirmation was identified in the assigned view."
+        }
+      ]
+    },
+    {
+      "deal_id": "7565",
+      "view_sha256": "ce801c323f93cf39f7146d4da4eae0983c456f7cfb060d79c60df59069ce5c79",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "At source_line 29 the customer says management has not decided which line to buy and will return when they know; source_line 31 records an indefinite delay. This is an unresolved project decision, not a refusal."
+    },
+    {
+      "deal_id": "7567",
+      "view_sha256": "bb14b24e32ec01c0201f72887baed8d2ff634d8560c23cb930520c854f3c5184",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SCOPE_ADJUDICATION_REQUIRED",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "call_transcript:676267",
+          "source_line": 393,
+          "timestamp": "2026-09-25T15:10:16+03:00",
+          "source_kind": "customer_call",
+          "evidence": "Caller says payment was received on the offer for 'Фабрика вкуса' and the project was sent to production, then asks about the second project."
+        },
+        {
+          "event_id": "manager_worklog:2649731:1",
+          "source_line": 394,
+          "timestamp": "2026-09-28T00:00:00+03:00",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog separately states that 500,000 was received, but does not identify which of the concurrent projects it belongs to."
+        },
+        {
+          "event_id": "call_transcript:595811",
+          "source_line": 75,
+          "timestamp": "2026-06-04T15:11:04+03:00",
+          "source_kind": "customer_call",
+          "evidence": "Customer says a different machine is already received and running, but describes the next U-shaped label project as not yet purchased and still under consideration."
+        }
+      ],
+      "reason": "The view contains multiple adjacent projects and purchases. The later payment is real, but the call distinguishes a paid offer from a 'second project'; the view alone does not establish whether that payment belongs to the assigned request. The earlier unrelated machine purchase is not counted."
+    },
+    {
+      "deal_id": "7619",
+      "view_sha256": "c1251af7ac0568cd37fcb0d9ee09efaa2a27cb1050dc795e6f69ed14fb65b4b2",
+      "status": "FAIL",
+      "finding_type": "CLEAR_EXISTING_RULE_LEAK",
+      "earliest_terminal_event": {
+        "event_id": "call_transcript:586483",
+        "source_line": 101,
+        "timestamp": "2026-05-25T16:36:53+03:00",
+        "source_kind": "customer_call",
+        "evidence": "Customer says the 80% invoice was paid about an hour before this call.",
+        "reason": "This independently timed customer confirmation establishes completed payment by the call time. The reported payment hour is approximate, so the call timestamp is the earliest exact confirmation point in the view."
+      },
+      "additional_notes": [
+        {
+          "event_id": "manager_worklog:2685341:0",
+          "source_line": 92,
+          "timestamp": "2026-05-25T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "note": "Worklog also reports receipt of 80% payment but cannot establish an exact cutoff. Earlier signed-contract reports are not used as cutoff evidence."
+        },
+        {
+          "source_lines": [94, 97, 99],
+          "timestamps": ["2026-05-25T11:08:00+03:00", "2026-05-25T13:03:00+03:00", "2026-05-25T14:26:00+03:00"],
+          "note": "Earlier same-day payment inquiries precede the direct confirmation call; they do not conflict with payment being completed later."
+        }
+      ]
+    },
+    {
+      "deal_id": "7623",
+      "view_sha256": "d1276eb764a8f7b9e0be228825bca73500c84ad315b809ce0562041a3eb4210f",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "At source_line 17 the customer says the purchase is paused because current volumes do not support the economics and they may revisit after a quarter. This is a profitability constraint and unresolved timing, not a definitive refusal."
+    },
+    {
+      "deal_id": "7639",
+      "view_sha256": "f7a523509b33d8d0ebe44d6c19c5a25c878ad5d546790e30aee0cd352bf21770",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2694477:0",
+          "source_line": 65,
+          "timestamp": "2026-05-07T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog explicitly claims 50% payment was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but this date-only manager claim does not establish an exact cutoff. No independently timed confirmation was identified in the assigned view."
+        }
+      ]
+    },
+    {
+      "deal_id": "18283",
+      "view_sha256": "3679f1ab505f60c2fb4d713e031e600e8f5d5a0c6c67d45818befb4777d99694",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2742403:0",
+          "source_line": 81,
+          "timestamp": "2026-06-15T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog says payment was promised for the day and claims 50% was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but the date-only claim cannot be ordered against same-day communications; those messages do not inherently contradict later payment. No independently timed payment confirmation was identified."
+        }
+      ],
+      "additional_notes": [
+        {
+          "event_ids": ["crm_activity:601575", "crm_activity:601603", "crm_activity:601607"],
+          "source_lines": [82, 83, 84],
+          "timestamps": ["2026-06-15T09:55:29+03:00", "2026-06-15T10:11:30+03:00", "2026-06-15T10:13:16+03:00"],
+          "note": "Messages request a payment order, say payment is planned for that day, and state the seller is awaiting payment. They establish pending payment at those times but do not rule out receipt later that day."
+        }
+      ]
+    },
+    {
+      "deal_id": "18339",
+      "view_sha256": "63294c70af5bdb9662c036988542d38c12f87f736aed47b7cc941d2ecfdd4656",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2758835:0",
+          "source_line": 52,
+          "timestamp": "2026-06-11T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog says a revised contract was sent and claims 70% payment was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but the date-only claim cannot be ordered against the same-day contractual payment schedule. No independently timed payment confirmation was identified."
+        }
+      ],
+      "additional_notes": [
+        {
+          "event_id": "crm_activity:600711",
+          "source_line": 54,
+          "timestamp": "2026-06-11T11:23:49+03:00",
+          "note": "Customer email says the revised contract requires 70% prepayment within three banking days; this sets a due term but does not confirm payment or inherently contradict later same-day receipt."
+        }
+      ]
+    },
+    {
+      "deal_id": "18357",
+      "view_sha256": "45ddbc447e3f89a7482e5ab27c661b9f7fabdc9cacba0cbbcdd6c6c0e418850a",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SCOPE_ADJUDICATION_REQUIRED",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "crm_timeline_comment:2794179",
+          "source_line": 30,
+          "timestamp": "2026-06-04T10:47:20+03:00",
+          "source_kind": "internal_timeline_comment",
+          "evidence": "Internal note says they had already acquired another unit in Moscow."
+        },
+        {
+          "event_id": "call_transcript:595711",
+          "source_line": 38,
+          "timestamp": "2026-06-04T14:12:29+03:00",
+          "source_kind": "customer_call",
+          "evidence": "Customer says the request has been dropped because they acquired another machine; when asked, the customer confirms it was a different purchase."
+        }
+      ],
+      "reason": "The purchase/request withdrawal is explicit, but adjudicate whether the acquired equipment is the same in-scope request or another related need before applying a cutoff."
+    },
+    {
+      "deal_id": "18385",
+      "view_sha256": "1df63a113525f47ebe6cb033e429aaff2621c791a2a2ab678ff6e121a79dd25a",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2787353:0",
+          "source_line": 79,
+          "timestamp": "2026-06-16T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog says the contract was signed and claims 90% payment was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but the date-only claim cannot be ordered against same-day messages that still say payment is pending. Those messages may precede later same-day receipt; no independently timed payment confirmation was identified. Signature is not used as a cutoff."
+        }
+      ],
+      "additional_notes": [
+        {
+          "event_ids": ["crm_activity:602831", "crm_activity:602863", "crm_activity:602875"],
+          "source_lines": [82, 83, 84],
+          "timestamps": ["2026-06-16T11:11:30+03:00", "2026-06-16T11:25:59+03:00", "2026-06-16T11:30:37+03:00"],
+          "note": "Seller asks when payment will happen, customer says they think payment will be today or tomorrow, and seller says they await receipt. This is not a confirmation but can precede later same-day receipt."
+        }
+      ]
+    },
+    {
+      "deal_id": "18523",
+      "view_sha256": "cc90109075c13af9f4deed3cb5801bcf1ffb896f78bb352d837633b347291843",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "crm_timeline_comment:2829363",
+          "source_line": 3,
+          "timestamp": "2026-06-18T15:12:23+03:00",
+          "source_kind": "internal_timeline_comment",
+          "evidence": "One combined comment contains a '19.06' status saying the contract was signed and 60% payment received, followed by older '18.06' qualification and negotiation notes.",
+          "reason": "The parsed event timestamp is June 18, but the payment status is embedded under a June 19 date in a multi-date comment. It is not a chronology-safe terminal cutoff."
+        },
+        {
+          "event_id": "call_transcript:605557",
+          "source_line": 27,
+          "timestamp": "2026-06-19T09:14:10+03:00",
+          "source_kind": "customer_call",
+          "evidence": "On June 19, customer discusses signing and agreement terms; this does not independently confirm payment."
+        },
+        {
+          "event_id": "crm_activity:605611",
+          "source_line": 31,
+          "timestamp": "2026-06-19T09:48:50+03:00",
+          "source_kind": "customer_email",
+          "evidence": "Customer sends a signed contract, still no separate payment confirmation."
+        }
+      ],
+      "reason": "The comment mixes dates/statuses; no chronology-safe cutoff can be established from the view."
+    },
+    {
+      "deal_id": "18533",
+      "view_sha256": "3f99bfa267826c70ee0427591877682c4bb75e9bb23791b5e1e9e39676603ccc",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "crm_timeline_comment:2832051",
+          "source_line": 6,
+          "timestamp": "2026-06-19T15:51:24+03:00",
+          "source_kind": "internal_timeline_comment",
+          "evidence": "Comment begins with '24.06 payment received 350k in cash' and then includes earlier June 19 qualification details.",
+          "reason": "The parsed event timestamp is June 19, before the embedded June 24 payment date; this compound comment is not a chronology-safe terminal cutoff."
+        },
+        {
+          "event_id": "crm_timeline_comment:2833523",
+          "source_line": 19,
+          "timestamp": "2026-06-22T12:14:34+03:00",
+          "source_kind": "internal_timeline_comment",
+          "evidence": "A separate combined comment refers to a June 24 meeting/signature and says 50% is expected the next day or the day after.",
+          "reason": "Confirms multi-date status notes in the view; it does not independently establish when payment was received."
+        }
+      ],
+      "reason": "Chronology cannot be resolved from the parsed comment timestamp and its embedded dates alone."
+    },
+    {
+      "deal_id": "18639",
+      "view_sha256": "f9318946f177466448dbe996f3cfa78325cb6e2bea33915594ce61ea044336fe",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "The customer is still requesting a proposal and documentation at source_line 6; no terminal event is shown."
+    },
+    {
+      "deal_id": "18729",
+      "view_sha256": "0c33ce038e5a265547638c66b7ed13bd05e5739d9fed4d3a6b0d5976520361d7",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "The manager worklog at source_line 28 says an old unit was repaired and purchase of a new one was paused indefinitely; in the customer call at source_line 33, the buyer says shareholders chose to run on the old unit and will contact us if the need returns. Per the unchanged v2 boundary, an indefinite pause without explicit refusal is not terminal."
+    },
+    {
+      "deal_id": "18819",
+      "view_sha256": "da2e57621ee837264d71538a08b6132d056fea6afeced86a733ecaf41edfe715",
+      "status": "PASS",
+      "finding_type": "NONE",
+      "earliest_terminal_event": null,
+      "notes": "Customer requests monoblock configurations at source_line 39 and compares the 15 million offer with lower-priced alternatives at source_line 52, while asking about manufacturing, delivery, and included services. This is a configuration and price objection without a definitive refusal."
+    },
+    {
+      "deal_id": "18845",
+      "view_sha256": "4140adb7842286dd727436f58eb91ca26488dcf04423905a156e2ae8b65cdf43",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:2980259:0",
+          "source_line": 102,
+          "timestamp": "2026-09-25T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Worklog explicitly claims 50% payment was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but this date-only claim does not establish an exact cutoff. No independently timed confirmation was identified in the assigned view."
+        }
+      ]
+    },
+    {
+      "deal_id": "18865",
+      "view_sha256": "f3c7966b6cc1d93539e0ffe96c26ebc7cf5b639669d943776ff8c4f80fc88caf",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_POLICY_REVIEW_REQUIRED",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "crm_timeline_comment:2990679",
+          "source_line": 28,
+          "timestamp": "2026-08-12T12:29:26+03:00",
+          "source_kind": "internal_timeline_comment",
+          "evidence": "Comment says '13.08 management rejected the offer' and planned to retry contact in a month.",
+          "reason": "The parsed timestamp is August 12 while the embedded status date is August 13."
+        },
+        {
+          "event_id": "call_transcript:646059",
+          "source_line": 40,
+          "timestamp": "2026-08-13T17:30:26+03:00",
+          "source_kind": "customer_call",
+          "evidence": "Customer says leadership found the offer expensive and would think about it, and would contact the seller if needed.",
+          "reason": "This direct call does not confirm the internal note's claimed rejection; it describes an unresolved price decision."
+        }
+      ],
+      "reason": "The timeline comment is explicitly terminal in wording but conflicts in embedded/parsed date and with the direct customer call. Do not treat the stronger manager wording as customer-confirmed or use it as a safe cutoff without source-policy resolution."
+    },
+    {
+      "deal_id": "18925",
+      "view_sha256": "ce8efa2bdae472bfa6ff834e0d1fc4764875e4562b6fe6170cdda79fcc02e9ae",
+      "status": "REVIEW_REQUIRED",
+      "finding_type": "SOURCE_CHRONOLOGY_AMBIGUITY",
+      "earliest_terminal_event": null,
+      "review_items": [
+        {
+          "candidate_type": "CLEAR_EXISTING_RULE_LEAK",
+          "event_id": "manager_worklog:3026977:0",
+          "source_line": 40,
+          "timestamp": "2026-09-25T00:00:00+03:00",
+          "timestamp_precision": "Date-only source claim; 00:00 is normalized and not an observed payment time.",
+          "source_kind": "manager_worklog_claim",
+          "evidence": "Manager worklog claims the contract was signed and 60% payment was received.",
+          "reason": "Payment receipt would be terminal under the existing rule, but this date-only claim does not establish an exact cutoff. No independently timed confirmation was identified in the assigned view. Signature alone is not used as a cutoff."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "user_approved": true,
+  "approval_date": "2026-10-02",
+  "approval_text": "Применить предложенную обработку и продолжить (рекомендую)",
+  "proposal_sha256": "7fab276653b13d9e09c98d15514db3bb1a6909500d8929007a061645485d624f",
+  "cohort_sha256": "3d88386d431a0a56552e22cc3fd1fff30a96a7827052ee089ac9796aa8182154",
+  "scope": "Blind views only. Preserve raw and canonical timelines, all50 cohort IDs and baseline. Source_line is original canonical pointer.",
+  "expected_affected_deals": 20,
+  "expected_events_removed": 71,
+  "limitation": "Conservative day-start boundary from a manager claim can remove predecision same-day/intervening-day communications. Payment conducted is not proof of settled bank receipt. Four mixed mutable comments and two project-ambiguous rows excluded. Baseline v2 source admissibility differs; schema unchanged.",
+  "deals": [
+    {
+      "deal_id": "18523",
+      "expected_prefilter_view_sha256": "cc90109075c13af9f4deed3cb5801bcf1ffb896f78bb352d837633b347291843",
+      "expected_canonical_timeline_sha256": "5fae99d5cd7c483723692aac3df4fb4785ff7ee13dd5ef5a1778de6de36df451",
+      "cutoff_inclusive": "2026-06-19T00:00:00+03:00",
+      "quarantine_events": [
+        {
+          "source_line": 3,
+          "event_id": "crm_timeline_comment:2829363",
+          "content_sha256": "2bf5f120228514abdf6886cb7365b2a0d54dc7d0ac15de43e4c94ce98295bac5"
+        }
+      ],
+      "source_pins": [
+        {
+          "deal_id": 18523,
+          "source_line": 3,
+          "source_id": "crm_timeline_comment:2829363",
+          "timestamp": "2026-06-18T15:12:23+03:00",
+          "content_sha256": "2bf5f120228514abdf6886cb7365b2a0d54dc7d0ac15de43e4c94ce98295bac5",
+          "view_matches_canonical": true,
+          "role": "mixed mutable comment; quarantine candidate; embedded terminal date 2026-06-19"
+        },
+        {
+          "deal_id": 18523,
+          "source_line": 27,
+          "source_id": "call_transcript:605557",
+          "timestamp": "2026-06-19T09:14:10+03:00",
+          "content_sha256": "a604b88ac1555bcc3c26a007b7d37f85c82d1762886596371fbea67374e9c8ef",
+          "view_matches_canonical": true,
+          "role": "same-day event removed by conservative cutoff"
+        },
+        {
+          "deal_id": 18523,
+          "source_line": 31,
+          "source_id": "crm_activity:605611",
+          "timestamp": "2026-06-19T09:48:50+03:00",
+          "content_sha256": "e1fb3d561cb59ed65b78377300e4279ae9942e02cc7ef8301c3c08fedfafba75",
+          "view_matches_canonical": true,
+          "role": "same-day event removed by conservative cutoff"
+        }
+      ],
+      "expected_view_events_before": 24,
+      "expected_events_removed": 11,
+      "expected_events_after": 13
+    },
+    {
+      "deal_id": "18533",
+      "expected_prefilter_view_sha256": "3f99bfa267826c70ee0427591877682c4bb75e9bb23791b5e1e9e39676603ccc",
+      "expected_canonical_timeline_sha256": "76717aa7b39cf64630fad9a8da822aa7afc1f88872b9aae8d7ded181dbdc1b00",
+      "cutoff_inclusive": "2026-06-24T00:00:00+03:00",
+      "quarantine_events": [
+        {
+          "source_line": 6,
+          "event_id": "crm_timeline_comment:2832051",
+          "content_sha256": "6a27e8c8b659977c1cff6e3f76fe74b8de060315471499399aa986219fba5bb3"
+        },
+        {
+          "source_line": 19,
+          "event_id": "crm_timeline_comment:2833523",
+          "content_sha256": "705330ed4de031a8df401a9ee618a564518905d9909582bebb0e7a394ccd5453"
+        }
+      ],
+      "source_pins": [
+        {
+          "deal_id": 18533,
+          "source_line": 6,
+          "source_id": "crm_timeline_comment:2832051",
+          "timestamp": "2026-06-19T15:51:24+03:00",
+          "content_sha256": "6a27e8c8b659977c1cff6e3f76fe74b8de060315471499399aa986219fba5bb3",
+          "view_matches_canonical": true,
+          "role": "mixed mutable comment; quarantine candidate; embedded terminal date 2026-06-24"
+        },
+        {
+          "deal_id": 18533,
+          "source_line": 19,
+          "source_id": "crm_timeline_comment:2833523",
+          "timestamp": "2026-06-22T12:14:34+03:00",
+          "content_sha256": "705330ed4de031a8df401a9ee618a564518905d9909582bebb0e7a394ccd5453",
+          "view_matches_canonical": true,
+          "role": "mixed mutable comment; quarantine candidate; embeds June 24 meeting/signature/payment expected thereafter"
+        }
+      ],
+      "expected_view_events_before": 15,
+      "expected_events_removed": 2,
+      "expected_events_after": 13
+    },
+    {
+      "deal_id": "18865",
+      "expected_prefilter_view_sha256": "f3c7966b6cc1d93539e0ffe96c26ebc7cf5b639669d943776ff8c4f80fc88caf",
+      "expected_canonical_timeline_sha256": "2cef77903468049c2141b6d96525988b484186346a6dcc1a781eb07f13585c1e",
+      "cutoff_inclusive": null,
+      "quarantine_events": [
+        {
+          "source_line": 28,
+          "event_id": "crm_timeline_comment:2990679",
+          "content_sha256": "b593fed9d772444c409df6af9327df5d9c386b12ee064a1b6578aa909cb65e82"
+        }
+      ],
+      "source_pins": [
+        {
+          "deal_id": 18865,
+          "source_line": 28,
+          "source_id": "crm_timeline_comment:2990679",
+          "timestamp": "2026-08-12T12:29:26+03:00",
+          "content_sha256": "b593fed9d772444c409df6af9327df5d9c386b12ee064a1b6578aa909cb65e82",
+          "view_matches_canonical": true,
+          "role": "mixed mutable comment; quarantine candidate"
+        },
+        {
+          "deal_id": 18865,
+          "source_line": 40,
+          "source_id": "call_transcript:646059",
+          "timestamp": "2026-08-13T17:30:26+03:00",
+          "content_sha256": "f76c06de854b15dcc31fa1f2bcd96430c2a99e77950970227ecc1d53f5be3a83",
+          "view_matches_canonical": true,
+          "role": "deferred purchase call; retain; not a terminal cutoff source"
+        }
+      ],
+      "expected_view_events_before": 37,
+      "expected_events_removed": 1,
+      "expected_events_after": 36
+    },
+    {
+      "deal_id": "18357",
+      "expected_prefilter_view_sha256": "45ddbc447e3f89a7482e5ab27c661b9f7fabdc9cacba0cbbcdd6c6c0e418850a",
+      "expected_canonical_timeline_sha256": "1724ebcc137785ed1aebe8b5056b3541a4c4cbbccaa8b6d47dbfb0d2a6472585",
+      "cutoff_inclusive": "2026-06-04T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18357,
+          "source_line": 30,
+          "source_id": "crm_timeline_comment:2794179",
+          "timestamp": "2026-06-04T10:47:20+03:00",
+          "content_sha256": "336f44363bf40c46bb35009c87cf14f7a1ebbc8ce198f6bece2c35118d8b97f5",
+          "view_matches_canonical": true,
+          "role": "earlier claim; edit precision uncertain; conservative day-start alternative"
+        },
+        {
+          "deal_id": 18357,
+          "source_line": 38,
+          "source_id": "call_transcript:595711",
+          "timestamp": "2026-06-04T14:12:29+03:00",
+          "content_sha256": "4d23a223d92151f7e724d752c21efad53d26ff379d3ce15fc75a903f4356cdb3",
+          "view_matches_canonical": true,
+          "role": "direct confirmation; exact-time alternative"
+        }
+      ],
+      "expected_view_events_before": 36,
+      "expected_events_removed": 10,
+      "expected_events_after": 26
+    },
+    {
+      "deal_id": "7221",
+      "expected_prefilter_view_sha256": "49c1baea2efdcf903c526281f5aeb0e6a02f089dea52b0ba6c5ca37ee60313f9",
+      "expected_canonical_timeline_sha256": "8505f58372b4331332ec16a5ee2e3444e97b56d0b16d198b978cf7bc91f0c8e0",
+      "cutoff_inclusive": "2026-04-20T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7221,
+          "source_line": 39,
+          "source_id": "manager_worklog:2553847:0",
+          "timestamp": "2026-04-20T00:00:00+03:00",
+          "content_sha256": "70797d965bd41c5e94e0eaef22e449cc765f17ef8edd9b99d61767d6addc19a9",
+          "view_matches_canonical": true,
+          "role": "date-only worklog claim; conservative day-start candidate"
+        },
+        {
+          "deal_id": 7221,
+          "source_line": 41,
+          "source_id": "call_transcript:562169",
+          "timestamp": "2026-04-24T13:25:49+03:00",
+          "content_sha256": "71fc7a26ebf21b54e1a6581c98351784c4f655c3b969e305d9f2fa2f25e21e74",
+          "view_matches_canonical": true,
+          "role": "direct confirmation; exact-time alternative"
+        }
+      ],
+      "expected_view_events_before": 34,
+      "expected_events_removed": 3,
+      "expected_events_after": 31
+    },
+    {
+      "deal_id": "7619",
+      "expected_prefilter_view_sha256": "c1251af7ac0568cd37fcb0d9ee09efaa2a27cb1050dc795e6f69ed14fb65b4b2",
+      "expected_canonical_timeline_sha256": "e7b152dd075b525e7c32f1773b442850e33a8358f90893666efc0200ce7602c4",
+      "cutoff_inclusive": "2026-05-25T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7619,
+          "source_line": 92,
+          "source_id": "manager_worklog:2685341:0",
+          "timestamp": "2026-05-25T00:00:00+03:00",
+          "content_sha256": "2a3fa12998f371fbb87bd8ff68441bb52da4476a8c831096ffdcd590e77a3e4d",
+          "view_matches_canonical": true,
+          "role": "date-only worklog claim; conservative day-start candidate"
+        },
+        {
+          "deal_id": 7619,
+          "source_line": 101,
+          "source_id": "call_transcript:586483",
+          "timestamp": "2026-05-25T16:36:53+03:00",
+          "content_sha256": "73f62e4f0ed1b084b6cc0374d6a666919eb24d54e09c232c6916cdc63d4ed3b4",
+          "view_matches_canonical": true,
+          "role": "direct confirmation; exact-time alternative"
+        }
+      ],
+      "expected_view_events_before": 89,
+      "expected_events_removed": 10,
+      "expected_events_after": 79
+    },
+    {
+      "deal_id": "7567",
+      "expected_prefilter_view_sha256": "bb14b24e32ec01c0201f72887baed8d2ff634d8560c23cb930520c854f3c5184",
+      "expected_canonical_timeline_sha256": "00aeabab2a62c6b872b21d2e923bc90586b6b09ef5e44e5367230119178b2a41",
+      "cutoff_inclusive": null,
+      "quarantine_events": [
+        {
+          "source_line": 393,
+          "event_id": "call_transcript:676267",
+          "content_sha256": "fa7df81acbdffb24aec41507c356de4a78a25e19cf4e935a9bcc82fd69609e5a"
+        },
+        {
+          "source_line": 394,
+          "event_id": "manager_worklog:2649731:1",
+          "content_sha256": "6475958db81d95bbedc903559777e399341869466f5e519a33040d30bcc5aa98"
+        }
+      ],
+      "source_pins": [
+        {
+          "deal_id": 7567,
+          "source_line": 393,
+          "source_id": "call_transcript:676267",
+          "timestamp": "2026-09-25T15:10:16+03:00",
+          "content_sha256": "fa7df81acbdffb24aec41507c356de4a78a25e19cf4e935a9bcc82fd69609e5a",
+          "view_matches_canonical": true,
+          "role": "scope-only candidate; exact-row quarantine only pending follow-up"
+        },
+        {
+          "deal_id": 7567,
+          "source_line": 394,
+          "source_id": "manager_worklog:2649731:1",
+          "timestamp": "2026-09-28T00:00:00+03:00",
+          "content_sha256": "6475958db81d95bbedc903559777e399341869466f5e519a33040d30bcc5aa98",
+          "view_matches_canonical": true,
+          "role": "scope-only candidate; exact-row quarantine only pending follow-up"
+        }
+      ],
+      "expected_view_events_before": 383,
+      "expected_events_removed": 2,
+      "expected_events_after": 381
+    },
+    {
+      "deal_id": "7137",
+      "expected_prefilter_view_sha256": "2e9c43ac29fe26b630fc9b6c3006c5769258fcb231da7de31f285c00992ed0a4",
+      "expected_canonical_timeline_sha256": "1c0cb539ba41e5243182de27341209fae2e04574cba45c4c1014be3fd61126ef",
+      "cutoff_inclusive": "2026-04-15T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7137,
+          "source_line": 90,
+          "source_id": "manager_worklog:2533067:0",
+          "timestamp": "2026-04-15T00:00:00+03:00",
+          "content_sha256": "7996e3a064956199f2d8adbbd74c82f2e24feb3041916c274500d9bb5f04afac",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 76,
+      "expected_events_removed": 1,
+      "expected_events_after": 75
+    },
+    {
+      "deal_id": "7543",
+      "expected_prefilter_view_sha256": "d7860d60b17b0d38bcb26e68faf8a4f7466a3ee505be3775f73e3cf2d815790b",
+      "expected_canonical_timeline_sha256": "0c5cbf957d715a6e72d4fed0bfd82d0454a8eb8557e051294b586a6c6b62ddaa",
+      "cutoff_inclusive": "2026-04-24T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7543,
+          "source_line": 30,
+          "source_id": "manager_worklog:2645149:0",
+          "timestamp": "2026-04-24T00:00:00+03:00",
+          "content_sha256": "d6a9496e26b7b8963af9f2f3994d243aa658619835bf0ffee554a83e984d065d",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 18,
+      "expected_events_removed": 1,
+      "expected_events_after": 17
+    },
+    {
+      "deal_id": "7639",
+      "expected_prefilter_view_sha256": "f7a523509b33d8d0ebe44d6c19c5a25c878ad5d546790e30aee0cd352bf21770",
+      "expected_canonical_timeline_sha256": "ec15ddcc5f6b1485762f0161f53093965be8f6814f84d51b40c1a10d7c12d440",
+      "cutoff_inclusive": "2026-05-07T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7639,
+          "source_line": 65,
+          "source_id": "manager_worklog:2694477:0",
+          "timestamp": "2026-05-07T00:00:00+03:00",
+          "content_sha256": "a0cee3eaf93ffd27387636663ce00841b309d874e6490460f954f8048d4652c1",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 52,
+      "expected_events_removed": 2,
+      "expected_events_after": 50
+    },
+    {
+      "deal_id": "18283",
+      "expected_prefilter_view_sha256": "3679f1ab505f60c2fb4d713e031e600e8f5d5a0c6c67d45818befb4777d99694",
+      "expected_canonical_timeline_sha256": "95634bed03b590e4712fba3fa14ce48394e7f8e01a2cb73d4678e8c687875b78",
+      "cutoff_inclusive": "2026-06-15T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18283,
+          "source_line": 81,
+          "source_id": "manager_worklog:2742403:0",
+          "timestamp": "2026-06-15T00:00:00+03:00",
+          "content_sha256": "d54136a4f192f71204f71487583eafcc40a0198c6500446a8420860156cf1c80",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 70,
+      "expected_events_removed": 4,
+      "expected_events_after": 66
+    },
+    {
+      "deal_id": "18339",
+      "expected_prefilter_view_sha256": "63294c70af5bdb9662c036988542d38c12f87f736aed47b7cc941d2ecfdd4656",
+      "expected_canonical_timeline_sha256": "213d6c9317acb0d3a8d814ad847acc411d3b36ddb62c4d7f86697eb57cbc70f9",
+      "cutoff_inclusive": "2026-06-11T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18339,
+          "source_line": 52,
+          "source_id": "manager_worklog:2758835:0",
+          "timestamp": "2026-06-11T00:00:00+03:00",
+          "content_sha256": "8e64c2a69519d2b68c56bbd35a50ef4003535dae33c2c77bf93503bdabbe8088",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 41,
+      "expected_events_removed": 4,
+      "expected_events_after": 37
+    },
+    {
+      "deal_id": "18385",
+      "expected_prefilter_view_sha256": "1df63a113525f47ebe6cb033e429aaff2621c791a2a2ab678ff6e121a79dd25a",
+      "expected_canonical_timeline_sha256": "1ccb563e5cf781b30bafc8b5ea931a9c1102a59239732321a1a81e62cb716cee",
+      "cutoff_inclusive": "2026-06-16T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18385,
+          "source_line": 79,
+          "source_id": "manager_worklog:2787353:0",
+          "timestamp": "2026-06-16T00:00:00+03:00",
+          "content_sha256": "b2a1a4825f288541ed83d1126e09b5e750c55145c2b97207ffb72fc361ecbccd",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 72,
+      "expected_events_removed": 4,
+      "expected_events_after": 68
+    },
+    {
+      "deal_id": "18845",
+      "expected_prefilter_view_sha256": "4140adb7842286dd727436f58eb91ca26488dcf04423905a156e2ae8b65cdf43",
+      "expected_canonical_timeline_sha256": "21e69b4a207e100d7c30ee03f6c925b72d0983b4e68f5bb2199238da78d511cb",
+      "cutoff_inclusive": "2026-09-25T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18845,
+          "source_line": 102,
+          "source_id": "manager_worklog:2980259:0",
+          "timestamp": "2026-09-25T00:00:00+03:00",
+          "content_sha256": "a0cee3eaf93ffd27387636663ce00841b309d874e6490460f954f8048d4652c1",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 88,
+      "expected_events_removed": 1,
+      "expected_events_after": 87
+    },
+    {
+      "deal_id": "18925",
+      "expected_prefilter_view_sha256": "ce8efa2bdae472bfa6ff834e0d1fc4764875e4562b6fe6170cdda79fcc02e9ae",
+      "expected_canonical_timeline_sha256": "2e6e4962b32d68ca0319b39eb60afda44205607ff1f8fb77ee43711eac1a3d51",
+      "cutoff_inclusive": "2026-09-25T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 18925,
+          "source_line": 40,
+          "source_id": "manager_worklog:3026977:0",
+          "timestamp": "2026-09-25T00:00:00+03:00",
+          "content_sha256": "18fe435a1930fe80e481c9362ec40fb512cb1e63d52a2fdb2c734aa5cd151623",
+          "view_matches_canonical": true,
+          "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+        }
+      ],
+      "expected_view_events_before": 26,
+      "expected_events_removed": 1,
+      "expected_events_after": 25
+    },
+    {
+      "deal_id": "6791",
+      "expected_prefilter_view_sha256": "2560a30eabada6af2c5276d27bb5b851945fa7ba85a4b09d6b09255a1fc557e7",
+      "expected_canonical_timeline_sha256": "d967618cb3007c33c5a1ea544b20ef5bbbe27735cf322c76754d242117529aa7",
+      "cutoff_inclusive": "2026-05-14T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 6791,
+          "source_line": 207,
+          "source_id": "manager_worklog:2468671:0",
+          "timestamp": "2026-05-14T00:00:00+03:00",
+          "content_sha256": "74d47452e2fe2cbcbbd5d7ad12798e32452508c7a8ce6dd8e5faf1422327ffe1",
+          "view_matches_canonical": true,
+          "role": "QC-A date-only manager claim; proposed claim-day boundary, not independent receipt proof"
+        }
+      ],
+      "expected_view_events_before": 198,
+      "expected_events_removed": 4,
+      "expected_events_after": 194
+    },
+    {
+      "deal_id": "6999",
+      "expected_prefilter_view_sha256": "49936cb747ceab84003bdad5a28694700e14bf2813161400600429c2aaadc601",
+      "expected_canonical_timeline_sha256": "098f0a8eb0bc0d4b89dc59dd422e521fb5bbd547b53b3249f00452810723dec6",
+      "cutoff_inclusive": "2026-03-27T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 6999,
+          "source_line": 120,
+          "source_id": "manager_worklog:2507023:0",
+          "timestamp": "2026-03-27T00:00:00+03:00",
+          "content_sha256": "08e5a1e00f0aaec9cbbaf4663a371ca15d731273359f3637da561c341af3e720",
+          "view_matches_canonical": true,
+          "role": "QC-A manager claim of payment action; not confirmed bank receipt or settlement"
+        }
+      ],
+      "expected_view_events_before": 110,
+      "expected_events_removed": 4,
+      "expected_events_after": 106
+    },
+    {
+      "deal_id": "7035",
+      "expected_prefilter_view_sha256": "c0cd6b637467bce8a121727e01bdb8b528b836f1b90e589a0c1fa0e53a49b68f",
+      "expected_canonical_timeline_sha256": "f1f16f442b4aa601423a76263e462e6d6d9f7deffc8e1880bd74f885e01de4b9",
+      "cutoff_inclusive": "2026-03-02T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7035,
+          "source_line": 74,
+          "source_id": "manager_worklog:2511097:0",
+          "timestamp": "2026-03-02T00:00:00+03:00",
+          "content_sha256": "89bf1e70f8cff0bb630b20adffd4f38f96d0fab415c5c8c9e26bc3a6a1010f1e",
+          "view_matches_canonical": true,
+          "role": "QC-A date-only manager claim; proposed claim-day boundary, not independent receipt proof"
+        }
+      ],
+      "expected_view_events_before": 62,
+      "expected_events_removed": 3,
+      "expected_events_after": 59
+    },
+    {
+      "deal_id": "7107",
+      "expected_prefilter_view_sha256": "caebd860b9a4ab3caf542e7fa2bfc24b9217b213ae096712ce6d899f1fd66722",
+      "expected_canonical_timeline_sha256": "62f731c7ed3f1534186ec1cea0d26edfc363092730fc1b087eacda8ffdf46629",
+      "cutoff_inclusive": "2026-03-13T00:00:00+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 7107,
+          "source_line": 60,
+          "source_id": "manager_worklog:2527525:0",
+          "timestamp": "2026-03-13T00:00:00+03:00",
+          "content_sha256": "547bd9d0b95ac3a6edbd1b467535b7fdeac60a9ce2b280b2c28fc8498426ae05",
+          "view_matches_canonical": true,
+          "role": "QC-A manager claim of payment action; not confirmed bank receipt"
+        }
+      ],
+      "expected_view_events_before": 50,
+      "expected_events_removed": 1,
+      "expected_events_after": 49
+    },
+    {
+      "deal_id": "6351",
+      "expected_prefilter_view_sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8",
+      "expected_canonical_timeline_sha256": "3bbc7d7c9a617d23e09d97fb4894aae4875abd783dd72bf1b0a49d5c671d4125",
+      "cutoff_inclusive": "2026-05-28T11:26:04+03:00",
+      "quarantine_events": [],
+      "source_pins": [
+        {
+          "deal_id": 6351,
+          "source_line": 67,
+          "source_id": "call_transcript:589631",
+          "timestamp": "2026-05-28T11:26:04+03:00",
+          "content_sha256": "a974f734290a4712c2783f28f432d80751ebec31166148906fe7d4c04795269d",
+          "view_matches_canonical": true,
+          "role": "QC-A direct whole-project closure claim; exact event-time cutoff candidate"
+        }
+      ],
+      "expected_view_events_before": 60,
+      "expected_events_removed": 2,
+      "expected_events_after": 58
+    }
+  ]
+}

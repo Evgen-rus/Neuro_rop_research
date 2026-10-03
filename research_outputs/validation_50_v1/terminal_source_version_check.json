@@ -1,0 +1,15 @@
+{
+  "status": "BOUNDED_LOCAL_SEARCH_COMPLETE_NO_HISTORICAL_PROOF",
+  "scope": "Mutable mixed-date comments for18523/18533; no API calls or source changes",
+  "sqlite_mode": "read_only",
+  "practice_default_sqlite": {"target_worklog_rows": 0, "target_trajectory_events": 0},
+  "validation_sqlite": {"target_worklog_rows": 0, "target_trajectory_events": 0},
+  "practice_exact_context_or_timeline_filename_matches": 0,
+  "sources": [
+    {"deal_id": "18523", "comment_id": "2829363", "created": "2026-06-18T15:12:23+03:00", "later_embedded_terminal_date": "2026-06-19", "captured_update_or_version_timestamp": false},
+    {"deal_id": "18533", "comment_id": "2832051", "created": "2026-06-19T15:51:24+03:00", "later_embedded_terminal_date": "2026-06-24", "captured_update_or_version_timestamp": false},
+    {"deal_id": "18533", "comment_id": "2833523", "created": "2026-06-22T12:14:34+03:00", "later_embedded_status_date": "2026-06-24", "captured_update_or_version_timestamp": false, "check_scope": "Saved raw row keys only; no separate historical-version search"},
+    {"deal_id": "18865", "comment_id": "2990679", "created": "2026-08-12T12:29:26+03:00", "later_embedded_status_date": "2026-08-13", "captured_update_or_version_timestamp": false, "check_scope": "Saved raw row keys only; no separate historical-version search"}
+  ],
+  "conclusion": "CREATED cannot date all content of these mutable comments. A whole-timeline cutoff at that timestamp would wrongly discard predecision communications. No years or source contents rewritten. Source-admissibility policy decision remains pending full semantic QC."
+}

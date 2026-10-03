@@ -1,0 +1,639 @@
+{
+  "artifact_kind": "proposed_source_policy_dry_run",
+  "status": "COMPLETE_REVIEWABLE_PROPOSAL_AWAITING_USER_DECISION",
+  "decision_required": true,
+  "applied": false,
+  "raw_input_mutations": 0,
+  "scope_limits": [
+    "Outcome values, manifests, audit bodies, and draft contents were not read.",
+    "Source inspection was limited to cited view rows and matching canonical rows; narrative content was not copied into this proposal.",
+    "QC-A final mechanical report: PASS 20, REVIEW_REQUIRED 4, FAIL 1; the supplied A source pins are included below. The eight date-only B items are included from final review_items.",
+    "This is a method/source-policy proposal, not an approval, semantic PASS, or completed re-audit."
+  ],
+  "policy": {
+    "raw_sources": "Retain all raw source rows unchanged.",
+    "mixed_mutable_comments": "Propose quarantining the whole cited comment row when later embedded dates/status cannot safely be assigned to its CREATED timestamp. If a historical version timestamp can establish chronology, use it to resolve the case before applying a quarantine.",
+    "claimed_payment_action": "A manager worklog that claims payment was conducted or received may define a proposed chronology boundary, but remains an unverified manager claim and does not prove bank receipt or settled funds. A payment order or instruction alone is not a completed-payment claim.",
+    "credible_date_unknown_hour": "If a terminal claim is accepted but its hour is unknown, propose an inclusive cutoff at 00:00:00+03:00 on the claim date. This deliberately may remove pre-decision same-day communication or later days when the earlier claim date precedes direct confirmation; it does not classify that communication as contradictory.",
+    "precisely_timed_confirmation": "Show a separate alternative cutoff at the direct confirmation timestamp where one is available.",
+    "signature_or_payment_order_only": "Do not treat signature or payment-order evidence alone as completed settlement.",
+    "same_day_pending": "Do not infer contradiction merely because pending and terminal evidence share a calendar day."
+  },
+  "source_pins": [
+    {
+      "deal_id": 18523,
+      "source_line": 3,
+      "source_id": "crm_timeline_comment:2829363",
+      "timestamp": "2026-06-18T15:12:23+03:00",
+      "content_sha256": "2bf5f120228514abdf6886cb7365b2a0d54dc7d0ac15de43e4c94ce98295bac5",
+      "view_matches_canonical": true,
+      "role": "mixed mutable comment; quarantine candidate; embedded terminal date 2026-06-19"
+    },
+    {
+      "deal_id": 18523,
+      "source_line": 27,
+      "source_id": "call_transcript:605557",
+      "timestamp": "2026-06-19T09:14:10+03:00",
+      "content_sha256": "a604b88ac1555bcc3c26a007b7d37f85c82d1762886596371fbea67374e9c8ef",
+      "view_matches_canonical": true,
+      "role": "same-day event removed by conservative cutoff"
+    },
+    {
+      "deal_id": 18523,
+      "source_line": 31,
+      "source_id": "crm_activity:605611",
+      "timestamp": "2026-06-19T09:48:50+03:00",
+      "content_sha256": "e1fb3d561cb59ed65b78377300e4279ae9942e02cc7ef8301c3c08fedfafba75",
+      "view_matches_canonical": true,
+      "role": "same-day event removed by conservative cutoff"
+    },
+    {
+      "deal_id": 18533,
+      "source_line": 6,
+      "source_id": "crm_timeline_comment:2832051",
+      "timestamp": "2026-06-19T15:51:24+03:00",
+      "content_sha256": "6a27e8c8b659977c1cff6e3f76fe74b8de060315471499399aa986219fba5bb3",
+      "view_matches_canonical": true,
+      "role": "mixed mutable comment; quarantine candidate; embedded terminal date 2026-06-24"
+    },
+    {
+      "deal_id": 18533,
+      "source_line": 19,
+      "source_id": "crm_timeline_comment:2833523",
+      "timestamp": "2026-06-22T12:14:34+03:00",
+      "content_sha256": "705330ed4de031a8df401a9ee618a564518905d9909582bebb0e7a394ccd5453",
+      "view_matches_canonical": true,
+      "role": "mixed mutable comment; quarantine candidate; embeds June 24 meeting/signature/payment expected thereafter"
+    },
+    {
+      "deal_id": 18865,
+      "source_line": 28,
+      "source_id": "crm_timeline_comment:2990679",
+      "timestamp": "2026-08-12T12:29:26+03:00",
+      "content_sha256": "b593fed9d772444c409df6af9327df5d9c386b12ee064a1b6578aa909cb65e82",
+      "view_matches_canonical": true,
+      "role": "mixed mutable comment; quarantine candidate"
+    },
+    {
+      "deal_id": 18865,
+      "source_line": 40,
+      "source_id": "call_transcript:646059",
+      "timestamp": "2026-08-13T17:30:26+03:00",
+      "content_sha256": "f76c06de854b15dcc31fa1f2bcd96430c2a99e77950970227ecc1d53f5be3a83",
+      "view_matches_canonical": true,
+      "role": "deferred purchase call; retain; not a terminal cutoff source"
+    },
+    {
+      "deal_id": 18357,
+      "source_line": 30,
+      "source_id": "crm_timeline_comment:2794179",
+      "timestamp": "2026-06-04T10:47:20+03:00",
+      "content_sha256": "336f44363bf40c46bb35009c87cf14f7a1ebbc8ce198f6bece2c35118d8b97f5",
+      "view_matches_canonical": true,
+      "role": "earlier claim; edit precision uncertain; conservative day-start alternative"
+    },
+    {
+      "deal_id": 18357,
+      "source_line": 38,
+      "source_id": "call_transcript:595711",
+      "timestamp": "2026-06-04T14:12:29+03:00",
+      "content_sha256": "4d23a223d92151f7e724d752c21efad53d26ff379d3ce15fc75a903f4356cdb3",
+      "view_matches_canonical": true,
+      "role": "direct confirmation; exact-time alternative"
+    },
+    {
+      "deal_id": 7221,
+      "source_line": 39,
+      "source_id": "manager_worklog:2553847:0",
+      "timestamp": "2026-04-20T00:00:00+03:00",
+      "content_sha256": "70797d965bd41c5e94e0eaef22e449cc765f17ef8edd9b99d61767d6addc19a9",
+      "view_matches_canonical": true,
+      "role": "date-only worklog claim; conservative day-start candidate"
+    },
+    {
+      "deal_id": 7221,
+      "source_line": 41,
+      "source_id": "call_transcript:562169",
+      "timestamp": "2026-04-24T13:25:49+03:00",
+      "content_sha256": "71fc7a26ebf21b54e1a6581c98351784c4f655c3b969e305d9f2fa2f25e21e74",
+      "view_matches_canonical": true,
+      "role": "direct confirmation; exact-time alternative"
+    },
+    {
+      "deal_id": 7619,
+      "source_line": 92,
+      "source_id": "manager_worklog:2685341:0",
+      "timestamp": "2026-05-25T00:00:00+03:00",
+      "content_sha256": "2a3fa12998f371fbb87bd8ff68441bb52da4476a8c831096ffdcd590e77a3e4d",
+      "view_matches_canonical": true,
+      "role": "date-only worklog claim; conservative day-start candidate"
+    },
+    {
+      "deal_id": 7619,
+      "source_line": 101,
+      "source_id": "call_transcript:586483",
+      "timestamp": "2026-05-25T16:36:53+03:00",
+      "content_sha256": "73f62e4f0ed1b084b6cc0374d6a666919eb24d54e09c232c6916cdc63d4ed3b4",
+      "view_matches_canonical": true,
+      "role": "direct confirmation; exact-time alternative"
+    },
+    {
+      "deal_id": 7567,
+      "source_line": 393,
+      "source_id": "call_transcript:676267",
+      "timestamp": "2026-09-25T15:10:16+03:00",
+      "content_sha256": "fa7df81acbdffb24aec41507c356de4a78a25e19cf4e935a9bcc82fd69609e5a",
+      "view_matches_canonical": true,
+      "role": "scope-only candidate; exact-row quarantine only pending follow-up"
+    },
+    {
+      "deal_id": 7567,
+      "source_line": 394,
+      "source_id": "manager_worklog:2649731:1",
+      "timestamp": "2026-09-28T00:00:00+03:00",
+      "content_sha256": "6475958db81d95bbedc903559777e399341869466f5e519a33040d30bcc5aa98",
+      "view_matches_canonical": true,
+      "role": "scope-only candidate; exact-row quarantine only pending follow-up"
+    },
+    {
+      "deal_id": 7137,
+      "source_line": 90,
+      "source_id": "manager_worklog:2533067:0",
+      "timestamp": "2026-04-15T00:00:00+03:00",
+      "content_sha256": "7996e3a064956199f2d8adbbd74c82f2e24feb3041916c274500d9bb5f04afac",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 7543,
+      "source_line": 30,
+      "source_id": "manager_worklog:2645149:0",
+      "timestamp": "2026-04-24T00:00:00+03:00",
+      "content_sha256": "d6a9496e26b7b8963af9f2f3994d243aa658619835bf0ffee554a83e984d065d",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 7639,
+      "source_line": 65,
+      "source_id": "manager_worklog:2694477:0",
+      "timestamp": "2026-05-07T00:00:00+03:00",
+      "content_sha256": "a0cee3eaf93ffd27387636663ce00841b309d874e6490460f954f8048d4652c1",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 18283,
+      "source_line": 81,
+      "source_id": "manager_worklog:2742403:0",
+      "timestamp": "2026-06-15T00:00:00+03:00",
+      "content_sha256": "d54136a4f192f71204f71487583eafcc40a0198c6500446a8420860156cf1c80",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 18339,
+      "source_line": 52,
+      "source_id": "manager_worklog:2758835:0",
+      "timestamp": "2026-06-11T00:00:00+03:00",
+      "content_sha256": "8e64c2a69519d2b68c56bbd35a50ef4003535dae33c2c77bf93503bdabbe8088",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 18385,
+      "source_line": 79,
+      "source_id": "manager_worklog:2787353:0",
+      "timestamp": "2026-06-16T00:00:00+03:00",
+      "content_sha256": "b2a1a4825f288541ed83d1126e09b5e750c55145c2b97207ffb72fc361ecbccd",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 18845,
+      "source_line": 102,
+      "source_id": "manager_worklog:2980259:0",
+      "timestamp": "2026-09-25T00:00:00+03:00",
+      "content_sha256": "a0cee3eaf93ffd27387636663ce00841b309d874e6490460f954f8048d4652c1",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 18925,
+      "source_line": 40,
+      "source_id": "manager_worklog:3026977:0",
+      "timestamp": "2026-09-25T00:00:00+03:00",
+      "content_sha256": "18fe435a1930fe80e481c9362ec40fb512cb1e63d52a2fdb2c734aa5cd151623",
+      "view_matches_canonical": true,
+      "role": "QC-B date-only manager claim; proposed claim-day boundary, not observed payment time"
+    },
+    {
+      "deal_id": 6791,
+      "source_line": 207,
+      "source_id": "manager_worklog:2468671:0",
+      "timestamp": "2026-05-14T00:00:00+03:00",
+      "content_sha256": "74d47452e2fe2cbcbbd5d7ad12798e32452508c7a8ce6dd8e5faf1422327ffe1",
+      "view_matches_canonical": true,
+      "role": "QC-A date-only manager claim; proposed claim-day boundary, not independent receipt proof"
+    },
+    {
+      "deal_id": 6999,
+      "source_line": 120,
+      "source_id": "manager_worklog:2507023:0",
+      "timestamp": "2026-03-27T00:00:00+03:00",
+      "content_sha256": "08e5a1e00f0aaec9cbbaf4663a371ca15d731273359f3637da561c341af3e720",
+      "view_matches_canonical": true,
+      "role": "QC-A manager claim of payment action; not confirmed bank receipt or settlement"
+    },
+    {
+      "deal_id": 7035,
+      "source_line": 74,
+      "source_id": "manager_worklog:2511097:0",
+      "timestamp": "2026-03-02T00:00:00+03:00",
+      "content_sha256": "89bf1e70f8cff0bb630b20adffd4f38f96d0fab415c5c8c9e26bc3a6a1010f1e",
+      "view_matches_canonical": true,
+      "role": "QC-A date-only manager claim; proposed claim-day boundary, not independent receipt proof"
+    },
+    {
+      "deal_id": 7107,
+      "source_line": 60,
+      "source_id": "manager_worklog:2527525:0",
+      "timestamp": "2026-03-13T00:00:00+03:00",
+      "content_sha256": "547bd9d0b95ac3a6edbd1b467535b7fdeac60a9ce2b280b2c28fc8498426ae05",
+      "view_matches_canonical": true,
+      "role": "QC-A manager claim of payment action; not confirmed bank receipt"
+    },
+    {
+      "deal_id": 6351,
+      "source_line": 67,
+      "source_id": "call_transcript:589631",
+      "timestamp": "2026-05-28T11:26:04+03:00",
+      "content_sha256": "a974f734290a4712c2783f28f432d80751ebec31166148906fe7d4c04795269d",
+      "view_matches_canonical": true,
+      "role": "QC-A direct whole-project closure claim; exact event-time cutoff candidate"
+    }
+  ],
+  "dry_run": [
+    {
+      "deal_id": 18523,
+      "cutoff_inclusive": "2026-06-19T00:00:00+03:00",
+      "quarantine_source_lines": [
+        3
+      ],
+      "view_events": 24,
+      "removed_events": 11,
+      "remaining_events": 13,
+      "removed_refs": [
+        "3:crm_timeline_comment:2829363",
+        "24:crm_activity:605523",
+        "26:crm_activity:605557",
+        "27:call_transcript:605557",
+        "28:crm_activity:605563",
+        "29:crm_activity:605591",
+        "30:crm_activity:605597",
+        "31:crm_activity:605611",
+        "33:crm_activity:605675",
+        "35:crm_activity:605701",
+        "36:crm_activity:605711"
+      ]
+    },
+    {
+      "deal_id": 18533,
+      "cutoff_inclusive": "2026-06-24T00:00:00+03:00",
+      "quarantine_source_lines": [
+        6,
+        19
+      ],
+      "view_events": 15,
+      "removed_events": 2,
+      "remaining_events": 13,
+      "removed_refs": [
+        "6:crm_timeline_comment:2832051",
+        "19:crm_timeline_comment:2833523"
+      ]
+    },
+    {
+      "deal_id": 18865,
+      "cutoff_inclusive": null,
+      "quarantine_source_lines": [
+        28
+      ],
+      "view_events": 37,
+      "removed_events": 1,
+      "remaining_events": 36,
+      "removed_refs": [
+        "28:crm_timeline_comment:2990679"
+      ]
+    },
+    {
+      "deal_id": 18357,
+      "cutoff_inclusive": "2026-06-04T00:00:00+03:00",
+      "view_events": 36,
+      "removed_events": 10,
+      "remaining_events": 26,
+      "removed_refs": [
+        "29:crm_activity:595307",
+        "30:crm_timeline_comment:2794179",
+        "31:crm_activity:595693",
+        "32:crm_activity:595699",
+        "33:crm_activity:595701",
+        "34:crm_activity:595703",
+        "35:crm_activity:595705",
+        "36:crm_activity:595707",
+        "37:crm_activity:595711",
+        "38:call_transcript:595711"
+      ],
+      "alternate_precise_cutoff": "2026-06-04T14:12:29+03:00",
+      "alternate_removed_events": 2,
+      "alternate_remaining_events": 34,
+      "alternate_removed_refs": [
+        "37:crm_activity:595711",
+        "38:call_transcript:595711"
+      ]
+    },
+    {
+      "deal_id": 7221,
+      "cutoff_inclusive": "2026-04-20T00:00:00+03:00",
+      "view_events": 34,
+      "removed_events": 3,
+      "remaining_events": 31,
+      "removed_refs": [
+        "39:manager_worklog:2553847:0",
+        "40:crm_activity:562169",
+        "41:call_transcript:562169"
+      ],
+      "alternate_precise_cutoff": "2026-04-24T13:25:49+03:00",
+      "alternate_removed_events": 2,
+      "alternate_remaining_events": 32,
+      "alternate_removed_refs": [
+        "40:crm_activity:562169",
+        "41:call_transcript:562169"
+      ]
+    },
+    {
+      "deal_id": 7619,
+      "cutoff_inclusive": "2026-05-25T00:00:00+03:00",
+      "view_events": 89,
+      "removed_events": 10,
+      "remaining_events": 79,
+      "removed_refs": [
+        "92:manager_worklog:2685341:0",
+        "93:crm_activity:585771",
+        "94:call_transcript:585771",
+        "95:crm_activity:586017",
+        "96:call_transcript:586017",
+        "97:crm_activity:586019",
+        "98:crm_activity:586129",
+        "99:call_transcript:586129",
+        "100:crm_activity:586483",
+        "101:call_transcript:586483"
+      ],
+      "alternate_precise_cutoff": "2026-05-25T16:36:53+03:00",
+      "alternate_removed_events": 2,
+      "alternate_remaining_events": 87,
+      "alternate_removed_refs": [
+        "100:crm_activity:586483",
+        "101:call_transcript:586483"
+      ]
+    },
+    {
+      "deal_id": 7567,
+      "cutoff_inclusive": null,
+      "quarantine_source_lines": [
+        393,
+        394
+      ],
+      "removed_events": 2,
+      "remaining_events": 381,
+      "removed_refs": [
+        "393:call_transcript:676267",
+        "394:manager_worklog:2649731:1"
+      ],
+      "scope_exception_pending": true,
+      "view_events": 383
+    },
+    {
+      "deal_id": 7137,
+      "cutoff_inclusive": "2026-04-15T00:00:00+03:00",
+      "view_events": 76,
+      "removed_events": 1,
+      "remaining_events": 75,
+      "removed_refs": [
+        "90:manager_worklog:2533067:0"
+      ]
+    },
+    {
+      "deal_id": 7543,
+      "cutoff_inclusive": "2026-04-24T00:00:00+03:00",
+      "view_events": 18,
+      "removed_events": 1,
+      "remaining_events": 17,
+      "removed_refs": [
+        "30:manager_worklog:2645149:0"
+      ]
+    },
+    {
+      "deal_id": 7639,
+      "cutoff_inclusive": "2026-05-07T00:00:00+03:00",
+      "view_events": 52,
+      "removed_events": 2,
+      "remaining_events": 50,
+      "removed_refs": [
+        "65:manager_worklog:2694477:0",
+        "66:crm_activity:572379"
+      ]
+    },
+    {
+      "deal_id": 18283,
+      "cutoff_inclusive": "2026-06-15T00:00:00+03:00",
+      "view_events": 70,
+      "removed_events": 4,
+      "remaining_events": 66,
+      "removed_refs": [
+        "81:manager_worklog:2742403:0",
+        "82:crm_activity:601575",
+        "83:crm_activity:601603",
+        "84:crm_activity:601607"
+      ]
+    },
+    {
+      "deal_id": 18339,
+      "cutoff_inclusive": "2026-06-11T00:00:00+03:00",
+      "view_events": 41,
+      "removed_events": 4,
+      "remaining_events": 37,
+      "removed_refs": [
+        "52:manager_worklog:2758835:0",
+        "53:crm_activity:600671",
+        "54:crm_activity:600711",
+        "55:crm_activity:601121"
+      ]
+    },
+    {
+      "deal_id": 18385,
+      "cutoff_inclusive": "2026-06-16T00:00:00+03:00",
+      "view_events": 72,
+      "removed_events": 4,
+      "remaining_events": 68,
+      "removed_refs": [
+        "79:manager_worklog:2787353:0",
+        "82:crm_activity:602831",
+        "83:crm_activity:602863",
+        "84:crm_activity:602875"
+      ]
+    },
+    {
+      "deal_id": 18845,
+      "cutoff_inclusive": "2026-09-25T00:00:00+03:00",
+      "view_events": 88,
+      "removed_events": 1,
+      "remaining_events": 87,
+      "removed_refs": [
+        "102:manager_worklog:2980259:0"
+      ]
+    },
+    {
+      "deal_id": 18925,
+      "cutoff_inclusive": "2026-09-25T00:00:00+03:00",
+      "view_events": 26,
+      "removed_events": 1,
+      "remaining_events": 25,
+      "removed_refs": [
+        "40:manager_worklog:3026977:0"
+      ]
+    },
+    {
+      "deal_id": 6791,
+      "cutoff_inclusive": "2026-05-14T00:00:00+03:00",
+      "view_events": 198,
+      "removed_events": 4,
+      "remaining_events": 194,
+      "removed_refs": [
+        "207:manager_worklog:2468671:0",
+        "208:crm_activity:576885",
+        "209:crm_activity:577119",
+        "210:crm_activity:577137"
+      ]
+    },
+    {
+      "deal_id": 6999,
+      "cutoff_inclusive": "2026-03-27T00:00:00+03:00",
+      "view_events": 110,
+      "removed_events": 4,
+      "remaining_events": 106,
+      "removed_refs": [
+        "120:manager_worklog:2507023:0",
+        "121:crm_activity:547059",
+        "122:crm_activity:547107",
+        "125:bitrix_task:36009"
+      ],
+      "source_claim_is_not_receipt_proof": true
+    },
+    {
+      "deal_id": 7035,
+      "cutoff_inclusive": "2026-03-02T00:00:00+03:00",
+      "view_events": 62,
+      "removed_events": 3,
+      "remaining_events": 59,
+      "removed_refs": [
+        "74:manager_worklog:2511097:0",
+        "75:crm_activity:536323",
+        "76:call_transcript:536323"
+      ]
+    },
+    {
+      "deal_id": 7107,
+      "cutoff_inclusive": "2026-03-13T00:00:00+03:00",
+      "view_events": 50,
+      "removed_events": 1,
+      "remaining_events": 49,
+      "removed_refs": [
+        "60:manager_worklog:2527525:0"
+      ],
+      "source_claim_is_not_receipt_proof": true
+    },
+    {
+      "deal_id": 6351,
+      "cutoff_inclusive": "2026-05-28T11:26:04+03:00",
+      "view_events": 60,
+      "removed_events": 2,
+      "remaining_events": 58,
+      "removed_refs": [
+        "66:crm_activity:589631",
+        "67:call_transcript:589631"
+      ]
+    }
+  ],
+  "active_primary_drafts_to_reaudit_if_approved": [
+    "18357.json",
+    "18523.json",
+    "18533.json",
+    "18865.json",
+    "7221.json",
+    "7543.json",
+    "7639.json",
+    "18339.json",
+    "18845.json",
+    "18925.json",
+    "6351.json"
+  ],
+  "no_current_primary_draft_filename_confirmed": [
+    "7619.json",
+    "7567.json",
+    "7137.json",
+    "18283.json",
+    "18385.json",
+    "6791.json",
+    "6999.json",
+    "7035.json",
+    "7107.json"
+  ],
+  "controls_preserved_without_cutoff": [
+    {
+      "deal_id": 5293,
+      "source_refs": [
+        "202:crm_activity:542287",
+        "218:crm_activity:543845"
+      ],
+      "reason": "signature/payment-order-only; no completed-settlement cutoff proposed"
+    },
+    {
+      "deal_id": 7417,
+      "reason": "signature-only evidence is retained"
+    },
+    {
+      "deal_id": 7009,
+      "reason": "ordinary objection retained; QC-A final mechanical PASS under current schema"
+    },
+    {
+      "deal_id": 6589,
+      "reason": "signature/pause evidence; QC-A PASS under current schema, no exception proposed"
+    },
+    {
+      "deal_id": 18729,
+      "reason": "ordinary objection retained"
+    }
+  ],
+  "pending_follow_up": [
+    {
+      "scope": "User methodology/source-policy decision",
+      "status": "Required before applying proposed cleanup.7567 exact-row quarantine is proposed because project linkage remains unproved; no whole-deal cutoff for that case."
+    }
+  ],
+  "decision_prompt": "Approve the complete conservative boundary/quarantine proposal, archive changed inputs and exposed drafts, then continue Stage4�6; or stop pending source chronology resolution.",
+  "primary_adjudication": {
+    "18357": "Direct callback explicitly addresses prior request, now withdrawn after another purchase; qualifies despite imperfect ASR equipment noun.",
+    "7567": "Scope unresolved across concurrent projects. Propose quarantining only cited393/394 records, preserve raw and other communications."
+  },
+  "baseline_comparability_limit": "This conservative input-boundary exception differs from v2 source retention. Audit schema and semantic method remain unchanged; baseline comparison must state possible predecision same-day/intervening-day loss and unequal source admissibility.",
+  "validation": {
+    "decision_bearing_source_pins_checked": 28,
+    "source_content_hashes_and_canonical_matches": true,
+    "dry_run_source_refs_recomputed_from_canonical_source_line": true,
+    "affected_deals": 20,
+    "current_view_events": 3028,
+    "events_proposed_removed": 71,
+    "active_drafts_to_reaudit": 11,
+    "source_inputs_changed": false
+  }
+}

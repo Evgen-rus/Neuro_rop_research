@@ -1,0 +1,339 @@
+{
+  "call_data_limitations": [
+    {
+      "activity_id": "539543",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "539543",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "555301",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "555301",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "560039",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "560039",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "570209",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "570209",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "574069",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "574069",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "574191",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "574191",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "576841",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "576841",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "577171",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "577171",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "577187",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "577187",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "580425",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "580425",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "581721",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "581721",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "581731",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "581731",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "582513",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "582513",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "582539",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "582539",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "582603",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "582603",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "583075",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "583075",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "587315",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "587315",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "588791",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "588791",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "588797",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "588797",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "588809",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "588809",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "591491",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "591491",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "591993",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "591993",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "593517",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "593517",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "593775",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "593775",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "593891",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "593891",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "595389",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "595389",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "595395",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "595395",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "597649",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "597649",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    },
+    {
+      "activity_id": "611467",
+      "has_transcript": false,
+      "issue": "audio_unavailable"
+    },
+    {
+      "activity_id": "611467",
+      "has_transcript": false,
+      "issue": "duration_unknown"
+    }
+  ],
+  "calls": {
+    "calls_audio_unavailable": 29,
+    "calls_lt_36": 12,
+    "calls_unknown_duration": 29,
+    "calls_with_measured_audio": 72,
+    "eligible_calls_ge_36": 60,
+    "eligible_calls_with_transcript": 60,
+    "eligible_calls_without_transcript": 0,
+    "total_calls": 101
+  },
+  "data_quality": "limited",
+  "deal_id": "7217",
+  "limitations": [
+    "call_audio_duration_unknown",
+    "call_audio_unavailable",
+    "separate_customer_chat_history_not_collected"
+  ],
+  "max_voice": {
+    "audio_unavailable": 0,
+    "decoding_failed": 0,
+    "missing_activity_id": 0,
+    "missing_available_transcript": 0,
+    "scan_status": "checked",
+    "unavailable": 0,
+    "voice_message_count": 0,
+    "with_transcript": 0
+  },
+  "max_voice_data_limitations": [],
+  "sources": {
+    "call_audio_manifest": "ok",
+    "deal_activities": "ok",
+    "deal_card": "ok",
+    "max_voice_manifest": "ok",
+    "normalized_root_and_source_lead_channels": {
+      "call": 101,
+      "email": 131,
+      "internal_comment": 5
+    },
+    "raw_context": "ok",
+    "separate_customer_chat_history": "not_collected",
+    "source_lead": "ok",
+    "stage_history": "ok",
+    "tasks": "ok",
+    "timeline_comments": "ok"
+  }
+}

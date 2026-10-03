@@ -44,7 +44,7 @@
     {
       "approx_tokens": {
         "original": 18692,
-        "view": 18458
+        "view": 17910
       },
       "deal_id": "6351",
       "inputs": {
@@ -66,17 +66,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 2
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 73829,
+        "bytes": 71637,
         "path": "views/6351.jsonl",
-        "sha256": "daee6da790cf430275c055414c8b687561998e089e24515cc3ad5ce64b56dce8"
+        "sha256": "cdd1c207d5cbb3495073a560bbd4bc9b2f78e61420f301a5a42d7b92c524f3a7"
       },
-      "view_event_count": 60
+      "view_event_count": 58
     },
     {
       "approx_tokens": {
@@ -424,7 +425,7 @@
     {
       "approx_tokens": {
         "original": 1122199,
-        "view": 1122153
+        "view": 1060166
       },
       "deal_id": "6791",
       "inputs": {
@@ -446,17 +447,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 4
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 4488610,
+        "bytes": 4240663,
         "path": "views/6791.jsonl",
-        "sha256": "2560a30eabada6af2c5276d27bb5b851945fa7ba85a4b09d6b09255a1fc557e7"
+        "sha256": "039e56fbf365c0c5c1fdeb2d686445a470ad94f46f48a3cc8ec30554f62cc42b"
       },
-      "view_event_count": 198
+      "view_event_count": 194
     },
     {
       "approx_tokens": {
@@ -535,7 +537,7 @@
     {
       "approx_tokens": {
         "original": 26933,
-        "view": 26654
+        "view": 26425
       },
       "deal_id": "6841",
       "inputs": {
@@ -556,18 +558,18 @@
         "crm_stage_change": 6,
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
-        "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "post_terminal_suffix": 1,
+        "terminal_marker": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 106614,
+        "bytes": 105697,
         "path": "views/6841.jsonl",
-        "sha256": "6df099b756524217e322182e0ec91cea579fc7f726d81ac7acb08ba23015d8b3"
+        "sha256": "1ce7a35cfc06e8eb2fde50aa02d78dcfe47a487c0898611313e83997bdc02a8e"
       },
-      "view_event_count": 34
+      "view_event_count": 32
     },
     {
       "approx_tokens": {
@@ -683,7 +685,7 @@
     {
       "approx_tokens": {
         "original": 41675,
-        "view": 41026
+        "view": 38568
       },
       "deal_id": "6999",
       "inputs": {
@@ -705,17 +707,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 4
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 164101,
+        "bytes": 154272,
         "path": "views/6999.jsonl",
-        "sha256": "49936cb747ceab84003bdad5a28694700e14bf2813161400600429c2aaadc601"
+        "sha256": "d4a3de9bcce976ea898c2b974b52d144ab1b2f02b66023e92910a81d891868d8"
       },
-      "view_event_count": 110
+      "view_event_count": 106
     },
     {
       "approx_tokens": {
@@ -794,7 +797,7 @@
     {
       "approx_tokens": {
         "original": 44932,
-        "view": 44144
+        "view": 43552
       },
       "deal_id": "7035",
       "inputs": {
@@ -816,17 +819,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 3
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 176573,
+        "bytes": 174208,
         "path": "views/7035.jsonl",
-        "sha256": "c0cd6b637467bce8a121727e01bdb8b528b836f1b90e589a0c1fa0e53a49b68f"
+        "sha256": "5f45297fafefdc8534df7f428713df5cdb0cee2f3326907f50e7769505661d65"
       },
-      "view_event_count": 62
+      "view_event_count": 59
     },
     {
       "approx_tokens": {
@@ -905,7 +909,7 @@
     {
       "approx_tokens": {
         "original": 21835,
-        "view": 21345
+        "view": 21238
       },
       "deal_id": "7107",
       "inputs": {
@@ -927,22 +931,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 85379,
+        "bytes": 84950,
         "path": "views/7107.jsonl",
-        "sha256": "caebd860b9a4ab3caf542e7fa2bfc24b9217b213ae096712ce6d899f1fd66722"
+        "sha256": "e69ac8ad09788c659b657ec468dcf94d7efb7c9389cb94d0e8c4208b44a45faf"
       },
-      "view_event_count": 50
+      "view_event_count": 49
     },
     {
       "approx_tokens": {
         "original": 50853,
-        "view": 50123
+        "view": 50016
       },
       "deal_id": "7137",
       "inputs": {
@@ -964,17 +969,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 200492,
+        "bytes": 200062,
         "path": "views/7137.jsonl",
-        "sha256": "2e9c43ac29fe26b630fc9b6c3006c5769258fcb231da7de31f285c00992ed0a4"
+        "sha256": "699242788036dd43a8a1a63fc7640ca1b52619d26421581512d10f7905997e11"
       },
-      "view_event_count": 76
+      "view_event_count": 75
     },
     {
       "approx_tokens": {
@@ -1053,7 +1059,7 @@
     {
       "approx_tokens": {
         "original": 12037,
-        "view": 11692
+        "view": 10855
       },
       "deal_id": "7221",
       "inputs": {
@@ -1075,17 +1081,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 3
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 46766,
+        "bytes": 43417,
         "path": "views/7221.jsonl",
-        "sha256": "49c1baea2efdcf903c526281f5aeb0e6a02f089dea52b0ba6c5ca37ee60313f9"
+        "sha256": "04675d148159972085a0febb7eb227de0ce6dd62b7561553332815f51816b9a6"
       },
-      "view_event_count": 34
+      "view_event_count": 31
     },
     {
       "approx_tokens": {
@@ -1201,7 +1208,7 @@
     {
       "approx_tokens": {
         "original": 5121,
-        "view": 4285
+        "view": 4149
       },
       "deal_id": "7543",
       "inputs": {
@@ -1223,17 +1230,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 17138,
+        "bytes": 16594,
         "path": "views/7543.jsonl",
-        "sha256": "d7860d60b17b0d38bcb26e68faf8a4f7466a3ee505be3775f73e3cf2d815790b"
+        "sha256": "96b2282c434e1e6fe69ddd6902c780c1cb9c6edccde96b0955c5c1d6d39561ba"
       },
-      "view_event_count": 18
+      "view_event_count": 17
     },
     {
       "approx_tokens": {
@@ -1275,7 +1283,7 @@
     {
       "approx_tokens": {
         "original": 102167,
-        "view": 102817
+        "view": 102171
       },
       "deal_id": "7567",
       "inputs": {
@@ -1297,22 +1305,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 2
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 411265,
+        "bytes": 408682,
         "path": "views/7567.jsonl",
-        "sha256": "bb14b24e32ec01c0201f72887baed8d2ff634d8560c23cb930520c854f3c5184"
+        "sha256": "0def8d6f8f61f839bee6eb2c68465a9931541b90634273d1c0dea3bc1c8f775e"
       },
-      "view_event_count": 383
+      "view_event_count": 381
     },
     {
       "approx_tokens": {
         "original": 163708,
-        "view": 163174
+        "view": 154864
       },
       "deal_id": "7619",
       "inputs": {
@@ -1334,17 +1343,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 10
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 652695,
+        "bytes": 619456,
         "path": "views/7619.jsonl",
-        "sha256": "c1251af7ac0568cd37fcb0d9ee09efaa2a27cb1050dc795e6f69ed14fb65b4b2"
+        "sha256": "58dbbc35976fb5f4c817ce2690f3f68ae4b073194d285e0244740b76fe0cc77b"
       },
-      "view_event_count": 89
+      "view_event_count": 79
     },
     {
       "approx_tokens": {
@@ -1386,7 +1396,7 @@
     {
       "approx_tokens": {
         "original": 11495,
-        "view": 10662
+        "view": 10449
       },
       "deal_id": "7639",
       "inputs": {
@@ -1408,22 +1418,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 2
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 42645,
+        "bytes": 41795,
         "path": "views/7639.jsonl",
-        "sha256": "f7a523509b33d8d0ebe44d6c19c5a25c878ad5d546790e30aee0cd352bf21770"
+        "sha256": "330c56143a3fee7d47a05072c13fbd1949692462106a29dbe512e9e4a164042e"
       },
-      "view_event_count": 52
+      "view_event_count": 50
     },
     {
       "approx_tokens": {
         "original": 1042686,
-        "view": 1041930
+        "view": 949733
       },
       "deal_id": "18283",
       "inputs": {
@@ -1445,22 +1456,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 4
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 4167719,
+        "bytes": 3798930,
         "path": "views/18283.jsonl",
-        "sha256": "3679f1ab505f60c2fb4d713e031e600e8f5d5a0c6c67d45818befb4777d99694"
+        "sha256": "4b8d706e0c6d49564bc3cf9d5ca6a56af24147ef60e6a3c0b488bbf7c495ad40"
       },
-      "view_event_count": 70
+      "view_event_count": 66
     },
     {
       "approx_tokens": {
         "original": 14388,
-        "view": 13510
+        "view": 12556
       },
       "deal_id": "18339",
       "inputs": {
@@ -1482,22 +1494,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 4
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 54038,
+        "bytes": 50224,
         "path": "views/18339.jsonl",
-        "sha256": "63294c70af5bdb9662c036988542d38c12f87f736aed47b7cc941d2ecfdd4656"
+        "sha256": "5292a355eccb7ef73df89c73b9ad84bf2ae0f6e1a4e81e84d8e52d836dea8da7"
       },
-      "view_event_count": 41
+      "view_event_count": 37
     },
     {
       "approx_tokens": {
         "original": 6499,
-        "view": 6515
+        "view": 4867
       },
       "deal_id": "18357",
       "inputs": {
@@ -1519,22 +1532,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 10
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 26057,
+        "bytes": 19467,
         "path": "views/18357.jsonl",
-        "sha256": "45ddbc447e3f89a7482e5ab27c661b9f7fabdc9cacba0cbbcdd6c6c0e418850a"
+        "sha256": "7e3f4ab6db284f0aa136997d580f2c7abe70182e4ea7446728f731c93c8a06ff"
       },
-      "view_event_count": 36
+      "view_event_count": 26
     },
     {
       "approx_tokens": {
         "original": 149910,
-        "view": 149303
+        "view": 129229
       },
       "deal_id": "18385",
       "inputs": {
@@ -1556,22 +1570,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 4
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 597210,
+        "bytes": 516915,
         "path": "views/18385.jsonl",
-        "sha256": "1df63a113525f47ebe6cb033e429aaff2621c791a2a2ab678ff6e121a79dd25a"
+        "sha256": "5db083c938bf0d4bac61ac58a71f6f5f93855e54e1e5ac4900566131867328d1"
       },
-      "view_event_count": 72
+      "view_event_count": 68
     },
     {
       "approx_tokens": {
         "original": 15619,
-        "view": 14810
+        "view": 6579
       },
       "deal_id": "18523",
       "inputs": {
@@ -1593,22 +1608,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 11
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 59237,
+        "bytes": 26316,
         "path": "views/18523.jsonl",
-        "sha256": "cc90109075c13af9f4deed3cb5801bcf1ffb896f78bb352d837633b347291843"
+        "sha256": "a3dee4bfd4b35b346dbdc08dd13bee36e87323fd6c1582449de9f34a1f4a147e"
       },
-      "view_event_count": 24
+      "view_event_count": 13
     },
     {
       "approx_tokens": {
         "original": 6133,
-        "view": 5283
+        "view": 4872
       },
       "deal_id": "18533",
       "inputs": {
@@ -1630,17 +1646,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 2
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 21131,
+        "bytes": 19487,
         "path": "views/18533.jsonl",
-        "sha256": "3f99bfa267826c70ee0427591877682c4bb75e9bb23791b5e1e9e39676603ccc"
+        "sha256": "10eb45d0c4c3e3b2e2c8d07061606c965af33c87c541742575f846eb937a0184"
       },
-      "view_event_count": 15
+      "view_event_count": 13
     },
     {
       "approx_tokens": {
@@ -1756,7 +1773,7 @@
     {
       "approx_tokens": {
         "original": 17224,
-        "view": 16546
+        "view": 16439
       },
       "deal_id": "18845",
       "inputs": {
@@ -1778,22 +1795,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 66183,
+        "bytes": 65753,
         "path": "views/18845.jsonl",
-        "sha256": "4140adb7842286dd727436f58eb91ca26488dcf04423905a156e2ae8b65cdf43"
+        "sha256": "d916f6b73be178e50c1d192b7d534f80fac3d2d6f6bf90efac7e50c6f91812dc"
       },
-      "view_event_count": 88
+      "view_event_count": 87
     },
     {
       "approx_tokens": {
         "original": 17019,
-        "view": 16963
+        "view": 16744
       },
       "deal_id": "18865",
       "inputs": {
@@ -1815,22 +1833,23 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 67851,
+        "bytes": 66974,
         "path": "views/18865.jsonl",
-        "sha256": "f3c7966b6cc1d93539e0ffe96c26ebc7cf5b639669d943776ff8c4f80fc88caf"
+        "sha256": "2e954f9047375bdadbba706676c7a4f5e76b1d95a82f14acb11f3b89da415ec4"
       },
-      "view_event_count": 37
+      "view_event_count": 36
     },
     {
       "approx_tokens": {
         "original": 8612,
-        "view": 7669
+        "view": 7553
       },
       "deal_id": "18925",
       "inputs": {
@@ -1852,17 +1871,18 @@
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
-        "terminal_marker": 0
+        "terminal_marker": 0,
+        "terminal_source_policy": 1
       },
       "removed_content_segment_count": 0,
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 30674,
+        "bytes": 30210,
         "path": "views/18925.jsonl",
-        "sha256": "ce8efa2bdae472bfa6ff834e0d1fc4764875e4562b6fe6170cdda79fcc02e9ae"
+        "sha256": "5286c644a216241ba9d05f19031a259ba883c3a62e7d2f277716ca158e30057a"
       },
-      "view_event_count": 26
+      "view_event_count": 25
     }
   ],
   "expected_deal_count": 50,
@@ -1871,22 +1891,26 @@
     "Then cut at the first remaining explicit terminal event type, past-tense closure status, or customer refusal to proceed; a 'not this time' reply counts only within 300 characters after a clear implementation failure. Remove later file-order rows.",
     "Remove all structured stage_change events and empty call metadata shells.",
     "Preserve same-day events, other event text, IDs, metadata, and input row order; add 1-based physical source_line.",
+    "Approved terminal source policy (sha256 f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba) filters blind views only; it removes 71 events across 20 deals. Canonical timelines and source_line pointers are unchanged. Limitation: Conservative day-start boundary from a manager claim can remove predecision same-day/intervening-day communications. Payment conducted is not proof of settled bank receipt. Four mixed mutable comments and two project-ambiguous rows excluded. Baseline v2 source admissibility differs; schema unchanged.",
     "Validation source events at or after the final terminal stage timestamp were excluded before writing clean_timeline.jsonl.",
     "Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged.",
+    "Validation views also cut at the exact subjectless phrase 'от нашего варианта отказались' or 'от нашего предложения отказались'; the negated forms 'от нашего варианта не отказались' and 'не от нашего варианта отказались' do not trigger the cutoff. Existing terminal-marker and post-terminal-suffix handling is unchanged.",
     "The five chronology-conflicted mutable manager worklogs in worklog_quarantine_policy.json (sha256 1e256f955083b1b9c0a42826440fd188cf93764ec0db05102dd8916766dc1a22) are excluded by exact deal/worklog ID and raw-context SHA-256. Their parsed entries and normalized copies of their source comments are excluded; raw sources and unrelated communications are retained."
   ],
+  "terminal_source_policy_sha256": "f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba",
   "totals": {
     "original_approx_tokens": 4011485,
     "original_event_count": 3529,
     "removed:crm_stage_change": 413,
     "removed:metadata_only_call_shell": 0,
     "removed:neutral_lifecycle_event": 0,
-    "removed:post_terminal_suffix": 85,
-    "removed:terminal_marker": 1,
+    "removed:post_terminal_suffix": 86,
+    "removed:terminal_marker": 2,
+    "removed:terminal_source_policy": 71,
     "removed_content_segment_count": 2,
-    "removed_event_count": 499,
-    "view_approx_tokens": 3937224,
-    "view_event_count": 3030
+    "removed_event_count": 572,
+    "view_approx_tokens": 3737097,
+    "view_event_count": 2957
   },
   "version": "1.0"
 }

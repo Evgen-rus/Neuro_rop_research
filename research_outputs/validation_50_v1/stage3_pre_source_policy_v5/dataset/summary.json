@@ -1,0 +1,689 @@
+{
+  "deal_count": 50,
+  "deals": [
+    {
+      "approx_tokens": 3698,
+      "content_bytes": 14792,
+      "deal_id": "6691",
+      "event_types": {
+        "call": 5,
+        "call_transcript": 4,
+        "comment": 2,
+        "stage_change": 3,
+        "task": 1
+      },
+      "events": 15
+    },
+    {
+      "approx_tokens": 2860,
+      "content_bytes": 11438,
+      "deal_id": "6741",
+      "event_types": {
+        "call": 8,
+        "call_transcript": 3,
+        "comment": 2,
+        "stage_change": 1,
+        "task": 1
+      },
+      "events": 15
+    },
+    {
+      "approx_tokens": 3279,
+      "content_bytes": 13113,
+      "deal_id": "6813",
+      "event_types": {
+        "call": 6,
+        "call_transcript": 1,
+        "comment": 2,
+        "stage_change": 1
+      },
+      "events": 10
+    },
+    {
+      "approx_tokens": 3931,
+      "content_bytes": 15721,
+      "deal_id": "6941",
+      "event_types": {
+        "call": 5,
+        "call_transcript": 2,
+        "comment": 4,
+        "email": 2,
+        "stage_change": 1,
+        "task": 1
+      },
+      "events": 15
+    },
+    {
+      "approx_tokens": 11642,
+      "content_bytes": 46566,
+      "deal_id": "6707",
+      "event_types": {
+        "call": 25,
+        "call_transcript": 9,
+        "comment": 3,
+        "stage_change": 6
+      },
+      "events": 43
+    },
+    {
+      "approx_tokens": 4139,
+      "content_bytes": 16554,
+      "deal_id": "7031",
+      "event_types": {
+        "call": 2,
+        "call_transcript": 2,
+        "comment": 5,
+        "email": 3,
+        "stage_change": 5,
+        "task": 1
+      },
+      "events": 18
+    },
+    {
+      "approx_tokens": 23293,
+      "content_bytes": 93172,
+      "deal_id": "6841",
+      "event_types": {
+        "call": 16,
+        "call_transcript": 7,
+        "comment": 10,
+        "stage_change": 6,
+        "task": 1
+      },
+      "events": 40
+    },
+    {
+      "approx_tokens": 40523,
+      "content_bytes": 162091,
+      "deal_id": "6907",
+      "event_types": {
+        "call": 29,
+        "call_transcript": 15,
+        "comment": 16,
+        "email": 20,
+        "stage_change": 7,
+        "task": 3
+      },
+      "events": 90
+    },
+    {
+      "approx_tokens": 23768,
+      "content_bytes": 95072,
+      "deal_id": "6673",
+      "event_types": {
+        "call": 31,
+        "call_transcript": 17,
+        "comment": 2,
+        "stage_change": 5,
+        "task": 3
+      },
+      "events": 58
+    },
+    {
+      "approx_tokens": 4951,
+      "content_bytes": 19802,
+      "deal_id": "7161",
+      "event_types": {
+        "call": 12,
+        "call_transcript": 3,
+        "comment": 5,
+        "stage_change": 4,
+        "task": 3
+      },
+      "events": 27
+    },
+    {
+      "approx_tokens": 8330,
+      "content_bytes": 33320,
+      "deal_id": "7221",
+      "event_types": {
+        "call": 12,
+        "call_transcript": 8,
+        "comment": 12,
+        "stage_change": 7,
+        "task": 2
+      },
+      "events": 41
+    },
+    {
+      "approx_tokens": 12574,
+      "content_bytes": 50296,
+      "deal_id": "6351",
+      "event_types": {
+        "call": 38,
+        "call_transcript": 13,
+        "comment": 3,
+        "email": 3,
+        "stage_change": 7,
+        "task": 3
+      },
+      "events": 67
+    },
+    {
+      "approx_tokens": 14396,
+      "content_bytes": 57584,
+      "deal_id": "7337",
+      "event_types": {
+        "call": 9,
+        "call_transcript": 5,
+        "comment": 10,
+        "email": 11,
+        "stage_change": 5,
+        "task": 1
+      },
+      "events": 41
+    },
+    {
+      "approx_tokens": 13890,
+      "content_bytes": 55557,
+      "deal_id": "7103",
+      "event_types": {
+        "call": 15,
+        "call_transcript": 6,
+        "comment": 12,
+        "email": 7,
+        "stage_change": 6,
+        "task": 3
+      },
+      "events": 49
+    },
+    {
+      "approx_tokens": 3196,
+      "content_bytes": 12781,
+      "deal_id": "7623",
+      "event_types": {
+        "call": 8,
+        "call_transcript": 3,
+        "comment": 4,
+        "stage_change": 1,
+        "task": 1
+      },
+      "events": 17
+    },
+    {
+      "approx_tokens": 3065,
+      "content_bytes": 12258,
+      "deal_id": "18357",
+      "event_types": {
+        "call": 20,
+        "call_transcript": 2,
+        "comment": 10,
+        "email": 2,
+        "stage_change": 2,
+        "task": 2
+      },
+      "events": 38
+    },
+    {
+      "approx_tokens": 8072,
+      "content_bytes": 32285,
+      "deal_id": "7565",
+      "event_types": {
+        "call": 11,
+        "call_transcript": 6,
+        "comment": 10,
+        "email": 4,
+        "stage_change": 5
+      },
+      "events": 36
+    },
+    {
+      "approx_tokens": 11715,
+      "content_bytes": 46858,
+      "deal_id": "18729",
+      "event_types": {
+        "call": 6,
+        "call_transcript": 5,
+        "comment": 8,
+        "email": 6,
+        "message": 1,
+        "stage_change": 6,
+        "task": 1
+      },
+      "events": 33
+    },
+    {
+      "approx_tokens": 5330,
+      "content_bytes": 21319,
+      "deal_id": "7009",
+      "event_types": {
+        "call": 25,
+        "call_transcript": 6,
+        "comment": 14,
+        "message": 2,
+        "stage_change": 9,
+        "task": 1
+      },
+      "events": 57
+    },
+    {
+      "approx_tokens": 239,
+      "content_bytes": 956,
+      "deal_id": "6589",
+      "event_types": {
+        "call": 1,
+        "comment": 3,
+        "stage_change": 2
+      },
+      "events": 6
+    },
+    {
+      "approx_tokens": 233,
+      "content_bytes": 932,
+      "deal_id": "6573",
+      "event_types": {
+        "call": 2,
+        "comment": 3,
+        "stage_change": 5,
+        "task": 3
+      },
+      "events": 13
+    },
+    {
+      "approx_tokens": 90,
+      "content_bytes": 359,
+      "deal_id": "7043",
+      "event_types": {
+        "call": 1,
+        "comment": 2,
+        "stage_change": 2,
+        "task": 2
+      },
+      "events": 7
+    },
+    {
+      "approx_tokens": 4194,
+      "content_bytes": 16773,
+      "deal_id": "6665",
+      "event_types": {
+        "call": 8,
+        "call_transcript": 4,
+        "comment": 6,
+        "stage_change": 3
+      },
+      "events": 21
+    },
+    {
+      "approx_tokens": 13223,
+      "content_bytes": 52890,
+      "deal_id": "18865",
+      "event_types": {
+        "call": 13,
+        "call_transcript": 11,
+        "comment": 2,
+        "email": 11,
+        "stage_change": 3
+      },
+      "events": 40
+    },
+    {
+      "approx_tokens": 23151,
+      "content_bytes": 92604,
+      "deal_id": "18819",
+      "event_types": {
+        "call": 15,
+        "call_transcript": 4,
+        "comment": 18,
+        "email": 9,
+        "message": 3,
+        "stage_change": 2,
+        "task": 2
+      },
+      "events": 53
+    },
+    {
+      "approx_tokens": 5055,
+      "content_bytes": 20218,
+      "deal_id": "6695",
+      "event_types": {
+        "call": 36,
+        "call_transcript": 5,
+        "comment": 3,
+        "email": 1,
+        "stage_change": 13,
+        "task": 4
+      },
+      "events": 62
+    },
+    {
+      "approx_tokens": 17198,
+      "content_bytes": 68791,
+      "deal_id": "6693",
+      "event_types": {
+        "call": 22,
+        "call_transcript": 17,
+        "comment": 2,
+        "email": 2,
+        "stage_change": 13,
+        "task": 2
+      },
+      "events": 58
+    },
+    {
+      "approx_tokens": 34962,
+      "content_bytes": 139845,
+      "deal_id": "6811",
+      "event_types": {
+        "call": 37,
+        "call_transcript": 24,
+        "comment": 24,
+        "stage_change": 13,
+        "task": 3
+      },
+      "events": 101
+    },
+    {
+      "approx_tokens": 16428,
+      "content_bytes": 65711,
+      "deal_id": "7107",
+      "event_types": {
+        "call": 23,
+        "call_transcript": 13,
+        "comment": 9,
+        "email": 1,
+        "stage_change": 10,
+        "task": 4
+      },
+      "events": 60
+    },
+    {
+      "approx_tokens": 45140,
+      "content_bytes": 180560,
+      "deal_id": "6955",
+      "event_types": {
+        "call": 50,
+        "call_transcript": 24,
+        "comment": 13,
+        "email": 25,
+        "stage_change": 10,
+        "task": 2
+      },
+      "events": 124
+    },
+    {
+      "approx_tokens": 75936,
+      "content_bytes": 303743,
+      "deal_id": "5293",
+      "event_types": {
+        "call": 87,
+        "call_transcript": 34,
+        "email": 85,
+        "stage_change": 13,
+        "task": 1
+      },
+      "events": 220
+    },
+    {
+      "approx_tokens": 2666,
+      "content_bytes": 10663,
+      "deal_id": "7543",
+      "event_types": {
+        "call": 3,
+        "call_transcript": 1,
+        "comment": 10,
+        "email": 2,
+        "stage_change": 13,
+        "task": 2
+      },
+      "events": 31
+    },
+    {
+      "approx_tokens": 1082380,
+      "content_bytes": 4329517,
+      "deal_id": "6791",
+      "event_types": {
+        "call": 28,
+        "call_transcript": 14,
+        "comment": 53,
+        "email": 100,
+        "stage_change": 13,
+        "task": 3
+      },
+      "events": 211
+    },
+    {
+      "approx_tokens": 150479,
+      "content_bytes": 601915,
+      "deal_id": "7619",
+      "event_types": {
+        "call": 16,
+        "call_transcript": 14,
+        "comment": 15,
+        "email": 42,
+        "stage_change": 13,
+        "task": 2
+      },
+      "events": 102
+    },
+    {
+      "approx_tokens": 139630,
+      "content_bytes": 558520,
+      "deal_id": "18385",
+      "event_types": {
+        "call": 13,
+        "call_transcript": 8,
+        "comment": 12,
+        "email": 37,
+        "stage_change": 13,
+        "task": 2
+      },
+      "events": 85
+    },
+    {
+      "approx_tokens": 12487,
+      "content_bytes": 49946,
+      "deal_id": "18523",
+      "event_types": {
+        "call": 6,
+        "call_transcript": 5,
+        "comment": 2,
+        "email": 9,
+        "stage_change": 13,
+        "task": 2
+      },
+      "events": 37
+    },
+    {
+      "approx_tokens": 3932,
+      "content_bytes": 15725,
+      "deal_id": "18533",
+      "event_types": {
+        "call": 4,
+        "call_transcript": 4,
+        "comment": 4,
+        "stage_change": 13,
+        "task": 3
+      },
+      "events": 28
+    },
+    {
+      "approx_tokens": 10648,
+      "content_bytes": 42590,
+      "deal_id": "7417",
+      "event_types": {
+        "call": 24,
+        "call_transcript": 10,
+        "comment": 35,
+        "email": 14,
+        "stage_change": 10,
+        "task": 3
+      },
+      "events": 96
+    },
+    {
+      "approx_tokens": 555017,
+      "content_bytes": 2220065,
+      "deal_id": "7217",
+      "event_types": {
+        "call": 101,
+        "call_transcript": 60,
+        "comment": 66,
+        "email": 131,
+        "stage_change": 13,
+        "task": 1
+      },
+      "events": 372
+    },
+    {
+      "approx_tokens": 37582,
+      "content_bytes": 150327,
+      "deal_id": "7035",
+      "event_types": {
+        "call": 20,
+        "call_transcript": 13,
+        "comment": 13,
+        "email": 14,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 77
+    },
+    {
+      "approx_tokens": 30201,
+      "content_bytes": 120801,
+      "deal_id": "6999",
+      "event_types": {
+        "call": 35,
+        "call_transcript": 13,
+        "comment": 27,
+        "email": 33,
+        "stage_change": 16,
+        "task": 2
+      },
+      "events": 126
+    },
+    {
+      "approx_tokens": 42196,
+      "content_bytes": 168783,
+      "deal_id": "7137",
+      "event_types": {
+        "call": 15,
+        "call_transcript": 6,
+        "comment": 25,
+        "email": 28,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 91
+    },
+    {
+      "approx_tokens": 5643,
+      "content_bytes": 22572,
+      "deal_id": "7639",
+      "event_types": {
+        "call": 9,
+        "call_transcript": 4,
+        "comment": 35,
+        "email": 2,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 67
+    },
+    {
+      "approx_tokens": 9607,
+      "content_bytes": 38428,
+      "deal_id": "18339",
+      "event_types": {
+        "call": 11,
+        "call_transcript": 5,
+        "comment": 12,
+        "email": 11,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 56
+    },
+    {
+      "approx_tokens": 1018532,
+      "content_bytes": 4074125,
+      "deal_id": "18283",
+      "event_types": {
+        "call": 2,
+        "call_transcript": 1,
+        "comment": 24,
+        "email": 41,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 85
+    },
+    {
+      "approx_tokens": 7928,
+      "content_bytes": 31709,
+      "deal_id": "18845",
+      "event_types": {
+        "call": 25,
+        "call_transcript": 13,
+        "comment": 24,
+        "email": 1,
+        "message": 23,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 103
+    },
+    {
+      "approx_tokens": 5206,
+      "content_bytes": 20821,
+      "deal_id": "18925",
+      "event_types": {
+        "call": 7,
+        "call_transcript": 5,
+        "comment": 9,
+        "message": 3,
+        "stage_change": 15,
+        "task": 2
+      },
+      "events": 41
+    },
+    {
+      "approx_tokens": 64662,
+      "content_bytes": 258647,
+      "deal_id": "7567",
+      "event_types": {
+        "call": 108,
+        "call_transcript": 54,
+        "comment": 78,
+        "email": 4,
+        "message": 128,
+        "stage_change": 15,
+        "task": 7,
+        "voice_transcript": 4
+      },
+      "events": 398
+    },
+    {
+      "approx_tokens": 17994,
+      "content_bytes": 71974,
+      "deal_id": "7307",
+      "event_types": {
+        "call": 11,
+        "call_transcript": 10,
+        "comment": 12,
+        "email": 5,
+        "stage_change": 2,
+        "task": 2
+      },
+      "events": 42
+    },
+    {
+      "approx_tokens": 1145,
+      "content_bytes": 4579,
+      "deal_id": "18639",
+      "event_types": {
+        "call": 3,
+        "call_transcript": 1,
+        "comment": 1,
+        "stage_change": 1
+      },
+      "events": 6
+    }
+  ],
+  "token_method": "ceil(UTF-8 content bytes / 4); coarse size proxy, not a model tokenizer",
+  "totals": {
+    "approx_tokens": 3636436,
+    "content_bytes": 14545668,
+    "events": 3529
+  }
+}

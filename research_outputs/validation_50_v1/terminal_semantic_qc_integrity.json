@@ -1,0 +1,26 @@
+{
+  "status": "REPORT_INTEGRITY_PASS_SOURCE_ADMISSIBILITY_PENDING",
+  "unique_deals": 50,
+  "view_hashes_matched": 50,
+  "pending_worker_rows": 0,
+  "reports": {
+    "a": {
+      "report_sha256": "2ede7d107f2bb89ae861c54501fba47e9580c886fbdf9689299b6ae953847e11",
+      "counts": {
+        "PASS": 20,
+        "FAIL": 1,
+        "REVIEW_REQUIRED": 4
+      }
+    },
+    "b": {
+      "report_sha256": "9285a190a426e98bccb1e31e9440edac54ec12b51f09b475fed1ebbbcb90d0da",
+      "counts": {
+        "REVIEW_REQUIRED": 13,
+        "PASS": 10,
+        "FAIL": 2
+      }
+    }
+  },
+  "input_freeze_sha256": "a6a439e1729c9648fbc8bea026f4c31a1e2215d83447a21afd5caf39f5b12a19",
+  "note": "Hash/coverage check only. Primary source-policy adjudication and material chronology exception remain unresolved. No freeze or outcome reveal authorized."
+}

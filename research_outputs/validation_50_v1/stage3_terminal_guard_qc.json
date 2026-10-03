@@ -1,0 +1,112 @@
+{
+  "verdict": "PASS",
+  "scope": "Structural verification only; semantic admissibility is not established.",
+  "hashes": {
+    "input_freeze_sha256": "a6a439e1729c9648fbc8bea026f4c31a1e2215d83447a21afd5caf39f5b12a19",
+    "snapshot_freeze_sha256": "63c04dd6ebe302814af9d5e9fc154e4b3e268c15cfad5974fd3dc94838084de6",
+    "approved_worklog_policy_sha256": "1e256f955083b1b9c0a42826440fd188cf93764ec0db05102dd8916766dc1a22"
+  },
+  "checks": {
+    "freeze_deal_ids_and_50_view_filenames_match": true,
+    "current_top_hashes_match_frozen_files": true,
+    "current_perdeal_neutral_quality_timeline_view_hashes_match": true,
+    "all50_neutral_quality_normalized_timelines_unchanged_vs_snapshot": true,
+    "only_6841_view_differs_from_snapshot": true,
+    "6841_only_source_lines_39_40_removed": true,
+    "total_view_rows_3030_to_3028": true,
+    "source_line_pointers_valid_and_cutoff_metadata_present": true,
+    "audit_manifest_counts_and_current_view_hashes_match": true,
+    "baseline_integrity_296_opaque_hashes_match": true,
+    "transcript_gate_470_of_470": true,
+    "active_primary_filename_inputs_match_snapshot_and_current_files": true,
+    "6841_archived_and_not_active": true,
+    "approved_worklog_policy_sha_unchanged": true,
+    "perdeal_opaque_sha_fields_well_formed": true
+  },
+  "counts": {
+    "deals": 50,
+    "views": 50,
+    "view_rows_snapshot": 3030,
+    "view_rows_current": 3028,
+    "view_source_line_pointers_checked": 3028,
+    "invalid_view_source_line_pointers": 0,
+    "neutral_hashes_verified": 50,
+    "quality_hashes_verified": 50,
+    "normalized_timeline_hashes_verified": 50,
+    "view_hashes_verified": 50,
+    "unchanged_vs_snapshot": {
+      "neutral": 50,
+      "quality": 50,
+      "clean_timeline": 50,
+      "view": 49
+    },
+    "baseline_opaque_hashes": 296,
+    "baseline_hash_mismatches": 0,
+    "active_primary_filename_count": 34
+  },
+  "6841": {
+    "previous_view_rows": 34,
+    "current_view_rows": 32,
+    "previous_clean_timeline_events": 40,
+    "current_clean_timeline_events": 40,
+    "removed_source_lines": [39, 40],
+    "added_source_lines": [],
+    "changed_retained_source_lines": []
+  },
+  "active_primary_filenames": [
+    "18339.json",
+    "18357.json",
+    "18523.json",
+    "18533.json",
+    "18639.json",
+    "18729.json",
+    "18819.json",
+    "18845.json",
+    "18865.json",
+    "18925.json",
+    "6351.json",
+    "6573.json",
+    "6589.json",
+    "6665.json",
+    "6673.json",
+    "6691.json",
+    "6693.json",
+    "6695.json",
+    "6707.json",
+    "6741.json",
+    "6813.json",
+    "6941.json",
+    "7009.json",
+    "7031.json",
+    "7043.json",
+    "7103.json",
+    "7161.json",
+    "7221.json",
+    "7337.json",
+    "7417.json",
+    "7543.json",
+    "7565.json",
+    "7623.json",
+    "7639.json"
+  ],
+  "primary_input_reuse": {
+    "active_ids_unchanged_vs_snapshot_for_view_neutral_quality_and_timeline": 34,
+    "audit_manifest_view_sha_matches_current_view": 34,
+    "audit_manifest_neutral_and_timeline_input_hashes_match_current_files": 34,
+    "quality_hashes_match_global_freeze_and_snapshot": 50,
+    "per_audit_quality_hash_field_recorded": false,
+    "6841_active_primary_filename": false,
+    "6841_archived_filename": "audit_revisions/6841_pre_terminal_guard.json"
+  },
+  "transcript_gate": {
+    "status": "PASS",
+    "eligible_calls_ge_36": 470,
+    "with_transcript": 470,
+    "without_transcript": 0
+  },
+  "scope_limits": [
+    "Three active primary audit JSON files were parsed for top-level key inventory only; narrative/evidence values and outcomes were not inspected. One file's inputs field was also checked for an embedded hash object.",
+    "View JSONL records were parsed for structural metadata pointers only; content values were not displayed or analyzed. The 296 baseline entries were verified by opaque SHA-256 only; private raw-context hash fields were format-checked. Per-audit quality hashes are not recorded, so quality reuse is established through unchanged global freeze leaf hashes.",
+    "Source-line numbers 39 and 40 were removed structurally; their semantic descriptions were not reviewed. Known terminal leaks in 18357 and 6999 remain a separate semantic-QC matter. This structural PASS does not establish semantic admissibility."
+  ]
+}
