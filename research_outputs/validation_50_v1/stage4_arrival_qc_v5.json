@@ -1,8 +1,8 @@
 {
   "status": "PARTIAL_PRIMARY_ARRIVAL_QC_PASS",
   "input_freeze_sha256": "970a61cb6a7133890fad390053a06fb69c2cd3fe6a18b7a90bb34da849db5e02",
-  "accepted_count": 27,
-  "remaining_count": 23,
+  "accepted_count": 31,
+  "remaining_count": 19,
   "outcomes_revealed": false,
   "accepted_audit_sha256": {
     "6573": "c1bb886bc7ffe257234433d89bda4b4991922fda2f079d7f78155289e7be0d6e",
@@ -31,13 +31,21 @@
     "7543": "d775094070d6cb5a08952f425f2bd032abd8a907cf7025cde3f7b376ed56ba03",
     "18533": "91b09408d733095346dff857aa329c4026f42198a04fea08af7a525aa30c0c86",
     "18357": "0e2afe2b67c34e8b878cdada9e07d9ddb7c0cdf71917bd9f767575c08d0a9bc0",
-    "18523": "81cb98410170164ab29b7c56e6a1e7a49b89e1b986218ff9e3dfe6b9b2c13d95"
+    "18523": "81cb98410170164ab29b7c56e6a1e7a49b89e1b986218ff9e3dfe6b9b2c13d95",
+    "18925": "7ddafec35a5a23492a7c5c45e88ebaa0629d5b169c21d9572974cfbf25ad9338",
+    "7221": "a0a687adce7530558dcdc0006a517a3c7b63f9b1b88c20e838fcf00153f0b151",
+    "7639": "87d187299bc78ff24fe62f86baa1bb0c570429acf326b706d6ee7ffe0ec80c37",
+    "18339": "a9609d0e5f01316b49e2e4ac5d0435183dec7de2f33b0f0f81920408a030b48f"
   },
   "new_checks": {
     "7543": "Schema/evidence pointers PASS; primary explanation, source attribution, influence limits and turning points reviewed against selected source events.",
     "18533": "Schema/evidence pointers PASS; technical fit, price alternatives, visit chronology and uncertain ASR time reviewed against all four source transcripts.",
     "18357": "Schema/evidence PASS; source-supported explanation and influence limits reviewed; quality count wording corrected to distinguish source completeness from permitted view.",
-    "18523": "Schema/evidence PASS; sensor pricing, competing offer, variable dimensions and negotiated next steps reviewed against source transcripts; no outcome inference."
+    "18523": "Schema/evidence PASS; sensor pricing, competing offer, variable dimensions and negotiated next steps reviewed against source transcripts; no outcome inference.",
+    "18925": "Schema/evidence PASS; packaging readiness, technical configuration and contract clarification reviewed against source transcripts; future signature/payment plans distinguished from completed acts.",
+    "7221": "Schema/evidence PASS; supply timing, alternative testing and uncertain5000vs2000 requirement reviewed against original transcripts; uncertainties translated into Russian.",
+    "7639": "Schema/evidence PASS; corrected final evidence references; pre-creation inferred worklog chronology explicitly uncertain; direct May payment discussions support limited explanation.",
+    "18339": "Schema/evidence PASS; director/legal dependency and source limits reviewed; later signing claim and future payment plan distinguished, no false contradiction with earlier customer update."
   },
   "pending_clarity_corrections": []
 }

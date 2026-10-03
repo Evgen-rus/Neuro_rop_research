@@ -108,7 +108,7 @@
     "quality_revision_report": "stage3_quality_revision_qc.json",
     "pre_quality_revision_snapshot": "stage3_pre_audio_qc_v2/"
   },
-  "primary_audits_completed": 27,
+  "primary_audits_completed": 31,
   "primary_drafts_saved_before_source_policy": 34,
   "primary_drafts_archived_for_source_policy": 11,
   "primary_audits_frozen": false,
