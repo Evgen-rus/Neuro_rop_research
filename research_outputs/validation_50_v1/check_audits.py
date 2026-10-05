@@ -477,6 +477,33 @@ def validate_phase(
             errors.append(f"quality {deal_id}: hash differs from input freeze")
 
     validate_terminal_source_policy(root, input_freeze, manifest, view_events, errors)
+    correction_path = root / "receipt_source_correction.json"
+    correction_pins = [input_freeze.get("receipt_source_correction_sha256"), manifest.get("receipt_source_correction_sha256")]
+    if correction_path.exists() or any(correction_pins):
+        try:
+            correction, correction_raw = load_json(correction_path)
+            if correction_pins != [digest(correction_raw)] * 2:
+                errors.append("receipt correction policy hash mismatch")
+            if correction.get("deal_id") != "6811" or correction.get("events_removed") != 1 or correction.get("methodology_change") is not False:
+                errors.append("receipt correction scope mismatch")
+            if view_hashes.get("6811") != correction.get("after_view_sha256") or quality_hashes.get("6811") != correction.get("after_quality_sha256"):
+                errors.append("receipt correction current input mismatch")
+            if digest((root / "dataset/deals/6811/clean_timeline.jsonl").read_bytes()) != correction.get("canonical_sha256"):
+                errors.append("receipt correction canonical source changed")
+            if any(e.get("source_line") == 98 or e.get("event_id") == "manager_worklog:2474611:0" for e in view_events.get("6811", {}).values()):
+                errors.append("receipt correction excluded record remains")
+            explicit = correction.get("explicit_terminal_5293")
+            if explicit is not None:
+                if explicit.get("events_removed") != 1 or explicit.get("source_line") != 219 or explicit.get("event_id") != "crm_activity:543849":
+                    errors.append("explicit terminal correction scope mismatch")
+                if view_hashes.get("5293") != explicit.get("after_view_sha256") or quality_hashes.get("5293") != explicit.get("after_quality_sha256"):
+                    errors.append("explicit terminal correction current input mismatch")
+                if digest((root / "dataset/deals/5293/clean_timeline.jsonl").read_bytes()) != explicit.get("canonical_sha256"):
+                    errors.append("explicit terminal correction canonical source changed")
+                if any(e.get("source_line") == 219 or e.get("event_id") == "crm_activity:543849" for e in view_events.get("5293", {}).values()):
+                    errors.append("explicit terminal correction excluded record remains")
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError, TypeError, AttributeError) as exc:
+            errors.append(f"cannot validate receipt correction ({type(exc).__name__})")
 
     audit_dir = root / "audits" / phase
     audit_paths = sorted(audit_dir.glob("*.json"), key=lambda p: int(p.stem) if p.stem.isdecimal() else 0) if audit_dir.is_dir() else []

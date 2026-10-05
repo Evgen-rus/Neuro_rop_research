@@ -1,25 +1,24 @@
 {
-  "schema_version": 1,
-  "status": "STAGE4_PRIMARY_AUDITS_IN_PROGRESS",
-  "stage": 4,
-  "stage_1": "COMPLETE_FROZEN",
-  "cohort_count": 50,
-  "cohort_sha256": "3d88386d431a0a56552e22cc3fd1fff30a96a7827052ee089ac9796aa8182154",
-  "pool_sha256": "b102f5645358c60a9df498a497d80c651f113fcce73dd6e5498366cac659643c",
-  "blocker": null,
-  "terminal_source_policy_approval": "User explicitly approved terminal_source_policy_proposal on2026-10-02.20 deals,71/3028 view events, four mixed comments and two project-ambiguous rows; conservative dated boundaries. Raw/canonical/baseline retained; policy pinned in terminal_source_policy.json. Pre-policy inputs in stage3_pre_source_policy_v5;11 exposed drafts archived with hash index. Rebuild completed:2957 visible events. Independent structural QC PASS on2026-10-03;23 unaffected drafts retain byte-identical inputs.",
   "approved_source_exception": "User approved quarantining only five chronology-conflicted worklogs (144 entries). Rule and raw hashes pinned in worklog_quarantine_policy.json. Raw/cohort/other communications preserved; independent revised QC PASS (stage3_worklog_quarantine_qc.json). All50 neutral files and23 saved draft inputs byte-identical; fresh workers audit affected deals.",
   "authorization": "Explicit user exception granted: exact cohort 50, read-only Bitrix, local history/SQLite, audio and existing external transcription for missing recordings.",
-  "stage_2_first_fetch": {
-    "deal_id": "6691",
-    "complete": true,
-    "retry_required": false
+  "blocker": null,
+  "cohort_count": 50,
+  "cohort_sha256": "3d88386d431a0a56552e22cc3fd1fff30a96a7827052ee089ac9796aa8182154",
+  "completeness": {
+    "calls_audio_unavailable": 401,
+    "calls_lt36_incomplete": 9,
+    "calls_lt_36": 176,
+    "calls_recording_incomplete": 9,
+    "calls_unknown_duration": 396,
+    "calls_with_measured_audio": 646,
+    "eligible_calls_ge_36": 470,
+    "eligible_calls_with_transcript": 470,
+    "eligible_calls_without_transcript": 0,
+    "gate": "PASS",
+    "total_calls": 1042
   },
   "local_source_inventory": {
-    "scope": "Historical pre-fetch filename inventory only; superseded by completeness.json and input_freeze.json",
-    "raw_context_present": [
-      "7567"
-    ],
+    "audio_manifest_present_count": 1,
     "raw_context_missing": [
       "6691",
       "6741",
@@ -71,50 +70,25 @@
       "7307",
       "18639"
     ],
-    "audio_manifest_present_count": 1,
-    "transcript_json_file_count": 37,
-    "transcript_count_is_not_unique_eligible_call_count": true
-  },
-  "completeness": {
-    "gate": "PASS",
-    "total_calls": 1042,
-    "calls_with_measured_audio": 646,
-    "calls_lt_36": 176,
-    "eligible_calls_ge_36": 470,
-    "eligible_calls_with_transcript": 470,
-    "eligible_calls_without_transcript": 0,
-    "calls_audio_unavailable": 401,
-    "calls_unknown_duration": 396,
-    "calls_recording_incomplete": 9,
-    "calls_lt36_incomplete": 9
-  },
-  "stage_3": {
-    "gate": "PASS",
-    "deal_count": 50,
-    "baseline_overlap": 0,
-    "independent_qc": "PASS: hashes, source pointers, cutoffs, forbidden metadata and exact input sets",
-    "quarantined_first_build": "stage3_pre_qc_v1/",
-    "revision_notes": "stage3_revision_notes.md",
-    "task_status_snapshots_excluded": 2,
-    "reused_byte_identical_primary_drafts": [
-      "6691",
-      "6741",
-      "6813"
+    "raw_context_present": [
+      "7567"
     ],
-    "quality_revision_qc": "PASS (structural hashes/quality); superseded for semantic admissibility by chronology blocker",
-    "semantic_source_admissibility": "Full50 outcome-blind input review completed. User approved conservative source-boundary exception; exact application/rebuild structural QC PASS. Source timelines unchanged;20 views changed,71 events removed;30 views unchanged. Fresh semantic workers dispatched. See stage3_source_policy_qc.json and terminal_source_policy.json.",
-    "worklog_quarantine_qc": "stage3_worklog_quarantine_qc.json",
-    "pre_quarantine_snapshot": "stage3_pre_worklog_quarantine_v3/",
-    "quality_revision_report": "stage3_quality_revision_qc.json",
-    "pre_quality_revision_snapshot": "stage3_pre_audio_qc_v2/"
+    "scope": "Historical pre-fetch filename inventory only; superseded by completeness.json and input_freeze.json",
+    "transcript_count_is_not_unique_eligible_call_count": true,
+    "transcript_json_file_count": 37
   },
-  "primary_audits_completed": 41,
-  "primary_drafts_saved_before_source_policy": 34,
-  "primary_drafts_archived_for_source_policy": 11,
+  "outcomes_joined_to_audits": false,
+  "pool_sha256": "b102f5645358c60a9df498a497d80c651f113fcce73dd6e5498366cac659643c",
+  "primary_audits_completed": 43,
   "primary_audits_frozen": false,
   "primary_draft_schema_and_evidence_pointer_qc": "Before source-policy revision:34 drafts and302 exact evidence pointers PASS in draft_arrival_qc.json.11 affected drafts archived;23 retained drafts have unchanged-input proof after rebuild.27 primary audits remain; two fresh Luna Max workers assigned eight small deals initially.",
+  "primary_drafts_archived_for_source_policy": 11,
+  "primary_drafts_saved_before_source_policy": 34,
+  "production_logic_changed": false,
+  "receipt_source_correction": "6811 source98 excluded by already approved completed-payment day-start rule; no new method category; one additional event removed (2957->2956); snapshotv6 and exposed draft archived. Fresh6811required; no reveal/freeze.",
+  "reliability_audits_completed": 0,
+  "schema_version": 1,
   "source_quality_revision": {
-    "recording_incomplete_count": 9,
     "affected_deal_ids": [
       "5293",
       "6351",
@@ -123,10 +97,37 @@
       "6693",
       "6695"
     ],
+    "native_refresh_attempts_per_activity": 1,
     "note": "Six affected deals, nine native 3-second incomplete files. One targeted refresh completed; none grew. Explicit limitations implemented; Stage2 regenerated PASS 470/470. Stage3 rebuilt: all50 views/neutral unchanged, quality changed onlysix deals. Independent revision QC PASS; 6589 archived for fresh redo, other19 drafts byte-identical inputs.",
-    "native_refresh_attempts_per_activity": 1
+    "recording_incomplete_count": 9
   },
-  "reliability_audits_completed": 0,
-  "outcomes_joined_to_audits": false,
-  "production_logic_changed": false
+  "stage": 4,
+  "stage_1": "COMPLETE_FROZEN",
+  "stage_2_first_fetch": {
+    "complete": true,
+    "deal_id": "6691",
+    "retry_required": false
+  },
+  "stage_3": {
+    "baseline_overlap": 0,
+    "deal_count": 50,
+    "gate": "PASS",
+    "independent_qc": "PASS: hashes, source pointers, cutoffs, forbidden metadata and exact input sets",
+    "pre_quality_revision_snapshot": "stage3_pre_audio_qc_v2/",
+    "pre_quarantine_snapshot": "stage3_pre_worklog_quarantine_v3/",
+    "quality_revision_qc": "PASS (structural hashes/quality); superseded for semantic admissibility by chronology blocker",
+    "quality_revision_report": "stage3_quality_revision_qc.json",
+    "quarantined_first_build": "stage3_pre_qc_v1/",
+    "reused_byte_identical_primary_drafts": [
+      "6691",
+      "6741",
+      "6813"
+    ],
+    "revision_notes": "stage3_revision_notes.md",
+    "semantic_source_admissibility": "Full50 outcome-blind input review completed. User approved conservative source-boundary exception; exact application/rebuild structural QC PASS. Source timelines unchanged;20 views changed,71 events removed;30 views unchanged. Fresh semantic workers dispatched. See stage3_source_policy_qc.json and terminal_source_policy.json.",
+    "task_status_snapshots_excluded": 2,
+    "worklog_quarantine_qc": "stage3_worklog_quarantine_qc.json"
+  },
+  "status": "STAGE4_PRIMARY_AUDITS_IN_PROGRESS",
+  "terminal_source_policy_approval": "User explicitly approved terminal_source_policy_proposal on2026-10-02.20 deals,71/3028 view events, four mixed comments and two project-ambiguous rows; conservative dated boundaries. Raw/canonical/baseline retained; policy pinned in terminal_source_policy.json. Pre-policy inputs in stage3_pre_source_policy_v5;11 exposed drafts archived with hash index. Rebuild completed:2957 visible events. Independent structural QC PASS on2026-10-03;23 unaffected drafts retain byte-identical inputs."
 }

@@ -1,0 +1,6 @@
+{
+  "audit_sha256": "29d534cd52a7ee09133115357d9155f173e42a71a96bdf1bdf8350cd227633fc",
+  "before_view_sha256": "1ef4d15f02c9626ed641904df959632aa2de7b834ee400894a866908a0069900",
+  "deal_id": "6811",
+  "reason": "Exposed to excluded completed-payment claim; fresh audit required"
+}

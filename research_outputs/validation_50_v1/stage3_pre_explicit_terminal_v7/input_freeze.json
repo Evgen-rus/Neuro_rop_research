@@ -1,5 +1,5 @@
 {
-  "audit_manifest_sha256": "eb5973c2fba3cc4ddd2615b612d34ad07efb5dec0364fb652a631a184ab1cdec",
+  "audit_manifest_sha256": "f82c762399eb0473574b6cf00b6b6292ba06de08a263c2f7afa9e10eef9e758a",
   "audit_schema_copy": "audit_schema.json",
   "audit_schema_sha256": "0aa1e30c9b8785cb44a30f3c42ec1be2c552cef796171a3fe816b9ba3dba01f9",
   "baseline_overlap_count": 0,
@@ -974,14 +974,14 @@
       "post_terminal_events_excluded": 6,
       "post_terminal_task_snapshots_excluded": 0,
       "post_terminal_worklogs_excluded": 0,
-      "quality_sha256": "023b34ea8ee94584779dbeff07ebd79d193868853c5bfff96ed0f41a21107375",
+      "quality_sha256": "7d411041e9f4b5a0cb29913554768f906ef8e6d7b2f0e10d3c4d90f9eda66036",
       "raw_context_sha256": "a4c75a885a5029197f35f1fce2ec5767bfc7e634eb8e1aa2a22ca6e14763799a",
       "task_status_snapshots_excluded": 0,
       "terminal_cutoff_used": "final_terminal_stage_history_timestamp_then_v1_view_filter",
       "terminal_history_requires_review": false,
       "terminal_transition_count": 1,
       "transcripts_linked": 34,
-      "view_sha256": "91a00384a5064c47edfb902215aa2be544de3791aa483a16e545efeff59f5f9d"
+      "view_sha256": "38beb2364e593a62811e8fbc38393113264884dc57ff4ad94218799861163534"
     },
     {
       "clean_timeline_sha256": "0c5cbf957d715a6e72d4fed0bfd82d0454a8eb8557e051294b586a6c6b62ddaa",
@@ -1576,7 +1576,7 @@
   "input_contract_sha256": "bc4aa727b373fa3e500bce6b1e183696110fec70738c3bd005e81c7fd71693a4",
   "outcome_blind_views": true,
   "outcome_labels_separate_from_views": true,
-  "receipt_source_correction_sha256": "b0e111be19486ca98e4d153933c1ab8e4d3b6b639fa1930296e3ce1feba181c5",
+  "receipt_source_correction_sha256": "051861a37edaf21f89a846e7df8192ecbcc79dbb2912d1bde61c5359207679aa",
   "status": "validation_50_v1_outcome_blind_views_frozen_before_semantic_audit",
   "summary_sha256": "a9efeef842f5e851f9c3fca9704a263c5e1cb733b822626e042d05c46c7827cd",
   "terminal_source_policy_sha256": "f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba",

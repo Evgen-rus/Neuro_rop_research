@@ -7,7 +7,7 @@
     {
       "approx_tokens": {
         "original": 96740,
-        "view": 65573
+        "view": 96737
       },
       "deal_id": "5293",
       "inputs": {
@@ -26,7 +26,6 @@
       "original_event_count": 220,
       "removed_categories": {
         "crm_stage_change": 13,
-        "explicit_terminal_correction": 1,
         "metadata_only_call_shell": 0,
         "neutral_lifecycle_event": 0,
         "post_terminal_suffix": 0,
@@ -36,11 +35,11 @@
       "removed_content_segments": [],
       "status": "ok",
       "view": {
-        "bytes": 382895,
+        "bytes": 386947,
         "path": "views/5293.jsonl",
-        "sha256": "91a00384a5064c47edfb902215aa2be544de3791aa483a16e545efeff59f5f9d"
+        "sha256": "38beb2364e593a62811e8fbc38393113264884dc57ff4ad94218799861163534"
       },
-      "view_event_count": 206
+      "view_event_count": 207
     },
     {
       "approx_tokens": {
@@ -1898,16 +1897,14 @@
     "Mutable task snapshots whose title explicitly states 'клиент ушел в отказ' (including ё spelling and ушла/ушли forms), or the exact 'подписанный договор и оплата' milestone title with completed status and matching close/status-change/update timestamps, are excluded as task events before view filtering. Negated wording, ordinary budget or technical objections, open milestone tasks, and customer communications are not excluded. Other dated events and the existing v1 terminal/suffix filter are unchanged.",
     "Validation views also cut at the exact subjectless phrase 'от нашего варианта отказались' or 'от нашего предложения отказались'; the negated forms 'от нашего варианта не отказались' and 'не от нашего варианта отказались' do not trigger the cutoff. Existing terminal-marker and post-terminal-suffix handling is unchanged.",
     "The five chronology-conflicted mutable manager worklogs in worklog_quarantine_policy.json (sha256 1e256f955083b1b9c0a42826440fd188cf93764ec0db05102dd8916766dc1a22) are excluded by exact deal/worklog ID and raw-context SHA-256. Their parsed entries and normalized copies of their source comments are excluded; raw sources and unrelated communications are retained.",
-    "One missed completed-payment claim in6811 excluded by the previously approved day-start rule; exact correction is pinned separately. Raw/canonical retained.",
-    "One missed explicit victory marker in5293 excluded; original sources preserved in snapshotv7 and canonical timeline."
+    "One missed completed-payment claim in6811 excluded by the previously approved day-start rule; exact correction is pinned separately. Raw/canonical retained."
   ],
-  "receipt_source_correction_sha256": "b0e111be19486ca98e4d153933c1ab8e4d3b6b639fa1930296e3ce1feba181c5",
+  "receipt_source_correction_sha256": "051861a37edaf21f89a846e7df8192ecbcc79dbb2912d1bde61c5359207679aa",
   "terminal_source_policy_sha256": "f529e842b0102ca500cda3be7d0339b847c7d12ffcd703cc101bb92b1264e8ba",
   "totals": {
     "original_approx_tokens": 4011485,
     "original_event_count": 3529,
     "removed:crm_stage_change": 413,
-    "removed:explicit_terminal_correction": 1,
     "removed:metadata_only_call_shell": 0,
     "removed:neutral_lifecycle_event": 0,
     "removed:post_terminal_suffix": 86,
@@ -1915,9 +1912,9 @@
     "removed:terminal_marker": 2,
     "removed:terminal_source_policy": 71,
     "removed_content_segment_count": 2,
-    "removed_event_count": 574,
-    "view_approx_tokens": 3690619,
-    "view_event_count": 2955
+    "removed_event_count": 573,
+    "view_approx_tokens": 3721783,
+    "view_event_count": 2956
   },
   "version": "1.0"
 }
