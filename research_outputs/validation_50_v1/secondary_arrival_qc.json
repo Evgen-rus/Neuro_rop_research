@@ -1,0 +1,32 @@
+{
+  "audit_sha256": {
+    "18533": "e3b42addc057fd891053924fa3d836d6b2bd6df73aa1edc0b23533cca15a496e",
+    "6573": "5440f6bc825f5822c259ce64dccc00e400a940dcdc101d4e54e49a59fff85c4b",
+    "6589": "d066e2aa7968489e4686770073a8d4eb3fc07fc5c75e49bd8e59a1c435e71d6d",
+    "6673": "c9a83763116fc792ee0f5fcb3f6cd85be7691a2ce51e4b00c09b65aec031557f",
+    "6691": "56a1f4baef072cd264ebffa9adc5d5d017b88dfd522525aa0ccf5c61c25b2de4",
+    "6707": "a3b20aff2fb42f96034b6abf22097e7df165cdab21cca2f27458ce7b77229c1c",
+    "6741": "af88e2f53b9dfa47bd415ab0751be4928a64f65b88aa359e21caf138281f8851",
+    "6791": "c7ee969d03b47e9d2b9f050547f3049a310c22e849e6518d1f6720ef78fb1ee9",
+    "6811": "cb8d8ffbf9c0b006f97acba650005aa9a0d8c6de6430c82f003099447dab2967",
+    "6941": "94b02fe0e82ff278c36aab73d14c80bd4bd69803f4096e0f3079d20e59948498",
+    "7009": "0635455997158722db37887861e9130d84a0dfa92e93004e6215edb0d8669f44",
+    "7103": "f81b7b235da6b477e00493a08848c11802d85afd05ae30c391f0acdeaf784e7d",
+    "7137": "9fc5b12f80a522c6ce5ca2b69e249f6ebbdb6734520e15e7d3fd26a58e77a1c3",
+    "7567": "dbea70d124bad4fe2deeb6c322a04ba6409e2fab1c4d20dfec10ead3357d25a1",
+    "7619": "e1980bdd9a614d7ed89949b15502206ede4b348f39a5e58d0145df1bcbbfd873"
+  },
+  "corrections": [
+    {
+      "after_evidence_index": 6,
+      "before_evidence_index": 5,
+      "deal_id": "7619",
+      "field": "turning_points",
+      "reason": "Existing evidence6 matches intended source571981; index5 points to earlier unrelated call. No narrative change.",
+      "timestamp": "2026-05-07T10:42:55+03:00"
+    }
+  ],
+  "deal_count": 15,
+  "outcomes_revealed": false,
+  "status": "STRUCTURAL_PASS_SEMANTIC_PAIR_REVIEW_PENDING"
+}

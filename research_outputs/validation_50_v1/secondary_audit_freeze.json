@@ -1,0 +1,163 @@
+{
+  "audit_manifest_sha256": "eb5973c2fba3cc4ddd2615b612d34ad07efb5dec0364fb652a631a184ab1cdec",
+  "audit_schema_sha256": "0aa1e30c9b8785cb44a30f3c42ec1be2c552cef796171a3fe816b9ba3dba01f9",
+  "deal_count": 15,
+  "files": [
+    {
+      "audit_path": "audits/secondary/6573.json",
+      "audit_sha256": "5440f6bc825f5822c259ce64dccc00e400a940dcdc101d4e54e49a59fff85c4b",
+      "deal_id": "6573",
+      "quality_path": "dataset/deals/6573/quality.json",
+      "quality_sha256": "4c8ed4642fc10e2506169db8d14ad0d18badd532f22f7157988a15358f787250",
+      "view_path": "views/6573.jsonl",
+      "view_sha256": "02f2e8c00a157806c8d3a9cf4d3bdadba454a925e5e58e599be62843cc6df5e0"
+    },
+    {
+      "audit_path": "audits/secondary/6589.json",
+      "audit_sha256": "d066e2aa7968489e4686770073a8d4eb3fc07fc5c75e49bd8e59a1c435e71d6d",
+      "deal_id": "6589",
+      "quality_path": "dataset/deals/6589/quality.json",
+      "quality_sha256": "c26541e556a7a3a122bad9e25c2cf40842e9df3c8e875c71858e92faf31ce29d",
+      "view_path": "views/6589.jsonl",
+      "view_sha256": "7690b73445d5a7cd612000435c849858548af38c96e05e9ffe3e27d63e0286a9"
+    },
+    {
+      "audit_path": "audits/secondary/6673.json",
+      "audit_sha256": "c9a83763116fc792ee0f5fcb3f6cd85be7691a2ce51e4b00c09b65aec031557f",
+      "deal_id": "6673",
+      "quality_path": "dataset/deals/6673/quality.json",
+      "quality_sha256": "c015a2e44cbb22c8c7ac7386c65df69935b72d00fc377a95ac1c83b16a50a18b",
+      "view_path": "views/6673.jsonl",
+      "view_sha256": "ba946a20fb57f3cf2f5d92f38a8148bdcf5ccda1ffec3d99320a8efe69f599b9"
+    },
+    {
+      "audit_path": "audits/secondary/6691.json",
+      "audit_sha256": "56a1f4baef072cd264ebffa9adc5d5d017b88dfd522525aa0ccf5c61c25b2de4",
+      "deal_id": "6691",
+      "quality_path": "dataset/deals/6691/quality.json",
+      "quality_sha256": "24afe675c8af665f451c46e6b312766d752e427537c414e131e546c13891e2f3",
+      "view_path": "views/6691.jsonl",
+      "view_sha256": "6943b29c46e794d16c754778afb7585c389b9d15af380763229b52c2c419948b"
+    },
+    {
+      "audit_path": "audits/secondary/6707.json",
+      "audit_sha256": "a3b20aff2fb42f96034b6abf22097e7df165cdab21cca2f27458ce7b77229c1c",
+      "deal_id": "6707",
+      "quality_path": "dataset/deals/6707/quality.json",
+      "quality_sha256": "ad3c23f6766410372813d2a45871f357a7e0ee42372388c17acdfddb5ac7fab1",
+      "view_path": "views/6707.jsonl",
+      "view_sha256": "92e1b3c45328823834da6460d1a86d3e3571f755a1950b4b3940563c4a067ccf"
+    },
+    {
+      "audit_path": "audits/secondary/6741.json",
+      "audit_sha256": "af88e2f53b9dfa47bd415ab0751be4928a64f65b88aa359e21caf138281f8851",
+      "deal_id": "6741",
+      "quality_path": "dataset/deals/6741/quality.json",
+      "quality_sha256": "7032c872d7939f6afe83e1a45bd113f222e09302cef823d1e1b1076e372725cb",
+      "view_path": "views/6741.jsonl",
+      "view_sha256": "4037c4d9f99881863815f5af7f999c1f85f7ae674767f8a7b2b3dddb16dffc8a"
+    },
+    {
+      "audit_path": "audits/secondary/6791.json",
+      "audit_sha256": "c7ee969d03b47e9d2b9f050547f3049a310c22e849e6518d1f6720ef78fb1ee9",
+      "deal_id": "6791",
+      "quality_path": "dataset/deals/6791/quality.json",
+      "quality_sha256": "31f9988d3d611140ceffdb16b487c0efb93a4634c22740149d9da10943c7b4bd",
+      "view_path": "views/6791.jsonl",
+      "view_sha256": "039e56fbf365c0c5c1fdeb2d686445a470ad94f46f48a3cc8ec30554f62cc42b"
+    },
+    {
+      "audit_path": "audits/secondary/6811.json",
+      "audit_sha256": "cb8d8ffbf9c0b006f97acba650005aa9a0d8c6de6430c82f003099447dab2967",
+      "deal_id": "6811",
+      "quality_path": "dataset/deals/6811/quality.json",
+      "quality_sha256": "b6f2d7b0877b52646381f7453a42a0b2463f2db49621b5710244bf7fc75e5522",
+      "view_path": "views/6811.jsonl",
+      "view_sha256": "9bc95b8c7905491a0287f7a4992ce954af375f37cac02fe2dc67d3316c3ba951"
+    },
+    {
+      "audit_path": "audits/secondary/6941.json",
+      "audit_sha256": "94b02fe0e82ff278c36aab73d14c80bd4bd69803f4096e0f3079d20e59948498",
+      "deal_id": "6941",
+      "quality_path": "dataset/deals/6941/quality.json",
+      "quality_sha256": "da90444ae38442fb30a7840b5d5fe9357e796991bbc289b318fd2ba9dfe3905d",
+      "view_path": "views/6941.jsonl",
+      "view_sha256": "cefa05f6f9ed76e63f3b8f12fd9d01d039a9379fe9278a20edd83d5620431db6"
+    },
+    {
+      "audit_path": "audits/secondary/7009.json",
+      "audit_sha256": "0635455997158722db37887861e9130d84a0dfa92e93004e6215edb0d8669f44",
+      "deal_id": "7009",
+      "quality_path": "dataset/deals/7009/quality.json",
+      "quality_sha256": "b2df9e5c63b8d5958ca39450a9a14d6810f0287f1f412975940bf96018a4a7ba",
+      "view_path": "views/7009.jsonl",
+      "view_sha256": "fdc5a67a4d5b4aed1aff6ceb5b7e85ae05c3d5c9f2b9430f4ae9dcc02b91d853"
+    },
+    {
+      "audit_path": "audits/secondary/7103.json",
+      "audit_sha256": "f81b7b235da6b477e00493a08848c11802d85afd05ae30c391f0acdeaf784e7d",
+      "deal_id": "7103",
+      "quality_path": "dataset/deals/7103/quality.json",
+      "quality_sha256": "c94c90d3b105c20441ed94b630c84d060dd083757757c1a2f72e15f3158a69b8",
+      "view_path": "views/7103.jsonl",
+      "view_sha256": "eaf9a584f17b34d79e954b2c226c4e1d784455c4c2ac8defbe7f99bc4d4be34f"
+    },
+    {
+      "audit_path": "audits/secondary/7137.json",
+      "audit_sha256": "9fc5b12f80a522c6ce5ca2b69e249f6ebbdb6734520e15e7d3fd26a58e77a1c3",
+      "deal_id": "7137",
+      "quality_path": "dataset/deals/7137/quality.json",
+      "quality_sha256": "56702d2fb627a3ef6f6edbf8f4515be9449a0444c6a8aedaea84b31c5e3b16a7",
+      "view_path": "views/7137.jsonl",
+      "view_sha256": "699242788036dd43a8a1a63fc7640ca1b52619d26421581512d10f7905997e11"
+    },
+    {
+      "audit_path": "audits/secondary/7567.json",
+      "audit_sha256": "dbea70d124bad4fe2deeb6c322a04ba6409e2fab1c4d20dfec10ead3357d25a1",
+      "deal_id": "7567",
+      "quality_path": "dataset/deals/7567/quality.json",
+      "quality_sha256": "54dfd35aa447b7615953d8ce65cca1d7ab2a1295f8ed0e966aabf44e053bac4f",
+      "view_path": "views/7567.jsonl",
+      "view_sha256": "0def8d6f8f61f839bee6eb2c68465a9931541b90634273d1c0dea3bc1c8f775e"
+    },
+    {
+      "audit_path": "audits/secondary/7619.json",
+      "audit_sha256": "e1980bdd9a614d7ed89949b15502206ede4b348f39a5e58d0145df1bcbbfd873",
+      "deal_id": "7619",
+      "quality_path": "dataset/deals/7619/quality.json",
+      "quality_sha256": "864ffffa8d4b4cac2db6a8ad35565800bd1b96afe7aef5e59d0ffa12c3871292",
+      "view_path": "views/7619.jsonl",
+      "view_sha256": "58dbbc35976fb5f4c817ce2690f3f68ae4b073194d285e0244740b76fe0cc77b"
+    },
+    {
+      "audit_path": "audits/secondary/18533.json",
+      "audit_sha256": "e3b42addc057fd891053924fa3d836d6b2bd6df73aa1edc0b23533cca15a496e",
+      "deal_id": "18533",
+      "quality_path": "dataset/deals/18533/quality.json",
+      "quality_sha256": "55fdfb6968685d95b6092a775af81430b3a4f001e8b71c2dc9c011ec35228893",
+      "view_path": "views/18533.jsonl",
+      "view_sha256": "10eb45d0c4c3e3b2e2c8d07061606c965af33c87c541742575f846eb937a0184"
+    }
+  ],
+  "input_freeze_sha256": "9389c0da70826c456473f58335aac5ac6880b436dd1466f587814f7e3abcbda0",
+  "outcome_revealed": false,
+  "phase": "secondary",
+  "selected_deal_ids": [
+    "6573",
+    "6589",
+    "6673",
+    "6691",
+    "6707",
+    "6741",
+    "6791",
+    "6811",
+    "6941",
+    "7009",
+    "7103",
+    "7137",
+    "7567",
+    "7619",
+    "18533"
+  ],
+  "status": "validation_50_v1_secondary_audits_frozen_before_outcome"
+}
