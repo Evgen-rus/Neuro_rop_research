@@ -79,7 +79,7 @@
   },
   "outcomes_joined_to_audits": false,
   "pool_sha256": "b102f5645358c60a9df498a497d80c651f113fcce73dd6e5498366cac659643c",
-  "primary_audits_completed": 43,
+  "primary_audits_completed": 46,
   "primary_audits_frozen": false,
   "primary_draft_schema_and_evidence_pointer_qc": "Before source-policy revision:34 drafts and302 exact evidence pointers PASS in draft_arrival_qc.json.11 affected drafts archived;23 retained drafts have unchanged-input proof after rebuild.27 primary audits remain; two fresh Luna Max workers assigned eight small deals initially.",
   "primary_drafts_archived_for_source_policy": 11,
