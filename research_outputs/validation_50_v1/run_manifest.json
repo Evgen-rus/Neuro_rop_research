@@ -2,6 +2,7 @@
   "approved_source_exception": "User approved quarantining only five chronology-conflicted worklogs (144 entries). Rule and raw hashes pinned in worklog_quarantine_policy.json. Raw/cohort/other communications preserved; independent revised QC PASS (stage3_worklog_quarantine_qc.json). All50 neutral files and23 saved draft inputs byte-identical; fresh workers audit affected deals.",
   "authorization": "Explicit user exception granted: exact cohort 50, read-only Bitrix, local history/SQLite, audio and existing external transcription for missing recordings.",
   "blocker": null,
+  "canonical_unreviewed_copies": 35,
   "cohort_count": 50,
   "cohort_sha256": "3d88386d431a0a56552e22cc3fd1fff30a96a7827052ee089ac9796aa8182154",
   "completeness": {
@@ -88,12 +89,13 @@
   "production_logic_changed": false,
   "receipt_source_correction": "Completed missed-source corrections:6811 received-payment claim and5293 explicit victory marker excluded; snapshotsv6/v7 preserve originals, canonical/raw unchanged, currentview2955events. Fresh affected audits completed and all50 primary audits frozen before outcome reveal.",
   "reliability_audits_completed": 15,
-  "reliability_pairs_reviewed": 0,
+  "reliability_gate_pending_canonical_qc": true,
+  "reliability_pairs_reviewed": 15,
   "reliability_sample_count": 15,
   "schema_version": 1,
   "secondary_audits_frozen": true,
   "secondary_freeze_sha256": "20b7d87acf9b14ebe9683c6ec4a1fdeea0f7257531b557ba5dd2397e6946a6ca",
-  "secondary_semantic_pair_review_pending": true,
+  "secondary_semantic_pair_review_pending": false,
   "source_quality_revision": {
     "affected_deal_ids": [
       "5293",
@@ -134,6 +136,6 @@
     "task_status_snapshots_excluded": 2,
     "worklog_quarantine_qc": "stage3_worklog_quarantine_qc.json"
   },
-  "status": "STAGE5_RELIABILITY_PAIR_REVIEW_IN_PROGRESS",
+  "status": "STAGE5_CANONICAL_RECONCILIATION_IN_PROGRESS",
   "terminal_source_policy_approval": "User explicitly approved terminal_source_policy_proposal on2026-10-02.20 deals,71/3028 view events, four mixed comments and two project-ambiguous rows; conservative dated boundaries. Raw/canonical/baseline retained; policy pinned in terminal_source_policy.json. Pre-policy inputs in stage3_pre_source_policy_v5;11 exposed drafts archived with hash index. Rebuild completed:2957 visible events. Independent structural QC PASS on2026-10-03;23 unaffected drafts retain byte-identical inputs."
 }
