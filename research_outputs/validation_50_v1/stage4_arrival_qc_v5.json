@@ -1,5 +1,6 @@
 {
   "accepted_audit_sha256": {
+    "18283": "b3171b64b1e32f9571f130a87dd748b4db5b36450daabfcc25fef44465fe9a03",
     "18339": "a9609d0e5f01316b49e2e4ac5d0435183dec7de2f33b0f0f81920408a030b48f",
     "18357": "c3b09b18bc22c2880f3b24f8cfa551b9932957c3a980375d15259aa48c2e1ccb",
     "18385": "1a7753d4cf2b5b66afb37d213094282a27edf21b6d484a60f3c32abda8713be2",
@@ -11,6 +12,7 @@
     "18845": "77c9b66c4449c6f2557c3df9b50510602e20343e2264cbae4c64c7e0682ad80a",
     "18865": "6f4a6a32bbf365be895268d9e0e64bb9261309a25bfecd8b8ca2f3da0d0715e3",
     "18925": "7ddafec35a5a23492a7c5c45e88ebaa0629d5b169c21d9572974cfbf25ad9338",
+    "5293": "b60ae6bc8bb4b6fedc83b517549f82f46e4eef5318b8e3fa59e29bf53f636723",
     "6351": "333b1f86f01dc5f128538b43ffb0c398fd6b3b529a235b5a45a4955d07955a3f",
     "6573": "c1bb886bc7ffe257234433d89bda4b4991922fda2f079d7f78155289e7be0d6e",
     "6589": "628faabcc09457b3de2e07c4636a33f040f77b2721c7358d9044c5c511da8014",
@@ -27,6 +29,7 @@
     "6841": "ce9398281a5335b904e8913d6ad360d3658fd8b0e786dd8a122031df08462285",
     "6907": "6e12f7238ce404a3e0f796b327ff53488d45aeaa866eb4688ada24754bd38963",
     "6941": "f5db952fd5f9fd6f1e49ae10aa47d34b798200608caf07bb864de4fafb2ef2f3",
+    "6955": "ccacd9ce3b22f03c4bad64c8981f373711423f5bbff657e96603dbf2a4fe64e3",
     "6999": "89d783d4ee37e829a98f06446232f590eb9cb4ab17f822456208b88df4e59fc6",
     "7009": "d3d4a58414740755bfa92993e3add0fbd63ec0ef16142e28c2b7aa6551f80a8d",
     "7031": "eed3b1fb22badb8e7a7de75a247831c393c947f9e48e642b1c47e5282f6f70e7",
@@ -43,13 +46,15 @@
     "7417": "0bd7c358c2990f48de848f71f865044cbd308d9cb549f416a49e5057121235d4",
     "7543": "d775094070d6cb5a08952f425f2bd032abd8a907cf7025cde3f7b376ed56ba03",
     "7565": "3232c041fc98e6c18373717c5bb4dd842ddb09e8a82b2d813d23bf3ad72a0177",
+    "7567": "ca1700e56f0e6e191af85d12055d4f6be8908121ac42c0877bb63c647738f7f6",
     "7619": "a7a6855aaabf05eef5ee588324d5240d1b23f58bea8cdae23f4bf91cf31547a3",
     "7623": "f25af178b8d1060d6e875fbd00e2387eb0e91d16ea5cceaa2cae8d61305a30e1",
     "7639": "87d187299bc78ff24fe62f86baa1bb0c570429acf326b706d6ee7ffe0ec80c37"
   },
-  "accepted_count": 46,
+  "accepted_count": 50,
   "input_freeze_sha256": "9389c0da70826c456473f58335aac5ac6880b436dd1466f587814f7e3abcbda0",
   "new_checks": {
+    "18283": "Parent QC PASS: prior-line signing not attributed to new labeler; customer's direct June11 protocol/version objections verified; no outcome inferred.",
     "18339": "Schema/evidence PASS; director/legal dependency and source limits reviewed; later signing claim and future payment plan distinguished, no false contradiction with earlier customer update.",
     "18357": "Refresh accepted hash after pre-freeze Russian wording correction only (view -> представление); earlier semantic QC unchanged; validator passed.",
     "18385": "Parent schema/source QC PASS: legal/EDO approval and undated next step directly supported; source quality read, outcome not inferred.",
@@ -58,11 +63,13 @@
     "18845": "Schema/evidence PASS; requirement changes reviewed against customer calls; direction-null legal mirror remains unattributed; P/S ASR discrepancy and project-track scope explicitly uncertain.",
     "18865": "Schema/evidence PASS; technical diagnosis treated as specialist claim; price/leadership constraint supported by direct customer reports; final evidence references remapped and reviewed.",
     "18925": "Schema/evidence PASS; packaging readiness, technical configuration and contract clarification reviewed against source transcripts; future signature/payment plans distinguished from completed acts.",
+    "5293": "Parent QC PASS: price and contract lead-time discrepancies supported, payment order distinguished from settlement, excluded/incomplete sources recorded.",
     "6351": "Schema/evidence PASS; financing and legal-delay explanation reviewed against direct customer calls; incomplete audio and excluded worklogs limits retained.",
     "6791": "Parent QC PASS: customer explicitly requests pause and calls manager persistent (559617); alternative offers and revised specification preserved; exact metadata/quality now read.",
     "6811": "Parent QC PASS: final call533953 expresses intent to proceed with contract drafting; no actual receipt/signing/production inferred. Revised input and metadata read.",
     "6841": "Schema/evidence PASS after exact event_type correction on seven worklog rows; proposal omissions and scope-dependent pricing reviewed; early identity/date and later manager-only status explicitly uncertain.",
     "6907": "Parent QC: direct calls539185/539187 confirm20-day customer limit versus50-day minimum, ordinary pause retained; test result supplier claim, not verified demonstration; validator passed.",
+    "6955": "Parent QC PASS: active competitor comparison/reopening and unresolved signature; exact quality limitations included, no terminal inference.",
     "6999": "Schema/evidence PASS; external-financing dependency verified in customer email and lender call; lender's final awaiting-signature emails keep completion unconfirmed; source attribution preserved.",
     "7035": "Schema/evidence PASS; technical rework and planned payment reviewed; EDO missing/re-sent contract confirmed, cancellation accounting side kept unknown due undiarized dialogue, no unsupported supplier blame.",
     "7107": "Schema/evidence PASS; competing offers, timing and winding discussions reviewed against source calls; conditional adaptation preserved; intrusive-call remark qualified by persuasion/consent context, not forced negative signal.",
@@ -71,12 +78,13 @@
     "7221": "Refresh accepted hash after recorded pre-freeze translation of uncertainties into Russian; previous source QC unchanged; validator passed.",
     "7307": "Schema/evidence PASS; tender price justification and separate-project approval uncertainty checked against direct calls; ambiguous price-change utterance preserved as uncertainty, expectation alone not treated as proven weak action.",
     "7543": "Schema/evidence pointers PASS; primary explanation, source attribution, influence limits and turning points reviewed against selected source events.",
+    "7567": "Parent QC PASS: current labeler project distinguished from prior M4; direct pause and later restarted requirements/contract plans preserved; manager/customer meeting discrepancy qualified.",
     "7619": "Parent QC PASS: customer explicitly reports proposal not received (567347), cause uncertain; scope/contracts/expected payment remain observations, not outcome.",
     "7639": "Schema/evidence PASS; corrected final evidence references; pre-creation inferred worklog chronology explicitly uncertain; direct May payment discussions support limited explanation."
   },
   "outcomes_revealed": false,
   "pending_clarity_corrections": [],
   "receipt_correction": "One missed completed-payment claim excluded in6811;49 other input sets unchanged;41accepted audits unchanged; exposed6811draft archived for fresh audit.",
-  "remaining_count": 4,
+  "remaining_count": 0,
   "status": "PARTIAL_PRIMARY_ARRIVAL_QC_PASS"
 }

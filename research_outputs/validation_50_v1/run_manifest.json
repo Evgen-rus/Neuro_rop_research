@@ -79,14 +79,16 @@
   },
   "outcomes_joined_to_audits": false,
   "pool_sha256": "b102f5645358c60a9df498a497d80c651f113fcce73dd6e5498366cac659643c",
-  "primary_audits_completed": 46,
-  "primary_audits_frozen": false,
+  "primary_audits_completed": 50,
+  "primary_audits_frozen": true,
   "primary_draft_schema_and_evidence_pointer_qc": "Before source-policy revision:34 drafts and302 exact evidence pointers PASS in draft_arrival_qc.json.11 affected drafts archived;23 retained drafts have unchanged-input proof after rebuild.27 primary audits remain; two fresh Luna Max workers assigned eight small deals initially.",
   "primary_drafts_archived_for_source_policy": 11,
   "primary_drafts_saved_before_source_policy": 34,
+  "primary_freeze_sha256": "5deb39c9556157936736bd5ade6b98a90051f883904c577e697befa2228c9770",
   "production_logic_changed": false,
-  "receipt_source_correction": "6811 source98 excluded by already approved completed-payment day-start rule; no new method category; one additional event removed (2957->2956); snapshotv6 and exposed draft archived. Fresh6811required; no reveal/freeze.",
+  "receipt_source_correction": "Completed missed-source corrections:6811 received-payment claim and5293 explicit victory marker excluded; snapshotsv6/v7 preserve originals, canonical/raw unchanged, currentview2955events. Fresh affected audits completed and all50 primary audits frozen before outcome reveal.",
   "reliability_audits_completed": 0,
+  "reliability_sample_count": 15,
   "schema_version": 1,
   "source_quality_revision": {
     "affected_deal_ids": [
@@ -101,7 +103,7 @@
     "note": "Six affected deals, nine native 3-second incomplete files. One targeted refresh completed; none grew. Explicit limitations implemented; Stage2 regenerated PASS 470/470. Stage3 rebuilt: all50 views/neutral unchanged, quality changed onlysix deals. Independent revision QC PASS; 6589 archived for fresh redo, other19 drafts byte-identical inputs.",
     "recording_incomplete_count": 9
   },
-  "stage": 4,
+  "stage": 5,
   "stage_1": "COMPLETE_FROZEN",
   "stage_2_first_fetch": {
     "complete": true,
@@ -128,6 +130,6 @@
     "task_status_snapshots_excluded": 2,
     "worklog_quarantine_qc": "stage3_worklog_quarantine_qc.json"
   },
-  "status": "STAGE4_PRIMARY_AUDITS_IN_PROGRESS",
+  "status": "STAGE5_SECONDARY_AUDITS_IN_PROGRESS",
   "terminal_source_policy_approval": "User explicitly approved terminal_source_policy_proposal on2026-10-02.20 deals,71/3028 view events, four mixed comments and two project-ambiguous rows; conservative dated boundaries. Raw/canonical/baseline retained; policy pinned in terminal_source_policy.json. Pre-policy inputs in stage3_pre_source_policy_v5;11 exposed drafts archived with hash index. Rebuild completed:2957 visible events. Independent structural QC PASS on2026-10-03;23 unaffected drafts retain byte-identical inputs."
 }
